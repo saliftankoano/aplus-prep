@@ -9,10 +9,10 @@ export default function TestsPage() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            Choose Your Practice Test
+            Choose Your CompTIA A+ Practice Test
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Select the CompTIA A+ core exam you want to practice for. Each test is designed to match the real exam format and difficulty.
+            Select the CompTIA A+ core exam you want to practice for. Each test is designed to match the real exam format and difficulty level.
           </p>
         </div>
 
@@ -33,10 +33,10 @@ export default function TestsPage() {
                     Hardware & Networking
                   </span>
                   <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                    Core 1
+                    Core 1 (220-1101)
                   </h2>
                   <p className="text-lg text-blue-100 mb-6">
-                    Master hardware fundamentals, networking concepts, and troubleshooting techniques.
+                    Master hardware fundamentals, networking concepts, and troubleshooting techniques for the 220-1101 exam.
                   </p>
                 </div>
                 
@@ -84,10 +84,10 @@ export default function TestsPage() {
                     Software & Security
                   </span>
                   <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                    Core 2
+                    Core 2 (220-1102)
                   </h2>
                   <p className="text-lg text-green-100 mb-6">
-                    Focus on operating systems, security fundamentals, and software troubleshooting.
+                    Focus on operating systems, security fundamentals, and software troubleshooting for the 220-1102 exam.
                   </p>
                 </div>
                 
