@@ -161,7 +161,7 @@ export default function Core2Quiz() {
                 {currentQuestion + 1} / {totalQuestions}
               </div>
               <div className="text-sm text-gray-400">
-                CompTIA A+ 220-1101 Chapters 1-3
+                CompTIA A+ 220-1102 Core 2
               </div>
             </div>
             
