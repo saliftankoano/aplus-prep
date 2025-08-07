@@ -25,7 +25,6 @@ export default function Core2Quiz() {
   const [showExplanation, setShowExplanation] = useState(false);
   const [score, setScore] = useState(0);
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
-  const [hintsLeft, setHintsLeft] = useState(4);
   const [startTime] = useState(Date.now());
   const [shake, setShake] = useState(false);
 
@@ -78,7 +77,7 @@ export default function Core2Quiz() {
         if (timer) clearInterval(timer);
       };
     }
-  }, [loading, questions.length]);
+  }, [loading, questions.length, router, score, startTime]);
 
   if (loading) {
     return (
@@ -145,11 +144,7 @@ export default function Core2Quiz() {
     }
   };
 
-  const formatTime = (seconds: number) => {
-    const mins = Math.floor(seconds / 60);
-    const secs = seconds % 60;
-    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-  };
+
 
   return (
     <div className="min-h-screen bg-[#0a092d]">
@@ -256,7 +251,7 @@ export default function Core2Quiz() {
           {/* Don't Know Option */}
           <div className="text-center mb-8">
             <button className="text-gray-400 hover:text-white transition-colors">
-              Don't know?
+              Don&apos;t know?
             </button>
           </div>
 
