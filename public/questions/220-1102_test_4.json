@@ -241,7 +241,7 @@
   },
   {
     "id": 111,
-    "question": "SIMULATION A user reports that after a recent software deployment to upgrade applications, the user can no longer use the Testing program. However, other employees can successfully use the Testing program. A computer on a corporate network has a malware infection. Which of the following would be the BEST method for returning the computer to service?",
+    "question": "A computer on a corporate network has a malware infection. Which of the following would be the BEST method for returning the computer to service?",
     "options": [
       "A. Scanning the system with a Linux live disc, flashing the BIOS, and then returning the computer to service",
       "B. Flashing the BIOS, reformatting the drive, and then reinstalling the OS",
@@ -249,7 +249,7 @@
       "D. Reinstalling the OS, flashing the BIOS, and then scanning with on-premises antivirus"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Flashing the BIOS, reformatting the drive, and then reinstalling the OS (B) is the correct answer because it provides a complete system reset that removes all traces of malware. This method ensures the malware is completely eradicated before returning the computer to service. The other options either don't completely remove malware or use unnecessary steps."
   },
   {
     "id": 112,
