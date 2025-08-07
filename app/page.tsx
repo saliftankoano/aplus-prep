@@ -50,13 +50,13 @@ export default function Home() {
         
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
-            Ace your A+ exam<br />
+            Ace your CompTIA A+<br />
             <span className="bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-              with practice questions
+              220-1102 exam
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Practice makes perfect! We got you covered with the material, you just focus on the practice. 😉
+            Master the Core 2 (220-1102) objectives with our comprehensive practice tests. Practice makes perfect! 😉
           </p>
           <Link 
             href="/tests"
