@@ -61,10 +61,10 @@ export default function Core2TestsPage() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            Core 2 Practice Tests
+            Core 2 (220-1102) Practice Tests
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose from our segmented practice tests. Each test contains 30 carefully selected questions from our pool of 512 Core 2 questions.
+            Choose from our segmented practice tests. Each test contains 30 carefully selected questions from our pool of 429 Core 2 (220-1102) questions.
           </p>
         </div>
 
@@ -123,15 +123,15 @@ export default function Core2TestsPage() {
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 max-w-2xl mx-auto">
             <div className="grid grid-cols-3 gap-4">
               <div>
-                <div className="text-2xl font-bold text-blue-600">512</div>
+                <div className="text-2xl font-bold text-blue-600">429</div>
                 <div className="text-sm text-gray-600">Total Questions</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-green-600">90</div>
+                <div className="text-2xl font-bold text-green-600">30</div>
                 <div className="text-sm text-gray-600">Questions per Test</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-purple-600">3</div>
+                <div className="text-2xl font-bold text-purple-600">15</div>
                 <div className="text-sm text-gray-600">Practice Tests</div>
               </div>
             </div>
