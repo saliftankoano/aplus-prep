@@ -140,7 +140,7 @@ export default function Core2TestsPage() {
   ];
 
   return (
-        <div className="h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100 overflow-hidden">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100">
       {/* Back Button */}
       <div className="absolute top-6 left-6 z-10">
         <Link 
@@ -155,9 +155,9 @@ export default function Core2TestsPage() {
       </div>
 
       {/* Main Content */}
-      <main className="h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col justify-center">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 pt-20">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             Core 2 (220-1102) Practice Tests
           </h1>
@@ -217,7 +217,7 @@ export default function Core2TestsPage() {
         </div>
 
         {/* Stats */}
-        <div className="mt-12 text-center">
+        <div className="mt-12 mb-8 text-center">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg p-6 max-w-2xl mx-auto">
             <div className="grid grid-cols-3 gap-4">
               <div>

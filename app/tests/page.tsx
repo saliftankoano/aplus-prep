@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function TestsPage() {
   return (
-    <div className="h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100 overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100">
       {/* Back Button */}
       <div className="absolute top-6 left-6 z-10">
         <Link 
@@ -18,9 +18,9 @@ export default function TestsPage() {
       </div>
 
       {/* Main Content */}
-      <main className="h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col justify-center">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 pt-20">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
             Choose Your CompTIA A+ Practice Test
           </h1>

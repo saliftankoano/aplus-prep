@@ -13,12 +13,13 @@ interface Question {
 }
 
 export default function Core2Quiz() {
+  const params = useParams();
+  const router = useRouter();
+  const testId = params.testId as string;
+
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const params = useParams();
-  const testId = params.testId as string;
-
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -26,7 +27,6 @@ export default function Core2Quiz() {
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
   const [hintsLeft, setHintsLeft] = useState(4);
   const [startTime] = useState(Date.now());
-  const router = useRouter();
 
   // Load questions from JSON file
   useEffect(() => {
@@ -50,6 +50,34 @@ export default function Core2Quiz() {
       loadQuestions();
     }
   }, [testId]);
+
+  // Timer effect - always called, but only runs when conditions are met
+  useEffect(() => {
+    let timer: NodeJS.Timeout | null = null;
+    
+    if (!loading && questions.length > 0) {
+      timer = setInterval(() => {
+        setTimeLeft((prev) => {
+          if (prev <= 1) {
+            if (timer) clearInterval(timer);
+            // Time's up, navigate to results
+            const timeTaken = Math.floor((Date.now() - startTime) / 1000);
+            const minutes = Math.floor(timeTaken / 60);
+            const seconds = timeTaken % 60;
+            const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            
+            router.push(`/tests/core2/quiz/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [loading, questions.length]);
 
   if (loading) {
     return (
@@ -100,7 +128,7 @@ export default function Core2Quiz() {
       const seconds = timeTaken % 60;
       const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
       
-      router.push(`/quiz/core2/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
+      router.push(`/tests/core2/quiz/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
     }
   };
 
@@ -118,26 +146,7 @@ export default function Core2Quiz() {
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
 
-  // Timer effect
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          // Time's up, navigate to results
-          const timeTaken = Math.floor((Date.now() - startTime) / 1000);
-          const minutes = Math.floor(timeTaken / 60);
-          const seconds = timeTaken % 60;
-          const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-          
-          router.push(`/quiz/core2/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
 
-    return () => clearInterval(timer);
-  }, [timeLeft, score, totalQuestions, startTime, router]);
 
   return (
     <div className="min-h-screen bg-[#0a092d]">
