@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
-export default function QuizResults() {
+function QuizResultsContent() {
   const searchParams = useSearchParams();
   const score = parseInt(searchParams.get("score") || "0");
   const totalQuestions = parseInt(searchParams.get("total") || "5");
@@ -207,5 +208,17 @@ export default function QuizResults() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function QuizResults() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-[#0a092d] flex items-center justify-center">
+        <div className="text-white text-xl">Loading results...</div>
+      </div>
+    }>
+      <QuizResultsContent />
+    </Suspense>
   );
 }
