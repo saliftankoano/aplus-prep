@@ -423,7 +423,7 @@ export default function Core2Quiz() {
               onClick={handlePrevious}
               disabled={currentQuestion === 0}
               className={`
-                flex items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
+                flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
                 ${currentQuestion === 0
                   ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
                   : 'bg-gray-700 border border-gray-600 text-white hover:bg-gray-600'
@@ -440,7 +440,7 @@ export default function Core2Quiz() {
               onClick={handleNext}
               disabled={selectedAnswer === null}
               className={`
-                flex items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
+                flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
                 ${selectedAnswer === null
                   ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
                   : 'bg-blue-600 text-white hover:bg-blue-700'
