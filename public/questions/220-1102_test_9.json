@@ -21,11 +21,11 @@
       "D. Document findings of the sandbox test."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Document the date and time of change (A) is the correct answer because it's the first step in documenting the change implementation. This creates a record of when the change was made, which is essential for change management tracking and audit purposes. The other options are typically documented during the planning phase, not after implementation."
   },
   {
     "id": 243,
-    "question": "Documenting the purpose of the change, the risk level, and the findings of the sandbox test are all part of the pre-implementation activities that should be done before submitting the change request to the CAB2. References: - 1: https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/success/quick-answer/change-advisory-board-setup.pdf - 2: https://www.manageengine.com/products/service-desk/itil-change-management/cab-change-advisory-board.html 347. A user updates a mobile device's OS. A frequently used application becomes consistently unresponsive immediately after the device is launched. Which of the following troubleshooting steps should the user perform FIRST?",
+    "question": "A user updates a mobile device's OS. A frequently used application becomes consistently unresponsive immediately after the device is launched. Which of the following troubleshooting steps should the user perform FIRST?",
     "options": [
       "A. Delete the application's cache.",
       "B. Check for application updates.",
@@ -33,7 +33,7 @@
       "D. Uninstall and reinstall the application."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Check for application updates (B) is the correct answer because OS updates can cause compatibility issues with older app versions. Checking for app updates is the least disruptive troubleshooting step and often resolves OS compatibility issues. Deleting cache, rolling back OS, or reinstalling the app are more drastic measures that should be tried after checking for updates."
   },
   {
     "id": 244,
@@ -81,7 +81,7 @@
       "D. Evil twin"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Phishing (A) is the correct answer because the scenario describes a social engineering attack where the user received a USB device in the mail as a 'prize' that likely contains malware. This is a common phishing technique where attackers send physical devices to trick users into plugging them into their computers. Dumpster diving involves searching through trash, tailgating is following someone through secure doors, and evil twin is a wireless attack."
   },
   {
     "id": 248,
@@ -105,7 +105,7 @@
       "D. Rebuild the profile."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Rebuild the profile (D) is the correct answer because the issue is user-specific (other users don't have the same problem), indicating a corrupted user profile. Rebuilding the profile will create a fresh user profile and resolve the software issues. Rolling back updates, increasing page file, or updating drivers wouldn't address a user-specific profile issue."
   },
   {
     "id": 250,
@@ -157,7 +157,7 @@
   },
   {
     "id": 254,
-    "question": "Someone who is fraudulently claiming to be from a reputable bank calls a company employee. WhichA user installed a new computer game. Upon starting the game, the user notices the frame rates are low. Which of the following should the user upgrade to resolve the issue?",
+    "question": "A user installed a new computer game. Upon starting the game, the user notices the frame rates are low. Which of the following should the user upgrade to resolve the issue?",
     "options": [
       "A. Hard drive",
       "B. Graphics card",
@@ -165,7 +165,7 @@
       "D. Monitor"
     ],
     "correctAnswer": 1,
-    "explanation": "A graphics card, also known as a video card or a GPU (graphics processing unit), is a component that can affect the performance of a computer game. A graphics card is responsible for rendering and displaying graphics on the screen, such as images, animations, and effects. A computer game may require a high level of graphics processing power to run smoothly and achieve high frame rates, which are the number of frames per second (FPS) that the game can display. Upgrading to a better graphics card can improve the performance of a computer game by increasing its graphics quality and frame rates. Hard drive, random-access memory, and monitor are not components that can directly improve the performance of a computer game."
+    "explanation": "Graphics card (B) is the correct answer because low frame rates in games are typically caused by insufficient graphics processing power. Upgrading the graphics card will improve rendering performance and increase frame rates. Hard drive affects loading times, RAM affects multitasking, and monitor affects display quality but not frame rate performance."
   },
   {
     "id": 255,
@@ -201,7 +201,7 @@
       "D. Event Viewer to identify errors"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "System File Checker to check for modified Windows files (C) is the correct answer because it's a built-in Windows utility that scans and repairs corrupted system files. SFC can detect and restore modified Windows files to their original state, which is useful for troubleshooting system issues. The other options are not specifically designed to check for modified Windows files."
   },
   {
     "id": 258,
@@ -225,7 +225,7 @@
       "D. Whaling"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Evil twin (A) is the correct answer because the scenario describes a wireless attack where multiple SSIDs have similar names. An evil twin attack creates a fake wireless access point that mimics a legitimate one to intercept user traffic. Impersonation, insider threat, and whaling are other social engineering attacks but not related to wireless networks."
   },
   {
     "id": 260,
@@ -249,11 +249,11 @@
       "D. Use the administrator console."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Add the required snap-in (B) is the correct answer because Local Users and Groups is not available by default in the MMC console. The technician needs to add the Local Users and Groups snap-in to manage user accounts and groups. Running antivirus scan, restoring backup, or using administrator console are not related to adding MMC snap-ins."
   },
   {
     "id": 262,
-    "question": "Press Windows key + R to open the Run dialog box, or open the Command Prompt. 2. Type mmc and hit Enter. This will open a blank MMC console. 3. Click File and then Add/Remove Snap-in. 4. In the Add or Remove Snap-ins window, select Local Users and Groups from the Available snap-ins list, and click Add. 5. In the Select Computer window, choose Local computer or Another computer, depending on which computer you want to manage, and click Finish. 6. Click OK to close the Add or Remove Snap-ins window. You should now see Local Users and Groups in the MMC console.A technician has been tasked with installing a workstation that will be used for point-of-sale.The point-of-sale system will process credit cards and loyalty cards. Which of the following encryption technologies should be used to secure the workstation in case of theft?",
+    "question": "A technician has been tasked with installing a workstation that will be used for point-of-sale. The point-of-sale system will process credit cards and loyalty cards. Which of the following encryption technologies should be used to secure the workstation in case of theft?",
     "options": [
       "A. Data-in-transit encryption",
       "B. File encryption",
@@ -261,7 +261,7 @@
       "D. Disk encryption"
     ],
     "correctAnswer": 3,
-    "explanation": "Disk encryption should be used to secure the workstation in case of theft. Disk encryption can help to protect data on the hard drive by encrypting it so that it cannot be accessed without the correct encryption key."
+    "explanation": "Disk encryption (D) is the correct answer because it protects all data on the hard drive from unauthorized access if the workstation is stolen. Disk encryption encrypts the entire drive, making data inaccessible without the proper credentials. Data-in-transit encryption protects data during transmission, file encryption protects individual files, and USB drive encryption only protects removable drives."
   },
   {
     "id": 263,
@@ -285,7 +285,7 @@
       "D. .txt"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": ".bat (A) is the correct answer because batch files can be used to automate tasks at startup. A .bat file can contain commands to copy .pst files to a network drive and can be placed in the Windows Startup folder to run automatically at login. .dll files are dynamic link libraries, .ps1 are PowerShell scripts, and .txt are text files that cannot execute commands."
   },
   {
     "id": 265,
