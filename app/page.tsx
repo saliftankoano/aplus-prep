@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="max-h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100">
       {/* Header */}
-      <header className="h-[6vh] bg-white/95 backdrop-blur-md shadow-sm">
+      <header className="h-[6.5vh] bg-white/95 backdrop-blur-md shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -35,7 +35,7 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section className="relative h-[94vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[93.5vh] flex items-center justify-center overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
