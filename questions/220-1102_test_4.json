@@ -85,7 +85,7 @@
   },
   {
     "id": 98,
-    "question": "Retrieved from https://partners.comptia.org/docs/default-source/resources/comptia-a-220-1102-exam-objectives-(3-0)A company is deploying mobile phones on a one-to-one basis, but the IT manager is concerned that users will root/jailbreak their phones. Which of the following technologies can be implemented to prevent this issue?",
+    "question": "A company is deploying mobile phones on a one-to-one basis, but the IT manager is concerned that users will root/jailbreak their phones. Which of the following technologies can be implemented to prevent this issue?",
     "options": [
       "A. Signed system images",
       "B. Antivirus",
@@ -349,7 +349,7 @@
   },
   {
     "id": 120,
-    "question": "How to Increase the Text Size on Your Computer. Retrieved from https://www.laptopmag.com/articles/increase-text-size-computer 2. How to Change the Size of Text in Windows 10. Retrieved from https://www.howtogeek.com/370055/how-to-6. Change the size of text in Windows. Retrieved from https://support.microsoft.com/en-us/windows/change-the-size-of-text-in-windows-1d5830c3-eee3-8eaa-83 179. The courts determined that a cybercrimes case could no longer be prosecuted due to the agency's handling of evidence. Which of the following was MOST likely violated during the investigation?",
+    "question": "The courts determined that a cybercrimes case could no longer be prosecuted due to the agency's handling of evidence. Which of the following was MOST likely violated during the investigation?",
     "options": [
       "A. Open-source software",
       "B. EULA",
@@ -357,6 +357,6 @@
       "D. AUP"
     ],
     "correctAnswer": 2,
-    "explanation": "Chain of custody is a process that documents how evidence is collected, handled, stored and transferred during a cybercrime investigation. It ensures that the evidence is authentic, reliable and admissible in court. If the chain of custody is violated during an investigation, it can compromise the integrity of the evidence and lead to the case being dismissed. Open-source software, EULA (end-user license agreement) and AUP (acceptable use policy) are not related to cybercrime investigations or evidence handling. Verified References: https://www.comptia.org/blog/what-is-chain-of-custody, https://www.comptia.org/certifications/a"
+    "explanation": "Chain of custody is a process that documents how evidence is collected, handled, stored and transferred during a cybercrime investigation. It ensures that the evidence is authentic, reliable and admissible in court. If the chain of custody is violated during an investigation, it can compromise the integrity of the evidence and lead to the case being dismissed."
   }
 ]

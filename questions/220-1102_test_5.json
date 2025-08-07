@@ -73,7 +73,7 @@
   },
   {
     "id": 127,
-    "question": "The other options are either ineffective or risky. Running a full antivirus scan may not detect or remove the ransomware, especially if it is a new or unknown variant. Removing the LAN card may disconnect the machine from the network, but it will not stop the ransomware from encrypting or deleting files on the local drive. Installing a different endpoint solution may not be possible or helpful if the ransomware has already compromised the system or blocked the installation. References: 1 3 steps to prevent and recover from ransomware 2 A user requires a drive to be mapped through a Windows command line. Which of the following command-line tools can be utilized to map the drive?",
+    "question": "A user requires a drive to be mapped through a Windows command line. Which of the following command-line tools can be utilized to map the drive?",
     "options": [
       "A. gpupdate",
       "B. net use",
