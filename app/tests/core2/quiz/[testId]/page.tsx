@@ -165,7 +165,6 @@ export default function Core2Quiz() {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanationModal, setShowExplanationModal] = useState(false);
   const [score, setScore] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
   const [startTime] = useState(Date.now());
   const [shake, setShake] = useState(false);
 
@@ -192,33 +191,7 @@ export default function Core2Quiz() {
     }
   }, [testId]);
 
-  // Timer effect - always called, but only runs when conditions are met
-  useEffect(() => {
-    let timer: NodeJS.Timeout | null = null;
-    
-    if (!loading && questions.length > 0) {
-      timer = setInterval(() => {
-        setTimeLeft((prev) => {
-          if (prev <= 1) {
-            if (timer) clearInterval(timer);
-            // Time's up, navigate to results
-            const timeTaken = Math.floor((Date.now() - startTime) / 1000);
-            const minutes = Math.floor(timeTaken / 60);
-            const seconds = timeTaken % 60;
-            const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-            
-            router.push(`/tests/core2/quiz/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
-            return 0;
-          }
-          return prev - 1;
-        });
-      }, 1000);
 
-      return () => {
-        if (timer) clearInterval(timer);
-      };
-    }
-  }, [loading, questions.length, router, score, startTime]);
 
   // Calculate dynamic font sizes - always call hook with safe defaults
   const currentQ = questions[currentQuestion] || { question: '', options: [] };

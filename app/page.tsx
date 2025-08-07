@@ -58,7 +58,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Because practice makes perfect! We've got you covered for the Core 1 & Core 2 exams. 😉
+            Because practice makes perfect! We&apos;ve got you covered for the Core 1 & Core 2 exams. 😉
           </p>
           <Link 
             href="/tests"
