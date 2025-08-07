@@ -27,6 +27,7 @@ export default function Core2Quiz() {
   const [timeLeft, setTimeLeft] = useState(30 * 60); // 30 minutes in seconds
   const [hintsLeft, setHintsLeft] = useState(4);
   const [startTime] = useState(Date.now());
+  const [shake, setShake] = useState(false);
 
   // Load questions from JSON file
   useEffect(() => {
@@ -72,11 +73,11 @@ export default function Core2Quiz() {
           return prev - 1;
         });
       }, 1000);
-    }
 
-    return () => {
-      if (timer) clearInterval(timer);
-    };
+      return () => {
+        if (timer) clearInterval(timer);
+      };
+    }
   }, [loading, questions.length]);
 
   if (loading) {
@@ -113,6 +114,10 @@ export default function Core2Quiz() {
     
     if (answerIndex === currentQ.correctAnswer) {
       setScore(score + 1);
+    } else {
+      // Trigger shake animation for wrong answers
+      setShake(true);
+      setTimeout(() => setShake(false), 500);
     }
   };
 
@@ -145,8 +150,6 @@ export default function Core2Quiz() {
     const secs = seconds % 60;
     return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
   };
-
-
 
   return (
     <div className="min-h-screen bg-[#0a092d]">
@@ -198,19 +201,19 @@ export default function Core2Quiz() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="bg-gray-800/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-gray-700">
           {/* Question Header */}
-          <div className="flex items-start justify-between mb-6">
-            <div className="flex items-center space-x-3">
-              <span className="text-white text-lg font-medium">Term</span>
-              <button className="p-1 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 14.142M13 16a1 1 0 102 0V8a1 1 0 10-2 0v8z" />
-                </svg>
-              </button>
+                      <div className="flex items-start justify-between mb-6">
+              <div className="flex items-center space-x-3">
+                <span className="text-white text-2xl font-medium">Question</span>
+                <button className="p-1 text-gray-400 hover:text-white transition-colors">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 14.142M13 16a1 1 0 102 0V8a1 1 0 10-2 0v8z" />
+                  </svg>
+                </button>
+              </div>
+              <span className="text-gray-400 text-sm">
+                {currentQuestion + 1} of {totalQuestions}
+              </span>
             </div>
-            <span className="text-gray-400 text-sm">
-              {currentQuestion + 1} of {totalQuestions}
-            </span>
-          </div>
 
           {/* Question */}
           <div className="mb-8">
@@ -237,7 +240,7 @@ export default function Core2Quiz() {
                       : selectedAnswer === index
                       ? index === currentQ.correctAnswer
                         ? 'border-green-500 bg-green-500/20 text-green-300'
-                        : 'border-red-500 bg-red-500/20 text-red-300'
+                        : `border-red-500 bg-red-500/20 text-red-300 ${shake ? 'animate-shake' : ''}`
                       : index === currentQ.correctAnswer
                       ? 'border-green-500 bg-green-500/20 text-green-300'
                       : 'border-gray-600 bg-gray-700/30 text-gray-400'
@@ -257,15 +260,47 @@ export default function Core2Quiz() {
             </button>
           </div>
 
-          {/* Explanation */}
+          {/* Result and Explanation */}
           {selectedAnswer !== null && (
-            <div className="mb-8 p-6 bg-blue-900/30 rounded-2xl border border-blue-700">
-              <h3 className="text-lg font-semibold text-blue-300 mb-2">
-                {selectedAnswer === currentQ.correctAnswer ? '✅ Correct!' : '❌ Incorrect'}
-              </h3>
-              <p className="text-blue-200">
-                {currentQ.explanation}
-              </p>
+            <div className="mb-8">
+              {/* Result Header */}
+              <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center space-x-3">
+                  <h3 className="text-lg font-semibold text-white">
+                    {selectedAnswer === currentQ.correctAnswer ? '✅ Correct!' : '❌ Incorrect'}
+                  </h3>
+                  {selectedAnswer === currentQ.correctAnswer && (
+                    <button
+                      onClick={() => setShowExplanation(!showExplanation)}
+                      className="flex items-center space-x-2 text-blue-400 hover:text-blue-300 transition-colors"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                      <span>{showExplanation ? 'Hide' : 'Show'} explanation</span>
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              {/* Explanation - Always show for wrong answers, toggle for correct answers */}
+              {(selectedAnswer !== currentQ.correctAnswer || showExplanation) && currentQ.explanation && (
+                <div className="p-6 bg-blue-900/30 rounded-2xl border border-blue-700">
+                  <div className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 mt-1">
+                      <svg className="w-5 h-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                    </div>
+                    <div className="flex-1">
+                      <h4 className="text-blue-300 font-semibold mb-2">Explanation</h4>
+                      <p className="text-blue-200 leading-relaxed">
+                        {currentQ.explanation}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           )}
 
