@@ -325,7 +325,7 @@
   },
   {
     "id": 208,
-    "question": "- C. Some of the RAM is defective. - D. The newly installed OS is x86.Explanation: The newly installed OS is x86. The x86 version of Windows 10 can only use up to 4GB of RAM.A user is configuring a new SOHO Wi-Fi router for the first time. Which of the following settings should the user change FIRST?",
+    "question": "A user is configuring a new SOHO Wi-Fi router for the first time. Which of the following settings should the user change FIRST?",
     "options": [
       "A. Encryption",
       "B. Wi-Fi channel",
@@ -349,7 +349,7 @@
   },
   {
     "id": 210,
-    "question": "On the user’s PC, type msra in the search box on the taskbar and select Invite someone to connect to your PC and help you, or offer to help someone else. 2. Select Save this invitation as a file and choose a location to save the file. This file contains a password that the technician will need to connect to the user’s PC. 3. Send the file and the password to the technician via email or another secure method.✑ On the technician’s PC, type msra in the search box on the taskbar and select Help someone who has invited you. ✑ Select Use an invitation file and browse to the location where the file from the user is saved. Enter the password when prompted. ✑ The user will see a message asking if they want to allow the technician to connect to their PC. The user should select Yes. ✑ The technician will see the user’s desktop and can request control of their PC by clicking Request control on the top bar. The user should allow this request by clicking Yes. ✑ The technician can now view and control the user’s PC and assist them with installing software.A systems administrator is creating a new document with a list of the websites that users are allowed to access. Which of the following types of documents is the administrator MOST likely creating?",
+    "question": "A systems administrator is creating a new document with a list of the websites that users are allowed to access. Which of the following types of documents is the administrator MOST likely creating?",
     "options": [
       "A. Access control list",
       "B. Acceptable use policy",
@@ -357,6 +357,6 @@
       "D. Standard operating procedure"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "An access control list (ACL) is a document that specifies which users or groups have access to specific resources, such as websites, files, or network resources."
   }
 ]
