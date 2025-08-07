@@ -9,11 +9,11 @@
       "D. Deleting"
     ],
     "correctAnswer": 2,
-    "explanation": "Low-level wiping is the best data destruction method for recycling old hard drives for reuse. Low-level wiping is a process that overwrites every bit of data on a hard drive with zeros or random patterns, making it impossible to recover any data from the drive. Low-level wiping also restores the drive to its factory state, removing any bad sectors or errors that may have accumulated over time. Low-level wiping can be done using specialized software tools or hardware devices that connect to the drive. Degaussing, standard formatting, and deleting are not suitable data destruction methods for recycling old hard drives for reuse. Degaussing is a process that exposes a hard drive to a strong magnetic field, destroying both the data and the drive itself. Degaussing renders the drive unusable for reuse. Standard formatting is a process that erases the data on a hard drive by removing the file system structure, but it does not overwrite the data itself. Standard formatting leaves some data recoverable using forensic tools or software utilities. Deleting is a process that removes the data from a hard drive by marking it as free space, but it does not erase or overwrite the data itself. Deleting leaves most data recoverable using undelete tools or software utilities."
+    "explanation": "Low-level wiping (C) is the correct answer because it overwrites every bit of data on the hard drive with zeros or random patterns, making data recovery impossible. This method also restores the drive to factory state. Degaussing destroys the drive, standard formatting leaves data recoverable, and deleting only marks space as free."
   },
   {
     "id": 62,
-    "question": "A technician is concerned about a large increase in the number of whaling attacks happening in the industry. The technician wants to limit the company's risk to avoid any issues. Which of the following items A technician is installing RAM in a new workstation and needs to protect against electrostatic discharge. Which of the following will best resolve this concern?",
+    "question": "A technician is installing RAM in a new workstation and needs to protect against electrostatic discharge. Which of the following will best resolve this concern?",
     "options": [
       "A. Battery backup",
       "B. Thermal paste",
@@ -21,7 +21,7 @@
       "D. Consistent power"
     ],
     "correctAnswer": 2,
-    "explanation": "An ESD strap, also known as an antistatic wrist strap, is a device that prevents electrostatic discharge (ESD) from damaging sensitive electronic components such as RAM. ESD is the sudden flow of electricity between two objects with different electrical charges, which can cause permanent damage or malfunction to electronic devices. An ESD strap connects the technician’s wrist to a grounded surface, such as a metal case or a mat, and equalizes the electrical potential between the technician and the device. Battery backup, thermal paste, and consistent power are not devices that can protect against ESD."
+    "explanation": "ESD strap (C) is the correct answer because it prevents electrostatic discharge that can damage sensitive electronic components like RAM. An ESD strap connects the technician to a grounded surface, equalizing electrical potential. Battery backup, thermal paste, and consistent power are not related to ESD protection."
   },
   {
     "id": 63,
@@ -33,7 +33,7 @@
       "D. Firewall"
     ],
     "correctAnswer": 3,
-    "explanation": "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules. In this scenario, the user is concerned about an installed application transmitting data in the background, so a firewall would be the best solution to address their concern. By installing and configuring a firewall, the user can block unauthorized connections to and from the device, and receive alerts whenever an application tries to access the internet."
+    "explanation": "Firewall (D) is the correct answer because it monitors and controls network traffic, allowing users to block unauthorized connections and receive alerts when applications try to access the internet. OS updates, remote wipe, and antivirus don't specifically address network traffic monitoring."
   },
   {
     "id": 64,
@@ -45,7 +45,7 @@
       "D. Impact"
     ],
     "correctAnswer": 0,
-    "explanation": "The term that defines the extent of a change is scope. Scope is a measure of the size, scale and boundaries of a project or an activity. Scope defines what is included and excluded in the project or activity, such as goals, requirements, deliverables, tasks and resources. Scope helps determine the feasibility, duration and cost of the project or activity. Scope also helps manage the expectations and needs of the stakeholders involved in the project or activity. Purpose is the reason or objective for doing a project or an activity. Purpose defines why the project or activity is important or necessary, such as solving a problem, meeting a need or achieving a goal. Purpose helps provide direction, motivation and justification for the project or activity. Analysis is the process of examining, evaluating and interpreting data or information related to a project or an activity. Analysis helps identify, understand and prioritize issues, risks, opportunities and solutions for the project or activity. Impact is the effect or outcome of a project or an activity on something or someone else. Impact defines how the project or activity affects or influences other factors, such as performance, quality, satisfaction or value. Impact helps measure the success and"
+    "explanation": "Scope (A) is the correct answer because it defines the boundaries, size, and extent of a change or project. Scope determines what is included and excluded. Purpose defines why, Analysis examines data, and Impact measures effects."
   },
   {
     "id": 65,
@@ -57,11 +57,11 @@
       "D. Device Manager"
     ],
     "correctAnswer": 1,
-    "explanation": "Ease of Access is a utility in the Control Panel that allows users to adjust various accessibility settings on Windows, such as the on-screen keyboard, magnifier, narrator, high contrast, etc. The on-screen keyboard can be turned on by going to Ease of Access > Keyboard and toggling the switch to On"
+    "explanation": "Ease of Access (B) is the correct answer because it contains accessibility settings including the on-screen keyboard. The on-screen keyboard can be enabled through Ease of Access > Keyboard settings. The other options don't contain accessibility features."
   },
   {
     "id": 66,
-    "question": "Alternatively, the on-screen keyboard can be opened by pressing Windows + Ctrl + O keys or by typing osk.exe in the Run dialog box2. Which of the following wireless security features can be enabled to allow a user to use login credentials to attach to available corporate SSIDs?",
+    "question": "Which of the following wireless security features can be enabled to allow a user to use login credentials to attach to available corporate SSIDs?",
     "options": [
       "A. TACACS+",
       "B. Kerberos",
@@ -69,7 +69,7 @@
       "D. WPA2/AES"
     ],
     "correctAnswer": 3,
-    "explanation": "WPA2/AES (Wi-Fi Protected Access 2/Advanced Encryption Standard) is a wireless security standard that supports enterprise mode, which allows a user to use login credentials (username and password) to authenticate to available corporate SSIDs (service set identifiers). TACACS+ (Terminal Access Controller Access-Control System Plus) and Kerberos are network authentication protocols, but they are not wireless security features. Preshared key is another wireless security feature, but it does not use login credentials."
+    "explanation": "WPA2/AES (D) is the correct answer because it supports enterprise mode authentication using login credentials (username/password) for corporate SSIDs. TACACS+ and Kerberos are network authentication protocols, and preshared key doesn't use login credentials."
   },
   {
     "id": 67,
@@ -81,7 +81,7 @@
       "D. Replace the screen."
     ],
     "correctAnswer": 0,
-    "explanation": "Calibrating the phone sensors is a step that can troubleshoot the issue of screen not autorotating on a mobile device. Screen autorotation is a feature that automatically adjusts the screen orientation based on the device’s position and movement. Screen autorotation relies on sensors such as accelerometer and gyroscope to detect the device’s tilt and rotation. Calibrating the phone sensors can help fix any errors or inaccuracies in the sensor readings that may prevent screen autorotation from working properly. Enabling the touch screen, reinstalling the operating system, and replacing the screen are not steps that should be done next to troubleshoot this issue."
+    "explanation": "Calibrate the phone sensors (A) is the correct answer because screen autorotation relies on accelerometer and gyroscope sensors. Calibrating these sensors can fix inaccurate readings that prevent autorotation. The other options are more drastic and don't address sensor issues."
   },
   {
     "id": 68,
@@ -93,7 +93,7 @@
       "D. APFS"
     ],
     "correctAnswer": 3,
-    "explanation": "APFS stands for Apple File System and it is the default filesystem type for macOS since High Sierra (10.13) version. APFS is optimized for flash storage and supports features such as encryption, snapshots, cloning, and space sharing."
+    "explanation": "APFS (D) is the correct answer because it's the default filesystem for macOS since High Sierra (10.13). APFS is optimized for flash storage and supports encryption, snapshots, and cloning. ext4 is for Linux, exFAT is for removable drives, and NTFS is for Windows."
   },
   {
     "id": 69,
@@ -105,7 +105,7 @@
       "D. Anti-malware scans"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Software firewall (A) is the correct answer because it controls network access and can block unauthorized LAN devices from accessing files. Password complexity affects authentication, while antivirus and anti-malware protect against malicious software but don't control network access."
   },
   {
     "id": 70,
@@ -117,7 +117,7 @@
       "D. Linux"
     ],
     "correctAnswer": 3,
-    "explanation": "Linux is the most commonly used operating system in embedded systems because it is open source, free, customizable, and supports a wide range of architectures and devices. Linux also offers many advantages for embedded development, such as real-time capabilities, modularity, security, scalability, and reliability. Linux can run on embedded systems with limited resources, such as memory, storage, or power, and can be tailored to the specific needs of the application. Linux also has a large and active community of developers and users who contribute to its improvement and innovation. Some examples of embedded systems that use Linux are smart TVs, routers, drones, robots, smart watches, and IoT devices."
+    "explanation": "Linux (D) is the correct answer because it's open source, customizable, supports various architectures, and can run on resource-limited devices. Linux offers real-time capabilities, modularity, and reliability for embedded systems. The other OS options are designed for desktop/server use."
   },
   {
     "id": 71,
@@ -129,11 +129,11 @@
       "D. Configure a static IP address."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Verify the DNS server settings (A) is the correct answer because the technician can ping the gateway but can't access internet or named resources, indicating a DNS resolution problem. DNS translates domain names to IP addresses. The other options don't address DNS issues."
   },
   {
     "id": 72,
-    "question": "1: CompTIA A+ Certification Exam: Core 2 Objectives, page 16, section 1.10.A technician is creating a location on a Windows workstation for a customer to store meeting minutes. Which of the following commands should the technician use?",
+    "question": "A technician is creating a location on a Windows workstation for a customer to store meeting minutes. Which of the following commands should the technician use?",
     "options": [
       "A. c: \\minutes",
       "B. dir",
@@ -141,11 +141,11 @@
       "D. md"
     ],
     "correctAnswer": 3,
-    "explanation": "The command md stands for make directory and is used to create a new directory or folder in the current location. In this case, the technician can use md minutes to create a folder named minutes in the C: drive. The other commands are not relevant for this task. c:\\minutes is not a command but a path to a folder. dir is used to display a list of files and folders in the current directory. rmdir is used to remove or delete an existing directory or folder."
+    "explanation": "md (D) is the correct answer because it's the command to make directory. The technician can use 'md minutes' to create a folder for meeting minutes. 'c:\\minutes' is a path, 'dir' displays files, and 'rmdir' removes directories."
   },
   {
     "id": 73,
-    "question": "DRAG DROP A customer recently experienced a power outage at a SOHO. The customer does not think the components are connected properly. A print job continued running for several minutes after the power failed, but the customer was not able to interact with the computer. Once the UPS stopped beeping, all functioning devices also turned off. In case of a future power failure, the customer wants to have the most time available to save cloud documents and shut down the computer without losing any data. Answer:60UPS > Surge protector = Computer, wifi router, cable modem Surge protector = wallOutlet, printer and scannerA Windows workstation that was recently updated with approved system patches shut down instead of restarting. Upon reboot, the technician notices an alert stating the workstation has malware in the root OS folder. The technician promptly performs a System Restore and reboots the workstation, but the malware is still detected. Which of the following BEST describes why the system still has malware?",
+    "question": "A Windows workstation that was recently updated with approved system patches shut down instead of restarting. Upon reboot, the technician notices an alert stating the workstation has malware in the root OS folder. The technician promptly performs a System Restore and reboots the workstation, but the malware is still detected. Which of the following BEST describes why the system still has malware?",
     "options": [
       "A. A system patch disabled the antivirus protection and host firewall.",
       "B. The system updates did not include the latest anti-malware definitions.",
@@ -153,7 +153,7 @@
       "D. The malware was installed before the system restore point was created."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "The malware was installed before the system restore point was created (D) is the correct answer because System Restore only reverts to a previous point in time. If malware was present when the restore point was created, it will still be there after restoration. The other options don't explain why malware persists after System Restore."
   },
   {
     "id": 74,
@@ -165,7 +165,7 @@
       "D. Enable Secure Boot and reinstall the system."
     ],
     "correctAnswer": 1,
-    "explanation": "Loading the system in safe mode is a common troubleshooting step that allows the technician to isolate the problem by disabling unnecessary drivers and services. This can help determine if the issue is caused by a faulty device, a corrupted system file, or a malware infection."
+    "explanation": "Load the system in safe mode (B) is the correct answer because it disables unnecessary drivers and services to isolate the problem. Safe mode helps determine if the issue is caused by faulty drivers, corrupted files, or malware. The other options are more drastic measures."
   },
   {
     "id": 75,
@@ -177,7 +177,7 @@
       "D. Processes"
     ],
     "correctAnswer": 3,
-    "explanation": "The Processes tab in the Task Manager shows all the running processes on the computer, including applications and background services. The user can use this tab to identify the unresponsive application and end its process by right-clicking on it and selecting End task. This will free up the system resources and close the application. The other tabs in the Task Manager do not allow the user to address the situation. The Startup tab shows the programs that run when the computer starts, the Performance tab shows the system resource usage and statistics, and the Application history tab shows the resource usage of the applications over time."
+    "explanation": "Processes (D) is the correct answer because it shows all running processes and allows the user to end unresponsive applications by right-clicking and selecting 'End task'. Startup shows programs that run at boot, Performance shows resource usage, and Application history shows past usage."
   },
   {
     "id": 76,
@@ -189,23 +189,23 @@
       "D. Open-source agreement"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "EULA (A) is the correct answer because End User License Agreements typically prohibit installing home edition software on multiple computers in a business environment. Home editions are usually licensed for personal use only. PII refers to personal information, DRM is digital rights management, and open-source agreements are different."
   },
   {
     "id": 77,
-    "question": "HOTSPOT Welcome to your first day as a Fictional Company, LLC helpdesk employee. Please work the tickets in your helpdesk ticket queue. Click on individual tickets to see the ticket details. View attachments to determine the problem. Select the appropriate issue from the 'issue' drop-down menu. Then, select the MOST efficient resolution from the 'Resolution' drop-down menu. Finally, select the proper command or verification to remediate or confirm your fix of the issue from the Verify Resolve drop-down menu.64 Which of the following default system tools can be used in macOS to allow the technician to view the screen simultaneously with the user?",
+    "question": "Which of the following default system tools can be used in macOS to allow the technician to view the screen simultaneously with the user?",
     "options": [
       "A. Remote Assistance",
       "B. Remote Desktop Protocol",
       "C. Screen Sharing",
-      "D. Virtual Network Computing"
+      "D. VNC"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Screen Sharing (C) is the correct answer because it's a built-in macOS tool that allows technicians to view and control a user's screen remotely. Remote Assistance is Windows-specific, RDP is Microsoft's protocol, and VNC is a third-party solution."
   },
   {
     "id": 78,
-    "question": "The technician can launch the Screen Sharing app from the Spotlight search or the Finder sidebar, and then enter the user’s name, address, or Apple ID to connect to their screen2. Remote Assistance is a Windows feature that allows users to invite someone to help them with a problem on their PC3. Remote Desktop Protocol (RDP) is a protocol that allows users to connect to a remote computer over a network4. Virtual Network Computing (VNC) is a technology that allows users to share their screen with other devices using a VNC viewer app1. These are not default system tools in macOS, although they can be used with third-party software or settings. A user in a corporate office reports the inability to connect to any network drives. No other users have reported this issue. Which of the following is the MOST likely reason the user is having this issue?",
+    "question": "A user in a corporate office reports the inability to connect to any network drives. No other users have reported this issue. Which of the following is the MOST likely reason the user is having this issue?",
     "options": [
       "A. The user is not connected to the VPN.",
       "B. The file server is offline.",
@@ -213,7 +213,7 @@
       "D. The log-in script failed."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "The user is not connected to the VPN (A) is the correct answer because a VPN establishes a secure tunnel between the user's device and the corporate network. If the user is not connected to the VPN, they cannot access network drives. The file server being offline (B) and a low battery (C) are not related to network drive connectivity. The log-in script failed (D) is a different issue."
   },
   {
     "id": 79,
@@ -237,7 +237,7 @@
       "D. Clear all devices from the phone's Bluetooth settings."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Check that the accessory is ready to pair (C) is the correct answer because it's a common troubleshooting step for Bluetooth connectivity issues. If the accessory is not ready to pair, it means the Bluetooth is turned on but not in a state where it can establish a connection. Restarting the device (A) and turning on airplane mode (B) are not directly related to the Bluetooth accessory's readiness. Clearing all devices (D) is a more drastic step and might be needed if the issue persists."
   },
   {
     "id": 81,
@@ -249,7 +249,7 @@
       "D. Botnet"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Zombies (A) are the most likely type of infection in an ODDS attack. An ODDS attack is a distributed denial-of-service attack, where multiple compromised workstations send traffic to a target, overwhelming it. The workstations themselves are not malicious, but they are part of the attack vector. Keyloggers (B), Adware (C), and Botnets (D) are types of malware, not attacks."
   },
   {
     "id": 82,
@@ -261,7 +261,7 @@
       "D. Performance Monitor"
     ],
     "correctAnswer": 0,
-    "explanation": "Event Viewer is a Microsoft tool that records and displays system events, errors, warnings, and information. Event Viewer can help troubleshoot and diagnose problems, such as unexpected shutdowns, by showing the details of what happened before, during, and after the incident. Event Viewer can also show the source of the event, such as an application, a service, a driver, or a hardware device. By using Event Viewer, a technician can identify the root cause of the unexpected shutdown, such as a power failure, a thermal event, a driver conflict, or a malware infection."
+    "explanation": "Event Viewer (A) is the correct answer because it records and displays system events, errors, warnings, and information. It can help troubleshoot and diagnose problems, such as unexpected shutdowns, by showing the details of what happened before, during, and after the incident. It can also show the source of the event, such as an application, a service, a driver, or a hardware device. By using Event Viewer, a technician can identify the root cause of the unexpected shutdown, such as a power failure, a thermal event, a driver conflict, or a malware infection."
   },
   {
     "id": 83,
@@ -273,7 +273,7 @@
       "D. Digital signature verification"
     ],
     "correctAnswer": 2,
-    "explanation": "Hash verification is a process that verifies the integrity of a file by comparing the hash value of the downloaded file to the hash value provided by the source."
+    "explanation": "Hash verification (C) is the correct answer because it's a process that verifies the integrity of a file by comparing the hash value of the downloaded file to the hash value provided by the source. This ensures that the file has not been tampered with or corrupted during the download process."
   },
   {
     "id": 84,
@@ -297,7 +297,7 @@
       "D. Ease of Access"
     ],
     "correctAnswer": 3,
-    "explanation": "The user can enable speech recognition on a PC in the Ease of Access settings tool. To set up Speech Recognition on a Windows PC, the user should open Control Panel, click on Ease of Access, click on Speech Recognition, and click the Start Speech Recognition link. Language settings can be used to change the language of the speech recognition feature, but they will not enable the feature. System settings can be used to configure the hardware and software of the PC, but they will not enable the speech recognition feature. Personalization settings can be used to customize the appearance and behavior of the PC, but they will not enable the speech recognition feature."
+    "explanation": "Ease of Access (D) is the correct answer because it contains settings for accessibility features, including speech recognition. To set up Speech Recognition on a Windows PC, the user should open Control Panel, click on Ease of Access, click on Speech Recognition, and click the Start Speech Recognition link. Language settings can be used to change the language of the speech recognition feature, but they will not enable the feature. System settings can be used to configure the hardware and software of the PC, but they will not enable the speech recognition feature. Personalization settings can be used to customize the appearance and behavior of the PC, but they will not enable the speech recognition feature."
   },
   {
     "id": 86,
@@ -309,7 +309,7 @@
       "D. Recycling"
     ],
     "correctAnswer": 0,
-    "explanation": "Shredding is a data destruction method that physically destroys the hard drive by cutting it into small pieces using a machine. Shredding ensures that data is completely removed from the hard drive and cannot be recovered by any means. Shredding is suitable for hard drives that contain PII (personally identifiable information), which is any information that can be used to identify, contact, or locate an individual. Degaussing, low-level formatting, and recycling are not data destruction methods that can guarantee complete data removal from a hard drive."
+    "explanation": "Shredding (A) is the correct answer because it physically destroys the hard drive by cutting it into small pieces using a machine. This ensures that data is completely removed from the hard drive and cannot be recovered by any means. Degaussing, low-level formatting, and recycling are not data destruction methods that can guarantee complete data removal from a hard drive."
   },
   {
     "id": 87,
@@ -321,7 +321,7 @@
       "D. Remote backup"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Remote wipe (A) is the correct answer because it allows the company to remotely erase all data from the stolen device, preventing unauthorized access to company trade secrets. Firewall (B) and device encryption (C) are security measures, but they don't directly mitigate the risk of a stolen device. Remote backup (D) is a data protection measure, not a mitigation for a stolen device."
   },
   {
     "id": 88,
@@ -333,7 +333,7 @@
       "D. Enabling BitLocker on all hard drives"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Enabling BitLocker on all hard drives (D) is the correct answer because it encrypts the entire hard drive, making it impossible to access the data without the decryption key. This ensures that even if a laptop is lost or stolen, the data on it cannot be read by unauthorized individuals. Requiring strong passwords (A), disabling cached credentials (B), and requiring MFA to sign on (C) are authentication and access control measures, not data protection measures."
   },
   {
     "id": 89,
@@ -345,7 +345,7 @@
       "D. Clear the cached file."
     ],
     "correctAnswer": 3,
-    "explanation": "Clearing the cached file is an action that can help resolve the issue of not seeing the latest patch notes on a game vendor’s website. A cached file is a copy of a web page or file that is stored locally on the user’s browser or device for faster loading and offline access. However, sometimes a cached file may become outdated or corrupted and prevent the user from seeing the most recent or accurate version of a web page or file. Clearing the cached file can force the browser to download and display the latest version from the server instead of using the old copy from the cache. Synchronizing the browser data, enabling private browsing mode, and marking the site as trusted are not actions that can help resolve this issue."
+    "explanation": "Clearing the cached file (D) is the correct answer because a cached file is a copy of a web page or file that is stored locally on the user's browser or device for faster loading and offline access. If this cached file is outdated or corrupted, it might prevent the user from seeing the latest version of the website. Synchronizing the browser data (A), enabling private browsing mode (B), and marking the site as trusted (C) are not actions that can help resolve this issue."
   },
   {
     "id": 90,
