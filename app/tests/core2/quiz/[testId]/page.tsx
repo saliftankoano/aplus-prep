@@ -2,73 +2,23 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 
-// Sample questions for Core 2
-const questions = [
-  {
-    id: 1,
-    question: "Which of the following is a feature of Windows 10 that allows users to run multiple desktops?",
-    options: [
-      "A. Virtual Desktop",
-      "B. Task View",
-      "C. Multiple Monitors",
-      "D. Desktop Manager"
-    ],
-    correctAnswer: 0,
-    explanation: "Virtual Desktop is a feature in Windows 10 that allows users to create and manage multiple virtual desktops for better organization of open applications and windows."
-  },
-  {
-    id: 2,
-    question: "What is the primary purpose of a firewall?",
-    options: [
-      "A. To speed up internet connection",
-      "B. To block unauthorized network access",
-      "C. To encrypt data",
-      "D. To compress files"
-    ],
-    correctAnswer: 1,
-    explanation: "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules, primarily to block unauthorized access."
-  },
-  {
-    id: 3,
-    question: "Which command is used to display the current IP configuration in Windows?",
-    options: [
-      "A. ipconfig",
-      "B. ifconfig",
-      "C. netstat",
-      "D. ping"
-    ],
-    correctAnswer: 0,
-    explanation: "The 'ipconfig' command displays the current IP configuration for all network adapters on a Windows system."
-  },
-  {
-    id: 4,
-    question: "What type of malware disguises itself as legitimate software?",
-    options: [
-      "A. Virus",
-      "B. Trojan",
-      "C. Worm",
-      "D. Spyware"
-    ],
-    correctAnswer: 1,
-    explanation: "A Trojan horse is malware that disguises itself as legitimate software to trick users into installing it."
-  },
-  {
-    id: 5,
-    question: "Which file system is most commonly used in modern Windows operating systems?",
-    options: [
-      "A. FAT32",
-      "B. NTFS",
-      "C. exFAT",
-      "D. HFS+"
-    ],
-    correctAnswer: 1,
-    explanation: "NTFS (New Technology File System) is the primary file system used in modern Windows operating systems due to its advanced features like file permissions and encryption."
-  }
-];
+interface Question {
+  id: number;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  explanation: string;
+}
 
 export default function Core2Quiz() {
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const params = useParams();
+  const testId = params.testId as string;
+
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showExplanation, setShowExplanation] = useState(false);
@@ -77,6 +27,53 @@ export default function Core2Quiz() {
   const [hintsLeft, setHintsLeft] = useState(4);
   const [startTime] = useState(Date.now());
   const router = useRouter();
+
+  // Load questions from JSON file
+  useEffect(() => {
+    const loadQuestions = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch(`/questions/220-1102_test_${testId}.json`);
+        if (!response.ok) {
+          throw new Error(`Failed to load test ${testId}`);
+        }
+        const data = await response.json();
+        setQuestions(data);
+        setLoading(false);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : 'Failed to load questions');
+        setLoading(false);
+      }
+    };
+
+    if (testId) {
+      loadQuestions();
+    }
+  }, [testId]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
+        <div className="text-white text-xl">Loading test {testId}...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
+        <div className="text-white text-xl">Error: {error}</div>
+      </div>
+    );
+  }
+
+  if (questions.length === 0) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
+        <div className="text-white text-xl">No questions found for test {testId}</div>
+      </div>
+    );
+  }
 
   const currentQ = questions[currentQuestion];
   const totalQuestions = questions.length;

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 301,
+    "question": "A customer has a USB-only printer attached to a computer. A technician is configuring an arrangement that allows other computers on the network to use the printer. In which of the following locations on the customer's desktop should the technician make this configuration?",
+    "options": [
+      "A. Printing Preferences/Advanced tab",
+      "B. Printer Properties/Sharing tab",
+      "C. Printer Properties/Security tab",
+      "D. Printer Properties/Ports tab"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Printer Properties/Sharing tab. This is the location where the technician can enable printer sharing and assign a share name for the USB printer. This will allow other computers on the network to access the printer by using the share name or the IP address of the computer that has the printer attached"
+  },
+  {
+    "id": 302,
+    "question": "# 1: CompTIA A+ Certification Exam: Core 2 Objectives 440. Users access files in the department share. When a user creates a new subfolder, only that user can access the folder and its files. Which of the following will MOST likely allow all users to access the new folders?",
+    "options": [
+      "A. Assigning share permissions",
+      "B. Enabling inheritance",
+      "C. Requiring multifactor authentication",
+      "D. Removing archive attribute"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enabling inheritance is a method that allows new subfolders to inherit the permissions and settings from their parent folder. If users can access files in the department share, but not in the new subfolders created by other users, it may indicate that inheritance is disabled and that each new subfolder has its own permissions and settings that restrict access to only the creator. Enabling inheritance can help resolve this issue by allowing all users to access the new subfolders with the same permissions and settings as the department share. Assigning share permissions, requiring multifactor authentication, and removing archive attribute are not methods that can most likely allow all users to access the new folders."
+  },
+  {
+    "id": 303,
+    "question": "Which of the following macOS features provides the user with a high-level view of all open windows?",
+    "options": [
+      "A. Mission Control",
+      "B. Finder",
+      "C. Multiple Desktops",
+      "D. Spotlight"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mission Control is the macOS feature that provides the user with a high-level view of all open windows. Mission Control allows the user to see and switch between multiple desktops, full-screen apps, and windows in a single screen. Mission Control can be accessed by swiping up with three or four fingers on the trackpad, pressing F3 on the keyboard, or moving the cursor to a hot corner."
+  },
+  {
+    "id": 304,
+    "question": "A technician is trying to encrypt a single folder on a PC. Which of the following should the technician use to accomplish this task?",
+    "options": [
+      "A. FAT32",
+      "B. exFAT",
+      "C. BitLocker",
+      "D. EFS"
+    ],
+    "correctAnswer": 3,
+    "explanation": "EFS (Encrypting File System) is a feature that allows a user to encrypt a single folder or file on a Windows PC. It uses a public key encryption system to protect the data from unauthorized access. FAT32 and exFAT are file system formats that do not support encryption. BitLocker is a feature that encrypts the entire drive, not a single folder or file. Verified References: https://www.comptia.org/blog/what-is-efs https://www.comptia.org/certifications/a"
+  },
+  {
+    "id": 305,
+    "question": "A user enabled a mobile device's screen lock function with pattern unlock. The user is concerned someone could access the mobile device by repeatedly attempting random patterns to unlock the device. Which of the following features BEST addresses the user's concern?",
+    "options": [
+      "A. Remote wipe",
+      "B. Anti-maIware",
+      "C. Device encryption",
+      "D. Failed login restrictions"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The feature that BEST addresses the user’s concern is remote wipe. This is because remote wipe allows the user to erase all data on the mobile device if it is lost or stolen, which will prevent unauthorized access to the device"
+  },
+  {
+    "id": 306,
+    "question": "A remote user is having issues accessing an online share. Which of the following tools would MOST likely be used to troubleshoot the Issue?",
+    "options": [
+      "A. Screen-sharing software",
+      "B. Secure shell",
+      "C. Virtual private network",
+      "D. File transfer software"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Screen-sharing software is a tool that allows a technician to remotely view and control a user’s screen over the internet. It can be used to troubleshoot issues with accessing an online share, as well as other problems that require visual inspection or guidance. Secure shell (SSH) is a protocol that allows remote access and command execution on another device, but it does not allow screen-sharing."
+  },
+  {
+    "id": 307,
+    "question": "A change advisory board just approved a change request. Which of the following is the MOST likely next step in the change process?",
+    "options": [
+      "A. End user acceptance",
+      "B. Perform risk analysis",
+      "C. Communicate to stakeholders",
+      "D. Sandbox testing"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The risk analysis should be performed before it's taken to the board. The step after the board approves the change is End User Agreement."
+  },
+  {
+    "id": 308,
+    "question": "Which of the following would typically require the most computing resources from the host computer?",
+    "options": [
+      "A. Chrome OS",
+      "B. Windows",
+      "C. Android",
+      "D. macOS"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Windows is the operating system that typically requires the most computing resources from the host computer, compared to the other options. Computing resources include hardware components such as CPU, RAM, disk space, graphics card, and network adapter. The minimum system requirements for an operating system indicate the minimum amount of computing resources needed to install and run the operating system on a computer. The higher the minimum system requirements, the more computing resources are needed."
+  },
+  {
+    "id": 309,
+    "question": "Which of the following is the most likely to use NTFS as the native filesystem?",
+    "options": [
+      "A. macOS",
+      "B. Linux",
+      "C. Windows",
+      "D. Android"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NTFS stands for New Technology File System, which is a proprietary file system developed by Microsoft. NTFS is the default file system for the Windows NT family of operating systems, which includes Windows 10, Windows Server 2019, and other versions. NTFS provides features such as security, encryption, compression, journaling, and large volume support. NTFS is not the native file system for other operating systems, such as macOS, Linux, or Android, although some of them can read or write to NTFS volumes with third-party drivers or tools."
+  },
+  {
+    "id": 310,
+    "question": "Which of the following should be done NEXT?",
+    "options": [
+      "A. Send an email to Telecom to inform them of the issue and prevent reoccurrence.",
+      "B. Close the ticket out.",
+      "C. Tell the user to take time to fix it themselves next time.",
+      "D. Educate the user on the solution that was performed."
+    ],
+    "correctAnswer": 3,
+    "explanation": "educating the user on the solution that was performed is a good next step after resolving an issue. This can help prevent similar issues from happening again and empower users to solve problems on their own."
+  },
+  {
+    "id": 311,
+    "question": "Which of the following could be used to implement secure physical access to a data center?",
+    "options": [
+      "A. Geofence",
+      "B. Alarm system",
+      "C. Badge reader",
+      "D. Motion sensor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Badge readers are used to implement secure physical access to a data center. They are used to read the identification information on an employee’s badge and grant access to the data center if the employee is authorized."
+  },
+  {
+    "id": 312,
+    "question": "A technician sees a file that is requesting payment to a cryptocurrency address. Which of the following should the technician do first?",
+    "options": [
+      "A. Quarantine the computer.",
+      "B. Disable System Restore.",
+      "C. Update the antivirus software definitions.",
+      "D. Boot to safe mode."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quarantining the computer means isolating it from the network and other devices to prevent the spread of malware or ransomware. Ransomware is a type of malware that encrypts the files on a computer and demands payment (usually in cryptocurrency) to restore them. If a technician sees a file that is requesting payment to a cryptocurrency address, it is likely that the computer has been infected by ransomware. Quarantining the computer should be the first step to contain the infection and prevent further damage. Disabling System Restore, updating the antivirus software definitions, and booting to safe mode are not steps that should be done before quarantining the computer."
+  },
+  {
+    "id": 313,
+    "question": "A user attempts to install additional software and receives a UAC prompt. Which of the following is the BEST way to resolve this issue?",
+    "options": [
+      "A. Add a user account to the local administrator's group.",
+      "B. Configure Windows Defender Firewall to allow access to all networks.",
+      "C. Create a Microsoft account.",
+      "D. Disable the guest account."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A user account that belongs to the local administrator’s group has the permission to install software on a Windows machine. If a user receives a UAC (user account control) prompt when trying to install software, it means the user does not have enough privileges and needs to enter an administrator’s password or switch to an administrator’s account. Adding the user account to the local administrator’s group can resolve this issue. Configuring Windows Defender Firewall, creating a Microsoft account and disabling the guest account are not related to this issue."
+  },
+  {
+    "id": 314,
+    "question": "A technician is investigating an employee's smartphone that has the following symptoms: - The device is hot even when it is not in use. - Applications crash, especially when others are launched. - Certain applications, such as GPS, are in portrait mode when they should be in landscape mode. Which of the following can the technician do to MOST likely resolve these issues with minimal impact?",
+    "options": [
+      "A. Turn on autorotation",
+      "B. Activate airplane mode.",
+      "C. Close unnecessary applications",
+      "D. Perform a factory reset"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The technician can close unnecessary applications and turn on autorotation to resolve these issues with minimal impact. Autorotation can help the device to switch between portrait and landscape modes automatically. Closing unnecessary applications can help to free up the device’s memory and reduce the device’s temperature."
+  },
+  {
+    "id": 315,
+    "question": "When visiting a particular website, a user receives a message stating, \"Your connection is not private.\" Which of the following describes this issue?",
+    "options": [
+      "A. Certificate warning",
+      "B. Malware",
+      "C. JavaScript error",
+      "D. Missing OS update"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 316,
+    "question": "A change advisory board authorized a setting change so a technician is permitted to implement the change. The technician successfully implemented the change. Which of the following should be done next?",
+    "options": [
+      "A. Document the date and time of change",
+      "B. Document the purpose of the change.",
+      "C. Document the risk level.",
+      "D. Document the findings of the sandbox test."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Document the date and time of change. After implementing a change, the technician should document the date and time of change in the change log or record. This helps to track the change history, monitor the change performance, and identify any issues or incidents related to the change. Documenting the date and time of change is also a good practice for auditing and compliance purposes. Documenting the purpose of the change (B) and the risk level (C) are steps that should be done before implementing the change, not after. These are important information that help to justify, prioritize, and plan the change. The purpose of the change should explain why the change is needed and what benefits it will bring to the organization. The risk level should assess the potential impact and probability of the change causing any problems or disruptions to the business."
+  },
+  {
+    "id": 317,
+    "question": "During a recent flight an executive unexpectedly received several dog and cat pictures while trying to watch a movie via in-flight Wi-Fi on an iPhone. The executive has no records of any contacts sending pictures like these and has not seen these pictures before. To BEST resolve this issue, the executive should: - A. set AirDrop so that transfers are only accepted from known contacts - B. completely disable all wireless systems during the flight - C. discontinue using iMessage and only use secure communication applications - D. only allow messages and calls from saved contactsExplanation: To best resolve this issue, the executive should set AirDrop so that transfers are only accepted from known contacts (option A). AirDrop is a feature on iOS devices that allows users to share files, photos, and other data between Apple devices. By setting AirDrop so that it only accepts transfers from known contacts, the executive can ensure that unwanted files and photos are not sent to their device. Additionally, the executive should ensure that the AirDrop setting is only enabled when it is necessary, as this will protect their device from any unwanted files and photos.A user updates a mobile device's OS. A frequently used application becomes consistently unresponsive immediately after the device is launched. Which of the following troubleshooting steps should the user perform FIRST?",
+    "options": [
+      "A. Delete the application's cache.",
+      "B. Check for application updates.",
+      "C. Roll back the OS update.",
+      "D. Uninstall and reinstall the application."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Checking for application updates is the first troubleshooting step that the user should perform, because the application may not be compatible with the new OS version and may"
+  },
+  {
+    "id": 318,
+    "question": "Which of the following is an advantage of using WPA2 instead of WPA3?",
+    "options": [
+      "A. Connection security",
+      "B. Encryption key length",
+      "C. Device compatibility",
+      "D. Offline decryption resistance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Device compatibility is an advantage of using WPA2 instead of WPA"
+  },
+  {
+    "id": 319,
+    "question": "WPA2 is the previous version of the Wi-Fi Protected Access protocol, which provides security and encryption for wireless networks. WPA3 is the latest version, which offers improved security features, such as stronger encryption, enhanced protection against brute-force attacks, and easier configuration. However, WPA3 is not backward compatible with older devices that only support WPA2 or earlier protocols. Therefore, using WPA3 may limit the range of devices that can connect to the wireless network. Connection security, encryption key length, and offline decryption resistance are advantages of using WPA3 instead of WPA2. References: - ✑ Official CompTIA learning resources CompTIA A+ Core 1 and Core 2, page 24 - ✑ CompTIA A+ Certification All-in-One Exam Guide (Exams 220-1101 &#x26; …, page 1000 A user has been unable to receive emails or browse the internet from a smartphone while traveling. However, text messages and phone calls are working without issue. Which of the following should a support technician check FIRST?",
+    "options": [
+      "A. User account status",
+      "B. Mobile OS version",
+      "C. Data plan coverage",
+      "D. Network traffic outages"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 320,
+    "question": "Following the latest Windows update PDF files are opening in Microsoft Edge instead of Adobe Reader. Which of the following utilities should be used to ensure all PDF files open in Adobe Reader?",
+    "options": [
+      "A. Network and Sharing Center",
+      "B. Programs and Features",
+      "C. Default Apps",
+      "D. Add or Remove Programs"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Default Apps should be used to ensure all PDF files open in Adobe Reader."
+  },
+  {
+    "id": 321,
+    "question": "An administrator has received approval for a change request for an upcoming server deployment. Which of the following steps should be completed NEXT?",
+    "options": [
+      "A. Perform a risk analysis.",
+      "B. Implement the deployment.",
+      "C. Verify end user acceptance",
+      "D. Document the lessons learned."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 322,
+    "question": "A technician is moving a Windows workstation from the accounting department to the sales department and needs to update the IP and gateway settings. Which of the following Control Panel utilities should the technician use?",
+    "options": [
+      "A. Programs and Features",
+      "B. Network and Sharing Center",
+      "C. User Accounts",
+      "D. Device Manager"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 323,
+    "question": "Which of the following is the STRONGEST wireless configuration?",
+    "options": [
+      "A. WPS",
+      "B. WPA3",
+      "C. WEP",
+      "D. WMN"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 324,
+    "question": "WPA3 is the most up-to-date wireless encryption protocol and is the most secure choice. It replaces PSK with SAE, a more secure way to do the initial key exchange. At the same time, the session key size of WPA3 increases to 128-bit in WPA3-Personal mode and 192-bit in WPA3-Enterprise, which makes the password harder to crack than the previous Wi-Fi security standards. https://www.makeuseof.com/tag/wep-wpa-wpa2-wpa3-explained/ A technician needs to manually set an IP address on a computer that is running macOS. Which of the following commands should the technician use?",
+    "options": [
+      "A. ipconfig",
+      "B. ifconfig",
+      "C. arpa",
+      "D. ping"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 325,
+    "question": "A host-based IDS is a system that monitors and analyzes the activity on a single computer or device for any signs of intrusion or malicious behavior. A host-based IDS can help detect and prevent malware infections from USB drives, but it is not a sufficient action by itself. A host-based IDS needs to be complemented by other security measures, such as disabling AutoRun and updating the antivirus definitions6. Restricting login times, enabling a BIOS password, and updating the password complexity are all actions that can help improve the security of a computer or device, but they are not directly related to preventing malware infections from USB drives. These actions can help prevent unauthorized access to the computer or device, but they do not affect how the computer or device interacts with the USB drive or its contents. Restricting user permissions is an action that can help limit the damage that malware can cause on a computer or device, but it does not prevent the malware from being installed in the first place. Restricting user permissions means limiting what actions a user can perform on the computer or device, such as installing or deleting programs, modifying system settings, or accessing certain files or folders. By restricting user permissions, you can reduce the impact of malware infections by preventing them from affecting other users or system components7. Every time a user tries to open the organization's proprietary application on an Android tablet, the application immediately closes. Other applications are operating normally. Which of the following troubleshooting actions would MOST likely resolve the Issue?",
+    "options": [
+      "A. Uninstalling the application",
+      "B. Gaining root access to the tablet",
+      "C. Resetting the web browser cache",
+      "D. Deleting the application cache"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 326,
+    "question": "Which of the following environmental factors are most important to consider when planning the configuration of a data center?",
+    "options": [
+      "A. Temperature levels",
+      "B. Location of the servers",
+      "C. Humidity levels",
+      "D. Noise levels"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 327,
+    "question": "A technician needs to replace a PC's motherboard. The technician shuts down the PC. Which of the following steps should the technician take next?",
+    "options": [
+      "A. Turn off the monitor.",
+      "B. Remove the power cord.",
+      "C. Remove the PSU.",
+      "D. Remove the RAM modules."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Removing the power cord is the first step to ensure the safety of the technician and the PC components. This will prevent any electrical shock or damage that may occur if the PC is still connected to a power source. The technician should also press the power button to drain any residual power from the capacitors."
+  },
+  {
+    "id": 328,
+    "question": "You can also assign apps to specific spaces and move between them easily1. A technician is troubleshooting a computer with a suspected short in the power supply. Which of the following is the FIRST step the technician should take?",
+    "options": [
+      "A. Put on an ESD strap",
+      "B. Disconnect the power before servicing the PC.",
+      "C. Place the PC on a grounded workbench.",
+      "D. Place components on an ESD mat."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first step a technician should take when troubleshooting a computer with a suspected short in the power supply is B. Disconnect the power before servicing the PC. This is to prevent any electrical shock or damage to the components. A power supply can be dangerous even when unplugged, as capacitors can maintain a line voltage charge for a long time"
+  },
+  {
+    "id": 329,
+    "question": "Therefore, it is important to disconnect the power cord and press the power button to discharge any residual power before opening the case2. The other steps are also important for safety and proper diagnosis, but they should be done after disconnecting the power. A company's assets are scanned annually. Which of the following will most likely help the company gain a holistic view of asset cost?",
+    "options": [
+      "A. Creating a database",
+      "B. Assigning users to assets",
+      "C. Inventorying asset tags",
+      "D. Updating the procurement account owners"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Creating a database is the most likely option to help the company gain a holistic view of asset cost. A database can store and organize information about the assets, such as purchase date, depreciation value, maintenance cost, warranty status, and replacement cost. Assigning users to assets, inventorying asset tags, and updating the procurement account owners are important steps for asset management, but they do not directly provide a holistic view of asset cost."
+  },
+  {
+    "id": 330,
+    "question": "A technician is installing new network equipment in a SOHO and wants to ensure the equipment is secured against external threats on the Internet. Which of the following actions should the technician do FIRST?",
+    "options": [
+      "A. Lock all devices in a closet.",
+      "B. Ensure all devices are from the same manufacturer.",
+      "C. Change the default administrative password.",
+      "D. Install the latest operating system and patches."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician should change the default administrative password FIRST to ensure the network equipment is secured against external threats on the Internet. Changing the default administrative password is a basic security measure that can help prevent unauthorized access to the network equipment. Locking all devices in a closet is a physical security measure that can help prevent theft or damage to the devices, but it does not address external threats on the Internet. Ensuring all devices are from the same manufacturer is not a security measure and does not address external threats on the Internet. Installing the latest operating system and patches is important for maintaining the security of the network equipment, but it is not the first action the technician should take."
+  }
+]

@@ -4,6 +4,19 @@ import Image from "next/image";
 export default function TestsPage() {
   return (
     <div className="h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100 overflow-hidden">
+      {/* Back Button */}
+      <div className="absolute top-6 left-6 z-10">
+        <Link 
+          href="/"
+          className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+        >
+          <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m12 19-7-7 7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 12H5" />
+          </svg>
+        </Link>
+      </div>
+
       {/* Main Content */}
       <main className="h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col justify-center">
         {/* Hero Section */}
@@ -36,7 +49,7 @@ export default function TestsPage() {
                     Core 1 (220-1101)
                   </h2>
                   <p className="text-lg text-blue-100 mb-6">
-                    Master hardware fundamentals, networking concepts, and troubleshooting techniques for the 220-1101 exam.
+                    Master hardware fundamentals, networking, and troubleshooting techniques for the 220-1101 exam.
                   </p>
                 </div>
                 
@@ -56,6 +69,10 @@ export default function TestsPage() {
                   <div className="flex items-center text-white/90">
                     <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
                     Hardware & network troubleshooting
+                  </div>
+                  <div className="flex items-center text-white/90">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    Virtualization & cloud
                   </div>
                 </div>
 
@@ -107,6 +124,10 @@ export default function TestsPage() {
                   <div className="flex items-center text-white/90">
                     <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
                     Operational procedures
+                  </div>
+                  <div className="flex items-center text-white/90">
+                    <span className="w-2 h-2 bg-white rounded-full mr-3"></span>
+                    Customer service
                   </div>
                 </div>
 

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 181,
+    "question": "The other options are not effective or safe for ransomware recovery. Running an AV scan may not detect or remove the ransomware, especially if it is a new or unknown variant. Installing a software firewall may prevent future attacks, but it will not help with the current infection. Performing a system restore may not work if the ransomware has corrupted or deleted the restore points. Complying with the on-screen instructions is not advisable, as it will encourage the attackers and there is no guarantee that they will provide the decryption key after receiving the payment. To prevent and recover from ransomware attacks, it is recommended to follow some best practices, such as234: - Use strong passwords and multifactor authentication for all accounts and devices. - Keep all software and firmware updated with the latest security patches. - Avoid opening suspicious or unsolicited emails and attachments.✑ Educate users and staff on how to recognize and report phishing and social engineering attempts. ✑ Use antivirus software and enable real-time protection. ✑ Enable network segmentation and firewall rules to limit the spread of ransomware. ✑ Implement a Zero Trust security model to verify all requests and devices before granting access. ✑ Create and test backups of critical data and store them offline or in a separate network. ✑ Recover safely by isolating the infected devices, identifying the ransomware variant, and restoring data from backups. ✑ Report any ransomware incidents to law enforcement agencies and seek help from experts.A user opened a ticket regarding a corporate-managed mobile device. The assigned technician notices the OS is several versions out of date. The user is unaware the OS version is not current because auto-update is turned on. Which of the following is MOST likely the cause of the issue?",
+    "options": [
+      "A. The device does not have enough free space to download the OS updates.",
+      "B. The device needs domain administrator confirmation to update to a major release.",
+      "C. The device is not compatible with the newest version of the OS.",
+      "D. The device is restricted from updating due to a corporate security policy."
+    ],
+    "correctAnswer": 3,
+    "explanation": "A corporate security policy can restrict a corporate-managed mobile device from updating its OS automatically, even if the auto-update feature is turned on. This can be done to prevent compatibility issues, security risks or performance problems caused by untested or unwanted updates. The device administrator can control when and how the updates are applied to the device. The device not having enough free space, needing domain administrator confirmation or being incompatible with the newest version of the OS are not likely causes of the issue, since the user would receive an error message or a notification in those cases."
+  },
+  {
+    "id": 182,
+    "question": "A technician is upgrading the backup system for documents at a high-volume law firm. The current backup system can retain no more than three versions of full backups before failing. The law firm is not concerned about restore times but asks the technician to retain more versions when possible. Which of the following backup methods should the technician MOST likely implement?",
+    "options": [
+      "A. Full",
+      "B. Mirror",
+      "C. Incremental",
+      "D. Differential"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The law firm wants to retain more versions of the backups when possible, so the best backup method for the technician to implement in this scenario would be Incremental backup. Incremental backups only save the changes made since the last backup, which allows for more frequent backups and minimizes the amount of storage required. This would allow the law firm to retain more than three versions of backups without risking backup failure."
+  },
+  {
+    "id": 183,
+    "question": "A Windows computer is experiencing slow performance when the user tries to open programs and files. The user recently installed a new software program from an external website. Various websites are being redirected to an unauthorized site, and Task Manager shows the CPU usage is consistently at 100%. Which of the following should the technician do first?",
+    "options": [
+      "A. Uninstall the new program.",
+      "B. Check the HOSTS file.",
+      "C. Restore from a previous backup.",
+      "D. Clear the web browser cache."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 184,
+    "question": "A user is trying to use a third-party USB adapter but is experiencing connection issues. Which of the following tools should the technician use to resolve this issue?",
+    "options": [
+      "A. taskschd.msc",
+      "B. eventvwr.msc",
+      "C. devmgmt.msc",
+      "D. diskmgmt.msc"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 185,
+    "question": "A user calls the help desk and reports a workstation is infected with malicious software. Which of the following tools should the help desk technician use to remove the malicious software?",
+    "options": [
+      "A. File Explorer",
+      "B. User Account Control",
+      "C. Windows Backup and Restore",
+      "D. Windows Firewall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answers are E. Windows Defender and A. File Explorer. Windows Defender is a built-in antivirus program that can detect and remove malicious software from a workstation. File Explorer can be used to locate and delete files associated with the malicious software."
+  },
+  {
+    "id": 186,
+    "question": "A user corrects a laptop that is running Windows 10 to a docking station with external monitors when working at a desk. The user would like to close the laptop when it is docked, but the user reports it goes to sleep when it is closed. Which of the following is the BEST solution to prevent the laptop from going to sleep when it is closed and on the docking station?",
+    "options": [
+      "A. Within the Power Options of the Control Panel utility click the Change Plan Settings button for the enabled power plan and select Put the Computer to Sleep under the Plugged In category to Never",
+      "B. Within the Power Options of the Control Panel utility, click the Change Plan Settings button for the enabled power plan and select Put the Computer to Sleep under the On Battery category to Never",
+      "C. Within the Power Options of the Control Panel utility select the option Choose When to Turn Off the Display and select Turn Off the Display under the Plugged In category to Never",
+      "D. Within the Power Options of the Control Panel utility, select the option Choose What Closing the Lid Does and select When I Close the Lid under the Plugged in category to Do Nothing"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The laptop has an additional option under power and sleep settings that desktops do not have."
+  },
+  {
+    "id": 187,
+    "question": "A systems administrator received a request to limit the amount of cellular data a user's Windows 10 tablet can utilize when traveling. Which of the following can the administrator do to best solve the user's issue?",
+    "options": [
+      "A. Turn on airplane mode.",
+      "B. Set the connection to be metered.",
+      "C. Configure the device to use a static IP address.",
+      "D. Enable the Windows Defender Firewall."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 188,
+    "question": "A department manager submits a help desk ticket to request the migration of a printer's port utilization from USB to Ethernet so multiple users can access the printer. This will be a new network printer, thus a new IP address allocation is required. Which of the following should happen immediately before network use is authorized?",
+    "options": [
+      "A. Document the date and time of the change.",
+      "B. Submit a change request form",
+      "C. Determine the risk level of this change",
+      "D. Request an unused IP address."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Submit a change request form. A change request form is a document that describes the proposed change, the reason for the change, the expected benefits and impacts, the risks and mitigation strategies, the implementation plan, and the approval process. A change request form is an essential part of change management best practices, as it helps to ensure that the change is well-planned, communicated, and authorized before it is implemented."
+  },
+  {
+    "id": 189,
+    "question": "A technician receives a call from a user who is unable to open Outlook. The user states that Outlook worked fine yesterday, but the computer may have restarted sometime overnight. Which of the following is the MOST likely reason Outlook has stopped functioning?",
+    "options": [
+      "A. Spam filter installation",
+      "B. Invalid registry settings",
+      "C. Malware infection",
+      "D. Operating system update"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Operating system updates can sometimes cause compatibility issues with some applications, such as Outlook."
+  },
+  {
+    "id": 190,
+    "question": "A technician is configuring a SOHO device Company policy dictates that static IP addresses cannot beused. The company wants the server to maintain the same IP address at all times. Which of the following should the technician use?",
+    "options": [
+      "A. DHCP reservation",
+      "B. Port forwarding",
+      "C. DNS A record",
+      "D. NAT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The technician should use DHCP reservation to maintain the same IP address for the server at all times. DHCP reservation allows the server to obtain an IP address dynamically from the DHCP server, while ensuring that the same IP address is assigned to the server each time it requests an IP address."
+  },
+  {
+    "id": 191,
+    "question": "A technician receives a call from a user who is having issues with an application. To best understand the issue, the technician simultaneously views the user's screen with the user. Which of the following would BEST accomplish this task?",
+    "options": [
+      "A. SSH",
+      "B. VPN",
+      "C. VNC",
+      "D. RDP"
+    ],
+    "correctAnswer": 2,
+    "explanation": "VNC (Virtual Network Computing) is a protocol that allows a technician to simultaneously view and control a user’s screen remotely. VNC uses a server-client model, where the user’s computer runs a VNC server and the technician’s computer runs a VNC client. VNC can work across different platforms and operating systems. SSH (Secure Shell) is a protocol that allows a technician to access a user’s command-line interface remotely, but not their graphical user interface. VPN (Virtual Private Network) is a technology that creates a secure and encrypted connection over a public network, but does not allow screen sharing. RDP (Remote Desktop Protocol) is a protocol that allows a technician to access a user’s desktop remotely, but not simultaneously with the user."
+  },
+  {
+    "id": 192,
+    "question": "A user called the help desk to report an issue with the internet connection speed on a laptop. A technician thinks that background services may be using extra bandwidth. Which of the following tools should the technician use to investigate connections on the laptop?",
+    "options": [
+      "A. nslookup",
+      "B. net use",
+      "C. netstat",
+      "D. net user"
+    ],
+    "correctAnswer": 2,
+    "explanation": "netstat is a tool that can be used to investigate connections on a Windows machine. It displays information about the active TCP connections, listening ports, routing tables, network statistics, etc."
+  },
+  {
+    "id": 193,
+    "question": "A technician is unable to join a Windows 10 laptop to a domain. Which of the following is the MOST likely reason?",
+    "options": [
+      "A. The domain's processor compatibility is not met",
+      "B. The laptop has Windows 10 Home installed",
+      "C. The laptop does not have an onboard Ethernet adapter",
+      "D. The Laptop does not have all current Windows updates installed"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 194,
+    "question": "A user receives a call from someone who claims to be from the user's bank and requests information to ensure the user's account is safe. Which of the following social-engineering attacks is the user experiencing?",
+    "options": [
+      "A. Phishing",
+      "B. Smishing",
+      "C. Whaling",
+      "D. Vishing"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 195,
+    "question": "A user is attempting to make a purchase at a store using a phone. The user places the phone on the payment pad, but the device does not recognize the phone. The user attempts to restart the phone but still has the same results. Which of the following should the user do to resolve the issue?",
+    "options": [
+      "A. Turn off airplane mode while at the register.",
+      "B. Verify that NFC is enabled.",
+      "C. Connect to the store's Wi-Fi network.",
+      "D. Enable Bluetooth on the phone."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The user should verify that NFC is enabled on their phone. NFC is a technology that allows two devices to communicate with each other when they are in close proximity."
+  },
+  {
+    "id": 196,
+    "question": "A help desk team lead contacts a systems administrator because the technicians are unable to log in to a Linux server that is used to access tools. When the administrator tries to use remote desktop to log in to the server, the administrator sees the GUI is crashing. Which of the following methods can the administrator use to troubleshoot the server effectively?",
+    "options": [
+      "A. SFTP",
+      "B. SSH",
+      "C. VNC",
+      "D. MSRA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The administrator can use Virtual Network Computing (VNC) to troubleshoot the server effectively. VNC is a graphical desktop sharing system that allows the administrator to remotely control the desktop of a Linux server."
+  },
+  {
+    "id": 197,
+    "question": "A Windows administrator is creating user profiles that will include home directories and network printers for several new users. Which of the following is the most efficient way for the technician to complete this task?",
+    "options": [
+      "A. Access control",
+      "B. Authentication application",
+      "C. Group Policy",
+      "D. Folder redirection"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Group Policy is a feature of Windows that allows administrators to centrally manage and apply policies and settings to computers and users on a domain. Group Policy can be used to create user profiles."
+  },
+  {
+    "id": 198,
+    "question": "A technician discovers user input has been captured by a malicious actor. Which of the following malware types is MOST likely being used?",
+    "options": [
+      "A. Cryptominers",
+      "B. Rootkit",
+      "C. Spear phishing",
+      "D. Keylogger"
+    ],
+    "correctAnswer": 3,
+    "explanation": "A keylogger is a type of malware that captures user input, such as keystrokes, mouse clicks, and clipboard data, and sends it to a malicious actor. Keyloggers can be used to steal passwords, credit card numbers, personal information, and other sensitive data."
+  },
+  {
+    "id": 199,
+    "question": "A company is retiring old workstations and needs a certificate of destruction for all hard drives. Which of the following would be BEST to perform on the hard drives to ensure the data is unrecoverable?",
+    "options": [
+      "A. Standard formatting",
+      "B. Drilling",
+      "C. Erasing",
+      "D. Recycling"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Drilling and incinerating are physical destruction methods that make the data on hard drives unrecoverable. Standard formatting, erasing and low-level formatting are logical methods that can be reversed with data recovery tools. Recycling is not a destruction method at all."
+  },
+  {
+    "id": 200,
+    "question": "A technician needs to recommend the best backup method that will mitigate ransomware attacks. Only a few files are regularly modified, however, storage space is a concern. Which of the following backup methods would BEST address these concerns?",
+    "options": [
+      "A. Full",
+      "B. Differential",
+      "C. Off-site",
+      "D. Grandfather-father-son"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The differential backup method would best address these concerns. Differential backups only back up files that have changed since the last full backup, which means that only a few files would be backed up each time. This would help to mitigate the risk of ransomware attacks, as only a few files would be affected if an attack occurred. Additionally, differential backups require less storage space than full backups."
+  },
+  {
+    "id": 201,
+    "question": "A technician downloaded a software program to a network share. When the technician attempts to copy the program to the Windows tablet for installation, the technician receives an error. Which of the following is the best procedure for the technician to use to complete the assignment?",
+    "options": [
+      "A. Copy the program file to a USB drive and install.",
+      "B. Burn the program file to a CD and install.",
+      "C. Format the HDD and then do the installation.",
+      "D. Replace the HDD and then do the installation."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 202,
+    "question": "How To Copy A Program From One Computer To Another: 5 Ways 2. Transfer files between your Android tablet and PC using Wi-Fi 3. Share Files Between Your Tablet and Computer with Huawei Share 4. How to Transfer Installed Programs to Another PC on Windows 10295. Each time a user tries to go to the selected web search provider, a different website opens. Which of the following should the technician check FIRST?",
+    "options": [
+      "A. System time",
+      "B. IP address",
+      "C. DNS servers",
+      "D. Windows updates"
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a user experiences unexpected or erratic behavior while browsing the internet, it could be caused by the DNS servers. DNS translates human-readable domain names (like google.com) into IP addresses, which computers can use to communicate with web servers. If the DNS servers are not functioning correctly or have been compromised, it can result in the browser being redirected to unintended websites."
+  },
+  {
+    "id": 203,
+    "question": "A user requires local administrative access to a workstation. Which of the following Control Panel utilities allows the technician to grant access to the user?",
+    "options": [
+      "A. System",
+      "B. Network and Sharing Center",
+      "C. User Accounts",
+      "D. Security and Maintenance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "User Accounts is a Control Panel utility that allows the technician to manage user accounts and groups on a local computer. The technician can use this utility to add a user to the local administrators group, which grants the user local administrative access to the workstation. The other options are not relevant for this task."
+  },
+  {
+    "id": 204,
+    "question": "A user is attempting to browse the internet using Internet Explorer. When trying to load a familiar web page, the user is unexpectedly redirected to an unfamiliar website. Which of the following would MOSTlikely solve the issue?",
+    "options": [
+      "A. Updating the operating system",
+      "B. Changing proxy settings",
+      "C. Reinstalling the browser",
+      "D. Enabling port forwarding"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Reinstalling the browser would most likely solve the issue. This would remove any malicious software or add-ons that may be causing the issue and restore the browser to its default settings."
+  },
+  {
+    "id": 205,
+    "question": "A technician is configuring a new Windows laptop. Corporate policy requires that mobile devices make use of full disk encryption at all times. Which of the following encryption solutions should the technician choose?",
+    "options": [
+      "A. Encrypting File System",
+      "B. FileVault",
+      "C. BitLocker",
+      "D. Encrypted LVM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The encryption solution that the technician should choose when configuring a new Windows laptop and corporate policy requires that mobile devices make use of full disk encryption at all times is BitLocker. This is because BitLocker is a full-disk encryption feature that encrypts all data on a hard drive and is included with Windows."
+  },
+  {
+    "id": 206,
+    "question": "A user reports a hardware issue to the help desk. Which of the following should the help desk technician do first when responding to the user?",
+    "options": [
+      "A. Ask the user for the model number of the hardware.",
+      "B. Offer a temporary replacement device to the user.",
+      "C. Submit the issue to the manufacturer.",
+      "D. Remotely install updates to the device driver."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The first step in troubleshooting a hardware issue is to identify the hardware device that is causing the problem."
+  },
+  {
+    "id": 207,
+    "question": "A technician was assigned a help desk ticket and resolved the issue. Which of the following should the technician update to assist other technicians in resolving similar issues?",
+    "options": [
+      "A. End user training",
+      "B. Progress notes",
+      "C. Knowledge base",
+      "D. Acceptable use policy document"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A knowledge base is a centralized repository of information that can be used by technicians to find solutions to common problems, best practices, troubleshooting guides, and other useful resources. Updating the knowledge base with the details of the issue and the resolution can help other technicians who encounter similar issues in the future. It can also reduce the number of tickets and improve customer satisfaction."
+  },
+  {
+    "id": 208,
+    "question": "- C. Some of the RAM is defective. - D. The newly installed OS is x86.Explanation: The newly installed OS is x86. The x86 version of Windows 10 can only use up to 4GB of RAM.A user is configuring a new SOHO Wi-Fi router for the first time. Which of the following settings should the user change FIRST?",
+    "options": [
+      "A. Encryption",
+      "B. Wi-Fi channel",
+      "C. Default passwords",
+      "D. Service set identifier"
+    ],
+    "correctAnswer": 2,
+    "explanation": "the user should change the default passwords first when configuring a new SOHO Wi-Fi router."
+  },
+  {
+    "id": 209,
+    "question": "A user needs assistance installing software on a Windows PC but will not be in the office. Which of the following solutions would a technician MOST likely use to assist the user without having to install additional software?",
+    "options": [
+      "A. VPN",
+      "B. MSRA",
+      "C. SSH",
+      "D. RDP"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 210,
+    "question": "On the user’s PC, type msra in the search box on the taskbar and select Invite someone to connect to your PC and help you, or offer to help someone else. 2. Select Save this invitation as a file and choose a location to save the file. This file contains a password that the technician will need to connect to the user’s PC. 3. Send the file and the password to the technician via email or another secure method.✑ On the technician’s PC, type msra in the search box on the taskbar and select Help someone who has invited you. ✑ Select Use an invitation file and browse to the location where the file from the user is saved. Enter the password when prompted. ✑ The user will see a message asking if they want to allow the technician to connect to their PC. The user should select Yes. ✑ The technician will see the user’s desktop and can request control of their PC by clicking Request control on the top bar. The user should allow this request by clicking Yes. ✑ The technician can now view and control the user’s PC and assist them with installing software.A systems administrator is creating a new document with a list of the websites that users are allowed to access. Which of the following types of documents is the administrator MOST likely creating?",
+    "options": [
+      "A. Access control list",
+      "B. Acceptable use policy",
+      "C. Incident report",
+      "D. Standard operating procedure"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

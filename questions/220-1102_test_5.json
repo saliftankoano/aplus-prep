@@ -1,0 +1,362 @@
+[
+  {
+    "id": 121,
+    "question": "Which of the following features allows a technician to configure policies in a Windows 10 Professional desktop?",
+    "options": [
+      "A. gpedit",
+      "B. gpmc",
+      "C. gpresult",
+      "D. gpupdate"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The feature that allows a technician to configure policies in a Windows 10 Professional desktop is gpedit. Gpedit is a command that opens the Local Group Policy Editor, which is a utility that allows users to view and modify local group policies on their Windows PC. Local group policies are a set of rules and settings that control the behavior and configuration of the system and its users."
+  },
+  {
+    "id": 122,
+    "question": "A user attempts to open some files, but a message appears stating that the files are encrypted. The user was able to access these files before without receiving this message and no changes have been made within the company. Which of the following has infected the computer?",
+    "options": [
+      "A. Cryptominer",
+      "B. Phishing",
+      "C. Ransomware",
+      "D. Keylogger"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ransomware is malicious software that encrypts files on a computer, making them inaccessible until a ransom is paid. In this case, the user was able to access the files before without issue, and no changes have been made within the company, so it is likely that the computer was infected with ransomware."
+  },
+  {
+    "id": 123,
+    "question": "Which of the following is used as a password manager in the macOS?",
+    "options": [
+      "A. Terminal",
+      "B. FileVault",
+      "C. Privacy",
+      "D. Keychain"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 124,
+    "question": "You can use the Keychain Access app on your Mac to view and manage your keychains and the items stored in them1. Keychain can also sync your passwords and other secure information across your devices using iCloud Keychain1. Keychain can be used as a password manager in macOS to help you keep track of and protect your passwords.An office is experiencing constant connection attempts to the corporate Wi-Fi. Which of the following should be disabled to mitigate connection attempts?",
+    "options": [
+      "A. SSID",
+      "B. DHCP",
+      "C. Firewall",
+      "D. SSD"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The SSID (Service Set Identifier) is the name of a wireless network that is broadcasted by the router or the Wi-Fi base station. The SSID helps nearby devices to identify and connect to the available networks. However, broadcasting the SSID also exposes the network to potential connection attempts from unauthorized or malicious users. Therefore, disabling the SSID can mitigate connection attempts by making the network invisible or hidden to the devices that are not already connected to it. To connect to a hidden network, the user would need to know the exact SSID and enter it manually. The other options are not related to mitigating connection attempts to the corporate Wi-Fi. DHCP (Dynamic Host Configuration Protocol) is a protocol that assigns IP addresses to the devices on a network. Firewall is a software or hardware device that filters the incoming and outgoing network traffic based on predefined rules. SSD (Solid State Drive) is a type of storage device that uses flash memory to store data. Disabling any of these options would not prevent connection attempts to the Wi-Fi network, and may cause other problems or issues for the network functionality and performance."
+  },
+  {
+    "id": 125,
+    "question": "An Android user contacts the help desk because a company smartphone failed to complete a tethered OS update. A technician determines there are no error messages on the device. Which of the following should the technician do NEXT?",
+    "options": [
+      "A. Verify all third-party applications are disabled",
+      "B. Determine if the device has adequate storage available.",
+      "C. Check if the battery is sufficiently charged",
+      "D. Confirm a strong internet connection is available using Wi-Fi or cellular data"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since there are no error messages on the device, the technician should check if the battery is sufficiently charged. If the battery is low, the device may not have enough power to complete the update. In this scenario, the technician has already determined that there are no error messages on the device. The next best step would be to check if the battery is sufficiently charged. If the battery is low, it could be preventing the device from completing the update process. Verifying that third-party applications are disabled, determining if the device has adequate storage available, and confirming a strong internet connection are all important steps in troubleshooting issues with mobile devices. However, since the problem in this scenario is related to a failed OS update, it is important to first check the battery level before proceeding with further troubleshooting steps."
+  },
+  {
+    "id": 126,
+    "question": "Antivirus software indicates that a workstation is infected with ransomware that cannot be quarantined. Which of the following should be performed first to prevent further damage to the host and other systems?",
+    "options": [
+      "A. Turn off the machine.",
+      "B. Run a full antivirus scan.",
+      "C. Remove the LAN card.",
+      "D. Install a different endpoint solution."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Turning off the machine is the first and most urgent step to prevent further damage to the host."
+  },
+  {
+    "id": 127,
+    "question": "The other options are either ineffective or risky. Running a full antivirus scan may not detect or remove the ransomware, especially if it is a new or unknown variant. Removing the LAN card may disconnect the machine from the network, but it will not stop the ransomware from encrypting or deleting files on the local drive. Installing a different endpoint solution may not be possible or helpful if the ransomware has already compromised the system or blocked the installation. References: 1 3 steps to prevent and recover from ransomware 2 A user requires a drive to be mapped through a Windows command line. Which of the following command-line tools can be utilized to map the drive?",
+    "options": [
+      "A. gpupdate",
+      "B. net use",
+      "C. hostname",
+      "D. dir"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Net use is a command-line tool that can be used to map a drive in Windows. Mapping a drive means assigning a drive letter to a network location or a local folder, which allows the user to access it more easily and quickly. Net use can also be used to disconnect a mapped drive, display information about mapped drives, or connect to shared resources on another computer. Gpupdate, hostname, and dir are not command-line tools that can be used to map a drive."
+  },
+  {
+    "id": 128,
+    "question": "A system drive is nearly full, and a technician needs to free up some space. Which of the following tools should the technician use?",
+    "options": [
+      "A. Disk Cleanup",
+      "B. Resource Monitor",
+      "C. Disk Defragment",
+      "D. Disk Management"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 129,
+    "question": "Which of the following is the most likely reason a filtration system is critical for data centers?",
+    "options": [
+      "A. Plastics degrade over time.",
+      "B. High humidity levels can rust metal.",
+      "C. Insects can invade the data center.",
+      "D. Dust particles can clog the machines."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A filtration system is critical for data centers because it can control the humidity and temperature levels in the environment. High humidity levels can cause condensation and corrosion on the metal components of the servers and other equipment, leading to malfunction and damage. A filtration system can also prevent dust, dirt, and other contaminants from entering the data center and clogging the machines or causing overheating."
+  },
+  {
+    "id": 130,
+    "question": "A technician is investigating options to secure a small office's wireless network. One requirement is to allow automatic log-ins to the network using certificates instead of passwords. Which of the following should the wireless solution have in order to support this feature?",
+    "options": [
+      "A. RADIUS",
+      "B. AES",
+      "C. EAP-EKE",
+      "D. MFA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RADIUS is the correct answer for this question. RADIUS stands for Remote Authentication Dial-In User Service, and it is a protocol that provides centralized authentication, authorization, and accounting for wireless networks. RADIUS can support certificate-based authentication, which allows users to log in to the network automatically without entering passwords. RADIUS also provides other benefits, such as enforcing security policies, logging user activities, and managing network access. AES, EAP-EKE, and MFA are not."
+  },
+  {
+    "id": 131,
+    "question": "A customer called the help desk to report that a machine that was recently updated is no longer working. The support technician checks the latest logs to see what updates were deployed, but nothing was deployed in more than three weeks. Which of the following should the support technician do to BEST resolve the situation?",
+    "options": [
+      "A. Offer to wipe and reset the device for the customer.",
+      "B. Advise that the help desk will investigate and follow up at a later date.",
+      "C. Put the customer on hold and escalate the call to a manager.",
+      "D. Use open-ended questions to further diagnose the issue."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "question": "A technician is securing a new Windows 10 workstation and wants to enable a Screensaver lock. Which of the following options in the Windows settings should the technician use?",
+    "options": [
+      "A. Ease of Access",
+      "B. Privacy",
+      "C. Personalization",
+      "D. Update and Security"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician should use the Personalization option in the Windows settings to enable a Screensaver lock. The Personalization option allows users to customize the appearance and behavior of their desktop, such as themes, colors, backgrounds, lock screen and screensaver. The technician can enable a Screensaver lock by choosing a screensaver from the drop-down menu, setting a wait time in minutes and checking the box that says “On resume, display logon screen”. This will lock the computer and require a password or PIN to log back in after the screensaver is activated. Ease of Access is an option in the Windows settings that allows users to adjust accessibility features and settings, such as narrator, magnifier, high contrast and keyboard shortcuts. Ease of Access is not related to enabling a Screensaver lock. Privacy is an option in the Windows settings that allows users to manage privacy and security settings, such as location, camera, microphone and app permissions. Privacy is not related to enabling a Screensaver lock. Update and Security is an option in the Windows settings that allows users to check and install updates, troubleshoot problems, backup files and restore system. Update and Security is not related to enabling a Screensaver lock."
+  },
+  {
+    "id": 133,
+    "question": "A small-office customer needs three PCs to be configured in a network with no server. Which of the following network types is the customer's BEST choice for this environment?",
+    "options": [
+      "A. Workgroup network",
+      "B. Public network",
+      "C. Wide area network",
+      "D. Domain network"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A workgroup network is a peer-to-peer network where each PC can share files and resources with other PCs without a central server. A public network is a network that is accessible to anyone on the internet. A wide area network is a network that spans a large geographic area, such as a country or a continent. A domain network is a network where a server controls the access and security of the PCs."
+  },
+  {
+    "id": 134,
+    "question": "An administrator has submitted a change request for an upcoming server deployment. Which of the following must be completed before the change can be approved?",
+    "options": [
+      "A. Risk analysis",
+      "B. Sandbox testing",
+      "C. End user acceptance",
+      "D. Lessons learned"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Risk analysis is the process of identifying and evaluating the potential threats and impacts of a change on the system, network, or service. It is an essential step before approving a change request, as it helps to"
+  },
+  {
+    "id": 135,
+    "question": "A user connected a smartphone to a coffee shop's public Wi-Fi and noticed the smartphone started sending unusual SMS messages and registering strange network activity. A technician thinks a virus or other malware has infected the device. Which of the following should the technician suggest the user do to best address these security and privacy concerns?",
+    "options": [
+      "A. Disable Wi-Fi autoconnect.",
+      "B. Stay offline when in public places.",
+      "C. Uninstall all recently installed applications.",
+      "D. Schedule an antivirus scan."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 136,
+    "question": "It is important in forensic investigations to establish that the evidence is in fact related to the case, and that it has not been tampered with or contaminated. A technician needs to track evidence for a forensic investigation on a Windows computer by following the proper procedures for collecting, handling, storing, and analyzing the evidence, and documenting every step of the process on a chain of custody form23. A new spam gateway was recently deployed at a small business However; users still occasionally receive spam. The management team is concerned that users will open the messages and potentially infect the network systems. Which of the following is the MOST effective method for dealing with this Issue?",
+    "options": [
+      "A. Adjusting the spam gateway",
+      "B. Updating firmware for the spam appliance",
+      "C. Adjusting AV settings",
+      "D. Providing user training"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The most effective method for dealing with spam messages in a small business is to provide user training"
+  },
+  {
+    "id": 137,
+    "question": "System Indexing Options Device Manager Programs and FeaturesA user is having phone issues after installing a new application that claims to optimize performance. The user downloaded the application directly from the vendor's website and is now experiencing high network utilization and is receiving repeated security warnings. Which of the following should the technician perform FIRST to mitigate the issue?",
+    "options": [
+      "A. Reset the phone to factory settings",
+      "B. Uninstall the fraudulent application",
+      "C. Increase the data plan limits",
+      "D. Disable the mobile hotspot."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "question": "After a security event, a technician removes malware from an affected laptop and disconnects the Question A technician is trying to remove malware from a laptop from the network. Which of the following should the technician do to prevent the operating system from automatically returning to an infected state?",
+    "options": [
+      "A. Enable System Restore.",
+      "B. Disable System Restore.",
+      "C. Enable antivirus.",
+      "D. Disable antivirus."
+    ],
+    "correctAnswer": 1,
+    "explanation": "System Restore is a feature that allows the user to revert the system to a previous state. However, this can also restore the malware that was removed by the technician. Disabling System Restore can prevent the operating system from automatically returning to an infected state. Enabling antivirus, educating the user, and enabling System Restore are good preventive measures, but they do not address the question. Disabling antivirus can make the system more vulnerable to malware attacks."
+  },
+  {
+    "id": 139,
+    "question": "Question A technician installed Windows 10 on a workstation. The workstation only has 3.5GB of usable RAM, even though the technician installed 8GB. Which of the following is the MOST likely reason this system is not utilizing all the available RAM?",
+    "options": [
+      "A. The system is missing updates.",
+      "B. The system is utilizing a 32-bit OS.",
+      "C. The system's memory is failing.",
+      "D. The system requires BIOS updates."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most likely reason that the system is not utilizing all the available RAM is that it is running a 32-bit OS. A 32-bit OS can only address up to 4GB of RAM, and some of that is reserved for hardware and system use. Therefore, even if the technician installed 8GB of RAM, the system can only use around 3.5GB of usable RAM. To use the full 8GB of RAM, the technician would need to install a 64-bit OS, which can address much more memory. The system missing updates, the system’s memory failing, or the system requiring BIOS updates are not likely to cause this issue."
+  },
+  {
+    "id": 140,
+    "question": "A user reports a PC is running slowly. The technician suspects it has a badly fragmented hard drive. Which of the following tools should the technician use?",
+    "options": [
+      "A. resmon.exe",
+      "B. msconfig.extf",
+      "C. dfrgui.exe",
+      "D. msmfo32.exe"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician should use dfrgui.exe to defragment the hard drive."
+  },
+  {
+    "id": 141,
+    "question": "A Linux technician needs a filesystem type that meets the following requirements: - All changes are tracked. - The possibility of file corruption is reduced. - Data recovery is easy. Which of the following filesystem types best meets these requirements?",
+    "options": [
+      "A. ext3",
+      "B. FAT32",
+      "C. exFAT",
+      "D. NTFS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The ext3 file system is a Linux native file system that meets the requirements of the question. It has the following features:"
+  },
+  {
+    "id": 142,
+    "question": "✑ Data recovery is easy. The ext3 file system supports undeletion of files using tools such as ext3grep or extundelete, which can scan the file system for deleted inodes and attempt to recover the data blocks associated with them34. A remote user is experiencing issues connecting to a corporate email account on a laptop. The user clicks the internet connection icon and does not recognize the connected Wi-Fi. The help desk technician, who is troubleshooting the issue, assumes this is a rogue access point. Which of the following is the first action the technician should take?",
+    "options": [
+      "A. Restart the wireless adapter.",
+      "B. Launch the browser to see if it redirects to an unknown site.",
+      "C. Instruct the user to disconnect the Wi-Fi.",
+      "D. Instruct the user to run the installed antivirus software."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Instructing the user to disconnect the Wi-Fi is the first action the technician should take if they suspect a rogue access point. A rogue access point is an unauthorized wireless network that could be used to intercept or manipulate network traffic, compromise security, or launch attacks. Disconnecting the Wi-Fi would prevent further exposure or damage to the user’s device or data. Restarting the wireless adapter, launching the browser, or running the antivirus software are possible actions to take after disconnecting the Wi-Fi, but they are not as urgent or effective as the first step."
+  },
+  {
+    "id": 143,
+    "question": "Which of the following is used to identify potential issues with a proposed change prior to implementation?",
+    "options": [
+      "A. Request form",
+      "B. Rollback plan",
+      "C. End-user acceptance",
+      "D. Sandbox testing"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Sandbox testing is a method of identifying potential issues with a proposed change prior to implementation. It involves creating a simulated or isolated environment that mimics the real system and applying the change to it. This can help to verify that the change works as expected and does not cause any errors or conflicts. Request form, rollback plan, and end-user acceptance are other components of a change management process, but they do not involve identifying issues with a change."
+  },
+  {
+    "id": 144,
+    "question": "A user calls the help desk to report that Windows installed updates on a laptop and rebooted overnight. When the laptop started up again, the touchpad was no longer working. The technician thinks the software that controls the touchpad might be the issue. Which of the following tools should the technician use to make adjustments?",
+    "options": [
+      "A. eventvwr.msc",
+      "B. perfmon.msc",
+      "C. gpedic.msc",
+      "D. devmgmt.msc"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "question": "A large university wants to equip all classrooms with high-definition IP videoconferencing equipment. Which of the following would most likely be impacted in this situation?",
+    "options": [
+      "A. SAN",
+      "B. LAN",
+      "C. GPU",
+      "D. PAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "LAN is the most likely option to be impacted in this situation. LAN stands for Local Area Network, and it is a network that connects devices within a limited area, such as a building or a campus. Installing high-definition IP videoconferencing equipment in all classrooms would require a high bandwidth and reliable LAN infrastructure to support the video and audio transmission. The LAN would also need to be configured with proper security, quality of service, and multicast protocols to ensure the optimal performance of the videoconferencing system. SAN, GPU, and PAN are not directly related to this scenario. SAN stands for Storage Area Network, and it is a network that provides access to consolidated storage devices. GPU stands for Graphics Processing Unit, and it is a hardware component that handles graphics rendering and computation. PAN stands for Personal Area Network, and it is a network that connects devices within a short range, such as Bluetooth or infrared."
+  },
+  {
+    "id": 146,
+    "question": "A technician is in the process of installing a new hard drive on a server but is called away to another task. The drive has been unpackaged and left on a desk. Which of the following should the technician perform before leaving?",
+    "options": [
+      "A. Ask coworkers to make sure no one touches the hard drive.",
+      "B. Leave the hard drive on the table; it will be okay while the other task is completed.",
+      "C. Place the hard drive in an antistatic bag and secure the area containing the hard drive.",
+      "D. Connect an electrostatic discharge strap to the drive."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician should place the hard drive in an antistatic bag and secure the area containing the hard drive before leaving. This will protect the hard drive from electrostatic discharge (ESD), dust, moisture, and physical damage. Asking coworkers to make sure no one touches the hard drive is not a reliable or secure way to prevent damage. Leaving the hard drive on the table exposes it to ESD and other environmental hazards. Connecting an electrostatic discharge strap to the drive is not enough to protect it from dust, moisture, and physical damage."
+  },
+  {
+    "id": 147,
+    "question": "A technician is troubleshooting a Windows 10 PC that is unable to start the GUI. A new SSD and a new copy of Windows were recently installed on the PC. Which of the following is the most appropriate command to use to fix the issue?",
+    "options": [
+      "A. msconfig",
+      "B. chkdsk",
+      "C. sfc",
+      "D. diskpart"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The sfc command is a tool for scanning and repairing system files that are corrupted or missing on Windows operating systems. System files are essential files that are required for the proper functioning of the operating system."
+  },
+  {
+    "id": 148,
+    "question": "The sfc command can be used with different switches, such as /scannow, /verifyonly, /scanfile, or /offbootdir, depending on the situation and the desired action4. The most common switch is /scannow, which scans all the system files and repairs any problems that are found5. The syntax of the sfc command with the /scannow switch is: sfc /scannow The sfc command will then scan and repair the system files, and display the results on the screen. If the sfc command is able to fix the system files, the PC should be able to start the GUI normally after rebooting. If the sfc command is unable to fix the system files, the PC may need further troubleshooting or a clean installation of Windows. References1: CompTIA A+ Certification Exam Core 2 Objectives, page 10 2: CompTIA A+ Core 2 (220-1102) Complete Video Course, Lesson 26 Documentation 3: How to use SFC Scannow to repair Windows system files 4: SFC Command (System File Checker) 5: How to Repair Windows 10 using Command PromptA technician installs specialized software on a workstation. The technician then attempts to run the software. The workstation displays a message indicating the software is not authorized to run. Which of the following should the technician do to most likely resolve the issue?",
+    "options": [
+      "A. Install the software in safe mode.",
+      "B. Attach the external hardware token.",
+      "C. Install OS updates.",
+      "D. Restart the workstation after installation."
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hardware token is a physical device that provides an additional layer of security for software authorization. Some specialized software may require a hardware token to be attached to the workstation in order to run. A hardware token may contain a cryptographic key, a password, or a one-time code that"
+  },
+  {
+    "id": 149,
+    "question": "A BSOD appears on a user's workstation monitor. The user immediately presses the power button to shut down the PC, hoping to repair the issue. The user then restarts the PC, and the BSOD reappears, so the user contacts the help desk. Which of the following should the technician use to determine the cause?",
+    "options": [
+      "A. Stop code",
+      "B. Event Mewer",
+      "C. Services",
+      "D. System Configuration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a Blue Screen of Death (BSOD) appears on a Windows workstation, it indicates that there is a serious problem with the operating system. The stop code displayed on the BSOD can provide valuable information to help determine the cause of the issue. The stop code is a specific error code that is associated with the BSOD, and it can help identify the root cause of the problem."
+  },
+  {
+    "id": 150,
+    "question": "A technician at a customer site is troubleshooting a laptop. A software update needs to be downloaded but the company's proxy is blocking traffic to the update site. Which of the following should the technician perform?",
+    "options": [
+      "A. Change the DNS address to 1.1.1.1",
+      "B. Update Group Policy",
+      "C. Add the site to the client's exceptions list",
+      "D. Verify the software license is current."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician should add the update site to the client’s exceptions list to bypass the proxy. This can be done through the client’s web browser settings, where the proxy settings can be configured."
+  }
+]

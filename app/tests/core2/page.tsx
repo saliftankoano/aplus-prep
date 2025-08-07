@@ -4,56 +4,154 @@ export default function Core2TestsPage() {
   const practiceTests = [
     {
       id: 1,
-      title: "Operating Systems Fundamentals",
-      description: "Master Windows, macOS, and Linux operating systems",
-      topics: ["Windows Installation", "macOS Configuration", "Linux Basics", "File Systems"],
+      title: "Test 1: System Installation & Configuration",
+      description: "Server installation, backup methods, and system configuration",
+      topics: ["Bare-metal installation", "Backup methods", "Windows settings", "System configuration"],
       questions: 30,
-      difficulty: "Beginner",
+      difficulty: "Intermediate",
       gradient: "from-blue-500 to-blue-700"
     },
     {
       id: 2,
-      title: "Security & Best Practices",
-      description: "Learn security protocols and operational procedures",
-      topics: ["Security Policies", "Access Control", "Data Protection", "Incident Response"],
+      title: "Test 2: Security & User Management",
+      description: "Security controls, user permissions, and system administration",
+      topics: ["NTFS security", "User permissions", "macOS utilities", "System administration"],
       questions: 30,
       difficulty: "Intermediate",
       gradient: "from-green-500 to-green-700"
     },
     {
       id: 3,
-      title: "Software Troubleshooting",
-      description: "Diagnose and resolve common software issues",
-      topics: ["Application Issues", "OS Problems", "Performance Optimization", "Malware Removal"],
+      title: "Test 3: Software Installation & Troubleshooting",
+      description: "Software installation, file management, and system troubleshooting",
+      topics: ["Software installation", "File management", "System troubleshooting", "Performance issues"],
       questions: 30,
       difficulty: "Advanced",
       gradient: "from-purple-500 to-purple-700"
+    },
+    {
+      id: 4,
+      title: "Test 4: Network Configuration & Security",
+      description: "Network setup, security protocols, and connectivity issues",
+      topics: ["Network configuration", "Security protocols", "Connectivity issues", "Network troubleshooting"],
+      questions: 30,
+      difficulty: "Intermediate",
+      gradient: "from-indigo-500 to-indigo-700"
+    },
+    {
+      id: 5,
+      title: "Test 5: System Maintenance & Optimization",
+      description: "System maintenance, performance optimization, and disk management",
+      topics: ["System maintenance", "Performance optimization", "Disk management", "System updates"],
+      questions: 30,
+      difficulty: "Beginner",
+      gradient: "from-teal-500 to-teal-700"
+    },
+    {
+      id: 6,
+      title: "Test 6: Mobile Device Management",
+      description: "Mobile device configuration, security, and synchronization",
+      topics: ["Mobile configuration", "Device security", "Synchronization", "Mobile troubleshooting"],
+      questions: 30,
+      difficulty: "Intermediate",
+      gradient: "from-orange-500 to-orange-700"
+    },
+    {
+      id: 7,
+      title: "Test 7: Cloud Services & Virtualization",
+      description: "Cloud computing, virtualization, and service models",
+      topics: ["Cloud computing", "Virtualization", "Service models", "Cloud security"],
+      questions: 30,
+      difficulty: "Advanced",
+      gradient: "from-cyan-500 to-cyan-700"
+    },
+    {
+      id: 8,
+      title: "Test 8: Data Protection & Privacy",
+      description: "Data encryption, backup procedures, and privacy controls",
+      topics: ["Data encryption", "Backup procedures", "Privacy controls", "Data protection"],
+      questions: 30,
+      difficulty: "Intermediate",
+      gradient: "from-emerald-500 to-emerald-700"
+    },
+    {
+      id: 9,
+      title: "Test 9: Troubleshooting & Problem Resolution",
+      description: "Systematic troubleshooting and problem resolution techniques",
+      topics: ["Troubleshooting methodology", "Problem resolution", "System diagnostics", "Issue escalation"],
+      questions: 30,
+      difficulty: "Advanced",
+      gradient: "from-violet-500 to-violet-700"
+    },
+    {
+      id: 10,
+      title: "Test 10: Customer Service & Communication",
+      description: "Professional communication and customer service skills",
+      topics: ["Customer service", "Communication skills", "Professional ethics", "Support procedures"],
+      questions: 30,
+      difficulty: "Beginner",
+      gradient: "from-rose-500 to-rose-700"
+    },
+    {
+      id: 11,
+      title: "Test 11: Hardware & Component Management",
+      description: "Hardware components, device management, and system hardware",
+      topics: ["Hardware components", "Device management", "System hardware", "Component troubleshooting"],
+      questions: 30,
+      difficulty: "Intermediate",
+      gradient: "from-slate-500 to-slate-700"
+    },
+    {
+      id: 12,
+      title: "Test 12: Peripheral & External Devices",
+      description: "Peripheral device configuration and external device management",
+      topics: ["Peripheral devices", "External devices", "Device configuration", "Device troubleshooting"],
+      questions: 30,
+      difficulty: "Beginner",
+      gradient: "from-amber-500 to-amber-700"
+    },
+    {
+      id: 13,
+      title: "Test 13: Network Security & Monitoring",
+      description: "Network security implementation and monitoring systems",
+      topics: ["Network security", "Security monitoring", "Firewall configuration", "Security protocols"],
+      questions: 30,
+      difficulty: "Advanced",
+      gradient: "from-red-500 to-red-700"
+    },
+    {
+      id: 14,
+      title: "Test 14: System Administration & Policies",
+      description: "System administration tasks and policy management",
+      topics: ["System administration", "Policy management", "User administration", "System configuration"],
+      questions: 30,
+      difficulty: "Advanced",
+      gradient: "from-lime-500 to-lime-700"
+    },
+    {
+      id: 15,
+      title: "Test 15: Final Comprehensive Review",
+      description: "Comprehensive review covering all Core 2 exam objectives",
+      topics: ["Mixed objectives", "Real-world scenarios", "Exam preparation", "Comprehensive review"],
+      questions: 9,
+      difficulty: "Advanced",
+      gradient: "from-gray-500 to-gray-700"
     }
   ];
 
   return (
-    <div className="h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100 overflow-hidden">
-      {/* Header */}
-      <div className="bg-white/95 backdrop-blur-md shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/tests" className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">A+</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">Prep</span>
-            </Link>
-            
-            <div className="flex items-center space-x-4">
-              <Link 
-                href="/tests"
-                className="text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                ← Back to Tests
-              </Link>
-            </div>
-          </div>
-        </div>
+        <div className="h-screen bg-gradient-to-br from-blue-50 via-gray-50 to-blue-100 overflow-hidden">
+      {/* Back Button */}
+      <div className="absolute top-6 left-6 z-10">
+        <Link 
+          href="/"
+          className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+        >
+          <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m12 19-7-7 7-7" />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 12H5" />
+          </svg>
+        </Link>
       </div>
 
       {/* Main Content */}
@@ -107,7 +205,7 @@ export default function Core2TestsPage() {
                   </div>
 
                   <Link 
-                    href={`/quiz/core2/test${test.id}`}
+                    href={`/tests/core2/quiz/${test.id}`}
                     className="block w-full bg-white/20 backdrop-blur-sm text-white border border-white/30 px-6 py-3 rounded-2xl font-semibold text-center transition-all duration-300 hover:bg-white hover:text-gray-900 transform hover:scale-105"
                   >
                     Start Test {test.id}

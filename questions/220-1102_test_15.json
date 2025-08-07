@@ -1,0 +1,110 @@
+[
+  {
+    "id": 421,
+    "question": "One of the common reasons for a slow smartphone performance is having too many apps installed and running in the background. These apps consume the device’s memory (RAM) and CPU resources, which can affect the speed and responsiveness of the phone. Rebooting the phone can temporarily clear the RAM and stop some background processes, but they may resume after a while. Connecting to a different network does not affect the performance of the phone, unless the network is congested or has a poor signal. The user can improve the phone’s performance by uninstalling unused apps, clearing app caches, and restricting background activities12. Malware can also slow down a phone, but it is not the most likely cause in this scenario, as the user does not report any other symptoms of infection, such as pop-ups, battery drain, or data usage spikes3. Jailbreaking a phone can also affect its performance, but",
+    "options": [
+      "A. Corporate",
+      "B. Perpetual",
+      "C. Open-source",
+      "D. Personal"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 422,
+    "question": "A corporate EULA is a type of end-user license agreement that is designed for a large organization that needs to use proprietary software with vendor support for a multiuser environment. A corporate EULA typically grants the organization a volume license that allows it to install and use the software on multiple devices or servers, and to distribute the software to its employees or affiliates. A corporate EULA also usually provides the organization with technical support, maintenance, updates, and warranty from the software vendor, as well as some customization options and discounts. A corporate EULA may also include terms and conditions that specify the rights and obligations of both parties, such as confidentiality, liability, indemnification, termination, and dispute resolution12. A corporate EULA is a better option than the other choices because:",
+    "options": [
+      "A. MDM",
+      "B. EULA",
+      "C. IRP",
+      "D. AUP"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 423,
+    "question": "The best sign-on option that would allow any employee the ability to unlock the kiosk that relies exclusively on a numeric keypad is to use a PIN and provide it to employees. A PIN is a Personal Identification Number that is a numeric code that can be used as part of authentication or access control. A PIN can be entered using only a numeric keypad and can be easily shared with employees who need to unlock the kiosk. Requiring employees to enter their usernames and passwords may not be feasible or convenient if the kiosk only has a numeric keypad and no other input devices. Setting up facial recognition for each employee may not be possible or secure if the kiosk does not have a camera or biometric sensor. Requiring employees to use their fingerprints may not be possible or secure if the kiosk does not have a fingerprint scanner or biometric sensor.",
+    "options": [
+      "A. Anti-malware",
+      "B. Remote wipe",
+      "C. Locator applications",
+      "D. Screen lock"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 424,
+    "question": "Explanation: A S.M.A.R.T. error is a warning that a hard drive is about to fail or has failed. This means that the OS cannot be loaded from the drive and the user will see an error message indicating there is no OS found. The most likely cause of this issue is drive failure. 233. Which of the following is the MOST basic version of Windows that includes BitLocker?",
+    "options": [
+      "A. Home",
+      "B. pro",
+      "C. Enterprise",
+      "D. Pro for Workstations"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The most basic version of Windows that includes BitLocker is Windows Pro. BitLocker is a feature of Windows Pro that provides full disk encryption for all data on a storage drive [1]. It helps protect data from unauthorized access or theft and can help secure data from malicious attacks. Pro for Workstations includes this feature, as well as other features such as support for up to 6 TB of RAM and ReFS."
+  },
+  {
+    "id": 425,
+    "question": "Explanation: The most effective clarifying question for the help desk technician to ask the user in order to understand the issue is A. What is the error message?",
+    "options": [
+      "A. Brute force",
+      "B. Zero day",
+      "C. Denial of service",
+      "D. On-path"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A zero-day attack is an attack that exploits a previously unknown vulnerability in a computer application, meaning that the attack occurs on “day zero” of awareness of the vulnerability."
+  },
+  {
+    "id": 426,
+    "question": "Explanation: Pathping is the best command-line tool to provide the most detailed information for investigating the network performance issues.Pathping is a utility that combines the functions of ping and tracert, which are two other command-line tools that test network connectivity and latency. Pathping sends packets to each router on the path to a destination and then computes results based on the packets returned from each hop. Pathping can show the route taken by the packets, the number of hops, the latency of each hop, and the packet loss percentage. This information can help the systems administrator identify where the network problem occurs and how severe it is. Ipconfig, arp, and nslookup are not as useful as pathping for this task. Ipconfig shows the configuration of the network interface card, such as IP address, subnet mask, and default gateway. Arp shows the mapping of IP addresses to MAC addresses in the local network. Nslookup queries DNS servers for domain name resolution. A technician needs to reimage a desktop in an area without network access. Which of the following should the technician use?",
+    "options": [
+      "A. USB",
+      "B. PXE",
+      "C. Optical media",
+      "D. Partition"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A technician needs to reimage a desktop in an area without network access, which means that the technician cannot use network-based methods such as PXE or SMB to deploy the image. Therefore, the technician should use offline methods that involve removable media such as USB or optical media. USB and optical media are common ways to store and transfer system images, and they can be used to boot the desktop and initiate the reimaging process. The technician will need to create a bootable USB or optical media that contains the system image and the imaging software, and then insert it into the desktop and change the boot order in the BIOS or UEFI settings. The technician can then follow the instructions on the screen to reimage the desktop."
+  },
+  {
+    "id": 427,
+    "question": "- E. LinuxExplanation: Windows is the operating system that typically requires the most computing resources from the host computer, compared to the other options. Computing resources include hardware components such as CPU, RAM, disk space, graphics card, and network adapter. The minimum system requirements for an operating system indicate the minimum amount of computing resources needed to install and run the operating system on a computer. The higher the minimum system requirements, the more computing resources are needed.resources the operating system consumes. - Windows, macOS, Chrome OS, or Linux: Which Operating System Is Right for You?",
+    "options": [
+      "A. Click proceed.",
+      "B. Report the employee to the human resources department for violating company policy.",
+      "C. Restore the computer from the last known backup.",
+      "D. Close the browser window and report the email to IT security."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 428,
+    "question": "1. What is a Corporate License Agreement?",
+    "options": [
+      "A. MDM",
+      "B. EULA",
+      "C. IRP",
+      "D. AUP"
+    ],
+    "correctAnswer": 3,
+    "explanation": "AUP (Acceptable Use Policy) should be updated to reflect this new requirement. The AUP is a document that outlines the acceptable use of technology within an organization. It is a set of rules that employees must follow when using company resources. The AUP should be updated to include a policy on cryptocurrency mining on work desktops."
+  },
+  {
+    "id": 429,
+    "question": "Explanation: Encrypting the laptop's hard drive will ensure that any sensitive data stored on the laptop is secure, even if the laptop is lost or stolen. Encryption ensures that the data cannot be accessed by anyone without the correct encryption key. This is an important security measure for any laptop used by an employee who travels, as it helps to protect the data stored on the laptop from unauthorized access. When a user is in the office, the user's mobile phone loads applications and web browses very slowlyon a cellular connection. Which of the following is the best way to fix this issue?",
+    "options": [
+      "A. Connect to the company's Wi-Fi network.",
+      "B. Change the settings on the phone to connect to a different cellular tower.",
+      "C. Install a cellular repeater at the office for this user.",
+      "D. Update all applications on the phone."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]
