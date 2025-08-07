@@ -1,0 +1,362 @@
+[
+  {
+    "id": 31,
+    "question": "✑ Defragmenting the hard drive means rearranging the files on the disk so that they are stored in contiguous blocks. This will improve the disk performance and reduce the time it takes to read and write data2. 1: CompTIA A+ Certification Exam: Core 2 Objectives, page 23, section 3.1. 2: CompTIA A+ Certification Exam: Core 2 Objectives, page 24, section 3.2.46. A technician needs administrator access on a Windows workstation to facilitate system changes without elevating permissions. Which of the following would best accomplish this task?",
+    "options": [
+      "A. Group Policy Editor",
+      "B. Local Users and Groups",
+      "C. Device Manager",
+      "D. System Configuration"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 32,
+    "question": "Maintaining the chain of custody is an important part of the incident response process. Which of the following reasons explains why this is important?",
+    "options": [
+      "A. To maintain an information security policy",
+      "B. To properly identify the issue",
+      "C. To control evidence and maintain integrity",
+      "D. To gather as much information as possible"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Maintaining the chain of custody is important to control evidence and maintain integrity. The chain of custody is a process that documents who handled, accessed, or modified a piece of evidence."
+  },
+  {
+    "id": 33,
+    "question": "Which of the following macOS utilities uses AES-128 to encrypt the startup disk?",
+    "options": [
+      "A. fdisk",
+      "B. Diskpart",
+      "C. Disk Utility",
+      "D. FileVault"
+    ],
+    "correctAnswer": 3,
+    "explanation": "FileVault is a macOS utility that uses AES-128 (Advanced Encryption Standard) to encrypt the startup disk of a Mac computer. It protects the data from unauthorized access if the computer is lost or stolen. fdisk and Diskpart are disk partitioning utilities for Linux and Windows, respectively. Disk Utility is another macOS utility that can perform disk management tasks, such as formatting, resizing, repairing, etc."
+  },
+  {
+    "id": 34,
+    "question": "A customer calls a service support center and begins yelling at a technician about a feature for a product that is not working to the customer's satisfaction. This feature is not supported by the service support center and requires a field technician to troubleshoot. The customer continues to demand service. Which of the following is the BEST course of action for the support center representative to take?",
+    "options": [
+      "A. Inform the customer that the issue is not within the scope of this department.",
+      "B. Apologize to the customer and escalate the issue to a manager.",
+      "C. Ask the customer to explain the issue and then try to fix it independently.",
+      "D. Respond that the issue is something the customer should be able to fix."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Apologizing to the customer and escalating the issue to a manager is the best course of action for the support center representative to take. This shows empathy and professionalism and allows the manager to handle the situation and provide the appropriate service or resolution for the customer."
+  },
+  {
+    "id": 35,
+    "question": "A technician is installing new software on a macOS computer. Which of the following file types will the technician MOST likely use?",
+    "options": [
+      "A. .deb",
+      "B. .vbs",
+      "C. .exe",
+      "D. .app"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The file type that the technician will MOST likely use when installing new software on a macOS computer is .app."
+  },
+  {
+    "id": 36,
+    "question": "A technician needs to perform after-hours service starting at 10:00 p.m. The technician is currently 20 minutes late. The customer will also be late. Which of the following should the technician do considering proper communication techniques and professionalism?",
+    "options": [
+      "A. Do not notify the customer if arriving before the customer.",
+      "B. Dismiss the customer and proceed with the after-hours work.",
+      "C. Contact the customer if the technician is arriving late.",
+      "D. Disclose the experience via social media."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "A user has a computer with Windows 10 Home installed and purchased a Windows 10 Pro license. The user is not sure how to upgrade the OS. Which of the following should the technician do to apply this license?",
+    "options": [
+      "A. Copy the c:\\Wlndows\\wlndows.lie file over to the machine and restart.",
+      "B. Redeem the included activation key card for a product key.",
+      "C. Insert a Windows USB hardware dongle and initiate activation.",
+      "D. Activate with the digital license included with the device hardware."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Redeeming the included activation key card for a product key is the correct way to apply a Windows 10 Pro license to a computer that has Windows 10 Home installed. The activation key card is a physical or digital card that contains a 25-digit code that can be used to activate Windows 10 Pro online or by phone. Copying the windows.lie file, inserting a Windows USB hardware dongle and activating with the digital license are not valid methods of applying a Windows 10 Pro license."
+  },
+  {
+    "id": 38,
+    "question": "Which of the following file types allows a user to easily uninstall software from macOS by simply placing it in the trash bin?",
+    "options": [
+      "A. .exe",
+      "B. .dmg",
+      "C. .app",
+      "D. .rpm"
+    ],
+    "correctAnswer": 2,
+    "explanation": ".app files are application bundles that contain all the necessary files and resources for a Mac app. They can be easily deleted by dragging them to the Trash or using Launchpad. Other file types, such as .exe, .dmg, .rpm, and .pkg, are either not compatible with macOS or require additional steps to uninstall."
+  },
+  {
+    "id": 39,
+    "question": "A user is trying to use proprietary software, but it crashes intermittently. The user notices that the desktop is displaying a \"low memory\" warning message. Upon restarting the desktop, the issue persists. Which of the following should a technician do next to troubleshoot the issue?",
+    "options": [
+      "A. Reimage the computer.",
+      "B. Replace the system RAM.",
+      "C. Reinstall and update the failing software.",
+      "D. Decrease the page file size."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most likely cause of the intermittent crashes is that the proprietary software is incompatible, outdated, or corrupted. Reinstalling and updating the software can fix these issues and ensure the software runs smoothly. Reimaging the computer or replacing the system RAM are too drastic and unnecessary steps. Decreasing the page file size can worsen the low memory problem and affect the performance of other applications."
+  },
+  {
+    "id": 40,
+    "question": "An administrator is designing and implementing a server backup system that minimizes the capacity of storage used. Which of the following is the BEST backup approach to use in conjunction with synthetic full backups?",
+    "options": [
+      "A. Differential",
+      "B. Open file",
+      "C. Archive",
+      "D. Incremental"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Incremental backups are backups that only include the changes made since the last backup, whether it was a full or an incremental backup. Incremental backups minimize the capacity of storage used and are often used in conjunction with synthetic full backups, which are backups that combine a full backup and subsequent incremental backups into a single backup set."
+  },
+  {
+    "id": 41,
+    "question": "A technician is editing the hosts file on a few PCs in order to block certain domains. Which of the following would the technician need to execute after editing the hosts file?",
+    "options": [
+      "A. Enable promiscuous mode.",
+      "B. Clear the browser cache.",
+      "C. Add a new network adapter.",
+      "D. Reset the network adapter."
+    ],
+    "correctAnswer": 3,
+    "explanation": "Resetting the network adapter is the best way to apply the changes made to the hosts file on a few PCs. The hosts file is a text file that maps hostnames to IP addresses and can be used to block certain domains by redirecting them to invalid or local addresses. Resetting the network adapter will clear the DNS cache and force the PC to use the new entries in the hosts file."
+  },
+  {
+    "id": 42,
+    "question": "Which of the following Linux commands would be used to install an application?",
+    "options": [
+      "A. yum",
+      "B. grep",
+      "C. Is",
+      "D. sudo"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The Linux command used to install an application is sudo. The sudo command allows users to run programs with the security privileges of another user, such as the root user. This is necessary to install applications because it requires administrative privileges."
+  },
+  {
+    "id": 43,
+    "question": "The Chief Executive Officer at a bank recently saw a news report about a high-profile cybercrime where a remote-access tool that the bank uses for support was also used in this crime. The report stated that attackers were able to brute force passwords to access systems. Which of the following would BEST limit the bank's risk?",
+    "options": [
+      "A. Enable multifactor authentication for each support account",
+      "B. Limit remote access to destinations inside the corporate network",
+      "C. Block all support accounts from logging in from foreign countries",
+      "D. Configure a replacement remote-access tool for support cases."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "Which of the following protects a mobile device against unwanted access when it is left unattended?",
+    "options": [
+      "A. PIN code",
+      "B. OS updates",
+      "C. Antivirus software",
+      "D. BYOD policy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A PIN code is a numeric password that protects a mobile device against unwanted access when it is left unattended. It requires the user to enter the correct code before unlocking the device. OS updates, antivirus software and BYOD policy are other security measures for mobile devices, but they do not prevent unauthorized access when the device is left unattended."
+  },
+  {
+    "id": 45,
+    "question": "A mobile phone user has downloaded a new payment application that allows payments to be made with a mobile device. The user attempts to use the device at a payment terminal but is unable to do so successfully. The user contacts a help desk technician to report the issue. Which of the following should the technician confirm NEXT as part of the troubleshooting process?",
+    "options": [
+      "A. If airplane mode is enabled",
+      "B. If Bluetooth is disabled",
+      "C. If NFC is enabled",
+      "D. If WiFi is enabled"
+    ],
+    "correctAnswer": 2,
+    "explanation": "NFC stands for Near Field Communication, and it is a wireless technology that allows your phone to act as a contactless payment device, among other things"
+  },
+  {
+    "id": 46,
+    "question": "Payment applications that allow payments to be made with a mobile device usually rely on NFC to communicate with the payment terminal1. Therefore, if NFC is disabled on the phone, the payment will not work. To enable NFC on an Android phone, you need to follow these steps3: - On your Android device, open the Settings app. - Select Connected devices. - Tap on Connection preferences. - You should see the NFC option. Toggle it on. The other options are not directly related to using a payment application with a mobile device. Airplane mode is a setting that disables all wireless communication on the phone, including NFC4, but it also affects calls, texts, and internet access. Bluetooth is a wireless technology that allows you to connect your phone with other devices such as headphones or speakers, but it is not used for contactless payments. Wi-Fi is a wireless technology that allows you to access the internet or a local network, but it is also not used for contactless payments. Location services are a feature that allows your phone to determine your geographic location using GPS or other methods, but they are not required for contactless payments. 66. A user installed a new application that automatically starts each time the user logs in to a Windows 10 system. The user does not want this to happen and has asked for this setting to be changed. Which of the following tools would the technician MOST likely use to safely make this change?",
+    "options": [
+      "A. Registry Editor",
+      "B. Task Manager",
+      "C. Event Viewer",
+      "D. Local Users and Groups"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The technician would most likely use the Task Manager tool to safely make this change."
+  },
+  {
+    "id": 47,
+    "question": "The tool that a technician would most likely use to stop an application from automatically starting when a user logs in to a Windows 10 system is the Task Manager. The Task Manager can be used to view and manage processes, including those that are set to automatically start when a user logs in to the system.A systems administrator is creating periodic backups of a folder on a Microsoft Windows machine. The source data is very dynamic, and files are either added or deleted regularly. Which of the following utilities can be used to ‘mirror the source data for the backup?",
+    "options": [
+      "A. copy",
+      "B. xcopy",
+      "C. robocopy",
+      "D. Copy-Item"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "After clicking on a link in an email a Chief Financial Officer (CFO) received the following error: The CFO then reported the incident to a technician. The link is purportedly to the organization's bank. Which of the following should the technician perform FIRST?",
+    "options": [
+      "A. Update the browser's CRLs",
+      "B. File a trouble ticket with the bank.",
+      "C. Contact the ISP to report the CFCs concern",
+      "D. Instruct the CFO to exit the browser"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The technician should update the browser’s CRLs first. The error message indicates that the certificate revocation list (CRL) is not up to date. Updating the CRLs will ensure that the browser can verify the authenticity of the bank’s website."
+  },
+  {
+    "id": 49,
+    "question": "A technician has just used an anti-malware removal tool to resolve a user's malware issue on a corporate laptop. Which of the following BEST describes what the technician should do before returning the laptop to the user?",
+    "options": [
+      "A. Educate the user on malware removal.",
+      "B. Educate the user on how to reinstall the laptop OS.",
+      "C. Educate the user on how to access recovery mode.",
+      "D. Educate the user on common threats and how to avoid them."
+    ],
+    "correctAnswer": 3,
+    "explanation": "educating the user on common threats and how to avoid them (D) would be a good step before returning the laptop to the user. This can help prevent similar issues from happening again."
+  },
+  {
+    "id": 50,
+    "question": "Resetting a corporate laptop back to a personal laptop… Enterprise vs Pro - WindowsAn architecture firm is considering upgrading its computer-aided design (CAD) software to the newest version that forces storage of backups of all CAD files on the software's cloud server. Which of the following is MOST likely to be of concern to the IT manager?",
+    "options": [
+      "A. All updated software must be tested with all system types and accessories",
+      "B. Extra technician hours must be budgeted during installation of updates",
+      "C. Network utilization will be significantly increased due to the size of CAD files",
+      "D. Large update and installation files will overload the local hard drives."
+    ],
+    "correctAnswer": 2,
+    "explanation": "The IT manager is most likely to be concerned about network utilization being significantly increased due to the size of CAD files. Backing up all CAD files to the software’s cloud server can result in a large amount of data being transferred over the network, which can cause network congestion and slow down other network traffic."
+  },
+  {
+    "id": 51,
+    "question": "A systems administrator is tasked with configuring desktop systems to use a new proxy server that the organization has added to provide content filtering. Which of the following Windows utilities IS the BEST choice for accessing the necessary configuration to complete this goal?",
+    "options": [
+      "A. Security and Maintenance",
+      "B. Network and Sharing Center",
+      "C. Windows Defender Firewall",
+      "D. Internet Options"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The best choice for accessing the necessary configuration to configure the desktop systems to use a new proxy server is the Internet Options utility. This utility can be found in the Control Panel and allows you to configure the proxy settings for your network connection. As stated in the CompTIA A+ Core 2 exam objectives, technicians should be familiar with the Internet Options utility and how to configure proxy settings."
+  },
+  {
+    "id": 52,
+    "question": "An Android user reports that when attempting to open the company's proprietary mobile application it immediately closes. The user states that the issue persists, even after rebooting the phone. The application contains critical information that cannot be lost. Which of the following steps should a systems administrator attempt FIRST?",
+    "options": [
+      "A. Uninstall and reinstall the application",
+      "B. Reset the phone to factory settings",
+      "C. Install an alternative application with similar functionality",
+      "D. Clear the application cache."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "Which of the following is a package management utility for PCs that are running the Linux operating system?",
+    "options": [
+      "A. chmod",
+      "B. yum",
+      "C. man",
+      "D. grep"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "A user rotates a cell phone horizontally to read emails, but the display remains vertical, even though the settings indicate autorotate is on. Which of the following will MOST likely resolve the issue?",
+    "options": [
+      "A. Recalibrating the magnetometer",
+      "B. Recalibrating the compass",
+      "C. Recalibrating the digitizer",
+      "D. Recalibrating the accelerometer"
+    ],
+    "correctAnswer": 3,
+    "explanation": "When a user rotates a cell phone horizontally to read emails and the display remains vertical, even though the settings indicate autorotate is on, this is typically due to a problem with the phone's accelerometer. The accelerometer is the sensor that detects changes in the phone's orientation and adjusts the display accordingly. If the accelerometer is not calibrated correctly, the display may not rotate as expected."
+  },
+  {
+    "id": 55,
+    "question": "A technician is setting up a newly built computer. Which of the following is the fastest way for the technician to install Windows 10?",
+    "options": [
+      "A. Factory reset",
+      "B. System Restore",
+      "C. In-place upgrade",
+      "D. Unattended installation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Windows 10"
+  },
+  {
+    "id": 56,
+    "question": "A user wants to back up a Windows 10 device. Which of the following should the user select?",
+    "options": [
+      "A. Devices and Printers",
+      "B. Email and Accounts",
+      "C. Update and Security",
+      "D. Apps and Features"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Update and Security is the section in Windows 10 Settings that allows the user to back up their device. Backing up a device means creating a copy of the data and settings on the device and storing it in another location, such as an external drive or a cloud service. Backing up a device can help the user restore their data and settings in case of data loss, corruption, or theft. Devices and Printers, Email and Accounts, and Apps and Features are not sections in Windows 10 Settings that allow the user to back up their device."
+  },
+  {
+    "id": 57,
+    "question": "An IT services company that supports a large government contract replaced the Ethernet cards on several hundred desktop machines to comply with regulatory requirements. Which of the following disposal methods for the non-compliant cards is the MOST environmentally friendly?",
+    "options": [
+      "A. incineration",
+      "B. Resale",
+      "C. Physical destruction",
+      "D. Dumpster for recycling plastics"
+    ],
+    "correctAnswer": 3,
+    "explanation": "When disposing of non-compliant Ethernet cards, the most environmentally friendly option is to use a dumpster for recycling plastics. This method is the most effective way to reduce the amount of waste that is sent to landfills, and it also helps to reduce the amount of energy used in the production of new materials. Additionally, recycling plastics helps to reduce the amount of toxic chemicals that can be released into the environment. According to CompTIA A+ Core 2 documents, \"The most environmentally friendly disposal method for non-compliant Ethernet cards is to use a dumpster for recycling plastics. This method is the most effective way to reduce the amount of waste that is sent to landfills, and it also helps to reduce the amount of energy used in the production of new materials.\""
+  },
+  {
+    "id": 58,
+    "question": "Which of the following must be maintained throughout the forensic evidence life cycle when dealing with a piece of evidence?",
+    "options": [
+      "A. Acceptable use",
+      "B. Chain of custody",
+      "C. Security policy",
+      "D. Information management"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The aspect of forensic evidence life cycle that must be maintained when dealing with a piece of evidence is chain of custody. This is because chain of custody is the documentation of the movement of evidence from the time it is collected to the time it is presented in court, and it is important to maintain the integrity of the evidence."
+  },
+  {
+    "id": 59,
+    "question": "A developer's Type 2 hypervisor is performing inadequately when compiling new source code. Which of the following components should the developer upgrade to improve the hypervisor’s performance?",
+    "options": [
+      "A. Amount of system RAM",
+      "B. NIC performance",
+      "C. Storage IOPS",
+      "D. Dedicated GPU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Amount of system RAM. A Type 2 hypervisor is a virtualization software that runs on top of a host operating system, which means it shares the system resources with the host OS and other applications. Therefore, increasing the amount of system RAM can improve the performance of the hypervisor and the virtual machines running on it. RAM is used to store data and instructions that are frequently accessed by the CPU, and having more RAM can reduce the need for swapping data to and from the storage device, which is slower than RAM."
+  },
+  {
+    "id": 60,
+    "question": "A systems administrator needs to reset a user's password because the user forgot it. The systems administrator creates the new password and wants to further protect the user's account. Which of the following should the systems administrator do?",
+    "options": [
+      "A. Require the user to change the password at the next log-in.",
+      "B. Disallow the user from changing the password.",
+      "C. Disable the account.",
+      "D. Choose a password that never expires."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]
