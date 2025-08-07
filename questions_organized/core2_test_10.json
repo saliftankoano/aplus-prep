@@ -1,0 +1,362 @@
+[
+  {
+    "id": 271,
+    "question": "A technician is selling up a newly built computer. Which of the following is the FASTEST way for the technician to install Windows 10?",
+    "options": [
+      "A. Factory reset",
+      "B. System Restore",
+      "C. In-place upgrade",
+      "D. Unattended installation"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An unattended installation is the fastest way to install Windows 10 on a newly built computer. It uses an answer file that contains all the configuration settings and preferences for the installation, such as language, product key, partition size, etc. It does not require any user interaction or input during the installation process. Factory reset, System Restore and in-place upgrade are not methods of installing Windows 10 on a new computer, but ways of restoring or updating an existing Windows installation."
+  },
+  {
+    "id": 272,
+    "question": "A technician is partitioning a hard disk. The five primary partitions should contain 4TB of free space. Which of the following partition styles should the technician use to partition the device?",
+    "options": [
+      "A. EFS",
+      "A. GPT",
+      "B. MBR",
+      "C. FAT32"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 273,
+    "question": "A user reports seeing random, seemingly non-malicious advertisement notifications in the Windows 10 Action Center. The notifications indicate the advertisements are coming from a web browser. Which of the following is the best solution for a technician to implement?",
+    "options": [
+      "A. Disable the browser from sending notifications to the Action Center.",
+      "B. Run a full antivirus scan on the computer.",
+      "C. Disable all Action Center notifications.",
+      "D. Move specific site notifications from Allowed to Block."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 274,
+    "question": "A user connected an external hard drive but is unable to see it as a destination to save files. Which of the following tools will allow the drive to be formatted?",
+    "options": [
+      "A. Disk Management",
+      "B. Device Manager",
+      "C. Disk Cleanup",
+      "D. Disk Defragmenter"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Disk Management is a tool that allows users to create, format, delete, shrink, extend, and manage partitions on hard drives. If the external hard drive is not formatted or has an incompatible filesystem type, Disk Management can be used to format it with a supported filesystem type such as NTFS, FAT32, or exFAT. Device Manager, Disk Cleanup, and Disk Defragmenter are not tools that can format a hard drive."
+  },
+  {
+    "id": 275,
+    "question": "A Windows user reported that a pop-up indicated a security issue. During inspection, an antivirus system identified malware from a recent download, but it was unable to remove the malware. Which of the following actions would be BEST to remove the malware while also preserving the user's files?",
+    "options": [
+      "A. Run the virus scanner in an administrative mode.",
+      "B. Reinstall the operating system.",
+      "C. Reboot the system in safe mode and rescan.",
+      "D. Manually delete the infected files."
+    ],
+    "correctAnswer": 2,
+    "explanation": "Rebooting the system in safe mode will limit the number of programs and processes running, allowing the..."
+  },
+  {
+    "id": 276,
+    "question": "Which of the following Windows 10 editions is the most appropriate for a single user who wants to encrypt a hard drive with BitLocker?",
+    "options": [
+      "A. Professional",
+      "B. Home",
+      "C. Enterprise",
+      "D. Embedded"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BitLocker is a Windows security feature that provides encryption for entire volumes, addressing the threats of data theft or exposure from lost, stolen, or inappropriately decommissioned devices"
+  },
+  {
+    "id": 277,
+    "question": "A systems administrator installed the latest Windows security patch and received numerous tickets reporting slow performance the next day. Which of the following should the administrator do to resolve this issue?",
+    "options": [
+      "A. Rebuild user profiles.",
+      "B. Roll back the updates.",
+      "C. Restart the services.",
+      "D. Perform a system file check."
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rolling back the updates is the best way to resolve the issue of slow performance caused by installing the latest Windows security patch. This can be done by using the System Restore feature or by"
+  },
+  {
+    "id": 278,
+    "question": "A technician needs to add an individual as a local administrator on a Windows home PC. Which of the following utilities would the technician MOST likely use?",
+    "options": [
+      "A. Settings > Personalization",
+      "B. Control Panel > Credential Manager",
+      "C. Settings > Accounts > Family and Other Users",
+      "D. Control Panel > Network and Sharing Center"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The technician would most likely use Settings > Accounts > Family and Other Users to add an individual as a local administrator on a Windows home PC. Settings > Accounts > Family and Other Users allows users to add and manage other user accounts on their Windows PC. The technician can add an individual as a local administrator by selecting Add someone else to this PC under Other users and following the steps to create a new user account with administrator privileges. Settings > Personalization allows users to customize the appearance and behavior of their desktop, such as themes, colors, backgrounds, lock screen and screensaver. Settings > Personalization is not related to adding an individual as a local administrator on a Windows home PC but to configuring desktop settings and preferences. Control Panel > Credential Manager allows users to view and manage their web credentials and Windows credentials stored on their Windows PC. Control Panel > Credential Manager is not related to adding."
+  },
+  {
+    "id": 279,
+    "question": "Which of the following involves sending arbitrary characters in a web page request?",
+    "options": [
+      "A. SMS",
+      "B. SSL",
+      "C. XSS",
+      "D. VPN"
+    ],
+    "correctAnswer": 2,
+    "explanation": "XSS stands for cross-site scripting, which is a web security vulnerability that allows an attacker."
+  },
+  {
+    "id": 280,
+    "question": "A technician successfully removed malicious software from an infected computer after running updates and scheduled scans to mitigate future risks. Which of the following should the technician do next?",
+    "options": [
+      "A. Educate the end user on best practices for security.",
+      "B. Quarantine the host in the antivirus system.",
+      "C. Investigate how the system was infected with malware.",
+      "D. Create a system restore point."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 281,
+    "question": "Which of the following command options is used to display hidden files and directories?",
+    "options": [
+      "A. -a",
+      "B. -s",
+      "C. -lh",
+      "D. -t"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The -a option is used to display hidden files and directories in a command-line interface. Hidden files and directories are those that start with a dot (.) and are normally not shown by default. The -a option stands for “all” and shows all files and directories, including the hidden ones. The -a option can be used with commands such as ls, dir, or find to list or search for hidden files and directories. The -s, -lh, and -t options are not used to display hidden files and directories. The -s option stands for “size” and shows the size of files or directories in bytes. The -lh option stands for “long human-readable” and shows the size of files or directories in a more readable format, such as KB, MB, or GB. The -t option stands for “time” and sorts the files or directories by modification time."
+  },
+  {
+    "id": 282,
+    "question": "Which of the following command-line tools will delete a directory?",
+    "options": [
+      "A. md",
+      "B. del",
+      "C. dir",
+      "D. rd"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 283,
+    "question": "Which of the following Wi-Fi protocols is the MOST secure?",
+    "options": [
+      "A. WPA3",
+      "B. WPA-AES",
+      "C. WEP",
+      "D. WPA-TKIP"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 284,
+    "question": "A network administrator is deploying a client certificate to be used for Wi-Fi access for all devices in an organization. The certificate will be used in conjunction with the user's existing username and password. Which of the following BEST describes the security benefits realized after this deployment?",
+    "options": [
+      "A. Multifactor authentication will be forced for Wi-Fi.",
+      "B. All Wi-Fi traffic will be encrypted in transit.",
+      "C. Eavesdropping attempts will be prevented.",
+      "D. Rogue access points will not connect."
+    ],
+    "correctAnswer": 1,
+    "explanation": "The security benefits realized after deploying a client certificate to be used for Wi-Fi access for all devices in an organization are that all Wi-Fi traffic will be encrypted in transit. This means that any data transmitted over the Wi-Fi network will be protected from eavesdropping attempts. Rogue access points will not connect to the network because they will not have the client certificate. However, multifactor authentication will not be forced for Wi-Fi because the client certificate is being used in conjunction with the user’s existing username and password."
+  },
+  {
+    "id": 285,
+    "question": "Which of the following would allow physical access to a restricted area while maintaining a record of events?",
+    "options": [
+      "A. Hard token",
+      "B. Access control vestibule",
+      "C. Key fob",
+      "D. Door Lock"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Access control vestibule is the correct answer for this question. An access control vestibule is a physical security device that consists of two doors that form an enclosed space between them. The first door opens only after verifying the identity of the person entering, such as by using a card reader, biometric scanner, or keypad. The second door opens only after the first door closes, creating a buffer zone that prevents unauthorized access or tailgating. An access control vestibule also maintains a record of events, such as who entered or exited, when, and how. Hard token, key fob, and door lock are not sufficient to meet the requirements of this question. A hard token is a device that generates a one-time password or code for."
+  },
+  {
+    "id": 286,
+    "question": "A police officer often leaves a workstation for several minutes at a time. Which of the following is the BEST way the officer can secure the workstation quickly when walking away?",
+    "options": [
+      "A. Use a key combination to lock the computer when leaving.",
+      "B. Ensure no unauthorized personnel are in the area.",
+      "C. Configure a screensaver to lock the computer automatically after approximately 30 minutes of inactivity.",
+      "D. Turn off the monitor to prevent unauthorized visibility of information."
+    ],
+    "correctAnswer": 0,
+    "explanation": "The BEST way to secure the workstation quickly when walking away is to use a key combination to lock the computer when leaving."
+  },
+  {
+    "id": 287,
+    "question": "A user calls the help desk to report that mapped drives are no longer accessible. The technician verifies that clicking on any of the drives on the user's machine results in an error message. Other users in the office are not having any issues. As a first step, the technician would like to remove and attempt to reconnect the drives. Which of the following command-line tools should the technician use?",
+    "options": [
+      "A. net use",
+      "B. set",
+      "C. mkdir",
+      "D. rename"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The technician should use net use command-line tool to remove and reconnect mapped drives. Net use is a command that allows users to manage network connections and resources, such as shared folders or printers. Net use can be used to map or unmap network drives by specifying their drive letters and network paths. For example, net use Z: \\server\\share maps drive Z: to \\server\\share folder, and net use Z: /delete unmaps drive Z:. Set is a command that displays or modifies environment variables for the current user or process. Set is not related to managing mapped drives. Mkdir is a command that creates."
+  },
+  {
+    "id": 288,
+    "question": "A technician is asked to resize a partition on the internal storage drive of a computer running macOS. Which of the followings tools should the technician use to accomplish this task?",
+    "options": [
+      "A. Consoltf",
+      "B. Disk Utility",
+      "C. Time Machine",
+      "D. FileVault"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The technician should use Disk Utility to resize a partition on the internal storage drive of a computer running macOS. Disk Utility is a built-in utility that allows users to manage disks, partitions, and volumes on a Mac. It can be used to resize, create, and delete partitions, as well as to format disks and volumes."
+  },
+  {
+    "id": 289,
+    "question": "A technician received a call from a user who clicked on a web advertisement. Now, every time the user moves the mouse, a pop-up displays across the monitor. Which of the following procedures should the technician perform?",
+    "options": [
+      "A. Boot into safe mode.",
+      "B. Perform a malware scan.",
+      "C. Restart the machine.",
+      "D. Reinstall the browser"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Booting into safe mode and performing a malware scan are the steps that a technician should perform when troubleshooting an issue with pop-up advertising messages on a PC. Safe mode is a diagnostic mode that starts the PC with minimal drivers and services, which can prevent the pop-up malware from running. A malware scan is a tool that can detect and remove the pop-up malware, as well as prevent further infection or damage. Investigating how the malware was installed, reinstalling the browser."
+  },
+  {
+    "id": 290,
+    "question": "During an enterprise rollout of a new application, a technician needs to validate compliance with an application's EULA while also reducing the number of licenses to manage. Which of the following licenses would best accomplish this goal?",
+    "options": [
+      "A. Personal use license",
+      "B. Corporate use license",
+      "C. Open-source license",
+      "D. Non-expiring license"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A corporate use license, also known as a volume license, is a type of software license that allows an organization to purchase and use multiple copies of a software product with a single license key. A corporate use license can help validate compliance with an application’s EULA (end-user license agreement), which is a legal contract that defines the terms and conditions of using the software. A corporate use license can also reduce the number of licenses to manage, as it eliminates the need to activate and track individual licenses for each copy of the software. Personal use license, open-source license, and non-expiring license are not types of licenses that can best accomplish this goal."
+  },
+  {
+    "id": 291,
+    "question": "A remote user contacts the help desk about an email that appears to be distorted. The technician is unsure what the user means and needs to view the email to assist with troubleshooting. Which of the following should the technician use to assist the user?",
+    "options": [
+      "A. VNC",
+      "B. SSH",
+      "C. VPN",
+      "D. RMM"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The best tool to use to assist the user with viewing the email is RMM, which stands for remote monitoring and management. This is a software that allows the technician to remotely access, monitor, and assist the user."
+  },
+  {
+    "id": 292,
+    "question": "A technician is attempting to mitigate micro power outages, which occur frequently within the area of operation. The outages are usually short, with the longest occurrence lasting five minutes. Which of the following should the technician use to mitigate this issue?",
+    "options": [
+      "A. Surge suppressor",
+      "B. Battery backup",
+      "C. CMOS battery",
+      "D. Generator backup"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A battery backup, also known as an uninterruptible power supply (UPS), is a device that provides backup power during a power outage. When the power goes out, the battery backup provides a short amount of time (usually a few minutes up to an hour, depending on the capacity of the device) to save any work and safely shut down the equipment."
+  },
+  {
+    "id": 293,
+    "question": "A user receives an error message from an online banking site that states the following: Your connection is not private. Authority invalid. Which of the following actions should the user take NEXT?",
+    "options": [
+      "A. Proceed to the site.",
+      "B. Use a different browser.",
+      "C. Report the error to the bank.",
+      "D. Reinstall the browser."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 294,
+    "question": "✑ Remediating the system (B) is the ultimate goal, but it cannot be done before quarantining the system. Remediating the system means removing the ransomware, restoring the data, and fixing the vulnerabilities that allowed the attack. However, this process requires careful analysis, planning, and execution, and it may not be possible if the ransomware is still active and communicating with the attackers. Therefore, the technician should first isolate the system and then proceed with the remediation steps12. ✑ Educating the system user (C) is a preventive measure, but it is not a mitigation step. Educating the system user means raising awareness and providing training on how to avoid ransomware attacks, such as by recognizing phishing emails, avoiding suspicious links or attachments, and updating and patching the system regularly. However, this step will not help if the system is already infected, and it may not be effective if the user is not willing or able to follow the best practices. Therefore, the technician should focus on resolving the current incident and then educate the user as part of the recovery plan14. A technician is installing a program from an ISO file. Which of the following steps should the technician take?",
+    "options": [
+      "A. Mount the ISO and run the installation file.",
+      "B. Copy the ISO and execute on the server.",
+      "C. Copy the ISO file to a backup location and run the ISO file.",
+      "D. Unzip the ISO and execute the setup.exe file."
+    ],
+    "correctAnswer": 0,
+    "explanation": "Mounting the ISO and running the installation file is the correct way to install a program from an ISO file. An ISO file is an image of a disc that contains all the files and folders of a program. Mounting"
+  },
+  {
+    "id": 295,
+    "question": "A company implemented a BYOD policy and would like to reduce data disclosure caused by malware that may infect these devices. Which of the following should the company deploy to address these concerns?",
+    "options": [
+      "A. UAC",
+      "B. MDM",
+      "C. LDAP",
+      "D. SSO"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 296,
+    "question": "Which of the following is the MOST important environmental concern inside a data center?",
+    "options": [
+      "A. Battery disposal",
+      "B. Electrostatic discharge mats",
+      "C. Toner disposal",
+      "D. Humidity levels"
+    ],
+    "correctAnswer": 3,
+    "explanation": "One of the most important environmental concerns inside a data center is the level of humidity. High levels of humidity can cause condensation, which can result in corrosion of components and other equipment. Low levels of humidity can cause static electricity to build up, potentially leading to electrostatic discharge (ESD) and damage to components. Therefore, it is crucial to maintain a relative humidity range of 40-60% in a data center to protect the equipment and ensure proper operation."
+  },
+  {
+    "id": 297,
+    "question": "A user receives a notification indicating the antivirus protection on a company laptop is out of date. A technician is able to ping the user's laptop. The technician checks the antivirus parent servers and sees the latest signatures have been installed. The technician then checks the user's laptop and finds the antivirus engine and definitions are current. Which of the following has MOST likely occurred?",
+    "options": [
+      "A. Ransomware",
+      "B. Failed OS updates",
+      "C. Adware",
+      "D. Missing system files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most likely reason for the antivirus protection on a company laptop being out of date is failed OS updates. Antivirus software relies on the operating system to function properly. If the operating system is not up-to-date, the antivirus software may not function properly and may not be able to receive the latest virus definitions and updates. Therefore, it is important to keep the operating system up-to-date to ensure the antivirus software is functioning properly."
+  },
+  {
+    "id": 298,
+    "question": "A macOS user is installing a new application. Which of the following system directories is the software MOST likely to install by default?",
+    "options": [
+      "A. /etc/services",
+      "B. /Applications",
+      "C. /usr/bin",
+      "D. C:\\Program Files"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The software is most likely to install by default in the /Applications directory, which is the standard location for macOS applications. This directory can be accessed from the Finder sidebar or by choosing Go > Applications from the menu bar. The /Applications directory contains all the applications that are available to all users on the system. Some applications might also offer the option to install in the ~/Applications directory, which is a personal applications folder for a single user. The /etc/services directory is a system"
+  },
+  {
+    "id": 299,
+    "question": "An employee calls the help desk regarding an issue with a laptop PC. After a Windows update, the user can no longer use certain locally attached devices, and a reboot has not fixed the issue. Which of the following should the technician perform to fix the issue?",
+    "options": [
+      "A. Disable the Windows Update service.",
+      "B. Check for updates.",
+      "C. Restore hidden updates.",
+      "D. Rollback updates."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 300,
+    "question": "Which of the following is an example of MFA?",
+    "options": [
+      "A. Fingerprint scan and retina scan",
+      "B. Password and PIN",
+      "C. Username and password",
+      "D. Smart card and password"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Smart card and password is an example of two-factor authentication (2FA), not multi-factor authentication (MFA). MFA requires two or more authentication factors. Smart card and password is an example of two-factor authentication (2FA2)."
+  }
+]
