@@ -9,7 +9,7 @@
       "D. System Configuration"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Local Users and Groups (B) is the correct answer because it allows the technician to add the user account to the Administrators group, giving permanent administrator privileges without needing to elevate permissions for each task. Group Policy Editor manages system policies, Device Manager manages hardware, and System Configuration manages startup settings."
   },
   {
     "id": 32,
@@ -69,7 +69,7 @@
       "D. Disclose the experience via social media."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Contact the customer if the technician is arriving late (C) is the correct answer because it demonstrates professionalism and good communication. Even if the customer is also late, the technician should inform them of the delay to maintain trust and set proper expectations. Not notifying the customer, dismissing them, or posting on social media are unprofessional actions."
   },
   {
     "id": 37,
@@ -153,7 +153,7 @@
       "D. Configure a replacement remote-access tool for support cases."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Enable multifactor authentication for each support account (A) is the correct answer because it adds an additional layer of security beyond passwords, making brute force attacks much more difficult. MFA requires something the user knows (password) plus something they have (token/phone) or are (biometric). The other options are security measures but don't directly address the password brute force vulnerability."
   },
   {
     "id": 44,
@@ -201,7 +201,7 @@
       "D. Copy-Item"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "robocopy (C) is the correct answer because it's designed for robust file copying and can mirror directories while preserving file attributes and handling dynamic data changes. robocopy can resume interrupted operations and handle files that are in use. The basic copy command is limited, xcopy is older, and Copy-Item is a PowerShell cmdlet with different capabilities."
   },
   {
     "id": 48,
@@ -261,7 +261,7 @@
       "D. Clear the application cache."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Clear the application cache (D) is the correct answer because corrupted cache files can cause apps to crash immediately. Clearing the cache removes temporary files that may be causing the issue without losing critical data. Uninstalling/reinstalling or factory reset would lose data, and installing an alternative app doesn't address the original app's problem."
   },
   {
     "id": 53,
@@ -273,7 +273,7 @@
       "D. grep"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "yum (B) is the correct answer because it's a package management utility for Linux systems, particularly Red Hat-based distributions. yum (Yellowdog Updater Modified) allows users to install, update, and remove software packages. chmod changes file permissions, man displays manual pages, and grep searches text patterns."
   },
   {
     "id": 54,
@@ -357,6 +357,6 @@
       "D. Choose a password that never expires."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Require the user to change the password at the next log-in (A) is the correct answer because it ensures the user creates a new password that only they know, improving security. This prevents the administrator from knowing the user's password and forces the user to create a strong password. Disabling the account or choosing a password that never expires would be security risks."
   }
 ]
