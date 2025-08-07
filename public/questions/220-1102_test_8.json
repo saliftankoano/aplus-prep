@@ -9,7 +9,7 @@
       "D. Green disposal"
     ],
     "correctAnswer": 2,
-    "explanation": "Proper ventilation is a factor that can extend the life of a device by preventing overheating and thermal damage to the device’s components. Proper ventilation means ensuring that there is enough airflow around and inside the device to dissipate heat and maintain a suitable temperature for optimal performance. Proper ventilation can be achieved by using fans, heat sinks, vents, or liquid cooling systems, as well as avoiding placing the device near heat sources or in enclosed spaces. Battery backup, electrostatic discharge mat, and green disposal are not factors that can extend the life of a device."
+    "explanation": "Proper ventilation (C) is the correct answer because it prevents overheating and thermal damage to device components. Proper airflow dissipates heat and maintains optimal temperature for performance. Battery backup provides power protection, ESD mats prevent static damage, and green disposal is for end-of-life management."
   },
   {
     "id": 212,
@@ -21,7 +21,7 @@
       "D. Clean the environment reinstallation."
     ],
     "correctAnswer": 1,
-    "explanation": "Educating the end user is the best way to prevent future infections by viruses or other malware."
+    "explanation": "Educate the end user (B) is the correct answer because user behavior is often the primary cause of virus infections. Teaching users about safe browsing habits, avoiding suspicious links, and not downloading unknown files can prevent future infections. The other options address technical aspects but don't address the root cause of user behavior."
   },
   {
     "id": 213,
@@ -33,11 +33,11 @@
       "D. Tailgating"
     ],
     "correctAnswer": 1,
-    "explanation": "Shoulder surfing is a threat that involves someone looking over another person’s shoulder to observe their screen, keyboard, or other sensitive information. Shoulder surfing can be used to steal passwords, personal identification numbers (PINs), credit card numbers, or other confidential data. The use of a privacy screen on a computer can help prevent shoulder surfing by limiting the viewing angle of the screen and making it harder for someone to see the screen from the side or behind. Impersonation, whaling, and tailgating are not threats that can be prevented by using a privacy screen on a computer."
+    "explanation": "Shoulder surfing (B) is the correct answer because privacy screens limit the viewing angle of displays, making it difficult for someone to see the screen from the side or behind. This prevents unauthorized viewing of sensitive information. Impersonation, whaling, and tailgating are social engineering attacks not related to visual privacy."
   },
   {
     "id": 214,
-    "question": "A developer is creating a shell script to automate basic tasks in Linux. Which of the following file types...Are supported by default?",
+    "question": "A developer is creating a shell script to automate basic tasks in Linux. Which of the following file types are supported by default?",
     "options": [
       "A. .py",
       "B. .js",
@@ -45,7 +45,7 @@
       "D. .sh"
     ],
     "correctAnswer": 3,
-    "explanation": "https://www.educba.com/shell-scripting-in-linux/"
+    "explanation": ".sh (D) is the correct answer because shell scripts use the .sh extension and are natively supported by Linux systems. Shell scripts can be executed directly by the bash, sh, or other shell interpreters. .py files are for Python, .js files are for JavaScript, and .vbs files are for Visual Basic Script (Windows)."
   },
   {
     "id": 215,
@@ -57,7 +57,7 @@
       "D. Risk analysis"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Rollback plan (B) is the correct answer because it specifically documents how to reverse or undo a change if it causes problems. This includes procedures for uninstalling patches, reverting configurations, or restoring previous states. Purpose, scope, and risk analysis are planning documents that don't include rollback procedures."
   },
   {
     "id": 216,
@@ -69,7 +69,7 @@
       "D. pathping"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "pathping (D) is the correct answer because it combines the functionality of ping and tracert to provide detailed network path analysis. It shows packet loss and latency at each hop, making it ideal for troubleshooting network stability issues. ipconfig shows configuration, arp shows MAC addresses, and nslookup resolves DNS names."
   },
   {
     "id": 217,
@@ -81,7 +81,7 @@
       "D. Partition"
     ],
     "correctAnswer": 0,
-    "explanation": "A technician needs to reimage a desktop in an area without network access, which means that the technician cannot use network-based methods such as PXE or SMB to deploy the image. Therefore, the technician should use offline methods that involve removable media such as USB or optical media. USB and optical media are common ways to store and transfer system images, and they can be used to boot the desktop and initiate the reimaging process. The technician will need to create a bootable USB or optical media that contains the system image and the imaging software, and then insert it into the desktop and change the boot order in the BIOS or UEFI settings. The technician can then follow the instructions on the screen to reimage the desktop."
+    "explanation": "USB (A) is the correct answer because it's a portable, offline method for reimaging without network access. The technician can create a bootable USB drive with the system image and imaging software. PXE requires network access, optical media is less common, and partition refers to disk structure, not imaging method."
   },
   {
     "id": 218,
@@ -93,19 +93,19 @@
       "D. ping"
     ],
     "correctAnswer": 1,
-    "explanation": "The ifconfig command is a tool for configuring network interfaces that any Linux system administrator should know. It is used to bring interfaces up or down, assign and remove addresses and routes, manage ARP cache, and much more. One of the information that ifconfig can display is the MAC address of each network interface, which is a unique identifier of the physical layer of the network device. The MAC address is usually shown as a hexadecimal string separated by colons, such as 00:0c:29:3f:5c:1f. To get the MAC address of a Linux distribution, a technician can use the ifconfig command without any arguments, which will show the details of all the active network interfaces, or specify the name of a particular interface, such as eth0 or wlan0, to show only the details of that interface."
+    "explanation": "ifconfig (B) is the correct answer because it displays network interface information including MAC addresses. The MAC address appears as a hexadecimal string (e.g., 00:0c:29:3f:5c:1f). net use is Windows-specific, netstat shows connections, and ping tests connectivity."
   },
   {
     "id": 219,
     "question": "A technician has been asked to set up a new wireless router with the best possible security. Which of the following should the technician implement?",
     "options": [
-      "A. WPS",
-      "B. TKIP",
+      "A. WEP",
+      "B. WPA2",
       "C. WPA3",
-      "D. WEP"
+      "D. Open network"
     ],
     "correctAnswer": 2,
-    "explanation": "WPA3 (Wi-Fi Protected Access version 3) is the latest version of Wi-Fi security and offers the highest level of protection available. It is designed to protect against brute force password attempts and protect against eavesdropping and man-in-the-middle attacks. WPA3 also supports the use of stronger encryption algorithms, such as the Advanced Encryption Standard (AES), which provides additional protection for wireless networks. WPA3 should be implemented in order to ensure the best possible security for the new wireless router."
+    "explanation": "WPA3 (C) is the correct answer because it's the most recent and secure wireless security protocol. It provides stronger encryption, better protection against brute force attacks, and enhanced security features compared to WEP, WPA2, or open networks. WPA3 is the current industry standard for wireless security."
   },
   {
     "id": 220,
