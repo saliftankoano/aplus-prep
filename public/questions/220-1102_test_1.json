@@ -9,7 +9,7 @@
       "D. Repair installation"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Remote network installation (C) is the correct answer because it allows the engineer to install the operating system over the network without requiring physical installation media. This method uses network boot (PXE) to download the installation files from a network server. Image deployment requires pre-built images, recovery partition installation requires existing OS, and repair installation is for fixing existing installations."
   },
   {
     "id": 2,
@@ -45,7 +45,7 @@
       "D. Shared resources"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Accounts (B) is the correct answer because it allows the user to create and manage user accounts with different permissions. Windows Accounts settings enable creating secondary logins with parental controls and content restrictions. Privacy settings control data collection, Personalization controls appearance, and Shared resources are for network sharing."
   },
   {
     "id": 5,
@@ -69,7 +69,7 @@
       "D. Roll back the updates."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Repair Windows (A) is the correct answer because the BOOTMGR missing error indicates a corrupted or missing boot manager. Windows Repair can restore the boot manager without losing data. Partitioning the hard disk would destroy data, reimaging is more drastic, and rolling back updates may not fix the boot manager issue."
   },
   {
     "id": 7,
@@ -129,7 +129,7 @@
       "D. Disable logging."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Disable the SSID broadcast (A) is the correct answer because it makes the Wi-Fi network invisible to devices scanning for networks. This prevents unauthorized users from seeing and attempting to connect to the network. Disabling encryption would make the network less secure, DHCP reservations don't prevent connections, and logging doesn't block access."
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
       "D. To select a change owner"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "To evaluate the change before deployment (A) is the correct answer because sandbox testing allows organizations to test changes in an isolated environment before implementing them in production. This helps identify potential issues, conflicts, and impacts without affecting live systems. End-user acceptance, determining affected systems, and selecting change owners are other aspects of change management but not the primary purpose of sandbox testing."
   },
   {
     "id": 13,
@@ -225,7 +225,7 @@
       "D. Reboot computer."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Ensure internet connectivity (A) is the correct answer because Developer Mode installation requires downloading packages from Microsoft servers. Without internet connectivity, the installation will fail. Windows updates, SSH, and rebooting are not directly related to the package download requirement for Developer Mode installation."
   },
   {
     "id": 20,
@@ -249,7 +249,7 @@
       "D. Rollback plan"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Risk analysis (C) is the correct answer because it systematically identifies, assesses, and documents potential issues that may occur during change implementation. Risk analysis helps organizations understand the likelihood and impact of potential problems, allowing them to develop mitigation strategies. Scope change, end-user acceptance, and rollback plans are other change management components but don't specifically explain potential issues."
   },
   {
     "id": 22,
@@ -357,6 +357,6 @@
       "D. Running the Disk Cleanup utility"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Removing the applications from startup (B) is the correct answer because it's the most cost-effective solution that directly addresses slow boot times. Applications that start automatically with Windows can significantly slow down the boot process. Installing RAM or SSD would be expensive, and Disk Cleanup doesn't directly affect startup programs."
   }
 ]
