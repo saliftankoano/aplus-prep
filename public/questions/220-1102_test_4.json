@@ -45,7 +45,7 @@
       "D. Device Manager"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Device Manager (D) is the correct answer because it allows the technician to manage display adapters and ensure the second monitor is properly detected and configured. Device Manager can help troubleshoot display driver issues and ensure the graphics card supports multiple monitors. Color Management, System, and Troubleshooting are not specifically for display configuration."
   },
   {
     "id": 95,
@@ -69,7 +69,7 @@
       "D. Guest accounts"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Encryption (A) is the correct answer because storing credit card data requires compliance with PCI DSS (Payment Card Industry Data Security Standard), which mandates encryption of sensitive data at rest. Encryption protects credit card information from unauthorized access if the workstation is compromised. Antivirus, AutoRun, and Guest accounts are security measures but don't specifically address data encryption requirements."
   },
   {
     "id": 97,
@@ -81,7 +81,7 @@
       "D. explorer.exe"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "cscript.exe (C) is the correct answer because it's the command-line version of the Windows Script Host that executes VBScript (.vbs) files. cscript.exe is specifically designed to run VBScript files in a command-line environment. winmgmt.exe is for WMI management, powershell.exe runs PowerShell scripts, and explorer.exe is the Windows shell."
   },
   {
     "id": 98,
@@ -141,7 +141,7 @@
       "D. ext4"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "NTFS (C) is the correct answer because it replaced FAT as the preferred filesystem for Microsoft Windows OS. NTFS provides better security, reliability, and performance compared to FAT. It supports file permissions, encryption, compression, and journaling. APFS is for macOS, FAT32 is an older FAT variant, and ext4 is for Linux systems."
   },
   {
     "id": 103,
@@ -153,7 +153,7 @@
       "D. Browser cache"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Modified file (C) is the correct answer because a hash mismatch indicates the file has been altered during download or transmission. Hash validation is used to verify file integrity, and a different hash value means the file content has changed. Private-browsing mode, invalid certificates, and browser cache don't affect file content integrity."
   },
   {
     "id": 104,
@@ -201,7 +201,7 @@
       "D. Enable developer mode"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Enable developer mode (D) is the correct answer because the crypt32.dll error is often related to Windows Store apps and developer mode can help resolve compatibility issues. Developer mode allows installation of apps from sources other than the Microsoft Store and can fix DLL-related problems. The other options are security settings unrelated to the crypt32.dll error."
   },
   {
     "id": 108,
@@ -285,7 +285,7 @@
       "D. Services"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Services (D) is the correct answer because the print spooler is a Windows service that manages print jobs. The Services tool allows users to start, stop, and restart services including the print spooler. Control Panel, Processes, and Startup are not specifically for managing Windows services."
   },
   {
     "id": 115,
@@ -297,7 +297,7 @@
       "D. Firewall"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Badge reader (B) is the correct answer because it's a physical security device that controls access to buildings and restricted areas. Badge readers authenticate users through physical credentials like ID cards or key fobs. Multifactor authentication and PINs are logical security, while firewalls are network security measures."
   },
   {
     "id": 116,
