@@ -33,7 +33,7 @@
       "D. Keychain"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Keychain (D) is the correct answer because it's macOS's built-in password manager that securely stores passwords, certificates, and other sensitive information. Keychain Access allows users to view and manage stored credentials. Terminal is a command-line interface, FileVault is disk encryption, and Privacy controls app permissions."
   },
   {
     "id": 124,
@@ -93,7 +93,7 @@
       "D. Disk Management"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "Disk Cleanup (A) is the correct answer because it's specifically designed to free up disk space by removing temporary files, downloaded program files, and other unnecessary files. Resource Monitor shows system performance, Disk Defragment optimizes file placement, and Disk Management is for partitioning and formatting."
   },
   {
     "id": 129,
@@ -129,7 +129,7 @@
       "D. Use open-ended questions to further diagnose the issue."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "Use open-ended questions to further diagnose the issue (D) is the correct answer because the technician needs to gather more information about the problem before determining the cause. Since no recent updates were deployed, the issue may be unrelated to updates. Open-ended questions help identify the actual problem and avoid premature solutions."
   },
   {
     "id": 132,
@@ -177,7 +177,7 @@
       "D. Schedule an antivirus scan."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "Uninstall all recently installed applications (C) is the correct answer because the unusual SMS messages and network activity suggest malware was installed through a recently downloaded app. Removing suspicious applications is the most direct way to eliminate the malware. Disabling Wi-Fi autoconnect and staying offline are preventive measures, while antivirus scans may not detect all mobile malware."
   },
   {
     "id": 136,
@@ -201,7 +201,7 @@
       "D. Disable the mobile hotspot."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "Uninstall the fraudulent application (B) is the correct answer because the symptoms indicate the 'optimization' app is actually malware that's causing high network usage and security warnings. Removing the malicious app is the first step to stop the unwanted behavior. Factory reset is more drastic, and the other options don't address the root cause."
   },
   {
     "id": 138,
@@ -285,7 +285,7 @@
       "D. devmgmt.msc"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "devmgmt.msc (D) is the correct answer because Device Manager allows the technician to manage touchpad drivers. After Windows updates, drivers may become incompatible or corrupted. Device Manager can update, rollback, or reinstall the touchpad driver to restore functionality. Event Viewer shows logs, Performance Monitor tracks system performance, and Group Policy Editor manages system policies."
   },
   {
     "id": 145,
