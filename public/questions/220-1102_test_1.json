@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "question": "Six Ways to Handle Angry CustomersA user is setting up a computer for the first time and would like to create a secondary login with permissions that are different than the primary login. The secondary login will need to be protected from certain content such as games and websites. Which of the following Windows settings should the user utilize to create the secondary login?",
+    "question": "A user is setting up a computer for the first time and would like to create a secondary login with permissions that are different than the primary login. The secondary login will need to be protected from certain content such as games and websites. Which of the following Windows settings should the user utilize to create the secondary login?",
     "options": [
       "A. Privacy",
       "B. Accounts",
@@ -145,7 +145,7 @@
   },
   {
     "id": 13,
-    "question": "Change Management and Sandbox - Quickbase 2. Embracing change: Build, test, and adapt in a sandbox environment - ZendeskA user is unable to access a web-based application. A technician verifies the computer cannot access any web pages at all. The computer obtains an IP address from the DHCP server. Then, the technician verifies the user can ping localhost, the gateway, and known IP addresses on the internet and receive a response. Which of the following is the MOST likely reason for the issue?",
+    "question": "A user is unable to access a web-based application. A technician verifies the computer cannot access any web pages at all. The computer obtains an IP address from the DHCP server. Then, the technician verifies the user can ping localhost, the gateway, and known IP addresses on the internet and receive a response. Which of the following is the MOST likely reason for the issue?",
     "options": [
       "A. A firewall is blocking the application.",
       "B. The wrong VLAN was assigned.",
@@ -201,7 +201,7 @@
       "D. Ensuring proper ventilation"
     ],
     "correctAnswer": 0,
-    "explanation": "The two safety procedures that would best protect the components in the PC are:"
+    "explanation": "The two safety procedures that would best protect the components in the PC are: 1) Disconnecting the computer from the power source to prevent electrical shock, and 2) Utilizing an ESD strap to prevent electrostatic discharge damage to sensitive components."
   },
   {
     "id": 18,
@@ -213,7 +213,7 @@
       "D. Take a physical inventory of the device."
     ],
     "correctAnswer": 1,
-    "explanation": "Isolating the machine from the network is the best way to identify the source of the attack, because it prevents the malicious traffic from spreading to other devices or reaching the attacker. Isolating the machine can also help preserve the evidence of the attack, such as the malware files, the network connections, the registry entries, or the system logs. By isolating the machine, a technician can safely analyze the machine and determine the source of the attack, such as a phishing email, a compromised."
+    "explanation": "Isolating the machine from the network is the best way to identify the source of the attack, because it prevents the malicious traffic from spreading to other devices or reaching the attacker. Isolating the machine can also help preserve the evidence of the attack, such as the malware files, the network connections, the registry entries, or the system logs. By isolating the machine, a technician can safely analyze the machine and determine the source of the attack, such as a phishing email, a compromised website, or malicious software."
   },
   {
     "id": 19,
@@ -285,7 +285,7 @@
       "D. UAC"
     ],
     "correctAnswer": 2,
-    "explanation": "EOL (end-of-life) is a term that indicates a vendor no longer supports a product. It means that"
+    "explanation": "EOL (end-of-life) is a term that indicates a vendor no longer supports a product. It means that the vendor will no longer provide updates, patches, or technical support for the product."
   },
   {
     "id": 25,

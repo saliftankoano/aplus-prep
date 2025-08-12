@@ -177,7 +177,7 @@
       "D. RADIUS"
     ],
     "correctAnswer": 0,
-    "explanation": "MFA (Multi-Factor Authentication) is a security measure that often uses an SMS or third-party application as a secondary method to access a system. MFA requires the user to provide two or more pieces of evidence to prove their identity, such as something they know (e.g., password), something they have (e.g.,"
+    "explanation": "MFA (Multi-Factor Authentication) is a security measure that often uses an SMS or third-party application as a secondary method to access a system. MFA requires the user to provide two or more pieces of evidence to prove their identity, such as something they know (e.g., password), something they have (e.g., smartphone or token), or something they are (e.g., fingerprint or facial recognition)."
   },
   {
     "id": 106,

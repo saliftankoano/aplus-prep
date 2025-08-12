@@ -165,7 +165,7 @@
       "D. Lessons learned"
     ],
     "correctAnswer": 0,
-    "explanation": "Risk analysis is the process of identifying and evaluating the potential threats and impacts of a change on the system, network, or service. It is an essential step before approving a change request, as it helps to"
+    "explanation": "Risk analysis is the process of identifying and evaluating the potential threats and impacts of a change on the system, network, or service. It is an essential step before approving a change request, as it helps to assess potential problems and develop mitigation strategies."
   },
   {
     "id": 135,
@@ -181,7 +181,7 @@
   },
   {
     "id": 136,
-    "question": "It is important in forensic investigations to establish that the evidence is in fact related to the case, and that it has not been tampered with or contaminated. A technician needs to track evidence for a forensic investigation on a Windows computer by following the proper procedures for collecting, handling, storing, and analyzing the evidence, and documenting every step of the process on a chain of custody form23. A new spam gateway was recently deployed at a small business However; users still occasionally receive spam. The management team is concerned that users will open the messages and potentially infect the network systems. Which of the following is the MOST effective method for dealing with this Issue?",
+    "question": "A new spam gateway was recently deployed at a small business. However, users still occasionally receive spam. The management team is concerned that users will open the messages and potentially infect the network systems. Which of the following is the MOST effective method for dealing with this issue?",
     "options": [
       "A. Adjusting the spam gateway",
       "B. Updating firmware for the spam appliance",
@@ -189,11 +189,11 @@
       "D. Providing user training"
     ],
     "correctAnswer": 3,
-    "explanation": "The most effective method for dealing with spam messages in a small business is to provide user training"
+    "explanation": "The most effective method for dealing with spam messages in a small business is to provide user training. Educating users about identifying and avoiding spam helps prevent them from opening malicious emails that could infect the network."
   },
   {
     "id": 137,
-    "question": "System Indexing Options Device Manager Programs and FeaturesA user is having phone issues after installing a new application that claims to optimize performance. The user downloaded the application directly from the vendor's website and is now experiencing high network utilization and is receiving repeated security warnings. Which of the following should the technician perform FIRST to mitigate the issue?",
+    "question": "A user is having phone issues after installing a new application that claims to optimize performance. The user downloaded the application directly from the vendor's website and is now experiencing high network utilization and is receiving repeated security warnings. Which of the following should the technician perform FIRST to mitigate the issue?",
     "options": [
       "A. Reset the phone to factory settings",
       "B. Uninstall the fraudulent application",
@@ -205,7 +205,7 @@
   },
   {
     "id": 138,
-    "question": "After a security event, a technician removes malware from an affected laptop and disconnects the Question A technician is trying to remove malware from a laptop from the network. Which of the following should the technician do to prevent the operating system from automatically returning to an infected state?",
+    "question": "A technician is trying to remove malware from a laptop. Which of the following should the technician do to prevent the operating system from automatically returning to an infected state?",
     "options": [
       "A. Enable System Restore.",
       "B. Disable System Restore.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 139,
-    "question": "Question A technician installed Windows 10 on a workstation. The workstation only has 3.5GB of usable RAM, even though the technician installed 8GB. Which of the following is the MOST likely reason this system is not utilizing all the available RAM?",
+    "question": "A technician installed Windows 10 on a workstation. The workstation only has 3.5GB of usable RAM, even though the technician installed 8GB. Which of the following is the MOST likely reason this system is not utilizing all the available RAM?",
     "options": [
       "A. The system is missing updates.",
       "B. The system is utilizing a 32-bit OS.",
@@ -325,7 +325,7 @@
   },
   {
     "id": 148,
-    "question": "The sfc command can be used with different switches, such as /scannow, /verifyonly, /scanfile, or /offbootdir, depending on the situation and the desired action4. The most common switch is /scannow, which scans all the system files and repairs any problems that are found5. The syntax of the sfc command with the /scannow switch is: sfc /scannow The sfc command will then scan and repair the system files, and display the results on the screen. If the sfc command is able to fix the system files, the PC should be able to start the GUI normally after rebooting. If the sfc command is unable to fix the system files, the PC may need further troubleshooting or a clean installation of Windows. References1: CompTIA A+ Certification Exam Core 2 Objectives, page 10 2: CompTIA A+ Core 2 (220-1102) Complete Video Course, Lesson 26 Documentation 3: How to use SFC Scannow to repair Windows system files 4: SFC Command (System File Checker) 5: How to Repair Windows 10 using Command PromptA technician installs specialized software on a workstation. The technician then attempts to run the software. The workstation displays a message indicating the software is not authorized to run. Which of the following should the technician do to most likely resolve the issue?",
+    "question": "A technician installs specialized software on a workstation. The technician then attempts to run the software. The workstation displays a message indicating the software is not authorized to run. Which of the following should the technician do to most likely resolve the issue?",
     "options": [
       "A. Install the software in safe mode.",
       "B. Attach the external hardware token.",
@@ -333,7 +333,7 @@
       "D. Restart the workstation after installation."
     ],
     "correctAnswer": 1,
-    "explanation": "A hardware token is a physical device that provides an additional layer of security for software authorization. Some specialized software may require a hardware token to be attached to the workstation in order to run. A hardware token may contain a cryptographic key, a password, or a one-time code that"
+    "explanation": "A hardware token is a physical device that provides an additional layer of security for software authorization. Some specialized software may require a hardware token to be attached to the workstation in order to run. A hardware token may contain a cryptographic key, a password, or a one-time code that validates the user's authorization to use the software."
   },
   {
     "id": 149,
@@ -345,7 +345,7 @@
       "D. System Configuration"
     ],
     "correctAnswer": 0,
-    "explanation": "When a Blue Screen of Death (BSOD) appears on a Windows workstation, it indicates that there is a serious problem with the operating system. The stop code displayed on the BSOD can provide valuable information to help determine the cause of the issue. The stop code is a specific error code that is associated with the BSOD, and it can help identify the root cause of the problem."
+    "explanation": "When a Blue Screen of Death (BSOD) appears on a Windows workstation, it indicates that there is a serious problem with the operating system. The stop code displayed on the BSOD can provide valuable information to help determine the cause of the issue. The stop code is a specific error code that is associated with the BSOD, and it can help identify the root cause of the problem, such as driver conflicts, hardware failures, or system corruption."
   },
   {
     "id": 150,
