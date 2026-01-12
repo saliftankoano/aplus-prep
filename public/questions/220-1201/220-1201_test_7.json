@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "A customer is able to print most documents with their USB inkjet printer, but the system is unresponsive when printing a certain report from a custom application. Nothing will print until the computer is restarted and the printer is power cycled. A technician remotes into the PC and confirms that the spooler stops working when this report is sent. After cleaning the spooler and reinstalling the drivers from the manufacturer's website, the issue persists. No other sites using the application report similar issues. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. The manufacturer is curating content before it reaches the device to preserve ink.",
+      "B. The application has a bug that the developer needs to address.",
+      "C. The system is using the PostScript language instead of the PCL.",
+      "D. Personal preferences have changed and documents with graphics are now online-only"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "A user reports intermittent Wi-Fi issues in an open office. Other users are not affected. What is the most likely cause?",
+    "options": [
+      "A. Interference from other Wi-Fi signals",
+      "B. All users are on the same frequency",
+      "C. The laptop's wireless card is malfunctioning",
+      "D. The antenna is near a device creating electromagnetic interference"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "A user wants to print files from an overseas office using a shared network folder. The user's laptop has no public-facing internet connectivity. Which of the following can be used to print from the shared network folder?",
+    "options": [
+      "A. ADF",
+      "B. USB",
+      "C. PCL",
+      "D. SMB"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A technician needs to troubleshoot a user's smartphone that will not connect to its wireless provider's service. Which of the following should the technician check first?",
+    "options": [
+      "A. SIM card",
+      "B. Network settings",
+      "C. Subscription plan",
+      "D. Bluetooth connection"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "A user is having trouble with the location services on their smartphone. Location-based applications show incorrect positions when the user is traveling. This issue affects the user's ability to navigate and use location-dependent applications. Which of the following is the best way to resolve this issue?",
+    "options": [
+      "A. Downloading a third-party mapping application",
+      "B. Resetting the network settings",
+      "C. Enabling Wi-Fi to assist GPS",
+      "D. Restarting the smartphone"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "A technician receives a S.M.A.R.T. error on a PC. When the technician presses the Esc key, the PC continues to turn on without any further issues. Which of the following should the technician do next?",
+    "options": [
+      "A. Replace the HDD.",
+      "B. Update the PC's BIOS.",
+      "C. Close the ticket.",
+      "D. Change the NIC."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "A company uses vital legacy software that does not run in the current OS version Which of the following will best support the software while keeping the OS current?",
+    "options": [
+      "A. Shared resources",
+      "B. System sandbox",
+      "C. Test development",
+      "D. Application visualization"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?",
+    "options": [
+      "A. Gateway",
+      "B. Static IP",
+      "C. APIPA",
+      "D. DHCP"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A user reports that the print quality of their desk printer is poor. A technician replaces the ink cartridge, but this does not resolve the issue. Which of the following should the technician do next?",
+    "options": [
+      "A. Replace the pickup rollers",
+      "B. Clean the printheads",
+      "C. Switch the paper type",
+      "D. Change the ribbon"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "A technician is troubleshooting internet connectivity issues after a firewall update. Users report that they can access local network resources, such as printers and shares, but cannot access the internet. Which of the following settings is most likely causing the issue?",
+    "options": [
+      "A. Static IP assignments",
+      "B. Default gateway",
+      "C. Subnet mask",
+      "D. VLANs"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Which of the following drive interfaces is typically used in server systems but not in home computers?",
+    "options": [
+      "A. NVMe",
+      "B. SAS",
+      "C. SATA",
+      "D. PCIe"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?",
+    "options": [
+      "A. NVMe",
+      "B. RISC",
+      "C. ARM",
+      "D. TPM"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "A technician is troubleshooting a connectivity issue on a network computer. The technician runs ipconfig in a command prompt and receives the following IP address:169.254.0.6. Which of the following is most likely the type of IP address being assigned?",
+    "options": [
+      "A. DHCP reservation assignment",
+      "B. Dynamic assignment",
+      "C. Self-assignment",
+      "D. Static assignment"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive. Which of the following should the administrator check?",
+    "options": [
+      "A. TPM",
+      "B. CPU",
+      "C. RAM",
+      "D. HDD"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?",
+    "options": [
+      "A. Enable QoS in the router",
+      "B. Configure PoE on the switch",
+      "C. Change the encryption from WPA3 to WPA2",
+      "D. Turn on MAC address filtering"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the Wowing is a valid public IP address in this scenario?",
+    "options": [
+      "A. 10.254.128.11",
+      "B. 66.157.195.20",
+      "C. 172.16.0.30",
+      "D. 192.168 1.50"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "A user's wireless headset shows a \"connected\" status when turned on, but the Bluetooth list on the user's phone shows that the headset is \"not connected.\" Which of the following should the technician do?",
+    "options": [
+      "A. Enter the PIN.",
+      "B. Turn off Wi-Fi.",
+      "C. Re-pair the devices.",
+      "D. Enable Bluetooth."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "A company wants to use cloud services with the requirement that data will reside on physical hardware that will not be shared with other companies. Which of the following meets this requirement?",
+    "options": [
+      "A. Dedicated resources",
+      "B. Elasticity",
+      "C. Hybrid cloud",
+      "D. SaaS"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following has the best penetration through physical objects, such as walls?",
+    "options": [
+      "A. 2.4GHz",
+      "B. 5GHz",
+      "C. 6GHz",
+      "D. NFC"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).",
+    "options": [
+      "A. APIPA",
+      "B. Gateway",
+      "C. IP address",
+      "D. Subnet mask"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "A customer reports a problem connecting to network resources. After asking open-ended questions, the technician determines the issue likely exists on the remote server. Which of the following should the technician do next?",
+    "options": [
+      "A. Document the findings.",
+      "B. Test the theory",
+      "C. Gather information",
+      "D. Establish a plan of action"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Which of the following best represents the purpose of NFC?",
+    "options": [
+      "A. Wired connections between several devices",
+      "B. Short-distance wireless connections between two devices",
+      "C. Wireless connections between multiple devices at once",
+      "D. Direct connection of two computers for file sharing"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "Employees are concerned about sensitive data being printed on a shared multifunction printer located in a high-traffic hallway. Which of the following should a technician do to address this concern?",
+    "options": [
+      "A. Set up a PIN for user authentication at the printer",
+      "B. Relocate the printer to an unused office space",
+      "C. Configure printing of sensitive data through a specific tray",
+      "D. Schedule print jobs to be released at certain times"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "A customer recently lost data due to several unexpected shutdowns. Data integrity is important to the customer. Which of the following features should the technician choose to prevent data loss?",
+    "options": [
+      "A. Redundant power supply",
+      "B. Uninterruptible power supply",
+      "C. Modular power supply",
+      "D. High-efficiency power supply"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "Which of the following statements best summarize managed vs unmanaged switches? (Select two).",
+    "options": [
+      "A. Unmanaged switches are generally more expensive",
+      "B. Unmanaged switches have more security capabilities",
+      "C. Unmanaged switches start working as soon as they are plugged in to the network",
+      "D. Managed switches have more features"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Which of the following can be used to logically segment networks?",
+    "options": [
+      "A. MAC",
+      "B. VLAN",
+      "C. NIC",
+      "D. DSL"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "A user keeps getting an error message when trying to print a letter. The printer is normally used to print cards and invitations. The user tries printing from a different computer, but the issue persists. Which of the following should the user do to resolve the issue?",
+    "options": [
+      "A. Print fewer pages.",
+      "B. Print on card stock",
+      "C. Replace the rollers.",
+      "D. Change the paper tray setting."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "Which of the following utilizes specialized ports on a laptop to expand the local connection options?",
+    "options": [
+      "A. NFC adapter",
+      "B. Docking station",
+      "C. Port replicator",
+      "D. USB dongle"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "A user is having issues when charging a device with a Lightning cable. The cable is not recognized when it is plugged into the device. This issue is usually resolved by flipping the cable over. This issue does not occur with other devices of the same type. Which of the following would most likely cause the issue?",
+    "options": [
+      "A. The device needs to be restarted.",
+      "B. The battery may be swelling and needs inspection.",
+      "C. The cable is failing and needs to be replaced",
+      "D. The charging port is dirty or damaged"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "A technician recently updated the firmware on a dual-BIOS motherboard. Following the update, the system has been stuck in a boot loop and cannot start an OS from any internal or external device. The technician cannot access the UEFI menu either. Which of the following should the technician do next?",
+    "options": [
+      "A. Enable the secondary configuration.",
+      "B. Downgrade the firmware via USB.",
+      "C. Start a warranty repair of the motherboard.",
+      "D. Reapply thermal paste to the CPU."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

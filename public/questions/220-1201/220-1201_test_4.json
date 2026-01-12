@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "A technician wants to upgrade a computer to a new Windows version. The Windows Upgrade Advisor states that the computer is not compatible with the new Windows version due to a lack of TPM 2.0 support. Which of the following should the technician do next?",
+    "options": [
+      "A. Enable the module in the UEFI BIOS.",
+      "B. Install an HSM in the computer.",
+      "C. Perform a clean Install of the new Windows version.",
+      "D. Implement BitLocker on the computer."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "A user connects a company-issued laptop to a 4K TV but can only get 1080p resolution on the TV. The technician confirms that the laptop is capable of producing a 4K output. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The TV firmware is out of date",
+      "B. The HDMI cable version is incorrect",
+      "C. The laptop firmware is not current",
+      "D. The CPU cannot keep up with the transcoding"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. Which setting ensures the printer is always available?",
+    "options": [
+      "A. Dynamic IPs for laptops, static IP for printer on same subnet",
+      "B. Manually assign public IPs to laptops and printer",
+      "C. Use APIPA for laptops and connect printer directly to ISP router",
+      "D. Use dynamic IP addressing for all devices"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "Which of the following will a company most likely use to control which websites a user can access?",
+    "options": [
+      "A. Proxy server",
+      "B. Spam gateway",
+      "C. DHCP server",
+      "D. RADIUS server"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?",
+    "options": [
+      "A. Video card",
+      "B. HDD",
+      "C. RAM module",
+      "D. TPM"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Which of the following allows for a beam of light to transmit data through a flexible cable?",
+    "options": [
+      "A. Coaxial",
+      "B. HDMI",
+      "C. Thunderbolt",
+      "D. Single-mode fiber"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "A network operations analyst receives an automated alert regarding a server with an array. The analyst walks over to the server and sees a blinking orange light at the hard disk bay. The server is configured for RAID 1. Which of the following should the analyst do to resolve this issue?",
+    "options": [
+      "A. Change the array to RAID 0.",
+      "B. Undo the array and create a new one.",
+      "C. Update RAID card firmware.",
+      "D. Replace the hard disk and rebuild the array."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122°F (50°C) when the computer is started but rises to 208°F (98°C) when applications are opened. Which of the following would most likely fix this issue?",
+    "options": [
+      "A. Replacing the power supply",
+      "B. Installing a high-performance heat sink",
+      "C. Adjusting the fan settings",
+      "D. Adding more RAM to the computer"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Malfunctioning power supply",
+      "B. Damaged charge port",
+      "C. Swollen battery",
+      "D. Broken screen"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Which of the following tools would a technician use to connect wires to an RJ45 connector?",
+    "options": [
+      "A. Crimper",
+      "B. Cable stripper",
+      "C. Punchdown",
+      "D. Loopback plug"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?",
+    "options": [
+      "A. Switch",
+      "B. Access point",
+      "C. Firewall",
+      "D. Hub"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "A technician receives complaints that a network fileshare is slow and now unavailable. The server is powered on and accessible via RDP. What should the technician check next?",
+    "options": [
+      "A. RAID array status",
+      "B. Data backup integrity",
+      "C. Network connectivity",
+      "D. Available memory"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. Which of the following will the technician require so the phone can connect to a different provider?",
+    "options": [
+      "A. USB-C",
+      "B. SD card",
+      "C. eSIM",
+      "D. MDM"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "A technician needs to figure out why a laser printer is intermittently not feeding paper to print. The technician verifies the issue by running several copy-and-print tests. Which of the following should the technician do next?",
+    "options": [
+      "A. Update the printer drivers.",
+      "B. Select the correct paper size.",
+      "C. Clean the pickup rollers.",
+      "D. Replace the toner cartridge."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "Users working with large files back up the files to external hard drives. One user's files take longer to back up than other users' files. The user has tried backing up the files to other users' drives with the same results. Which of the following steps should the technician take first to correct this issue?",
+    "options": [
+      "A. Replace the hard drive's USB cable.",
+      "B. Defragment the user's external hard drive.",
+      "C. Update the storage drivers on the user's system.",
+      "D. Instruct the user to compress the files."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "Which of the following best characterizes the use of a virtual machine as a sandbox?",
+    "options": [
+      "A. Run an application on multiple workstations without installation.",
+      "B. Explore how an application behaves in a different environment",
+      "C. Migrate a currently used legacy application from physical to virtual",
+      "D. Create a firewall where the sandbox acts as a perimeter network."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "A technician is troubleshooting a workstation that repeatedly shuts down within ten minutes of being turned on. The technician notices a loud clicking sound coming from inside the case. Which of the following components should the technician check first?",
+    "options": [
+      "A. Exhaust fan",
+      "B. Capacitors",
+      "C. CPU fan",
+      "D. Intake fan"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "A user prints a job from a laser printer. The user wipes the page, and the words and images come off of it. The technician replaces the toner cartridge, but the issue persists. Which of the following components should the technician replace next?",
+    "options": [
+      "A. Fuser",
+      "B. Drum",
+      "C. Developer roller",
+      "D. Discharge lamp"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following cloud models allows customers to connect to company resources from their laptops with the least amount of infrastructure?",
+    "options": [
+      "A. PaaS",
+      "B. IaaS",
+      "C. SaaS",
+      "D. FaaS"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Which of the following can carry data and electricity to network devices? (Select two).",
+    "options": [
+      "A. Router",
+      "B. Injector",
+      "C. Cable modem",
+      "D. Access point"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "A user would like to connect a laptop to a monitor, keyboard, and mouse when in the office. The user prefers to use as few cables as possible. Which of the following would best achieve that goal?",
+    "options": [
+      "A. Bluetooth",
+      "B. Managed switch",
+      "C. Docking station",
+      "D. Near-field communication"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "A user is receiving many unsolicited emails. Which of the following controls can be configured to best reduce these types of emails?",
+    "options": [
+      "A. Load balancer",
+      "B. Spam gateway",
+      "C. Mail forwarding",
+      "D. Proxy servers"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "An end user reports that their laptop has a blank screen. A technician observes the keyboard lights are on, and the fan is running. Which of the following should the technician do next?",
+    "options": [
+      "A. Check the display ribbon cable.",
+      "B. Contact vendor support",
+      "C. Replace the inverter",
+      "D. Connect to an external monitor"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere. Which of the following should a technician implement?",
+    "options": [
+      "A. Public cloud",
+      "B. VDI",
+      "C. SSH",
+      "D. SaaS"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards Which of the following should the institution use?",
+    "options": [
+      "A. TLS",
+      "B. AMD",
+      "C. HSM",
+      "D. ARM"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "A technician is setting up a scan-to-SMB function on a multifunction printer. Which of the following connection types should the technician configure?",
+    "options": [
+      "A. Email server",
+      "B. SFTP connection",
+      "C. Network share",
+      "D. Print services"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
+    "options": [
+      "A. Bluetooth",
+      "B. NFC",
+      "C. Wi-Fi",
+      "D. Cellular"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?",
+    "options": [
+      "A. AAAA",
+      "B. MX",
+      "C. CNAME",
+      "D. A"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "A customer needs to install a new printer in their network. The customer reports that users had intermittent connectivity issues with previous printers. Which of the following should the technician configure on the new printer to prevent this issue?",
+    "options": [
+      "A. Gateway IP address",
+      "B. DHCP IP address",
+      "C. Static IP address",
+      "D. Public IP address"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer. Which of the following is me most likely cause?",
+    "options": [
+      "A. Rollers",
+      "B. Tray assembly",
+      "C. Toner",
+      "D. Printhead"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "A customer reports their tablet was recently dropped on the ground. The tablet has a small crack in one corner of the display, and it does not charge when plugged in. Which of the following should a technician do first?",
+    "options": [
+      "A. Perform a hard restart.",
+      "B. Replace the battery",
+      "C. Inspect the USB-C port for damage",
+      "D. Run diagnostics on the digitizer"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "A customer reports that a workstation has no internet connectivity. A technician confirms the port is disabled. Which of the following is most likely responsible for the issue?",
+    "options": [
+      "A. Patch panel",
+      "B. Physical NIC",
+      "C. Managed switch",
+      "D. Stand-alone firewall"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "A projector has been shutting down after 30 minutes of use, and it has a strange smell The technician confirms the power source is not the cause of the issue Which of the following steps should the technician take next to resolve this issue?",
+    "options": [
+      "A. Replace the bulb",
+      "B. Check the projector configuration.",
+      "C. Clean the filter",
+      "D. Adjust the gamma settings."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following ate most likely causing three issues? (Select two).",
+    "options": [
+      "A. Incorrect configuration of the settings",
+      "B. OS and device version incompatibility",
+      "C. Disabled settings following the upgrade",
+      "D. Full storage"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "A technician is troubleshooting issues occurring on a user's mobile device. Applications and the OS have slow response times, even when performing simple tasks, such as writing an email. Additionally, new applications occasionally fail to launch. Which of the following should the technician do next?",
+    "options": [
+      "A. Move the device to a room with a colder temperature.",
+      "B. Close unnecessary programs.",
+      "C. Reset to factory default settings.",
+      "D. Check the battery health of the device."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Which of the following allows a physical server to host multiple virtual machines?",
+    "options": [
+      "A. Cross-platform virtualization",
+      "B. Hypervisor",
+      "C. Sandbox",
+      "D. SaaS"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Select two).",
+    "options": [
+      "A. Turn it off and disconnect all power sources.",
+      "B. Submit an emergency request to the local facilities manager.",
+      "C. Check for foreign objects, liquid spills, and internal damage.",
+      "D. Contact the vendor and submit a return request."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "A user's laptop keyboard is distorted and no longer flat. Which laptop component most likely failed?",
+    "options": [
+      "A. Battery",
+      "B. RAM",
+      "C. Keyboard",
+      "D. HDD"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is a Bluetooth network an example of?",
+    "options": [
+      "A. PAN",
+      "B. LAN",
+      "C. WAN",
+      "D. SAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Which of the following tools is best to track where an Ethernet cable is patched?",
+    "options": [
+      "A. Crimper",
+      "B. Punchdown tool",
+      "C. Cable stripper",
+      "D. Toner probe"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "A user's laptop is projecting an image upside down when connected to a ceiling-mounted projector. Which of the following should the technician do to best resolve the issue?",
+    "options": [
+      "A. Change the input source",
+      "B. Rotate the image from the laptop",
+      "C. Adjust the display frequency",
+      "D. Flip the image vertically from the projector"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "A technician is putting RJ45 connectors on Cat 6 cables. Which of the following tools should the technician use to secure the connectors?",
+    "options": [
+      "A. Loopback plug",
+      "B. Wire cutters",
+      "C. Punchdown",
+      "D. Crimping"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "Which of the following resolutions is commonly known as Ultra HD?",
+    "options": [
+      "A. 1920x1080",
+      "B. 2048x1080",
+      "C. 3840x2160",
+      "D. 7680x4320"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is an isolated virtual machine?",
+    "options": [
+      "A. Sandbox",
+      "B. Hypervisor",
+      "C. Container",
+      "D. VDI"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?",
+    "options": [
+      "A. SSH",
+      "B. LDAP",
+      "C. FTPS",
+      "D. SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "Which of the following provides electricity to devices through network cables?",
+    "options": [
+      "A. Edge router",
+      "B. PoE switch",
+      "C. Access point",
+      "D. Patch panel"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "An end user reports that their laptop shuts down when they undock it. Even when using a new charging cable, the issue persists. Which of the following should the technician do next?",
+    "options": [
+      "A. Flash the BIOS",
+      "B. Update the drivers",
+      "C. Try a different charger",
+      "D. Replace the battery"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Which of the following printing initiatives would be best to accomplish environmentally friendly objectives?",
+    "options": [
+      "A. Requiring user authentication for printing",
+      "B. Locking down printing to only certain individuals",
+      "C. Modifying duplex settings to double-sided",
+      "D. Changing the print quality settings to best"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following should a company use to implement automatic time synchronization?",
+    "options": [
+      "A. DHCP",
+      "B. UTM",
+      "C. NTP",
+      "D. AAA"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "A company wants to have fast read speeds for its locally stored data. Which of the following configurations has the lowest cost to fulfill this requirement?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "A company will retire a legacy application in one year but wants to decommission the physical environment now. Which migration method is best?",
+    "options": [
+      "A. Relocating the server to a colocated data center",
+      "B. Performing a physical-to-virtual conversion and hosting on IaaS",
+      "C. Deploying all components using PaaS",
+      "D. Taking a backup and shutting down the server"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is an advantage of using a hybrid cloud instead of a public cloud?",
+    "options": [
+      "A. Ability to reduce management overhead",
+      "B. Ability to use cross-platform virtualization",
+      "C. Ability to meet data residency requirements",
+      "D. Ability to leverage IaaS and PaaS"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "A small company wants the ability to print in full color but needs to pay a minimal initial purchase price for the printer Which of the following is the best option?",
+    "options": [
+      "A. Thermal printer",
+      "B. Inkjet printer",
+      "C. Dot matrix printer",
+      "D. Laser printer"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "A company wants to save printing costs by restricting network printer use. The company implements a solution that requires employees to authenticate to the printer to release print jobs Which of the following has the company implemented?",
+    "options": [
+      "A. Access control list",
+      "B. Audit logging",
+      "C. Badging",
+      "D. Print server"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "A technician is setting up a new multifunction device to be used over a shared network connection. Copier functions need to be restricted to only office employees. Which of the following should the technician perform after configuring the device to use a print server that exists on the domain?",
+    "options": [
+      "A. SMTP implementation",
+      "B. Firmware update",
+      "C. User authentication",
+      "D. SMB configuration"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "The output from a dot matrix printer has become lighter over time. Which of the following should a technician do to fix the issue?",
+    "options": [
+      "A. Clean the printhead.",
+      "B. Replace the ribbon.",
+      "C. Install a maintenance kit.",
+      "D. Calibrate the alignment."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "A technician is setting up a new SOHO wireless router. According to security best practices, which of the following should the technician do first?",
+    "options": [
+      "A. Enable encryption.",
+      "B. Assign a static IP.",
+      "C. Change the default password.",
+      "D. Reset the router."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue (Select two).",
+    "options": [
+      "A. Run a magnet over each drive.",
+      "B. Check if one of the drives is not level",
+      "C. Listen for clicking and grinding noises",
+      "D. Check the OS logs"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "The power supply for a user's gaming PC fails. The user installs a new power supply and connects it to the motherboard, GPU, and SSDs, but the computer will not start. What is the most likely cause?",
+    "options": [
+      "A. The computer requires more RAM",
+      "B. The wattage is insufficient",
+      "C. The user did not connect the 4-pin CPU connector",
+      "D. The power supply only works in redundant configurations"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is a characteristic of an NVMe drive?",
+    "options": [
+      "A. M.2 interface",
+      "B. 3.5in (8.9cm) external",
+      "C. 7,200rpm",
+      "D. Molex connector"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

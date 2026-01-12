@@ -16,43 +16,43 @@ interface Question {
 const useDynamicFontSize = (question: string, options: string[]) => {
   return useMemo(() => {
     const questionLength = question.length;
-    const maxOptionLength = Math.max(...options.map(opt => opt.length));
-    
+    const maxOptionLength = Math.max(...options.map((opt) => opt.length));
+
     // Base font sizes
-    let questionFontSize = 'text-2xl md:text-3xl';
-    let optionFontSize = 'text-lg';
-    
+    let questionFontSize = "text-2xl md:text-3xl";
+    let optionFontSize = "text-lg";
+
     // Adjust based on content length
     if (questionLength > 300) {
-      questionFontSize = 'text-xl md:text-2xl';
+      questionFontSize = "text-xl md:text-2xl";
     }
     if (questionLength > 500) {
-      questionFontSize = 'text-lg md:text-xl';
+      questionFontSize = "text-lg md:text-xl";
     }
     if (questionLength > 700) {
-      questionFontSize = 'text-base md:text-lg';
+      questionFontSize = "text-base md:text-lg";
     }
-    
+
     if (maxOptionLength > 150) {
-      optionFontSize = 'text-base';
+      optionFontSize = "text-base";
     }
     if (maxOptionLength > 200) {
-      optionFontSize = 'text-sm';
+      optionFontSize = "text-sm";
     }
-    
+
     return { questionFontSize, optionFontSize };
   }, [question, options]);
 };
 
 // Explanation Modal Component
-const ExplanationModal = ({ 
-  isOpen, 
-  onClose, 
-  isCorrect, 
-  explanation, 
-  selectedAnswer, 
+const ExplanationModal = ({
+  isOpen,
+  onClose,
+  isCorrect,
+  explanation,
+  selectedAnswer,
   correctAnswer,
-  questionFontSize
+  questionFontSize,
 }: {
   isOpen: boolean;
   onClose: () => void;
@@ -71,21 +71,21 @@ const ExplanationModal = ({
         <div className="p-6 border-b border-gray-700">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className={`w-12 h-12 rounded-full flex items-center justify-center ${
-                isCorrect 
-                  ? 'bg-green-500/20 border border-green-500' 
-                  : 'bg-red-500/20 border border-red-500'
-              }`}>
-                <span className="text-2xl">
-                  {isCorrect ? '✅' : '❌'}
-                </span>
+              <div
+                className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                  isCorrect
+                    ? "bg-green-500/20 border border-green-500"
+                    : "bg-red-500/20 border border-red-500"
+                }`}
+              >
+                <span className="text-2xl">{isCorrect ? "✅" : "❌"}</span>
               </div>
               <div>
                 <h3 className="text-2xl font-semibold text-white">
-                  {isCorrect ? 'Correct!' : 'Incorrect'}
+                  {isCorrect ? "Correct!" : "Incorrect"}
                 </h3>
                 <p className="text-gray-400 text-base">
-                  {isCorrect ? 'Great job!' : 'Let\'s review the explanation'}
+                  {isCorrect ? "Great job!" : "Let's review the explanation"}
                 </p>
               </div>
             </div>
@@ -93,8 +93,18 @@ const ExplanationModal = ({
               onClick={onClose}
               className="p-2 text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-gray-700"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </button>
           </div>
@@ -105,17 +115,21 @@ const ExplanationModal = ({
           <div className="space-y-6">
             {/* Answer Summary */}
             <div className="bg-gray-700/50 rounded-2xl p-6">
-              <h4 className="text-gray-300 font-semibold mb-4 text-lg">Your Answer</h4>
+              <h4 className="text-gray-300 font-semibold mb-4 text-lg">
+                Your Answer
+              </h4>
               <div className="flex items-center space-x-4">
-                <div className={`w-10 h-10 rounded-full flex items-center justify-center text-base font-semibold ${
-                  selectedAnswer === correctAnswer
-                    ? 'bg-green-500 text-white'
-                    : 'bg-red-500 text-white'
-                }`}>
+                <div
+                  className={`w-10 h-10 rounded-full flex items-center justify-center text-base font-semibold ${
+                    selectedAnswer === correctAnswer
+                      ? "bg-green-500 text-white"
+                      : "bg-red-500 text-white"
+                  }`}
+                >
                   {String.fromCharCode(65 + selectedAnswer)}
                 </div>
                 <span className="text-white text-lg">
-                  {isCorrect ? 'Correct answer' : 'Incorrect answer'}
+                  {isCorrect ? "Correct answer" : "Incorrect answer"}
                 </span>
               </div>
             </div>
@@ -124,13 +138,27 @@ const ExplanationModal = ({
             <div className="bg-gray-700/80 rounded-2xl p-8 border border-gray-600">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 mt-1">
-                  <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  <svg
+                    className="w-8 h-8 text-blue-400"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
                   </svg>
                 </div>
                 <div className="flex-1">
-                  <h4 className="text-white font-semibold mb-4 text-xl">Explanation</h4>
-                  <p className={`text-gray-200 leading-relaxed ${questionFontSize}`}>
+                  <h4 className="text-white font-semibold mb-4 text-xl">
+                    Explanation
+                  </h4>
+                  <p
+                    className={`text-gray-200 leading-relaxed ${questionFontSize}`}
+                  >
                     {explanation}
                   </p>
                 </div>
@@ -173,7 +201,9 @@ export default function Core2Quiz() {
     const loadQuestions = async () => {
       try {
         setLoading(true);
-        const response = await fetch(`/questions/220-1102_test_${testId}.json`);
+        const response = await fetch(
+          `/questions/220-1102/220-1102_test_${testId}.json`
+        );
         if (!response.ok) {
           throw new Error(`Failed to load test ${testId}`);
         }
@@ -181,7 +211,9 @@ export default function Core2Quiz() {
         setQuestions(data);
         setLoading(false);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Failed to load questions');
+        setError(
+          err instanceof Error ? err.message : "Failed to load questions"
+        );
         setLoading(false);
       }
     };
@@ -191,15 +223,17 @@ export default function Core2Quiz() {
     }
   }, [testId]);
 
-
-
   // Calculate dynamic font sizes - always call hook with safe defaults
-  const currentQ = questions[currentQuestion] || { question: '', options: [] };
+  const currentQ = questions[currentQuestion] || { question: "", options: [] };
   const totalQuestions = questions.length;
-  const progress = questions.length > 0 ? ((currentQuestion + 1) / totalQuestions) * 100 : 0;
-  
+  const progress =
+    questions.length > 0 ? ((currentQuestion + 1) / totalQuestions) * 100 : 0;
+
   // Calculate dynamic font sizes
-  const { questionFontSize, optionFontSize } = useDynamicFontSize(currentQ.question, currentQ.options);
+  const { questionFontSize, optionFontSize } = useDynamicFontSize(
+    currentQ.question,
+    currentQ.options
+  );
 
   if (loading) {
     return (
@@ -220,7 +254,9 @@ export default function Core2Quiz() {
   if (questions.length === 0) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
-        <div className="text-white text-xl">No questions found for test {testId}</div>
+        <div className="text-white text-xl">
+          No questions found for test {testId}
+        </div>
       </div>
     );
   }
@@ -228,7 +264,7 @@ export default function Core2Quiz() {
   const handleAnswerSelect = (answerIndex: number) => {
     if (selectedAnswer !== null) return; // Prevent changing answer after selection
     setSelectedAnswer(answerIndex);
-    
+
     if (answerIndex === currentQ.correctAnswer) {
       setScore(score + 1);
       // Don't show modal for correct answers - user must click to see explanation
@@ -251,9 +287,13 @@ export default function Core2Quiz() {
       const timeTaken = Math.floor((Date.now() - startTime) / 1000);
       const minutes = Math.floor(timeTaken / 60);
       const seconds = timeTaken % 60;
-      const timeString = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-      
-      router.push(`/tests/core2/quiz/results?score=${score}&total=${totalQuestions}&time=${timeString}`);
+      const timeString = `${minutes.toString().padStart(2, "0")}:${seconds
+        .toString()
+        .padStart(2, "0")}`;
+
+      router.push(
+        `/tests/core2/quiz/results?score=${score}&total=${totalQuestions}&time=${timeString}`
+      );
     }
   };
 
@@ -282,12 +322,22 @@ export default function Core2Quiz() {
             {/* Logo */}
             <Link href="/tests" className="flex items-center">
               <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" fill="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z" clipRule="evenodd" fill="currentColor" fillRule="evenodd"/>
+                <svg
+                  className="w-5 h-5 text-white"
+                  fill="none"
+                  viewBox="0 0 16 16"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z"
+                    clipRule="evenodd"
+                    fill="currentColor"
+                    fillRule="evenodd"
+                  />
                 </svg>
               </div>
             </Link>
-            
+
             {/* Center - Question Counter and Test Name */}
             <div className="text-center">
               <div className="text-white font-semibold text-lg">
@@ -297,14 +347,24 @@ export default function Core2Quiz() {
                 CompTIA A+ 220-1102 Core 2
               </div>
             </div>
-            
+
             {/* Close Button */}
-            <Link 
+            <Link
               href="/tests/core2"
               className="p-2 text-gray-400 hover:text-white transition-colors"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             </Link>
           </div>
@@ -314,7 +374,7 @@ export default function Core2Quiz() {
       {/* Progress Bar */}
       <div className="max-w-7xl mx-auto px-4 py-2">
         <div className="w-full bg-gray-700 rounded-full h-1">
-          <div 
+          <div
             className="bg-gradient-to-r from-green-400 to-blue-500 h-1 rounded-full transition-all duration-300"
             style={{ width: `${progress}%` }}
           ></div>
@@ -329,8 +389,18 @@ export default function Core2Quiz() {
             <div className="flex items-center space-x-3">
               <span className="text-white text-2xl font-medium">Question</span>
               <button className="p-1 text-gray-400 hover:text-white transition-colors">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 14.142M13 16a1 1 0 102 0V8a1 1 0 10-2 0v8z" />
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 14.142M13 16a1 1 0 102 0V8a1 1 0 10-2 0v8z"
+                  />
                 </svg>
               </button>
             </div>
@@ -341,16 +411,16 @@ export default function Core2Quiz() {
 
           {/* Question */}
           <div className="mb-8">
-            <h2 className={`${questionFontSize} font-medium text-white mb-6 leading-relaxed`}>
+            <h2
+              className={`${questionFontSize} font-medium text-white mb-6 leading-relaxed`}
+            >
               {currentQ.question}
             </h2>
           </div>
 
           {/* Answer Options */}
           <div className="mb-8">
-            <p className="text-gray-300 text-lg mb-6">
-              Choose an answer
-            </p>
+            <p className="text-gray-300 text-lg mb-6">Choose an answer</p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {currentQ.options.map((option, index) => (
                 <button
@@ -359,15 +429,18 @@ export default function Core2Quiz() {
                   disabled={selectedAnswer !== null}
                   className={`
                     p-6 rounded-xl border-2 text-left font-medium ${optionFontSize} transition-all duration-200
-                    ${selectedAnswer === null
-                      ? 'border-gray-600 bg-gray-700/50 text-white hover:border-blue-500 hover:bg-gray-700'
-                      : selectedAnswer === index
-                      ? index === currentQ.correctAnswer
-                        ? 'border-green-500 bg-green-500/20 text-green-300'
-                        : `border-red-500 bg-red-500/20 text-red-300 ${shake ? 'animate-shake' : ''}`
-                      : index === currentQ.correctAnswer
-                      ? 'border-green-500 bg-green-500/20 text-green-300'
-                      : 'border-gray-600 bg-gray-700/30 text-gray-400'
+                    ${
+                      selectedAnswer === null
+                        ? "border-gray-600 bg-gray-700/50 text-white hover:border-blue-500 hover:bg-gray-700"
+                        : selectedAnswer === index
+                        ? index === currentQ.correctAnswer
+                          ? "border-green-500 bg-green-500/20 text-green-300"
+                          : `border-red-500 bg-red-500/20 text-red-300 ${
+                              shake ? "animate-shake" : ""
+                            }`
+                        : index === currentQ.correctAnswer
+                        ? "border-green-500 bg-green-500/20 text-green-300"
+                        : "border-gray-600 bg-gray-700/30 text-gray-400"
                     }
                   `}
                 >
@@ -378,35 +451,47 @@ export default function Core2Quiz() {
           </div>
 
           {/* Result and Explanation Button - Only show for correct answers */}
-          {selectedAnswer !== null && selectedAnswer === currentQ.correctAnswer && (
-            <div className="text-center mb-8">
-              <div className="flex items-center justify-center space-x-4">
-                <div className="flex items-center space-x-2">
-                  <span className="text-lg font-semibold text-green-400">
-                    ✅ Correct!
-                  </span>
+          {selectedAnswer !== null &&
+            selectedAnswer === currentQ.correctAnswer && (
+              <div className="text-center mb-8">
+                <div className="flex items-center justify-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-lg font-semibold text-green-400">
+                      ✅ Correct!
+                    </span>
+                  </div>
+                  <button
+                    onClick={showExplanation}
+                    className="flex items-center space-x-2 text-blue-400 hover:cursor-pointer hover:text-blue-300 transition-colors px-4 py-2 rounded-lg hover:bg-blue-500/10"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span>See explanation</span>
+                  </button>
                 </div>
-                <button
-                  onClick={showExplanation}
-                  className="flex items-center space-x-2 text-blue-400 hover:cursor-pointer hover:text-blue-300 transition-colors px-4 py-2 rounded-lg hover:bg-blue-500/10"
-                >
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <span>See explanation</span>
-                </button>
               </div>
-            </div>
-          )}
+            )}
 
           {/* Result for wrong answers - No explanation button needed */}
-          {selectedAnswer !== null && selectedAnswer !== currentQ.correctAnswer && (
-            <div className="text-center mb-8">
-              <span className="text-lg font-semibold text-red-400">
-                ❌ Incorrect
-              </span>
-            </div>
-          )}
+          {selectedAnswer !== null &&
+            selectedAnswer !== currentQ.correctAnswer && (
+              <div className="text-center mb-8">
+                <span className="text-lg font-semibold text-red-400">
+                  ❌ Incorrect
+                </span>
+              </div>
+            )}
 
           {/* Don't Know Option - Only show when no answer selected */}
           {selectedAnswer === null && (
@@ -424,14 +509,25 @@ export default function Core2Quiz() {
               disabled={currentQuestion === 0}
               className={`
                 flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
-                ${currentQuestion === 0
-                  ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
-                  : 'bg-gray-700 border border-gray-600 text-white hover:bg-gray-600'
+                ${
+                  currentQuestion === 0
+                    ? "bg-gray-700 text-gray-500 cursor-not-allowed"
+                    : "bg-gray-700 border border-gray-600 text-white hover:bg-gray-600"
                 }
               `}
             >
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+              <svg
+                className="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M15 19l-7-7 7-7"
+                />
               </svg>
               Previous
             </button>
@@ -441,15 +537,26 @@ export default function Core2Quiz() {
               disabled={selectedAnswer === null}
               className={`
                 flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
-                ${selectedAnswer === null
-                  ? 'bg-gray-700 text-gray-500 cursor-not-allowed'
-                  : 'bg-blue-600 text-white hover:bg-blue-700'
+                ${
+                  selectedAnswer === null
+                    ? "bg-gray-700 text-gray-500 cursor-not-allowed"
+                    : "bg-blue-600 text-white hover:bg-blue-700"
                 }
               `}
             >
-              {currentQuestion === totalQuestions - 1 ? 'Finish' : 'Next'}
-              <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              {currentQuestion === totalQuestions - 1 ? "Finish" : "Next"}
+              <svg
+                className="w-5 h-5 ml-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
               </svg>
             </button>
           </div>

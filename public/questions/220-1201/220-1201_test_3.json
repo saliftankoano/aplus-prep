@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "A user reported performance issues on a computer after a recent OS update A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?",
+    "options": [
+      "A. Document the findings.",
+      "B. Investigate any recent infrastructure changes.",
+      "C. Initiate the system restore",
+      "D. Verify full system functionality."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Which of the following involves installing an application on a server so several users can run the application concurrently without the need for local installation?",
+    "options": [
+      "A. Client virtualization",
+      "B. Software as a service",
+      "C. Sandboxing",
+      "D. Embedded software"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "Which of the following devices is used to implement ACL polices for an environment?",
+    "options": [
+      "A. Managed switch",
+      "B. Gateway",
+      "C. Repeater",
+      "D. Firewall"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?",
+    "options": [
+      "A. Badging",
+      "B. Password",
+      "C. Passcode",
+      "D. Biometrics"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "A company is installing a new shared printer for all employees. Some managers need to print sensitive HR material, and the company does not want to purchase separate printers. Which of the following should the company implement?",
+    "options": [
+      "A. Audit logging",
+      "B. Secure printing",
+      "C. Wired connectivity",
+      "D. Duplex settings"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck Which of the following should the technician do next to troubleshoot this issued",
+    "options": [
+      "A. Check the product manual for the procedure",
+      "B. Use a pry tool to force the cover open",
+      "C. Insert the wireless card into the M.2 slot",
+      "D. Try to move the cover by sliding it in all directions."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "Which of the following services is used to allocate IP addresses in an enterprise-wide environment?",
+    "options": [
+      "A. DNS",
+      "B. Syslog",
+      "C. Telnet",
+      "D. DHCP"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "A user prints a spreadsheet in duplex mode. The spreadsheet is difficult to read because some of the columns spill onto the second side of the page. Which of the following should the user do to prevent the issue but still print on both sides of the page?",
+    "options": [
+      "A. Turn off duplex printing.",
+      "B. Try a smaller font size in the spreadsheet.",
+      "C. Change the page orientation.",
+      "D. Use a different print driver."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A computer displays an error message indicating there is insufficient storage when installing applications. The user reports slow application load times. Which of the following replacement components would best resolve this issue?",
+    "options": [
+      "A. SSD",
+      "B. USB",
+      "C. HDD",
+      "D. RAM"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "Which of the following technologies is most used in portable devices?",
+    "options": [
+      "A. ECC",
+      "B. RAID",
+      "C. SATA",
+      "D. SODIMM"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "A human resources department uses a network shared with other departments to produce a variety of printed resources for legal retention. The human resources department only wants Its members to have access to these materials. Which of the following should the technician Implement?",
+    "options": [
+      "A. Security groups",
+      "B. Audit logs",
+      "C. Time-of-day access",
+      "D. Print server"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "A user is testing a new OS that is contained on a USB drive. The user wants the new OS to load automatically when the computer is turned on. Which of the following should the user configure?",
+    "options": [
+      "A. BIOS password",
+      "B. Trusted Platform Module",
+      "C. USB permissions",
+      "D. Boot options"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "A company needs to keep a record of tasks performed by an application. Which of the following should the company most likely implement as part of a solution?",
+    "options": [
+      "A. Fileshare",
+      "B. Syslog",
+      "C. Database",
+      "D. SAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "Which of the following cable types is the most suitable for delivering 10Gb speeds for distances over 328ft (100m) but under 1,312ft (400m)?",
+    "options": [
+      "A. Multimode fiber",
+      "B. Single-mode fiber",
+      "C. Cat 6a",
+      "D. Cat 6"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A user cannot see the office multifunction printer in their laptop's print options. They have printed to the device in the past successfully. The user's laptop is connected to the guest wireless network. Other users on both wireless and wired computers can see and print to the printer. Which of the following will fix the issue?",
+    "options": [
+      "A. Power cycle the printer to refresh connectivity.",
+      "B. Reset the closest wireless AP.",
+      "C. Download the printer driver from the manufacturer's website.",
+      "D. Connect the laptop to the corporate Wi-Fi."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "A technician is replacing a failed power supply in a ten-year-old computer When installing the customer-provided power supply, the technician discovers the ATX connector would not plug into the motherboard. The customer wants a cost-effective solution. Which of the following should the technician do next?",
+    "options": [
+      "A. Adjust the input voltage.",
+      "B. Install a modular power supply.",
+      "C. Rebuild the failed power supply.",
+      "D. Use a 20-pin to 24-pin adapter."
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "A technician is troubleshooting stylus issues on identical, company-provided tablets. Users can purchase their own accessories. Some users have no issues, but others report that their styluses charge intermittently and die frequently. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Certain cases are causing charging issues.",
+      "B. The tablets need to be updated.",
+      "C. Some of the tablets have manufacturing defects.",
+      "D. The malfunctioning styluses need firmware updates."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Which of the following devices has ACL capabilities?",
+    "options": [
+      "A. PoE injector",
+      "B. DSL",
+      "C. Firewall",
+      "D. Unmanaged switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following types of RAM is typically used in servers?",
+    "options": [
+      "A. SODIMM",
+      "B. Rambus",
+      "C. DDR3",
+      "D. ECC"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Which of the following will most likely be used in a testing environment to execute unauthorized or experimental code without affecting production systems?",
+    "options": [
+      "A. Virtual machines",
+      "B. Hybrid cloud",
+      "C. Load balancers",
+      "D. Application gateways"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Users are complaining that the audio from a presenter is choppy and unintelligible Which of the following is causing the issue?",
+    "options": [
+      "A. Webcam",
+      "B. Digitizer",
+      "C. inverter",
+      "D. Microphone"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Malfunctioning power supply",
+      "B. Damaged charge port",
+      "C. Deprecated battery",
+      "D. Broken screen"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "A user routinely connects and disconnects multiple devices from a laptop. Which of the following options should a technician recommend to facilitate ease of user mobility?",
+    "options": [
+      "A. Serial interfaces",
+      "B. Docking station",
+      "C. Network switch",
+      "D. USB hub"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "An office manager must scan a 300-page contract quickly. They are worried about scanning each page one at a time. Which feature will speed up the process?",
+    "options": [
+      "A. Flatbed scanner",
+      "B. Duplexing",
+      "C. Automatic document feeder",
+      "D. Orientation configuration"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "A help desk technician inspects a laptop keyboard because a single key has stopped working. The technician checks the keyboard for debris. Which of the following actions should the technician do next to troubleshoot the issue cost-effectively?",
+    "options": [
+      "A. Replace the keyboard.",
+      "B. Replace the key switch",
+      "C. Replace the circuit board.",
+      "D. Replace the keycap"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "A technician installs an upgraded wireless access point. The technician then notices the activity light comes on briefly and turns off. The access point continues to exhibit this behavior repeatedly and does not come online. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. High latency",
+      "B. Port flapping",
+      "C. External interference",
+      "D. Channel conflict"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "A technician replaces a laptop's failed motherboard. During validation testing, the wireless is slow and shows a weak signal. Which of the following should the technician do first to verify the source of the issue?",
+    "options": [
+      "A. Contact the manufacturer",
+      "B. Reseat antenna connections",
+      "C. Restart the access point",
+      "D. Install a new wireless adapter"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "When installing a network printer, a technician needs to ensure the printer is available after a network is restarted. Which of the following should the technician set up on the printer to meet this requirement?",
+    "options": [
+      "A. Static IP address",
+      "B. Private address",
+      "C. Wi-Fi on the printer",
+      "D. Dynamic addressing"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "Which of the following describes the function of an injector?",
+    "options": [
+      "A. To provide only data connectivity",
+      "B. To supply power across a cable",
+      "C. To improve wireless performance",
+      "D. To extend a network connection"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "A support technician receives a call stating that a user has added a device to the network. The user used the same configurations from another workstation. When both workstations are turned on, neither can access the network reliably. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The new computer has a duplicate IP address.",
+      "B. The DNS server is registering both hostnames.",
+      "C. The network cable was improperly terminated.",
+      "D. The security on the switchport needs to be reset."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

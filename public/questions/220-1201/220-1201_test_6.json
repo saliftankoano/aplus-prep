@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "A technician checks a RAID 5 array and sees a S.M.A.R.T. alert on one disk, but the array still shows healthy. What should the technician do next?",
+    "options": [
+      "A. Run chkdsk /f",
+      "B. Disable write caching",
+      "C. Rebuild the RAID array",
+      "D. Replace the failing drive"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "A user joins a conference call with a Bluetooth headset. Which of the following has the user created?",
+    "options": [
+      "A. MAN",
+      "B. PAN",
+      "C. SAN",
+      "D. WAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "A user replaces their PC power supply and connects it to the components, but the PC fails to start. What is the most likely cause?",
+    "options": [
+      "A. The computer requires additional RAM",
+      "B. The wattage is insufficient",
+      "C. The 4-pin CPU power connector is not connected",
+      "D. The PSU only works in redundant setups"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A customer reports slow network speeds. Which of the following components is most likely failing?",
+    "options": [
+      "A. CPU",
+      "B. NIC",
+      "C. HDD",
+      "D. RAM"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
+    "options": [
+      "A. Modular",
+      "B. Redundant",
+      "C. Linear",
+      "D. External"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
+    "options": [
+      "A. Switch",
+      "B. Firewall",
+      "C. Cable modem",
+      "D. Router"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. All laptops must have internet access and be able to use the printer. Which of the following settings ensures the printer is always available?",
+    "options": [
+      "A. Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.",
+      "B. Manually assign IP addresses to the laptops and printer based on the public IP from the ISP.",
+      "C. Use APIPA for laptops and connect the printer to the ISP router.",
+      "D. Use dynamic IP addresses from the ISP router for all the devices."
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Which of the following DNS records would an administrator change to redirect email flow?",
+    "options": [
+      "A. MX",
+      "B. TXT",
+      "C. SPF",
+      "D. CNAME"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?",
+    "options": [
+      "A. EDR",
+      "B. VPN",
+      "C. MDM",
+      "D. SaaS"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?",
+    "options": [
+      "A. Hypervisor",
+      "B. SaaS platform",
+      "C. Multiboot server computer",
+      "D. Sandbox"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "A technician needs to confirm that desktop PCs can be deployed to a global, remote workforce. Which of the following specifications should the technician validate?",
+    "options": [
+      "A. Input voltage",
+      "B. BIOS language support",
+      "C. Supply chain security",
+      "D. Power efficiency"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?",
+    "options": [
+      "A. Lightning interface",
+      "B. Port replicator",
+      "C. USB hub",
+      "D. Bluetooth"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?",
+    "options": [
+      "A. VDI",
+      "B. Private cloud",
+      "C. Sandbox",
+      "D. Type 1 hypervisor"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "A user reports that their desktop PC does not turn on. Which of the following components would most likely cause the issue?",
+    "options": [
+      "A. PSU",
+      "B. GPU",
+      "C. RAM",
+      "D. CPU"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?",
+    "options": [
+      "A. Fingerprint reader",
+      "B. Smart card",
+      "C. Secure token",
+      "D. NFC scanner"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?",
+    "options": [
+      "A. The SSD is faulty and should be replaced by the manufacturer",
+      "B. The SSD has not been properly formatted and is not readable",
+      "C. The SSD is incompatible with the motherboard",
+      "D. The SSD has not boon installed properly and should be reseated"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. HDD",
+      "B. RAM",
+      "C. NIC",
+      "D. BIOS"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Which of the following display technologies typically provides the highest contrast?",
+    "options": [
+      "A. IPS",
+      "B. OLED",
+      "C. TN",
+      "D. VA"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following DNS record types is used to direct email to a mail server?",
+    "options": [
+      "A. CNAME",
+      "B. SRV",
+      "C. MX",
+      "D. SOA"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is an advantage of using VDI?",
+    "options": [
+      "A. Authentication is not required on a domain.",
+      "B. Licensing costs are minimized.",
+      "C. Less manual configuration is needed for each workstation.",
+      "D. A virus is automatically contained locally."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is the best to use when testing a file for potential malware?",
+    "options": [
+      "A. Multitenancy",
+      "B. Test development",
+      "C. Cross-platform virtualization",
+      "D. Sandbox"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is used to confirm that a physical port is working?",
+    "options": [
+      "A. Network tap",
+      "B. Crimper",
+      "C. Patch panel",
+      "D. Loopback plug"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).",
+    "options": [
+      "A. Molex",
+      "B. NVMe",
+      "C. SATA",
+      "D. FireWire"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Community",
+      "D. Private"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "A technician is troubleshooting an all-in-one laser printer that prints a vertical line when making copies and scans. When users print or receive faxes, the output from the printer is correct. Which of the following should the technician examine to determine the cause of the issue?",
+    "options": [
+      "A. The pickup rollers",
+      "B. The corona wire",
+      "C. The document feeder",
+      "D. The drum assembly"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Which of the following types of connectors does an IDE hard drive use for power?",
+    "options": [
+      "A. F type",
+      "B. SC",
+      "C. Molex",
+      "D. Lightning"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "A user on the edge of a building reports slow Wi-Fi and intermittent drops. Which action will solve the issue?",
+    "options": [
+      "A. Enable the 5GHz band",
+      "B. Run ipconfig /flushdns",
+      "C. Upgrade laptop to Wi-Fi 6 NIC",
+      "D. Install additional wireless APs around the location"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
+    "options": [
+      "A. Firmware",
+      "B. Driver",
+      "C. OS update",
+      "D. HSM"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "Which of the following display characteristics would be most important to ensure screen images appear the same as printed output?",
+    "options": [
+      "A. Color gamut",
+      "B. Pixel density",
+      "C. Refresh rate",
+      "D. Resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is commonly affected by high latency?",
+    "options": [
+      "A. Satellite",
+      "B. Fiber",
+      "C. Cable",
+      "D. DSL"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

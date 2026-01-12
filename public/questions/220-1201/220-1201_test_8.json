@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "question": "After troubleshooting a computer's connectivity, the network team determines there is a port-mapping issue. After plugging the patch cable into a different port, the issue persists. Which of the following troubleshooting steps should a technician take next to resolve the issue?",
+    "options": [
+      "A. Convert the patch cable to a crossover cable.",
+      "B. Test the patch cable from the computer to the network closet.",
+      "C. Verify the length of the patch cable meets current standards.",
+      "D. Replace the patch cable from the device to the wall."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "A technician is installing a new high-end graphics card that uses a 12VHPWR connector. Which of the following is the maximum wattage supported by this power connector?",
+    "options": [
+      "A. 400W",
+      "B. MOW",
+      "C. 600W",
+      "D. 700W"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "A user reports slow internet browsing. The technician finds high CPU and memory usage, and pop-ups occur every minute. Which of the following should the technician do next?",
+    "options": [
+      "A. Escalate to the network team to check end-to-end connectivity.",
+      "B. Download and install the latest drivers.",
+      "C. Update the anti-malware signatures and scan the system.",
+      "D. Check the wireless settings and validate the DHCP configuration."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A company needs to develop a disaster recovery solution based on virtual machines. Which of the following service models is the most suitable?",
+    "options": [
+      "A. Infrastructure as a Service",
+      "B. Security as a Service",
+      "C. Platform as a Service",
+      "D. Software as a Service"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Which of the following should a technician use to terminate a Cat 6 cable to a patch panel?",
+    "options": [
+      "A. Punchdown tool",
+      "B. Crimper",
+      "C. Toner probe",
+      "D. Network tap"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "A technician needs to move a workstation to a different logical network segment. Which of the following technologies should the technician use?",
+    "options": [
+      "A. DHCP",
+      "B. VLAN",
+      "C. DNS",
+      "D. VPN"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "Which of the following types of RAM would most likely be used in a server?",
+    "options": [
+      "A. SODIMM",
+      "B. ECC",
+      "C. Unbuffered",
+      "D. DDR3"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "An office manager wants to block all outbound internet traffic but continue to enable all inbound traffic. Which of the following should a technician configure to achieve this goal?",
+    "options": [
+      "A. MAC filtering",
+      "B. Network interface card",
+      "C. Firewall",
+      "D. Switch"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A user experiences a random BSOD while using a computer, but the operating system recovers as expected Which of the following symptoms would indicate the issue is related to RAM?",
+    "options": [
+      "A. Wrong BIOS configurations",
+      "B. Continuous reboots",
+      "C. Distended capacitors",
+      "D. POST code beeps"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "An organization upgrades all desktops to Windows 11 and must ensure protection from malicious software at startup. Which option should be enabled?",
+    "options": [
+      "A. Trusted Platform Module",
+      "B. Hardware security module",
+      "C. Secure Boot",
+      "D. BIOS password"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "A user reports that the printouts from a laser printer have lines and smudges on them. The printer is also intermittently misfeeding the paper. Which of the following components should a technician replace to address this issue?",
+    "options": [
+      "A. Fuser",
+      "B. Maintenance kit",
+      "C. Corona wire",
+      "D. Toner cartridge"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Which of the following storage options would a technician most likely recommend to have large amounts of affordable capacity without concern for read times on a desktop computer?",
+    "options": [
+      "A. 750GB NVMe M.2 SSD",
+      "B. 2x 1TB PCIe SSD in RAID 1",
+      "C. 2TB SATA 3.5\" 5,400rpm HDD",
+      "D. 4TB SAS 2.5\" 15,000rpm HDD"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "An IT support specialist needs to configure several laptops to access local resources wherever the employees are while in the office. Which of the following would best meet this requirement?",
+    "options": [
+      "A. Configure cellular location services to facilitate device identification",
+      "B. Set up a Wi-Fi connection with a common SSID",
+      "C. Enable Bluetooth connectivity in all laptops",
+      "D. Create roaming profiles for each laptop"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "A help desk technician needs to work on a high-volume printer. Users have reported occasional paper jams and smudges appearing on printed documents. Which of the following steps should the technician do next to address these issues?",
+    "options": [
+      "A. Perform a full factory reset.",
+      "B. Check and clean the rollers.",
+      "C. Change all the ink or toner cartridges.",
+      "D. Replace the fuser."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A user connects their laptop to a projector in a conference room. Once connected, the userreports the screen is smaller at the bottom than at the top. The user tries restarting the laptop and then disconnecting and reconnecting the cable to the projector. Which of the following should a technician do to resolve the issue?",
+    "options": [
+      "A. Replace the HDMI cable.",
+      "B. Power cycle the projector.",
+      "C. Adjust the keystone",
+      "D. Increase the resolution."
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "Which of the following cloud models would multiple organizations in the same industry most likely use?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Community",
+      "D. Private"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "Which of the following ports should a technician disable to increase the security of remote connectivity?",
+    "options": [
+      "A. 22",
+      "B. 23",
+      "C. 25",
+      "D. 53"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "Which of the following port numbers are associated with email traffic? (Select two).",
+    "options": [
+      "A. 23",
+      "B. 25",
+      "C. 67",
+      "D. 110"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "Which of the following networking devices is used to create a mesh network?",
+    "options": [
+      "A. Modem",
+      "B. DSL",
+      "C. Access point",
+      "D. ONT"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "An employee's screen keeps flashing. Sometimes the picture goes out and comes back. The employee checks the power cord and confirms the device is plugged in fully. Which of the following should a technician check for first?",
+    "options": [
+      "A. Loose video cable",
+      "B. Failing graphics card",
+      "C. Conflicting drivers",
+      "D. Swollen motherboard capacitor"
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "Which of the following internet connection types is the best for extremely high data transfer with symmetrical upload and download speeds?",
+    "options": [
+      "A. DSL",
+      "B. Cellular",
+      "C. Fiber",
+      "D. Satellite"
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "A customer reports that a text-only document prints with unrecognizable characters. The print preview correctly displays the document. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. Outdated firmware",
+      "B. Incorrect driver",
+      "C. Bad toner cartridge",
+      "D. Corrupted document file"
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "An end user's domain password expires while they are working from home. The end user tries to reset the password using Ctrl+Alt+Delete and then receives the following message: Configuration information could not be read from the domain controller, either because the machine is unavailable or because access is denied. Which of the following will resolve this issue?",
+    "options": [
+      "A. Restart the computer.",
+      "B. Connect to the VPN.",
+      "C. Reset the account in Active Directory.",
+      "D. Join the Wi-Fi network."
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "Which of the following RAID configurations can lose two drives without data loss?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 6"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "Which of the following internet connection types provides the fastest speeds and greatest coverage in less populated areas with minimal infrastructure?",
+    "options": [
+      "A. Fiber",
+      "B. Cable",
+      "C. DSL",
+      "D. Cellular"
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "Which of the following connectors supports High-bandwidth Digital Content Protection (HDCP)?",
+    "options": [
+      "A. DVI-A",
+      "B. F-type",
+      "C. VGA",
+      "D. DisplayPort"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The degraded status on Server 2 indicates a RAID-5 issue, typically due to a failed or failing drive. In RAID-5 configurations, when one drive fails, the system can still operate but with reduced performance as parity data is used to rebuild missing data on-the-fly. Recommended Replacement Drive: To minimize performance degradation, the replacement drive should be: SAS HDD with the same specifications (64KB stripe size, no read-ahead, and write-back policy). Matching the configuration exactly ensures seamless integration and optimizes recovery speed in the RAID-5 array. In RAID-5, degraded performance is expected when one drive fails, as parity data needs to rebuild missing information during each read/write process. Replacing the failed drive restores the RAID array to optimal status, reducing the load on existing drives and returning the system to normal read/write performance. The write-back policy and disabled disk cache settings are designed to reduce latency and increase efficiency, essential for handling real-time applications. A user reports poor performance on the application server. INSTRUCTIONS Click on Server 1 and Server 2 and review the information presented in each chart to determine which drives need to be replaced. Select the appropriate replacement drive that should be used, for the least performance degradation to the server. A computer server with many black and silver parts <table> <tbody> <tr> <td>Status</td> <td>Name</td> <td>State</td> <td>Layout</td> <td>Bus protocol</td> <td>Media</td> <td>Read policy</td> <td>Write policy</td> <td>Stripe element size</td> <td>Disk cache policy</td> </tr> <tr> <td>✓</td> <td>Server 1</td> <td>Ready</td> <td>RAID-5</td> <td>SAS</td> <td>HDD</td> <td>No read ahead</td> <td>Write back</td> <td>64KB</td> <td>Disabled</td> </tr> <tr> <td>⚠</td> <td>Server 2</td> <td>Degraded</td> <td>RAID-5</td> <td>SAS</td> <td>HDD</td> <td>No read ahead</td> <td>Write back</td> <td>64KB</td> <td>Disabled</td> </tr> </tbody> </table> ## Server 1 <table> <tbody> <tr> <td>Status</td> <td>Name</td> <td>State</td> <td>Size</td> <td>Media</td> <td>Speed</td> <td>Failure predicted</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:2</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>Yes</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:3</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:4</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:5</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> </tbody> </table> A screen shot of a computer ## Server 1, Drive bay 3 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 1, Drive bay 4 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 1, Drive bay 5 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 2, Drive bay 2 <table> <thead> <tr> <th>Size</th> <th>Interface</th> <th>Rotational speed</th> </tr> </thead> <tbody> <tr> <td>2TB v</td> <td>HDD</td> <td>7200rpm</td> </tr> <tr> <td>8TB</td> <td>SAS</td> <td>5400rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>7200rpm</td> </tr> <tr> <td>2TB</td> <td>SATA</td> <td>SSD</td> </tr> <tr> <td>1TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>15k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>SSD</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Layout</td> <td>Bus protocol</td> <td>Mer</td> </tr> <tr> <td>RAID-5</td> <td>SAS</td> <td>HD</td> </tr> <tr> <td>RAID-5</td> <td>SAS</td> <td>HD</td> </tr> </tbody> </table> A screenshot of a computer ## Server 2, Drive bay 3 <table> <thead> <tr> <th>Size</th> <th>Interface</th> <th>Rotational speed</th> </tr> </thead> <tbody> <tr> <td>2TB v</td> <td>HDD</td> <td>7200rpm</td> </tr> <tr> <td>8TB</td> <td>SAS</td> <td>5400rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>7200rpm</td> </tr> <tr> <td>2TB</td> <td>SATA</td> <td>SSD</td> </tr> <tr> <td>1TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>15k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>SSD</td> </tr> </tbody> </table> A screenshot of a computer 246. SIMULATION - (Topic 2) Laura, a customer, has instructed you to configure her home office wireless access point. She plans to use the wireless network for finances and has requested that the network be setup with the highest encryption possible. Additionally, Laura knows that her neighbors have wireless networks and wants to ensure that her network is not being interfered with by the other networks. She requests that the default settings be changed to the following. Wireless Name: HomeWiFi Shared Key: CompTIA Router Password: Secure$1 Finally, Laura wants to ensure that only her laptop and Smartphone can connect to the network. Laptop: IP Address 192.168.1.100 Hardware Address: 00:0A:BF:03:C4:54 Smartphone: IP Address 192.168.1.101 Hardware Address: 09:2C:D0:22:3F:11 INSTRUCTIONS Configure Laura's wireless network using the network adapter window. If at any time you would like to bring back the initial state of the situation, please click the Reset All button. ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** **Wireless Network Settings** Enable Wireless: ☑ Wireless Network Name: HomeWiFi (Also called the SSID) Wireless Channel: 1 ▼ Disable SSID Broadcast: ☐ 802.11g Only Mode: ☐ **Wireless Security Mode** Security Mode: Enable WPA2 Wireless Security (enhanced) ▼ **WPA2** Passphrase: CompTIA Confirmed Passphrase: CompTIA ## Laura's Wireless Configuration ### Laura's House **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** Please enter the same password into both boxes for confirmation Password: Verify Password: <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>Default</td> </tr> <tr> <td>Security Mode:</td> <td>Open</td> </tr> <tr> <td>Wireless Channel:</td> <td>11</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>MyWi</td> </tr> <tr> <td>Security Mode:</td> <td>WEP</td> </tr> <tr> <td>Wireless Channel:</td> <td>6</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>PatsWIFI</td> </tr> <tr> <td>Security Mode:</td> <td>WEP</td> </tr> <tr> <td>Wireless Channel:</td> <td>11</td> </tr> </tbody> </table> ---- ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** ### Wireless Network Settings Enable Wireless: ☐ Wireless Network Name: default (Also called the SSID) Wireless Channel: 6 Disable SSID Broadcast: ☐ 802.11g Only Mode: ☐ ### Wireless Security Mode Security Mode: Disable Wireless Security (not recommended) ---- ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** Turn MAC Filtering ON: ☐ Allow the following MAC Addresses ☐ ☐ ☐ ☐ ---- **Answer:** See the explanation below **Explanation:** solution as ``` Wireless Configuration                                                    x Wireless Setup    Network Filter    Administrator Tools WIRELESS NETWORK SETTINGS: Enable Wireless:  ☑ Wireless Network Name:  HomeWiFi        (Also called the SSID) Wireless Channel:  1        ▼ Disable SSID Broadcast:  ☐ 802.11g Only Mode:  ☐ WIRELESS SECURITY MODE: Security Mode:  Enable WPA2 Wireless Security (enhanced)    ▼ WPA2 Passphrase:  CompTIA Confirmed Passphrase:  CompTIA Save Settings ``` A screenshot of a network settings ``` Wireless Configuration                                                    x Wireless Setup    Network Filter    Administrator Tools ☑  Turn MAC Filtering ON Allow the following MAC Addresses                                         ▼ MAC Address ☑   00:0A:BF:03:C4:54 ☑   09:2C:D0:22:3F:11 ☐ ☐ Save Settings ``` A screenshot of a computer ## Wireless Configuration Wireless Setup | Network Filter | Administrator Tools ### ADMIN PASSWORD Please enter the same password into both boxes for confirmation. <table> <tbody> <tr> <td>Password:</td> <td>Secure$1</td> </tr> <tr> <td>Verify Password:</td> <td>Secure$1</td> </tr> </tbody> </table> Save Settings A screenshot of a computer 247. HOTSPOT - (Topic 2) A customer built a computer for gaming, sourcing individual components and then assembling the system. The OS starts up, but within a few minutes the machine locks up. The customer brought the computer to a technician to diagnose the issue. Liquid Cooling Power Supply | CPU | Storage Motherboard Memory Video Card BIOS System info **Cause** Select a cause Overheating Component incompatibility Insufficient power Overclocking **Resolution** Select a resolution Replace PSU with higher wattage model Update motherboard firmware Install larger radiator Lower CPU clock speed Increase CPU multiplier Run CHKDSK on NVMe drive Replace thermal paste Decrease CPU voltage Raise memory frequency Switch motherboard for micro-ATX form factor Decrease memory module frequency Replace GPU with lower performance model **Answer:** Liquid Cooling Power Supply | CPU | Storage Motherboard Memory Video Card BIOS System info Cause Select a cause Overheating Component incompatibility Insufficient power Overclocking Resolution Select a resolution Replace PSU with higher wattage model Update motherboard firmware Install larger radiator Lower CPU clock speed Increase CPU multiplier Run CHKDSK on NVMe drive Replace thermal paste Decrease CPU voltage Raise memory frequency Switch motherboard for micro-ATX form factor Decrease memory module frequency Replace GPU with lower performance model ## 248. SIMULATION - (Topic 2) A small ISP has hired a new technician Joe, the new technician, is being trained to configure customers' home networks The trailing instructor gives me technician a starter kit with cables, cable ends, and other network equipment and asks mm to build a working network. The computer should be connected to have internet connectivity and the phone should be connected to have a dial tone. INSTRUCTIONS Use the appropriate cables. cable ends, tools and equipment to configure the network ana connect an components accordingly There are 3 steps and the simulation starts on step 1. ## SOHO Starter Kit **Step 1** **Step 2** Show Question Reset All Answers ### Connectors * RJ11 * RJ45 * F Connector ### Tools ---- ## SOHO Starter Kit **Step 1** **Step 2** Show Question Reset All Answers ### Cables ---- ### POTS ### Wall ISP Service Outlet ### SOHO Router * Phone Service * LAN 1-4 * WAN ### Cable Modem ### Home PC ## Answer: See the answer below in explanation part. ## Explanation: Answer of both steps below. RJ11 [connector diagram] RJ11 [crimping tool diagram] [crimping tool diagram] F Connector [connector diagram] F Connector [tool diagram] [tool diagram] RJ45 [connector diagram] RJ45 [crimping tool diagram] [crimping tool diagram] A group of wires with different colors SOHO Starter Kit     Step 1     Step 2     [Show All Answers]     [Reset All Answers] Cables [Three cable diagrams shown] POTS                                                                                                                                Home PC Cable Modem Wall ISP Service Outlet SOHO Router Phone          LAN 1-4          WAN Service A screenshot of a computer 249. HOTSPOT - (Topic 2) A customer has contacted you about building two new desktops. The first desktop will be a gaming workstation. The customer requirements include: Playing the newest games at a high frame rate Fast game load times Enough storage to have several games installed at once High-end audio No concern about cost Running the current Windows OS The second workstation will be a family workstation. The requirements include: Capability for word processing, videoconferencing, and basic web surfing Minimal cost, as long as it meets the requirements Running the current Windows OS ## Gaming and Family Workstation Configuration Options ### Gaming **Select Microprocessor:** * Intel Core I3 * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * On board video **Select RAM:** * 16GB DDR5 ECC * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * 7.1 surround card **Select Hard Drive:** * 500GB HDD * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * Headset * External microphone * Web cam ### Family **Select Microprocessor:** * Intel Core I3 * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * On board video **Select RAM:** * 16GB DDR5 ECC * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * 7.1 surround card **Select Hard Drive:** * 500GB HDD * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * Headset * External microphone * Web cam ## Answer: ### Gaming **Select Microprocessor:** * Intel Core I3 * <ins>Intel Core I7</ins> * Intel Xeon * ARM Cortex **Select Video Card:** * <ins>Discrete GPU</ins> * On board video **Select RAM:** * <ins>16GB DDR5 ECC</ins> * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * <ins>7.1 surround card</ins> **Select Hard Drive:** * 500GB HDD * <ins>4TB HDD</ins> * 256GB SSD * <ins>1TB SSD</ins> **Select Peripherals:** * <ins>Headset</ins> * <ins>External microphone</ins> * Web cam ### Family **Select Microprocessor:** * <ins>Intel Core I3</ins> * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * <ins>On board video</ins> **Select RAM:** * 16GB DDR5 ECC * <ins>4GB DDR5 ECC</ins> * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * <ins>On board sound</ins> * 7.1 surround card **Select Hard Drive:** * <ins>500GB HDD</ins> * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * <ins>Headset</ins> * <ins>External microphone</ins> * <ins>Web cam</ins>"
+  }
+]
