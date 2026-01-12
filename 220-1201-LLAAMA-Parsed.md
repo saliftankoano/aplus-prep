@@ -1,0 +1,6455 @@
+
+
+# Exam 220-1201
+
+## CompTIA A+ Core 1Exam (2025)
+
+**Version: 11.0**
+
+**[ Total Questions: 249 ]**
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+# Topic 1, Main Questions
+
+## 1. - (Topic 1)
+
+A recently installed printer is incorrectly aligning printed documents Which of the following should the technician do first to fix this issue?
+
+A. Run the maintenance application.
+
+B. Clean the rollers
+
+C. Upgrade the firmware
+
+D. Reinstall the drivers
+
+**Answer:** A
+
+## 2. - (Topic 1)
+
+A technician needs to select PC components with a minimal number of visible internal cables. Which of the following should the technician use?
+
+A. SATA drive connections
+
+B. Liquid cooling
+
+C. Modular power supply
+
+D. Wireless NIC
+
+**Answer:** C
+
+## 3. - (Topic 1)
+
+A company migrates a local application to an internal cloud platform. Which of the following best describes this cloud platform?
+
+A. Private
+
+B. Public
+
+C. Community
+
+D. Hybrid
+
+**Answer:** A
+
+## 4. - (Topic 1)
+
+The display in a conference room has a ghost image that does not match the presentation Which of the
+
+The No.1 IT Certification Dumps
+
+1
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+following would test resolve the issue?
+
+A. Adjust the color settings.
+
+B. Correct the keystone.
+
+C. Increase the brightness levels
+
+D. Replace the monitor.
+
+**Answer:** B
+
+5. - (Topic 1)
+
+A salesperson is unable to use a personal device to access emails and calendar features at a client site but was able to use the device while at the office. Which of the following policies has been enforced on the salesperson's mobile device?
+
+A. MOW
+
+B. MAN
+
+C. MFA
+
+D. MAM
+
+**Answer:** D
+
+6. - (Topic 1)
+
+A group of friends is gathering in a room to play video games. One of the friends has a game server. Which of the following network types should the group use so they can all connect to the same server and the internet?
+
+A. SAN
+
+B. MAN
+
+C. LAN
+
+D. PAN
+
+**Answer:** C
+
+7. - (Topic 1)
+
+An administrator is helping a new employee configure email on a smartphone. The employee also needs access to a shared mailbox. Which is the best email client for this situation?
+
+The No.1 IT Certification Dumps
+
+2
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. Open-source
+
+B. Built-in
+
+C. Corporate
+
+D. Employee preferred
+
+**Answer:** C
+
+8. - (Topic 1)
+
+Which of the following connectors can be used to charge most modern mobile devices and may have the capacity to send data audio and video?
+
+A. Lightning
+
+B. USB-C
+
+C. MicroUSB
+
+D. MiniUSB
+
+**Answer:** B
+
+9. - (Topic 1)
+
+A developer wants to ensure their critical data is protected from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?
+
+A. RAID 0
+
+B. RAID 1
+
+C. RAID 5
+
+D. RAID 10
+
+**Answer:** B
+
+10. - (Topic 1)
+
+Which of the following connector types is associated with coaxial terminations serving cable internet deployments?
+
+A. DB9
+
+B. ST
+
+C. F-type
+
+The No.1 IT Certification Dumps
+
+3
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. RJ45
+
+**Answer:** C
+
+11. - (Topic 1)
+
+Which DNS record is used by DMARC to verify the authenticity of email servers?
+
+A. MX
+
+B. CNAME
+
+C. TXT
+
+D. A
+
+**Answer:** C
+
+12. - (Topic 1)
+
+A technician has discovered that some users are connected to a network that is not available on the user interface. Which of the following is the most effective tool the technician can use to identify networks that are not broadcasting SSIDs?
+
+A. Cable tester
+
+B. Toner probe
+
+C. Wi-Fi analyzer
+
+D. Loopback plug
+
+**Answer:** C
+
+13. - (Topic 1)
+
+A technician is troubleshooting a PoE phone that will not turn on. When a laptop is plugged directly into the switchport for the phone the technician sees a data link LED and activity. Which of the following tools should the technician use to verify PoE availability to the phone?
+
+A. Network tap
+
+B. Cable tester
+
+C. Loopback plug
+
+D. Toner probe
+
+**Answer:** B
+
+The No.1 IT Certification Dumps
+
+4
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+14. - (Topic 1)
+
+Which of the following connectors is found on an optical networking cable?
+
+A. RJ45
+
+B. LC
+
+C. USB-C
+
+D. Lightning
+
+**Answer:** B
+
+15. - (Topic 1)
+
+A company deploys server machines in a public cloud. Which of the following cloud service models is this an example of?
+
+A. Platform as a service
+
+B. Anything as a service
+
+C. Infrastructure as a service
+
+D. Software as a service
+
+**Answer:** C
+
+16. - (Topic 1)
+
+Which storage device is best suited for a high-performance gaming laptop requiring fast data access?
+
+A. 1TB SATA 2.5" HDD
+
+B. 512GB NVMe M.2 SSD
+
+C. 750GB SATA III HDD
+
+D. 1TB SAS SSD
+
+**Answer:** B
+
+17. - (Topic 1)
+
+Which of the following cloud models exclusively utilizes a local data center?
+
+A. Private
+
+B. Public
+
+The No.1 IT Certification Dumps
+
+5
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Hybrid
+
+D. Community
+
+**Answer:** A
+
+18. - (Topic 1)
+
+A user reports that a software application functioned as expected the previous day, but this morning, the user is unable to launch the application. Which of the following describe what the technician should do next?
+
+A. Research the symptoms
+
+B. Identify any changes the user has made
+
+C. Determine which steps need to be performed.
+
+D. Check the vendor's website for guidance.
+
+**Answer:** B
+
+19. - (Topic 1)
+
+A user returns from a trip and discovers a computer that is connected to the LAN times out intermittently Upon investigation, a technician finds the RJ45 pin is not property terminated Which of the following networking tools is most appropriate to fix the issue?
+
+A. Toner probe
+
+B. Cable tester
+
+C. Punchdown
+
+D. Crimper
+
+**Answer:** D
+
+20. - (Topic 1)
+
+A user's phone does not respond to touch. A technician inspects the phone but does not see any evidence of physical damage. The technician restarts the device, which does not fix the issue. Which of the following components should the technician examine next?
+
+A. Battery
+
+B. Screen
+
+The No.1 IT Certification Dumps
+
+6
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Stylus
+
+D. Digitizer
+
+**Answer:** D
+
+21. - (Topic 1)
+
+A management team is concerned about enterprise devices that do not have any controls in place. Which of the following should an administrator implement to address this concern?
+
+A. MDM
+
+B. MFA
+
+C. vpn
+
+D. SSL
+
+**Answer:** A
+
+22. - (Topic 1)
+
+Which of the following cable types can be used to transfer data and video?
+
+A. USB-C
+
+B. HDMI
+
+C. DisplayPort
+
+D. VGA
+
+**Answer:** A
+
+23. - (Topic 1)
+
+Which of the following is used primarily for archiving data?
+
+A. PAN
+
+B. MAN
+
+C. SAN
+
+D. LAN
+
+E. WAN
+
+**Answer:** C
+
+The No.1 IT Certification Dumps
+
+7
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+24. - (Topic 1)
+
+A user brings a laptop to work every morning, correctly seats it in the docking station and then opens the laptop to begin work with no issues After the user left the laptop at home during a two-week vacation the laptop is no longer working. Upon returning to the office, the user reports that the keyboard and display are no longer working Which of the following should the technician ask the user to do first?
+
+A. Ensure the docking station is plugged in.
+
+B. Press and release the laptop power button.
+
+C. Plug the laptop in and let it charge overnight
+
+D. Connect the laptop directly to the network.
+
+**Answer:** B
+
+25. - (Topic 1)
+
+A technician upgrades a PC with two DIMMs, for a total of 32GB. After installing the two DIMMs, the user notices the OS is reporting only 16GB. Which of the following tasks should the technician perform to resolve the issue in the most rapid, cost-effective way possible?
+
+A. Roll back recent system updates
+
+B. Reinstall RAM in different slots.
+
+C. Update the OS to the latest version
+
+D. Replace the faulty motherboard
+
+**Answer:** B
+
+26. - (Topic 1)
+
+An IT specialist compares Bluetooth and NFC technologies for mobile device connectivity. Which of the following statements accurately describes a key difference between the two?
+
+A. NFC is faster than Bluetooth when transferring large files between devices.
+
+B. NFC consumes more power than Bluetooth, making it less suitable for devices in which battery conservation is crucial.
+
+C. NFC requires pairing with the receiving host, whereas Bluetooth just needs the available connection.
+
+D. NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart.
+
+The No.1 IT Certification Dumps
+
+8
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+**Answer:** D
+
+27. - (Topic 1)
+
+A network printer does not release a user's final print job from the queue, but the user's other print jobs successfully printed a few moments before. Other users can print without issues. Which of the following should the user check first to solve the issue?
+
+A. If the print job is configured to a tray or manual feed
+
+B. If the computer and printer are connected to the same network
+
+C. If the print queue is full and will not allow additional jobs
+
+D. If the printer has stopped due to empty trays
+
+**Answer:** A
+
+28. - (Topic 1)
+
+After a technician installs a new motherboard, the computer will not start and fails POST. The technician verifies the power supply is functioning as expected, and the CPU is installed correctly. Which of the following steps should the technician complete next?
+
+A. Flash the BIOS.
+
+B. Check the CMOS battery.
+
+C. Reseat the RAM.
+
+D. Reinstall the old motherboard.
+
+**Answer:** C
+
+29. - (Topic 1)
+
+Which of the following virtualization technologies is best suited for running microservices?
+
+A. Containers
+
+B. VDI
+
+C. Type 2 hypervisors
+
+D. Type 1 hypervisors
+
+**Answer:** A
+
+The No.1 IT Certification Dumps
+
+9
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+30. - (Topic 1)
+
+Which of the following is a benefit of using a VLAN?
+
+A. It minimizes collision domains.
+
+B. It provides private access to cloud resources.
+
+C. It increases network address space.
+
+D. It enables secure network segmentation.
+
+**Answer:** D
+
+31. - (Topic 1)
+
+A customer reports their tablet was recently dropped on the ground. The tablet has a small crack in one corner of the display, and it does not charge when plugged in. Which of the following should a technician do first?
+
+A. Perform a hard restart.
+
+B. Replace the battery
+
+C. Inspect the USB-C port for damage
+
+D. Run diagnostics on the digitizer
+
+**Answer:** C
+
+32. - (Topic 1)
+
+A customer reports that a workstation has no internet connectivity. A technician confirms the port is disabled. Which of the following is most likely responsible for the issue?
+
+A. Patch panel
+
+B. Physical NIC
+
+C. Managed switch
+
+D. Stand-alone firewall
+
+**Answer:** C
+
+33. - (Topic 1)
+
+A projector has been shutting down after 30 minutes of use, and it has a strange smell The technician confirms the power source is not the cause of the issue Which of the following steps should the technician
+
+The No.1 IT Certification Dumps
+
+10
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+take next to resolve this issue?
+
+A. Replace the bulb
+
+B. Check the projector configuration.
+
+C. Clean the filter
+
+D. Adjust the gamma settings.
+
+**Answer:** C
+
+34. - (Topic 1)
+
+A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following ate most likely causing three issues? (Select two).
+
+A. Incorrect configuration of the settings
+
+B. OS and device version incompatibility
+
+C. Disabled settings following the upgrade
+
+D. Full storage
+
+E. Outdated drivers
+
+F. Corrupted registry entries
+
+**Answer:** C,E
+
+35. - (Topic 1)
+
+A technician is troubleshooting issues occurring on a user's mobile device. Applications and the OS have slow response times, even when performing simple tasks, such as writing an email. Additionally, new applications occasionally fail to launch. Which of the following should the technician do next?
+
+A. Move the device to a room with a colder temperature.
+
+B. Close unnecessary programs.
+
+C. Reset to factory default settings.
+
+D. Check the battery health of the device.
+
+**Answer:** B
+
+36. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+11
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Which of the following allows a physical server to host multiple virtual machines?
+
+A. Cross-platform virtualization
+
+B. Hypervisor
+
+C. Sandbox
+
+D. SaaS
+
+**Answer:** B
+
+37. - (Topic 1)
+
+A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Select two).
+
+A. Turn it off and disconnect all power sources.
+
+B. Submit an emergency request to the local facilities manager.
+
+C. Check for foreign objects, liquid spills, and internal damage.
+
+D. Contact the vendor and submit a return request.
+
+E. Remove the device from the MDM.
+
+F. Try an alternate AC adapter.
+
+**Answer:** A,C
+
+38. - (Topic 1)
+
+A user's laptop keyboard is distorted and no longer flat. Which laptop component most likely failed?
+
+A. Battery
+
+B. RAM
+
+C. Keyboard
+
+D. HDD
+
+**Answer:** A
+
+39. - (Topic 1)
+
+Which of the following is a Bluetooth network an example of?
+
+A. PAN
+
+B. LAN
+
+The No.1 IT Certification Dumps
+
+12
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. WAN
+
+D. SAN
+
+**Answer:** A
+
+40. - (Topic 1)
+
+Which of the following tools is best to track where an Ethernet cable is patched?
+
+A. Crimper
+
+B. Punchdown tool
+
+C. Cable stripper
+
+D. Toner probe
+
+**Answer:** D
+
+41. - (Topic 1)
+
+A user's laptop is projecting an image upside down when connected to a ceiling-mounted projector. Which of the following should the technician do to best resolve the issue?
+
+A. Change the input source
+
+B. Rotate the image from the laptop
+
+C. Adjust the display frequency
+
+D. Flip the image vertically from the projector
+
+**Answer:** D
+
+42. - (Topic 1)
+
+A technician is putting RJ45 connectors on Cat 6 cables. Which of the following tools should the technician use to secure the connectors?
+
+A. Loopback plug
+
+B. Wire cutters
+
+C. Punchdown
+
+D. Crimping
+
+**Answer:** D
+
+The No.1 IT Certification Dumps
+
+13
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+43. - (Topic 1)
+
+Which of the following resolutions is commonly known as Ultra HD?
+
+A. 1920x1080
+
+B. 2048x1080
+
+C. 3840x2160
+
+D. 7680x4320
+
+**Answer:** C
+
+44. - (Topic 1)
+
+Which of the following is an isolated virtual machine?
+
+A. Sandbox
+
+B. Hypervisor
+
+C. Container
+
+D. VDI
+
+**Answer:** A
+
+45. - (Topic 1)
+
+A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?
+
+A. SSH
+
+B. LDAP
+
+C. FTPS
+
+D. SMTP
+
+**Answer:** A
+
+46. - (Topic 1)
+
+Which of the following provides electricity to devices through network cables?
+
+A. Edge router
+
+B. PoE switch
+
+C. Access point
+
+The No.1 IT Certification Dumps
+
+14
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. Patch panel
+
+**Answer:** B
+
+47. - (Topic 1)
+
+An end user reports that their laptop shuts down when they undock it. Even when using a new charging cable, the issue persists. Which of the following should the technician do next?
+
+A. Flash the BIOS
+
+B. Update the drivers
+
+C. Try a different charger
+
+D. Replace the battery
+
+**Answer:** D
+
+48. - (Topic 1)
+
+Which of the following printing initiatives would be best to accomplish environmentally friendly objectives?
+
+A. Requiring user authentication for printing
+
+B. Locking down printing to only certain individuals
+
+C. Modifying duplex settings to double-sided
+
+D. Changing the print quality settings to best
+
+**Answer:** C
+
+49. - (Topic 1)
+
+Which of the following should a company use to implement automatic time synchronization?
+
+A. DHCP
+
+B. UTM
+
+C. NTP
+
+D. AAA
+
+**Answer:** C
+
+50. - (Topic 1)
+
+A company wants to have fast read speeds for its locally stored data. Which of the following configurations
+
+The No.1 IT Certification Dumps
+
+15
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+has the lowest cost to fulfill this requirement?
+
+A. RAID 0
+
+B. RAID 1
+
+C. RAID 5
+
+D. RAID 10
+
+**Answer:** A
+
+51. - (Topic 1)
+
+A company will retire a legacy application in one year but wants to decommission the physical environment now. Which migration method is best?
+
+A. Relocating the server to a colocated data center
+
+B. Performing a physical-to-virtual conversion and hosting on IaaS
+
+C. Deploying all components using PaaS
+
+D. Taking a backup and shutting down the server
+
+**Answer:** B
+
+52. - (Topic 1)
+
+A technician needs to prepare a conference room for a meeting. The technician connects the laptop to the LCD projector and audio system, and then verifies the connectivity of each device. The meeting begins, but the visual presentation suddenly cuts off 30 minutes later. The audio continues to play without interruption. The technician brings in a backup laptop and connects it to the projector. The meeting continues without issue for 15 minutes until the presentation suddenly cuts off again. Which of the following should the technician do to resolve this issue?
+
+A. Check the laptop's audio output
+
+B. Verify the input source
+
+C. Examine the display for burn-in
+
+D. Inspect the cables for damage
+
+E. Clean or replace the filter
+
+**Answer:** E
+
+The No.1 IT Certification Dumps
+
+16
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+53. - (Topic 1)
+
+Which of the following is an advantage of using a hybrid cloud instead of a public cloud?
+
+A. Ability to reduce management overhead
+
+B. Ability to use cross-platform virtualization
+
+C. Ability to meet data residency requirements
+
+D. Ability to leverage IaaS and PaaS
+
+**Answer:** C
+
+54. - (Topic 1)
+
+A small company wants the ability to print in full color but needs to pay a minimal initial purchase price for the printer Which of the following is the best option?
+
+A. Thermal printer
+
+B. Inkjet printer
+
+C. Dot matrix printer
+
+D. Laser printer
+
+**Answer:** B
+
+55. - (Topic 1)
+
+A company wants to save printing costs by restricting network printer use. The company implements a solution that requires employees to authenticate to the printer to release print jobs Which of the following has the company implemented?
+
+A. Access control list
+
+B. Audit logging
+
+C. Badging
+
+D. Print server
+
+**Answer:** C
+
+56. - (Topic 1)
+
+A technician is setting up a new multifunction device to be used over a shared network connection. Copier functions need to be restricted to only office employees. Which of the following should the technician
+
+The No.1 IT Certification Dumps
+
+17
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+perform after configuring the device to use a print server that exists on the domain?
+
+A. SMTP implementation
+
+B. Firmware update
+
+C. User authentication
+
+D. SMB configuration
+
+**Answer:** C
+
+57. - (Topic 1)
+
+The output from a dot matrix printer has become lighter over time. Which of the following should a technician do to fix the issue?
+
+A. Clean the printhead.
+
+B. Replace the ribbon.
+
+C. Install a maintenance kit.
+
+D. Calibrate the alignment.
+
+**Answer:** B
+
+58. - (Topic 1)
+
+A technician is setting up a new SOHO wireless router. According to security best practices, which of the following should the technician do first?
+
+A. Enable encryption.
+
+B. Assign a static IP.
+
+C. Change the default password.
+
+D. Reset the router.
+
+**Answer:** C
+
+59. - (Topic 1)
+
+An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue (Select two).
+
+A. Run a magnet over each drive.
+
+The No.1 IT Certification Dumps
+
+18
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Check if one of the drives is not level
+
+C. Listen for clicking and grinding noises
+
+D. Check the OS logs
+
+E. Update the RAID controller firmware.
+
+F. Check the historical SMART data
+
+**Answer:** C,F
+
+60. - (Topic 1)
+
+The power supply for a user's gaming PC fails. The user installs a new power supply and connects it to the motherboard, GPU, and SSDs, but the computer will not start. What is the most likely cause?
+
+A. The computer requires more RAM
+
+B. The wattage is insufficient
+
+C. The user did not connect the 4-pin CPU connector
+
+D. The power supply only works in redundant configurations
+
+**Answer:** C
+
+61. - (Topic 1)
+
+Which of the following is a characteristic of an NVMe drive?
+
+A. M.2 interface
+
+B. 3.5in (8.9cm) external
+
+C. 7,200rpm
+
+D. Molex connector
+
+**Answer:** A
+
+62. - (Topic 1)
+
+A user reported performance issues on a computer after a recent OS update A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?
+
+A. Document the findings.
+
+B. Investigate any recent infrastructure changes.
+
+C. Initiate the system restore
+
+The No.1 IT Certification Dumps
+
+19
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. Verify full system functionality.
+
+**Answer:** C
+
+63. - (Topic 1)
+
+Which of the following involves installing an application on a server so several users can run the application concurrently without the need for local installation?
+
+A. Client virtualization
+
+B. Software as a service
+
+C. Sandboxing
+
+D. Embedded software
+
+**Answer:** A
+
+64. - (Topic 1)
+
+Which of the following devices is used to implement ACL polices for an environment?
+
+A. Managed switch
+
+B. Gateway
+
+C. Repeater
+
+D. Firewall
+
+**Answer:** D
+
+65. - (Topic 1)
+
+A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?
+
+A. Badging
+
+B. Password
+
+C. Passcode
+
+D. Biometrics
+
+**Answer:** A
+
+66. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+20
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A company is installing a new shared printer for all employees. Some managers need to print sensitive HR material, and the company does not want to purchase separate printers. Which of the following should the company implement?
+
+A. Audit logging
+
+B. Secure printing
+
+C. Wired connectivity
+
+D. Duplex settings
+
+**Answer:** B
+
+67. - (Topic 1)
+
+A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck Which of the following should the technician do next to troubleshoot this issued
+
+A. Check the product manual for the procedure
+
+B. Use a pry tool to force the cover open
+
+C. Insert the wireless card into the M.2 slot
+
+D. Try to move the cover by sliding it in all directions.
+
+**Answer:** A
+
+68. - (Topic 1)
+
+Which of the following services is used to allocate IP addresses in an enterprise-wide environment?
+
+A. DNS
+
+B. Syslog
+
+C. Telnet
+
+D. DHCP
+
+**Answer:** D
+
+69. - (Topic 1)
+
+A user prints a spreadsheet in duplex mode. The spreadsheet is difficult to read because some of the columns spill onto the second side of the page. Which of the following should the user do to prevent the issue but still print on both sides of the page?
+
+The No.1 IT Certification Dumps
+
+21
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. Turn off duplex printing.
+
+B. Try a smaller font size in the spreadsheet.
+
+C. Change the page orientation.
+
+D. Use a different print driver.
+
+**Answer:** C
+
+70. - (Topic 1)
+
+A computer displays an error message indicating there is insufficient storage when installing applications. The user reports slow application load times. Which of the following replacement components would best resolve this issue?
+
+A. SSD
+
+B. USB
+
+C. HDD
+
+D. RAM
+
+**Answer:** A
+
+71. - (Topic 1)
+
+Which of the following technologies is most used in portable devices?
+
+A. ECC
+
+B. RAID
+
+C. SATA
+
+D. SODIMM
+
+**Answer:** D
+
+72. - (Topic 1)
+
+A human resources department uses a network shared with other departments to produce a variety of printed resources for legal retention. The human resources department only wants Its members to have access to these materials. Which of the following should the technician Implement?
+
+A. Security groups
+
+B. Audit logs
+
+The No.1 IT Certification Dumps
+
+22
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Time-of-day access
+
+D. Print server
+
+**Answer:** A
+
+73. - (Topic 1)
+
+A user is testing a new OS that is contained on a USB drive. The user wants the new OS to load automatically when the computer is turned on. Which of the following should the user configure?
+
+A. BIOS password
+
+B. Trusted Platform Module
+
+C. USB permissions
+
+D. Boot options
+
+**Answer:** D
+
+74. - (Topic 1)
+
+A company needs to keep a record of tasks performed by an application. Which of the following should the company most likely implement as part of a solution?
+
+A. Fileshare
+
+B. Syslog
+
+C. Database
+
+D. SAN
+
+**Answer:** B
+
+75. - (Topic 1)
+
+Which of the following cable types is the most suitable for delivering 10Gb speeds for distances over 328ft (100m) but under 1,312ft (400m)?
+
+A. Multimode fiber
+
+B. Single-mode fiber
+
+C. Cat 6a
+
+D. Cat 6
+
+**Answer:** A
+
+The No.1 IT Certification Dumps
+
+23
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+76. - (Topic 1)
+
+A user cannot see the office multifunction printer in their laptop's print options. They have printed to the device in the past successfully. The user's laptop is connected to the guest wireless network. Other users on both wireless and wired computers can see and print to the printer. Which of the following will fix the issue?
+
+A. Power cycle the printer to refresh connectivity.
+
+B. Reset the closest wireless AP.
+
+C. Download the printer driver from the manufacturer's website.
+
+D. Connect the laptop to the corporate Wi-Fi.
+
+**Answer:** D
+
+77. - (Topic 1)
+
+A technician is replacing a failed power supply in a ten-year-old computer When installing the customer-provided power supply, the technician discovers the ATX connector would not plug into the motherboard. The customer wants a cost-effective solution. Which of the following should the technician do next?
+
+A. Adjust the input voltage.
+
+B. Install a modular power supply.
+
+C. Rebuild the failed power supply.
+
+D. Use a 20-pin to 24-pin adapter.
+
+**Answer:** D
+
+78. - (Topic 1)
+
+A technician is troubleshooting stylus issues on identical, company-provided tablets. Users can purchase their own accessories. Some users have no issues, but others report that their styluses charge intermittently and die frequently. Which of the following is the most likely cause of this issue?
+
+A. Certain cases are causing charging issues.
+
+B. The tablets need to be updated.
+
+C. Some of the tablets have manufacturing defects.
+
+The No.1 IT Certification Dumps
+
+24
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. The malfunctioning styluses need firmware updates.
+
+**Answer:** A
+
+79. - (Topic 1)
+
+Which of the following devices has ACL capabilities?
+
+A. PoE injector
+
+B. DSL
+
+C. Firewall
+
+D. Unmanaged switch
+
+**Answer:** C
+
+80. - (Topic 1)
+
+Which of the following types of RAM is typically used in servers?
+
+A. SODIMM
+
+B. Rambus
+
+C. DDR3
+
+D. ECC
+
+**Answer:** D
+
+81. - (Topic 1)
+
+Which of the following will most likely be used in a testing environment to execute unauthorized or experimental code without affecting production systems?
+
+A. Virtual machines
+
+B. Hybrid cloud
+
+C. Load balancers
+
+D. Application gateways
+
+**Answer:** A
+
+82. - (Topic 1)
+
+Users are complaining that the audio from a presenter is choppy and unintelligible Which of the following is
+
+The No.1 IT Certification Dumps
+
+25
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+causing the issue?
+
+A. Webcam
+
+B. Digitizer
+
+C. inverter
+
+D. Microphone
+
+**Answer:** D
+
+83. - (Topic 1)
+
+A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?
+
+A. Malfunctioning power supply
+
+B. Damaged charge port
+
+C. Deprecated battery
+
+D. Broken screen
+
+**Answer:** C
+
+84. - (Topic 1)
+
+A user routinely connects and disconnects multiple devices from a laptop. Which of the following options should a technician recommend to facilitate ease of user mobility?
+
+A. Serial interfaces
+
+B. Docking station
+
+C. Network switch
+
+D. USB hub
+
+**Answer:** B
+
+85. - (Topic 1)
+
+An office manager must scan a 300-page contract quickly. They are worried about scanning each page one at a time. Which feature will speed up the process?
+
+A. Flatbed scanner
+
+The No.1 IT Certification Dumps
+
+26
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Duplexing
+
+C. Automatic document feeder
+
+D. Orientation configuration
+
+**Answer:** C
+
+86. - (Topic 1)
+
+A help desk technician inspects a laptop keyboard because a single key has stopped working. The technician checks the keyboard for debris. Which of the following actions should the technician do next to troubleshoot the issue cost-effectively?
+
+A. Replace the keyboard.
+
+B. Replace the key switch
+
+C. Replace the circuit board.
+
+D. Replace the keycap
+
+**Answer:** B
+
+87. - (Topic 1)
+
+A technician installs an upgraded wireless access point. The technician then notices the activity light comes on briefly and turns off. The access point continues to exhibit this behavior repeatedly and does not come online. Which of the following is the most likely cause of this issue?
+
+A. High latency
+
+B. Port flapping
+
+C. External interference
+
+D. Channel conflict
+
+**Answer:** B
+
+88. - (Topic 1)
+
+A technician replaces a laptop's failed motherboard. During validation testing, the wireless is slow and shows a weak signal. Which of the following should the technician do first to verify the source of the issue?
+
+A. Contact the manufacturer
+
+B. Reseat antenna connections
+
+The No.1 IT Certification Dumps
+
+27
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Restart the access point
+
+D. Install a new wireless adapter
+
+**Answer:** B
+
+89. - (Topic 1)
+
+When installing a network printer, a technician needs to ensure the printer is available after a network is restarted. Which of the following should the technician set up on the printer to meet this requirement?
+
+A. Static IP address
+
+B. Private address
+
+C. Wi-Fi on the printer
+
+D. Dynamic addressing
+
+**Answer:** A
+
+90. - (Topic 1)
+
+Which of the following describes the function of an injector?
+
+A. To provide only data connectivity
+
+B. To supply power across a cable
+
+C. To improve wireless performance
+
+D. To extend a network connection
+
+**Answer:** B
+
+91. - (Topic 1)
+
+A support technician receives a call stating that a user has added a device to the network. The user used the same configurations from another workstation. When both workstations are turned on, neither can access the network reliably. Which of the following is the most likely cause of the issue?
+
+A. The new computer has a duplicate IP address.
+
+B. The DNS server is registering both hostnames.
+
+C. The network cable was improperly terminated.
+
+D. The security on the switchport needs to be reset.
+
+**Answer:** A
+
+The No.1 IT Certification Dumps
+
+28
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+92. - (Topic 1)
+
+A technician wants to upgrade a computer to a new Windows version. The Windows Upgrade Advisor states that the computer is not compatible with the new Windows version due to a lack of TPM 2.0 support. Which of the following should the technician do next?
+
+A. Enable the module in the UEFI BIOS.
+
+B. Install an HSM in the computer.
+
+C. Perform a clean Install of the new Windows version.
+
+D. Implement BitLocker on the computer.
+
+**Answer:** A
+
+93. - (Topic 1)
+
+A user connects a company-issued laptop to a 4K TV but can only get 1080p resolution on the TV. The technician confirms that the laptop is capable of producing a 4K output. Which of the following is the most likely cause of the issue?
+
+A. The TV firmware is out of date
+
+B. The HDMI cable version is incorrect
+
+C. The laptop firmware is not current
+
+D. The CPU cannot keep up with the transcoding
+
+**Answer:** B
+
+94. - (Topic 1)
+
+A student configures a wireless SOHO network to connect four laptops and one multifunction printer. Which setting ensures the printer is always available?
+
+A. Dynamic IPs for laptops, static IP for printer on same subnet
+
+B. Manually assign public IPs to laptops and printer
+
+C. Use APIPA for laptops and connect printer directly to ISP router
+
+D. Use dynamic IP addressing for all devices
+
+**Answer:** A
+
+The No.1 IT Certification Dumps
+
+29
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+95. - (Topic 1)
+
+Which of the following will a company most likely use to control which websites a user can access?
+
+A. Proxy server
+
+B. Spam gateway
+
+C. DHCP server
+
+D. RADIUS server
+
+**Answer:** A
+
+96. - (Topic 1)
+
+A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?
+
+A. Video card
+
+B. HDD
+
+C. RAM module
+
+D. TPM
+
+**Answer:** C
+
+97. - (Topic 1)
+
+Which of the following allows for a beam of light to transmit data through a flexible cable?
+
+A. Coaxial
+
+B. HDMI
+
+C. Thunderbolt
+
+D. Single-mode fiber
+
+**Answer:** D
+
+98. - (Topic 1)
+
+A network operations analyst receives an automated alert regarding a server with an array. The analyst walks over to the server and sees a blinking orange light at the hard disk bay. The server is configured for
+
+The No.1 IT Certification Dumps
+
+30
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+RAID 1. Which of the following should the analyst do to resolve this issue?
+
+A. Change the array to RAID 0.
+
+B. Undo the array and create a new one.
+
+C. Update RAID card firmware.
+
+D. Replace the hard disk and rebuild the array.
+
+**Answer:** D
+
+99. - (Topic 1)
+
+A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122°F (50°C) when the computer is started but rises to 208°F (98°C) when applications are opened. Which of the following would most likely fix this issue?
+
+A. Replacing the power supply
+
+B. Installing a high-performance heat sink
+
+C. Adjusting the fan settings
+
+D. Adding more RAM to the computer
+
+**Answer:** B
+
+100. - (Topic 1)
+
+A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?
+
+A. Malfunctioning power supply
+
+B. Damaged charge port
+
+C. Swollen battery
+
+D. Broken screen
+
+**Answer:** C
+
+101. - (Topic 1)
+
+Which of the following tools would a technician use to connect wires to an RJ45 connector?
+
+A. Crimper
+
+The No.1 IT Certification Dumps
+
+31
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Cable stripper
+
+C. Punchdown
+
+D. Loopback plug
+
+**Answer:** A
+
+102. - (Topic 1)
+
+Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?
+
+A. Switch
+
+B. Access point
+
+C. Firewall
+
+D. Hub
+
+**Answer:** C
+
+103. - (Topic 1)
+
+A technician receives complaints that a network fileshare is slow and now unavailable. The server is powered on and accessible via RDP. What should the technician check next?
+
+A. RAID array status
+
+B. Data backup integrity
+
+C. Network connectivity
+
+D. Available memory
+
+**Answer:** A
+
+104. - (Topic 1)
+
+A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. Which of the following will the technician require so the phone can connect to a different provider?
+
+A. USB-C
+
+B. SD card
+
+C. eSIM
+
+The No.1 IT Certification Dumps
+
+32
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. MDM
+
+**Answer:** C
+
+105. - (Topic 1)
+
+A technician needs to figure out why a laser printer is intermittently not feeding paper to print. The technician verifies the issue by running several copy-and-print tests. Which of the following should the technician do next?
+
+A. Update the printer drivers.
+
+B. Select the correct paper size.
+
+C. Clean the pickup rollers.
+
+D. Replace the toner cartridge.
+
+**Answer:** C
+
+106. - (Topic 1)
+
+Users working with large files back up the files to external hard drives. One user's files take longer to back up than other users' files. The user has tried backing up the files to other users' drives with the same results. Which of the following steps should the technician take first to correct this issue?
+
+A. Replace the hard drive's USB cable.
+
+B. Defragment the user's external hard drive.
+
+C. Update the storage drivers on the user's system.
+
+D. Instruct the user to compress the files.
+
+**Answer:** B
+
+107. - (Topic 1)
+
+Which of the following best characterizes the use of a virtual machine as a sandbox?
+
+A. Run an application on multiple workstations without installation.
+
+B. Explore how an application behaves in a different environment
+
+C. Migrate a currently used legacy application from physical to virtual
+
+D. Create a firewall where the sandbox acts as a perimeter network.
+
+**Answer:** B
+
+The No.1 IT Certification Dumps
+
+33
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+108. - (Topic 1)
+
+A technician is troubleshooting a workstation that repeatedly shuts down within ten minutes of being turned on. The technician notices a loud clicking sound coming from inside the case. Which of the following components should the technician check first?
+
+A. Exhaust fan
+
+B. Capacitors
+
+C. CPU fan
+
+D. Intake fan
+
+**Answer:** C
+
+109. - (Topic 1)
+
+A user prints a job from a laser printer. The user wipes the page, and the words and images come off of it. The technician replaces the toner cartridge, but the issue persists. Which of the following components should the technician replace next?
+
+A. Fuser
+
+B. Drum
+
+C. Developer roller
+
+D. Discharge lamp
+
+**Answer:** A
+
+110. - (Topic 1)
+
+Which of the following cloud models allows customers to connect to company resources from their laptops with the least amount of infrastructure?
+
+A. PaaS
+
+B. IaaS
+
+C. SaaS
+
+D. FaaS
+
+**Answer:** C
+
+The No.1 IT Certification Dumps
+
+34
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+111. - (Topic 1)
+
+Which of the following can carry data and electricity to network devices? (Select two).
+
+A. Router
+
+B. Injector
+
+C. Cable modem
+
+D. Access point
+
+E. PoE
+
+F. Unmanaged switch
+
+**Answer:** B,E
+
+112. - (Topic 1)
+
+A user would like to connect a laptop to a monitor, keyboard, and mouse when in the office. The user prefers to use as few cables as possible. Which of the following would best achieve that goal?
+
+A. Bluetooth
+
+B. Managed switch
+
+C. Docking station
+
+D. Near-field communication
+
+**Answer:** C
+
+113. - (Topic 1)
+
+A user is receiving many unsolicited emails. Which of the following controls can be configured to best reduce these types of emails?
+
+A. Load balancer
+
+B. Spam gateway
+
+C. Mail forwarding
+
+D. Proxy servers
+
+**Answer:** B
+
+114. - (Topic 1)
+
+An end user reports that their laptop has a blank screen. A technician observes the keyboard lights are on,
+
+The No.1 IT Certification Dumps
+
+35
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+and the fan is running. Which of the following should the technician do next?
+
+A. Check the display ribbon cable.
+
+B. Contact vendor support
+
+C. Replace the inverter
+
+D. Connect to an external monitor
+
+**Answer:** D
+
+115. - (Topic 1)
+
+An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere. Which of the following should a technician implement?
+
+A. Public cloud
+
+B. VDI
+
+C. SSH
+
+D. SaaS
+
+**Answer:** B
+
+116. - (Topic 1)
+
+A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards Which of the following should the institution use?
+
+A. TLS
+
+B. AMD
+
+C. HSM
+
+D. ARM
+
+**Answer:** C
+
+117. - (Topic 1)
+
+A technician is setting up a scan-to-SMB function on a multifunction printer. Which of the following connection types should the technician configure?
+
+A. Email server
+
+B. SFTP connection
+
+The No.1 IT Certification Dumps
+
+36
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Network share
+
+D. Print services
+
+**Answer:** C
+
+118. - (Topic 1)
+
+Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?
+
+A. Bluetooth
+
+B. NFC
+
+C. Wi-Fi
+
+D. Cellular
+
+**Answer:** B
+
+119. - (Topic 1)
+
+A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?
+
+A. AAAA
+
+B. MX
+
+C. CNAME
+
+D. A
+
+**Answer:** D
+
+120. - (Topic 1)
+
+A customer needs to install a new printer in their network. The customer reports that users had intermittent connectivity issues with previous printers. Which of the following should the technician configure on the new printer to prevent this issue?
+
+A. Gateway IP address
+
+B. DHCP IP address
+
+C. Static IP address
+
+D. Public IP address
+
+The No.1 IT Certification Dumps
+
+37
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+**Answer:** C
+
+121. - (Topic 1)
+
+Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer. Which of the following is me most likely cause?
+
+A. Rollers
+
+B. Tray assembly
+
+C. Toner
+
+D. Printhead
+
+**Answer:** A
+
+122. - (Topic 1)
+
+A user purchases a new mobile phone and tries to connect it to the corporate communications and email applications without success. Which of the following should a technician do to allow the phone to connect?
+
+A. Configure biometric security settings.
+
+B. Turn on LTE hotspot connectivity.
+
+C. Enroll the device in the MDM software.
+
+D. Complete the company's BYOD training process.
+
+**Answer:** C
+
+123. - (Topic 1)
+
+Which of the following network services is used to assign an IP address to a network host?
+
+A. DHCP
+
+B. DNS
+
+C. LDAP
+
+D. SMTP
+
+**Answer:** A
+
+124. - (Topic 1)
+
+A customer reports that the output from their thermal receipt printer has vertical white lines. Which of the
+
+The No.1 IT Certification Dumps
+
+38
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+following would most likely resolve this issue?
+
+A. Replacing the ink cartridge
+
+B. Using the correct paper type
+
+C. Installing a maintenance kit
+
+D. Cleaning the heating element
+
+**Answer:** D
+
+125. - (Topic 1)
+
+Which of the following ports is commonly used for remote desktop connections?
+
+A. 137
+
+B. 445
+
+C. 3389
+
+D. 4443
+
+**Answer:** C
+
+126. - (Topic 1)
+
+A user experiences intermittent Wi-Fi performance issues only in their office. Nearby RJ45 ports do not provide connectivity, but the user connects fine in other campus areas. AP coverage is weak in the user's office. What is the most likely cause?
+
+A. APs are installed too far from the user's office
+
+B. Brute-force attempts are causing drops
+
+C. Ports near the office are disabled
+
+D. The laptop has malware contacting unauthorized sites
+
+**Answer:** A
+
+127. - (Topic 1)
+
+A Wi-Fi router is set up in a central room. A user on the outer edge of the building reports slow connections and intermittent internet drops. Which of the following actions will solve the issue?
+
+A. Enabling the 5GHz band
+
+B. Running the flushdns command
+
+The No.1 IT Certification Dumps
+
+39
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Upgrading the laptop to a Wi-Fi 6 NIC
+
+D. Installing additional wireless APs around the location
+
+**Answer:** D
+
+128. - (Topic 1)
+
+Which of the following could a user employ to maximize module bandwidth when selecting memory for a high-end gaming computer?
+
+A. Error correction
+
+B. RAM voltage
+
+C. Channel configuration
+
+D. Physical module size
+
+**Answer:** C
+
+129. - (Topic 1)
+
+Which of the following is the ability to automatically increase and decrease instances based on demand?
+
+A. Availability
+
+B. Scalability
+
+C. Multitenancy
+
+D. Elasticity
+
+**Answer:** D
+
+130. - (Topic 1)
+
+Which of the following is designed to be used in commercial spaces?
+
+A. USB 3.1 Gen 2
+
+B. Straight tip fiber connector
+
+C. Plenum cabling
+
+D. Cat 8
+
+**Answer:** C
+
+The No.1 IT Certification Dumps
+
+40
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+131. - (Topic 1)
+
+Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?
+
+A. DHCP
+
+B. CNAME
+
+C. VLAN
+
+D. VPN
+
+**Answer:** D
+
+132. - (Topic 1)
+
+A user can connect their laptop to the internet in the main office. However, when the user places the laptop on top of a motor on the factory floor, there is no internet connectivity. Which of the following is the most likely cause of this issue?
+
+A. Jitter
+
+B. Insufficient power levels
+
+C. External interference
+
+D. High latency
+
+**Answer:** C
+
+133. - (Topic 1)
+
+A technician is working on a RAID 1 array that is apparently degraded. The technician verifies the RAM and power are both operating as expected. Which of the following can the technician do to further isolate the issue?
+
+A. Perform individual drive diagnostics.
+
+B. Run the chkdsk /i command.
+
+C. Rebuild the RAID array.
+
+D. Reconfigure the array as RAID 0.
+
+**Answer:** A
+
+134. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+41
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A thief stole a company phone and successfully extracted confidential company information from the device.
+
+Which of the following should have been used to prevent the extraction?
+
+A. GPS
+
+B. EPS
+
+C. eSIM
+
+D. MDM
+
+**Answer:** D
+
+135. - (Topic 1)
+
+A developer wants to protect critical data from hard drive failure. Their workstation has two hard drives.
+
+Which RAID level should they use?
+
+A. RAID 0
+
+B. RAID 1
+
+C. RAID 5
+
+D. RAID 10
+
+**Answer:** B
+
+136. - (Topic 1)
+
+A user is unable to access secure applications on their tablet when working from home a couple days per week, but the applications work when in the office. Which of the following services most likely needs to be reconfigured to allow for remote work?
+
+A. Global Positioning System
+
+B. Mobile device management
+
+C. Wi-Fi Protected Access
+
+D. Near-field communication
+
+**Answer:** B
+
+137. - (Topic 1)
+
+Which of the following are radio frequency connections? (Select two.)
+
+A. Cable
+
+The No.1 IT Certification Dumps
+
+42
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Satellite
+
+C. DSL
+
+D. Cellular
+
+E. Ethernet
+
+F. Fiber
+
+**Answer:** B,D
+
+138. - (Topic 1)
+
+A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue? (Select two).
+
+A. Run a BIOS update.
+
+B. Swap out the RAM.
+
+C. Disable NTP in the OS.
+
+D. Repair the backup power source.
+
+E. Replace the CMOS battery
+
+F. Install a surge protector.
+
+**Answer:** D,E
+
+139. - (Topic 1)
+
+Which of the following can a user utilize to share their mobile phone connection with their laptop?
+
+A. IR
+
+B. NFC
+
+C. Wi-Fi Direct
+
+D. Tethering
+
+**Answer:** D
+
+140. - (Topic 1)
+
+A network administrator must ensure that a printer will still be assigned a specific IP address even if all addresses are depleted. Which of the following network configuration concepts is this describing?
+
+The No.1 IT Certification Dumps
+
+43
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. VLAN
+
+B. Lease
+
+C. Reservation
+
+D. Exclusion
+
+**Answer:** C
+
+141. - (Topic 1)
+
+When turning on a workstation, a technician observes the following message: "Bootable device not found."
+
+The technician verifies the correct boot order in the BIOS. Which of the following steps should the
+
+technician take next?
+
+A. Reformat the HDD.
+
+B. Run HDD diagnostics.
+
+C. Reseat the RAM.
+
+D. Replace the HDD.
+
+**Answer:** B
+
+142. - (Topic 1)
+
+A technician is experimenting with network configurations and has connected two laptops to an unmanaged
+
+switch. The technician configured one of the laptops with a static IP address of 192.168.1.1 and the other
+
+with a static IP address of 192.168.2.2. The laptops are not communicating with each other. Which of the
+
+following is the most likely explanation for this issue?
+
+A. The technician needs to use a hub instead of a switch.
+
+B. The wireless NICs are malfunctioning.
+
+C. PoE interferes with intersubnet communication.
+
+D. The laptops do not have access to a router.
+
+**Answer:** D
+
+143. - (Topic 1)
+
+A user reports that scanned or copied pages from an MFP show vertical lines down the page. The printer
+
+processes print jobs correctly. What should the technician do?
+
+The No.1 IT Certification Dumps
+
+44
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. Replace the transfer roller
+
+B. Remove the pickup rollers
+
+C. Clean the glass bed
+
+D. Apply a maintenance kit
+
+**Answer:** C
+
+144. - (Topic 1)
+
+A major retailer is moving its online shopping website to the cloud and wants to expand its server resources as needed during busier shopping days. Which of the following should the retailer consider?
+
+A. Location
+
+B. Elasticity
+
+C. Availability
+
+D. Multitenancy
+
+**Answer:** B
+
+145. - (Topic 1)
+
+Which of the forming connector types would best suit a company that experiences a large volume of internet traffic?
+
+A. USB 3.1
+
+B. Quad-shielded RG11 coax
+
+C. SATA3.0
+
+D. Unshielded plenum RJ45
+
+**Answer:** B
+
+146. - (Topic 1)
+
+Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task? (Select two).
+
+A. Printer shares
+
+B. DHCP server
+
+The No.1 IT Certification Dumps
+
+45
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Print server
+
+D. Printer subnet
+
+E. SMB configuration
+
+F. Printer Wi-Fi settings
+
+**Answer:** A,C
+
+147. - (Topic 1)
+
+A desktop can connect to a file server but cannot access the internet. The ipconfig /all output shows a correct IP and DNS but no default gateway. What will most likely restore internet access?
+
+A. Flushing the DNS cache
+
+B. Choosing a different IPv6 address
+
+C. Setting the default gateway
+
+D. Disabling NetBIOS
+
+**Answer:** C
+
+148. - (Topic 1)
+
+A technician wants to monitor network statistics for devices communicating with one another on the local subnet Which of the following devices should the technician install.
+
+A. Managed switch
+
+B. Router
+
+C. Access point
+
+D. Firewall
+
+**Answer:** A
+
+149. - (Topic 1)
+
+Several storms cause mission-critical servers to go offline unexpectedly A server also goes offline suddenly due to haroNvare failure Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?
+
+A. Purchasing backup generators
+
+The No.1 IT Certification Dumps
+
+46
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Increasing input voltage
+
+C. Installing redundant PSUs
+
+D. Activating a hot site
+
+**Answer:** C
+
+150. - (Topic 1)
+
+Which of the following allows an organization to provide remote desktop resources without providing physical workstations to its users?
+
+A. RMM
+
+B. SaaS
+
+C. VDI
+
+D. Containers
+
+**Answer:** C
+
+151. - (Topic 1)
+
+While reviewing options in the BIOS/UEFI settings page to fix a laptop issue, a support technician notices an option to clear existing TPM keys. Which of the following would most likely happen if the TPM is cleared?
+
+A. Encrypted hard drives would probably not be accessible.
+
+B. All security certificates would need to be reinstalled from trusted roots.
+
+C. The device would need to be reenrolled in the MDM platform
+
+D. The laptop would need to be registered to the domain as a new client.
+
+**Answer:** A
+
+152. - (Topic 1)
+
+A technician checks a RAID 5 array and sees a S.M.A.R.T. alert on one disk, but the array still shows healthy. What should the technician do next?
+
+A. Run chkdsk /f
+
+B. Disable write caching
+
+C. Rebuild the RAID array
+
+The No.1 IT Certification Dumps
+
+47
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. Replace the failing drive
+
+**Answer:** D
+
+153. - (Topic 1)
+
+A user joins a conference call with a Bluetooth headset. Which of the following has the user created?
+
+A. MAN
+
+B. PAN
+
+C. SAN
+
+D. WAN
+
+**Answer:** B
+
+154. - (Topic 1)
+
+A user replaces their PC power supply and connects it to the components, but the PC fails to start. What is the most likely cause?
+
+A. The computer requires additional RAM
+
+B. The wattage is insufficient
+
+C. The 4-pin CPU power connector is not connected
+
+D. The PSU only works in redundant setups
+
+**Answer:** C
+
+155. - (Topic 1)
+
+A customer reports slow network speeds. Which of the following components is most likely failing?
+
+A. CPU
+
+B. NIC
+
+C. HDD
+
+D. RAM
+
+**Answer:** B
+
+156. - (Topic 1)
+
+An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of
+
+The No.1 IT Certification Dumps
+
+48
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?
+
+A. Modular
+
+B. Redundant
+
+C. Linear
+
+D. External
+
+**Answer:** A
+
+157. - (Topic 1)
+
+Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?
+
+A. Switch
+
+B. Firewall
+
+C. Cable modem
+
+D. Router
+
+E. Access point
+
+**Answer:** C
+
+158. - (Topic 1)
+
+A student configures a wireless SOHO network to connect four laptops and one multifunction printer. All laptops must have internet access and be able to use the printer. Which of the following settings ensures the printer is always available?
+
+A. Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.
+
+B. Manually assign IP addresses to the laptops and printer based on the public IP from the ISP.
+
+C. Use APIPA for laptops and connect the printer to the ISP router.
+
+D. Use dynamic IP addresses from the ISP router for all the devices.
+
+**Answer:** A
+
+159. - (Topic 1)
+
+Which of the following DNS records would an administrator change to redirect email flow?
+
+The No.1 IT Certification Dumps
+
+49
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. MX
+
+B. TXT
+
+C. SPF
+
+D. CNAME
+
+**Answer:** A
+
+160. - (Topic 1)
+
+A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?
+
+A. EDR
+
+B. VPN
+
+C. MDM
+
+D. SaaS
+
+**Answer:** C
+
+161. - (Topic 1)
+
+A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?
+
+A. Hypervisor
+
+B. SaaS platform
+
+C. Multiboot server computer
+
+D. Sandbox
+
+**Answer:** A
+
+162. - (Topic 1)
+
+A technician needs to confirm that desktop PCs can be deployed to a global, remote workforce. Which of the following specifications should the technician validate?
+
+A. Input voltage
+
+B. BIOS language support
+
+C. Supply chain security
+
+The No.1 IT Certification Dumps
+
+50
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. Power efficiency
+
+**Answer:** A
+
+163. - (Topic 1)
+
+Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?
+
+A. Lightning interface
+
+B. Port replicator
+
+C. USB hub
+
+D. Bluetooth
+
+**Answer:** B
+
+164. - (Topic 1)
+
+Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?
+
+A. VDI
+
+B. Private cloud
+
+C. Sandbox
+
+D. Type 1 hypervisor
+
+**Answer:** C
+
+165. - (Topic 1)
+
+A user reports that their desktop PC does not turn on. Which of the following components would most likely cause the issue?
+
+A. PSU
+
+B. GPU
+
+C. RAM
+
+D. CPU
+
+**Answer:** A
+
+The No.1 IT Certification Dumps
+
+51
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+166. - (Topic 1)
+
+A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?
+
+A. Fingerprint reader
+
+B. Smart card
+
+C. Secure token
+
+D. NFC scanner
+
+**Answer:** B
+
+167. - (Topic 1)
+
+A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?
+
+A. The SSD is faulty and should be replaced by the manufacturer
+
+B. The SSD has not been properly formatted and is not readable
+
+C. The SSD is incompatible with the motherboard
+
+D. The SSD has not boon installed properly and should be reseated
+
+**Answer:** D
+
+168. - (Topic 1)
+
+A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?
+
+A. HDD
+
+B. RAM
+
+C. NIC
+
+D. BIOS
+
+**Answer:** A
+
+169. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+52
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Which of the following display technologies typically provides the highest contrast?
+
+A. IPS
+
+B. OLED
+
+C. TN
+
+D. VA
+
+**Answer:** B
+
+170. - (Topic 1)
+
+Which of the following DNS record types is used to direct email to a mail server?
+
+A. CNAME
+
+B. SRV
+
+C. MX
+
+D. SOA
+
+**Answer:** C
+
+171. - (Topic 1)
+
+Which of the following is an advantage of using VDI?
+
+A. Authentication is not required on a domain.
+
+B. Licensing costs are minimized.
+
+C. Less manual configuration is needed for each workstation.
+
+D. A virus is automatically contained locally.
+
+**Answer:** C
+
+172. - (Topic 1)
+
+Which of the following is the best to use when testing a file for potential malware?
+
+A. Multitenancy
+
+B. Test development
+
+C. Cross-platform virtualization
+
+D. Sandbox
+
+**Answer:** D
+
+The No.1 IT Certification Dumps
+
+53
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+173. - (Topic 1)
+
+Which of the following is used to confirm that a physical port is working?
+
+A. Network tap
+
+B. Crimper
+
+C. Patch panel
+
+D. Loopback plug
+
+**Answer:** D
+
+174. - (Topic 1)
+
+An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).
+
+A. Molex
+
+B. NVMe
+
+C. SATA
+
+D. FireWire
+
+E. USB-C
+
+F. PCIe
+
+**Answer:** B,F
+
+175. - (Topic 1)
+
+A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?
+
+A. Public
+
+B. Hybrid
+
+C. Community
+
+D. Private
+
+**Answer:** B
+
+The No.1 IT Certification Dumps
+
+54
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+176. - (Topic 1)
+
+A technician is troubleshooting an all-in-one laser printer that prints a vertical line when making copies and scans. When users print or receive faxes, the output from the printer is correct. Which of the following should the technician examine to determine the cause of the issue?
+
+A. The pickup rollers
+
+B. The corona wire
+
+C. The document feeder
+
+D. The drum assembly
+
+**Answer:** C
+
+177. - (Topic 1)
+
+Which of the following types of connectors does an IDE hard drive use for power?
+
+A. F type
+
+B. SC
+
+C. Molex
+
+D. Lightning
+
+**Answer:** C
+
+178. - (Topic 1)
+
+A user on the edge of a building reports slow Wi-Fi and intermittent drops. Which action will solve the issue?
+
+A. Enable the 5GHz band
+
+B. Run ipconfig /flushdns
+
+C. Upgrade laptop to Wi-Fi 6 NIC
+
+D. Install additional wireless APs around the location
+
+**Answer:** D
+
+179. - (Topic 1)
+
+A multifunction printer in a small office recently had issues with scan-to-email functionality. The
+
+The No.1 IT Certification Dumps
+
+55
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?
+
+A. Firmware
+
+B. Driver
+
+C. OS update
+
+D. HSM
+
+**Answer:** A
+
+180. - (Topic 1)
+
+Which of the following display characteristics would be most important to ensure screen images appear the same as printed output?
+
+A. Color gamut
+
+B. Pixel density
+
+C. Refresh rate
+
+D. Resolution
+
+**Answer:** A
+
+181. - (Topic 1)
+
+Which of the following is commonly affected by high latency?
+
+A. Satellite
+
+B. Fiber
+
+C. Cable
+
+D. DSL
+
+**Answer:** A
+
+182. - (Topic 1)
+
+A customer is able to print most documents with their USB inkjet printer, but the system is unresponsive when printing a certain report from a custom application. Nothing will print until the computer is restarted and the printer is power cycled. A technician remotes into the PC and confirms that the spooler stops working when this report is sent. After cleaning the spooler and reinstalling the drivers from the
+
+The No.1 IT Certification Dumps
+
+56
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+manufacturer's website, the issue persists.
+
+No other sites using the application report similar issues. Which of the following is most likely causing the issue?
+
+A. The manufacturer is curating content before it reaches the device to preserve ink.
+
+B. The application has a bug that the developer needs to address.
+
+C. The system is using the PostScript language instead of the PCL.
+
+D. Personal preferences have changed and documents with graphics are now online-only
+
+**Answer:** B
+
+183. - (Topic 1)
+
+A user reports intermittent Wi-Fi issues in an open office. Other users are not affected. What is the most likely cause?
+
+A. Interference from other Wi-Fi signals
+
+B. All users are on the same frequency
+
+C. The laptop's wireless card is malfunctioning
+
+D. The antenna is near a device creating electromagnetic interference
+
+**Answer:** C
+
+184. - (Topic 1)
+
+A user wants to print files from an overseas office using a shared network folder. The user's laptop has no public-facing internet connectivity. Which of the following can be used to print from the shared network folder?
+
+A. ADF
+
+B. USB
+
+C. PCL
+
+D. SMB
+
+**Answer:** D
+
+185. - (Topic 1)
+
+A technician needs to troubleshoot a user's smartphone that will not connect to its wireless provider's
+
+The No.1 IT Certification Dumps
+
+57
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+service. Which of the following should the technician check first?
+
+A. SIM card
+
+B. Network settings
+
+C. Subscription plan
+
+D. Bluetooth connection
+
+**Answer:** C
+
+186. - (Topic 1)
+
+A user is having trouble with the location services on their smartphone. Location-based applications show incorrect positions when the user is traveling. This issue affects the user's ability to navigate and use location-dependent applications. Which of the following is the best way to resolve this issue?
+
+A. Downloading a third-party mapping application
+
+B. Resetting the network settings
+
+C. Enabling Wi-Fi to assist GPS
+
+D. Restarting the smartphone
+
+**Answer:** C
+
+187. - (Topic 1)
+
+A technician receives a S.M.A.R.T. error on a PC. When the technician presses the Esc key, the PC continues to turn on without any further issues. Which of the following should the technician do next?
+
+A. Replace the HDD.
+
+B. Update the PC's BIOS.
+
+C. Close the ticket.
+
+D. Change the NIC.
+
+**Answer:** A
+
+188. - (Topic 1)
+
+A company uses vital legacy software that does not run in the current OS version Which of the following will best support the software while keeping the OS current?
+
+A. Shared resources
+
+The No.1 IT Certification Dumps
+
+58
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. System sandbox
+
+C. Test development
+
+D. Application visualization
+
+**Answer:** D
+
+189. - (Topic 1)
+
+A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?
+
+A. Gateway
+
+B. Static IP
+
+C. APIPA
+
+D. DHCP
+
+**Answer:** B
+
+190. - (Topic 1)
+
+A user reports that the print quality of their desk printer is poor. A technician replaces the ink cartridge, but this does not resolve the issue. Which of the following should the technician do next?
+
+A. Replace the pickup rollers
+
+B. Clean the printheads
+
+C. Switch the paper type
+
+D. Change the ribbon
+
+**Answer:** B
+
+191. - (Topic 1)
+
+A technician is troubleshooting internet connectivity issues after a firewall update. Users report that they can access local network resources, such as printers and shares, but cannot access the internet. Which of the following settings is most likely causing the issue?
+
+A. Static IP assignments
+
+B. Default gateway
+
+C. Subnet mask
+
+The No.1 IT Certification Dumps
+
+59
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. VLANs
+
+**Answer:** B
+
+192. - (Topic 1)
+
+Which of the following drive interfaces is typically used in server systems but not in home computers?
+
+A. NVMe
+
+B. SAS
+
+C. SATA
+
+D. PCIe
+
+**Answer:** B
+
+193. - (Topic 1)
+
+A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?
+
+A. NVMe
+
+B. RISC
+
+C. ARM
+
+D. TPM
+
+**Answer:** D
+
+194. - (Topic 1)
+
+A technician is troubleshooting a connectivity issue on a network computer. The technician runs ipconfig in a command prompt and receives the following IP address:169.254.0.6. Which of the following is most likely the type of IP address being assigned?
+
+A. DHCP reservation assignment
+
+B. Dynamic assignment
+
+C. Self-assignment
+
+D. Static assignment
+
+**Answer:** C
+
+The No.1 IT Certification Dumps
+
+60
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+195. - (Topic 1)
+
+A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive. Which of the following should the administrator check?
+
+A. TPM
+
+B. CPU
+
+C. RAM
+
+D. HDD
+
+**Answer:** A
+
+196. - (Topic 1)
+
+A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?
+
+A. Enable QoS in the router
+
+B. Configure PoE on the switch
+
+C. Change the encryption from WPA3 to WPA2
+
+D. Turn on MAC address filtering
+
+**Answer:** A
+
+197. - (Topic 1)
+
+A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the Wowing is a valid public IP address in this scenario?
+
+A. 10.254.128.11
+
+B. 66.157.195.20
+
+C. 172.16.0.30
+
+D. 192.168 1.50
+
+**Answer:** B
+
+The No.1 IT Certification Dumps
+
+61
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+198. - (Topic 1)
+
+A user's wireless headset shows a "connected" status when turned on, but the Bluetooth list on the user's phone shows that the headset is "not connected." Which of the following should the technician do?
+
+A. Enter the PIN.
+
+B. Turn off Wi-Fi.
+
+C. Re-pair the devices.
+
+D. Enable Bluetooth.
+
+**Answer:** C
+
+199. - (Topic 1)
+
+A company wants to use cloud services with the requirement that data will reside on physical hardware that will not be shared with other companies. Which of the following meets this requirement?
+
+A. Dedicated resources
+
+B. Elasticity
+
+C. Hybrid cloud
+
+D. SaaS
+
+**Answer:** A
+
+200. - (Topic 1)
+
+Which of the following has the best penetration through physical objects, such as walls?
+
+A. 2.4GHz
+
+B. 5GHz
+
+C. 6GHz
+
+D. NFC
+
+**Answer:** A
+
+201. - (Topic 1)
+
+A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).
+
+A. APIPA
+
+The No.1 IT Certification Dumps
+
+62
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. Gateway
+
+C. IP address
+
+D. Subnet mask
+
+E. Static routes
+
+F. UPnP settings
+
+G. NAT rules
+
+H. MAC filters
+
+**Answer:** B,C,D
+
+202. - (Topic 1)
+
+A customer reports a problem connecting to network resources. After asking open-ended questions, the technician determines the issue likely exists on the remote server. Which of the following should the technician do next?
+
+A. Document the findings.
+
+B. Test the theory
+
+C. Gather information
+
+D. Establish a plan of action
+
+**Answer:** B
+
+203. - (Topic 1)
+
+Which of the following best represents the purpose of NFC?
+
+A. Wired connections between several devices
+
+B. Short-distance wireless connections between two devices
+
+C. Wireless connections between multiple devices at once
+
+D. Direct connection of two computers for file sharing
+
+**Answer:** B
+
+204. - (Topic 1)
+
+Employees are concerned about sensitive data being printed on a shared multifunction printer located in a high-traffic hallway. Which of the following should a technician do to address this concern?
+
+The No.1 IT Certification Dumps
+
+63
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. Set up a PIN for user authentication at the printer
+
+B. Relocate the printer to an unused office space
+
+C. Configure printing of sensitive data through a specific tray
+
+D. Schedule print jobs to be released at certain times
+
+**Answer:** A
+
+205. - (Topic 1)
+
+A customer recently lost data due to several unexpected shutdowns. Data integrity is important to the customer. Which of the following features should the technician choose to prevent data loss?
+
+A. Redundant power supply
+
+B. Uninterruptible power supply
+
+C. Modular power supply
+
+D. High-efficiency power supply
+
+**Answer:** B
+
+206. - (Topic 1)
+
+Which of the following statements best summarize managed vs unmanaged switches? (Select two).
+
+A. Unmanaged switches are generally more expensive
+
+B. Unmanaged switches have more security capabilities
+
+C. Unmanaged switches start working as soon as they are plugged in to the network
+
+D. Managed switches have more features
+
+E. Managed switches require no configuration
+
+F. Managed switches consume less power
+
+**Answer:** C,D
+
+207. - (Topic 1)
+
+Which of the following can be used to logically segment networks?
+
+A. MAC
+
+B. VLAN
+
+C. NIC
+
+The No.1 IT Certification Dumps
+
+64
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+D. DSL
+
+**Answer:** B
+
+208. - (Topic 1)
+
+A user keeps getting an error message when trying to print a letter. The printer is normally used to print cards and invitations. The user tries printing from a different computer, but the issue persists. Which of the following should the user do to resolve the issue?
+
+A. Print fewer pages.
+
+B. Print on card stock
+
+C. Replace the rollers.
+
+D. Change the paper tray setting.
+
+**Answer:** D
+
+209. - (Topic 1)
+
+Which of the following utilizes specialized ports on a laptop to expand the local connection options?
+
+A. NFC adapter
+
+B. Docking station
+
+C. Port replicator
+
+D. USB dongle
+
+**Answer:** B
+
+210. - (Topic 1)
+
+A user is having issues when charging a device with a Lightning cable. The cable is not recognized when it is plugged into the device. This issue is usually resolved by flipping the cable over. This issue does not occur with other devices of the same type. Which of the following would most likely cause the issue?
+
+A. The device needs to be restarted.
+
+B. The battery may be swelling and needs inspection.
+
+C. The cable is failing and needs to be replaced
+
+D. The charging port is dirty or damaged
+
+**Answer:** D
+
+The No.1 IT Certification Dumps
+
+65
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## 211. - (Topic 1)
+
+A technician recently updated the firmware on a dual-BIOS motherboard. Following the update, the system has been stuck in a boot loop and cannot start an OS from any internal or external device. The technician cannot access the UEFI menu either. Which of the following should the technician do next?
+
+A. Enable the secondary configuration.
+
+B. Downgrade the firmware via USB.
+
+C. Start a warranty repair of the motherboard.
+
+D. Reapply thermal paste to the CPU.
+
+**Answer:** A
+
+## 212. - (Topic 1)
+
+After troubleshooting a computer's connectivity, the network team determines there is a port-mapping issue. After plugging the patch cable into a different port, the issue persists. Which of the following troubleshooting steps should a technician take next to resolve the issue?
+
+A. Convert the patch cable to a crossover cable.
+
+B. Test the patch cable from the computer to the network closet.
+
+C. Verify the length of the patch cable meets current standards.
+
+D. Replace the patch cable from the device to the wall.
+
+**Answer:** B
+
+## 213. - (Topic 1)
+
+A technician is installing a new high-end graphics card that uses a 12VHPWR connector. Which of the following is the maximum wattage supported by this power connector?
+
+A. 400W
+
+B. MOW
+
+C. 600W
+
+D. 700W
+
+**Answer:** C
+
+The No.1 IT Certification Dumps
+
+66
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+214. - (Topic 1)
+
+A user reports slow internet browsing. The technician finds high CPU and memory usage, and pop-ups occur every minute. Which of the following should the technician do next?
+
+A. Escalate to the network team to check end-to-end connectivity.
+
+B. Download and install the latest drivers.
+
+C. Update the anti-malware signatures and scan the system.
+
+D. Check the wireless settings and validate the DHCP configuration.
+
+**Answer:** C
+
+215. - (Topic 1)
+
+A company needs to develop a disaster recovery solution based on virtual machines. Which of the following service models is the most suitable?
+
+A. Infrastructure as a Service
+
+B. Security as a Service
+
+C. Platform as a Service
+
+D. Software as a Service
+
+**Answer:** A
+
+216. - (Topic 1)
+
+Which of the following should a technician use to terminate a Cat 6 cable to a patch panel?
+
+A. Punchdown tool
+
+B. Crimper
+
+C. Toner probe
+
+D. Network tap
+
+**Answer:** A
+
+217. - (Topic 1)
+
+A technician needs to move a workstation to a different logical network segment. Which of the following technologies should the technician use?
+
+A. DHCP
+
+The No.1 IT Certification Dumps
+
+67
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+B. VLAN
+
+C. DNS
+
+D. VPN
+
+**Answer:** B
+
+218. - (Topic 1)
+
+Which of the following types of RAM would most likely be used in a server?
+
+A. SODIMM
+
+B. ECC
+
+C. Unbuffered
+
+D. DDR3
+
+**Answer:** B
+
+219. - (Topic 1)
+
+An office manager wants to block all outbound internet traffic but continue to enable all inbound traffic.
+
+Which of the following should a technician configure to achieve this goal?
+
+A. MAC filtering
+
+B. Network interface card
+
+C. Firewall
+
+D. Switch
+
+**Answer:** C
+
+220. - (Topic 1)
+
+A user experiences a random BSOD while using a computer, but the operating system recovers as
+
+expected Which of the following symptoms would indicate the issue is related to RAM?
+
+A. Wrong BIOS configurations
+
+B. Continuous reboots
+
+C. Distended capacitors
+
+D. POST code beeps
+
+**Answer:** D
+
+The No.1 IT Certification Dumps
+
+68
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+221. - (Topic 1)
+
+An organization upgrades all desktops to Windows 11 and must ensure protection from malicious software at startup. Which option should be enabled?
+
+A. Trusted Platform Module
+
+B. Hardware security module
+
+C. Secure Boot
+
+D. BIOS password
+
+**Answer:** C
+
+222. - (Topic 1)
+
+A SOHO user cannot connect to the internet. Their configuration shows:
+
+IP: 192.168.223.15
+
+Mask: 255.255.255.0
+
+Gateway: 192.168.233.1
+
+DNS: 8.8.8.8, 4.2.2.1, 4.2.2.2
+
+Baseline documentation shows valid subnet range: 192.168.200.0–192.168.232.255.
+
+Which setting must be changed?
+
+A. Tertiary DNS
+
+B. Secondary DNS
+
+C. Primary DNS
+
+D. IP Address
+
+E. Gateway
+
+F. Subnet mask
+
+**Answer:** E
+
+223. - (Topic 1)
+
+A user reports that the printouts from a laser printer have lines and smudges on them. The printer is also intermittently misfeeding the paper. Which of the following components should a technician replace to address this issue?
+
+The No.1 IT Certification Dumps
+
+69
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A. Fuser
+
+B. Maintenance kit
+
+C. Corona wire
+
+D. Toner cartridge
+
+**Answer:** B
+
+224. - (Topic 1)
+
+Which of the following storage options would a technician most likely recommend to have large amounts of affordable capacity without concern for read times on a desktop computer?
+
+A. 750GB NVMe M.2 SSD
+
+B. 2x 1TB PCIe SSD in RAID 1
+
+C. 2TB SATA 3.5" 5,400rpm HDD
+
+D. 4TB SAS 2.5" 15,000rpm HDD
+
+**Answer:** C
+
+225. - (Topic 1)
+
+An IT support specialist needs to configure several laptops to access local resources wherever the employees are while in the office. Which of the following would best meet this requirement?
+
+A. Configure cellular location services to facilitate device identification
+
+B. Set up a Wi-Fi connection with a common SSID
+
+C. Enable Bluetooth connectivity in all laptops
+
+D. Create roaming profiles for each laptop
+
+**Answer:** B
+
+226. - (Topic 1)
+
+A help desk technician needs to work on a high-volume printer. Users have reported occasional paper jams and smudges appearing on printed documents. Which of the following steps should the technician do next to address these issues?
+
+A. Perform a full factory reset.
+
+B. Check and clean the rollers.
+
+The No.1 IT Certification Dumps
+
+70
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+C. Change all the ink or toner cartridges.
+
+D. Replace the fuser.
+
+**Answer:** B
+
+227. - (Topic 1)
+
+A user connects their laptop to a projector in a conference room. Once connected, the userreports the screen is smaller at the bottom than at the top. The user tries restarting the laptop and then disconnecting and reconnecting the cable to the projector. Which of the following should a technician do to resolve the issue?
+
+A. Replace the HDMI cable.
+
+B. Power cycle the projector.
+
+C. Adjust the keystone
+
+D. Increase the resolution.
+
+**Answer:** C
+
+228. - (Topic 1)
+
+Which of the following cloud models would multiple organizations in the same industry most likely use?
+
+A. Public
+
+B. Hybrid
+
+C. Community
+
+D. Private
+
+**Answer:** C
+
+229. - (Topic 1)
+
+Which of the following ports should a technician disable to increase the security of remote connectivity?
+
+A. 22
+
+B. 23
+
+C. 25
+
+D. 53
+
+**Answer:** B
+
+The No.1 IT Certification Dumps
+
+71
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+230. - (Topic 1)
+
+Which of the following port numbers are associated with email traffic? (Select two).
+
+A. 23
+
+B. 25
+
+C. 67
+
+D. 110
+
+E. 137
+
+F. 443
+
+**Answer:** B,D
+
+231. - (Topic 1)
+
+Which of the following networking devices is used to create a mesh network?
+
+A. Modem
+
+B. DSL
+
+C. Access point
+
+D. ONT
+
+**Answer:** C
+
+232. - (Topic 1)
+
+An employee's screen keeps flashing. Sometimes the picture goes out and comes back. The employee checks the power cord and confirms the device is plugged in fully. Which of the following should a technician check for first?
+
+A. Loose video cable
+
+B. Failing graphics card
+
+C. Conflicting drivers
+
+D. Swollen motherboard capacitor
+
+**Answer:** A
+
+233. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+72
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Which of the following internet connection types is the best for extremely high data transfer with symmetrical upload and download speeds?
+
+A. DSL
+
+B. Cellular
+
+C. Fiber
+
+D. Satellite
+
+**Answer:** C
+
+234. - (Topic 1)
+
+A customer reports that a text-only document prints with unrecognizable characters. The print preview correctly displays the document. Which of the following is the most likely cause of the issue?
+
+A. Outdated firmware
+
+B. Incorrect driver
+
+C. Bad toner cartridge
+
+D. Corrupted document file
+
+**Answer:** B
+
+235. - (Topic 1)
+
+An end user's domain password expires while they are working from home. The end user tries to reset the password using Ctrl+Alt+Delete and then receives the following message:
+
+Configuration information could not be read from the domain controller, either because the machine is unavailable or because access is denied.
+
+Which of the following will resolve this issue?
+
+A. Restart the computer.
+
+B. Connect to the VPN.
+
+C. Reset the account in Active Directory.
+
+D. Join the Wi-Fi network.
+
+**Answer:** B
+
+236. - (Topic 1)
+
+The No.1 IT Certification Dumps
+
+73
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Which of the following RAID configurations can lose two drives without data loss?
+
+A. RAID 0
+
+B. RAID 1
+
+C. RAID 5
+
+D. RAID 6
+
+**Answer:** D
+
+237. - (Topic 1)
+
+Which of the following internet connection types provides the fastest speeds and greatest coverage in less populated areas with minimal infrastructure?
+
+A. Fiber
+
+B. Cable
+
+C. DSL
+
+D. Cellular
+
+**Answer:** D
+
+238. - (Topic 1)
+
+Which of the following connectors supports High-bandwidth Digital Content Protection (HDCP)?
+
+A. DVI-A
+
+B. F-type
+
+C. VGA
+
+D. DisplayPort
+
+**Answer:** D
+
+Topic 2, Simulation Performance Based Questions
+
+239. SIMULATION - (Topic 2)
+
+A technician is installing a wireless access point and is required to run all cabling and make patch cords if necessary.
+
+INSTRUCTIONS
+
+Part 1
+
+The No.1 IT Certification Dumps
+
+74
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+For each cable type, click the (+) to select the appropriate connector and tool.
+
+part 2
+
+An access point was moved and no longer has connectivity. Connect the access point, patch panel, and switch by clicking the (+) to select the appropriate cable end for each corresponding location to create a link.
+
+The link will be visible after making the second selection of each pair. Cable ends may be used multiple times, and all placeholders will be filled.
+
+Part 1    Part 2
+
+Connectors                                Tools
+
+LC                                        Crimper
+
+RJ11                                      Optical Crimper
+
+RJ45                                      Punchdown
+
+## Answer:
+
+See the solution below in Explanation.
+
+Explanation:
+
+Check the exhibit diagram for both parts.
+
+Connectors                                Tools
+
+RJ45                                      Crimper
+
+LC                                        Optical Crimper
+
+RJ11                                      Crimper
+
+A close-up of several cables
+
+The No.1 IT Certification Dumps
+
+75
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+AI-generated content may be incorrect.
+
+Part 2
+
+A group of different colored rectangular objects
+
+AI-generated content may be incorrect.
+
+240. HOTSPOT - (Topic 2)
+
+A technician is diagnosing several device issues reported by employees.
+
+INSTRUCTIONS
+
+Click on each device to review the issue. Then select the appropriate issue and solution from the drop-down menu. Each option may be used more than once.
+
+The No.1 IT Certification Dumps
+
+76
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+Select an issue
+* Select an issue
+* Battery performance
+* Burn in
+* Cannot locate boot partition
+* Fuzzy image
+* Incorrect contrast settings
+* Keystoning
+* Overheating
+* Swollen battery
+* Wrong input selected
+
+Select a solution
+* Adjust the refresh rate settings
+* Adjust the display angle settings
+* Clean the lens
+* Disable overclocking in the CPU
+* Enter the BIOS and configure changes
+* A replacement is required
+* Switch the display input
+* Upgrade the hard drive
+
+**Answer:**
+
+The No.1 IT Certification Dumps
+
+77
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## 241. HOTSPOT - (Topic 2)
+
+An office manager reports that a printer is experiencing performance issues. Printouts are smudging when they are handled, and, recently whenever they need to print legal sized documents, the paper jams before anything is printed on it.
+
+The following paper sizes are used: Letter (8.5x11in/21.59x27.94cm) Legal (8.5x14in/21.59x35.56cm) Oversized (11x17in/27.94x43.18cm)
+
+The No.1 IT Certification Dumps
+
+78
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Tray 2 (8.5x11in/21.59x27.94cm)
+
+Tray 3 (8.5x14in/21.59x35.56cm)
+
+## INSTRUCTIONS
+
+Using the dropdown menus, select from the available printer parts to replace only the faulty components on the office printer to resolve the stated issues.
+
+If at any time you would like to bring back the initial state of the simulation, please click the Reset All button.
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Tray 2 (8.5x11in/21.59x27.94cm)
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Tray 3 (8.5x14in/21.59x35.56cm)
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+**Answer:**
+
+The No.1 IT Certification Dumps
+
+79
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Tray 2 (8.5x11in/21.59x27.94cm)
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+Tray 3 (8.5x14in/21.59x35.56cm)
+
+Rollers
+Duplexer
+Ink cartridge
+Toner
+Fuser
+
+242. DRAG DROP - (Topic 2)
+
+A customer recently experienced a power outage at a SOHO. The customer does not think the components are connected properly. A print job continued running for several minutes after the power failed, but the customer was not able to interact with the computer.
+
+Once the UPS stopped beeping, all functioning devices also turned off.
+
+In case of a future power failure, the customer wants to have the most time available to save cloud documents and shut down the computer without losing any data.
+
+INSTRUCTIONS
+
+Based on the customer's requirements, connect the customer's devices to the proper outlets. Select the power source for the Surge Protector and UPS. This may require reselecting dropdowns or removing tokens.
+
+Each token may only be used once.
+
+If at any time you would like to bring back the initial state of the simulation, please click the Reset All button.
+
+The No.1 IT Certification Dumps
+
+80
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+<table>
+  <tbody>
+    <tr>
+        <td>Wall Outlet</td>
+<td>Surge Protector</td>
+<td>UPS</td>
+<td>Drag &amp; Drop</td>
+    </tr>
+<tr>
+        <td></td>
+<td>Power Source:</td>
+<td>Power Source:</td>
+<td></td>
+    </tr>
+<tr>
+        <td></td>
+<td>Wall Outlet</td>
+<td>Surge Protector</td>
+<td>Cable Modem</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Computer</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Monitor</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Printer</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Scanner</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Wi-Fi Router</td>
+    </tr>
+  </tbody>
+</table>
+
+## Answer:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Wall Outlet</td>
+<td>Surge Protector</td>
+<td>UPS</td>
+<td>Drag &amp; Drop</td>
+    </tr>
+<tr>
+        <td></td>
+<td>Power Source:</td>
+<td>Power Source:</td>
+<td></td>
+    </tr>
+<tr>
+        <td></td>
+<td>Wall Outlet</td>
+<td>Surge Protector</td>
+<td>Cable Modem</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>Printer</td>
+<td>Computer</td>
+<td>Computer</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>Scanner</td>
+<td>Monitor</td>
+<td>Monitor</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>Cable Modem</td>
+<td>Printer</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>Wi-Fi Router</td>
+<td>Scanner</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td>Wi-Fi Router</td>
+    </tr>
+<tr>
+        <td>?</td>
+<td>?</td>
+<td>?</td>
+<td></td>
+    </tr>
+  </tbody>
+</table>
+
+## 243. HOTSPOT - (Topic 2)
+
+User at site A is reporting dropped VoIP calls when using a softphone application.
+
+However, users at site B are not experiencing any issues. The VoIP provider has a tool to troubleshoot connectivity Issues.
+
+Click on each tab to investigate the cause of the dropped calls. In Part 1, type help in each terminal to view a list of available commands. Then, select the correct answer for each question. In Part 2, make unnecessary network configuration changes to resolve
+
+The No.1 IT Certification Dumps
+
+81
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+reported issue.
+
+Part 1    Part 2
+
+Site A Commands
+
+Site A VoIP
+
+Site B Commands
+
+Site B VoIP
+
+C:\Users\Sitelab
+
+Which of the following is the most likely cause of the VoIP quality issue?
+
+Select a cause
+Packet loss
+Jitter
+Bandwidth
+Latency
+
+Which of the following actions should the technician perform first to quickly resolve the issue and minimize disruption to other users?
+
+Select an action
+Assign a static IP address to the user's workstation.
+Plug an Ethernet cable into the user workstation.
+Change the default route to the user's workstation.
+Replace the user's workstation.
+Ask the user to restart the workstation.
+
+## Answer:
+
+Part 1    Part 2
+
+Site A Commands
+
+Site A VoIP
+
+Site B Commands
+
+Site B VoIP
+
+C:\Users\Sitelab
+
+Which of the following is the most likely cause of the VoIP quality issue?
+
+Select a cause
+Packet loss
+Jitter
+Bandwidth
+Latency
+
+Which of the following actions should the technician perform first to quickly resolve the issue and minimize disruption to other users?
+
+Select an action
+Assign a static IP address to the user's workstation.
+Plug an Ethernet cable into the user workstation.
+Change the default route to the user's workstation.
+Replace the user's workstation.
+Ask the user to restart the workstation.
+
+244. SIMULATION - (Topic 2)
+
+A third-party contractor recently installed a new switch, router, and cabling for a small corporate office. After
+
+The No.1 IT Certification Dumps
+
+82
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+the installation, users started experiencing issues connecting to resources over the network.
+
+INSTRUCTIONS
+
+Click on each PC and server to review outputs. From the remediation section on the right, select an issue
+
+and solution for each device.
+
+[Network diagram showing:
+- Router (192.168.1.50) at the top with wireless signal
+- Switch connected below the router
+- Two servers (Server 1 and Server 2) on the left side
+- Two PCs (PC 1 and PC 2) on the right side
+- All devices connected to the central switch
+- A Remediation panel on the right showing:
+  * PC 1 [+]
+  * Select device
+  * PC 1
+  * PC 2
+  * Server 1
+  * Server 2]
+
+## PC 1
+
+Command terminal | IPv4 properties
+
+### Internet protocol version 4 (TCP/IPv4) properties
+
+You can get IP settings assigned automatically if your network supports this capability.
+Otherwise, you need to ask your network administrator for the appropriate IP settings.
+
+○ Obtain an IP address automatically
+
+◉ Use the following IP address:
+
+<table>
+  <tbody>
+    <tr>
+        <td>IP address:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Subnet mask:</td>
+<td>255.255.255.0</td>
+    </tr>
+<tr>
+        <td>Default gateway:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+○ Obtain DNS server address automatically
+
+◉ Use the following DNS server addresses:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Preferred DNS server:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Alternate DNS server:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+☐ Validate settings upon exit
+
+[Advanced...]
+
+The No.1 IT Certification Dumps
+
+83
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## PC 1
+
+**Command terminal** | **IPv4 properties**
+
+```
+ipconfig /all
+
+Windows IP Configuration
+
+  Host Name . . . . . . . . . . . . : PC1
+  Primary Dns Suffix  . . . . . . . :
+  Node Type . . . . . . . . . . . . : Peer-Peer
+  IP Routing Enabled. . . . . . . . : No
+  WINS Proxy Enabled. . . . . . . . : No
+  DNS Suffix Search List. . . . . . : corp.lan
+
+Ethernet adapter Ethernet 1:
+
+  Connection-specific DNS Suffix  . : corp.lan
+  Description . . . . . . . . . . . : Realtek USB GbE Family Controller
+  Physical Address. . . . . . . . . : E1:7C:5C:D4:57:79
+  DHCP Enabled. . . . . . . . . . . : No
+  Autoconfiguration Enabled . . . . : No
+  IPv4 Address. . . . . . . . . . . : 192.168.1.1 (Preferred)
+  Subnet Mask . . . . . . . . . . . : 255.255.255.0
+  Default Gateway . . . . . . . . . : 192.168.1.50
+```
+
+----
+
+## PC 1
+
+**Command terminal** | **IPv4 properties**
+
+```
+  Host Name . . . . . . . . . . . . : PC1
+  Primary Dns Suffix  . . . . . . . :
+  Node Type . . . . . . . . . . . . : Peer-Peer
+  IP Routing Enabled. . . . . . . . : No
+  WINS Proxy Enabled. . . . . . . . : No
+  DNS Suffix Search List. . . . . . : corp.lan
+
+Ethernet adapter Ethernet 1:
+
+  Connection-specific DNS Suffix  . : corp.lan
+  Description . . . . . . . . . . . : Realtek USB GbE Family Controller
+  Physical Address. . . . . . . . . : E1:7C:5C:D4:57:79
+  DHCP Enabled. . . . . . . . . . . : No
+  Autoconfiguration Enabled . . . . : No
+  IPv4 Address. . . . . . . . . . . : 192.168.1.1 (Preferred)
+  Subnet Mask . . . . . . . . . . . : 255.255.255.0
+  Default Gateway . . . . . . . . . : 192.168.1.50
+  DNS Servers . . . . . . . . . . . : 192.168.1.1
+                                      192.168.1.50
+  NetBIOS over Tcpip. . . . . . . . : Enabled
+```
+
+The No.1 IT Certification Dumps
+
+84
+
+
+---
+
+
+
+# PC 2
+
+## Command terminal | IPv4 properties
+
+```
+Node Type . . . . . . . . . . . . : Peer-Peer
+IP Routing Enabled. . . . . . . . : No
+WINS Proxy Enabled. . . . . . . . : No
+DNS Suffix Search List. . . . . . : corp.lan
+
+Ethernet adapter Ethernet 1:
+
+   Connection-specific DNS Suffix  . : corp.lan
+   Description . . . . . . . . . . . : Realtek USB GbE Family Controller
+   Physical Address. . . . . . . . . : 36:9E:94:F0:59:83
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv4 Address. . . . . . . . . . . : 192.168.1.12 (Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : August 28, 2023 9:07:46 AM
+   Lease Expires . . . . . . . . . . : August 29, 2023 9:07:46 AM
+   Default Gateway . . . . . . . . . : 192.168.1.50
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+                                       192.168.1.50
+```
+
+----
+
+# PC 2
+
+## Command terminal | IPv4 properties
+
+### Internet protocol version 4 (TCP/IPv4) properties
+
+You can get IP settings assigned automatically if your network supports this capability.
+Otherwise, you need to ask your network administrator for the appropriate IP settings.
+
+○ Obtain an IP address automatically
+
+◉ Use the following IP address:
+
+<table>
+  <tbody>
+    <tr>
+        <td>IP address:</td>
+<td>192.168.1.2</td>
+    </tr>
+<tr>
+        <td>Subnet mask:</td>
+<td>255.255.0.0</td>
+    </tr>
+<tr>
+        <td>Default gateway:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+○ Obtain DNS server address automatically
+
+◉ Use the following DNS server addresses:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Preferred DNS server:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Alternate DNS server:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+☐ Validate settings upon exit
+
+[Advanced...]
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## Server 1
+
+### Command terminal
+
+```
+Host Name . . . . . . . . . . . . : Server1
+Primary Dns Suffix  . . . . . . . :
+Node Type . . . . . . . . . . . . : Peer-Peer
+IP Routing Enabled. . . . . . . . : No
+WINS Proxy Enabled. . . . . . . . : No
+DNS Suffix Search List. . . . . . : corp.lan
+
+Ethernet adapter Ethernet 1:
+
+   Connection-specific DNS Suffix  . : corp.lan
+   Description . . . . . . . . . . . : Realtek USB GbE Family Controller
+   Physical Address. . . . . . . . . : B2:9F:BB:2C:21:74
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : No
+   IPv4 Address. . . . . . . . . . . : 192.168.1.1 (Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.255
+   Default Gateway . . . . . . . . . : 192.168.1.50
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+                                       192.168.1.50
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+```
+
+## Server 1
+
+### IPv4 properties
+
+#### Internet protocol version 4 (TCP/IPv4) properties
+
+You can get IP settings assigned automatically if your network supports this capability. Otherwise, you need to ask your network administrator for the appropriate IP settings.
+
+○ Obtain an IP address automatically
+
+● Use the following IP address:
+
+<table>
+  <tbody>
+    <tr>
+        <td>IP address:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Subnet mask:</td>
+<td>255.255.255.0</td>
+    </tr>
+<tr>
+        <td>Default gateway:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+○ Obtain DNS server address automatically
+
+● Use the following DNS server addresses:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Preferred DNS server:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Alternate DNS server:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+[ ] Validate settings upon exit
+
+[Advanced...]
+
+The No.1 IT Certification Dumps
+
+86
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## Server 2
+
+### Command terminal | IPv4 properties
+
+```
+Host Name . . . . . . . . . . . . : Server2
+Primary Dns Suffix  . . . . . . . :
+Node Type . . . . . . . . . . . . : Peer-Peer
+IP Routing Enabled. . . . . . . . : No
+WINS Proxy Enabled. . . . . . . . : No
+DNS Suffix Search List. . . . . . : corp.lan
+
+Ethernet adapter Ethernet 1:
+
+   Connection-specific DNS Suffix  . : corp.lan
+   Description . . . . . . . . . . . : Realtek USB GbE Family Controller
+   Physical Address. . . . . . . . . : AC:5D:46:89:72:6D
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : No
+   IPv4 Address. . . . . . . . . . . : 192.168.1.2 (Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.5
+   DNS Servers . . . . . . . . . . . : 192.168.1.1
+                                       192.168.1.50
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+```
+
+## Server 2
+
+### Command terminal | IPv4 properties
+
+#### Internet protocol version 4 (TCP/IPv4) properties
+
+You can get IP settings assigned automatically if your network supports this capability. Otherwise, you need to ask your network administrator for the appropriate IP settings.
+
+○ Obtain an IP address automatically
+
+◉ Use the following IP address:
+
+<table>
+  <tbody>
+    <tr>
+        <td>IP address:</td>
+<td>192.168.1.2</td>
+    </tr>
+<tr>
+        <td>Subnet mask:</td>
+<td>255.255.255.0</td>
+    </tr>
+<tr>
+        <td>Default gateway:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+○ Obtain DNS server address automatically
+
+◉ Use the following DNS server addresses:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Preferred DNS server:</td>
+<td>192.168.1.1</td>
+    </tr>
+<tr>
+        <td>Alternate DNS server:</td>
+<td>192.168.1.50</td>
+    </tr>
+  </tbody>
+</table>
+
+☐ Validate settings upon exit
+
+[Advanced...]
+
+The No.1 IT Certification Dumps
+
+87
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+**Answer:**
+
+See the Explanation and detailed steps below.
+
+Explanation:
+
+Looking at the network configurations and outputs from both PCs and servers, here are the possible issues and solutions:
+
+* 1. PC 1
+
+Issue: The IP address for PC1 is 192.168.1.1, which conflicts with Server 1 (which also uses 192.168.1.1).
+
+Solution: Change the IP address on PC1 to a unique one within the range, like 192.168.1.3.
+
+* 2. PC 2
+
+Issue: PC 2 is configured with 192.168.1.2, which conflicts with Server 2 that has the same IP address.
+
+Solution: Update the IP address on PC 2 to something unique, like 192.168.1.4.
+
+* 3. Server 1
+
+Issue: The IP address for Server 1 is 192.168.1.1, which conflicts with PC1.
+
+Solution: Since Server 1 and PC1 are using the same IP address, change one of them. For Server 1, you could change the IP address to 192.168.1.5.
+
+* 4. Server 2
+
+Issue: Server 2 is using the IP address 192.168.1.2, which conflicts with PC2. Solution: Update Server 2 to use a different IP address, such as 192.168.1.6. General Remediation:
+
+The primary problem here is overlapping IP addresses, leading to connectivity issues. Each device on the network must have a unique IP address. After making these changes, ensure that all devices can communicate properly by testing the connection between devices and verifying they can access shared resources.
+
+245. SIMULATION - (Topic 2)
+
+A user reports poor performance on the application server.
+
+INSTRUCTIONS
+
+Click on Server 1 and Server 2 and review the information presented in each chart to determine which drives need to be replaced.
+
+Select the appropriate replacement drive that should be used, for the least performance degradation to the server.
+
+The No.1 IT Certification Dumps
+
+88
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+If at any time you would like to bring back the initial state of the simulation, please click the Reset All button.
+
+<table>
+  <thead>
+    <tr>
+        <th>Status</th>
+        <th>Name</th>
+        <th>State</th>
+        <th>Layout</th>
+        <th>Bus protocol</th>
+        <th>Media</th>
+        <th>Read policy</th>
+        <th>Write policy</th>
+        <th>Stripe element size</th>
+        <th>Disk cache policy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>✓</td>
+<td>Server 1</td>
+<td>Ready</td>
+<td>RAID-5</td>
+<td>SAS</td>
+<td>HDD</td>
+<td>No read ahead</td>
+<td>Write back</td>
+<td>64KB</td>
+<td>Disabled</td>
+    </tr>
+<tr>
+        <td>⚠</td>
+<td>Server 2</td>
+<td>Degraded</td>
+<td>RAID-5</td>
+<td>SAS</td>
+<td>HDD</td>
+<td>No read ahead</td>
+<td>Write back</td>
+<td>64KB</td>
+<td>Disabled</td>
+    </tr>
+  </tbody>
+</table>
+
+**Answer:**
+
+See the detailed solution in explanation below.
+
+Explanation:
+
+The degraded status on Server 2 indicates a RAID-5 issue, typically due to a failed or failing drive. In RAID-5 configurations, when one drive fails, the system can still operate but with reduced performance as parity data is used to rebuild missing data on-the-fly. Recommended Replacement Drive:
+
+To minimize performance degradation, the replacement drive should be:
+
+SAS HDD with the same specifications (64KB stripe size, no read-ahead, and write-back policy).
+
+Matching the configuration exactly ensures seamless integration and optimizes recovery speed in the RAID-5 array.
+
+In RAID-5, degraded performance is expected when one drive fails, as parity data needs to rebuild missing information during each read/write process. Replacing the failed drive restores the RAID array to optimal status, reducing the load on existing drives and returning the system to normal read/write performance. The write-back policy and disabled disk cache settings are designed to reduce latency and increase efficiency, essential for handling real-time applications.
+
+A user reports poor performance on the application server.
+
+INSTRUCTIONS
+
+Click on Server 1 and Server 2 and review the information presented in each chart to determine which drives need to be replaced. Select the appropriate replacement drive that should be used, for the least
+
+The No.1 IT Certification Dumps
+
+89
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+performance degradation to the server.
+
+A computer server with many black and silver parts
+
+AI-generated content may be incorrect.A computer server with many black boxes Description automatically generated with medium confidence
+
+<table>
+  <tbody>
+    <tr>
+        <td>Status</td>
+<td>Name</td>
+<td>State</td>
+<td>Layout</td>
+<td>Bus protocol</td>
+<td>Media</td>
+<td>Read policy</td>
+<td>Write policy</td>
+<td>Stripe element size</td>
+<td>Disk cache policy</td>
+    </tr>
+<tr>
+        <td>✓</td>
+<td>Server 1</td>
+<td>Ready</td>
+<td>RAID-5</td>
+<td>SAS</td>
+<td>HDD</td>
+<td>No read ahead</td>
+<td>Write back</td>
+<td>64KB</td>
+<td>Disabled</td>
+    </tr>
+<tr>
+        <td>⚠</td>
+<td>Server 2</td>
+<td>Degraded</td>
+<td>RAID-5</td>
+<td>SAS</td>
+<td>HDD</td>
+<td>No read ahead</td>
+<td>Write back</td>
+<td>64KB</td>
+<td>Disabled</td>
+    </tr>
+  </tbody>
+</table>
+
+## Server 1
+
+<table>
+  <tbody>
+    <tr>
+        <td>Status</td>
+<td>Name</td>
+<td>State</td>
+<td>Size</td>
+<td>Media</td>
+<td>Speed</td>
+<td>Failure predicted</td>
+    </tr>
+<tr>
+        <td>✓</td>
+<td>Physical disk 1:2</td>
+<td>Online</td>
+<td>4TB</td>
+<td>HDD</td>
+<td>15k rpm</td>
+<td>Yes</td>
+    </tr>
+<tr>
+        <td>✓</td>
+<td>Physical disk 1:3</td>
+<td>Online</td>
+<td>4TB</td>
+<td>HDD</td>
+<td>15k rpm</td>
+<td>No</td>
+    </tr>
+<tr>
+        <td>✓</td>
+<td>Physical disk 1:4</td>
+<td>Online</td>
+<td>4TB</td>
+<td>HDD</td>
+<td>15k rpm</td>
+<td>No</td>
+    </tr>
+<tr>
+        <td>✓</td>
+<td>Physical disk 1:5</td>
+<td>Online</td>
+<td>4TB</td>
+<td>HDD</td>
+<td>15k rpm</td>
+<td>No</td>
+    </tr>
+  </tbody>
+</table>
+
+A screen shot of a computer
+
+AI-generated content may be incorrect.A screen shot of a computer Description automatically generated
+
+The No.1 IT Certification Dumps
+
+90
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## Server 1, Drive bay 3
+
+<table>
+  <tbody>
+    <tr>
+        <td>Size</td>
+<td>Interface</td>
+<td>Rotational speed</td>
+<td></td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>4TB v</td>
+<td>HDD</td>
+<td>15k rpm</td>
+    </tr>
+  </tbody>
+</table>
+
+A computer screen shot of a computer
+
+AI-generated content may be incorrect.A computer screen shot of a computer Description automatically generated
+
+## Server 1, Drive bay 4
+
+<table>
+  <tbody>
+    <tr>
+        <td>Size</td>
+<td>Interface</td>
+<td>Rotational speed</td>
+<td></td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>4TB v</td>
+<td>HDD</td>
+<td>15k rpm</td>
+    </tr>
+  </tbody>
+</table>
+
+A computer screen shot of a computer
+
+AI-generated content may be incorrect.A computer screen shot of a computer Description automatically generated
+
+## Server 1, Drive bay 5
+
+<table>
+  <tbody>
+    <tr>
+        <td>Size</td>
+<td>Interface</td>
+<td>Rotational speed</td>
+<td></td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>4TB v</td>
+<td>HDD</td>
+<td>15k rpm</td>
+    </tr>
+  </tbody>
+</table>
+
+The No.1 IT Certification Dumps
+
+91
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A computer screen shot of a computer
+
+AI-generated content may be incorrect.A computer screen shot of a computer Description automatically generated
+
+## Server 2, Drive bay 2
+
+<table>
+  <thead>
+    <tr>
+        <th>Size</th>
+        <th>Interface</th>
+        <th>Rotational speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>2TB v</td>
+<td>HDD</td>
+<td>7200rpm</td>
+    </tr>
+<tr>
+        <td>8TB</td>
+<td>SAS</td>
+<td>5400rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SATA</td>
+<td>7200rpm</td>
+    </tr>
+<tr>
+        <td>2TB</td>
+<td>SATA</td>
+<td>SSD</td>
+    </tr>
+<tr>
+        <td>1TB</td>
+<td>SAS</td>
+<td>10k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SAS</td>
+<td>15k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SAS</td>
+<td>10k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SATA</td>
+<td>SSD</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+        <td>Layout</td>
+<td>Bus protocol</td>
+<td>Mer</td>
+    </tr>
+<tr>
+        <td>RAID-5</td>
+<td>SAS</td>
+<td>HD</td>
+    </tr>
+<tr>
+        <td>RAID-5</td>
+<td>SAS</td>
+<td>HD</td>
+    </tr>
+  </tbody>
+</table>
+
+A screenshot of a computer
+
+AI-generated content may be incorrect.A screenshot of a computer Description automatically generated
+
+## Server 2, Drive bay 3
+
+<table>
+  <thead>
+    <tr>
+        <th>Size</th>
+        <th>Interface</th>
+        <th>Rotational speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <td>2TB v</td>
+<td>HDD</td>
+<td>7200rpm</td>
+    </tr>
+<tr>
+        <td>8TB</td>
+<td>SAS</td>
+<td>5400rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SATA</td>
+<td>7200rpm</td>
+    </tr>
+<tr>
+        <td>2TB</td>
+<td>SATA</td>
+<td>SSD</td>
+    </tr>
+<tr>
+        <td>1TB</td>
+<td>SAS</td>
+<td>10k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SAS</td>
+<td>15k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SAS</td>
+<td>10k rpm</td>
+    </tr>
+<tr>
+        <td>4TB</td>
+<td>SATA</td>
+<td>SSD</td>
+    </tr>
+  </tbody>
+</table>
+
+A screenshot of a computer
+
+The No.1 IT Certification Dumps
+
+92
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+AI-generated content may be incorrect.A screenshot of a computer Description automatically generated
+
+246. SIMULATION - (Topic 2)
+
+Laura, a customer, has instructed you to configure her home office wireless access point.
+
+She plans to use the wireless network for finances and has requested that the network be setup with the highest encryption possible.
+
+Additionally, Laura knows that her neighbors have wireless networks and wants to ensure that her network is not being interfered with by the other networks.
+
+She requests that the default settings be changed to the following.
+
+Wireless Name: HomeWiFi Shared Key: CompTIA Router Password: Secure$1
+
+Finally, Laura wants to ensure that only her laptop and Smartphone can connect to the network.
+
+Laptop: IP Address 192.168.1.100
+
+Hardware Address: 00:0A:BF:03:C4:54 Smartphone: IP Address 192.168.1.101 Hardware Address: 09:2C:D0:22:3F:11
+
+INSTRUCTIONS
+
+Configure Laura's wireless network using the network adapter window.
+
+If at any time you would like to bring back the initial state of the situation, please click the Reset All button.
+
+## Laura's Wireless Configuration
+
+**WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS**
+
+**Wireless Network Settings**
+
+Enable Wireless: ☑
+
+Wireless Network Name: HomeWiFi (Also called the SSID)
+
+Wireless Channel: 1 ▼
+
+Disable SSID Broadcast: ☐
+
+802.11g Only Mode: ☐
+
+**Wireless Security Mode**
+
+Security Mode: Enable WPA2 Wireless Security (enhanced) ▼
+
+**WPA2**
+
+Passphrase: CompTIA
+
+Confirmed Passphrase: CompTIA
+
+The No.1 IT Certification Dumps
+
+93
+
+
+---
+
+
+
+# Certify For Sure with IT Exam Dumps
+
+## Laura's Wireless Configuration
+
+### Laura's House
+
+**WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS**
+
+Please enter the same password into both boxes for confirmation
+
+Password:
+
+Verify Password:
+
+<table>
+  <tbody>
+    <tr>
+        <td>Wireless Network Name:</td>
+<td>Default</td>
+    </tr>
+<tr>
+        <td>Security Mode:</td>
+<td>Open</td>
+    </tr>
+<tr>
+        <td>Wireless Channel:</td>
+<td>11</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+        <td>Wireless Network Name:</td>
+<td>MyWi</td>
+    </tr>
+<tr>
+        <td>Security Mode:</td>
+<td>WEP</td>
+    </tr>
+<tr>
+        <td>Wireless Channel:</td>
+<td>6</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+        <td>Wireless Network Name:</td>
+<td>PatsWIFI</td>
+    </tr>
+<tr>
+        <td>Security Mode:</td>
+<td>WEP</td>
+    </tr>
+<tr>
+        <td>Wireless Channel:</td>
+<td>11</td>
+    </tr>
+  </tbody>
+</table>
+
+----
+
+## Laura's Wireless Configuration
+
+**WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS**
+
+### Wireless Network Settings
+
+Enable Wireless: ☐
+
+Wireless Network Name: default (Also called the SSID)
+
+Wireless Channel: 6
+
+Disable SSID Broadcast: ☐
+
+802.11g Only Mode: ☐
+
+### Wireless Security Mode
+
+Security Mode: Disable Wireless Security (not recommended)
+
+----
+
+## Laura's Wireless Configuration
+
+**WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS**
+
+Turn MAC Filtering ON: ☐
+
+Allow the following MAC Addresses
+
+☐
+
+☐
+
+☐
+
+☐
+
+----
+
+**Answer:**
+
+See the explanation below
+
+**Explanation:**
+
+The No.1 IT Certification Dumps
+
+94
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+solution as
+
+```
+Wireless Configuration                                                    x
+Wireless Setup    Network Filter    Administrator Tools
+                    WIRELESS NETWORK SETTINGS:
+Enable Wireless:  ☑
+Wireless Network Name:  HomeWiFi        (Also called the SSID)
+Wireless Channel:  1        ▼
+Disable SSID Broadcast:  ☐
+802.11g Only Mode:  ☐
+
+                    WIRELESS SECURITY MODE:
+Security Mode:  Enable WPA2 Wireless Security (enhanced)    ▼
+                           WPA2
+
+Passphrase:  CompTIA
+Confirmed Passphrase:  CompTIA
+
+                                                        Save Settings
+```
+
+A screenshot of a network settings
+
+AI-generated content may be incorrect.
+
+```
+Wireless Configuration                                                    x
+Wireless Setup    Network Filter    Administrator Tools
+
+☑  Turn MAC Filtering ON
+
+Allow the following MAC Addresses                                         ▼
+
+                        MAC Address
+☑   00:0A:BF:03:C4:54
+☑   09:2C:D0:22:3F:11
+☐
+☐
+
+                                                        Save Settings
+```
+
+A screenshot of a computer
+
+AI-generated content may be incorrect.
+
+The No.1 IT Certification Dumps
+
+95
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+## Wireless Configuration
+
+Wireless Setup | Network Filter | Administrator Tools
+
+### ADMIN PASSWORD
+
+Please enter the same password into both boxes for confirmation.
+
+<table>
+  <tbody>
+    <tr>
+        <td>Password:</td>
+<td>Secure$1</td>
+    </tr>
+<tr>
+        <td>Verify Password:</td>
+<td>Secure$1</td>
+    </tr>
+  </tbody>
+</table>
+
+Save Settings
+
+A screenshot of a computer
+
+AI-generated content may be incorrect.
+
+247. HOTSPOT - (Topic 2)
+
+A customer built a computer for gaming, sourcing individual components and then assembling the system.
+
+The OS starts up, but within a few minutes the machine locks up. The customer brought the computer to a
+
+technician to diagnose the issue.
+
+The No.1 IT Certification Dumps
+
+96
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Liquid Cooling
+
+Power Supply | CPU | Storage
+
+Motherboard
+
+Memory
+
+Video Card
+
+BIOS
+System info
+
+**Cause**
+
+Select a cause
+Overheating
+Component incompatibility
+Insufficient power
+Overclocking
+
+**Resolution**
+
+Select a resolution
+Replace PSU with higher wattage model
+Update motherboard firmware
+Install larger radiator
+Lower CPU clock speed
+Increase CPU multiplier
+Run CHKDSK on NVMe drive
+Replace thermal paste
+Decrease CPU voltage
+Raise memory frequency
+Switch motherboard for micro-ATX form factor
+Decrease memory module frequency
+Replace GPU with lower performance model
+
+**Answer:**
+
+The No.1 IT Certification Dumps
+
+97
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+Liquid Cooling
+
+Power Supply | CPU | Storage
+
+Motherboard
+
+Memory
+
+Video Card
+
+BIOS
+System info
+
+Cause
+
+Select a cause
+Overheating
+Component incompatibility
+Insufficient power
+Overclocking
+
+Resolution
+
+Select a resolution
+Replace PSU with higher wattage model
+Update motherboard firmware
+Install larger radiator
+Lower CPU clock speed
+Increase CPU multiplier
+Run CHKDSK on NVMe drive
+Replace thermal paste
+Decrease CPU voltage
+Raise memory frequency
+Switch motherboard for micro-ATX form factor
+Decrease memory module frequency
+Replace GPU with lower performance model
+
+## 248. SIMULATION - (Topic 2)
+
+A small ISP has hired a new technician Joe, the new technician, is being trained to configure customers' home networks The trailing instructor gives me technician a starter kit with cables, cable ends, and other network equipment and asks mm to build a working network.
+
+The computer should be connected to have internet connectivity and the phone should be connected to have a dial tone.
+
+INSTRUCTIONS
+
+Use the appropriate cables. cable ends, tools and equipment to configure the network ana connect an components accordingly
+
+There are 3 steps and the simulation starts on step 1.
+
+The No.1 IT Certification Dumps
+
+98
+
+
+---
+
+
+
+# Certify For Sure with IT Exam Dumps
+
+## SOHO Starter Kit
+
+**Step 1** **Step 2** Show Question Reset All Answers
+
+### Connectors
+
+* RJ11
+* RJ45
+* F Connector
+
+### Tools
+
+----
+
+## SOHO Starter Kit
+
+**Step 1** **Step 2** Show Question Reset All Answers
+
+### Cables
+
+----
+
+### POTS
+
+### Wall ISP Service Outlet
+
+### SOHO Router
+* Phone Service
+* LAN 1-4
+* WAN
+
+### Cable Modem
+
+### Home PC
+
+## Answer:
+
+See the answer below in explanation part.
+
+## Explanation:
+
+Answer of both steps below.
+
+The No.1 IT Certification Dumps
+
+99
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+RJ11 [connector diagram] RJ11
+
+[crimping tool diagram] [crimping tool diagram]
+
+F Connector [connector diagram] F Connector
+
+[tool diagram] [tool diagram]
+
+RJ45 [connector diagram] RJ45
+
+[crimping tool diagram] [crimping tool diagram]
+
+A group of wires with different colors
+
+AI-generated content may be incorrect.
+
+SOHO Starter Kit     Step 1     Step 2     [Show All Answers]     [Reset All Answers]
+
+Cables
+
+[Three cable diagrams shown]
+
+POTS                                                                                                                                Home
+                                                                                                                                    PC
+                                                                                                                    Cable
+                                                                                                                    Modem
+
+Wall ISP
+Service
+Outlet
+
+                                    SOHO
+                                    Router
+                                                Phone          LAN 1-4          WAN
+                                                Service
+
+A screenshot of a computer
+
+AI-generated content may be incorrect.
+
+249. HOTSPOT - (Topic 2)
+
+The No.1 IT Certification Dumps
+
+100
+
+
+---
+
+
+
+Certify For Sure with IT Exam Dumps
+
+A customer has contacted you about building two new desktops. The first desktop will be a gaming workstation. The customer requirements include:
+
+Playing the newest games at a high frame rate Fast game load times
+
+Enough storage to have several games installed at once High-end audio
+
+No concern about cost
+
+Running the current Windows OS
+
+The second workstation will be a family workstation. The requirements include: Capability for word processing, videoconferencing, and basic web surfing Minimal cost, as long as it meets the requirements Running the current Windows OS
+
+## Gaming and Family Workstation Configuration Options
+
+### Gaming
+
+**Select Microprocessor:**
+* Intel Core I3
+* Intel Core I7
+* Intel Xeon
+* ARM Cortex
+
+**Select Video Card:**
+* Discrete GPU
+* On board video
+
+**Select RAM:**
+* 16GB DDR5 ECC
+* 4GB DDR5 ECC
+* 8GB DDR5
+* 8GB SODIMM
+* 16GB DDR5
+
+**Select Sound Card:**
+* On board sound
+* 7.1 surround card
+
+**Select Hard Drive:**
+* 500GB HDD
+* 4TB HDD
+* 256GB SSD
+* 1TB SSD
+
+**Select Peripherals:**
+* Headset
+* External microphone
+* Web cam
+
+### Family
+
+**Select Microprocessor:**
+* Intel Core I3
+* Intel Core I7
+* Intel Xeon
+* ARM Cortex
+
+**Select Video Card:**
+* Discrete GPU
+* On board video
+
+**Select RAM:**
+* 16GB DDR5 ECC
+* 4GB DDR5 ECC
+* 8GB DDR5
+* 8GB SODIMM
+* 16GB DDR5
+
+**Select Sound Card:**
+* On board sound
+* 7.1 surround card
+
+**Select Hard Drive:**
+* 500GB HDD
+* 4TB HDD
+* 256GB SSD
+* 1TB SSD
+
+**Select Peripherals:**
+* Headset
+* External microphone
+* Web cam
+
+## Answer:
+
+### Gaming
+
+**Select Microprocessor:**
+* Intel Core I3
+* <ins>Intel Core I7</ins>
+* Intel Xeon
+* ARM Cortex
+
+**Select Video Card:**
+* <ins>Discrete GPU</ins>
+* On board video
+
+**Select RAM:**
+* <ins>16GB DDR5 ECC</ins>
+* 4GB DDR5 ECC
+* 8GB DDR5
+* 8GB SODIMM
+* 16GB DDR5
+
+**Select Sound Card:**
+* On board sound
+* <ins>7.1 surround card</ins>
+
+**Select Hard Drive:**
+* 500GB HDD
+* <ins>4TB HDD</ins>
+* 256GB SSD
+* <ins>1TB SSD</ins>
+
+**Select Peripherals:**
+* <ins>Headset</ins>
+* <ins>External microphone</ins>
+* Web cam
+
+### Family
+
+**Select Microprocessor:**
+* <ins>Intel Core I3</ins>
+* Intel Core I7
+* Intel Xeon
+* ARM Cortex
+
+**Select Video Card:**
+* Discrete GPU
+* <ins>On board video</ins>
+
+**Select RAM:**
+* 16GB DDR5 ECC
+* <ins>4GB DDR5 ECC</ins>
+* 8GB DDR5
+* 8GB SODIMM
+* 16GB DDR5
+
+**Select Sound Card:**
+* <ins>On board sound</ins>
+* 7.1 surround card
+
+**Select Hard Drive:**
+* <ins>500GB HDD</ins>
+* 4TB HDD
+* 256GB SSD
+* 1TB SSD
+
+**Select Peripherals:**
+* <ins>Headset</ins>
+* <ins>External microphone</ins>
+* <ins>Web cam</ins>
+
+The No.1 IT Certification Dumps
+
+101

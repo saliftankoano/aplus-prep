@@ -9,19 +9,14 @@
       "D. Replace the failing drive"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the failing drive) is the correct answer. A S.M.A.R.T. alert (Self-Monitoring, Analysis and Reporting Technology) indicates that a drive is predicting its own imminent failure. Even if the RAID 5 array is currently functional (healthy), the drive should be replaced proactively before it fails completely to maintain redundancy."
   },
   {
     "id": 2,
     "question": "A user joins a conference call with a Bluetooth headset. Which of the following has the user created?",
-    "options": [
-      "A. MAN",
-      "B. PAN",
-      "C. SAN",
-      "D. WAN"
-    ],
+    "options": ["A. MAN", "B. PAN", "C. SAN", "D. WAN"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (PAN) is the correct answer. A PAN (Personal Area Network) connects devices within a person's immediate workspace (usually within 10 meters). Bluetooth connections between a headset and a phone/computer are the most common example of a wireless PAN."
   },
   {
     "id": 3,
@@ -33,43 +28,28 @@
       "D. The PSU only works in redundant setups"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The 4-pin CPU power connector is not connected) is the correct answer. The CPU requires a dedicated power supply cable (4-pin or 8-pin EPS12V) from the PSU. If this is forgotten during installation, the motherboard may show LEDs, but the system will not post or boot."
   },
   {
     "id": 4,
     "question": "A customer reports slow network speeds. Which of the following components is most likely failing?",
-    "options": [
-      "A. CPU",
-      "B. NIC",
-      "C. HDD",
-      "D. RAM"
-    ],
+    "options": ["A. CPU", "B. NIC", "C. HDD", "D. RAM"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NIC) is the correct answer. The Network Interface Card (NIC) handles all network communication. If it is failing, negotiating the wrong speed (e.g., 10Mbps instead of 1000Mbps), or dropping packets, it will directly cause slow network speeds."
   },
   {
     "id": 5,
     "question": "An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
-    "options": [
-      "A. Modular",
-      "B. Redundant",
-      "C. Linear",
-      "D. External"
-    ],
+    "options": ["A. Modular", "B. Redundant", "C. Linear", "D. External"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Modular) is the correct answer. A modular power supply allows the builder to attach only the specific cables needed for the components in the build. Unused cables are left in the box, significantly reducing cable clutter and improving airflow inside the case."
   },
   {
     "id": 6,
     "question": "Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
-    "options": [
-      "A. Switch",
-      "B. Firewall",
-      "C. Cable modem",
-      "D. Router"
-    ],
+    "options": ["A. Switch", "B. Firewall", "C. Cable modem", "D. Router"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Cable modem) is the correct answer. DOCSIS (Data Over Cable Service Interface Specification) is the standard used by cable TV providers to provide internet access. A Cable Modem is required to demodulate the analog signal from the ISP's coaxial cable into digital Ethernet signals for the LAN."
   },
   {
     "id": 7,
@@ -81,31 +61,21 @@
       "D. Use dynamic IP addresses from the ISP router for all the devices."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.) is the correct answer. Network printers should have a Static IP so their address doesn't change, preventing connection errors for users. Laptops should use Dynamic IPs (DHCP) for ease of management and mobility."
   },
   {
     "id": 8,
     "question": "Which of the following DNS records would an administrator change to redirect email flow?",
-    "options": [
-      "A. MX",
-      "B. TXT",
-      "C. SPF",
-      "D. CNAME"
-    ],
+    "options": ["A. MX", "B. TXT", "C. SPF", "D. CNAME"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (MX) is the correct answer. The Mail Exchanger (MX) record specifies the mail server responsible for accepting email messages on behalf of a domain. Changing the MX record redirects incoming email traffic to a new mail server."
   },
   {
     "id": 9,
     "question": "A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?",
-    "options": [
-      "A. EDR",
-      "B. VPN",
-      "C. MDM",
-      "D. SaaS"
-    ],
+    "options": ["A. EDR", "B. VPN", "C. MDM", "D. SaaS"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (MDM) is the correct answer. Mobile Device Management (MDM) software can manage applications on devices (including laptops in modern UEM solutions). It can whitelist approved apps and block the installation of unauthorized software to ensure compliance."
   },
   {
     "id": 10,
@@ -117,7 +87,7 @@
       "D. Sandbox"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Hypervisor) is the correct answer. A Type 1 (bare-metal) Hypervisor installed on a server allows multiple different Operating Systems (VMs) to run simultaneously (concurrently) on the same physical hardware, perfect for a dev test lab."
   },
   {
     "id": 11,
@@ -129,7 +99,7 @@
       "D. Power efficiency"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Input voltage) is the correct answer. Different regions use different voltages (e.g., 110-120V in the US vs 220-240V in Europe/Asia). The technician must ensure the PC power supplies are dual-voltage (switchable) or compatible with the target region's power grid to prevent damage."
   },
   {
     "id": 12,
@@ -141,7 +111,7 @@
       "D. Bluetooth"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Port replicator) is the correct answer. A port replicator (similar to a docking station) stays connected to all the peripherals on the desk. The user connects the laptop to the replicator with a single action, instantly connecting all devices."
   },
   {
     "id": 13,
@@ -153,23 +123,18 @@
       "D. Type 1 hypervisor"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Sandbox) is the correct answer. In a networking context, a sandbox often refers to an isolated environment. Configuring a VM's NIC to \"Host-Only\" or disconnecting it essentially creates a sandbox where it cannot communicate with the external network or internet, preventing malware escape."
   },
   {
     "id": 14,
     "question": "A user reports that their desktop PC does not turn on. Which of the following components would most likely cause the issue?",
-    "options": [
-      "A. PSU",
-      "B. GPU",
-      "C. RAM",
-      "D. CPU"
-    ],
+    "options": ["A. PSU", "B. GPU", "C. RAM", "D. CPU"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (PSU) is the correct answer. The Power Supply Unit (PSU) is responsible for providing electrical power to the system. If the PC is completely dead (no lights, no fans, no response to power button), the PSU is the first major component to suspect."
   },
   {
     "id": 15,
-    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?",
+    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user knows. Which of the following components best meets these requirements?",
     "options": [
       "A. Fingerprint reader",
       "B. Smart card",
@@ -177,55 +142,40 @@
       "D. NFC scanner"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Smart card) is the correct answer. A smart card is \"something you have.\" It contains a cryptographic chip for authentication. It meets the requirement for system access (via card reader) and physical office access (via door scanners), unlike a secure token which is usually just for digital access."
   },
   {
     "id": 16,
-    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?",
+    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reasons?",
     "options": [
       "A. The SSD is faulty and should be replaced by the manufacturer",
       "B. The SSD has not been properly formatted and is not readable",
       "C. The SSD is incompatible with the motherboard",
-      "D. The SSD has not boon installed properly and should be reseated"
+      "D. The SSD has not been installed properly and should be reseated"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The SSD has not been installed properly and should be reseated) is the correct answer. Before assuming hardware failure, checking physical installation is the first troubleshooting step. M.2 drives, in particular, can be tricky to seat correctly. If it's not fully inserted, the BIOS/OS won't detect it."
   },
   {
     "id": 17,
     "question": "A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
-    "options": [
-      "A. HDD",
-      "B. RAM",
-      "C. NIC",
-      "D. BIOS"
-    ],
+    "options": ["A. HDD", "B. RAM", "C. NIC", "D. BIOS"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (HDD) is the correct answer. Mechanical Hard Disk Drives (HDDs) have slow random read/write speeds compared to SSDs. During startup, the OS reads thousands of small files. An aging or fragmented HDD is the most common bottleneck causing slow boot times."
   },
   {
     "id": 18,
     "question": "Which of the following display technologies typically provides the highest contrast?",
-    "options": [
-      "A. IPS",
-      "B. OLED",
-      "C. TN",
-      "D. VA"
-    ],
+    "options": ["A. IPS", "B. OLED", "C. TN", "D. VA"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (OLED) is the correct answer. OLED (Organic Light-Emitting Diode) pixels emit their own light and can turn off completely to display true black. This results in an \"infinite\" contrast ratio, far superior to IPS, TN, or VA panels which rely on a backlight."
   },
   {
     "id": 19,
     "question": "Which of the following DNS record types is used to direct email to a mail server?",
-    "options": [
-      "A. CNAME",
-      "B. SRV",
-      "C. MX",
-      "D. SOA"
-    ],
+    "options": ["A. CNAME", "B. SRV", "C. MX", "D. SOA"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (MX) is the correct answer. The MX (Mail Exchange) record tells sending mail servers where to deliver email for a specific domain (e.g., directing mail for @company.com to mail.company.com)."
   },
   {
     "id": 20,
@@ -237,7 +187,7 @@
       "D. A virus is automatically contained locally."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Less manual configuration is needed for each workstation.) is the correct answer. With Virtual Desktop Infrastructure (VDI), the desktop image is managed centrally on the server. The physical endpoints (thin clients) require minimal configuration since they just connect to the server, simplifying deployment and management."
   },
   {
     "id": 21,
@@ -249,7 +199,7 @@
       "D. Sandbox"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Sandbox) is the correct answer. A sandbox is an isolated environment designed specifically for executing untrusted code or files. If the file is malware, the damage is contained within the sandbox and does not affect the host system or network."
   },
   {
     "id": 22,
@@ -261,31 +211,21 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Loopback plug) is the correct answer. A loopback plug connects the transmit pins directly to the receive pins on an Ethernet port. It is used to test if the network interface card (NIC) itself is sending and receiving signals correctly, verifying the physical port hardware."
   },
   {
     "id": 23,
-    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).",
-    "options": [
-      "A. Molex",
-      "B. NVMe",
-      "C. SATA",
-      "D. FireWire"
-    ],
+    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard?",
+    "options": ["A. Molex", "B. NVMe", "C. SATA", "D. FireWire"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NVMe) is the correct answer. NVMe (Non-Volatile Memory Express) drives connect via the M.2 slot using the PCIe bus, offering significantly faster transfer speeds than SATA SSDs or HDDs. Verifying M.2 NVMe support is crucial for the \"fastest hard drive possible\" requirement."
   },
   {
     "id": 24,
     "question": "A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
-    "options": [
-      "A. Public",
-      "B. Hybrid",
-      "C. Community",
-      "D. Private"
-    ],
+    "options": ["A. Public", "B. Hybrid", "C. Community", "D. Private"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Hybrid) is the correct answer. A Hybrid cloud is a computing environment that combines a private cloud (self-operated data centers) and a public cloud (third-party service), allowing data and applications to be shared between them."
   },
   {
     "id": 25,
@@ -297,19 +237,14 @@
       "D. The drum assembly"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The document feeder) is the correct answer. Since the defect only appears on copies/scans but not on direct prints, the print mechanism (drum/fuser) is fine. The issue is in the scanner. Vertical lines on ADF scans are caused by a speck of dust or debris on the ADF glass strip (part of the document feeder path) that streaks as the paper moves past it."
   },
   {
     "id": 26,
     "question": "Which of the following types of connectors does an IDE hard drive use for power?",
-    "options": [
-      "A. F type",
-      "B. SC",
-      "C. Molex",
-      "D. Lightning"
-    ],
+    "options": ["A. F type", "B. SC", "C. Molex", "D. Lightning"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Molex) is the correct answer. Older PATA (IDE) hard drives and optical drives used the 4-pin Molex connector for power. (Modern SATA drives use the 15-pin SATA power connector)."
   },
   {
     "id": 27,
@@ -321,19 +256,14 @@
       "D. Install additional wireless APs around the location"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Install additional wireless APs around the location) is the correct answer. Slow speed and drops at the edge of a building indicate weak signal strength (attenuation). Installing additional Access Points extends the coverage area, ensuring the user has a strong signal."
   },
   {
     "id": 28,
     "question": "A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
-    "options": [
-      "A. Firmware",
-      "B. Driver",
-      "C. OS update",
-      "D. HSM"
-    ],
+    "options": ["A. Firmware", "B. Driver", "C. OS update", "D. HSM"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Firmware) is the correct answer. Firmware is the low-level software embedded in the printer's hardware that controls its functions. Updates from the manufacturer to fix bugs or add features to the device itself are deployed as firmware updates."
   },
   {
     "id": 29,
@@ -345,18 +275,13 @@
       "D. Resolution"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Color gamut) is the correct answer. Color gamut refers to the range of colors a display can reproduce. For print matching (proofing), the monitor needs a wide color gamut (like AdobeRGB) and accurate calibration to match the CMYK color space of the printer."
   },
   {
     "id": 30,
     "question": "Which of the following is commonly affected by high latency?",
-    "options": [
-      "A. Satellite",
-      "B. Fiber",
-      "C. Cable",
-      "D. DSL"
-    ],
+    "options": ["A. Satellite", "B. Fiber", "C. Cable", "D. DSL"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Satellite) is the correct answer. Satellite internet signals must travel to geostationary orbit (approx 22,000 miles) and back. This extreme distance introduces significant latency (ping), often 500-600ms+, which is noticeable in real-time applications like VoIP or gaming."
   }
 ]

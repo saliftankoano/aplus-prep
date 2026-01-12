@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "A user reported performance issues on a computer after a recent OS update A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?",
+    "question": "A user reported performance issues on a computer after a recent OS update. A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?",
     "options": [
       "A. Document the findings.",
       "B. Investigate any recent infrastructure changes.",
@@ -9,7 +9,7 @@
       "D. Verify full system functionality."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Initiate the system restore) is the correct answer. In the CompTIA troubleshooting methodology, once a theory is confirmed (the technician is \"confident\"), the next step is to establish a plan of action and implement the solution. Rolling back the system (System Restore) is the implementation step."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "D. Embedded software"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Client virtualization) is the correct answer. Specifically, this describes Application Virtualization or Virtual Desktop Infrastructure (VDI), where the processing happens on the server, and the client device just displays the interface. Users access the app remotely, avoiding local installation."
   },
   {
     "id": 3,
@@ -33,19 +33,14 @@
       "D. Firewall"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Firewall) is the correct answer. A firewall is the primary network security device used to create and enforce Access Control Lists (ACLs). These rules dictate which traffic is allowed or denied based on IP addresses, ports, and protocols."
   },
   {
     "id": 4,
     "question": "A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?",
-    "options": [
-      "A. Badging",
-      "B. Password",
-      "C. Passcode",
-      "D. Biometrics"
-    ],
+    "options": ["A. Badging", "B. Password", "C. Passcode", "D. Biometrics"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Badging) is the correct answer. NFC (Near Field Communication) is commonly used in smart cards and employee ID badges. Users tap their badge (an NFC token) against the reader to authenticate and release their print jobs."
   },
   {
     "id": 5,
@@ -57,11 +52,11 @@
       "D. Duplex settings"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Secure printing) is the correct answer. Secure printing requires a user to enter a PIN or scan a badge at the physical printer to release their job. This ensures that sensitive documents do not sit unattended in the output tray where others could read them."
   },
   {
     "id": 6,
-    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck Which of the following should the technician do next to troubleshoot this issued",
+    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck. Which of the following should the technician do next to troubleshoot this issue?",
     "options": [
       "A. Check the product manual for the procedure",
       "B. Use a pry tool to force the cover open",
@@ -69,19 +64,14 @@
       "D. Try to move the cover by sliding it in all directions."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Check the product manual for the procedure) is the correct answer. Laptops often have hidden screws (under rubber feet or stickers) or specific slide-and-lift mechanisms. Forcing a cover open can break plastic clips. Consulting the service manual is the safest first step."
   },
   {
     "id": 7,
     "question": "Which of the following services is used to allocate IP addresses in an enterprise-wide environment?",
-    "options": [
-      "A. DNS",
-      "B. Syslog",
-      "C. Telnet",
-      "D. DHCP"
-    ],
+    "options": ["A. DNS", "B. Syslog", "C. Telnet", "D. DHCP"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (DHCP) is the correct answer. The Dynamic Host Configuration Protocol (DHCP) server manages a pool of IP addresses and leases them to clients automatically, scaling efficiently for enterprise environments."
   },
   {
     "id": 8,
@@ -93,31 +83,21 @@
       "D. Use a different print driver."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Change the page orientation.) is the correct answer. Spreadsheets are often wide. Changing the orientation from Portrait to Landscape provides more horizontal space, allowing the columns to fit on a single side width-wise, while still utilizing duplexing for length."
   },
   {
     "id": 9,
     "question": "A computer displays an error message indicating there is insufficient storage when installing applications. The user reports slow application load times. Which of the following replacement components would best resolve this issue?",
-    "options": [
-      "A. SSD",
-      "B. USB",
-      "C. HDD",
-      "D. RAM"
-    ],
+    "options": ["A. SSD", "B. USB", "C. HDD", "D. RAM"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (SSD) is the correct answer. Replacing a full or failing drive with a larger Solid State Drive (SSD) solves the storage space issue. Additionally, SSDs are significantly faster than mechanical HDDs, which directly addresses the \"slow application load times\" complaint."
   },
   {
     "id": 10,
     "question": "Which of the following technologies is most used in portable devices?",
-    "options": [
-      "A. ECC",
-      "B. RAID",
-      "C. SATA",
-      "D. SODIMM"
-    ],
+    "options": ["A. ECC", "B. RAID", "C. SATA", "D. SODIMM"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (SODIMM) is the correct answer. Small Outline Dual In-line Memory Modules (SODIMMs) are the smaller RAM modules designed specifically for laptops, notebooks, and small form factor PCs, saving valuable internal space."
   },
   {
     "id": 11,
@@ -129,7 +109,7 @@
       "D. Print server"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Security groups) is the correct answer. By creating a specific User Group (e.g., \"HR_Staff\") and applying file permissions (ACLs) to the shared folder, the technician ensures that only members of that group can access the sensitive files."
   },
   {
     "id": 12,
@@ -141,19 +121,14 @@
       "D. Boot options"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Boot options) is the correct answer. The user must access the BIOS/UEFI settings and change the Boot Order (or Boot Priority) to place \"USB Drive\" or \"Removable Media\" above the internal hard drive. This tells the computer to look for an OS on the USB stick first."
   },
   {
     "id": 13,
     "question": "A company needs to keep a record of tasks performed by an application. Which of the following should the company most likely implement as part of a solution?",
-    "options": [
-      "A. Fileshare",
-      "B. Syslog",
-      "C. Database",
-      "D. SAN"
-    ],
+    "options": ["A. Fileshare", "B. Syslog", "C. Database", "D. SAN"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Syslog) is the correct answer. Syslog is a standard protocol for message logging. Network devices and applications send event messages (logs) to a centralized Syslog server, creating an auditable record of tasks, errors, and status changes."
   },
   {
     "id": 14,
@@ -165,7 +140,7 @@
       "D. Cat 6"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Multimode fiber) is the correct answer. Cat 6a is limited to 100m. Single-mode fiber is for long distances (km). Multimode fiber (specifically OM3 or OM4) is designed for high bandwidth (10Gb+) over medium distances (up to 300-400m), making it the perfect fit for this scenario."
   },
   {
     "id": 15,
@@ -177,7 +152,7 @@
       "D. Connect the laptop to the corporate Wi-Fi."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Connect the laptop to the corporate Wi-Fi.) is the correct answer. Guest networks are typically isolated (VLAN separation) from the internal corporate network where resources like printers reside. The user lost access because they are on the wrong network segment."
   },
   {
     "id": 16,
@@ -189,7 +164,7 @@
       "D. Use a 20-pin to 24-pin adapter."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Use a 20-pin to 24-pin adapter.) is the correct answer. Older motherboards (10+ years) used a 20-pin ATX power connector, while modern PSUs use a 24-pin connector (often a 20+4 split). If the new PSU is a solid 24-pin block and the board is 20-pin (or vice versa), a simple adapter is the cheapest way to make it fit without buying new hardware."
   },
   {
     "id": 17,
@@ -201,7 +176,7 @@
       "D. The malfunctioning styluses need firmware updates."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Certain cases are causing charging issues.) is the correct answer. Many modern styluses charge magnetically by attaching to the side of the tablet. Third-party cases that are too thick or cover the charging area can interfere with this connection, leading to poor charging."
   },
   {
     "id": 18,
@@ -213,19 +188,14 @@
       "D. Unmanaged switch"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Firewall) is the correct answer. Firewalls are specifically designed to filter traffic using Access Control Lists (ACLs). (Note: Routers and Layer 3 switches also have this capability, but 'Firewall' is the primary security device listed)."
   },
   {
     "id": 19,
     "question": "Which of the following types of RAM is typically used in servers?",
-    "options": [
-      "A. SODIMM",
-      "B. Rambus",
-      "C. DDR3",
-      "D. ECC"
-    ],
+    "options": ["A. SODIMM", "B. Rambus", "C. DDR3", "D. ECC"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (ECC) is the correct answer. Error Correcting Code (ECC) RAM can detect and fix single-bit memory errors. This stability is critical for servers that run 24/7 and handle sensitive data, preventing crashes and data corruption."
   },
   {
     "id": 20,
@@ -237,19 +207,14 @@
       "D. Application gateways"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Virtual machines) is the correct answer. VMs act as isolated sandboxes. If experimental code crashes the OS or contains malware, only the VM is affected. The host machine and the rest of the network remain safe, and the VM can be easily reset to a snapshot."
   },
   {
     "id": 21,
     "question": "Users are complaining that the audio from a presenter is choppy and unintelligible Which of the following is causing the issue?",
-    "options": [
-      "A. Webcam",
-      "B. Digitizer",
-      "C. inverter",
-      "D. Microphone"
-    ],
+    "options": ["A. Webcam", "B. Digitizer", "C. inverter", "D. Microphone"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Microphone) is the correct answer. If the audio is capturing but is \"choppy and unintelligible,\" it points to the input device. The microphone could be failing, have a loose connection, or be experiencing interference/bandwidth issues."
   },
   {
     "id": 22,
@@ -261,7 +226,7 @@
       "D. Broken screen"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Deprecated battery) is the correct answer. A swollen (or \"deprecated\"/end-of-life) Lithium-ion battery expands due to internal gas buildup. This physical expansion pushes the screen out. The fact that it dies immediately when unplugged confirms the battery has failed."
   },
   {
     "id": 23,
@@ -273,7 +238,7 @@
       "D. USB hub"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Docking station) is the correct answer. A docking station allows all peripherals (monitors, mouse, keyboard, network) to stay connected to the dock. The user only needs to connect the laptop to the dock (often via one cable), making transitions seamless."
   },
   {
     "id": 24,
@@ -285,7 +250,7 @@
       "D. Orientation configuration"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Automatic document feeder) is the correct answer. An Automatic Document Feeder (ADF) takes a stack of loose papers and feeds them one by one into the scanner, allowing the user to scan the entire 300-page contract in one batch without manual intervention."
   },
   {
     "id": 25,
@@ -297,7 +262,7 @@
       "D. Replace the keycap"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Replace the key switch) is the correct answer. If a single key fails and it's not debris, the mechanical switch under the keycap might be broken. Replacing just the individual switch or key mechanism (if possible) is cheaper than replacing the entire keyboard assembly."
   },
   {
     "id": 26,
@@ -309,7 +274,7 @@
       "D. Channel conflict"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Port flapping) is the correct answer. Port flapping occurs when a network interface continually goes up and down. This can be caused by a bad cable, a speed/duplex mismatch between the switch and AP, or insufficient PoE power causing the AP to boot loop."
   },
   {
     "id": 27,
@@ -321,7 +286,7 @@
       "D. Install a new wireless adapter"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Reseat antenna connections) is the correct answer. The Wi-Fi antenna cables run through the screen hinge and snap onto the wireless card on the motherboard. These tiny connectors are easily knocked loose or improperly seated during motherboard replacement, causing signal issues."
   },
   {
     "id": 28,
@@ -333,7 +298,7 @@
       "D. Dynamic addressing"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Static IP address) is the correct answer. Network resources like printers should have a Static IP. If they used DHCP (Dynamic), their IP could change after a network restart, breaking the print mapping for all users' computers."
   },
   {
     "id": 29,
@@ -345,7 +310,7 @@
       "D. To extend a network connection"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (To supply power across a cable) is the correct answer. A PoE (Power over Ethernet) Injector adds DC power to an Ethernet cable, allowing it to power a device (like an IP camera or AP) that is connected to a non-PoE switch."
   },
   {
     "id": 30,
@@ -357,6 +322,6 @@
       "D. The security on the switchport needs to be reset."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (The new computer has a duplicate IP address.) is the correct answer. IP addresses must be unique on a network. If two devices try to use the same IP, the network detects the conflict, and typically both devices will lose connectivity or function intermittently."
   }
 ]

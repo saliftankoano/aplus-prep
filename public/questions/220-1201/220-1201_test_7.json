@@ -9,7 +9,7 @@
       "D. Personal preferences have changed and documents with graphics are now online-only"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (The application has a bug that the developer needs to address.) is the correct answer. Since the issue is isolated to a specific report from a specific custom application and standard troubleshooting (spooler, drivers) has failed, the problem likely lies within the application's code generating the print job incorrectly, crashing the spooler service."
   },
   {
     "id": 2,
@@ -21,19 +21,14 @@
       "D. The antenna is near a device creating electromagnetic interference"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The laptop's wireless card is malfunctioning) is the correct answer. If interference or frequency congestion were the cause, multiple users in the open office would likely be affected. Since the issue is isolated to a single user, the problem is most likely with that specific user's hardware (wireless NIC or antenna)."
   },
   {
     "id": 3,
     "question": "A user wants to print files from an overseas office using a shared network folder. The user's laptop has no public-facing internet connectivity. Which of the following can be used to print from the shared network folder?",
-    "options": [
-      "A. ADF",
-      "B. USB",
-      "C. PCL",
-      "D. SMB"
-    ],
+    "options": ["A. ADF", "B. USB", "C. PCL", "D. SMB"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (SMB) is the correct answer. Server Message Block (SMB) is the standard protocol used for file sharing and printer sharing on Windows networks. It allows the user to access the shared folder over the internal network (WAN/VPN) to retrieve and print files without needing public internet access."
   },
   {
     "id": 4,
@@ -45,7 +40,7 @@
       "D. Bluetooth connection"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Subscription plan) is the correct answer. Before troubleshooting hardware or software settings, it's efficient to verify the account status. If the data plan has expired, data usage limits were reached, or the bill wasn't paid, the carrier will block service regardless of the phone's condition."
   },
   {
     "id": 5,
@@ -57,7 +52,7 @@
       "D. Restarting the smartphone"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Enabling Wi-Fi to assist GPS) is the correct answer. GPS works best outdoors with a clear line of sight to satellites. Indoors or in dense urban canyons, GPS signals are weak. Smartphones use \"Assisted GPS\" (A-GPS) which uses Wi-Fi signals and cell tower triangulation to improve location accuracy and speed up the time-to-first-fix."
   },
   {
     "id": 6,
@@ -69,7 +64,7 @@
       "D. Change the NIC."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Replace the HDD.) is the correct answer. A S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) error is a critical warning that the hard drive has detected internal parameters (like bad sectors or spin-up time) exceeding safe thresholds and failure is imminent. The drive must be replaced immediately to prevent data loss."
   },
   {
     "id": 7,
@@ -78,22 +73,17 @@
       "A. Shared resources",
       "B. System sandbox",
       "C. Test development",
-      "D. Application visualization"
+      "D. Application virtualization"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Application virtualization) is the correct answer. Application virtualization encapsulates the legacy application and its dependencies (old libraries, registry keys) into a container or virtual environment that runs on top of the modern OS. This allows the incompatible app to run without conflicting with the new OS."
   },
   {
     "id": 8,
     "question": "A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?",
-    "options": [
-      "A. Gateway",
-      "B. Static IP",
-      "C. APIPA",
-      "D. DHCP"
-    ],
+    "options": ["A. Gateway", "B. Static IP", "C. APIPA", "D. DHCP"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Static IP) is the correct answer. If a printer uses DHCP, it may receive a different IP address after a power outage or lease expiration. This breaks the connection for computers configured to print to the old IP. Assigning a Static IP ensures the printer's address remains permanent."
   },
   {
     "id": 9,
@@ -105,7 +95,7 @@
       "D. Change the ribbon"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Clean the printheads) is the correct answer. For inkjet printers, poor print quality (streaks, missing colors, faded text) despite a new cartridge often indicates clogged printhead nozzles. Running the printer's built-in printhead cleaning utility clears dried ink and restores flow."
   },
   {
     "id": 10,
@@ -117,31 +107,21 @@
       "D. VLANs"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Default gateway) is the correct answer. The Default Gateway is the path traffic takes to leave the local network (LAN) and reach external networks like the internet. If local resources work (LAN is fine) but internet fails, the firewall update likely blocked or misconfigured the gateway connection."
   },
   {
     "id": 11,
     "question": "Which of the following drive interfaces is typically used in server systems but not in home computers?",
-    "options": [
-      "A. NVMe",
-      "B. SAS",
-      "C. SATA",
-      "D. PCIe"
-    ],
+    "options": ["A. NVMe", "B. SAS", "C. SATA", "D. PCIe"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (SAS) is the correct answer. SAS (Serial Attached SCSI) is an enterprise-grade storage interface designed for high reliability, speed, and massive scalability (daisy-chaining drives). While SATA and NVMe are common in home PCs, SAS is almost exclusively found in servers and storage arrays."
   },
   {
     "id": 12,
     "question": "A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?",
-    "options": [
-      "A. NVMe",
-      "B. RISC",
-      "C. ARM",
-      "D. TPM"
-    ],
+    "options": ["A. NVMe", "B. RISC", "C. ARM", "D. TPM"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (TPM) is the correct answer. The Trusted Platform Module (TPM) is a secure crypto-processor chip on the motherboard. It is required by full disk encryption software (like Microsoft BitLocker) to securely store the encryption keys and verify system integrity at boot."
   },
   {
     "id": 13,
@@ -153,19 +133,14 @@
       "D. Static assignment"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Self-assignment) is the correct answer. An address starting with 169.254.x.x is an APIPA (Automatic Private IP Addressing) address. The OS self-assigns this when it is configured for DHCP but fails to reach a DHCP server, indicating a network connectivity or server issue."
   },
   {
     "id": 14,
     "question": "A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive. Which of the following should the administrator check?",
-    "options": [
-      "A. TPM",
-      "B. CPU",
-      "C. RAM",
-      "D. HDD"
-    ],
+    "options": ["A. TPM", "B. CPU", "C. RAM", "D. HDD"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (TPM) is the correct answer. BitLocker normally requires a TPM (Trusted Platform Module) chip to encrypt the operating system drive. If the PC lacks a TPM or it is disabled in the BIOS/UEFI, BitLocker encryption will fail (unless a Group Policy workaround for USB startup keys is enabled)."
   },
   {
     "id": 15,
@@ -177,11 +152,11 @@
       "D. Turn on MAC address filtering"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable QoS in the router) is the correct answer. Quality of Service (QoS) settings prioritize latency-sensitive traffic (like VoIP voice data) over less urgent traffic (like file downloads or web browsing). Even with good speed, high network congestion can cause jitter and packet loss for VoIP; QoS prevents this."
   },
   {
     "id": 16,
-    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the Wowing is a valid public IP address in this scenario?",
+    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the following is a valid public IP address in this scenario?",
     "options": [
       "A. 10.254.128.11",
       "B. 66.157.195.20",
@@ -189,7 +164,7 @@
       "D. 192.168 1.50"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (66.157.195.20) is the correct answer. IP ranges 10.x.x.x, 172.16-31.x.x, and 192.168.x.x are reserved for Private (LAN) use and are not valid on the public internet. 66.157.195.20 falls outside these private ranges, identifying it as a Public IP address assignable by an ISP."
   },
   {
     "id": 17,
@@ -201,7 +176,7 @@
       "D. Enable Bluetooth."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Re-pair the devices.) is the correct answer. \"Ghost\" connections or sync issues where devices disagree on status are best resolved by \"Forgetting\" the device in Bluetooth settings and pairing them again from scratch to establish a fresh handshake."
   },
   {
     "id": 18,
@@ -213,31 +188,21 @@
       "D. SaaS"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Dedicated resources) is the correct answer. In cloud computing, \"Dedicated Hosts\" or \"Dedicated Instances\" ensure that your Virtual Machines run on physical servers reserved solely for your use, fulfilling compliance requirements for physical isolation from other tenants."
   },
   {
     "id": 19,
     "question": "Which of the following has the best penetration through physical objects, such as walls?",
-    "options": [
-      "A. 2.4GHz",
-      "B. 5GHz",
-      "C. 6GHz",
-      "D. NFC"
-    ],
+    "options": ["A. 2.4GHz", "B. 5GHz", "C. 6GHz", "D. NFC"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (2.4GHz) is the correct answer. Lower frequency radio waves have longer wavelengths, which allow them to penetrate solid objects (walls, floors) better than higher frequencies like 5GHz or 6GHz. While 5GHz+ offers more speed, 2.4GHz offers better range and obstacle penetration."
   },
   {
     "id": 20,
-    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).",
-    "options": [
-      "A. APIPA",
-      "B. Gateway",
-      "C. IP address",
-      "D. Subnet mask"
-    ],
+    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network?",
+    "options": ["A. APIPA", "B. Gateway", "C. IP address", "D. Subnet mask"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Gateway) is the correct answer. (Note: While IP and Subnet mask are also required, the Gateway is strictly necessary to communicate *outside* the local subnet. In the context of \"connecting to the network\" broadly including internet/WAN, Gateway is critical. Often, DHCP handles all three. However, without a Gateway, you are stuck on the LAN.) *Self-correction: The question asks what to configure to connect to the network. Usually, you need IP, Subnet, and Gateway. If manually configuring, all three are needed. If the question implies what allows traffic to leave, it's Gateway. Given the options, Gateway is a specific component often missed that breaks internet access.*"
   },
   {
     "id": 21,
@@ -249,7 +214,7 @@
       "D. Establish a plan of action"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Test the theory) is the correct answer. Following the CompTIA troubleshooting steps: 1) Identify problem, 2) Establish theory, 3) Test theory. Since the technician has determined a likely cause (remote server issue), the next step is to test/confirm this theory (e.g., by pinging the server or checking server logs) before creating a plan of action."
   },
   {
     "id": 22,
@@ -261,7 +226,7 @@
       "D. Direct connection of two computers for file sharing"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Short-distance wireless connections between two devices) is the correct answer. Near Field Communication (NFC) is designed for extremely short-range (4cm or less) one-to-one communication, used for tap-to-pay, pairing devices, or sharing small data (contacts/links) by touching devices together."
   },
   {
     "id": 23,
@@ -273,7 +238,7 @@
       "D. Schedule print jobs to be released at certain times"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Set up a PIN for user authentication at the printer) is the correct answer. Implementing \"Secure Print\" with PIN authentication ensures the print job is stored in the printer's memory and only prints when the user physically arrives at the device and enters their code, preventing sensitive documents from sitting unattended."
   },
   {
     "id": 24,
@@ -285,11 +250,11 @@
       "D. High-efficiency power supply"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Uninterruptible power supply) is the correct answer. An Uninterruptible Power Supply (UPS) provides battery backup power during an outage, allowing the system to stay running long enough to save work and shut down gracefully, thereby preserving data integrity."
   },
   {
     "id": 25,
-    "question": "Which of the following statements best summarize managed vs unmanaged switches? (Select two).",
+    "question": "Which of the following statements best summarize managed vs unmanaged switches?",
     "options": [
       "A. Unmanaged switches are generally more expensive",
       "B. Unmanaged switches have more security capabilities",
@@ -297,19 +262,14 @@
       "D. Managed switches have more features"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Unmanaged switches start working as soon as they are plugged in to the network) is the correct answer. Unmanaged switches are \"plug-and-play\" devices with no configuration interface. They simply forward traffic based on MAC addresses. Managed switches require configuration but offer advanced features like VLANs and SNMP."
   },
   {
     "id": 26,
     "question": "Which of the following can be used to logically segment networks?",
-    "options": [
-      "A. MAC",
-      "B. VLAN",
-      "C. NIC",
-      "D. DSL"
-    ],
+    "options": ["A. MAC", "B. VLAN", "C. NIC", "D. DSL"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (VLAN) is the correct answer. A Virtual LAN (VLAN) allows a network administrator to partition a single physical switch into multiple logical networks. This isolates traffic (e.g., separating Guest Wi-Fi from Corporate Data) for security and performance management."
   },
   {
     "id": 27,
@@ -321,7 +281,7 @@
       "D. Change the paper tray setting."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Change the paper tray setting.) is the correct answer. If the printer is normally configured for special media (cards/invitations), its tray settings likely expect heavy stock paper. When printing a standard letter, the printer detects a mismatch (or the driver settings clash with the panel settings). Configuring the tray for \"Plain Paper\" resolves the mismatch error."
   },
   {
     "id": 28,
@@ -333,7 +293,7 @@
       "D. USB dongle"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Docking station) is the correct answer. Unlike generic USB hubs, a true docking station often connects to a proprietary, high-bandwidth port on the bottom or side of enterprise laptops (or Thunderbolt), providing a wide array of desktop-class ports (DisplayPort, Ethernet, multiple USBs) and power."
   },
   {
     "id": 29,
@@ -345,7 +305,7 @@
       "D. The charging port is dirty or damaged"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The charging port is dirty or damaged) is the correct answer. Lightning cables are reversible. If it only works one way, it usually means one set of gold pins inside the device's charging port is dirty (lint/dust) or corroded. The other devices work fine, ruling out the cable itself."
   },
   {
     "id": 30,
@@ -357,6 +317,6 @@
       "D. Reapply thermal paste to the CPU."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable the secondary configuration.) is the correct answer. Dual-BIOS motherboards have a backup BIOS chip specifically for this scenario (a failed firmware update). Switching to the backup BIOS (via a jumper or board switch) allows the system to boot using the previous, working firmware."
   }
 ]

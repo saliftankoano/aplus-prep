@@ -9,19 +9,14 @@
       "D. Complete the company's BYOD training process."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Enroll the device in the MDM software.) is the correct answer. Mobile Device Management (MDM) software is used by organizations to secure, monitor, and manage mobile devices. Enrolling the device allows the company to push necessary configuration profiles, security certificates, and email settings required to connect to corporate resources."
   },
   {
     "id": 2,
     "question": "Which of the following network services is used to assign an IP address to a network host?",
-    "options": [
-      "A. DHCP",
-      "B. DNS",
-      "C. LDAP",
-      "D. SMTP"
-    ],
+    "options": ["A. DHCP", "B. DNS", "C. LDAP", "D. SMTP"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (DHCP) is the correct answer. The Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and other network configuration parameters (subnet mask, default gateway, DNS servers) to devices on a network, eliminating the need for manual configuration."
   },
   {
     "id": 3,
@@ -33,19 +28,14 @@
       "D. Cleaning the heating element"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Cleaning the heating element) is the correct answer. Thermal printers use a heating element to burn images onto heat-sensitive paper. If debris or adhesive residue sticks to the heating element, it blocks the heat transfer, resulting in unprinted vertical white streaks (voids) on the output. Cleaning the element with an alcohol pen or swab usually fixes this."
   },
   {
     "id": 4,
     "question": "Which of the following ports is commonly used for remote desktop connections?",
-    "options": [
-      "A. 137",
-      "B. 445",
-      "C. 3389",
-      "D. 4443"
-    ],
+    "options": ["A. 137", "B. 445", "C. 3389", "D. 4443"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (3389) is the correct answer. Port 3389 is the default TCP/UDP port for Microsoft's Remote Desktop Protocol (RDP), used for connecting to and controlling a Windows computer remotely."
   },
   {
     "id": 5,
@@ -57,7 +47,7 @@
       "D. The laptop has malware contacting unauthorized sites"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (APs are installed too far from the user's office) is the correct answer. Weak signal strength (low RSSI) leads to intermittent connectivity and slow performance. If the user is far from the nearest Access Point (AP) or there are obstructions, the signal degrades significantly."
   },
   {
     "id": 6,
@@ -69,7 +59,7 @@
       "D. Installing additional wireless APs around the location"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Installing additional wireless APs around the location) is the correct answer. Adding more Access Points (APs) or a Wi-Fi repeater/extender increases the coverage area, providing a stronger signal to users at the edge of the building where the central router's signal is weak."
   },
   {
     "id": 7,
@@ -81,7 +71,7 @@
       "D. Physical module size"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Channel configuration) is the correct answer. Utilizing multi-channel memory architectures (Dual-channel or Quad-channel) increases the data transfer rate between the RAM and the memory controller by accessing multiple memory modules simultaneously, effectively doubling or quadrupling the bandwidth."
   },
   {
     "id": 8,
@@ -93,7 +83,7 @@
       "D. Elasticity"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Elasticity) is the correct answer. Rapid Elasticity is a cloud computing characteristic that allows resources (like VM instances) to be automatically provisioned and released (scaled out and in) in response to demand, ensuring performance while optimizing costs."
   },
   {
     "id": 9,
@@ -105,19 +95,14 @@
       "D. Cat 8"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Plenum cabling) is the correct answer. Plenum-rated cable is mandated by fire codes for use in plenum spaces (areas used for air circulation, like drop ceilings) because it is coated with a fire-retardant jacket (like Teflon/FEP) that emits low smoke and non-toxic fumes if burned."
   },
   {
     "id": 10,
     "question": "Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?",
-    "options": [
-      "A. DHCP",
-      "B. CNAME",
-      "C. VLAN",
-      "D. VPN"
-    ],
+    "options": ["A. DHCP", "B. CNAME", "C. VLAN", "D. VPN"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (VPN) is the correct answer. A Virtual Private Network (VPN) creates an encrypted tunnel (secured channel) over a public network (like the internet), allowing secure communication between devices. It typically requires authentication (credentials) to establish the connection."
   },
   {
     "id": 11,
@@ -129,7 +114,7 @@
       "D. High latency"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (External interference) is the correct answer. Electric motors generate significant Electromagnetic Interference (EMI) due to their magnetic fields. This EMI can disrupt wireless signals (Wi-Fi) or induce noise in unshielded copper cables, causing loss of connectivity."
   },
   {
     "id": 12,
@@ -141,31 +126,21 @@
       "D. Reconfigure the array as RAID 0."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Perform individual drive diagnostics.) is the correct answer. A degraded RAID 1 array means one of the mirrored drives has failed or is failing. Running manufacturer-specific diagnostic tools on each drive individually will identify which physical disk is defective so it can be replaced."
   },
   {
     "id": 13,
     "question": "A thief stole a company phone and successfully extracted confidential company information from the device. Which of the following should have been used to prevent the extraction?",
-    "options": [
-      "A. GPS",
-      "B. EPS",
-      "C. eSIM",
-      "D. MDM"
-    ],
+    "options": ["A. GPS", "B. EPS", "C. eSIM", "D. MDM"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (MDM) is the correct answer. Mobile Device Management (MDM) solutions allow administrators to enforce security policies like full device encryption and passcode requirements. Crucially, MDM enables \"Remote Wipe\" capabilities, allowing the company to erase data from a stolen device to prevent unauthorized extraction."
   },
   {
     "id": 14,
     "question": "A developer wants to protect critical data from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
-    "options": [
-      "A. RAID 0",
-      "B. RAID 1",
-      "C. RAID 5",
-      "D. RAID 10"
-    ],
+    "options": ["A. RAID 0", "B. RAID 1", "C. RAID 5", "D. RAID 10"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (RAID 1) is the correct answer. RAID 1 (Mirroring) writes identical data to two drives simultaneously. If one drive fails, the data is preserved on the other, providing 100% redundancy. (RAID 0 offers speed but no redundancy; RAID 5 requires at least 3 drives)."
   },
   {
     "id": 15,
@@ -177,23 +152,18 @@
       "D. Near-field communication"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Mobile device management) is the correct answer. MDM policies can control access based on location (geofencing) or network. If the policy restricts access to \"corporate network only,\" the user cannot access apps from home. Reconfiguring the MDM policy (or VPN profile managed by MDM) is needed to allow remote access."
   },
   {
     "id": 16,
-    "question": "Which of the following are radio frequency connections? (Select two.)",
-    "options": [
-      "A. Cable",
-      "B. Satellite",
-      "C. DSL",
-      "D. Cellular"
-    ],
+    "question": "Which of the following are radio frequency connections?",
+    "options": ["A. Cable", "B. Satellite", "C. DSL", "D. Cellular"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Satellite) is the correct answer. Satellite internet relies on Radio Frequency (RF) signals transmitted between a dish on the ground and a satellite in orbit. (Cellular is also an RF connection, but the question format expects a single best answer here)."
   },
   {
     "id": 17,
-    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue? (Select two).",
+    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue?",
     "options": [
       "A. Run a BIOS update.",
       "B. Swap out the RAM.",
@@ -201,31 +171,21 @@
       "D. Repair the backup power source."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Repair the backup power source.) is the correct answer. Losing the system date/time indicates the CMOS battery is dead AND the system lost all power. If the PC is on a UPS, it should not lose power during an outage. This implies the UPS failed to sustain the load. Repairing/replacing the UPS (backup power source) ensures the PC stays powered, preventing the CMOS reset symptom."
   },
   {
     "id": 18,
     "question": "Which of the following can a user utilize to share their mobile phone connection with their laptop?",
-    "options": [
-      "A. IR",
-      "B. NFC",
-      "C. Wi-Fi Direct",
-      "D. Tethering"
-    ],
+    "options": ["A. IR", "B. NFC", "C. Wi-Fi Direct", "D. Tethering"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Tethering) is the correct answer. Tethering (or Personal Hotspot) allows a mobile device to share its cellular internet connection with other devices (like a laptop) via Wi-Fi, Bluetooth, or USB."
   },
   {
     "id": 19,
     "question": "A network administrator must ensure that a printer will still be assigned a specific IP address even if all addresses are depleted. Which of the following network configuration concepts is this describing?",
-    "options": [
-      "A. VLAN",
-      "B. Lease",
-      "C. Reservation",
-      "D. Exclusion"
-    ],
+    "options": ["A. VLAN", "B. Lease", "C. Reservation", "D. Exclusion"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Reservation) is the correct answer. A DHCP Reservation maps a specific MAC address to a specific IP address. The DHCP server \"reserves\" that IP solely for that device, ensuring it always gets the same IP and that the IP is not assigned to any other client, even if the pool is full."
   },
   {
     "id": 20,
@@ -237,7 +197,7 @@
       "D. Replace the HDD."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Run HDD diagnostics.) is the correct answer. If the boot order is correct but the drive isn't found, the hard drive may have failed or the boot sector is corrupted. Running built-in diagnostics (S.M.A.R.T. check) confirms if the drive hardware is functional before attempting destructive software fixes or replacement."
   },
   {
     "id": 21,
@@ -249,7 +209,7 @@
       "D. The laptops do not have access to a router."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The laptops do not have access to a router.) is the correct answer. The two laptops are on different IP subnets (192.168.1.x and 192.168.2.x, assuming a standard /24 mask). A switch operates at Layer 2 and cannot route traffic between different subnets. A router (Layer 3 device) is required to enable communication between them."
   },
   {
     "id": 22,
@@ -261,7 +221,7 @@
       "D. Apply a maintenance kit"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the glass bed) is the correct answer. Since printing works fine (ruling out the drum/fuser), the issue is specific to the scanner subsystem. Vertical lines on scans usually indicate dirt, whiteout, or debris on the scanner glass or the ADF slit glass, which creates a streak as the scan bar moves or paper feeds past."
   },
   {
     "id": 23,
@@ -273,7 +233,7 @@
       "D. Multitenancy"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Elasticity) is the correct answer. Elasticity allows the cloud infrastructure to dynamically provision more resources (scale up/out) during peak traffic (busy shopping days) and de-provision them (scale down/in) when traffic subsides, optimizing performance and cost."
   },
   {
     "id": 24,
@@ -285,11 +245,11 @@
       "D. Unshielded plenum RJ45"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Quad-shielded RG11 coax) is the correct answer. RG11 is a thicker gauge coaxial cable with lower signal loss (attenuation) than standard RG6, making it suitable for longer runs and higher bandwidth ISP connections (like heavy cable internet traffic). Quad-shielding provides superior protection against interference."
   },
   {
     "id": 25,
-    "question": "Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task? (Select two).",
+    "question": "Each floor at a new corporate facility will have four printers available for all users to print from All of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task?",
     "options": [
       "A. Printer shares",
       "B. DHCP server",
@@ -297,7 +257,7 @@
       "D. Printer subnet"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Printer shares) is the correct answer. Since the printers are not joined to a domain, a centralized print server might not be in use (or overkill). Setting up printer shares on a workstation or a standalone server allows users to connect to the shared printer queue. (Note: A dedicated Print Server is also a valid answer in enterprise, but 'Printer shares' is the mechanism used)."
   },
   {
     "id": 26,
@@ -309,7 +269,7 @@
       "D. Disabling NetBIOS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Setting the default gateway) is the correct answer. The Default Gateway is the router that forwards traffic from the local network to external networks (like the internet). Without a gateway address configured, the computer can communicate locally (LAN) but cannot reach the internet."
   },
   {
     "id": 27,
@@ -321,11 +281,11 @@
       "D. Firewall"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Managed switch) is the correct answer. A managed switch offers advanced features like SNMP (Simple Network Management Protocol) monitoring, port mirroring, and traffic analysis, allowing a technician to view statistics and monitor traffic flow between devices on the LAN."
   },
   {
     "id": 28,
-    "question": "Several storms cause mission-critical servers to go offline unexpectedly A server also goes offline suddenly due to haroNvare failure Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?",
+    "question": "Several storms cause mission-critical servers to go offline unexpectedly. A server also goes offline suddenly due to hardware failure. Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?",
     "options": [
       "A. Purchasing backup generators",
       "B. Increasing input voltage",
@@ -333,19 +293,14 @@
       "D. Activating a hot site"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Installing redundant PSUs) is the correct answer. Redundant Power Supply Units (PSUs) allow a server to keep running if one PSU fails (hardware failure protection). While they don't solve the total power outage issue (that's what UPS/Generators are for), they are a cost-effective measure to improve uptime against component failure, which was one of the causes mentioned."
   },
   {
     "id": 29,
     "question": "Which of the following allows an organization to provide remote desktop resources without providing physical workstations to its users?",
-    "options": [
-      "A. RMM",
-      "B. SaaS",
-      "C. VDI",
-      "D. Containers"
-    ],
+    "options": ["A. RMM", "B. SaaS", "C. VDI", "D. Containers"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (VDI) is the correct answer. Virtual Desktop Infrastructure (VDI) hosts user desktop environments on a centralized server as Virtual Machines. Users access their desktops remotely from thin clients or personal devices, eliminating the need for the organization to issue high-performance physical workstations to everyone."
   },
   {
     "id": 30,
@@ -357,6 +312,6 @@
       "D. The laptop would need to be registered to the domain as a new client."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Encrypted hard drives would probably not be accessible.) is the correct answer. The Trusted Platform Module (TPM) stores the cryptographic keys used for full disk encryption (like BitLocker). Clearing the TPM erases these keys. Without the recovery key, the data on the encrypted drive becomes permanently inaccessible."
   }
 ]

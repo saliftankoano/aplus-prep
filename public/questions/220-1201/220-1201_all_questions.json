@@ -9,7 +9,7 @@
       "D. Reinstall the drivers"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Run the maintenance application.) is correct because printer alignment issues are typically resolved through the printer's built-in maintenance application, which calibrates the print head and ensures proper paper alignment. This is the first troubleshooting step before attempting more invasive solutions like cleaning hardware or updating firmware."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "D. Wireless NIC"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Modular power supply) is correct because a modular power supply allows you to connect only the cables you need, reducing cable clutter inside the computer case and improving airflow and aesthetics."
   },
   {
     "id": 3,
@@ -33,11 +33,11 @@
       "D. Hybrid"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Private) is correct because a private cloud is a cloud infrastructure dedicated to a single organization, typically hosted internally or by a third party exclusively for that organization. This provides more control, security, and compliance compared to public clouds."
   },
   {
     "id": 4,
-    "question": "The display in a conference room has a ghost image that does not match the presentation Which of the following would test resolve the issue?",
+    "question": "The display in a conference room has a ghost image that does not match the presentation Which of the following would best resolve the issue?",
     "options": [
       "A. Adjust the color settings.",
       "B. Correct the keystone.",
@@ -45,7 +45,7 @@
       "D. Replace the monitor."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Correct the keystone.) is correct because keystone correction adjusts the image shape when a projector is not perfectly aligned perpendicular to the screen, fixing the trapezoidal distortion (ghost image) that occurs at an angle. This is a common issue with projectors mounted at an angle."
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "D. MAM"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (MAM) is correct because Mobile Application Management (MAM) controls which applications can be installed and used on a mobile device, restricting access to corporate email and calendar when outside the office network or when device policies are violated."
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
       "D. PAN"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (LAN) is correct because a Local Area Network (LAN) connects devices within a limited geographic area (like a room, building, or campus), allowing them to share resources like game servers and internet connectivity. This is ideal for local multiplayer gaming."
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
       "D. Employee preferred"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Corporate) is correct because corporate email clients are specifically designed to integrate with enterprise email systems (like Microsoft Exchange), support shared mailboxes, enforce security policies, and comply with organizational requirements."
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
       "D. MiniUSB"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (USB-C) is correct because USB-C is the modern standard connector that supports power delivery (up to 100W), high-speed data transfer (USB 3.1/3.2), audio, and video signals (DisplayPort/HDMI). It's reversible and widely adopted across most modern mobile devices."
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
       "D. RAID 10"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (RAID 1) is correct because RAID 1 (mirroring) provides data redundancy by duplicating data across two drives. If one drive fails, the data remains accessible on the other drive, making it ideal for protecting critical data with minimal hardware requirements."
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
       "D. RJ45"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (F-type) is correct because F-type connectors are specifically used for coaxial cable terminations in cable internet deployments, connecting cable modems to the service provider's network. They provide a secure, weather-resistant connection for broadband services."
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
       "D. A"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (TXT) is correct because TXT (Text) records are used by DMARC (Domain-based Message Authentication, Reporting & Conformance) to store policy information that email servers use to verify the authenticity of email messages. DMARC policies are published as TXT records in DNS."
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Wi-Fi analyzer) is correct because a Wi-Fi analyzer can detect and display all wireless networks in the area, including those with hidden SSIDs (not broadcasting). It shows network names, signal strength, channels, and security settings, making it the most effective tool for identifying non-broadcasting networks."
   },
   {
     "id": 13,
@@ -153,7 +153,7 @@
       "D. Toner probe"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Cable tester) is correct because a cable tester verifies the integrity of network cables, checking for continuity, proper pinouts, and identifying faults. It can also verify Power over Ethernet (PoE) availability on network cables."
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
       "D. Lightning"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (LC) is correct because LC (Lucent Connector) is a small form-factor fiber optic connector commonly used in optical networking. It's half the size of SC connectors and widely used in modern fiber installations."
   },
   {
     "id": 15,
@@ -177,7 +177,7 @@
       "D. Software as a service"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Infrastructure as a service) is correct because Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet, including servers, storage, and networking, allowing organizations to deploy and manage their own applications and operating systems."
   },
   {
     "id": 16,
@@ -189,7 +189,7 @@
       "D. 1TB SAS SSD"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (512GB NVMe M.2 SSD) is correct because NVMe M.2 SSDs provide the fastest data access speeds for storage devices, connecting directly to the PCIe bus. They're ideal for high-performance applications like gaming, where fast load times are crucial."
   },
   {
     "id": 17,
@@ -201,7 +201,7 @@
       "D. Community"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Private) is correct because a private cloud is a cloud infrastructure dedicated to a single organization, typically hosted internally or by a third party exclusively for that organization. This provides more control, security, and compliance compared to public clouds."
   },
   {
     "id": 18,
@@ -213,7 +213,7 @@
       "D. Check the vendor's website for guidance."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Identify any changes the user has made) is correct because identifying recent changes is a crucial first step in the troubleshooting methodology. If a system was working previously, knowing what changed (updates, new software, configuration changes) helps isolate the cause."
   },
   {
     "id": 19,
@@ -225,7 +225,7 @@
       "D. Crimper"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Crimper) is correct because a crimper is used to attach connectors (like RJ45) to cables. If a pin is not properly terminated, re-crimping or replacing the connector using a crimper is the fix."
   },
   {
     "id": 20,
@@ -237,7 +237,7 @@
       "D. Digitizer"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Digitizer) is correct because the digitizer is the component responsible for converting touch inputs into digital signals. If the screen display works but touch doesn't respond, the digitizer is likely faulty."
   },
   {
     "id": 21,
@@ -249,7 +249,7 @@
       "D. SSL"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (MDM) is the correct answer. Mobile Device Management (MDM) allows administrators to enforce policies, configure settings, and manage applications on enterprise devices remotely."
   },
   {
     "id": 22,
@@ -261,7 +261,7 @@
       "D. VGA"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (USB-C) is the correct answer."
   },
   {
     "id": 23,
@@ -273,7 +273,7 @@
       "D. LAN"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (SAN) is the correct answer. A Storage Area Network (SAN) is a specialized, high-speed network that provides block-level network access to storage. It is primarily used for enterprise data storage and archiving."
   },
   {
     "id": 24,
@@ -285,7 +285,7 @@
       "D. Connect the laptop directly to the network."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Press and release the laptop power button.) is correct because waking a laptop from sleep/hibernation or ensuring it's powered on is the first step before diagnosing peripheral issues. Docking stations sometimes fail to wake the laptop properly."
   },
   {
     "id": 25,
@@ -297,7 +297,7 @@
       "D. Replace the faulty motherboard"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Reinstall RAM in different slots.) is correct because reseating RAM or trying different slots is a cost-effective first step when memory is not fully detected. Improper seating is a common cause of missing memory."
   },
   {
     "id": 26,
@@ -309,7 +309,7 @@
       "D. NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart.) is the correct answer. NFC is a short-range technology (4cm) used for secure transactions, while Bluetooth is a Personal Area Network (PAN) technology with a range of 10-100 meters."
   },
   {
     "id": 27,
@@ -321,7 +321,7 @@
       "D. If the printer has stopped due to empty trays"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (If the print job is configured to a tray or manual feed) is the correct answer. If a print job requests a specific tray (e.g., manual feed or legal size) that is empty or requires attention, the printer will pause that job while allowing others to proceed if possible."
   },
   {
     "id": 28,
@@ -333,7 +333,7 @@
       "D. Reinstall the old motherboard."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Reseat the RAM.) is the correct answer. If a computer fails POST (Power-On Self-Test) after a move or upgrade, the most common issue is that a component, often RAM or the GPU, has vibrated loose or wasn't seated fully. Reseating it establishes proper electrical contact."
   },
   {
     "id": 29,
@@ -345,7 +345,7 @@
       "D. Type 1 hypervisors"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Containers) is the correct answer. Containers (like Docker) allow applications (microservices) to be packaged with their dependencies, sharing the host OS kernel. This makes them lightweight and faster to deploy compared to full Virtual Machines."
   },
   {
     "id": 30,
@@ -357,10 +357,10 @@
       "D. It enables secure network segmentation."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (It enables secure network segmentation.) is the correct answer. A Virtual LAN (VLAN) allows a network administrator to segment a physical network into logical separate networks. This improves security and performance by isolating broadcast domains."
   },
   {
-    "id": 31,
+    "id": 1,
     "question": "A customer reports their tablet was recently dropped on the ground. The tablet has a small crack in one corner of the display, and it does not charge when plugged in. Which of the following should a technician do first?",
     "options": [
       "A. Perform a hard restart.",
@@ -369,10 +369,10 @@
       "D. Run diagnostics on the digitizer"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Inspect the USB-C port for damage) is the correct answer. Since the device was dropped and now fails to charge, physical damage to the charging port is a likely outcome of the impact. Inspecting the port is a quick, non-intrusive first step before attempting software resets or replacing internal components like the battery."
   },
   {
-    "id": 32,
+    "id": 2,
     "question": "A customer reports that a workstation has no internet connectivity. A technician confirms the port is disabled. Which of the following is most likely responsible for the issue?",
     "options": [
       "A. Patch panel",
@@ -381,10 +381,10 @@
       "D. Stand-alone firewall"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Managed switch) is the correct answer. A managed switch allows administrators to configure specific ports, including enabling or disabling them. Port security features on a managed switch can also automatically disable a port if an unauthorized device connects."
   },
   {
-    "id": 33,
+    "id": 3,
     "question": "A projector has been shutting down after 30 minutes of use, and it has a strange smell The technician confirms the power source is not the cause of the issue Which of the following steps should the technician take next to resolve this issue?",
     "options": [
       "A. Replace the bulb",
@@ -393,11 +393,11 @@
       "D. Adjust the gamma settings."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the filter) is the correct answer. Projectors generate significant heat and rely on airflow for cooling. If the dust filter is clogged, the projector will overheat and shut down (thermal protection). The \"strange smell\" is often burning dust."
   },
   {
-    "id": 34,
-    "question": "A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following ate most likely causing three issues? (Select two).",
+    "id": 4,
+    "question": "A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following are most likely causing these issues?",
     "options": [
       "A. Incorrect configuration of the settings",
       "B. OS and device version incompatibility",
@@ -405,10 +405,10 @@
       "D. Full storage"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Disabled settings following the upgrade) is the correct answer. During an OS upgrade, privacy settings (like camera access) or radio toggles (Bluetooth/Wi-Fi) may be reset to default or disabled for security reasons. Checking these settings is the first troubleshooting step."
   },
   {
-    "id": 35,
+    "id": 5,
     "question": "A technician is troubleshooting issues occurring on a user's mobile device. Applications and the OS have slow response times, even when performing simple tasks, such as writing an email. Additionally, new applications occasionally fail to launch. Which of the following should the technician do next?",
     "options": [
       "A. Move the device to a room with a colder temperature.",
@@ -417,10 +417,10 @@
       "D. Check the battery health of the device."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Close unnecessary programs.) is the correct answer. Slow performance and failure to launch apps often indicate high resource usage (RAM or CPU). Closing background apps frees up memory and processing power, restoring responsiveness."
   },
   {
-    "id": 36,
+    "id": 6,
     "question": "Which of the following allows a physical server to host multiple virtual machines?",
     "options": [
       "A. Cross-platform virtualization",
@@ -429,11 +429,11 @@
       "D. SaaS"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Hypervisor) is the correct answer. A hypervisor (or Virtual Machine Monitor, VMM) is the software layer that creates and runs virtual machines, allocating physical hardware resources (CPU, RAM) to the virtual environments."
   },
   {
-    "id": 37,
-    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Select two).",
+    "id": 7,
+    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue?",
     "options": [
       "A. Turn it off and disconnect all power sources.",
       "B. Submit an emergency request to the local facilities manager.",
@@ -441,10 +441,10 @@
       "D. Contact the vendor and submit a return request."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Turn it off and disconnect all power sources.) is the correct answer. Safety is the first priority. A burning smell indicates a potential electrical short or overheating component that could lead to fire. Removing power immediately prevents further damage or injury."
   },
   {
-    "id": 38,
+    "id": 8,
     "question": "A user's laptop keyboard is distorted and no longer flat. Which laptop component most likely failed?",
     "options": [
       "A. Battery",
@@ -453,10 +453,10 @@
       "D. HDD"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Battery) is the correct answer. A swollen Lithium-ion battery (located under the palm rest or keyboard in many thin laptops) expands and exerts pressure upwards, causing the keyboard to bulge or become distorted."
   },
   {
-    "id": 39,
+    "id": 9,
     "question": "Which of the following is a Bluetooth network an example of?",
     "options": [
       "A. PAN",
@@ -465,10 +465,10 @@
       "D. SAN"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (PAN) is the correct answer. A Personal Area Network (PAN) is a computer network for interconnecting devices centered on an individual person's workspace. Bluetooth is the primary technology used for wireless PANs (connecting headphones, mice, phones)."
   },
   {
-    "id": 40,
+    "id": 10,
     "question": "Which of the following tools is best to track where an Ethernet cable is patched?",
     "options": [
       "A. Crimper",
@@ -477,10 +477,10 @@
       "D. Toner probe"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Toner probe) is the correct answer. A toner generator places a signal on the cable, and a probe detects that signal at the other end (e.g., at the patch panel), allowing the technician to identify the specific cable in a bundle."
   },
   {
-    "id": 41,
+    "id": 11,
     "question": "A user's laptop is projecting an image upside down when connected to a ceiling-mounted projector. Which of the following should the technician do to best resolve the issue?",
     "options": [
       "A. Change the input source",
@@ -489,10 +489,10 @@
       "D. Flip the image vertically from the projector"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Flip the image vertically from the projector) is the correct answer. Ceiling-mounted projectors are installed upside down. They have a menu setting (often called \"Ceiling Mode\" or \"Flip Vertical\") to invert the image so it appears correctly on the screen."
   },
   {
-    "id": 42,
+    "id": 12,
     "question": "A technician is putting RJ45 connectors on Cat 6 cables. Which of the following tools should the technician use to secure the connectors?",
     "options": [
       "A. Loopback plug",
@@ -501,10 +501,10 @@
       "D. Crimping"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Crimping) is the correct answer. A crimping tool is used to compress the RJ45 connector onto the cable, forcing the metal contacts into the wire strands to create a secure electrical connection."
   },
   {
-    "id": 43,
+    "id": 13,
     "question": "Which of the following resolutions is commonly known as Ultra HD?",
     "options": [
       "A. 1920x1080",
@@ -513,10 +513,10 @@
       "D. 7680x4320"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (3840x2160) is the correct answer. Ultra High Definition (UHD or 4K) has a resolution of 3840 x 2160 pixels, which is four times the pixel count of Full HD (1920x1080)."
   },
   {
-    "id": 44,
+    "id": 14,
     "question": "Which of the following is an isolated virtual machine?",
     "options": [
       "A. Sandbox",
@@ -525,10 +525,10 @@
       "D. VDI"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Sandbox) is the correct answer. A sandbox is an isolated environment (often a VM) used to test software or code safely, preventing any potential malware or errors from affecting the host system or network."
   },
   {
-    "id": 45,
+    "id": 15,
     "question": "A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?",
     "options": [
       "A. SSH",
@@ -537,10 +537,10 @@
       "D. SMTP"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (SSH) is the correct answer. Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. It replaces insecure protocols like Telnet for command-line access."
   },
   {
-    "id": 46,
+    "id": 16,
     "question": "Which of the following provides electricity to devices through network cables?",
     "options": [
       "A. Edge router",
@@ -549,10 +549,10 @@
       "D. Patch panel"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (PoE switch) is the correct answer. A Power over Ethernet (PoE) switch delivers DC power along with data over Ethernet cabling, powering devices like IP phones and wireless access points without needing separate power supplies."
   },
   {
-    "id": 47,
+    "id": 17,
     "question": "An end user reports that their laptop shuts down when they undock it. Even when using a new charging cable, the issue persists. Which of the following should the technician do next?",
     "options": [
       "A. Flash the BIOS",
@@ -561,10 +561,10 @@
       "D. Replace the battery"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the battery) is the correct answer. If the laptop runs fine on AC power (docked or plugged in) but dies immediately when disconnected, the battery is unable to hold a charge and has likely reached the end of its lifespan."
   },
   {
-    "id": 48,
+    "id": 18,
     "question": "Which of the following printing initiatives would be best to accomplish environmentally friendly objectives?",
     "options": [
       "A. Requiring user authentication for printing",
@@ -573,10 +573,10 @@
       "D. Changing the print quality settings to best"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Modifying duplex settings to double-sided) is the correct answer. Setting printers to duplex (double-sided) printing by default cuts paper consumption in half, significantly reducing the environmental impact and cost."
   },
   {
-    "id": 49,
+    "id": 19,
     "question": "Which of the following should a company use to implement automatic time synchronization?",
     "options": [
       "A. DHCP",
@@ -585,10 +585,10 @@
       "D. AAA"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (NTP) is the correct answer. The Network Time Protocol (NTP) is used to synchronize the clocks of computers over a network, ensuring accurate timestamps for logs, authentication, and scheduled tasks."
   },
   {
-    "id": 50,
+    "id": 20,
     "question": "A company wants to have fast read speeds for its locally stored data. Which of the following configurations has the lowest cost to fulfill this requirement?",
     "options": [
       "A. RAID 0",
@@ -597,10 +597,10 @@
       "D. RAID 10"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (RAID 0) is the correct answer. RAID 0 (Striping) splits data evenly across two or more disks, increasing read/write speeds significantly. It is the lowest cost performance option as it utilizes 100% of the drive capacity (unlike RAID 1/5/10 which lose capacity to redundancy). Note: It offers no fault tolerance."
   },
   {
-    "id": 51,
+    "id": 21,
     "question": "A company will retire a legacy application in one year but wants to decommission the physical environment now. Which migration method is best?",
     "options": [
       "A. Relocating the server to a colocated data center",
@@ -609,10 +609,10 @@
       "D. Taking a backup and shutting down the server"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Performing a physical-to-virtual conversion and hosting on IaaS) is the correct answer. P2V (Physical-to-Virtual) migration converts the existing physical server's state into a virtual machine. This VM can be hosted on Infrastructure as a Service (IaaS) cloud, preserving the legacy application environment exactly as is without needing the physical hardware."
   },
   {
-    "id": 53,
+    "id": 22,
     "question": "Which of the following is an advantage of using a hybrid cloud instead of a public cloud?",
     "options": [
       "A. Ability to reduce management overhead",
@@ -621,10 +621,10 @@
       "D. Ability to leverage IaaS and PaaS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Ability to meet data residency requirements) is the correct answer. A hybrid cloud combines public and private cloud environments. Organizations can keep sensitive data or data subject to residency laws (GDPR, HIPAA) on their on-premise private cloud while using the public cloud for less sensitive workloads."
   },
   {
-    "id": 54,
+    "id": 23,
     "question": "A small company wants the ability to print in full color but needs to pay a minimal initial purchase price for the printer Which of the following is the best option?",
     "options": [
       "A. Thermal printer",
@@ -633,10 +633,10 @@
       "D. Laser printer"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Inkjet printer) is the correct answer. Inkjet printers have the lowest initial hardware cost for color printing compared to color laser printers. (However, the cost per page for ink can be higher over time)."
   },
   {
-    "id": 55,
+    "id": 24,
     "question": "A company wants to save printing costs by restricting network printer use. The company implements a solution that requires employees to authenticate to the printer to release print jobs Which of the following has the company implemented?",
     "options": [
       "A. Access control list",
@@ -645,10 +645,10 @@
       "D. Print server"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Badging) is the correct answer. Implementing \"Pull Printing\" or \"Follow Me Printing\" often uses ID badges (Badging) or PINs. Users print to a global queue, but the job is only released and printed when they tap their badge at a specific printer."
   },
   {
-    "id": 56,
+    "id": 25,
     "question": "A technician is setting up a new multifunction device to be used over a shared network connection. Copier functions need to be restricted to only office employees. Which of the following should the technician perform after configuring the device to use a print server that exists on the domain?",
     "options": [
       "A. SMTP implementation",
@@ -657,10 +657,10 @@
       "D. SMB configuration"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (User authentication) is the correct answer. Configuring user authentication on the device ensures that functions like copying or scanning are locked until a valid user logs in (via PIN, username/password, or badge), restricting access to authorized employees."
   },
   {
-    "id": 57,
+    "id": 26,
     "question": "The output from a dot matrix printer has become lighter over time. Which of the following should a technician do to fix the issue?",
     "options": [
       "A. Clean the printhead.",
@@ -669,10 +669,10 @@
       "D. Calibrate the alignment."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Replace the ribbon.) is the correct answer. Dot matrix printers use an ink-soaked ribbon. As the ink is used up, the print output fades. Replacing the ribbon is the standard maintenance task to restore print density."
   },
   {
-    "id": 58,
+    "id": 27,
     "question": "A technician is setting up a new SOHO wireless router. According to security best practices, which of the following should the technician do first?",
     "options": [
       "A. Enable encryption.",
@@ -681,11 +681,11 @@
       "D. Reset the router."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Change the default password.) is the correct answer. Default administrator credentials (like admin/admin) are public knowledge. Changing them immediately prevents unauthorized access to the router's configuration."
   },
   {
-    "id": 59,
-    "question": "An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue (Select two).",
+    "id": 28,
+    "question": "An SAS RAID array has severely degraded and gone offline. A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue?",
     "options": [
       "A. Run a magnet over each drive.",
       "B. Check if one of the drives is not level",
@@ -693,10 +693,10 @@
       "D. Check the OS logs"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Listen for clicking and grinding noises) is the correct answer. Mechanical failure of hard drives often produces audible indicators like the \"click of death\" or grinding. If software logs are inconclusive, physical inspection (listening) can identify a failed drive in the array."
   },
   {
-    "id": 60,
+    "id": 29,
     "question": "The power supply for a user's gaming PC fails. The user installs a new power supply and connects it to the motherboard, GPU, and SSDs, but the computer will not start. What is the most likely cause?",
     "options": [
       "A. The computer requires more RAM",
@@ -705,10 +705,10 @@
       "D. The power supply only works in redundant configurations"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The user did not connect the 4-pin CPU connector) is the correct answer. The CPU requires a dedicated power connection (4-pin or 8-pin EPS12V) separate from the main 24-pin motherboard connector. If this is forgotten, the motherboard has power but the CPU does not, preventing boot."
   },
   {
-    "id": 61,
+    "id": 30,
     "question": "Which of the following is a characteristic of an NVMe drive?",
     "options": [
       "A. M.2 interface",
@@ -717,11 +717,11 @@
       "D. Molex connector"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (M.2 interface) is the correct answer. NVMe (Non-Volatile Memory Express) SSDs typically use the M.2 form factor and interface (connecting via PCIe) to deliver high-speed storage performance."
   },
   {
-    "id": 62,
-    "question": "A user reported performance issues on a computer after a recent OS update A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?",
+    "id": 1,
+    "question": "A user reported performance issues on a computer after a recent OS update. A technician is confident that rolling back the system will resolve the issue. Which of the following steps should the technician take next?",
     "options": [
       "A. Document the findings.",
       "B. Investigate any recent infrastructure changes.",
@@ -729,10 +729,10 @@
       "D. Verify full system functionality."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Initiate the system restore) is the correct answer. In the CompTIA troubleshooting methodology, once a theory is confirmed (the technician is \"confident\"), the next step is to establish a plan of action and implement the solution. Rolling back the system (System Restore) is the implementation step."
   },
   {
-    "id": 63,
+    "id": 2,
     "question": "Which of the following involves installing an application on a server so several users can run the application concurrently without the need for local installation?",
     "options": [
       "A. Client virtualization",
@@ -741,10 +741,10 @@
       "D. Embedded software"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Client virtualization) is the correct answer. Specifically, this describes Application Virtualization or Virtual Desktop Infrastructure (VDI), where the processing happens on the server, and the client device just displays the interface. Users access the app remotely, avoiding local installation."
   },
   {
-    "id": 64,
+    "id": 3,
     "question": "Which of the following devices is used to implement ACL polices for an environment?",
     "options": [
       "A. Managed switch",
@@ -753,10 +753,10 @@
       "D. Firewall"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Firewall) is the correct answer. A firewall is the primary network security device used to create and enforce Access Control Lists (ACLs). These rules dictate which traffic is allowed or denied based on IP addresses, ports, and protocols."
   },
   {
-    "id": 65,
+    "id": 4,
     "question": "A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?",
     "options": [
       "A. Badging",
@@ -765,10 +765,10 @@
       "D. Biometrics"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Badging) is the correct answer. NFC (Near Field Communication) is commonly used in smart cards and employee ID badges. Users tap their badge (an NFC token) against the reader to authenticate and release their print jobs."
   },
   {
-    "id": 66,
+    "id": 5,
     "question": "A company is installing a new shared printer for all employees. Some managers need to print sensitive HR material, and the company does not want to purchase separate printers. Which of the following should the company implement?",
     "options": [
       "A. Audit logging",
@@ -777,11 +777,11 @@
       "D. Duplex settings"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Secure printing) is the correct answer. Secure printing requires a user to enter a PIN or scan a badge at the physical printer to release their job. This ensures that sensitive documents do not sit unattended in the output tray where others could read them."
   },
   {
-    "id": 67,
-    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck Which of the following should the technician do next to troubleshoot this issued",
+    "id": 6,
+    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck. Which of the following should the technician do next to troubleshoot this issue?",
     "options": [
       "A. Check the product manual for the procedure",
       "B. Use a pry tool to force the cover open",
@@ -789,10 +789,10 @@
       "D. Try to move the cover by sliding it in all directions."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Check the product manual for the procedure) is the correct answer. Laptops often have hidden screws (under rubber feet or stickers) or specific slide-and-lift mechanisms. Forcing a cover open can break plastic clips. Consulting the service manual is the safest first step."
   },
   {
-    "id": 68,
+    "id": 7,
     "question": "Which of the following services is used to allocate IP addresses in an enterprise-wide environment?",
     "options": [
       "A. DNS",
@@ -801,10 +801,10 @@
       "D. DHCP"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (DHCP) is the correct answer. The Dynamic Host Configuration Protocol (DHCP) server manages a pool of IP addresses and leases them to clients automatically, scaling efficiently for enterprise environments."
   },
   {
-    "id": 69,
+    "id": 8,
     "question": "A user prints a spreadsheet in duplex mode. The spreadsheet is difficult to read because some of the columns spill onto the second side of the page. Which of the following should the user do to prevent the issue but still print on both sides of the page?",
     "options": [
       "A. Turn off duplex printing.",
@@ -813,10 +813,10 @@
       "D. Use a different print driver."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Change the page orientation.) is the correct answer. Spreadsheets are often wide. Changing the orientation from Portrait to Landscape provides more horizontal space, allowing the columns to fit on a single side width-wise, while still utilizing duplexing for length."
   },
   {
-    "id": 70,
+    "id": 9,
     "question": "A computer displays an error message indicating there is insufficient storage when installing applications. The user reports slow application load times. Which of the following replacement components would best resolve this issue?",
     "options": [
       "A. SSD",
@@ -825,10 +825,10 @@
       "D. RAM"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (SSD) is the correct answer. Replacing a full or failing drive with a larger Solid State Drive (SSD) solves the storage space issue. Additionally, SSDs are significantly faster than mechanical HDDs, which directly addresses the \"slow application load times\" complaint."
   },
   {
-    "id": 71,
+    "id": 10,
     "question": "Which of the following technologies is most used in portable devices?",
     "options": [
       "A. ECC",
@@ -837,10 +837,10 @@
       "D. SODIMM"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (SODIMM) is the correct answer. Small Outline Dual In-line Memory Modules (SODIMMs) are the smaller RAM modules designed specifically for laptops, notebooks, and small form factor PCs, saving valuable internal space."
   },
   {
-    "id": 72,
+    "id": 11,
     "question": "A human resources department uses a network shared with other departments to produce a variety of printed resources for legal retention. The human resources department only wants Its members to have access to these materials. Which of the following should the technician Implement?",
     "options": [
       "A. Security groups",
@@ -849,10 +849,10 @@
       "D. Print server"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Security groups) is the correct answer. By creating a specific User Group (e.g., \"HR_Staff\") and applying file permissions (ACLs) to the shared folder, the technician ensures that only members of that group can access the sensitive files."
   },
   {
-    "id": 73,
+    "id": 12,
     "question": "A user is testing a new OS that is contained on a USB drive. The user wants the new OS to load automatically when the computer is turned on. Which of the following should the user configure?",
     "options": [
       "A. BIOS password",
@@ -861,10 +861,10 @@
       "D. Boot options"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Boot options) is the correct answer. The user must access the BIOS/UEFI settings and change the Boot Order (or Boot Priority) to place \"USB Drive\" or \"Removable Media\" above the internal hard drive. This tells the computer to look for an OS on the USB stick first."
   },
   {
-    "id": 74,
+    "id": 13,
     "question": "A company needs to keep a record of tasks performed by an application. Which of the following should the company most likely implement as part of a solution?",
     "options": [
       "A. Fileshare",
@@ -873,10 +873,10 @@
       "D. SAN"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Syslog) is the correct answer. Syslog is a standard protocol for message logging. Network devices and applications send event messages (logs) to a centralized Syslog server, creating an auditable record of tasks, errors, and status changes."
   },
   {
-    "id": 75,
+    "id": 14,
     "question": "Which of the following cable types is the most suitable for delivering 10Gb speeds for distances over 328ft (100m) but under 1,312ft (400m)?",
     "options": [
       "A. Multimode fiber",
@@ -885,10 +885,10 @@
       "D. Cat 6"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Multimode fiber) is the correct answer. Cat 6a is limited to 100m. Single-mode fiber is for long distances (km). Multimode fiber (specifically OM3 or OM4) is designed for high bandwidth (10Gb+) over medium distances (up to 300-400m), making it the perfect fit for this scenario."
   },
   {
-    "id": 76,
+    "id": 15,
     "question": "A user cannot see the office multifunction printer in their laptop's print options. They have printed to the device in the past successfully. The user's laptop is connected to the guest wireless network. Other users on both wireless and wired computers can see and print to the printer. Which of the following will fix the issue?",
     "options": [
       "A. Power cycle the printer to refresh connectivity.",
@@ -897,10 +897,10 @@
       "D. Connect the laptop to the corporate Wi-Fi."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Connect the laptop to the corporate Wi-Fi.) is the correct answer. Guest networks are typically isolated (VLAN separation) from the internal corporate network where resources like printers reside. The user lost access because they are on the wrong network segment."
   },
   {
-    "id": 77,
+    "id": 16,
     "question": "A technician is replacing a failed power supply in a ten-year-old computer When installing the customer-provided power supply, the technician discovers the ATX connector would not plug into the motherboard. The customer wants a cost-effective solution. Which of the following should the technician do next?",
     "options": [
       "A. Adjust the input voltage.",
@@ -909,10 +909,10 @@
       "D. Use a 20-pin to 24-pin adapter."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Use a 20-pin to 24-pin adapter.) is the correct answer. Older motherboards (10+ years) used a 20-pin ATX power connector, while modern PSUs use a 24-pin connector (often a 20+4 split). If the new PSU is a solid 24-pin block and the board is 20-pin (or vice versa), a simple adapter is the cheapest way to make it fit without buying new hardware."
   },
   {
-    "id": 78,
+    "id": 17,
     "question": "A technician is troubleshooting stylus issues on identical, company-provided tablets. Users can purchase their own accessories. Some users have no issues, but others report that their styluses charge intermittently and die frequently. Which of the following is the most likely cause of this issue?",
     "options": [
       "A. Certain cases are causing charging issues.",
@@ -921,10 +921,10 @@
       "D. The malfunctioning styluses need firmware updates."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Certain cases are causing charging issues.) is the correct answer. Many modern styluses charge magnetically by attaching to the side of the tablet. Third-party cases that are too thick or cover the charging area can interfere with this connection, leading to poor charging."
   },
   {
-    "id": 79,
+    "id": 18,
     "question": "Which of the following devices has ACL capabilities?",
     "options": [
       "A. PoE injector",
@@ -933,10 +933,10 @@
       "D. Unmanaged switch"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Firewall) is the correct answer. Firewalls are specifically designed to filter traffic using Access Control Lists (ACLs). (Note: Routers and Layer 3 switches also have this capability, but 'Firewall' is the primary security device listed)."
   },
   {
-    "id": 80,
+    "id": 19,
     "question": "Which of the following types of RAM is typically used in servers?",
     "options": [
       "A. SODIMM",
@@ -945,10 +945,10 @@
       "D. ECC"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (ECC) is the correct answer. Error Correcting Code (ECC) RAM can detect and fix single-bit memory errors. This stability is critical for servers that run 24/7 and handle sensitive data, preventing crashes and data corruption."
   },
   {
-    "id": 81,
+    "id": 20,
     "question": "Which of the following will most likely be used in a testing environment to execute unauthorized or experimental code without affecting production systems?",
     "options": [
       "A. Virtual machines",
@@ -957,10 +957,10 @@
       "D. Application gateways"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Virtual machines) is the correct answer. VMs act as isolated sandboxes. If experimental code crashes the OS or contains malware, only the VM is affected. The host machine and the rest of the network remain safe, and the VM can be easily reset to a snapshot."
   },
   {
-    "id": 82,
+    "id": 21,
     "question": "Users are complaining that the audio from a presenter is choppy and unintelligible Which of the following is causing the issue?",
     "options": [
       "A. Webcam",
@@ -969,10 +969,10 @@
       "D. Microphone"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Microphone) is the correct answer. If the audio is capturing but is \"choppy and unintelligible,\" it points to the input device. The microphone could be failing, have a loose connection, or be experiencing interference/bandwidth issues."
   },
   {
-    "id": 83,
+    "id": 22,
     "question": "A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?",
     "options": [
       "A. Malfunctioning power supply",
@@ -981,10 +981,10 @@
       "D. Broken screen"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Deprecated battery) is the correct answer. A swollen (or \"deprecated\"/end-of-life) Lithium-ion battery expands due to internal gas buildup. This physical expansion pushes the screen out. The fact that it dies immediately when unplugged confirms the battery has failed."
   },
   {
-    "id": 84,
+    "id": 23,
     "question": "A user routinely connects and disconnects multiple devices from a laptop. Which of the following options should a technician recommend to facilitate ease of user mobility?",
     "options": [
       "A. Serial interfaces",
@@ -993,10 +993,10 @@
       "D. USB hub"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Docking station) is the correct answer. A docking station allows all peripherals (monitors, mouse, keyboard, network) to stay connected to the dock. The user only needs to connect the laptop to the dock (often via one cable), making transitions seamless."
   },
   {
-    "id": 85,
+    "id": 24,
     "question": "An office manager must scan a 300-page contract quickly. They are worried about scanning each page one at a time. Which feature will speed up the process?",
     "options": [
       "A. Flatbed scanner",
@@ -1005,10 +1005,10 @@
       "D. Orientation configuration"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Automatic document feeder) is the correct answer. An Automatic Document Feeder (ADF) takes a stack of loose papers and feeds them one by one into the scanner, allowing the user to scan the entire 300-page contract in one batch without manual intervention."
   },
   {
-    "id": 86,
+    "id": 25,
     "question": "A help desk technician inspects a laptop keyboard because a single key has stopped working. The technician checks the keyboard for debris. Which of the following actions should the technician do next to troubleshoot the issue cost-effectively?",
     "options": [
       "A. Replace the keyboard.",
@@ -1017,10 +1017,10 @@
       "D. Replace the keycap"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Replace the key switch) is the correct answer. If a single key fails and it's not debris, the mechanical switch under the keycap might be broken. Replacing just the individual switch or key mechanism (if possible) is cheaper than replacing the entire keyboard assembly."
   },
   {
-    "id": 87,
+    "id": 26,
     "question": "A technician installs an upgraded wireless access point. The technician then notices the activity light comes on briefly and turns off. The access point continues to exhibit this behavior repeatedly and does not come online. Which of the following is the most likely cause of this issue?",
     "options": [
       "A. High latency",
@@ -1029,10 +1029,10 @@
       "D. Channel conflict"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Port flapping) is the correct answer. Port flapping occurs when a network interface continually goes up and down. This can be caused by a bad cable, a speed/duplex mismatch between the switch and AP, or insufficient PoE power causing the AP to boot loop."
   },
   {
-    "id": 88,
+    "id": 27,
     "question": "A technician replaces a laptop's failed motherboard. During validation testing, the wireless is slow and shows a weak signal. Which of the following should the technician do first to verify the source of the issue?",
     "options": [
       "A. Contact the manufacturer",
@@ -1041,10 +1041,10 @@
       "D. Install a new wireless adapter"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Reseat antenna connections) is the correct answer. The Wi-Fi antenna cables run through the screen hinge and snap onto the wireless card on the motherboard. These tiny connectors are easily knocked loose or improperly seated during motherboard replacement, causing signal issues."
   },
   {
-    "id": 89,
+    "id": 28,
     "question": "When installing a network printer, a technician needs to ensure the printer is available after a network is restarted. Which of the following should the technician set up on the printer to meet this requirement?",
     "options": [
       "A. Static IP address",
@@ -1053,10 +1053,10 @@
       "D. Dynamic addressing"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Static IP address) is the correct answer. Network resources like printers should have a Static IP. If they used DHCP (Dynamic), their IP could change after a network restart, breaking the print mapping for all users' computers."
   },
   {
-    "id": 90,
+    "id": 29,
     "question": "Which of the following describes the function of an injector?",
     "options": [
       "A. To provide only data connectivity",
@@ -1065,10 +1065,10 @@
       "D. To extend a network connection"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (To supply power across a cable) is the correct answer. A PoE (Power over Ethernet) Injector adds DC power to an Ethernet cable, allowing it to power a device (like an IP camera or AP) that is connected to a non-PoE switch."
   },
   {
-    "id": 91,
+    "id": 30,
     "question": "A support technician receives a call stating that a user has added a device to the network. The user used the same configurations from another workstation. When both workstations are turned on, neither can access the network reliably. Which of the following is the most likely cause of the issue?",
     "options": [
       "A. The new computer has a duplicate IP address.",
@@ -1077,10 +1077,10 @@
       "D. The security on the switchport needs to be reset."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (The new computer has a duplicate IP address.) is the correct answer. IP addresses must be unique on a network. If two devices try to use the same IP, the network detects the conflict, and typically both devices will lose connectivity or function intermittently."
   },
   {
-    "id": 92,
+    "id": 1,
     "question": "A technician wants to upgrade a computer to a new Windows version. The Windows Upgrade Advisor states that the computer is not compatible with the new Windows version due to a lack of TPM 2.0 support. Which of the following should the technician do next?",
     "options": [
       "A. Enable the module in the UEFI BIOS.",
@@ -1089,10 +1089,10 @@
       "D. Implement BitLocker on the computer."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable the module in the UEFI BIOS) is the correct answer. Many modern processors have firmware-based TPM (fTPM for AMD, PTT for Intel) built-in, but it is often disabled by default in the BIOS/UEFI. Enabling this feature meets the TPM 2.0 requirement for Windows 11 without needing a dedicated hardware chip."
   },
   {
-    "id": 93,
+    "id": 2,
     "question": "A user connects a company-issued laptop to a 4K TV but can only get 1080p resolution on the TV. The technician confirms that the laptop is capable of producing a 4K output. Which of the following is the most likely cause of the issue?",
     "options": [
       "A. The TV firmware is out of date",
@@ -1101,10 +1101,10 @@
       "D. The CPU cannot keep up with the transcoding"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (The HDMI cable version is incorrect) is the correct answer. Older HDMI cable standards (such as HDMI 1.4 or earlier) may not support 4K resolution at 60Hz or may have bandwidth limitations that force the device to fallback to 1080p. Using a High Speed or Ultra High Speed HDMI cable (HDMI 2.0 or 2.1) is required for reliable 4K output."
   },
   {
-    "id": 94,
+    "id": 3,
     "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. Which setting ensures the printer is always available?",
     "options": [
       "A. Dynamic IPs for laptops, static IP for printer on same subnet",
@@ -1113,10 +1113,10 @@
       "D. Use dynamic IP addressing for all devices"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Dynamic IPs for laptops, static IP for printer on same subnet) is the correct answer. Assigning a static IP address to network resources like printers ensures their address does not change (which happens with DHCP), preventing connectivity issues for users who have mapped the printer to a specific IP. Laptops can remain on Dynamic IP (DHCP) for flexibility."
   },
   {
-    "id": 95,
+    "id": 4,
     "question": "Which of the following will a company most likely use to control which websites a user can access?",
     "options": [
       "A. Proxy server",
@@ -1125,10 +1125,10 @@
       "D. RADIUS server"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Proxy server) is the correct answer. A proxy server acts as an intermediary between a user's computer and the internet. It can be configured with content filtering rules to block access to specific websites or categories of websites, enforcing corporate internet usage policies."
   },
   {
-    "id": 96,
+    "id": 5,
     "question": "A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?",
     "options": [
       "A. Video card",
@@ -1137,10 +1137,10 @@
       "D. TPM"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (RAM module) is the correct answer. Random Blue Screens of Death (BSODs) and freezing, especially under load or intensifying over time (as memory fills up), are classic symptoms of failing RAM. As the system tries to write to or read from a corrupted memory address, the OS crashes."
   },
   {
-    "id": 97,
+    "id": 6,
     "question": "Which of the following allows for a beam of light to transmit data through a flexible cable?",
     "options": [
       "A. Coaxial",
@@ -1149,10 +1149,10 @@
       "D. Single-mode fiber"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Single-mode fiber) is the correct answer. Fiber optic cables (both single-mode and multi-mode) use pulses of light (laser or LED) to transmit data through glass or plastic strands, offering high bandwidth and immunity to electromagnetic interference."
   },
   {
-    "id": 98,
+    "id": 7,
     "question": "A network operations analyst receives an automated alert regarding a server with an array. The analyst walks over to the server and sees a blinking orange light at the hard disk bay. The server is configured for RAID 1. Which of the following should the analyst do to resolve this issue?",
     "options": [
       "A. Change the array to RAID 0.",
@@ -1161,11 +1161,11 @@
       "D. Replace the hard disk and rebuild the array."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the hard disk and rebuild the array.) is the correct answer. A blinking orange or amber light on a drive bay typically indicates a drive fault or failure. Since the server uses RAID 1 (mirroring), the data is safe on the other drive. The standard procedure is to replace the failed drive (often hot-swappable) and allow the RAID controller to rebuild the array to restore redundancy."
   },
   {
-    "id": 99,
-    "question": "A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122°F (50°C) when the computer is started but rises to 208°F (98°C) when applications are opened. Which of the following would most likely fix this issue?",
+    "id": 8,
+    "question": "A computer is experiencing random shutdowns. A technician notices that the fans on the computer work but are noisy. The CPU temperature is about 122\u00b0F (50\u00b0C) when the computer is started but rises to 208\u00b0F (98\u00b0C) when applications are opened. Which of the following would most likely fix this issue?",
     "options": [
       "A. Replacing the power supply",
       "B. Installing a high-performance heat sink",
@@ -1173,10 +1173,10 @@
       "D. Adding more RAM to the computer"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Installing a high-performance heat sink) is the correct answer. The dramatic temperature spike to 98\u00b0C under load suggests the current cooling solution is insufficient or failing (noisy fans often indicate bearing failure or dust buildup). Installing a high-performance heat sink or replacing the failing cooler will dissipate heat more effectively and prevent thermal shutdown."
   },
   {
-    "id": 100,
+    "id": 9,
     "question": "A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?",
     "options": [
       "A. Malfunctioning power supply",
@@ -1185,10 +1185,10 @@
       "D. Broken screen"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Swollen battery) is the correct answer. Lithium-ion batteries can swell due to gas buildup from failure, overcharging, or age. This swelling physically pushes internal components outward, causing the screen to bulge or separate from the chassis. It is a safety hazard and the battery must be replaced immediately."
   },
   {
-    "id": 101,
+    "id": 10,
     "question": "Which of the following tools would a technician use to connect wires to an RJ45 connector?",
     "options": [
       "A. Crimper",
@@ -1197,10 +1197,10 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Crimper) is the correct answer. A cable crimper is a specialized tool used to press (crimp) the metal contacts of an RJ45 connector onto the wires of a twisted-pair Ethernet cable, securing the connection and piercing the insulation to create electrical contact."
   },
   {
-    "id": 102,
+    "id": 11,
     "question": "Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?",
     "options": [
       "A. Switch",
@@ -1209,10 +1209,10 @@
       "D. Hub"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Firewall) is the correct answer. A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks (like the internet)."
   },
   {
-    "id": 103,
+    "id": 12,
     "question": "A technician receives complaints that a network fileshare is slow and now unavailable. The server is powered on and accessible via RDP. What should the technician check next?",
     "options": [
       "A. RAID array status",
@@ -1221,10 +1221,10 @@
       "D. Available memory"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (RAID array status) is the correct answer. Since the server itself is accessible (RDP works) but the file share is problematic, the issue is likely with the storage subsystem. Checking the RAID array status can reveal if drives have failed or if the array is rebuilding (which causes slowness), or if the volume has gone offline."
   },
   {
-    "id": 104,
+    "id": 13,
     "question": "A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. Which of the following will the technician require so the phone can connect to a different provider?",
     "options": [
       "A. USB-C",
@@ -1233,10 +1233,10 @@
       "D. MDM"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (eSIM) is the correct answer. An eSIM (Embedded SIM) is a digital SIM that allows you to activate a cellular plan from a carrier without having to use a physical nano-SIM. This is ideal for international travel as profiles can be provisioned remotely without installing new hardware."
   },
   {
-    "id": 105,
+    "id": 14,
     "question": "A technician needs to figure out why a laser printer is intermittently not feeding paper to print. The technician verifies the issue by running several copy-and-print tests. Which of the following should the technician do next?",
     "options": [
       "A. Update the printer drivers.",
@@ -1245,10 +1245,10 @@
       "D. Replace the toner cartridge."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the pickup rollers.) is the correct answer. Pickup rollers are rubber wheels that grab the paper from the tray. Over time, they collect paper dust and lose their grip, leading to failure to feed (misfeeds). Cleaning them with a specialized cleaner or water usually resolves intermittent feeding issues."
   },
   {
-    "id": 106,
+    "id": 15,
     "question": "Users working with large files back up the files to external hard drives. One user's files take longer to back up than other users' files. The user has tried backing up the files to other users' drives with the same results. Which of the following steps should the technician take first to correct this issue?",
     "options": [
       "A. Replace the hard drive's USB cable.",
@@ -1257,10 +1257,10 @@
       "D. Instruct the user to compress the files."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Defragment the user's external hard drive.) is the correct answer. If the external drive is a mechanical HDD and files are fragmented (scattered across the platter), write speeds drop significantly. Defragmenting reorganizes the data for contiguous storage, improving read/write performance. (Note: This only applies to HDDs; SSDs should not be defragmented)."
   },
   {
-    "id": 107,
+    "id": 16,
     "question": "Which of the following best characterizes the use of a virtual machine as a sandbox?",
     "options": [
       "A. Run an application on multiple workstations without installation.",
@@ -1269,10 +1269,10 @@
       "D. Create a firewall where the sandbox acts as a perimeter network."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Explore how an application behaves in a different environment) is the correct answer. A sandbox is an isolated testing environment. Using a VM as a sandbox allows technicians to safely run suspect software or test patches/updates without risking the stability or security of the host operating system or production network."
   },
   {
-    "id": 108,
+    "id": 17,
     "question": "A technician is troubleshooting a workstation that repeatedly shuts down within ten minutes of being turned on. The technician notices a loud clicking sound coming from inside the case. Which of the following components should the technician check first?",
     "options": [
       "A. Exhaust fan",
@@ -1281,10 +1281,10 @@
       "D. Intake fan"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (CPU fan) is the correct answer. A loud clicking sound often indicates a fan hitting a wire or a failing fan bearing. If the CPU fan fails or is obstructed, the processor will rapidly overheat and trigger a thermal shutdown to protect itself, typically within minutes of booting."
   },
   {
-    "id": 109,
+    "id": 18,
     "question": "A user prints a job from a laser printer. The user wipes the page, and the words and images come off of it. The technician replaces the toner cartridge, but the issue persists. Which of the following components should the technician replace next?",
     "options": [
       "A. Fuser",
@@ -1293,10 +1293,10 @@
       "D. Discharge lamp"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Fuser) is the correct answer. The fuser assembly uses heat and pressure to melt and bond (fuse) the toner powder onto the paper. If the toner wipes or smears off easily, the fuser is not heating up properly and needs to be replaced."
   },
   {
-    "id": 110,
+    "id": 19,
     "question": "Which of the following cloud models allows customers to connect to company resources from their laptops with the least amount of infrastructure?",
     "options": [
       "A. PaaS",
@@ -1305,11 +1305,11 @@
       "D. FaaS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (SaaS) is the correct answer. Software as a Service (SaaS) provides fully managed applications over the internet (like Office 365 or Google Workspace). Customers simply log in via a web browser, requiring no local server infrastructure, maintenance, or complex installation."
   },
   {
-    "id": 111,
-    "question": "Which of the following can carry data and electricity to network devices? (Select two).",
+    "id": 20,
+    "question": "Which of the following can carry data and electricity to network devices?",
     "options": [
       "A. Router",
       "B. Injector",
@@ -1317,10 +1317,10 @@
       "D. Access point"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Injector) is the correct answer. A PoE (Power over Ethernet) injector is a device that adds electrical power to a data cable. This allows a single Ethernet cable to provide both data connection and power to devices like IP cameras, VoIP phones, and Access Points."
   },
   {
-    "id": 112,
+    "id": 21,
     "question": "A user would like to connect a laptop to a monitor, keyboard, and mouse when in the office. The user prefers to use as few cables as possible. Which of the following would best achieve that goal?",
     "options": [
       "A. Bluetooth",
@@ -1329,10 +1329,10 @@
       "D. Near-field communication"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Docking station) is the correct answer. A docking station (or port replicator) allows a laptop to connect to multiple peripherals (monitor, keyboard, mouse, network, power) via a single proprietary connector or USB-C/Thunderbolt cable, simplifying the desk setup."
   },
   {
-    "id": 113,
+    "id": 22,
     "question": "A user is receiving many unsolicited emails. Which of the following controls can be configured to best reduce these types of emails?",
     "options": [
       "A. Load balancer",
@@ -1341,10 +1341,10 @@
       "D. Proxy servers"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Spam gateway) is the correct answer. A spam gateway (or spam filter) sits at the edge of the network and analyzes incoming email traffic. It uses various techniques (blacklists, content filtering, reputation scoring) to identify and block unsolicited commercial email (spam) before it reaches the user's inbox."
   },
   {
-    "id": 114,
+    "id": 23,
     "question": "An end user reports that their laptop has a blank screen. A technician observes the keyboard lights are on, and the fan is running. Which of the following should the technician do next?",
     "options": [
       "A. Check the display ribbon cable.",
@@ -1353,10 +1353,10 @@
       "D. Connect to an external monitor"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Connect to an external monitor) is the correct answer. This troubleshooting step helps isolate the issue. If the external monitor works, the problem is likely with the laptop's built-in LCD panel or cable. If the external monitor also stays blank, the issue is likely with the GPU or motherboard."
   },
   {
-    "id": 115,
+    "id": 24,
     "question": "An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere. Which of the following should a technician implement?",
     "options": [
       "A. Public cloud",
@@ -1365,10 +1365,10 @@
       "D. SaaS"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (VDI) is the correct answer. Virtual Desktop Infrastructure (VDI) hosts the desktop operating system on a central server. The user can access their full, personalized desktop environment from any device, anywhere in the world, ensuring a consistent experience."
   },
   {
-    "id": 116,
+    "id": 25,
     "question": "A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards Which of the following should the institution use?",
     "options": [
       "A. TLS",
@@ -1377,10 +1377,10 @@
       "D. ARM"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (HSM) is the correct answer. A Hardware Security Module (HSM) is a dedicated physical computing device that safeguards and manages digital keys for strong authentication and provides cryptoprocessing. It is the standard for high-security environments like banking to protect root keys."
   },
   {
-    "id": 117,
+    "id": 26,
     "question": "A technician is setting up a scan-to-SMB function on a multifunction printer. Which of the following connection types should the technician configure?",
     "options": [
       "A. Email server",
@@ -1389,10 +1389,10 @@
       "D. Print services"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Network share) is the correct answer. SMB (Server Message Block) is a network file sharing protocol. Configuring \"Scan to SMB\" means setting the printer to send scanned files directly to a shared folder (Network Share) on a server or computer."
   },
   {
-    "id": 118,
+    "id": 27,
     "question": "Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
     "options": [
       "A. Bluetooth",
@@ -1401,10 +1401,10 @@
       "D. Cellular"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NFC) is the correct answer. Near Field Communication (NFC) is the short-range wireless technology used for contactless payments (like Apple Pay, Google Pay). It requires the device to be very close (within 4cm) to the reader, enhancing security for transactions."
   },
   {
-    "id": 119,
+    "id": 28,
     "question": "A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?",
     "options": [
       "A. AAAA",
@@ -1413,10 +1413,10 @@
       "D. A"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (A) is the correct answer. An 'A' (Address) record maps a domain name to a 32-bit IPv4 address. (AAAA records are for IPv6, MX for mail, CNAME for aliases)."
   },
   {
-    "id": 120,
+    "id": 29,
     "question": "A customer needs to install a new printer in their network. The customer reports that users had intermittent connectivity issues with previous printers. Which of the following should the technician configure on the new printer to prevent this issue?",
     "options": [
       "A. Gateway IP address",
@@ -1425,11 +1425,11 @@
       "D. Public IP address"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Static IP address) is the correct answer. Using a Static IP address ensures the printer's location on the network never changes. DHCP addresses can expire or change upon reboot, breaking the connection for computers that expect the printer at a specific IP."
   },
   {
-    "id": 121,
-    "question": "Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer. Which of the following is me most likely cause?",
+    "id": 30,
+    "question": "Each time a user tries to print, the paper becomes stuck at the last stage of the print job and the user has to pull the paper out of the printer. Which of the following is the most likely cause?",
     "options": [
       "A. Rollers",
       "B. Tray assembly",
@@ -1437,10 +1437,10 @@
       "D. Printhead"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Rollers) is the correct answer. If paper jams specifically at the exit (last stage), the exit rollers or the fuser exit assembly are likely worn, dirty, or damaged, failing to push the paper out to the output tray."
   },
   {
-    "id": 122,
+    "id": 1,
     "question": "A user purchases a new mobile phone and tries to connect it to the corporate communications and email applications without success. Which of the following should a technician do to allow the phone to connect?",
     "options": [
       "A. Configure biometric security settings.",
@@ -1449,10 +1449,10 @@
       "D. Complete the company's BYOD training process."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Enroll the device in the MDM software.) is the correct answer. Mobile Device Management (MDM) software is used by organizations to secure, monitor, and manage mobile devices. Enrolling the device allows the company to push necessary configuration profiles, security certificates, and email settings required to connect to corporate resources."
   },
   {
-    "id": 123,
+    "id": 2,
     "question": "Which of the following network services is used to assign an IP address to a network host?",
     "options": [
       "A. DHCP",
@@ -1461,10 +1461,10 @@
       "D. SMTP"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (DHCP) is the correct answer. The Dynamic Host Configuration Protocol (DHCP) automatically assigns IP addresses and other network configuration parameters (subnet mask, default gateway, DNS servers) to devices on a network, eliminating the need for manual configuration."
   },
   {
-    "id": 124,
+    "id": 3,
     "question": "A customer reports that the output from their thermal receipt printer has vertical white lines. Which of the following would most likely resolve this issue?",
     "options": [
       "A. Replacing the ink cartridge",
@@ -1473,10 +1473,10 @@
       "D. Cleaning the heating element"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Cleaning the heating element) is the correct answer. Thermal printers use a heating element to burn images onto heat-sensitive paper. If debris or adhesive residue sticks to the heating element, it blocks the heat transfer, resulting in unprinted vertical white streaks (voids) on the output. Cleaning the element with an alcohol pen or swab usually fixes this."
   },
   {
-    "id": 125,
+    "id": 4,
     "question": "Which of the following ports is commonly used for remote desktop connections?",
     "options": [
       "A. 137",
@@ -1485,10 +1485,10 @@
       "D. 4443"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (3389) is the correct answer. Port 3389 is the default TCP/UDP port for Microsoft's Remote Desktop Protocol (RDP), used for connecting to and controlling a Windows computer remotely."
   },
   {
-    "id": 126,
+    "id": 5,
     "question": "A user experiences intermittent Wi-Fi performance issues only in their office. Nearby RJ45 ports do not provide connectivity, but the user connects fine in other campus areas. AP coverage is weak in the user's office. What is the most likely cause?",
     "options": [
       "A. APs are installed too far from the user's office",
@@ -1497,10 +1497,10 @@
       "D. The laptop has malware contacting unauthorized sites"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (APs are installed too far from the user's office) is the correct answer. Weak signal strength (low RSSI) leads to intermittent connectivity and slow performance. If the user is far from the nearest Access Point (AP) or there are obstructions, the signal degrades significantly."
   },
   {
-    "id": 127,
+    "id": 6,
     "question": "A Wi-Fi router is set up in a central room. A user on the outer edge of the building reports slow connections and intermittent internet drops. Which of the following actions will solve the issue?",
     "options": [
       "A. Enabling the 5GHz band",
@@ -1509,10 +1509,10 @@
       "D. Installing additional wireless APs around the location"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Installing additional wireless APs around the location) is the correct answer. Adding more Access Points (APs) or a Wi-Fi repeater/extender increases the coverage area, providing a stronger signal to users at the edge of the building where the central router's signal is weak."
   },
   {
-    "id": 128,
+    "id": 7,
     "question": "Which of the following could a user employ to maximize module bandwidth when selecting memory for a high-end gaming computer?",
     "options": [
       "A. Error correction",
@@ -1521,10 +1521,10 @@
       "D. Physical module size"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Channel configuration) is the correct answer. Utilizing multi-channel memory architectures (Dual-channel or Quad-channel) increases the data transfer rate between the RAM and the memory controller by accessing multiple memory modules simultaneously, effectively doubling or quadrupling the bandwidth."
   },
   {
-    "id": 129,
+    "id": 8,
     "question": "Which of the following is the ability to automatically increase and decrease instances based on demand?",
     "options": [
       "A. Availability",
@@ -1533,10 +1533,10 @@
       "D. Elasticity"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Elasticity) is the correct answer. Rapid Elasticity is a cloud computing characteristic that allows resources (like VM instances) to be automatically provisioned and released (scaled out and in) in response to demand, ensuring performance while optimizing costs."
   },
   {
-    "id": 130,
+    "id": 9,
     "question": "Which of the following is designed to be used in commercial spaces?",
     "options": [
       "A. USB 3.1 Gen 2",
@@ -1545,10 +1545,10 @@
       "D. Cat 8"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Plenum cabling) is the correct answer. Plenum-rated cable is mandated by fire codes for use in plenum spaces (areas used for air circulation, like drop ceilings) because it is coated with a fire-retardant jacket (like Teflon/FEP) that emits low smoke and non-toxic fumes if burned."
   },
   {
-    "id": 131,
+    "id": 10,
     "question": "Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?",
     "options": [
       "A. DHCP",
@@ -1557,10 +1557,10 @@
       "D. VPN"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (VPN) is the correct answer. A Virtual Private Network (VPN) creates an encrypted tunnel (secured channel) over a public network (like the internet), allowing secure communication between devices. It typically requires authentication (credentials) to establish the connection."
   },
   {
-    "id": 132,
+    "id": 11,
     "question": "A user can connect their laptop to the internet in the main office. However, when the user places the laptop on top of a motor on the factory floor, there is no internet connectivity. Which of the following is the most likely cause of this issue?",
     "options": [
       "A. Jitter",
@@ -1569,10 +1569,10 @@
       "D. High latency"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (External interference) is the correct answer. Electric motors generate significant Electromagnetic Interference (EMI) due to their magnetic fields. This EMI can disrupt wireless signals (Wi-Fi) or induce noise in unshielded copper cables, causing loss of connectivity."
   },
   {
-    "id": 133,
+    "id": 12,
     "question": "A technician is working on a RAID 1 array that is apparently degraded. The technician verifies the RAM and power are both operating as expected. Which of the following can the technician do to further isolate the issue?",
     "options": [
       "A. Perform individual drive diagnostics.",
@@ -1581,10 +1581,10 @@
       "D. Reconfigure the array as RAID 0."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Perform individual drive diagnostics.) is the correct answer. A degraded RAID 1 array means one of the mirrored drives has failed or is failing. Running manufacturer-specific diagnostic tools on each drive individually will identify which physical disk is defective so it can be replaced."
   },
   {
-    "id": 134,
+    "id": 13,
     "question": "A thief stole a company phone and successfully extracted confidential company information from the device. Which of the following should have been used to prevent the extraction?",
     "options": [
       "A. GPS",
@@ -1593,10 +1593,10 @@
       "D. MDM"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (MDM) is the correct answer. Mobile Device Management (MDM) solutions allow administrators to enforce security policies like full device encryption and passcode requirements. Crucially, MDM enables \"Remote Wipe\" capabilities, allowing the company to erase data from a stolen device to prevent unauthorized extraction."
   },
   {
-    "id": 135,
+    "id": 14,
     "question": "A developer wants to protect critical data from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
     "options": [
       "A. RAID 0",
@@ -1605,10 +1605,10 @@
       "D. RAID 10"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (RAID 1) is the correct answer. RAID 1 (Mirroring) writes identical data to two drives simultaneously. If one drive fails, the data is preserved on the other, providing 100% redundancy. (RAID 0 offers speed but no redundancy; RAID 5 requires at least 3 drives)."
   },
   {
-    "id": 136,
+    "id": 15,
     "question": "A user is unable to access secure applications on their tablet when working from home a couple days per week, but the applications work when in the office. Which of the following services most likely needs to be reconfigured to allow for remote work?",
     "options": [
       "A. Global Positioning System",
@@ -1617,11 +1617,11 @@
       "D. Near-field communication"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Mobile device management) is the correct answer. MDM policies can control access based on location (geofencing) or network. If the policy restricts access to \"corporate network only,\" the user cannot access apps from home. Reconfiguring the MDM policy (or VPN profile managed by MDM) is needed to allow remote access."
   },
   {
-    "id": 137,
-    "question": "Which of the following are radio frequency connections? (Select two.)",
+    "id": 16,
+    "question": "Which of the following are radio frequency connections?",
     "options": [
       "A. Cable",
       "B. Satellite",
@@ -1629,11 +1629,11 @@
       "D. Cellular"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Satellite) is the correct answer. Satellite internet relies on Radio Frequency (RF) signals transmitted between a dish on the ground and a satellite in orbit. (Cellular is also an RF connection, but the question format expects a single best answer here)."
   },
   {
-    "id": 138,
-    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue? (Select two).",
+    "id": 17,
+    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue?",
     "options": [
       "A. Run a BIOS update.",
       "B. Swap out the RAM.",
@@ -1641,10 +1641,10 @@
       "D. Repair the backup power source."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Repair the backup power source.) is the correct answer. Losing the system date/time indicates the CMOS battery is dead AND the system lost all power. If the PC is on a UPS, it should not lose power during an outage. This implies the UPS failed to sustain the load. Repairing/replacing the UPS (backup power source) ensures the PC stays powered, preventing the CMOS reset symptom."
   },
   {
-    "id": 139,
+    "id": 18,
     "question": "Which of the following can a user utilize to share their mobile phone connection with their laptop?",
     "options": [
       "A. IR",
@@ -1653,10 +1653,10 @@
       "D. Tethering"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Tethering) is the correct answer. Tethering (or Personal Hotspot) allows a mobile device to share its cellular internet connection with other devices (like a laptop) via Wi-Fi, Bluetooth, or USB."
   },
   {
-    "id": 140,
+    "id": 19,
     "question": "A network administrator must ensure that a printer will still be assigned a specific IP address even if all addresses are depleted. Which of the following network configuration concepts is this describing?",
     "options": [
       "A. VLAN",
@@ -1665,10 +1665,10 @@
       "D. Exclusion"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Reservation) is the correct answer. A DHCP Reservation maps a specific MAC address to a specific IP address. The DHCP server \"reserves\" that IP solely for that device, ensuring it always gets the same IP and that the IP is not assigned to any other client, even if the pool is full."
   },
   {
-    "id": 141,
+    "id": 20,
     "question": "When turning on a workstation, a technician observes the following message: \"Bootable device not found.\" The technician verifies the correct boot order in the BIOS. Which of the following steps should the technician take next?",
     "options": [
       "A. Reformat the HDD.",
@@ -1677,10 +1677,10 @@
       "D. Replace the HDD."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Run HDD diagnostics.) is the correct answer. If the boot order is correct but the drive isn't found, the hard drive may have failed or the boot sector is corrupted. Running built-in diagnostics (S.M.A.R.T. check) confirms if the drive hardware is functional before attempting destructive software fixes or replacement."
   },
   {
-    "id": 142,
+    "id": 21,
     "question": "A technician is experimenting with network configurations and has connected two laptops to an unmanaged switch. The technician configured one of the laptops with a static IP address of 192.168.1.1 and the other with a static IP address of 192.168.2.2. The laptops are not communicating with each other. Which of the following is the most likely explanation for this issue?",
     "options": [
       "A. The technician needs to use a hub instead of a switch.",
@@ -1689,10 +1689,10 @@
       "D. The laptops do not have access to a router."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The laptops do not have access to a router.) is the correct answer. The two laptops are on different IP subnets (192.168.1.x and 192.168.2.x, assuming a standard /24 mask). A switch operates at Layer 2 and cannot route traffic between different subnets. A router (Layer 3 device) is required to enable communication between them."
   },
   {
-    "id": 143,
+    "id": 22,
     "question": "A user reports that scanned or copied pages from an MFP show vertical lines down the page. The printer processes print jobs correctly. What should the technician do?",
     "options": [
       "A. Replace the transfer roller",
@@ -1701,10 +1701,10 @@
       "D. Apply a maintenance kit"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the glass bed) is the correct answer. Since printing works fine (ruling out the drum/fuser), the issue is specific to the scanner subsystem. Vertical lines on scans usually indicate dirt, whiteout, or debris on the scanner glass or the ADF slit glass, which creates a streak as the scan bar moves or paper feeds past."
   },
   {
-    "id": 144,
+    "id": 23,
     "question": "A major retailer is moving its online shopping website to the cloud and wants to expand its server resources as needed during busier shopping days. Which of the following should the retailer consider?",
     "options": [
       "A. Location",
@@ -1713,10 +1713,10 @@
       "D. Multitenancy"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Elasticity) is the correct answer. Elasticity allows the cloud infrastructure to dynamically provision more resources (scale up/out) during peak traffic (busy shopping days) and de-provision them (scale down/in) when traffic subsides, optimizing performance and cost."
   },
   {
-    "id": 145,
+    "id": 24,
     "question": "Which of the forming connector types would best suit a company that experiences a large volume of internet traffic?",
     "options": [
       "A. USB 3.1",
@@ -1725,11 +1725,11 @@
       "D. Unshielded plenum RJ45"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Quad-shielded RG11 coax) is the correct answer. RG11 is a thicker gauge coaxial cable with lower signal loss (attenuation) than standard RG6, making it suitable for longer runs and higher bandwidth ISP connections (like heavy cable internet traffic). Quad-shielding provides superior protection against interference."
   },
   {
-    "id": 146,
-    "question": "Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task? (Select two).",
+    "id": 25,
+    "question": "Each floor at a new corporate facility will have four printers available for all users to print from All of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task?",
     "options": [
       "A. Printer shares",
       "B. DHCP server",
@@ -1737,10 +1737,10 @@
       "D. Printer subnet"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Printer shares) is the correct answer. Since the printers are not joined to a domain, a centralized print server might not be in use (or overkill). Setting up printer shares on a workstation or a standalone server allows users to connect to the shared printer queue. (Note: A dedicated Print Server is also a valid answer in enterprise, but 'Printer shares' is the mechanism used)."
   },
   {
-    "id": 147,
+    "id": 26,
     "question": "A desktop can connect to a file server but cannot access the internet. The ipconfig /all output shows a correct IP and DNS but no default gateway. What will most likely restore internet access?",
     "options": [
       "A. Flushing the DNS cache",
@@ -1749,10 +1749,10 @@
       "D. Disabling NetBIOS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Setting the default gateway) is the correct answer. The Default Gateway is the router that forwards traffic from the local network to external networks (like the internet). Without a gateway address configured, the computer can communicate locally (LAN) but cannot reach the internet."
   },
   {
-    "id": 148,
+    "id": 27,
     "question": "A technician wants to monitor network statistics for devices communicating with one another on the local subnet Which of the following devices should the technician install.",
     "options": [
       "A. Managed switch",
@@ -1761,11 +1761,11 @@
       "D. Firewall"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Managed switch) is the correct answer. A managed switch offers advanced features like SNMP (Simple Network Management Protocol) monitoring, port mirroring, and traffic analysis, allowing a technician to view statistics and monitor traffic flow between devices on the LAN."
   },
   {
-    "id": 149,
-    "question": "Several storms cause mission-critical servers to go offline unexpectedly A server also goes offline suddenly due to haroNvare failure Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?",
+    "id": 28,
+    "question": "Several storms cause mission-critical servers to go offline unexpectedly. A server also goes offline suddenly due to hardware failure. Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?",
     "options": [
       "A. Purchasing backup generators",
       "B. Increasing input voltage",
@@ -1773,10 +1773,10 @@
       "D. Activating a hot site"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Installing redundant PSUs) is the correct answer. Redundant Power Supply Units (PSUs) allow a server to keep running if one PSU fails (hardware failure protection). While they don't solve the total power outage issue (that's what UPS/Generators are for), they are a cost-effective measure to improve uptime against component failure, which was one of the causes mentioned."
   },
   {
-    "id": 150,
+    "id": 29,
     "question": "Which of the following allows an organization to provide remote desktop resources without providing physical workstations to its users?",
     "options": [
       "A. RMM",
@@ -1785,10 +1785,10 @@
       "D. Containers"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (VDI) is the correct answer. Virtual Desktop Infrastructure (VDI) hosts user desktop environments on a centralized server as Virtual Machines. Users access their desktops remotely from thin clients or personal devices, eliminating the need for the organization to issue high-performance physical workstations to everyone."
   },
   {
-    "id": 151,
+    "id": 30,
     "question": "While reviewing options in the BIOS/UEFI settings page to fix a laptop issue, a support technician notices an option to clear existing TPM keys. Which of the following would most likely happen if the TPM is cleared?",
     "options": [
       "A. Encrypted hard drives would probably not be accessible.",
@@ -1797,10 +1797,10 @@
       "D. The laptop would need to be registered to the domain as a new client."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Encrypted hard drives would probably not be accessible.) is the correct answer. The Trusted Platform Module (TPM) stores the cryptographic keys used for full disk encryption (like BitLocker). Clearing the TPM erases these keys. Without the recovery key, the data on the encrypted drive becomes permanently inaccessible."
   },
   {
-    "id": 152,
+    "id": 1,
     "question": "A technician checks a RAID 5 array and sees a S.M.A.R.T. alert on one disk, but the array still shows healthy. What should the technician do next?",
     "options": [
       "A. Run chkdsk /f",
@@ -1809,10 +1809,10 @@
       "D. Replace the failing drive"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the failing drive) is the correct answer. A S.M.A.R.T. alert (Self-Monitoring, Analysis and Reporting Technology) indicates that a drive is predicting its own imminent failure. Even if the RAID 5 array is currently functional (healthy), the drive should be replaced proactively before it fails completely to maintain redundancy."
   },
   {
-    "id": 153,
+    "id": 2,
     "question": "A user joins a conference call with a Bluetooth headset. Which of the following has the user created?",
     "options": [
       "A. MAN",
@@ -1821,10 +1821,10 @@
       "D. WAN"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (PAN) is the correct answer. A PAN (Personal Area Network) connects devices within a person's immediate workspace (usually within 10 meters). Bluetooth connections between a headset and a phone/computer are the most common example of a wireless PAN."
   },
   {
-    "id": 154,
+    "id": 3,
     "question": "A user replaces their PC power supply and connects it to the components, but the PC fails to start. What is the most likely cause?",
     "options": [
       "A. The computer requires additional RAM",
@@ -1833,10 +1833,10 @@
       "D. The PSU only works in redundant setups"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The 4-pin CPU power connector is not connected) is the correct answer. The CPU requires a dedicated power supply cable (4-pin or 8-pin EPS12V) from the PSU. If this is forgotten during installation, the motherboard may show LEDs, but the system will not post or boot."
   },
   {
-    "id": 155,
+    "id": 4,
     "question": "A customer reports slow network speeds. Which of the following components is most likely failing?",
     "options": [
       "A. CPU",
@@ -1845,10 +1845,10 @@
       "D. RAM"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NIC) is the correct answer. The Network Interface Card (NIC) handles all network communication. If it is failing, negotiating the wrong speed (e.g., 10Mbps instead of 1000Mbps), or dropping packets, it will directly cause slow network speeds."
   },
   {
-    "id": 156,
+    "id": 5,
     "question": "An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
     "options": [
       "A. Modular",
@@ -1857,10 +1857,10 @@
       "D. External"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Modular) is the correct answer. A modular power supply allows the builder to attach only the specific cables needed for the components in the build. Unused cables are left in the box, significantly reducing cable clutter and improving airflow inside the case."
   },
   {
-    "id": 157,
+    "id": 6,
     "question": "Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
     "options": [
       "A. Switch",
@@ -1869,10 +1869,10 @@
       "D. Router"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Cable modem) is the correct answer. DOCSIS (Data Over Cable Service Interface Specification) is the standard used by cable TV providers to provide internet access. A Cable Modem is required to demodulate the analog signal from the ISP's coaxial cable into digital Ethernet signals for the LAN."
   },
   {
-    "id": 158,
+    "id": 7,
     "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. All laptops must have internet access and be able to use the printer. Which of the following settings ensures the printer is always available?",
     "options": [
       "A. Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.",
@@ -1881,10 +1881,10 @@
       "D. Use dynamic IP addresses from the ISP router for all the devices."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.) is the correct answer. Network printers should have a Static IP so their address doesn't change, preventing connection errors for users. Laptops should use Dynamic IPs (DHCP) for ease of management and mobility."
   },
   {
-    "id": 159,
+    "id": 8,
     "question": "Which of the following DNS records would an administrator change to redirect email flow?",
     "options": [
       "A. MX",
@@ -1893,10 +1893,10 @@
       "D. CNAME"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (MX) is the correct answer. The Mail Exchanger (MX) record specifies the mail server responsible for accepting email messages on behalf of a domain. Changing the MX record redirects incoming email traffic to a new mail server."
   },
   {
-    "id": 160,
+    "id": 9,
     "question": "A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?",
     "options": [
       "A. EDR",
@@ -1905,10 +1905,10 @@
       "D. SaaS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (MDM) is the correct answer. Mobile Device Management (MDM) software can manage applications on devices (including laptops in modern UEM solutions). It can whitelist approved apps and block the installation of unauthorized software to ensure compliance."
   },
   {
-    "id": 161,
+    "id": 10,
     "question": "A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?",
     "options": [
       "A. Hypervisor",
@@ -1917,10 +1917,10 @@
       "D. Sandbox"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Hypervisor) is the correct answer. A Type 1 (bare-metal) Hypervisor installed on a server allows multiple different Operating Systems (VMs) to run simultaneously (concurrently) on the same physical hardware, perfect for a dev test lab."
   },
   {
-    "id": 162,
+    "id": 11,
     "question": "A technician needs to confirm that desktop PCs can be deployed to a global, remote workforce. Which of the following specifications should the technician validate?",
     "options": [
       "A. Input voltage",
@@ -1929,10 +1929,10 @@
       "D. Power efficiency"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Input voltage) is the correct answer. Different regions use different voltages (e.g., 110-120V in the US vs 220-240V in Europe/Asia). The technician must ensure the PC power supplies are dual-voltage (switchable) or compatible with the target region's power grid to prevent damage."
   },
   {
-    "id": 163,
+    "id": 12,
     "question": "Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?",
     "options": [
       "A. Lightning interface",
@@ -1941,10 +1941,10 @@
       "D. Bluetooth"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Port replicator) is the correct answer. A port replicator (similar to a docking station) stays connected to all the peripherals on the desk. The user connects the laptop to the replicator with a single action, instantly connecting all devices."
   },
   {
-    "id": 164,
+    "id": 13,
     "question": "Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?",
     "options": [
       "A. VDI",
@@ -1953,10 +1953,10 @@
       "D. Type 1 hypervisor"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Sandbox) is the correct answer. In a networking context, a sandbox often refers to an isolated environment. Configuring a VM's NIC to \"Host-Only\" or disconnecting it essentially creates a sandbox where it cannot communicate with the external network or internet, preventing malware escape."
   },
   {
-    "id": 165,
+    "id": 14,
     "question": "A user reports that their desktop PC does not turn on. Which of the following components would most likely cause the issue?",
     "options": [
       "A. PSU",
@@ -1965,11 +1965,11 @@
       "D. CPU"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (PSU) is the correct answer. The Power Supply Unit (PSU) is responsible for providing electrical power to the system. If the PC is completely dead (no lights, no fans, no response to power button), the PSU is the first major component to suspect."
   },
   {
-    "id": 166,
-    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?",
+    "id": 15,
+    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user knows. Which of the following components best meets these requirements?",
     "options": [
       "A. Fingerprint reader",
       "B. Smart card",
@@ -1977,22 +1977,22 @@
       "D. NFC scanner"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Smart card) is the correct answer. A smart card is \"something you have.\" It contains a cryptographic chip for authentication. It meets the requirement for system access (via card reader) and physical office access (via door scanners), unlike a secure token which is usually just for digital access."
   },
   {
-    "id": 167,
-    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?",
+    "id": 16,
+    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reasons?",
     "options": [
       "A. The SSD is faulty and should be replaced by the manufacturer",
       "B. The SSD has not been properly formatted and is not readable",
       "C. The SSD is incompatible with the motherboard",
-      "D. The SSD has not boon installed properly and should be reseated"
+      "D. The SSD has not been installed properly and should be reseated"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The SSD has not been installed properly and should be reseated) is the correct answer. Before assuming hardware failure, checking physical installation is the first troubleshooting step. M.2 drives, in particular, can be tricky to seat correctly. If it's not fully inserted, the BIOS/OS won't detect it."
   },
   {
-    "id": 168,
+    "id": 17,
     "question": "A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
     "options": [
       "A. HDD",
@@ -2001,10 +2001,10 @@
       "D. BIOS"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (HDD) is the correct answer. Mechanical Hard Disk Drives (HDDs) have slow random read/write speeds compared to SSDs. During startup, the OS reads thousands of small files. An aging or fragmented HDD is the most common bottleneck causing slow boot times."
   },
   {
-    "id": 169,
+    "id": 18,
     "question": "Which of the following display technologies typically provides the highest contrast?",
     "options": [
       "A. IPS",
@@ -2013,10 +2013,10 @@
       "D. VA"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (OLED) is the correct answer. OLED (Organic Light-Emitting Diode) pixels emit their own light and can turn off completely to display true black. This results in an \"infinite\" contrast ratio, far superior to IPS, TN, or VA panels which rely on a backlight."
   },
   {
-    "id": 170,
+    "id": 19,
     "question": "Which of the following DNS record types is used to direct email to a mail server?",
     "options": [
       "A. CNAME",
@@ -2025,10 +2025,10 @@
       "D. SOA"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (MX) is the correct answer. The MX (Mail Exchange) record tells sending mail servers where to deliver email for a specific domain (e.g., directing mail for @company.com to mail.company.com)."
   },
   {
-    "id": 171,
+    "id": 20,
     "question": "Which of the following is an advantage of using VDI?",
     "options": [
       "A. Authentication is not required on a domain.",
@@ -2037,10 +2037,10 @@
       "D. A virus is automatically contained locally."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Less manual configuration is needed for each workstation.) is the correct answer. With Virtual Desktop Infrastructure (VDI), the desktop image is managed centrally on the server. The physical endpoints (thin clients) require minimal configuration since they just connect to the server, simplifying deployment and management."
   },
   {
-    "id": 172,
+    "id": 21,
     "question": "Which of the following is the best to use when testing a file for potential malware?",
     "options": [
       "A. Multitenancy",
@@ -2049,10 +2049,10 @@
       "D. Sandbox"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Sandbox) is the correct answer. A sandbox is an isolated environment designed specifically for executing untrusted code or files. If the file is malware, the damage is contained within the sandbox and does not affect the host system or network."
   },
   {
-    "id": 173,
+    "id": 22,
     "question": "Which of the following is used to confirm that a physical port is working?",
     "options": [
       "A. Network tap",
@@ -2061,11 +2061,11 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Loopback plug) is the correct answer. A loopback plug connects the transmit pins directly to the receive pins on an Ethernet port. It is used to test if the network interface card (NIC) itself is sending and receiving signals correctly, verifying the physical port hardware."
   },
   {
-    "id": 174,
-    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).",
+    "id": 23,
+    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard?",
     "options": [
       "A. Molex",
       "B. NVMe",
@@ -2073,10 +2073,10 @@
       "D. FireWire"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NVMe) is the correct answer. NVMe (Non-Volatile Memory Express) drives connect via the M.2 slot using the PCIe bus, offering significantly faster transfer speeds than SATA SSDs or HDDs. Verifying M.2 NVMe support is crucial for the \"fastest hard drive possible\" requirement."
   },
   {
-    "id": 175,
+    "id": 24,
     "question": "A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
     "options": [
       "A. Public",
@@ -2085,10 +2085,10 @@
       "D. Private"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Hybrid) is the correct answer. A Hybrid cloud is a computing environment that combines a private cloud (self-operated data centers) and a public cloud (third-party service), allowing data and applications to be shared between them."
   },
   {
-    "id": 176,
+    "id": 25,
     "question": "A technician is troubleshooting an all-in-one laser printer that prints a vertical line when making copies and scans. When users print or receive faxes, the output from the printer is correct. Which of the following should the technician examine to determine the cause of the issue?",
     "options": [
       "A. The pickup rollers",
@@ -2097,10 +2097,10 @@
       "D. The drum assembly"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The document feeder) is the correct answer. Since the defect only appears on copies/scans but not on direct prints, the print mechanism (drum/fuser) is fine. The issue is in the scanner. Vertical lines on ADF scans are caused by a speck of dust or debris on the ADF glass strip (part of the document feeder path) that streaks as the paper moves past it."
   },
   {
-    "id": 177,
+    "id": 26,
     "question": "Which of the following types of connectors does an IDE hard drive use for power?",
     "options": [
       "A. F type",
@@ -2109,10 +2109,10 @@
       "D. Lightning"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Molex) is the correct answer. Older PATA (IDE) hard drives and optical drives used the 4-pin Molex connector for power. (Modern SATA drives use the 15-pin SATA power connector)."
   },
   {
-    "id": 178,
+    "id": 27,
     "question": "A user on the edge of a building reports slow Wi-Fi and intermittent drops. Which action will solve the issue?",
     "options": [
       "A. Enable the 5GHz band",
@@ -2121,10 +2121,10 @@
       "D. Install additional wireless APs around the location"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Install additional wireless APs around the location) is the correct answer. Slow speed and drops at the edge of a building indicate weak signal strength (attenuation). Installing additional Access Points extends the coverage area, ensuring the user has a strong signal."
   },
   {
-    "id": 179,
+    "id": 28,
     "question": "A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
     "options": [
       "A. Firmware",
@@ -2133,10 +2133,10 @@
       "D. HSM"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Firmware) is the correct answer. Firmware is the low-level software embedded in the printer's hardware that controls its functions. Updates from the manufacturer to fix bugs or add features to the device itself are deployed as firmware updates."
   },
   {
-    "id": 180,
+    "id": 29,
     "question": "Which of the following display characteristics would be most important to ensure screen images appear the same as printed output?",
     "options": [
       "A. Color gamut",
@@ -2145,10 +2145,10 @@
       "D. Resolution"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Color gamut) is the correct answer. Color gamut refers to the range of colors a display can reproduce. For print matching (proofing), the monitor needs a wide color gamut (like AdobeRGB) and accurate calibration to match the CMYK color space of the printer."
   },
   {
-    "id": 181,
+    "id": 30,
     "question": "Which of the following is commonly affected by high latency?",
     "options": [
       "A. Satellite",
@@ -2157,10 +2157,10 @@
       "D. DSL"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Satellite) is the correct answer. Satellite internet signals must travel to geostationary orbit (approx 22,000 miles) and back. This extreme distance introduces significant latency (ping), often 500-600ms+, which is noticeable in real-time applications like VoIP or gaming."
   },
   {
-    "id": 182,
+    "id": 1,
     "question": "A customer is able to print most documents with their USB inkjet printer, but the system is unresponsive when printing a certain report from a custom application. Nothing will print until the computer is restarted and the printer is power cycled. A technician remotes into the PC and confirms that the spooler stops working when this report is sent. After cleaning the spooler and reinstalling the drivers from the manufacturer's website, the issue persists. No other sites using the application report similar issues. Which of the following is most likely causing the issue?",
     "options": [
       "A. The manufacturer is curating content before it reaches the device to preserve ink.",
@@ -2169,10 +2169,10 @@
       "D. Personal preferences have changed and documents with graphics are now online-only"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (The application has a bug that the developer needs to address.) is the correct answer. Since the issue is isolated to a specific report from a specific custom application and standard troubleshooting (spooler, drivers) has failed, the problem likely lies within the application's code generating the print job incorrectly, crashing the spooler service."
   },
   {
-    "id": 183,
+    "id": 2,
     "question": "A user reports intermittent Wi-Fi issues in an open office. Other users are not affected. What is the most likely cause?",
     "options": [
       "A. Interference from other Wi-Fi signals",
@@ -2181,10 +2181,10 @@
       "D. The antenna is near a device creating electromagnetic interference"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The laptop's wireless card is malfunctioning) is the correct answer. If interference or frequency congestion were the cause, multiple users in the open office would likely be affected. Since the issue is isolated to a single user, the problem is most likely with that specific user's hardware (wireless NIC or antenna)."
   },
   {
-    "id": 184,
+    "id": 3,
     "question": "A user wants to print files from an overseas office using a shared network folder. The user's laptop has no public-facing internet connectivity. Which of the following can be used to print from the shared network folder?",
     "options": [
       "A. ADF",
@@ -2193,10 +2193,10 @@
       "D. SMB"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (SMB) is the correct answer. Server Message Block (SMB) is the standard protocol used for file sharing and printer sharing on Windows networks. It allows the user to access the shared folder over the internal network (WAN/VPN) to retrieve and print files without needing public internet access."
   },
   {
-    "id": 185,
+    "id": 4,
     "question": "A technician needs to troubleshoot a user's smartphone that will not connect to its wireless provider's service. Which of the following should the technician check first?",
     "options": [
       "A. SIM card",
@@ -2205,10 +2205,10 @@
       "D. Bluetooth connection"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Subscription plan) is the correct answer. Before troubleshooting hardware or software settings, it's efficient to verify the account status. If the data plan has expired, data usage limits were reached, or the bill wasn't paid, the carrier will block service regardless of the phone's condition."
   },
   {
-    "id": 186,
+    "id": 5,
     "question": "A user is having trouble with the location services on their smartphone. Location-based applications show incorrect positions when the user is traveling. This issue affects the user's ability to navigate and use location-dependent applications. Which of the following is the best way to resolve this issue?",
     "options": [
       "A. Downloading a third-party mapping application",
@@ -2217,10 +2217,10 @@
       "D. Restarting the smartphone"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Enabling Wi-Fi to assist GPS) is the correct answer. GPS works best outdoors with a clear line of sight to satellites. Indoors or in dense urban canyons, GPS signals are weak. Smartphones use \"Assisted GPS\" (A-GPS) which uses Wi-Fi signals and cell tower triangulation to improve location accuracy and speed up the time-to-first-fix."
   },
   {
-    "id": 187,
+    "id": 6,
     "question": "A technician receives a S.M.A.R.T. error on a PC. When the technician presses the Esc key, the PC continues to turn on without any further issues. Which of the following should the technician do next?",
     "options": [
       "A. Replace the HDD.",
@@ -2229,22 +2229,22 @@
       "D. Change the NIC."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Replace the HDD.) is the correct answer. A S.M.A.R.T. (Self-Monitoring, Analysis and Reporting Technology) error is a critical warning that the hard drive has detected internal parameters (like bad sectors or spin-up time) exceeding safe thresholds and failure is imminent. The drive must be replaced immediately to prevent data loss."
   },
   {
-    "id": 188,
+    "id": 7,
     "question": "A company uses vital legacy software that does not run in the current OS version Which of the following will best support the software while keeping the OS current?",
     "options": [
       "A. Shared resources",
       "B. System sandbox",
       "C. Test development",
-      "D. Application visualization"
+      "D. Application virtualization"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Application virtualization) is the correct answer. Application virtualization encapsulates the legacy application and its dependencies (old libraries, registry keys) into a container or virtual environment that runs on top of the modern OS. This allows the incompatible app to run without conflicting with the new OS."
   },
   {
-    "id": 189,
+    "id": 8,
     "question": "A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?",
     "options": [
       "A. Gateway",
@@ -2253,10 +2253,10 @@
       "D. DHCP"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Static IP) is the correct answer. If a printer uses DHCP, it may receive a different IP address after a power outage or lease expiration. This breaks the connection for computers configured to print to the old IP. Assigning a Static IP ensures the printer's address remains permanent."
   },
   {
-    "id": 190,
+    "id": 9,
     "question": "A user reports that the print quality of their desk printer is poor. A technician replaces the ink cartridge, but this does not resolve the issue. Which of the following should the technician do next?",
     "options": [
       "A. Replace the pickup rollers",
@@ -2265,10 +2265,10 @@
       "D. Change the ribbon"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Clean the printheads) is the correct answer. For inkjet printers, poor print quality (streaks, missing colors, faded text) despite a new cartridge often indicates clogged printhead nozzles. Running the printer's built-in printhead cleaning utility clears dried ink and restores flow."
   },
   {
-    "id": 191,
+    "id": 10,
     "question": "A technician is troubleshooting internet connectivity issues after a firewall update. Users report that they can access local network resources, such as printers and shares, but cannot access the internet. Which of the following settings is most likely causing the issue?",
     "options": [
       "A. Static IP assignments",
@@ -2277,10 +2277,10 @@
       "D. VLANs"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Default gateway) is the correct answer. The Default Gateway is the path traffic takes to leave the local network (LAN) and reach external networks like the internet. If local resources work (LAN is fine) but internet fails, the firewall update likely blocked or misconfigured the gateway connection."
   },
   {
-    "id": 192,
+    "id": 11,
     "question": "Which of the following drive interfaces is typically used in server systems but not in home computers?",
     "options": [
       "A. NVMe",
@@ -2289,10 +2289,10 @@
       "D. PCIe"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (SAS) is the correct answer. SAS (Serial Attached SCSI) is an enterprise-grade storage interface designed for high reliability, speed, and massive scalability (daisy-chaining drives). While SATA and NVMe are common in home PCs, SAS is almost exclusively found in servers and storage arrays."
   },
   {
-    "id": 193,
+    "id": 12,
     "question": "A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?",
     "options": [
       "A. NVMe",
@@ -2301,10 +2301,10 @@
       "D. TPM"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (TPM) is the correct answer. The Trusted Platform Module (TPM) is a secure crypto-processor chip on the motherboard. It is required by full disk encryption software (like Microsoft BitLocker) to securely store the encryption keys and verify system integrity at boot."
   },
   {
-    "id": 194,
+    "id": 13,
     "question": "A technician is troubleshooting a connectivity issue on a network computer. The technician runs ipconfig in a command prompt and receives the following IP address:169.254.0.6. Which of the following is most likely the type of IP address being assigned?",
     "options": [
       "A. DHCP reservation assignment",
@@ -2313,10 +2313,10 @@
       "D. Static assignment"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Self-assignment) is the correct answer. An address starting with 169.254.x.x is an APIPA (Automatic Private IP Addressing) address. The OS self-assigns this when it is configured for DHCP but fails to reach a DHCP server, indicating a network connectivity or server issue."
   },
   {
-    "id": 195,
+    "id": 14,
     "question": "A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive. Which of the following should the administrator check?",
     "options": [
       "A. TPM",
@@ -2325,10 +2325,10 @@
       "D. HDD"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (TPM) is the correct answer. BitLocker normally requires a TPM (Trusted Platform Module) chip to encrypt the operating system drive. If the PC lacks a TPM or it is disabled in the BIOS/UEFI, BitLocker encryption will fail (unless a Group Policy workaround for USB startup keys is enabled)."
   },
   {
-    "id": 196,
+    "id": 15,
     "question": "A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?",
     "options": [
       "A. Enable QoS in the router",
@@ -2337,11 +2337,11 @@
       "D. Turn on MAC address filtering"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable QoS in the router) is the correct answer. Quality of Service (QoS) settings prioritize latency-sensitive traffic (like VoIP voice data) over less urgent traffic (like file downloads or web browsing). Even with good speed, high network congestion can cause jitter and packet loss for VoIP; QoS prevents this."
   },
   {
-    "id": 197,
-    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the Wowing is a valid public IP address in this scenario?",
+    "id": 16,
+    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the following is a valid public IP address in this scenario?",
     "options": [
       "A. 10.254.128.11",
       "B. 66.157.195.20",
@@ -2349,10 +2349,10 @@
       "D. 192.168 1.50"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (66.157.195.20) is the correct answer. IP ranges 10.x.x.x, 172.16-31.x.x, and 192.168.x.x are reserved for Private (LAN) use and are not valid on the public internet. 66.157.195.20 falls outside these private ranges, identifying it as a Public IP address assignable by an ISP."
   },
   {
-    "id": 198,
+    "id": 17,
     "question": "A user's wireless headset shows a \"connected\" status when turned on, but the Bluetooth list on the user's phone shows that the headset is \"not connected.\" Which of the following should the technician do?",
     "options": [
       "A. Enter the PIN.",
@@ -2361,10 +2361,10 @@
       "D. Enable Bluetooth."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Re-pair the devices.) is the correct answer. \"Ghost\" connections or sync issues where devices disagree on status are best resolved by \"Forgetting\" the device in Bluetooth settings and pairing them again from scratch to establish a fresh handshake."
   },
   {
-    "id": 199,
+    "id": 18,
     "question": "A company wants to use cloud services with the requirement that data will reside on physical hardware that will not be shared with other companies. Which of the following meets this requirement?",
     "options": [
       "A. Dedicated resources",
@@ -2373,10 +2373,10 @@
       "D. SaaS"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Dedicated resources) is the correct answer. In cloud computing, \"Dedicated Hosts\" or \"Dedicated Instances\" ensure that your Virtual Machines run on physical servers reserved solely for your use, fulfilling compliance requirements for physical isolation from other tenants."
   },
   {
-    "id": 200,
+    "id": 19,
     "question": "Which of the following has the best penetration through physical objects, such as walls?",
     "options": [
       "A. 2.4GHz",
@@ -2385,11 +2385,11 @@
       "D. NFC"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (2.4GHz) is the correct answer. Lower frequency radio waves have longer wavelengths, which allow them to penetrate solid objects (walls, floors) better than higher frequencies like 5GHz or 6GHz. While 5GHz+ offers more speed, 2.4GHz offers better range and obstacle penetration."
   },
   {
-    "id": 201,
-    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).",
+    "id": 20,
+    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network?",
     "options": [
       "A. APIPA",
       "B. Gateway",
@@ -2397,10 +2397,10 @@
       "D. Subnet mask"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Gateway) is the correct answer. (Note: While IP and Subnet mask are also required, the Gateway is strictly necessary to communicate *outside* the local subnet. In the context of \"connecting to the network\" broadly including internet/WAN, Gateway is critical. Often, DHCP handles all three. However, without a Gateway, you are stuck on the LAN.) *Self-correction: The question asks what to configure to connect to the network. Usually, you need IP, Subnet, and Gateway. If manually configuring, all three are needed. If the question implies what allows traffic to leave, it's Gateway. Given the options, Gateway is a specific component often missed that breaks internet access.*"
   },
   {
-    "id": 202,
+    "id": 21,
     "question": "A customer reports a problem connecting to network resources. After asking open-ended questions, the technician determines the issue likely exists on the remote server. Which of the following should the technician do next?",
     "options": [
       "A. Document the findings.",
@@ -2409,10 +2409,10 @@
       "D. Establish a plan of action"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Test the theory) is the correct answer. Following the CompTIA troubleshooting steps: 1) Identify problem, 2) Establish theory, 3) Test theory. Since the technician has determined a likely cause (remote server issue), the next step is to test/confirm this theory (e.g., by pinging the server or checking server logs) before creating a plan of action."
   },
   {
-    "id": 203,
+    "id": 22,
     "question": "Which of the following best represents the purpose of NFC?",
     "options": [
       "A. Wired connections between several devices",
@@ -2421,10 +2421,10 @@
       "D. Direct connection of two computers for file sharing"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Short-distance wireless connections between two devices) is the correct answer. Near Field Communication (NFC) is designed for extremely short-range (4cm or less) one-to-one communication, used for tap-to-pay, pairing devices, or sharing small data (contacts/links) by touching devices together."
   },
   {
-    "id": 204,
+    "id": 23,
     "question": "Employees are concerned about sensitive data being printed on a shared multifunction printer located in a high-traffic hallway. Which of the following should a technician do to address this concern?",
     "options": [
       "A. Set up a PIN for user authentication at the printer",
@@ -2433,10 +2433,10 @@
       "D. Schedule print jobs to be released at certain times"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Set up a PIN for user authentication at the printer) is the correct answer. Implementing \"Secure Print\" with PIN authentication ensures the print job is stored in the printer's memory and only prints when the user physically arrives at the device and enters their code, preventing sensitive documents from sitting unattended."
   },
   {
-    "id": 205,
+    "id": 24,
     "question": "A customer recently lost data due to several unexpected shutdowns. Data integrity is important to the customer. Which of the following features should the technician choose to prevent data loss?",
     "options": [
       "A. Redundant power supply",
@@ -2445,11 +2445,11 @@
       "D. High-efficiency power supply"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Uninterruptible power supply) is the correct answer. An Uninterruptible Power Supply (UPS) provides battery backup power during an outage, allowing the system to stay running long enough to save work and shut down gracefully, thereby preserving data integrity."
   },
   {
-    "id": 206,
-    "question": "Which of the following statements best summarize managed vs unmanaged switches? (Select two).",
+    "id": 25,
+    "question": "Which of the following statements best summarize managed vs unmanaged switches?",
     "options": [
       "A. Unmanaged switches are generally more expensive",
       "B. Unmanaged switches have more security capabilities",
@@ -2457,10 +2457,10 @@
       "D. Managed switches have more features"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Unmanaged switches start working as soon as they are plugged in to the network) is the correct answer. Unmanaged switches are \"plug-and-play\" devices with no configuration interface. They simply forward traffic based on MAC addresses. Managed switches require configuration but offer advanced features like VLANs and SNMP."
   },
   {
-    "id": 207,
+    "id": 26,
     "question": "Which of the following can be used to logically segment networks?",
     "options": [
       "A. MAC",
@@ -2469,10 +2469,10 @@
       "D. DSL"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (VLAN) is the correct answer. A Virtual LAN (VLAN) allows a network administrator to partition a single physical switch into multiple logical networks. This isolates traffic (e.g., separating Guest Wi-Fi from Corporate Data) for security and performance management."
   },
   {
-    "id": 208,
+    "id": 27,
     "question": "A user keeps getting an error message when trying to print a letter. The printer is normally used to print cards and invitations. The user tries printing from a different computer, but the issue persists. Which of the following should the user do to resolve the issue?",
     "options": [
       "A. Print fewer pages.",
@@ -2481,10 +2481,10 @@
       "D. Change the paper tray setting."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Change the paper tray setting.) is the correct answer. If the printer is normally configured for special media (cards/invitations), its tray settings likely expect heavy stock paper. When printing a standard letter, the printer detects a mismatch (or the driver settings clash with the panel settings). Configuring the tray for \"Plain Paper\" resolves the mismatch error."
   },
   {
-    "id": 209,
+    "id": 28,
     "question": "Which of the following utilizes specialized ports on a laptop to expand the local connection options?",
     "options": [
       "A. NFC adapter",
@@ -2493,10 +2493,10 @@
       "D. USB dongle"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Docking station) is the correct answer. Unlike generic USB hubs, a true docking station often connects to a proprietary, high-bandwidth port on the bottom or side of enterprise laptops (or Thunderbolt), providing a wide array of desktop-class ports (DisplayPort, Ethernet, multiple USBs) and power."
   },
   {
-    "id": 210,
+    "id": 29,
     "question": "A user is having issues when charging a device with a Lightning cable. The cable is not recognized when it is plugged into the device. This issue is usually resolved by flipping the cable over. This issue does not occur with other devices of the same type. Which of the following would most likely cause the issue?",
     "options": [
       "A. The device needs to be restarted.",
@@ -2505,10 +2505,10 @@
       "D. The charging port is dirty or damaged"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (The charging port is dirty or damaged) is the correct answer. Lightning cables are reversible. If it only works one way, it usually means one set of gold pins inside the device's charging port is dirty (lint/dust) or corroded. The other devices work fine, ruling out the cable itself."
   },
   {
-    "id": 211,
+    "id": 30,
     "question": "A technician recently updated the firmware on a dual-BIOS motherboard. Following the update, the system has been stuck in a boot loop and cannot start an OS from any internal or external device. The technician cannot access the UEFI menu either. Which of the following should the technician do next?",
     "options": [
       "A. Enable the secondary configuration.",
@@ -2517,10 +2517,10 @@
       "D. Reapply thermal paste to the CPU."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable the secondary configuration.) is the correct answer. Dual-BIOS motherboards have a backup BIOS chip specifically for this scenario (a failed firmware update). Switching to the backup BIOS (via a jumper or board switch) allows the system to boot using the previous, working firmware."
   },
   {
-    "id": 212,
+    "id": 1,
     "question": "After troubleshooting a computer's connectivity, the network team determines there is a port-mapping issue. After plugging the patch cable into a different port, the issue persists. Which of the following troubleshooting steps should a technician take next to resolve the issue?",
     "options": [
       "A. Convert the patch cable to a crossover cable.",
@@ -2529,10 +2529,10 @@
       "D. Replace the patch cable from the device to the wall."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Test the patch cable from the computer to the network closet.) is the correct answer. The question implies the issue is physical infrastructure (port mapping). Since changing ports at the wall/panel didn't fix it, the problem could be the cable run inside the wall or the patch cable itself. Testing the full path verifies continuity and correct wiring."
   },
   {
-    "id": 213,
+    "id": 2,
     "question": "A technician is installing a new high-end graphics card that uses a 12VHPWR connector. Which of the following is the maximum wattage supported by this power connector?",
     "options": [
       "A. 400W",
@@ -2541,10 +2541,10 @@
       "D. 700W"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (600W) is the correct answer. The 12VHPWR (12+4 pin) connector, introduced with ATX 3.0 and PCIe 5.0, is designed to deliver up to 600 Watts of power over a single cable to high-performance GPUs (like the RTX 4090)."
   },
   {
-    "id": 214,
+    "id": 3,
     "question": "A user reports slow internet browsing. The technician finds high CPU and memory usage, and pop-ups occur every minute. Which of the following should the technician do next?",
     "options": [
       "A. Escalate to the network team to check end-to-end connectivity.",
@@ -2553,10 +2553,10 @@
       "D. Check the wireless settings and validate the DHCP configuration."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Update the anti-malware signatures and scan the system.) is the correct answer. The symptoms (high resource usage, frequent pop-ups, slow performance) are classic indicators of a malware infection. Running a scan with updated definitions is the critical remediation step."
   },
   {
-    "id": 215,
+    "id": 4,
     "question": "A company needs to develop a disaster recovery solution based on virtual machines. Which of the following service models is the most suitable?",
     "options": [
       "A. Infrastructure as a Service",
@@ -2565,10 +2565,10 @@
       "D. Software as a Service"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Infrastructure as a Service) is the correct answer. IaaS provides the fundamental building blocks (virtualized computing resources like VMs, storage, and networking). It allows the company to replicate its entire server infrastructure in the cloud for disaster recovery."
   },
   {
-    "id": 216,
+    "id": 5,
     "question": "Which of the following should a technician use to terminate a Cat 6 cable to a patch panel?",
     "options": [
       "A. Punchdown tool",
@@ -2577,10 +2577,10 @@
       "D. Network tap"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Punchdown tool) is the correct answer. Patch panels (and keystone jacks) use IDCs (Insulation-Displacement Connectors). A punchdown tool pushes the wire into the V-shaped metal blade, cutting the insulation and making electrical contact."
   },
   {
-    "id": 217,
+    "id": 6,
     "question": "A technician needs to move a workstation to a different logical network segment. Which of the following technologies should the technician use?",
     "options": [
       "A. DHCP",
@@ -2589,10 +2589,10 @@
       "D. VPN"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (VLAN) is the correct answer. Moving a device to a different logical network segment (subnet) without moving it physically is done by changing its VLAN assignment on the switch port configuration."
   },
   {
-    "id": 218,
+    "id": 7,
     "question": "Which of the following types of RAM would most likely be used in a server?",
     "options": [
       "A. SODIMM",
@@ -2601,10 +2601,10 @@
       "D. DDR3"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (ECC) is the correct answer. Servers prioritize data integrity and uptime. Error Correcting Code (ECC) RAM can detect and correct the most common kind of internal data corruption (single-bit errors), preventing crashes in critical systems."
   },
   {
-    "id": 219,
+    "id": 8,
     "question": "An office manager wants to block all outbound internet traffic but continue to enable all inbound traffic. Which of the following should a technician configure to achieve this goal?",
     "options": [
       "A. MAC filtering",
@@ -2613,10 +2613,10 @@
       "D. Switch"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Firewall) is the correct answer. A firewall uses Access Control Lists (ACLs) to filter traffic. It can be configured with specific rules to 'Deny All' outbound traffic on the WAN interface while allowing established or new inbound connections (though denying all outbound is an unusual configuration, a firewall is the tool to do it)."
   },
   {
-    "id": 220,
+    "id": 9,
     "question": "A user experiences a random BSOD while using a computer, but the operating system recovers as expected Which of the following symptoms would indicate the issue is related to RAM?",
     "options": [
       "A. Wrong BIOS configurations",
@@ -2625,10 +2625,10 @@
       "D. POST code beeps"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (POST code beeps) is the correct answer. While BSODs can be RAM-related, the question asks for a *symptom* that indicates RAM issues. If the system fails the Power-On Self-Test (POST) memory check, the BIOS will emit a specific beep code pattern indicating a memory error."
   },
   {
-    "id": 221,
+    "id": 10,
     "question": "An organization upgrades all desktops to Windows 11 and must ensure protection from malicious software at startup. Which option should be enabled?",
     "options": [
       "A. Trusted Platform Module",
@@ -2637,10 +2637,10 @@
       "D. BIOS password"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Secure Boot) is the correct answer. Secure Boot is a UEFI feature that prevents \"unauthorized\" operating systems and bootloaders from loading during the startup process. It ensures that only software trusted by the PC manufacturer (signed with a valid certificate) can boot, blocking rootkits."
   },
   {
-    "id": 223,
+    "id": 11,
     "question": "A user reports that the printouts from a laser printer have lines and smudges on them. The printer is also intermittently misfeeding the paper. Which of the following components should a technician replace to address this issue?",
     "options": [
       "A. Fuser",
@@ -2649,10 +2649,10 @@
       "D. Toner cartridge"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Maintenance kit) is the correct answer. A printer maintenance kit typically includes replacement rollers (addressing the misfeed issue) and a new fuser (addressing the smudges/lines if caused by a worn fuser roller). It is a comprehensive fix for wear-and-tear issues."
   },
   {
-    "id": 224,
+    "id": 12,
     "question": "Which of the following storage options would a technician most likely recommend to have large amounts of affordable capacity without concern for read times on a desktop computer?",
     "options": [
       "A. 750GB NVMe M.2 SSD",
@@ -2661,10 +2661,10 @@
       "D. 4TB SAS 2.5\" 15,000rpm HDD"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (2TB SATA 3.5\" 5,400rpm HDD) is the correct answer. Mechanical Hard Disk Drives (HDDs) offer the lowest cost per gigabyte. A 5400rpm drive is slower than 7200rpm or SSDs, but since the requirement is affordable capacity \"without concern for read times,\" it fits perfectly."
   },
   {
-    "id": 225,
+    "id": 13,
     "question": "An IT support specialist needs to configure several laptops to access local resources wherever the employees are while in the office. Which of the following would best meet this requirement?",
     "options": [
       "A. Configure cellular location services to facilitate device identification",
@@ -2673,10 +2673,10 @@
       "D. Create roaming profiles for each laptop"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Set up a Wi-Fi connection with a common SSID) is the correct answer. A common SSID (Service Set Identifier) broadcast by multiple Access Points allows users to roam seamlessly throughout the office. Their laptops will automatically switch to the strongest AP signal without losing network access."
   },
   {
-    "id": 226,
+    "id": 14,
     "question": "A help desk technician needs to work on a high-volume printer. Users have reported occasional paper jams and smudges appearing on printed documents. Which of the following steps should the technician do next to address these issues?",
     "options": [
       "A. Perform a full factory reset.",
@@ -2685,10 +2685,10 @@
       "D. Replace the fuser."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Check and clean the rollers.) is the correct answer. Paper jams are often caused by dirty or worn pickup rollers slipping on the paper. Smudges can also be caused by debris on the rollers transferring to the page. Cleaning them is the first, least invasive maintenance step."
   },
   {
-    "id": 227,
+    "id": 15,
     "question": "A user connects their laptop to a projector in a conference room. Once connected, the userreports the screen is smaller at the bottom than at the top. The user tries restarting the laptop and then disconnecting and reconnecting the cable to the projector. Which of the following should a technician do to resolve the issue?",
     "options": [
       "A. Replace the HDMI cable.",
@@ -2697,10 +2697,10 @@
       "D. Increase the resolution."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Adjust the keystone) is the correct answer. The \"keystone effect\" is the trapezoidal distortion of the image when the projector is angled relative to the screen (not perfectly perpendicular). Adjusting the digital or physical keystone setting squares the image."
   },
   {
-    "id": 228,
+    "id": 16,
     "question": "Which of the following cloud models would multiple organizations in the same industry most likely use?",
     "options": [
       "A. Public",
@@ -2709,10 +2709,10 @@
       "D. Private"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Community) is the correct answer. A Community Cloud is shared infrastructure between several organizations from a specific community with common concerns (e.g., security, compliance, jurisdiction), such as multiple hospitals or government agencies."
   },
   {
-    "id": 229,
+    "id": 17,
     "question": "Which of the following ports should a technician disable to increase the security of remote connectivity?",
     "options": [
       "A. 22",
@@ -2721,11 +2721,11 @@
       "D. 53"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (23) is the correct answer. Port 23 is used by Telnet, an unencrypted text-based protocol for remote management. Because credentials and commands are sent in cleartext, it is insecure and should be disabled in favor of SSH (Port 22)."
   },
   {
-    "id": 230,
-    "question": "Which of the following port numbers are associated with email traffic? (Select two).",
+    "id": 18,
+    "question": "Which of the following port numbers are associated with email traffic?",
     "options": [
       "A. 23",
       "B. 25",
@@ -2733,10 +2733,10 @@
       "D. 110"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (25) is the correct answer. Port 25 is the standard port for SMTP (Simple Mail Transfer Protocol), used for sending email messages between mail servers. (Port 110 is for POP3, which is for receiving email, but 25 is the primary \"traffic\" routing port)."
   },
   {
-    "id": 231,
+    "id": 19,
     "question": "Which of the following networking devices is used to create a mesh network?",
     "options": [
       "A. Modem",
@@ -2745,10 +2745,10 @@
       "D. ONT"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Access point) is the correct answer. A Wireless Mesh Network (WMN) is created using multiple Wireless Access Points (nodes) that communicate with each other wirelessly to extend coverage over a large area without needing Ethernet cables to every device."
   },
   {
-    "id": 232,
+    "id": 20,
     "question": "An employee's screen keeps flashing. Sometimes the picture goes out and comes back. The employee checks the power cord and confirms the device is plugged in fully. Which of the following should a technician check for first?",
     "options": [
       "A. Loose video cable",
@@ -2757,10 +2757,10 @@
       "D. Swollen motherboard capacitor"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Loose video cable) is the correct answer. Intermittent signal loss or flashing is most commonly caused by a loose or bad HDMI/DisplayPort cable connection. Checking physical connections is the \"Physical Layer\" troubleshooting step that should always be done first."
   },
   {
-    "id": 233,
+    "id": 21,
     "question": "Which of the following internet connection types is the best for extremely high data transfer with symmetrical upload and download speeds?",
     "options": [
       "A. DSL",
@@ -2769,10 +2769,10 @@
       "D. Satellite"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Fiber) is the correct answer. Fiber optic internet offers the highest bandwidth available (Gigabit speeds and beyond) and typically provides symmetrical speeds (Upload speed = Download speed), unlike Cable or DSL which are usually asymmetrical."
   },
   {
-    "id": 234,
+    "id": 22,
     "question": "A customer reports that a text-only document prints with unrecognizable characters. The print preview correctly displays the document. Which of the following is the most likely cause of the issue?",
     "options": [
       "A. Outdated firmware",
@@ -2781,10 +2781,10 @@
       "D. Corrupted document file"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Incorrect driver) is the correct answer. Printing \"garbage text\" (random symbols, wingdings) usually happens when the computer is using the wrong printer driver (e.g., PCL6 driver for a PostScript printer). The printer receives commands it doesn't understand and interprets them as text."
   },
   {
-    "id": 235,
+    "id": 23,
     "question": "An end user's domain password expires while they are working from home. The end user tries to reset the password using Ctrl+Alt+Delete and then receives the following message: Configuration information could not be read from the domain controller, either because the machine is unavailable or because access is denied. Which of the following will resolve this issue?",
     "options": [
       "A. Restart the computer.",
@@ -2793,10 +2793,10 @@
       "D. Join the Wi-Fi network."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Connect to the VPN.) is the correct answer. To change a Domain Password, the workstation must be able to communicate with the Domain Controller (DC). From home, the PC is off-network. Connecting to the corporate VPN establishes a secure tunnel to the internal network, allowing the password reset request to reach the DC."
   },
   {
-    "id": 236,
+    "id": 24,
     "question": "Which of the following RAID configurations can lose two drives without data loss?",
     "options": [
       "A. RAID 0",
@@ -2805,10 +2805,10 @@
       "D. RAID 6"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (RAID 6) is the correct answer. RAID 6 uses dual parity stripes across all drives. This allows it to withstand the simultaneous failure of *any two* drives in the array without losing data. (RAID 5 can only handle one drive failure)."
   },
   {
-    "id": 237,
+    "id": 25,
     "question": "Which of the following internet connection types provides the fastest speeds and greatest coverage in less populated areas with minimal infrastructure?",
     "options": [
       "A. Fiber",
@@ -2817,10 +2817,10 @@
       "D. Cellular"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Cellular) is the correct answer. In rural or less populated areas where running cables (Fiber/Cable/DSL) is cost-prohibitive, Cellular towers (4G LTE/5G) provide wide area coverage and high speeds (especially 5G) without needing wires to every home. (Satellite has coverage but usually slower speeds/higher latency than modern cellular)."
   },
   {
-    "id": 238,
+    "id": 26,
     "question": "Which of the following connectors supports High-bandwidth Digital Content Protection (HDCP)?",
     "options": [
       "A. DVI-A",
@@ -2829,6 +2829,6 @@
       "D. DisplayPort"
     ],
     "correctAnswer": 3,
-    "explanation": "The degraded status on Server 2 indicates a RAID-5 issue, typically due to a failed or failing drive. In RAID-5 configurations, when one drive fails, the system can still operate but with reduced performance as parity data is used to rebuild missing data on-the-fly. Recommended Replacement Drive: To minimize performance degradation, the replacement drive should be: SAS HDD with the same specifications (64KB stripe size, no read-ahead, and write-back policy). Matching the configuration exactly ensures seamless integration and optimizes recovery speed in the RAID-5 array. In RAID-5, degraded performance is expected when one drive fails, as parity data needs to rebuild missing information during each read/write process. Replacing the failed drive restores the RAID array to optimal status, reducing the load on existing drives and returning the system to normal read/write performance. The write-back policy and disabled disk cache settings are designed to reduce latency and increase efficiency, essential for handling real-time applications. A user reports poor performance on the application server. INSTRUCTIONS Click on Server 1 and Server 2 and review the information presented in each chart to determine which drives need to be replaced. Select the appropriate replacement drive that should be used, for the least performance degradation to the server. A computer server with many black and silver parts <table> <tbody> <tr> <td>Status</td> <td>Name</td> <td>State</td> <td>Layout</td> <td>Bus protocol</td> <td>Media</td> <td>Read policy</td> <td>Write policy</td> <td>Stripe element size</td> <td>Disk cache policy</td> </tr> <tr> <td>✓</td> <td>Server 1</td> <td>Ready</td> <td>RAID-5</td> <td>SAS</td> <td>HDD</td> <td>No read ahead</td> <td>Write back</td> <td>64KB</td> <td>Disabled</td> </tr> <tr> <td>⚠</td> <td>Server 2</td> <td>Degraded</td> <td>RAID-5</td> <td>SAS</td> <td>HDD</td> <td>No read ahead</td> <td>Write back</td> <td>64KB</td> <td>Disabled</td> </tr> </tbody> </table> ## Server 1 <table> <tbody> <tr> <td>Status</td> <td>Name</td> <td>State</td> <td>Size</td> <td>Media</td> <td>Speed</td> <td>Failure predicted</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:2</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>Yes</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:3</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:4</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> <tr> <td>✓</td> <td>Physical disk 1:5</td> <td>Online</td> <td>4TB</td> <td>HDD</td> <td>15k rpm</td> <td>No</td> </tr> </tbody> </table> A screen shot of a computer ## Server 1, Drive bay 3 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 1, Drive bay 4 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 1, Drive bay 5 <table> <tbody> <tr> <td>Size</td> <td>Interface</td> <td>Rotational speed</td> <td></td> </tr> <tr> <td>4TB</td> <td>4TB v</td> <td>HDD</td> <td>15k rpm</td> </tr> </tbody> </table> A computer screen shot of a computer ## Server 2, Drive bay 2 <table> <thead> <tr> <th>Size</th> <th>Interface</th> <th>Rotational speed</th> </tr> </thead> <tbody> <tr> <td>2TB v</td> <td>HDD</td> <td>7200rpm</td> </tr> <tr> <td>8TB</td> <td>SAS</td> <td>5400rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>7200rpm</td> </tr> <tr> <td>2TB</td> <td>SATA</td> <td>SSD</td> </tr> <tr> <td>1TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>15k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>SSD</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Layout</td> <td>Bus protocol</td> <td>Mer</td> </tr> <tr> <td>RAID-5</td> <td>SAS</td> <td>HD</td> </tr> <tr> <td>RAID-5</td> <td>SAS</td> <td>HD</td> </tr> </tbody> </table> A screenshot of a computer ## Server 2, Drive bay 3 <table> <thead> <tr> <th>Size</th> <th>Interface</th> <th>Rotational speed</th> </tr> </thead> <tbody> <tr> <td>2TB v</td> <td>HDD</td> <td>7200rpm</td> </tr> <tr> <td>8TB</td> <td>SAS</td> <td>5400rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>7200rpm</td> </tr> <tr> <td>2TB</td> <td>SATA</td> <td>SSD</td> </tr> <tr> <td>1TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>15k rpm</td> </tr> <tr> <td>4TB</td> <td>SAS</td> <td>10k rpm</td> </tr> <tr> <td>4TB</td> <td>SATA</td> <td>SSD</td> </tr> </tbody> </table> A screenshot of a computer 246. SIMULATION - (Topic 2) Laura, a customer, has instructed you to configure her home office wireless access point. She plans to use the wireless network for finances and has requested that the network be setup with the highest encryption possible. Additionally, Laura knows that her neighbors have wireless networks and wants to ensure that her network is not being interfered with by the other networks. She requests that the default settings be changed to the following. Wireless Name: HomeWiFi Shared Key: CompTIA Router Password: Secure$1 Finally, Laura wants to ensure that only her laptop and Smartphone can connect to the network. Laptop: IP Address 192.168.1.100 Hardware Address: 00:0A:BF:03:C4:54 Smartphone: IP Address 192.168.1.101 Hardware Address: 09:2C:D0:22:3F:11 INSTRUCTIONS Configure Laura's wireless network using the network adapter window. If at any time you would like to bring back the initial state of the situation, please click the Reset All button. ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** **Wireless Network Settings** Enable Wireless: ☑ Wireless Network Name: HomeWiFi (Also called the SSID) Wireless Channel: 1 ▼ Disable SSID Broadcast: ☐ 802.11g Only Mode: ☐ **Wireless Security Mode** Security Mode: Enable WPA2 Wireless Security (enhanced) ▼ **WPA2** Passphrase: CompTIA Confirmed Passphrase: CompTIA ## Laura's Wireless Configuration ### Laura's House **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** Please enter the same password into both boxes for confirmation Password: Verify Password: <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>Default</td> </tr> <tr> <td>Security Mode:</td> <td>Open</td> </tr> <tr> <td>Wireless Channel:</td> <td>11</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>MyWi</td> </tr> <tr> <td>Security Mode:</td> <td>WEP</td> </tr> <tr> <td>Wireless Channel:</td> <td>6</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Wireless Network Name:</td> <td>PatsWIFI</td> </tr> <tr> <td>Security Mode:</td> <td>WEP</td> </tr> <tr> <td>Wireless Channel:</td> <td>11</td> </tr> </tbody> </table> ---- ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** ### Wireless Network Settings Enable Wireless: ☐ Wireless Network Name: default (Also called the SSID) Wireless Channel: 6 Disable SSID Broadcast: ☐ 802.11g Only Mode: ☐ ### Wireless Security Mode Security Mode: Disable Wireless Security (not recommended) ---- ## Laura's Wireless Configuration **WIRELESS SETUP** | **NETWORK FILTER** | **ADMINISTRATOR TOOLS** Turn MAC Filtering ON: ☐ Allow the following MAC Addresses ☐ ☐ ☐ ☐ ---- **Answer:** See the explanation below **Explanation:** solution as ``` Wireless Configuration                                                    x Wireless Setup    Network Filter    Administrator Tools WIRELESS NETWORK SETTINGS: Enable Wireless:  ☑ Wireless Network Name:  HomeWiFi        (Also called the SSID) Wireless Channel:  1        ▼ Disable SSID Broadcast:  ☐ 802.11g Only Mode:  ☐ WIRELESS SECURITY MODE: Security Mode:  Enable WPA2 Wireless Security (enhanced)    ▼ WPA2 Passphrase:  CompTIA Confirmed Passphrase:  CompTIA Save Settings ``` A screenshot of a network settings ``` Wireless Configuration                                                    x Wireless Setup    Network Filter    Administrator Tools ☑  Turn MAC Filtering ON Allow the following MAC Addresses                                         ▼ MAC Address ☑   00:0A:BF:03:C4:54 ☑   09:2C:D0:22:3F:11 ☐ ☐ Save Settings ``` A screenshot of a computer ## Wireless Configuration Wireless Setup | Network Filter | Administrator Tools ### ADMIN PASSWORD Please enter the same password into both boxes for confirmation. <table> <tbody> <tr> <td>Password:</td> <td>Secure$1</td> </tr> <tr> <td>Verify Password:</td> <td>Secure$1</td> </tr> </tbody> </table> Save Settings A screenshot of a computer 247. HOTSPOT - (Topic 2) A customer built a computer for gaming, sourcing individual components and then assembling the system. The OS starts up, but within a few minutes the machine locks up. The customer brought the computer to a technician to diagnose the issue. Liquid Cooling Power Supply | CPU | Storage Motherboard Memory Video Card BIOS System info **Cause** Select a cause Overheating Component incompatibility Insufficient power Overclocking **Resolution** Select a resolution Replace PSU with higher wattage model Update motherboard firmware Install larger radiator Lower CPU clock speed Increase CPU multiplier Run CHKDSK on NVMe drive Replace thermal paste Decrease CPU voltage Raise memory frequency Switch motherboard for micro-ATX form factor Decrease memory module frequency Replace GPU with lower performance model **Answer:** Liquid Cooling Power Supply | CPU | Storage Motherboard Memory Video Card BIOS System info Cause Select a cause Overheating Component incompatibility Insufficient power Overclocking Resolution Select a resolution Replace PSU with higher wattage model Update motherboard firmware Install larger radiator Lower CPU clock speed Increase CPU multiplier Run CHKDSK on NVMe drive Replace thermal paste Decrease CPU voltage Raise memory frequency Switch motherboard for micro-ATX form factor Decrease memory module frequency Replace GPU with lower performance model ## 248. SIMULATION - (Topic 2) A small ISP has hired a new technician Joe, the new technician, is being trained to configure customers' home networks The trailing instructor gives me technician a starter kit with cables, cable ends, and other network equipment and asks mm to build a working network. The computer should be connected to have internet connectivity and the phone should be connected to have a dial tone. INSTRUCTIONS Use the appropriate cables. cable ends, tools and equipment to configure the network ana connect an components accordingly There are 3 steps and the simulation starts on step 1. ## SOHO Starter Kit **Step 1** **Step 2** Show Question Reset All Answers ### Connectors * RJ11 * RJ45 * F Connector ### Tools ---- ## SOHO Starter Kit **Step 1** **Step 2** Show Question Reset All Answers ### Cables ---- ### POTS ### Wall ISP Service Outlet ### SOHO Router * Phone Service * LAN 1-4 * WAN ### Cable Modem ### Home PC ## Answer: See the answer below in explanation part. ## Explanation: Answer of both steps below. RJ11 [connector diagram] RJ11 [crimping tool diagram] [crimping tool diagram] F Connector [connector diagram] F Connector [tool diagram] [tool diagram] RJ45 [connector diagram] RJ45 [crimping tool diagram] [crimping tool diagram] A group of wires with different colors SOHO Starter Kit     Step 1     Step 2     [Show All Answers]     [Reset All Answers] Cables [Three cable diagrams shown] POTS                                                                                                                                Home PC Cable Modem Wall ISP Service Outlet SOHO Router Phone          LAN 1-4          WAN Service A screenshot of a computer 249. HOTSPOT - (Topic 2) A customer has contacted you about building two new desktops. The first desktop will be a gaming workstation. The customer requirements include: Playing the newest games at a high frame rate Fast game load times Enough storage to have several games installed at once High-end audio No concern about cost Running the current Windows OS The second workstation will be a family workstation. The requirements include: Capability for word processing, videoconferencing, and basic web surfing Minimal cost, as long as it meets the requirements Running the current Windows OS ## Gaming and Family Workstation Configuration Options ### Gaming **Select Microprocessor:** * Intel Core I3 * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * On board video **Select RAM:** * 16GB DDR5 ECC * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * 7.1 surround card **Select Hard Drive:** * 500GB HDD * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * Headset * External microphone * Web cam ### Family **Select Microprocessor:** * Intel Core I3 * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * On board video **Select RAM:** * 16GB DDR5 ECC * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * 7.1 surround card **Select Hard Drive:** * 500GB HDD * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * Headset * External microphone * Web cam ## Answer: ### Gaming **Select Microprocessor:** * Intel Core I3 * <ins>Intel Core I7</ins> * Intel Xeon * ARM Cortex **Select Video Card:** * <ins>Discrete GPU</ins> * On board video **Select RAM:** * <ins>16GB DDR5 ECC</ins> * 4GB DDR5 ECC * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * On board sound * <ins>7.1 surround card</ins> **Select Hard Drive:** * 500GB HDD * <ins>4TB HDD</ins> * 256GB SSD * <ins>1TB SSD</ins> **Select Peripherals:** * <ins>Headset</ins> * <ins>External microphone</ins> * Web cam ### Family **Select Microprocessor:** * <ins>Intel Core I3</ins> * Intel Core I7 * Intel Xeon * ARM Cortex **Select Video Card:** * Discrete GPU * <ins>On board video</ins> **Select RAM:** * 16GB DDR5 ECC * <ins>4GB DDR5 ECC</ins> * 8GB DDR5 * 8GB SODIMM * 16GB DDR5 **Select Sound Card:** * <ins>On board sound</ins> * 7.1 surround card **Select Hard Drive:** * <ins>500GB HDD</ins> * 4TB HDD * 256GB SSD * 1TB SSD **Select Peripherals:** * <ins>Headset</ins> * <ins>External microphone</ins> * <ins>Web cam</ins>"
+    "explanation": "D (DisplayPort) is the correct answer. HDCP is a form of digital copy protection required to play protected content (like Blu-ray movies). Digital interfaces like DisplayPort, HDMI, and DVI-D support it. VGA (analog) and DVI-A (analog) do not."
   }
 ]

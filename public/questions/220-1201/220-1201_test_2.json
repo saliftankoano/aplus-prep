@@ -9,7 +9,7 @@
       "D. Run diagnostics on the digitizer"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Inspect the USB-C port for damage) is the correct answer. Since the device was dropped and now fails to charge, physical damage to the charging port is a likely outcome of the impact. Inspecting the port is a quick, non-intrusive first step before attempting software resets or replacing internal components like the battery."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "D. Stand-alone firewall"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Managed switch) is the correct answer. A managed switch allows administrators to configure specific ports, including enabling or disabling them. Port security features on a managed switch can also automatically disable a port if an unauthorized device connects."
   },
   {
     "id": 3,
@@ -33,11 +33,11 @@
       "D. Adjust the gamma settings."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the filter) is the correct answer. Projectors generate significant heat and rely on airflow for cooling. If the dust filter is clogged, the projector will overheat and shut down (thermal protection). The \"strange smell\" is often burning dust."
   },
   {
     "id": 4,
-    "question": "A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following ate most likely causing three issues? (Select two).",
+    "question": "A user is experiencing multiple issues with an in-place upgrade of a laptop's operating system. The built-in camera is unresponsive, and the user is unable to pair the device with any Bluetooth accessories. Which of the following are most likely causing these issues?",
     "options": [
       "A. Incorrect configuration of the settings",
       "B. OS and device version incompatibility",
@@ -45,7 +45,7 @@
       "D. Full storage"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Disabled settings following the upgrade) is the correct answer. During an OS upgrade, privacy settings (like camera access) or radio toggles (Bluetooth/Wi-Fi) may be reset to default or disabled for security reasons. Checking these settings is the first troubleshooting step."
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "D. Check the battery health of the device."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Close unnecessary programs.) is the correct answer. Slow performance and failure to launch apps often indicate high resource usage (RAM or CPU). Closing background apps frees up memory and processing power, restoring responsiveness."
   },
   {
     "id": 6,
@@ -69,11 +69,11 @@
       "D. SaaS"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Hypervisor) is the correct answer. A hypervisor (or Virtual Machine Monitor, VMM) is the software layer that creates and runs virtual machines, allocating physical hardware resources (CPU, RAM) to the virtual environments."
   },
   {
     "id": 7,
-    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Select two).",
+    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue?",
     "options": [
       "A. Turn it off and disconnect all power sources.",
       "B. Submit an emergency request to the local facilities manager.",
@@ -81,31 +81,21 @@
       "D. Contact the vendor and submit a return request."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Turn it off and disconnect all power sources.) is the correct answer. Safety is the first priority. A burning smell indicates a potential electrical short or overheating component that could lead to fire. Removing power immediately prevents further damage or injury."
   },
   {
     "id": 8,
     "question": "A user's laptop keyboard is distorted and no longer flat. Which laptop component most likely failed?",
-    "options": [
-      "A. Battery",
-      "B. RAM",
-      "C. Keyboard",
-      "D. HDD"
-    ],
+    "options": ["A. Battery", "B. RAM", "C. Keyboard", "D. HDD"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Battery) is the correct answer. A swollen Lithium-ion battery (located under the palm rest or keyboard in many thin laptops) expands and exerts pressure upwards, causing the keyboard to bulge or become distorted."
   },
   {
     "id": 9,
     "question": "Which of the following is a Bluetooth network an example of?",
-    "options": [
-      "A. PAN",
-      "B. LAN",
-      "C. WAN",
-      "D. SAN"
-    ],
+    "options": ["A. PAN", "B. LAN", "C. WAN", "D. SAN"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (PAN) is the correct answer. A Personal Area Network (PAN) is a computer network for interconnecting devices centered on an individual person's workspace. Bluetooth is the primary technology used for wireless PANs (connecting headphones, mice, phones)."
   },
   {
     "id": 10,
@@ -117,7 +107,7 @@
       "D. Toner probe"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Toner probe) is the correct answer. A toner generator places a signal on the cable, and a probe detects that signal at the other end (e.g., at the patch panel), allowing the technician to identify the specific cable in a bundle."
   },
   {
     "id": 11,
@@ -129,7 +119,7 @@
       "D. Flip the image vertically from the projector"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Flip the image vertically from the projector) is the correct answer. Ceiling-mounted projectors are installed upside down. They have a menu setting (often called \"Ceiling Mode\" or \"Flip Vertical\") to invert the image so it appears correctly on the screen."
   },
   {
     "id": 12,
@@ -141,43 +131,28 @@
       "D. Crimping"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Crimping) is the correct answer. A crimping tool is used to compress the RJ45 connector onto the cable, forcing the metal contacts into the wire strands to create a secure electrical connection."
   },
   {
     "id": 13,
     "question": "Which of the following resolutions is commonly known as Ultra HD?",
-    "options": [
-      "A. 1920x1080",
-      "B. 2048x1080",
-      "C. 3840x2160",
-      "D. 7680x4320"
-    ],
+    "options": ["A. 1920x1080", "B. 2048x1080", "C. 3840x2160", "D. 7680x4320"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (3840x2160) is the correct answer. Ultra High Definition (UHD or 4K) has a resolution of 3840 x 2160 pixels, which is four times the pixel count of Full HD (1920x1080)."
   },
   {
     "id": 14,
     "question": "Which of the following is an isolated virtual machine?",
-    "options": [
-      "A. Sandbox",
-      "B. Hypervisor",
-      "C. Container",
-      "D. VDI"
-    ],
+    "options": ["A. Sandbox", "B. Hypervisor", "C. Container", "D. VDI"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Sandbox) is the correct answer. A sandbox is an isolated environment (often a VM) used to test software or code safely, preventing any potential malware or errors from affecting the host system or network."
   },
   {
     "id": 15,
     "question": "A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?",
-    "options": [
-      "A. SSH",
-      "B. LDAP",
-      "C. FTPS",
-      "D. SMTP"
-    ],
+    "options": ["A. SSH", "B. LDAP", "C. FTPS", "D. SMTP"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (SSH) is the correct answer. Secure Shell (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. It replaces insecure protocols like Telnet for command-line access."
   },
   {
     "id": 16,
@@ -189,7 +164,7 @@
       "D. Patch panel"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (PoE switch) is the correct answer. A Power over Ethernet (PoE) switch delivers DC power along with data over Ethernet cabling, powering devices like IP phones and wireless access points without needing separate power supplies."
   },
   {
     "id": 17,
@@ -201,7 +176,7 @@
       "D. Replace the battery"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the battery) is the correct answer. If the laptop runs fine on AC power (docked or plugged in) but dies immediately when disconnected, the battery is unable to hold a charge and has likely reached the end of its lifespan."
   },
   {
     "id": 18,
@@ -213,31 +188,21 @@
       "D. Changing the print quality settings to best"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Modifying duplex settings to double-sided) is the correct answer. Setting printers to duplex (double-sided) printing by default cuts paper consumption in half, significantly reducing the environmental impact and cost."
   },
   {
     "id": 19,
     "question": "Which of the following should a company use to implement automatic time synchronization?",
-    "options": [
-      "A. DHCP",
-      "B. UTM",
-      "C. NTP",
-      "D. AAA"
-    ],
+    "options": ["A. DHCP", "B. UTM", "C. NTP", "D. AAA"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (NTP) is the correct answer. The Network Time Protocol (NTP) is used to synchronize the clocks of computers over a network, ensuring accurate timestamps for logs, authentication, and scheduled tasks."
   },
   {
     "id": 20,
     "question": "A company wants to have fast read speeds for its locally stored data. Which of the following configurations has the lowest cost to fulfill this requirement?",
-    "options": [
-      "A. RAID 0",
-      "B. RAID 1",
-      "C. RAID 5",
-      "D. RAID 10"
-    ],
+    "options": ["A. RAID 0", "B. RAID 1", "C. RAID 5", "D. RAID 10"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (RAID 0) is the correct answer. RAID 0 (Striping) splits data evenly across two or more disks, increasing read/write speeds significantly. It is the lowest cost performance option as it utilizes 100% of the drive capacity (unlike RAID 1/5/10 which lose capacity to redundancy). Note: It offers no fault tolerance."
   },
   {
     "id": 21,
@@ -249,7 +214,7 @@
       "D. Taking a backup and shutting down the server"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Performing a physical-to-virtual conversion and hosting on IaaS) is the correct answer. P2V (Physical-to-Virtual) migration converts the existing physical server's state into a virtual machine. This VM can be hosted on Infrastructure as a Service (IaaS) cloud, preserving the legacy application environment exactly as is without needing the physical hardware."
   },
   {
     "id": 22,
@@ -261,7 +226,7 @@
       "D. Ability to leverage IaaS and PaaS"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Ability to meet data residency requirements) is the correct answer. A hybrid cloud combines public and private cloud environments. Organizations can keep sensitive data or data subject to residency laws (GDPR, HIPAA) on their on-premise private cloud while using the public cloud for less sensitive workloads."
   },
   {
     "id": 23,
@@ -273,7 +238,7 @@
       "D. Laser printer"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Inkjet printer) is the correct answer. Inkjet printers have the lowest initial hardware cost for color printing compared to color laser printers. (However, the cost per page for ink can be higher over time)."
   },
   {
     "id": 24,
@@ -285,7 +250,7 @@
       "D. Print server"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Badging) is the correct answer. Implementing \"Pull Printing\" or \"Follow Me Printing\" often uses ID badges (Badging) or PINs. Users print to a global queue, but the job is only released and printed when they tap their badge at a specific printer."
   },
   {
     "id": 25,
@@ -297,7 +262,7 @@
       "D. SMB configuration"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (User authentication) is the correct answer. Configuring user authentication on the device ensures that functions like copying or scanning are locked until a valid user logs in (via PIN, username/password, or badge), restricting access to authorized employees."
   },
   {
     "id": 26,
@@ -309,7 +274,7 @@
       "D. Calibrate the alignment."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Replace the ribbon.) is the correct answer. Dot matrix printers use an ink-soaked ribbon. As the ink is used up, the print output fades. Replacing the ribbon is the standard maintenance task to restore print density."
   },
   {
     "id": 27,
@@ -321,11 +286,11 @@
       "D. Reset the router."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Change the default password.) is the correct answer. Default administrator credentials (like admin/admin) are public knowledge. Changing them immediately prevents unauthorized access to the router's configuration."
   },
   {
     "id": 28,
-    "question": "An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue (Select two).",
+    "question": "An SAS RAID array has severely degraded and gone offline. A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue?",
     "options": [
       "A. Run a magnet over each drive.",
       "B. Check if one of the drives is not level",
@@ -333,7 +298,7 @@
       "D. Check the OS logs"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Listen for clicking and grinding noises) is the correct answer. Mechanical failure of hard drives often produces audible indicators like the \"click of death\" or grinding. If software logs are inconclusive, physical inspection (listening) can identify a failed drive in the array."
   },
   {
     "id": 29,
@@ -345,7 +310,7 @@
       "D. The power supply only works in redundant configurations"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (The user did not connect the 4-pin CPU connector) is the correct answer. The CPU requires a dedicated power connection (4-pin or 8-pin EPS12V) separate from the main 24-pin motherboard connector. If this is forgotten, the motherboard has power but the CPU does not, preventing boot."
   },
   {
     "id": 30,
@@ -357,6 +322,6 @@
       "D. Molex connector"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (M.2 interface) is the correct answer. NVMe (Non-Volatile Memory Express) SSDs typically use the M.2 form factor and interface (connecting via PCIe) to deliver high-speed storage performance."
   }
 ]

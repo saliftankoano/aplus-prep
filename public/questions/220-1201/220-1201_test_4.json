@@ -9,7 +9,7 @@
       "D. Implement BitLocker on the computer."
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Enable the module in the UEFI BIOS) is the correct answer. Many modern processors have firmware-based TPM (fTPM for AMD, PTT for Intel) built-in, but it is often disabled by default in the BIOS/UEFI. Enabling this feature meets the TPM 2.0 requirement for Windows 11 without needing a dedicated hardware chip."
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "D. The CPU cannot keep up with the transcoding"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (The HDMI cable version is incorrect) is the correct answer. Older HDMI cable standards (such as HDMI 1.4 or earlier) may not support 4K resolution at 60Hz or may have bandwidth limitations that force the device to fallback to 1080p. Using a High Speed or Ultra High Speed HDMI cable (HDMI 2.0 or 2.1) is required for reliable 4K output."
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
       "D. Use dynamic IP addressing for all devices"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Dynamic IPs for laptops, static IP for printer on same subnet) is the correct answer. Assigning a static IP address to network resources like printers ensures their address does not change (which happens with DHCP), preventing connectivity issues for users who have mapped the printer to a specific IP. Laptops can remain on Dynamic IP (DHCP) for flexibility."
   },
   {
     "id": 4,
@@ -45,19 +45,14 @@
       "D. RADIUS server"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Proxy server) is the correct answer. A proxy server acts as an intermediary between a user's computer and the internet. It can be configured with content filtering rules to block access to specific websites or categories of websites, enforcing corporate internet usage policies."
   },
   {
     "id": 5,
     "question": "A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?",
-    "options": [
-      "A. Video card",
-      "B. HDD",
-      "C. RAM module",
-      "D. TPM"
-    ],
+    "options": ["A. Video card", "B. HDD", "C. RAM module", "D. TPM"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (RAM module) is the correct answer. Random Blue Screens of Death (BSODs) and freezing, especially under load or intensifying over time (as memory fills up), are classic symptoms of failing RAM. As the system tries to write to or read from a corrupted memory address, the OS crashes."
   },
   {
     "id": 6,
@@ -69,7 +64,7 @@
       "D. Single-mode fiber"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Single-mode fiber) is the correct answer. Fiber optic cables (both single-mode and multi-mode) use pulses of light (laser or LED) to transmit data through glass or plastic strands, offering high bandwidth and immunity to electromagnetic interference."
   },
   {
     "id": 7,
@@ -81,7 +76,7 @@
       "D. Replace the hard disk and rebuild the array."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Replace the hard disk and rebuild the array.) is the correct answer. A blinking orange or amber light on a drive bay typically indicates a drive fault or failure. Since the server uses RAID 1 (mirroring), the data is safe on the other drive. The standard procedure is to replace the failed drive (often hot-swappable) and allow the RAID controller to rebuild the array to restore redundancy."
   },
   {
     "id": 8,
@@ -93,7 +88,7 @@
       "D. Adding more RAM to the computer"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Installing a high-performance heat sink) is the correct answer. The dramatic temperature spike to 98°C under load suggests the current cooling solution is insufficient or failing (noisy fans often indicate bearing failure or dust buildup). Installing a high-performance heat sink or replacing the failing cooler will dissipate heat more effectively and prevent thermal shutdown."
   },
   {
     "id": 9,
@@ -105,7 +100,7 @@
       "D. Broken screen"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Swollen battery) is the correct answer. Lithium-ion batteries can swell due to gas buildup from failure, overcharging, or age. This swelling physically pushes internal components outward, causing the screen to bulge or separate from the chassis. It is a safety hazard and the battery must be replaced immediately."
   },
   {
     "id": 10,
@@ -117,19 +112,14 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Crimper) is the correct answer. A cable crimper is a specialized tool used to press (crimp) the metal contacts of an RJ45 connector onto the wires of a twisted-pair Ethernet cable, securing the connection and piercing the insulation to create electrical contact."
   },
   {
     "id": 11,
     "question": "Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?",
-    "options": [
-      "A. Switch",
-      "B. Access point",
-      "C. Firewall",
-      "D. Hub"
-    ],
+    "options": ["A. Switch", "B. Access point", "C. Firewall", "D. Hub"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Firewall) is the correct answer. A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules. It acts as a barrier between a trusted internal network and untrusted external networks (like the internet)."
   },
   {
     "id": 12,
@@ -141,19 +131,14 @@
       "D. Available memory"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (RAID array status) is the correct answer. Since the server itself is accessible (RDP works) but the file share is problematic, the issue is likely with the storage subsystem. Checking the RAID array status can reveal if drives have failed or if the array is rebuilding (which causes slowness), or if the volume has gone offline."
   },
   {
     "id": 13,
     "question": "A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. Which of the following will the technician require so the phone can connect to a different provider?",
-    "options": [
-      "A. USB-C",
-      "B. SD card",
-      "C. eSIM",
-      "D. MDM"
-    ],
+    "options": ["A. USB-C", "B. SD card", "C. eSIM", "D. MDM"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (eSIM) is the correct answer. An eSIM (Embedded SIM) is a digital SIM that allows you to activate a cellular plan from a carrier without having to use a physical nano-SIM. This is ideal for international travel as profiles can be provisioned remotely without installing new hardware."
   },
   {
     "id": 14,
@@ -165,7 +150,7 @@
       "D. Replace the toner cartridge."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Clean the pickup rollers.) is the correct answer. Pickup rollers are rubber wheels that grab the paper from the tray. Over time, they collect paper dust and lose their grip, leading to failure to feed (misfeeds). Cleaning them with a specialized cleaner or water usually resolves intermittent feeding issues."
   },
   {
     "id": 15,
@@ -177,7 +162,7 @@
       "D. Instruct the user to compress the files."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Defragment the user's external hard drive.) is the correct answer. If the external drive is a mechanical HDD and files are fragmented (scattered across the platter), write speeds drop significantly. Defragmenting reorganizes the data for contiguous storage, improving read/write performance. (Note: This only applies to HDDs; SSDs should not be defragmented)."
   },
   {
     "id": 16,
@@ -189,7 +174,7 @@
       "D. Create a firewall where the sandbox acts as a perimeter network."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Explore how an application behaves in a different environment) is the correct answer. A sandbox is an isolated testing environment. Using a VM as a sandbox allows technicians to safely run suspect software or test patches/updates without risking the stability or security of the host operating system or production network."
   },
   {
     "id": 17,
@@ -201,7 +186,7 @@
       "D. Intake fan"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (CPU fan) is the correct answer. A loud clicking sound often indicates a fan hitting a wire or a failing fan bearing. If the CPU fan fails or is obstructed, the processor will rapidly overheat and trigger a thermal shutdown to protect itself, typically within minutes of booting."
   },
   {
     "id": 18,
@@ -213,23 +198,18 @@
       "D. Discharge lamp"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Fuser) is the correct answer. The fuser assembly uses heat and pressure to melt and bond (fuse) the toner powder onto the paper. If the toner wipes or smears off easily, the fuser is not heating up properly and needs to be replaced."
   },
   {
     "id": 19,
     "question": "Which of the following cloud models allows customers to connect to company resources from their laptops with the least amount of infrastructure?",
-    "options": [
-      "A. PaaS",
-      "B. IaaS",
-      "C. SaaS",
-      "D. FaaS"
-    ],
+    "options": ["A. PaaS", "B. IaaS", "C. SaaS", "D. FaaS"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (SaaS) is the correct answer. Software as a Service (SaaS) provides fully managed applications over the internet (like Office 365 or Google Workspace). Customers simply log in via a web browser, requiring no local server infrastructure, maintenance, or complex installation."
   },
   {
     "id": 20,
-    "question": "Which of the following can carry data and electricity to network devices? (Select two).",
+    "question": "Which of the following can carry data and electricity to network devices?",
     "options": [
       "A. Router",
       "B. Injector",
@@ -237,7 +217,7 @@
       "D. Access point"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Injector) is the correct answer. A PoE (Power over Ethernet) injector is a device that adds electrical power to a data cable. This allows a single Ethernet cable to provide both data connection and power to devices like IP cameras, VoIP phones, and Access Points."
   },
   {
     "id": 21,
@@ -249,7 +229,7 @@
       "D. Near-field communication"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Docking station) is the correct answer. A docking station (or port replicator) allows a laptop to connect to multiple peripherals (monitor, keyboard, mouse, network, power) via a single proprietary connector or USB-C/Thunderbolt cable, simplifying the desk setup."
   },
   {
     "id": 22,
@@ -261,7 +241,7 @@
       "D. Proxy servers"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Spam gateway) is the correct answer. A spam gateway (or spam filter) sits at the edge of the network and analyzes incoming email traffic. It uses various techniques (blacklists, content filtering, reputation scoring) to identify and block unsolicited commercial email (spam) before it reaches the user's inbox."
   },
   {
     "id": 23,
@@ -273,31 +253,21 @@
       "D. Connect to an external monitor"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Connect to an external monitor) is the correct answer. This troubleshooting step helps isolate the issue. If the external monitor works, the problem is likely with the laptop's built-in LCD panel or cable. If the external monitor also stays blank, the issue is likely with the GPU or motherboard."
   },
   {
     "id": 24,
     "question": "An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere. Which of the following should a technician implement?",
-    "options": [
-      "A. Public cloud",
-      "B. VDI",
-      "C. SSH",
-      "D. SaaS"
-    ],
+    "options": ["A. Public cloud", "B. VDI", "C. SSH", "D. SaaS"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (VDI) is the correct answer. Virtual Desktop Infrastructure (VDI) hosts the desktop operating system on a central server. The user can access their full, personalized desktop environment from any device, anywhere in the world, ensuring a consistent experience."
   },
   {
     "id": 25,
     "question": "A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards Which of the following should the institution use?",
-    "options": [
-      "A. TLS",
-      "B. AMD",
-      "C. HSM",
-      "D. ARM"
-    ],
+    "options": ["A. TLS", "B. AMD", "C. HSM", "D. ARM"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (HSM) is the correct answer. A Hardware Security Module (HSM) is a dedicated physical computing device that safeguards and manages digital keys for strong authentication and provides cryptoprocessing. It is the standard for high-security environments like banking to protect root keys."
   },
   {
     "id": 26,
@@ -309,31 +279,21 @@
       "D. Print services"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Network share) is the correct answer. SMB (Server Message Block) is a network file sharing protocol. Configuring \"Scan to SMB\" means setting the printer to send scanned files directly to a shared folder (Network Share) on a server or computer."
   },
   {
     "id": 27,
     "question": "Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
-    "options": [
-      "A. Bluetooth",
-      "B. NFC",
-      "C. Wi-Fi",
-      "D. Cellular"
-    ],
+    "options": ["A. Bluetooth", "B. NFC", "C. Wi-Fi", "D. Cellular"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (NFC) is the correct answer. Near Field Communication (NFC) is the short-range wireless technology used for contactless payments (like Apple Pay, Google Pay). It requires the device to be very close (within 4cm) to the reader, enhancing security for transactions."
   },
   {
     "id": 28,
     "question": "A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?",
-    "options": [
-      "A. AAAA",
-      "B. MX",
-      "C. CNAME",
-      "D. A"
-    ],
+    "options": ["A. AAAA", "B. MX", "C. CNAME", "D. A"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (A) is the correct answer. An 'A' (Address) record maps a domain name to a 32-bit IPv4 address. (AAAA records are for IPv6, MX for mail, CNAME for aliases)."
   },
   {
     "id": 29,
@@ -345,18 +305,13 @@
       "D. Public IP address"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Static IP address) is the correct answer. Using a Static IP address ensures the printer's location on the network never changes. DHCP addresses can expire or change upon reboot, breaking the connection for computers that expect the printer at a specific IP."
   },
   {
     "id": 30,
-    "question": "Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer. Which of the following is me most likely cause?",
-    "options": [
-      "A. Rollers",
-      "B. Tray assembly",
-      "C. Toner",
-      "D. Printhead"
-    ],
+    "question": "Each time a user tries to print, the paper becomes stuck at the last stage of the print job and the user has to pull the paper out of the printer. Which of the following is the most likely cause?",
+    "options": ["A. Rollers", "B. Tray assembly", "C. Toner", "D. Printhead"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Rollers) is the correct answer. If paper jams specifically at the exit (last stage), the exit rollers or the fuser exit assembly are likely worn, dirty, or damaged, failing to push the paper out to the output tray."
   }
 ]

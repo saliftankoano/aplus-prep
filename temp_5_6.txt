@@ -1,0 +1,723 @@
+[
+  {
+    "id": 1,
+    "question": "A user purchases a new mobile phone and tries to connect it to the corporate communications and email applications without success. Which of the following should a technician do to allow the phone to connect?",
+    "options": [
+      "A. Configure biometric security settings.",
+      "B. Turn on LTE hotspot connectivity.",
+      "C. Enroll the device in the MDM software.",
+      "D. Complete the company's BYOD training process."
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Enroll the device in the MDM software.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 2,
+    "question": "Which of the following network services is used to assign an IP address to a network host?",
+    "options": [
+      "A. DHCP",
+      "B. DNS",
+      "C. LDAP",
+      "D. SMTP"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (DHCP) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 3,
+    "question": "A customer reports that the output from their thermal receipt printer has vertical white lines. Which of the following would most likely resolve this issue?",
+    "options": [
+      "A. Replacing the ink cartridge",
+      "B. Using the correct paper type",
+      "C. Installing a maintenance kit",
+      "D. Cleaning the heating element"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Cleaning the heating element) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 4,
+    "question": "Which of the following ports is commonly used for remote desktop connections?",
+    "options": [
+      "A. 137",
+      "B. 445",
+      "C. 3389",
+      "D. 4443"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (3389) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 5,
+    "question": "A user experiences intermittent Wi-Fi performance issues only in their office. Nearby RJ45 ports do not provide connectivity, but the user connects fine in other campus areas. AP coverage is weak in the user's office. What is the most likely cause?",
+    "options": [
+      "A. APs are installed too far from the user's office",
+      "B. Brute-force attempts are causing drops",
+      "C. Ports near the office are disabled",
+      "D. The laptop has malware contacting unauthorized sites"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (APs are installed too far from the user's office) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 6,
+    "question": "A Wi-Fi router is set up in a central room. A user on the outer edge of the building reports slow connections and intermittent internet drops. Which of the following actions will solve the issue?",
+    "options": [
+      "A. Enabling the 5GHz band",
+      "B. Running the flushdns command",
+      "C. Upgrading the laptop to a Wi-Fi 6 NIC",
+      "D. Installing additional wireless APs around the location"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Installing additional wireless APs around the location) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following could a user employ to maximize module bandwidth when selecting memory for a high-end gaming computer?",
+    "options": [
+      "A. Error correction",
+      "B. RAM voltage",
+      "C. Channel configuration",
+      "D. Physical module size"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Channel configuration) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following is the ability to automatically increase and decrease instances based on demand?",
+    "options": [
+      "A. Availability",
+      "B. Scalability",
+      "C. Multitenancy",
+      "D. Elasticity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Elasticity) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is designed to be used in commercial spaces?",
+    "options": [
+      "A. USB 3.1 Gen 2",
+      "B. Straight tip fiber connector",
+      "C. Plenum cabling",
+      "D. Cat 8"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Plenum cabling) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?",
+    "options": [
+      "A. DHCP",
+      "B. CNAME",
+      "C. VLAN",
+      "D. VPN"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (VPN) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 11,
+    "question": "A user can connect their laptop to the internet in the main office. However, when the user places the laptop on top of a motor on the factory floor, there is no internet connectivity. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Jitter",
+      "B. Insufficient power levels",
+      "C. External interference",
+      "D. High latency"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (External interference) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 12,
+    "question": "A technician is working on a RAID 1 array that is apparently degraded. The technician verifies the RAM and power are both operating as expected. Which of the following can the technician do to further isolate the issue?",
+    "options": [
+      "A. Perform individual drive diagnostics.",
+      "B. Run the chkdsk /i command.",
+      "C. Rebuild the RAID array.",
+      "D. Reconfigure the array as RAID 0."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Perform individual drive diagnostics.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 13,
+    "question": "A thief stole a company phone and successfully extracted confidential company information from the device. Which of the following should have been used to prevent the extraction?",
+    "options": [
+      "A. GPS",
+      "B. EPS",
+      "C. eSIM",
+      "D. MDM"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (MDM) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 14,
+    "question": "A developer wants to protect critical data from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (RAID 1) is correct because RAID 1 (mirroring) provides data redundancy by duplicating data across two drives. If one drive fails, the data remains accessible on the other drive, making it ideal for protecting critical data with minimal hardware requirements."
+  },
+  {
+    "id": 15,
+    "question": "A user is unable to access secure applications on their tablet when working from home a couple days per week, but the applications work when in the office. Which of the following services most likely needs to be reconfigured to allow for remote work?",
+    "options": [
+      "A. Global Positioning System",
+      "B. Mobile device management",
+      "C. Wi-Fi Protected Access",
+      "D. Near-field communication"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Mobile device management) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following are radio frequency connections? (Select two.)",
+    "options": [
+      "A. Cable",
+      "B. Satellite",
+      "C. DSL",
+      "D. Cellular"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Satellite) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 17,
+    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue? (Select two).",
+    "options": [
+      "A. Run a BIOS update.",
+      "B. Swap out the RAM.",
+      "C. Disable NTP in the OS.",
+      "D. Repair the backup power source."
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Repair the backup power source.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following can a user utilize to share their mobile phone connection with their laptop?",
+    "options": [
+      "A. IR",
+      "B. NFC",
+      "C. Wi-Fi Direct",
+      "D. Tethering"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Tethering) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 19,
+    "question": "A network administrator must ensure that a printer will still be assigned a specific IP address even if all addresses are depleted. Which of the following network configuration concepts is this describing?",
+    "options": [
+      "A. VLAN",
+      "B. Lease",
+      "C. Reservation",
+      "D. Exclusion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Reservation) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 20,
+    "question": "When turning on a workstation, a technician observes the following message: \"Bootable device not found.\" The technician verifies the correct boot order in the BIOS. Which of the following steps should the technician take next?",
+    "options": [
+      "A. Reformat the HDD.",
+      "B. Run HDD diagnostics.",
+      "C. Reseat the RAM.",
+      "D. Replace the HDD."
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Run HDD diagnostics.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 21,
+    "question": "A technician is experimenting with network configurations and has connected two laptops to an unmanaged switch. The technician configured one of the laptops with a static IP address of 192.168.1.1 and the other with a static IP address of 192.168.2.2. The laptops are not communicating with each other. Which of the following is the most likely explanation for this issue?",
+    "options": [
+      "A. The technician needs to use a hub instead of a switch.",
+      "B. The wireless NICs are malfunctioning.",
+      "C. PoE interferes with intersubnet communication.",
+      "D. The laptops do not have access to a router."
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (The laptops do not have access to a router.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 22,
+    "question": "A user reports that scanned or copied pages from an MFP show vertical lines down the page. The printer processes print jobs correctly. What should the technician do?",
+    "options": [
+      "A. Replace the transfer roller",
+      "B. Remove the pickup rollers",
+      "C. Clean the glass bed",
+      "D. Apply a maintenance kit"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Clean the glass bed) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 23,
+    "question": "A major retailer is moving its online shopping website to the cloud and wants to expand its server resources as needed during busier shopping days. Which of the following should the retailer consider?",
+    "options": [
+      "A. Location",
+      "B. Elasticity",
+      "C. Availability",
+      "D. Multitenancy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Elasticity) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 24,
+    "question": "Which of the forming connector types would best suit a company that experiences a large volume of internet traffic?",
+    "options": [
+      "A. USB 3.1",
+      "B. Quad-shielded RG11 coax",
+      "C. SATA3.0",
+      "D. Unshielded plenum RJ45"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Quad-shielded RG11 coax) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 25,
+    "question": "Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task? (Select two).",
+    "options": [
+      "A. Printer shares",
+      "B. DHCP server",
+      "C. Print server",
+      "D. Printer subnet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Printer shares) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 26,
+    "question": "A desktop can connect to a file server but cannot access the internet. The ipconfig /all output shows a correct IP and DNS but no default gateway. What will most likely restore internet access?",
+    "options": [
+      "A. Flushing the DNS cache",
+      "B. Choosing a different IPv6 address",
+      "C. Setting the default gateway",
+      "D. Disabling NetBIOS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Setting the default gateway) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 27,
+    "question": "A technician wants to monitor network statistics for devices communicating with one another on the local subnet Which of the following devices should the technician install.",
+    "options": [
+      "A. Managed switch",
+      "B. Router",
+      "C. Access point",
+      "D. Firewall"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Managed switch) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 28,
+    "question": "Several storms cause mission-critical servers to go offline unexpectedly A server also goes offline suddenly due to haroNvare failure Upon assessment the company purchases new UPSs to condition power and allow the OSs to shut down gracefully in the event of a power failure However, the UPSs are delayed due to supply chain issues Which of the following can balance a cost-effective solution with uptime requirements?",
+    "options": [
+      "A. Purchasing backup generators",
+      "B. Increasing input voltage",
+      "C. Installing redundant PSUs",
+      "D. Activating a hot site"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Installing redundant PSUs) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 29,
+    "question": "Which of the following allows an organization to provide remote desktop resources without providing physical workstations to its users?",
+    "options": [
+      "A. RMM",
+      "B. SaaS",
+      "C. VDI",
+      "D. Containers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (VDI) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 30,
+    "question": "While reviewing options in the BIOS/UEFI settings page to fix a laptop issue, a support technician notices an option to clear existing TPM keys. Which of the following would most likely happen if the TPM is cleared?",
+    "options": [
+      "A. Encrypted hard drives would probably not be accessible.",
+      "B. All security certificates would need to be reinstalled from trusted roots.",
+      "C. The device would need to be reenrolled in the MDM platform",
+      "D. The laptop would need to be registered to the domain as a new client."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Encrypted hard drives would probably not be accessible.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  }
+][
+  {
+    "id": 1,
+    "question": "A technician checks a RAID 5 array and sees a S.M.A.R.T. alert on one disk, but the array still shows healthy. What should the technician do next?",
+    "options": [
+      "A. Run chkdsk /f",
+      "B. Disable write caching",
+      "C. Rebuild the RAID array",
+      "D. Replace the failing drive"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Replace the failing drive) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 2,
+    "question": "A user joins a conference call with a Bluetooth headset. Which of the following has the user created?",
+    "options": [
+      "A. MAN",
+      "B. PAN",
+      "C. SAN",
+      "D. WAN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (PAN) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 3,
+    "question": "A user replaces their PC power supply and connects it to the components, but the PC fails to start. What is the most likely cause?",
+    "options": [
+      "A. The computer requires additional RAM",
+      "B. The wattage is insufficient",
+      "C. The 4-pin CPU power connector is not connected",
+      "D. The PSU only works in redundant setups"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (The 4-pin CPU power connector is not connected) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 4,
+    "question": "A customer reports slow network speeds. Which of the following components is most likely failing?",
+    "options": [
+      "A. CPU",
+      "B. NIC",
+      "C. HDD",
+      "D. RAM"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (NIC) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 5,
+    "question": "An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
+    "options": [
+      "A. Modular",
+      "B. Redundant",
+      "C. Linear",
+      "D. External"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Modular) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
+    "options": [
+      "A. Switch",
+      "B. Firewall",
+      "C. Cable modem",
+      "D. Router"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Cable modem) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 7,
+    "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. All laptops must have internet access and be able to use the printer. Which of the following settings ensures the printer is always available?",
+    "options": [
+      "A. Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.",
+      "B. Manually assign IP addresses to the laptops and printer based on the public IP from the ISP.",
+      "C. Use APIPA for laptops and connect the printer to the ISP router.",
+      "D. Use dynamic IP addresses from the ISP router for all the devices."
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following DNS records would an administrator change to redirect email flow?",
+    "options": [
+      "A. MX",
+      "B. TXT",
+      "C. SPF",
+      "D. CNAME"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (MX) is correct because MX (Mail Exchange) records specify which mail servers are authorized to receive email for a domain. While DMARC uses TXT records for policies, MX records help identify legitimate mail servers."
+  },
+  {
+    "id": 9,
+    "question": "A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?",
+    "options": [
+      "A. EDR",
+      "B. VPN",
+      "C. MDM",
+      "D. SaaS"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (MDM) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 10,
+    "question": "A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?",
+    "options": [
+      "A. Hypervisor",
+      "B. SaaS platform",
+      "C. Multiboot server computer",
+      "D. Sandbox"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Hypervisor) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 11,
+    "question": "A technician needs to confirm that desktop PCs can be deployed to a global, remote workforce. Which of the following specifications should the technician validate?",
+    "options": [
+      "A. Input voltage",
+      "B. BIOS language support",
+      "C. Supply chain security",
+      "D. Power efficiency"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Input voltage) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 12,
+    "question": "Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?",
+    "options": [
+      "A. Lightning interface",
+      "B. Port replicator",
+      "C. USB hub",
+      "D. Bluetooth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Port replicator) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 13,
+    "question": "Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?",
+    "options": [
+      "A. VDI",
+      "B. Private cloud",
+      "C. Sandbox",
+      "D. Type 1 hypervisor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Sandbox) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 14,
+    "question": "A user reports that their desktop PC does not turn on. Which of the following components would most likely cause the issue?",
+    "options": [
+      "A. PSU",
+      "B. GPU",
+      "C. RAM",
+      "D. CPU"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (PSU) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 15,
+    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?",
+    "options": [
+      "A. Fingerprint reader",
+      "B. Smart card",
+      "C. Secure token",
+      "D. NFC scanner"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Smart card) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 16,
+    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?",
+    "options": [
+      "A. The SSD is faulty and should be replaced by the manufacturer",
+      "B. The SSD has not been properly formatted and is not readable",
+      "C. The SSD is incompatible with the motherboard",
+      "D. The SSD has not boon installed properly and should be reseated"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (The SSD has not boon installed properly and should be reseated) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 17,
+    "question": "A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. HDD",
+      "B. RAM",
+      "C. NIC",
+      "D. BIOS"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (HDD) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 18,
+    "question": "Which of the following display technologies typically provides the highest contrast?",
+    "options": [
+      "A. IPS",
+      "B. OLED",
+      "C. TN",
+      "D. VA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (OLED) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 19,
+    "question": "Which of the following DNS record types is used to direct email to a mail server?",
+    "options": [
+      "A. CNAME",
+      "B. SRV",
+      "C. MX",
+      "D. SOA"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (MX) is correct because MX (Mail Exchange) records specify which mail servers are authorized to receive email for a domain. While DMARC uses TXT records for policies, MX records help identify legitimate mail servers."
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is an advantage of using VDI?",
+    "options": [
+      "A. Authentication is not required on a domain.",
+      "B. Licensing costs are minimized.",
+      "C. Less manual configuration is needed for each workstation.",
+      "D. A virus is automatically contained locally."
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Less manual configuration is needed for each workstation.) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is the best to use when testing a file for potential malware?",
+    "options": [
+      "A. Multitenancy",
+      "B. Test development",
+      "C. Cross-platform virtualization",
+      "D. Sandbox"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Sandbox) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is used to confirm that a physical port is working?",
+    "options": [
+      "A. Network tap",
+      "B. Crimper",
+      "C. Patch panel",
+      "D. Loopback plug"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Loopback plug) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 23,
+    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).",
+    "options": [
+      "A. Molex",
+      "B. NVMe",
+      "C. SATA",
+      "D. FireWire"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (NVMe) is correct because NVMe M.2 SSDs provide the fastest data access speeds for storage devices, connecting directly to the PCIe bus. They're ideal for high-performance applications like gaming, where fast load times are crucial."
+  },
+  {
+    "id": 24,
+    "question": "A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Community",
+      "D. Private"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B (Hybrid) is correct because a hybrid cloud combines both private and public cloud resources, allowing organizations to leverage the benefits of both models - keeping sensitive data private while using public cloud for scalability."
+  },
+  {
+    "id": 25,
+    "question": "A technician is troubleshooting an all-in-one laser printer that prints a vertical line when making copies and scans. When users print or receive faxes, the output from the printer is correct. Which of the following should the technician examine to determine the cause of the issue?",
+    "options": [
+      "A. The pickup rollers",
+      "B. The corona wire",
+      "C. The document feeder",
+      "D. The drum assembly"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (The document feeder) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 26,
+    "question": "Which of the following types of connectors does an IDE hard drive use for power?",
+    "options": [
+      "A. F type",
+      "B. SC",
+      "C. Molex",
+      "D. Lightning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "C (Molex) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 27,
+    "question": "A user on the edge of a building reports slow Wi-Fi and intermittent drops. Which action will solve the issue?",
+    "options": [
+      "A. Enable the 5GHz band",
+      "B. Run ipconfig /flushdns",
+      "C. Upgrade laptop to Wi-Fi 6 NIC",
+      "D. Install additional wireless APs around the location"
+    ],
+    "correctAnswer": 3,
+    "explanation": "D (Install additional wireless APs around the location) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 28,
+    "question": "A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
+    "options": [
+      "A. Firmware",
+      "B. Driver",
+      "C. OS update",
+      "D. HSM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Firmware) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 29,
+    "question": "Which of the following display characteristics would be most important to ensure screen images appear the same as printed output?",
+    "options": [
+      "A. Color gamut",
+      "B. Pixel density",
+      "C. Refresh rate",
+      "D. Resolution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Color gamut) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is commonly affected by high latency?",
+    "options": [
+      "A. Satellite",
+      "B. Fiber",
+      "C. Cable",
+      "D. DSL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A (Satellite) is the correct answer. This solution addresses the specific requirements or problem described in the scenario, following CompTIA A+ Core 1 best practices for hardware, networking, mobile devices, virtualization, and troubleshooting."
+  }
+]

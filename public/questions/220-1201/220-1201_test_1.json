@@ -9,7 +9,7 @@
       "D. Reinstall the drivers"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Run the maintenance application.) is correct because printer alignment issues are typically resolved through the printer's built-in maintenance application, which calibrates the print head and ensures proper paper alignment. This is the first troubleshooting step before attempting more invasive solutions like cleaning hardware or updating firmware."
   },
   {
     "id": 2,
@@ -21,23 +21,18 @@
       "D. Wireless NIC"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Modular power supply) is correct because a modular power supply allows you to connect only the cables you need, reducing cable clutter inside the computer case and improving airflow and aesthetics."
   },
   {
     "id": 3,
     "question": "A company migrates a local application to an internal cloud platform. Which of the following best describes this cloud platform?",
-    "options": [
-      "A. Private",
-      "B. Public",
-      "C. Community",
-      "D. Hybrid"
-    ],
+    "options": ["A. Private", "B. Public", "C. Community", "D. Hybrid"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Private) is correct because a private cloud is a cloud infrastructure dedicated to a single organization, typically hosted internally or by a third party exclusively for that organization. This provides more control, security, and compliance compared to public clouds."
   },
   {
     "id": 4,
-    "question": "The display in a conference room has a ghost image that does not match the presentation Which of the following would test resolve the issue?",
+    "question": "The display in a conference room has a ghost image that does not match the presentation Which of the following would best resolve the issue?",
     "options": [
       "A. Adjust the color settings.",
       "B. Correct the keystone.",
@@ -45,31 +40,21 @@
       "D. Replace the monitor."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Correct the keystone.) is correct because keystone correction adjusts the image shape when a projector is not perfectly aligned perpendicular to the screen, fixing the trapezoidal distortion (ghost image) that occurs at an angle. This is a common issue with projectors mounted at an angle."
   },
   {
     "id": 5,
     "question": "A salesperson is unable to use a personal device to access emails and calendar features at a client site but was able to use the device while at the office. Which of the following policies has been enforced on the salesperson's mobile device?",
-    "options": [
-      "A. MOW",
-      "B. MAN",
-      "C. MFA",
-      "D. MAM"
-    ],
+    "options": ["A. MOW", "B. MAN", "C. MFA", "D. MAM"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (MAM) is correct because Mobile Application Management (MAM) controls which applications can be installed and used on a mobile device, restricting access to corporate email and calendar when outside the office network or when device policies are violated."
   },
   {
     "id": 6,
     "question": "A group of friends is gathering in a room to play video games. One of the friends has a game server. Which of the following network types should the group use so they can all connect to the same server and the internet?",
-    "options": [
-      "A. SAN",
-      "B. MAN",
-      "C. LAN",
-      "D. PAN"
-    ],
+    "options": ["A. SAN", "B. MAN", "C. LAN", "D. PAN"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (LAN) is correct because a Local Area Network (LAN) connects devices within a limited geographic area (like a room, building, or campus), allowing them to share resources like game servers and internet connectivity. This is ideal for local multiplayer gaming."
   },
   {
     "id": 7,
@@ -81,55 +66,35 @@
       "D. Employee preferred"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Corporate) is correct because corporate email clients are specifically designed to integrate with enterprise email systems (like Microsoft Exchange), support shared mailboxes, enforce security policies, and comply with organizational requirements."
   },
   {
     "id": 8,
     "question": "Which of the following connectors can be used to charge most modern mobile devices and may have the capacity to send data audio and video?",
-    "options": [
-      "A. Lightning",
-      "B. USB-C",
-      "C. MicroUSB",
-      "D. MiniUSB"
-    ],
+    "options": ["A. Lightning", "B. USB-C", "C. MicroUSB", "D. MiniUSB"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (USB-C) is correct because USB-C is the modern standard connector that supports power delivery (up to 100W), high-speed data transfer (USB 3.1/3.2), audio, and video signals (DisplayPort/HDMI). It's reversible and widely adopted across most modern mobile devices."
   },
   {
     "id": 9,
     "question": "A developer wants to ensure their critical data is protected from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
-    "options": [
-      "A. RAID 0",
-      "B. RAID 1",
-      "C. RAID 5",
-      "D. RAID 10"
-    ],
+    "options": ["A. RAID 0", "B. RAID 1", "C. RAID 5", "D. RAID 10"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (RAID 1) is correct because RAID 1 (mirroring) provides data redundancy by duplicating data across two drives. If one drive fails, the data remains accessible on the other drive, making it ideal for protecting critical data with minimal hardware requirements."
   },
   {
     "id": 10,
     "question": "Which of the following connector types is associated with coaxial terminations serving cable internet deployments?",
-    "options": [
-      "A. DB9",
-      "B. ST",
-      "C. F-type",
-      "D. RJ45"
-    ],
+    "options": ["A. DB9", "B. ST", "C. F-type", "D. RJ45"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (F-type) is correct because F-type connectors are specifically used for coaxial cable terminations in cable internet deployments, connecting cable modems to the service provider's network. They provide a secure, weather-resistant connection for broadband services."
   },
   {
     "id": 11,
     "question": "Which DNS record is used by DMARC to verify the authenticity of email servers?",
-    "options": [
-      "A. MX",
-      "B. CNAME",
-      "C. TXT",
-      "D. A"
-    ],
+    "options": ["A. MX", "B. CNAME", "C. TXT", "D. A"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (TXT) is correct because TXT (Text) records are used by DMARC (Domain-based Message Authentication, Reporting & Conformance) to store policy information that email servers use to verify the authenticity of email messages. DMARC policies are published as TXT records in DNS."
   },
   {
     "id": 12,
@@ -141,7 +106,7 @@
       "D. Loopback plug"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Wi-Fi analyzer) is correct because a Wi-Fi analyzer can detect and display all wireless networks in the area, including those with hidden SSIDs (not broadcasting). It shows network names, signal strength, channels, and security settings, making it the most effective tool for identifying non-broadcasting networks."
   },
   {
     "id": 13,
@@ -153,19 +118,14 @@
       "D. Toner probe"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Cable tester) is correct because a cable tester verifies the integrity of network cables, checking for continuity, proper pinouts, and identifying faults. It can also verify Power over Ethernet (PoE) availability on network cables."
   },
   {
     "id": 14,
     "question": "Which of the following connectors is found on an optical networking cable?",
-    "options": [
-      "A. RJ45",
-      "B. LC",
-      "C. USB-C",
-      "D. Lightning"
-    ],
+    "options": ["A. RJ45", "B. LC", "C. USB-C", "D. Lightning"],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (LC) is correct because LC (Lucent Connector) is a small form-factor fiber optic connector commonly used in optical networking. It's half the size of SC connectors and widely used in modern fiber installations."
   },
   {
     "id": 15,
@@ -177,7 +137,7 @@
       "D. Software as a service"
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Infrastructure as a service) is correct because Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet, including servers, storage, and networking, allowing organizations to deploy and manage their own applications and operating systems."
   },
   {
     "id": 16,
@@ -189,19 +149,14 @@
       "D. 1TB SAS SSD"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (512GB NVMe M.2 SSD) is correct because NVMe M.2 SSDs provide the fastest data access speeds for storage devices, connecting directly to the PCIe bus. They're ideal for high-performance applications like gaming, where fast load times are crucial."
   },
   {
     "id": 17,
     "question": "Which of the following cloud models exclusively utilizes a local data center?",
-    "options": [
-      "A. Private",
-      "B. Public",
-      "C. Hybrid",
-      "D. Community"
-    ],
+    "options": ["A. Private", "B. Public", "C. Hybrid", "D. Community"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Private) is correct because a private cloud is a cloud infrastructure dedicated to a single organization, typically hosted internally or by a third party exclusively for that organization. This provides more control, security, and compliance compared to public clouds."
   },
   {
     "id": 18,
@@ -213,7 +168,7 @@
       "D. Check the vendor's website for guidance."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Identify any changes the user has made) is correct because identifying recent changes is a crucial first step in the troubleshooting methodology. If a system was working previously, knowing what changed (updates, new software, configuration changes) helps isolate the cause."
   },
   {
     "id": 19,
@@ -225,55 +180,35 @@
       "D. Crimper"
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Crimper) is correct because a crimper is used to attach connectors (like RJ45) to cables. If a pin is not properly terminated, re-crimping or replacing the connector using a crimper is the fix."
   },
   {
     "id": 20,
     "question": "A user's phone does not respond to touch. A technician inspects the phone but does not see any evidence of physical damage. The technician restarts the device, which does not fix the issue. Which of the following components should the technician examine next?",
-    "options": [
-      "A. Battery",
-      "B. Screen",
-      "C. Stylus",
-      "D. Digitizer"
-    ],
+    "options": ["A. Battery", "B. Screen", "C. Stylus", "D. Digitizer"],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (Digitizer) is correct because the digitizer is the component responsible for converting touch inputs into digital signals. If the screen display works but touch doesn't respond, the digitizer is likely faulty."
   },
   {
     "id": 21,
     "question": "A management team is concerned about enterprise devices that do not have any controls in place. Which of the following should an administrator implement to address this concern?",
-    "options": [
-      "A. MDM",
-      "B. MFA",
-      "C. vpn",
-      "D. SSL"
-    ],
+    "options": ["A. MDM", "B. MFA", "C. vpn", "D. SSL"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (MDM) is the correct answer. Mobile Device Management (MDM) allows administrators to enforce policies, configure settings, and manage applications on enterprise devices remotely."
   },
   {
     "id": 22,
     "question": "Which of the following cable types can be used to transfer data and video?",
-    "options": [
-      "A. USB-C",
-      "B. HDMI",
-      "C. DisplayPort",
-      "D. VGA"
-    ],
+    "options": ["A. USB-C", "B. HDMI", "C. DisplayPort", "D. VGA"],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (USB-C) is the correct answer."
   },
   {
     "id": 23,
     "question": "Which of the following is used primarily for archiving data?",
-    "options": [
-      "A. PAN",
-      "B. MAN",
-      "C. SAN",
-      "D. LAN"
-    ],
+    "options": ["A. PAN", "B. MAN", "C. SAN", "D. LAN"],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (SAN) is the correct answer. A Storage Area Network (SAN) is a specialized, high-speed network that provides block-level network access to storage. It is primarily used for enterprise data storage and archiving."
   },
   {
     "id": 24,
@@ -285,7 +220,7 @@
       "D. Connect the laptop directly to the network."
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Press and release the laptop power button.) is correct because waking a laptop from sleep/hibernation or ensuring it's powered on is the first step before diagnosing peripheral issues. Docking stations sometimes fail to wake the laptop properly."
   },
   {
     "id": 25,
@@ -297,7 +232,7 @@
       "D. Replace the faulty motherboard"
     ],
     "correctAnswer": 1,
-    "explanation": ""
+    "explanation": "B (Reinstall RAM in different slots.) is correct because reseating RAM or trying different slots is a cost-effective first step when memory is not fully detected. Improper seating is a common cause of missing memory."
   },
   {
     "id": 26,
@@ -309,7 +244,7 @@
       "D. NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart.) is the correct answer. NFC is a short-range technology (4cm) used for secure transactions, while Bluetooth is a Personal Area Network (PAN) technology with a range of 10-100 meters."
   },
   {
     "id": 27,
@@ -321,7 +256,7 @@
       "D. If the printer has stopped due to empty trays"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (If the print job is configured to a tray or manual feed) is the correct answer. If a print job requests a specific tray (e.g., manual feed or legal size) that is empty or requires attention, the printer will pause that job while allowing others to proceed if possible."
   },
   {
     "id": 28,
@@ -333,7 +268,7 @@
       "D. Reinstall the old motherboard."
     ],
     "correctAnswer": 2,
-    "explanation": ""
+    "explanation": "C (Reseat the RAM.) is the correct answer. If a computer fails POST (Power-On Self-Test) after a move or upgrade, the most common issue is that a component, often RAM or the GPU, has vibrated loose or wasn't seated fully. Reseating it establishes proper electrical contact."
   },
   {
     "id": 29,
@@ -345,7 +280,7 @@
       "D. Type 1 hypervisors"
     ],
     "correctAnswer": 0,
-    "explanation": ""
+    "explanation": "A (Containers) is the correct answer. Containers (like Docker) allow applications (microservices) to be packaged with their dependencies, sharing the host OS kernel. This makes them lightweight and faster to deploy compared to full Virtual Machines."
   },
   {
     "id": 30,
@@ -357,6 +292,6 @@
       "D. It enables secure network segmentation."
     ],
     "correctAnswer": 3,
-    "explanation": ""
+    "explanation": "D (It enables secure network segmentation.) is the correct answer. A Virtual LAN (VLAN) allows a network administrator to segment a physical network into logical separate networks. This improves security and performance by isolating broadcast domains."
   }
 ]

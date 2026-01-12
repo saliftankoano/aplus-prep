@@ -1,0 +1,2 @@
+{"location":"app/providers.tsx:10","message":"PostHog initialization values","data":{"envType":"object","keyType":"undefined"},"timestamp":1768180925129,"sessionId":"debug-session","hypothesisId":"A,B"}
+{"location":"app/providers.tsx:23","message":"PostHog key missing, skipping init","timestamp":1768180925129,"sessionId":"debug-session","hypothesisId":"A,B"}
