@@ -3,6 +3,20 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
+import { 
+  ShieldIcon, 
+  XIcon, 
+  TrophyIcon, 
+  StarIcon, 
+  TargetIcon, 
+  BarbellIcon, 
+  BooksIcon,
+  CheckCircleIcon,
+  WarningCircleIcon,
+  ClockIcon,
+  ArrowCounterClockwiseIcon,
+  HouseIcon
+} from "@/app/components/PhosphorIcons";
 
 function QuizResultsContent() {
   const searchParams = useSearchParams();
@@ -14,253 +28,184 @@ function QuizResultsContent() {
   const isPassing = percentage >= 70;
 
   const getPerformanceMessage = () => {
-    if (percentage >= 90) return "Outstanding! You're exam-ready! 🎯";
-    if (percentage >= 80)
-      return "Excellent work! You're very well prepared! ⭐";
-    if (percentage >= 70) return "Great job! You're on the right track! 🚀";
-    if (percentage >= 60) return "Good effort! Keep practicing to improve! 💪";
-    return "Keep studying! Every attempt makes you stronger! 📚";
+    if (percentage >= 90) return "Outstanding! You're exam-ready!";
+    if (percentage >= 80) return "Excellent work! You're very well prepared!";
+    if (percentage >= 70) return "Great job! You're on the right track!";
+    if (percentage >= 60) return "Good effort! Keep practicing to improve!";
+    return "Keep studying! Every attempt makes you stronger!";
   };
 
   const getPerformanceColor = () => {
-    if (percentage >= 90) return "from-emerald-400 to-green-500";
-    if (percentage >= 80) return "from-blue-400 to-indigo-500";
-    if (percentage >= 70) return "from-yellow-400 to-orange-500";
-    if (percentage >= 60) return "from-orange-400 to-red-500";
-    return "from-red-400 to-pink-500";
+    if (percentage >= 90) return "text-emerald-600 bg-emerald-50 border-emerald-100";
+    if (percentage >= 80) return "text-blue-600 bg-blue-50 border-blue-100";
+    if (percentage >= 70) return "text-indigo-600 bg-indigo-50 border-indigo-100";
+    if (percentage >= 60) return "text-orange-600 bg-orange-50 border-orange-100";
+    return "text-red-600 bg-red-50 border-red-100";
   };
 
   const getPerformanceIcon = () => {
-    if (percentage >= 90) return "🏆";
-    if (percentage >= 80) return "⭐";
-    if (percentage >= 70) return "🎯";
-    if (percentage >= 60) return "💪";
-    return "📚";
+    if (percentage >= 90) return <TrophyIcon size={64} weight="duotone" className="text-emerald-500" />;
+    if (percentage >= 80) return <StarIcon size={64} weight="duotone" className="text-blue-500" />;
+    if (percentage >= 70) return <TargetIcon size={64} weight="duotone" className="text-indigo-500" />;
+    if (percentage >= 60) return <BarbellIcon size={64} weight="duotone" className="text-orange-500" />;
+    return <BooksIcon size={64} weight="duotone" className="text-red-500" />;
   };
 
   return (
-    <div className="min-h-screen bg-[#0a092d]">
-      <div className="bg-transparent backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/tests" className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <svg
-                  className="w-5 h-5 text-white"
-                  fill="none"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z"
-                    clipRule="evenodd"
-                    fill="currentColor"
-                    fillRule="evenodd"
+    <div className="min-h-screen bg-gray-50">
+      {/* Navbar */}
+      <nav className="fixed w-full z-40 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+          <Link href="/tests/core1" className="flex items-center gap-2 group">
+            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white transition-transform group-hover:scale-105">
+              <ShieldIcon size={20} weight="fill" />
+            </div>
+            <span className="font-bold text-gray-900">Core 1 Results</span>
+          </Link>
+
+          <Link href="/tests/core1" className="p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-all">
+            <XIcon size={20} />
+          </Link>
+        </div>
+      </nav>
+
+      {/* Main Content */}
+      <main className="pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8">
+          {/* Left Column - Score & Stats */}
+          <div className="space-y-6">
+            <div className="bg-white rounded-3xl shadow-sm border border-gray-200 p-8 text-center">
+              <div className="flex justify-center mb-6">
+                {getPerformanceIcon()}
+              </div>
+              
+              <h1 className="text-3xl font-bold text-gray-900 mb-2">
+                Quiz Complete!
+              </h1>
+              <p className="text-gray-600 mb-8 font-medium">
+                {getPerformanceMessage()}
+              </p>
+
+              <div className="relative inline-flex items-center justify-center mb-8">
+                <svg className="w-48 h-48 transform -rotate-90">
+                  <circle
+                    className="text-gray-100"
+                    strokeWidth="12"
+                    stroke="currentColor"
+                    fill="transparent"
+                    r="88"
+                    cx="96"
+                    cy="96"
+                  />
+                  <circle
+                    className={`${isPassing ? "text-green-500" : "text-blue-600"} transition-all duration-1000 ease-out`}
+                    strokeWidth="12"
+                    strokeDasharray={2 * Math.PI * 88}
+                    strokeDashoffset={2 * Math.PI * 88 * (1 - percentage / 100)}
+                    strokeLinecap="round"
+                    stroke="currentColor"
+                    fill="transparent"
+                    r="88"
+                    cx="96"
+                    cy="96"
                   />
                 </svg>
-              </div>
-            </Link>
-
-            <div className="text-center">
-              <div className="text-white font-semibold text-lg">
-                Quiz Results
-              </div>
-              <div className="text-sm text-gray-400">
-                CompTIA A+ 220-1201 Core 1
-              </div>
-            </div>
-
-            <Link
-              href="/tests/core1"
-              className="p-2 text-gray-400 hover:text-white transition-colors"
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid lg:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <div className="bg-gray-800/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-gray-700">
-              <div className="text-center">
-                <div className="text-6xl mb-4">{getPerformanceIcon()}</div>
-                <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
-                  Quiz Complete!
-                </h1>
-                <p className="text-xl text-gray-300 mb-8">
-                  {getPerformanceMessage()}
-                </p>
-
-                <div className="relative inline-block mb-6">
-                  <div
-                    className={`w-48 h-48 rounded-full bg-gradient-to-r ${getPerformanceColor()} flex items-center justify-center shadow-2xl`}
-                  >
-                    <div className="text-center">
-                      <div className="text-5xl font-bold text-white">
-                        {percentage}%
-                      </div>
-                      <div className="text-white/80 text-sm">Score</div>
-                    </div>
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-white rounded-full flex items-center justify-center shadow-lg">
-                    <div
-                      className={`w-6 h-6 rounded-full ${
-                        isPassing ? "bg-green-500" : "bg-red-500"
-                      }`}
-                    ></div>
-                  </div>
+                <div className="absolute flex flex-col items-center">
+                  <span className="text-5xl font-bold text-gray-900">{percentage}%</span>
+                  <span className="text-gray-500 font-medium text-sm uppercase tracking-wide mt-1">Score</span>
                 </div>
+              </div>
 
-                <div className="text-2xl font-semibold text-white">
-                  {score} out of {totalQuestions} correct
-                </div>
+              <div className="flex justify-center gap-2">
+                <span className={`px-4 py-1.5 rounded-full text-sm font-bold ${isPassing ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700"}`}>
+                  {isPassing ? "PASSED" : "NEEDS IMPROVEMENT"}
+                </span>
               </div>
             </div>
 
             <div className="grid grid-cols-3 gap-4">
-              <div className="bg-gradient-to-br from-blue-500/20 to-blue-600/20 backdrop-blur-sm rounded-2xl p-6 text-center border border-blue-500/30">
-                <div className="text-blue-300 text-xl">Correct ✅</div>
-                <div className="text-3xl font-bold text-blue-400 mb-2">
-                  {score}
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 text-center">
+                <div className="flex justify-center mb-2">
+                  <CheckCircleIcon size={24} weight="fill" className="text-green-500" />
                 </div>
+                <div className="text-2xl font-bold text-gray-900">{score}</div>
+                <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1">Correct</div>
               </div>
 
-              <div className="bg-gradient-to-br from-red-500/20 to-red-600/20 backdrop-blur-sm rounded-2xl p-6 text-center border border-red-500/30">
-                <div className="text-red-300 text-xl">Incorrect ❌</div>
-                <div className="text-3xl font-bold text-red-400 mb-2">
-                  {totalQuestions - score}
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 text-center">
+                <div className="flex justify-center mb-2">
+                  <WarningCircleIcon size={24} weight="fill" className="text-red-500" />
                 </div>
+                <div className="text-2xl font-bold text-gray-900">{totalQuestions - score}</div>
+                <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1">Incorrect</div>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-500/20 to-purple-600/20 backdrop-blur-sm rounded-2xl p-6 text-center border border-purple-500/30">
-                <div className="text-purple-300 text-xl">Time 🕒</div>
-                <div className="text-3xl font-bold text-purple-400 mb-2">
-                  {timeTaken}
+              <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-5 text-center">
+                <div className="flex justify-center mb-2">
+                  <ClockIcon size={24} weight="fill" className="text-blue-500" />
                 </div>
+                <div className="text-2xl font-bold text-gray-900">{timeTaken}</div>
+                <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mt-1">Time</div>
               </div>
             </div>
           </div>
 
-          <div className="space-y-8">
-            <div
-              className={`bg-gray-800/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${
-                isPassing
-                  ? "border-green-500/30 bg-green-500/10"
-                  : "border-red-500/30 bg-red-500/10"
-              }`}
-            >
-              <div className="text-center">
-                <div
-                  className={`text-6xl mb-4 ${
-                    isPassing ? "text-green-400" : "text-red-400"
-                  }`}
+          {/* Right Column - Actions & Tips */}
+          <div className="space-y-6">
+            <div className={`rounded-3xl p-8 border ${isPassing ? 'bg-green-50 border-green-100' : 'bg-orange-50 border-orange-100'}`}>
+              <h3 className={`text-xl font-bold mb-4 ${isPassing ? 'text-green-800' : 'text-orange-800'}`}>
+                {isPassing ? "Ready for the next challenge?" : "Don't give up!"}
+              </h3>
+              <p className={`mb-6 ${isPassing ? 'text-green-700' : 'text-orange-700'}`}>
+                {isPassing 
+                  ? "You've demonstrated a solid understanding of this topic. Consider moving on to the next practice test or reviewing the few questions you missed."
+                  : "Review the explanations for the questions you missed. Focusing on your weak areas is the fastest way to improve your score."
+                }
+              </p>
+              
+              <div className="space-y-3">
+                <Link
+                  href="/tests/core1"
+                  className="w-full bg-gray-900 text-white hover:bg-gray-800 px-6 py-4 rounded-xl font-semibold transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-3"
                 >
-                  {isPassing ? "🎉" : "📝"}
-                </div>
-                <div
-                  className={`text-3xl font-bold mb-4 ${
-                    isPassing ? "text-green-400" : "text-red-400"
-                  }`}
+                  <ArrowCounterClockwiseIcon size={20} weight="bold" />
+                  Take Another Test
+                </Link>
+
+                <Link
+                  href="/"
+                  className="w-full bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 px-6 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-3"
                 >
-                  {isPassing ? "PASSED!" : "NEEDS IMPROVEMENT"}
-                </div>
-                <p
-                  className={`text-lg ${
-                    isPassing ? "text-green-300" : "text-red-300"
-                  }`}
-                >
-                  {isPassing
-                    ? "Congratulations! You're ready for the CompTIA A+ exam."
-                    : "Keep studying and try again. You'll get there!"}
-                </p>
+                  <HouseIcon size={20} weight="bold" />
+                  Back to Home
+                </Link>
               </div>
             </div>
 
-            <div className="space-y-4">
-              <Link
-                href="/tests/core1"
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-3"
-              >
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-                  />
-                </svg>
-                <span>Take Test Again</span>
-              </Link>
-
-              <Link
-                href="/"
-                className="w-full bg-gray-700/50 backdrop-blur-sm border border-gray-600 text-white hover:bg-gray-600/50 px-8 py-4 rounded-2xl font-semibold text-lg transition-all duration-300 flex items-center justify-center space-x-3"
-              >
-                <svg
-                  className="w-6 h-6"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-                  />
-                </svg>
-                <span>Back to Home</span>
-              </Link>
-            </div>
-
-            <div className="bg-gradient-to-br from-yellow-500/20 to-orange-500/20 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/30">
-              <div className="flex items-center space-x-3 mb-4">
-                <div className="text-2xl">💡</div>
-                <h3 className="text-xl font-semibold text-yellow-300">
-                  Study Tips
-                </h3>
+            <div className="bg-blue-50 rounded-3xl p-8 border border-blue-100">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                  <span className="text-lg">💡</span>
+                </div>
+                <h3 className="text-lg font-bold text-blue-900">Study Tips</h3>
               </div>
-              <div className="space-y-3 text-yellow-200">
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <p>Review explanations for questions you got wrong</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <p>Focus on areas where you scored lower</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <p>Practice with hands-on labs when possible</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 bg-yellow-400 rounded-full mt-2 flex-shrink-0"></div>
-                  <p>Take breaks between study sessions</p>
-                </div>
-              </div>
+              <ul className="space-y-3">
+                {[
+                  "Review explanations for incorrect answers",
+                  "Focus on areas where you scored lower",
+                  "Practice with hands-on labs when possible",
+                  "Take breaks between study sessions"
+                ].map((tip, i) => (
+                  <li key={i} className="flex items-start gap-3 text-blue-800">
+                    <div className="w-1.5 h-1.5 rounded-full bg-blue-400 mt-2 flex-shrink-0" />
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 }
@@ -269,8 +214,8 @@ export default function QuizResults() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-[#0a092d] flex items-center justify-center">
-          <div className="text-white text-xl">Loading results...</div>
+        <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+          <div className="text-gray-500 font-medium">Loading results...</div>
         </div>
       }
     >

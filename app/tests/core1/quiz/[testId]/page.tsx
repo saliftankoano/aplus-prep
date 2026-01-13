@@ -3,6 +3,16 @@
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { useRouter, useParams } from "next/navigation";
+import { motion, AnimatePresence } from "framer-motion";
+import {
+  ShieldIcon,
+  XIcon,
+  CaretLeftIcon,
+  CaretRightIcon,
+  CheckCircleIcon,
+  WarningCircleIcon,
+  ArrowRightIcon,
+} from "@/app/components/PhosphorIcons";
 
 interface Question {
   id: number;
@@ -19,24 +29,15 @@ const useDynamicFontSize = (question: string, options: string[]) => {
     const maxOptionLength = Math.max(...options.map((opt) => opt.length));
 
     // Base font sizes
-    let questionFontSize = "text-2xl md:text-3xl";
-    let optionFontSize = "text-lg";
+    let questionFontSize = "text-xl md:text-2xl";
+    let optionFontSize = "text-base";
 
     // Adjust based on content length
     if (questionLength > 300) {
-      questionFontSize = "text-xl md:text-2xl";
-    }
-    if (questionLength > 500) {
       questionFontSize = "text-lg md:text-xl";
-    }
-    if (questionLength > 700) {
-      questionFontSize = "text-base md:text-lg";
     }
 
     if (maxOptionLength > 150) {
-      optionFontSize = "text-base";
-    }
-    if (maxOptionLength > 200) {
       optionFontSize = "text-sm";
     }
 
@@ -52,7 +53,6 @@ const ExplanationModal = ({
   explanation,
   selectedAnswer,
   correctAnswer,
-  questionFontSize,
 }: {
   isOpen: boolean;
   onClose: () => void;
@@ -60,124 +60,98 @@ const ExplanationModal = ({
   explanation: string;
   selectedAnswer: number;
   correctAnswer: number;
-  questionFontSize: string;
 }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-      <div className="bg-gray-800/95 backdrop-blur-md rounded-3xl shadow-2xl border border-gray-700 max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+    <div className="fixed inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.95 }}
+        className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full overflow-hidden"
+      >
         {/* Modal Header */}
-        <div className="p-6 border-b border-gray-700">
+        <div
+          className={`p-6 border-b ${
+            isCorrect
+              ? "bg-green-50 border-green-100"
+              : "bg-red-50 border-red-100"
+          }`}
+        >
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div
-                className={`w-12 h-12 rounded-full flex items-center justify-center ${
+                className={`w-10 h-10 rounded-full flex items-center justify-center ${
                   isCorrect
-                    ? "bg-green-500/20 border border-green-500"
-                    : "bg-red-500/20 border border-red-500"
+                    ? "bg-green-100 text-green-600"
+                    : "bg-red-100 text-red-600"
                 }`}
               >
-                <span className="text-2xl">{isCorrect ? "✅" : "❌"}</span>
+                {isCorrect ? (
+                  <CheckCircleIcon size={24} weight="fill" />
+                ) : (
+                  <WarningCircleIcon size={24} weight="fill" />
+                )}
               </div>
               <div>
-                <h3 className="text-2xl font-semibold text-white">
+                <h3
+                  className={`text-xl font-bold ${
+                    isCorrect ? "text-green-800" : "text-red-800"
+                  }`}
+                >
                   {isCorrect ? "Correct!" : "Incorrect"}
                 </h3>
-                <p className="text-gray-400 text-base">
-                  {isCorrect ? "Great job!" : "Let's review the explanation"}
-                </p>
               </div>
             </div>
             <button
               onClick={onClose}
-              className="p-2 text-gray-400 hover:text-white transition-colors rounded-lg hover:bg-gray-700"
+              className="p-2 text-gray-400 hover:text-gray-600 transition-colors rounded-full hover:bg-white/50"
             >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <XIcon size={20} />
             </button>
           </div>
         </div>
 
         {/* Modal Content */}
-        <div className="p-6">
+        <div className="p-6 md:p-8">
           <div className="space-y-6">
-            {/* Answer Summary */}
-            <div className="bg-gray-700/50 rounded-2xl p-6">
-              <h4 className="text-gray-300 font-semibold mb-4 text-lg">
-                Your Answer
-              </h4>
-              <div className="flex items-center space-x-4">
-                <div
-                  className={`w-10 h-10 rounded-full flex items-center justify-center text-base font-semibold ${
-                    selectedAnswer === correctAnswer
-                      ? "bg-green-500 text-white"
-                      : "bg-red-500 text-white"
-                  }`}
-                >
-                  {String.fromCharCode(65 + selectedAnswer)}
-                </div>
-                <span className="text-white text-lg">
-                  {isCorrect ? "Correct answer" : "Incorrect answer"}
+            {!isCorrect && (
+              <div className="flex items-center p-4 bg-green-50 rounded-xl border border-green-100 text-green-800">
+                <span className="font-semibold mr-2">Correct Answer:</span>
+                <span className="font-bold">
+                  {String.fromCharCode(65 + correctAnswer)}
                 </span>
               </div>
-            </div>
+            )}
 
-            {/* Explanation - Improved readability */}
-            <div className="bg-gray-700/80 rounded-2xl p-8 border border-gray-600">
-              <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 mt-1">
-                  <svg
-                    className="w-8 h-8 text-blue-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                </div>
-                <div className="flex-1">
-                  <h4 className="text-white font-semibold mb-4 text-xl">
-                    Explanation
-                  </h4>
-                  <p
-                    className={`text-gray-200 leading-relaxed ${questionFontSize}`}
-                  >
-                    {explanation ||
-                      "No explanation available for this question."}
-                  </p>
-                </div>
-              </div>
+            <div>
+              <h4 className="text-gray-900 font-semibold mb-3 flex items-center gap-2">
+                <ShieldIcon
+                  size={20}
+                  className="text-blue-600"
+                  weight="duotone"
+                />
+                Explanation
+              </h4>
+              <p className="text-gray-600 leading-relaxed text-base md:text-lg">
+                {explanation || "No explanation available for this question."}
+              </p>
             </div>
           </div>
         </div>
 
         {/* Modal Footer */}
-        <div className="p-6 border-t border-gray-700">
+        <div className="p-6 border-t border-gray-100 bg-gray-50 flex justify-end">
           <button
             onClick={onClose}
-            className="w-full bg-blue-600 hover:bg-blue-700 hover:cursor-pointer text-white font-semibold py-4 px-8 rounded-xl transition-colors text-lg"
+            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-xl transition-all shadow-lg hover:shadow-blue-500/25 flex items-center gap-2"
           >
             Continue
+            <CaretRightIcon size={16} weight="bold" />
           </button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
@@ -195,7 +169,6 @@ export default function Core1Quiz() {
   const [showExplanationModal, setShowExplanationModal] = useState(false);
   const [score, setScore] = useState(0);
   const [startTime] = useState(Date.now());
-  const [shake, setShake] = useState(false);
 
   // Load questions from JSON file
   useEffect(() => {
@@ -224,13 +197,12 @@ export default function Core1Quiz() {
     }
   }, [testId]);
 
-  // Calculate dynamic font sizes - always call hook with safe defaults
+  // Calculate dynamic font sizes
   const currentQ = questions[currentQuestion] || { question: "", options: [] };
   const totalQuestions = questions.length;
   const progress =
     questions.length > 0 ? ((currentQuestion + 1) / totalQuestions) * 100 : 0;
 
-  // Calculate dynamic font sizes
   const { questionFontSize, optionFontSize } = useDynamicFontSize(
     currentQ.question,
     currentQ.options
@@ -238,25 +210,24 @@ export default function Core1Quiz() {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
-        <div className="text-white text-xl">Loading test {testId}...</div>
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-12 h-12 border-4 border-blue-100 border-t-blue-600 rounded-full animate-spin"></div>
+          <p className="text-gray-500 font-medium">Loading test {testId}...</p>
+        </div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
-        <div className="text-white text-xl">Error: {error}</div>
-      </div>
-    );
-  }
-
-  if (questions.length === 0) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-900 via-blue-900 to-purple-900 flex items-center justify-center">
-        <div className="text-white text-xl">
-          No questions found for test {testId}
+      <div className="min-h-screen bg-white flex items-center justify-center">
+        <div className="text-center">
+          <WarningCircleIcon size={48} className="text-red-500 mx-auto mb-4" />
+          <h3 className="text-xl font-bold text-gray-900 mb-2">
+            Error Loading Test
+          </h3>
+          <p className="text-gray-500">{error}</p>
         </div>
       </div>
     );
@@ -269,8 +240,6 @@ export default function Core1Quiz() {
     if (answerIndex === currentQ.correctAnswer) {
       setScore(score + 1);
     } else {
-      setShake(true);
-      setTimeout(() => setShake(false), 500);
       setShowExplanationModal(true);
     }
   };
@@ -302,236 +271,187 @@ export default function Core1Quiz() {
     }
   };
 
-  const closeExplanationModal = () => {
-    setShowExplanationModal(false);
-  };
-
-  const showExplanation = () => {
-    setShowExplanationModal(true);
-  };
-
   return (
-    <div className="min-h-screen bg-[#0a092d]">
-      <div className="bg-transparent backdrop-blur-md">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
-            <Link href="/tests" className="flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-blue-600 rounded-lg flex items-center justify-center mr-3">
-                <svg
-                  className="w-5 h-5 text-white"
-                  fill="none"
-                  viewBox="0 0 16 16"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.5 13.5V5.41a1 1 0 0 0-.3-.7L9.8.29A1 1 0 0 0 9.08 0H1.5v13.5A2.5 2.5 0 0 0 4 16h8a2.5 2.5 0 0 0 2.5-2.5m-1.5 0v-7H8v-5H3v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1M9.5 5V2.12L12.38 5zM5.13 5h-.62v1.25h2.12V5zm-.62 3h7.12v1.25H4.5zm.62 3h-.62v1.25h7.12V11z"
-                    clipRule="evenodd"
-                    fill="currentColor"
-                    fillRule="evenodd"
-                  />
-                </svg>
-              </div>
-            </Link>
-
-            <div className="text-center">
-              <div className="text-white font-semibold text-lg">
-                {currentQuestion + 1} / {totalQuestions}
-              </div>
-              <div className="text-sm text-gray-400">
-                CompTIA A+ 220-1201 Core 1
-              </div>
+    <div className="min-h-screen bg-gray-50">
+      {/* Navbar */}
+      <nav className="fixed w-full z-40 bg-white/80 backdrop-blur-md border-b border-gray-200">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+          <Link href="/tests/core1" className="flex items-center gap-2 group">
+            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white transition-transform group-hover:scale-105">
+              <ShieldIcon size={20} weight="fill" />
             </div>
+            <span className="font-bold text-gray-900">Core 1 Prep</span>
+          </Link>
 
+          <div className="flex items-center gap-4">
+            <span className="text-sm font-medium text-gray-500">
+              Question {currentQuestion + 1} of {totalQuestions}
+            </span>
             <Link
               href="/tests/core1"
-              className="p-2 text-gray-400 hover:text-white transition-colors"
+              className="p-2 text-gray-400 hover:text-gray-600 hover:bg-gray-100 rounded-full transition-all"
             >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <XIcon size={20} />
             </Link>
           </div>
         </div>
-      </div>
 
-      <div className="max-w-7xl mx-auto px-4 py-2">
-        <div className="w-full bg-gray-700 rounded-full h-1">
-          <div
-            className="bg-gradient-to-r from-green-400 to-blue-500 h-1 rounded-full transition-all duration-300"
-            style={{ width: `${progress}%` }}
-          ></div>
+        {/* Progress Bar */}
+        <div className="h-1 bg-gray-100 w-full">
+          <motion.div
+            className="h-full bg-blue-600"
+            initial={{ width: 0 }}
+            animate={{ width: `${progress}%` }}
+            transition={{ duration: 0.5 }}
+          />
         </div>
-      </div>
+      </nav>
 
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <div className="bg-gray-800/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-gray-700 max-h-[85vh] overflow-y-auto quiz-card-scrollbar">
-          <div className="flex items-start justify-between mb-6">
-            <div className="flex items-center space-x-3">
-              <span className="text-white text-2xl font-medium">Question</span>
-            </div>
-            <span className="text-gray-400 text-sm">
-              {currentQuestion + 1} of {totalQuestions}
-            </span>
-          </div>
-
-          <div className="mb-8">
-            <h2
-              className={`${questionFontSize} font-medium text-white mb-6 leading-relaxed`}
-            >
-              {currentQ.question}
-            </h2>
-          </div>
-
-          <div className="mb-8">
-            <p className="text-gray-300 text-lg mb-6">Choose an answer</p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {currentQ.options.map((option, index) => (
-                <button
-                  key={index}
-                  onClick={() => handleAnswerSelect(index)}
-                  disabled={selectedAnswer !== null}
-                  className={`
-                    p-6 rounded-xl border-2 text-left font-medium ${optionFontSize} transition-all duration-200
-                    ${
-                      selectedAnswer === null
-                        ? "border-gray-600 bg-gray-700/50 text-white hover:border-blue-500 hover:bg-gray-700"
-                        : selectedAnswer === index
-                        ? index === currentQ.correctAnswer
-                          ? "border-green-500 bg-green-500/20 text-green-300"
-                          : `border-red-500 bg-red-500/20 text-red-300 ${
-                              shake ? "animate-shake" : ""
-                            }`
-                        : index === currentQ.correctAnswer
-                        ? "border-green-500 bg-green-500/20 text-green-300"
-                        : "border-gray-600 bg-gray-700/30 text-gray-400"
-                    }
-                  `}
+      {/* Main Content */}
+      <main className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto min-h-screen flex flex-col">
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentQuestion}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.3 }}
+            className="flex-grow flex flex-col"
+          >
+            {/* Question Card */}
+            <div className="bg-white rounded-3xl shadow-sm border border-gray-200 overflow-hidden mb-6">
+              <div className="p-8 md:p-10">
+                <h2
+                  className={`${questionFontSize} font-semibold text-gray-900 leading-relaxed mb-8`}
                 >
-                  {option}
-                </button>
-              ))}
-            </div>
-          </div>
+                  {currentQ.question}
+                </h2>
 
-          {selectedAnswer !== null &&
-            selectedAnswer === currentQ.correctAnswer && (
-              <div className="text-center mb-8">
-                <div className="flex items-center justify-center space-x-4">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-lg font-semibold text-green-400">
-                      ✅ Correct!
-                    </span>
-                  </div>
-                  <button
-                    onClick={showExplanation}
-                    className="flex items-center space-x-2 text-blue-400 hover:cursor-pointer hover:text-blue-300 transition-colors px-4 py-2 rounded-lg hover:bg-blue-500/10"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                    <span>See explanation</span>
-                  </button>
+                <div className="grid gap-4">
+                  {currentQ.options.map((option, index) => {
+                    const isSelected = selectedAnswer === index;
+                    const isCorrect = index === currentQ.correctAnswer;
+                    const showResult = selectedAnswer !== null;
+
+                    let buttonStyle =
+                      "border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100";
+                    let icon = null;
+
+                    if (showResult) {
+                      if (isSelected && isCorrect) {
+                        buttonStyle =
+                          "border-green-500 bg-green-50 text-green-900";
+                        icon = (
+                          <CheckCircleIcon
+                            size={24}
+                            weight="fill"
+                            className="text-green-500 flex-shrink-0"
+                          />
+                        );
+                      } else if (isSelected && !isCorrect) {
+                        buttonStyle = "border-red-500 bg-red-50 text-red-900";
+                        icon = (
+                          <WarningCircleIcon
+                            size={24}
+                            weight="fill"
+                            className="text-red-500 flex-shrink-0"
+                          />
+                        );
+                      } else if (isCorrect) {
+                        buttonStyle =
+                          "border-green-500 bg-green-50/50 text-green-900";
+                        icon = (
+                          <CheckCircleIcon
+                            size={24}
+                            weight="fill"
+                            className="text-green-500 flex-shrink-0"
+                          />
+                        );
+                      } else {
+                        buttonStyle =
+                          "border-gray-100 bg-gray-50 text-gray-400 opacity-60";
+                      }
+                    }
+
+                    return (
+                      <button
+                        key={index}
+                        onClick={() => handleAnswerSelect(index)}
+                        disabled={showResult}
+                        className={`w-full text-left p-5 rounded-xl border-2 transition-all duration-200 flex items-center justify-between gap-4 group ${buttonStyle}`}
+                      >
+                        <div className="flex items-center gap-4">
+                          <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg text-sm font-bold transition-colors ${
+                            showResult && (isSelected || isCorrect) 
+                              ? 'bg-white/50 dark:bg-black/20' 
+                              : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 group-hover:bg-blue-100 dark:group-hover:bg-blue-900 group-hover:text-blue-600 dark:group-hover:text-blue-400'
+                          }`}>
+                            {String.fromCharCode(65 + index)}
+                          </span>
+                          <span className={`${optionFontSize} font-medium`}>
+                            {option}
+                          </span>
+                        </div>
+                        {icon}
+                      </button>
+                    );
+                  })}
                 </div>
               </div>
-            )}
 
-          {selectedAnswer !== null &&
-            selectedAnswer !== currentQ.correctAnswer && (
-              <div className="text-center mb-8">
-                <span className="text-lg font-semibold text-red-400">
-                  ❌ Incorrect
-                </span>
+              {/* Footer Actions */}
+              <div className="px-8 py-4 bg-gray-50 border-t border-gray-100 flex items-center justify-between">
+                <button
+                  onClick={handlePrevious}
+                  disabled={currentQuestion === 0}
+                  className={`flex items-center gap-2 px-4 py-2 rounded-lg font-medium transition-colors ${
+                    currentQuestion === 0
+                      ? "text-gray-300 cursor-not-allowed"
+                      : "text-gray-600 hover:text-gray-900 hover:bg-gray-200"
+                  }`}
+                >
+                  <CaretLeftIcon size={16} weight="bold" />
+                  Previous
+                </button>
+
+                {selectedAnswer !== null ? (
+                  <div className="flex gap-3">
+                    {selectedAnswer === currentQ.correctAnswer && (
+                      <button
+                        onClick={() => setShowExplanationModal(true)}
+                        className="px-6 py-2 bg-blue-100 text-blue-700 rounded-xl font-semibold hover:bg-blue-200 transition-colors"
+                      >
+                        Explanation
+                      </button>
+                    )}
+                    <button
+                      onClick={handleNext}
+                      className="px-8 py-2 bg-gray-900 text-white rounded-xl font-semibold hover:bg-gray-800 transition-all flex items-center gap-2 shadow-lg hover:shadow-xl"
+                    >
+                      {currentQuestion === totalQuestions - 1
+                        ? "Finish"
+                        : "Next"}
+                      <ArrowRightIcon size={16} weight="bold" />
+                    </button>
+                  </div>
+                ) : (
+                  <div className="text-sm text-gray-400 font-medium italic">
+                    Select an answer to continue
+                  </div>
+                )}
               </div>
-            )}
-
-          <div className="flex items-center justify-between">
-            <button
-              onClick={handlePrevious}
-              disabled={currentQuestion === 0}
-              className={`
-                flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
-                ${
-                  currentQuestion === 0
-                    ? "bg-gray-700 text-gray-500 cursor-not-allowed"
-                    : "bg-gray-700 border border-gray-600 text-white hover:bg-gray-600"
-                }
-              `}
-            >
-              <svg
-                className="w-5 h-5 mr-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-              Previous
-            </button>
-
-            <button
-              onClick={handleNext}
-              disabled={selectedAnswer === null}
-              className={`
-                flex hover:cursor-pointer items-center px-6 py-3 rounded-xl font-semibold transition-all duration-200
-                ${
-                  selectedAnswer === null
-                    ? "bg-gray-700 text-gray-500 cursor-not-allowed"
-                    : "bg-blue-600 text-white hover:bg-blue-700"
-                }
-              `}
-            >
-              {currentQuestion === totalQuestions - 1 ? "Finish" : "Next"}
-              <svg
-                className="w-5 h-5 ml-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
+            </div>
+          </motion.div>
+        </AnimatePresence>
+      </main>
 
       <ExplanationModal
         isOpen={showExplanationModal}
-        onClose={closeExplanationModal}
+        onClose={() => setShowExplanationModal(false)}
         isCorrect={selectedAnswer === currentQ.correctAnswer}
         explanation={currentQ.explanation}
         selectedAnswer={selectedAnswer || 0}
         correctAnswer={currentQ.correctAnswer}
-        questionFontSize={questionFontSize}
       />
     </div>
   );
