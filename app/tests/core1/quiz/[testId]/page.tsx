@@ -334,7 +334,7 @@ export default function Core1Quiz() {
                     const showResult = selectedAnswer !== null;
 
                     let buttonStyle =
-                      "border-gray-200 hover:border-blue-300 hover:bg-blue-50/50 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100";
+                      "border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-700 hover:bg-blue-50/50 dark:hover:bg-blue-900/20 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100";
                     let icon = null;
 
                     if (showResult) {
@@ -381,14 +381,16 @@ export default function Core1Quiz() {
                         className={`w-full text-left p-5 rounded-xl border-2 transition-all duration-200 flex items-center justify-between gap-4 group ${buttonStyle}`}
                       >
                         <div className="flex items-center gap-4">
-                          <span className={`flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg text-sm font-bold transition-colors ${
-                            showResult && (isSelected || isCorrect) 
-                              ? 'bg-white/50 dark:bg-black/20' 
-                              : 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 group-hover:bg-blue-100 dark:group-hover:bg-blue-900 group-hover:text-blue-600 dark:group-hover:text-blue-400'
-                          }`}>
+                          <span
+                            className={`flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-lg text-sm font-bold transition-colors ${
+                              showResult && (isSelected || isCorrect)
+                                ? "bg-white/50 dark:bg-black/20"
+                                : "bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 group-hover:bg-blue-100 dark:group-hover:bg-blue-900 group-hover:text-blue-600 dark:group-hover:text-blue-400"
+                            }`}
+                          >
                             {String.fromCharCode(65 + index)}
                           </span>
-                          <span className={`${optionFontSize} font-medium`}>
+                          <span className={`${optionFontSize} font-medium `}>
                             {option}
                           </span>
                         </div>
