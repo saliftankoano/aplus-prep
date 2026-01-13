@@ -27,9 +27,9 @@ export const metadata: Metadata = {
   creator: "Salif Tankoano",
   publisher: "aplus-prep.com",
   icons: {
-    icon: '/favicon.svg',
-    shortcut: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: '/shield-icon.svg',
+    shortcut: '/shield-icon.svg',
+    apple: '/shield-icon.svg',
   },
 };
 
