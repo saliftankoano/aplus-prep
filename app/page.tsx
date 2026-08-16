@@ -12,6 +12,7 @@ import {
   GraduationCapIcon,
   LockKeyIcon,
   MonitorIcon,
+  PlayIcon,
   SparkleIcon,
   StackIcon,
 } from "@/app/components/PhosphorIcons";
@@ -97,6 +98,45 @@ export default function Home() {
             ))}
           </div>
         </MotionReveal>
+
+        <section className="border-b border-line bg-app">
+          <MotionReveal scroll className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[0.72fr_1.28fr] lg:px-8 lg:py-24">
+            <div data-reveal>
+              <span className="inline-flex items-center gap-2 rounded-full border border-brand/20 bg-brand-soft px-3 py-1.5 text-xs font-semibold text-brand">
+                <PlayIcon size={14} weight="fill" /> Product walkthrough
+              </span>
+              <h2 className="mt-5 text-balance text-4xl font-bold tracking-[-0.04em] text-ink sm:text-5xl">See A+ Prep in action</h2>
+              <p className="mt-5 text-lg leading-8 text-muted">
+                Tour both exam paths, source-labelled decks, answer feedback, results, themes, and the mobile study experience in one focused walkthrough.
+              </p>
+              <a
+                href="https://youtu.be/0BzNk_GXMyA"
+                target="_blank"
+                rel="noreferrer"
+                className="mt-7 inline-flex items-center gap-2 font-semibold text-brand transition hover:text-brand-strong"
+              >
+                Watch on YouTube <ArrowUpRightIcon size={17} weight="bold" />
+              </a>
+            </div>
+
+            <div data-reveal className="relative">
+              <div className="absolute -inset-4 rounded-[2rem] bg-gradient-to-br from-core1/15 to-core2/15 blur-2xl" />
+              <div className="relative overflow-hidden rounded-[2rem] border border-line bg-panel p-2 panel-shadow sm:p-3">
+                <div className="aspect-video overflow-hidden rounded-[1.5rem] bg-app-deep">
+                  <iframe
+                    className="size-full"
+                    src="https://www.youtube-nocookie.com/embed/0BzNk_GXMyA?rel=0"
+                    title="A+ Prep learner walkthrough"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
+            </div>
+          </MotionReveal>
+        </section>
 
         <section id="exam-paths" className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
           <MotionReveal scroll>
