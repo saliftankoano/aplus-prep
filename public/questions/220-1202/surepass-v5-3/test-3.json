@@ -1,0 +1,457 @@
+[
+  {
+    "id": 64,
+    "question": "A support specialist needs to decide whether to install a 32-bit or 64-bit OS architecture on a new computer. Which of the following specifications will help the specialist determine which OS architecture to use?",
+    "options": [
+      "A. 16GB RAM",
+      "B. Intel i7 CPU",
+      "C. 500GB HDD",
+      "D. 1Gbps Ethernet"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 65,
+    "question": "A user's new smartphone is not staying charged throughout the day. The smartphone charges fully every night. Which of the following should a technician review first to troubleshoot the issue?",
+    "options": [
+      "A. Storage usage",
+      "B. End of software support",
+      "C. Charger wattage",
+      "D. Background applications"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 66,
+    "question": "Which of the following filesystems supports read and write operations for Windows, macOS, and Linux?",
+    "options": [
+      "A. exFAT",
+      "B. ReFS",
+      "C. NTFS",
+      "D. APFS",
+      "E. ext4"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 67,
+    "question": "An employee is trying to connect their company laptop to airport Wi-Fi. A pop-up with the airport logo appeared and was closed quickly. The internet does not work. What should a help desk technician suggest?",
+    "options": [
+      "A. Look for a wall socket with RJ45 and try to connect",
+      "B. Contact the airport IT department",
+      "C. Tell the employee that company policy prohibits connection to public Wi-Fi",
+      "D. Reconnect to the network and read the pop-up carefully"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 68,
+    "question": "A network technician notices that most of the company's network switches are now end-of- life and need to be upgraded. Which of the following should the technician do first?",
+    "options": [
+      "A. Implement the change",
+      "B. Approve the change",
+      "C. Propose the change",
+      "D. Schedule the change"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 69,
+    "question": "After using a third-party disk optimization software package, a technician restarts a laptop and receives the message “No operating system found.” The technician verifies that the BIOS properly recognizes the SSD. Which of the following should the technician do next?",
+    "options": [
+      "A. Update BitLocker settings in the BIOS",
+      "B. Replace the CMOS battery",
+      "C. Boot from installation media and repair the MBR",
+      "D. Isolate the system from the corporate network"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 70,
+    "question": "A user decides to switch to Windows from Linux and is trying to migrate data using an external USB hard disk. However, when the user connects the cable to the Windows machine, an error message appears stating the device must be formatted before it can be used. The hard disk works as expected when connected to the Linux machine. Which of the following should the user do to resolve this issue?",
+    "options": [
+      "A. Configure Windows firewall to allow data from Linux systems",
+      "B. Replace the cable with Windows-supported hardware",
+      "C. Apply a firmware update from the PC manufacturer",
+      "D. Update the file allocation system to exFAT"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 71,
+    "question": "An organization is experiencing an increased number of issues. A technician notices applications that are not installed by default. Users are reporting an increased number of system prompts for software licensing. Which of the following would the security team most likely do to remediate the root cause?",
+    "options": [
+      "A. Deploy an internal PKI to filter encrypted web traffic.",
+      "B. Remove users from the local admin group.",
+      "C. Implement stronger controls to block suspicious websites.",
+      "D. Enable stricter UAC settings on Windows."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 72,
+    "question": "A technician reviews an organization's incident management policy. The organization uses a third-party vendor with multiple tools to protect its assets. What service type is this?",
+    "options": [
+      "A. PaaS",
+      "B. EDR",
+      "C. MDR",
+      "D. XDR"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 73,
+    "question": "A secretary receives an email from the company's chief executive officer with a request to pay a vendor immediately. After the payment is made, the CEO informs the secretary that they never sent that email. Which of the following social engineering tactics best describes this type of attack?",
+    "options": [
+      "A. Evil twin",
+      "B. Impersonation",
+      "C. Whaling",
+      "D. Spear phishing"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 74,
+    "question": "A technician is setting up a Windows server to allow remote desktop connections for multiple users. Which of the following should the technician configure on the workstation?",
+    "options": [
+      "A. Firewall",
+      "B. Computer Management",
+      "C. User Accounts",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 75,
+    "question": "Performance on a user’s smartphone is degrading. Applications take a long time to start, and switching between apps is slow. Which of the following diagnostic steps should a mobile technician take first?",
+    "options": [
+      "A. Restore the phone to factory settings",
+      "B. Restart the phone",
+      "C. Check the phone’s battery state",
+      "D. Uninstall unneeded applications"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 76,
+    "question": "A technician needs to disable guest log-ins on domain-joined desktop machines. Which of the following should be used?",
+    "options": [
+      "A. Group Policy",
+      "B. Firewall",
+      "C. Microsoft Management Console",
+      "D. MSConfig"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 77,
+    "question": "A user is attempting to open on a mobile phone a HD video that is hosted on a popular media streaming website. The user is receiving connection timeout errors. The mobile reception icon area is showing two bars next to 3G. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The user does not have Wi-Fi enabled.",
+      "B. The website's subscription has run out.",
+      "C. The bandwidth is not fast enough.",
+      "D. The mobile device storage is full."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 78,
+    "question": "A company wants to use a single operating system for its workstations and servers and avoid licensing fees. Which of the following operating systems would the company most likely select?",
+    "options": [
+      "A. Linux",
+      "B. Windows",
+      "C. macOS",
+      "D. Chrome OS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 79,
+    "question": "Technicians are failing to document user contact information, device asset tags, and a clear description of each issue in the ticketing system. What should the help desk management implement?",
+    "options": [
+      "A. Service-level agreements",
+      "B. Call categories",
+      "C. Standard operating procedures",
+      "D. Knowledge base articles"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 80,
+    "question": "A technician is installing a cloud-based productivity suite and gets an error saying the installation is unavailable. What should be tried first?",
+    "options": [
+      "A. Reinstall the productivity suite",
+      "B. Download an open-source alternative",
+      "C. Check the license device limit",
+      "D. Update the device OS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 81,
+    "question": "A help desk technician is setting up speech recognition on a Windows system. Which of the following settings should the technician use?",
+    "options": [
+      "A. Time and Language",
+      "B. Personalization",
+      "C. System",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 82,
+    "question": "A secretary receives an email from the CEO requesting immediate vendor payment. Later, the CEO says they never sent it. Which social engineering tactic is this?",
+    "options": [
+      "A. Evil twin",
+      "B. Impersonation",
+      "C. Whaling",
+      "D. Spear phishing"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 83,
+    "question": "A company would like to deploy baseline images to new computers as they are started up on the network. Which of the following boot processes should the company use for this task?",
+    "options": [
+      "A. ISO",
+      "B. Secure",
+      "C. USB",
+      "D. PXE"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 84,
+    "question": "A technician thinks that an application a user downloaded from the internet may not be the legitimate one, even though the name is the same. The technician needs to confirm whether the application is legitimate. Which of the following should the technician do?",
+    "options": [
+      "A. Compare the hash value from the vendor.",
+      "B. Run Task Manager and compare the process ID.",
+      "C. Run the application in safe mode.",
+      "D. Verify the file name is correct."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 85,
+    "question": "A technician needs to change hibernation settings on a Windows computer via a batch file. Domain policies are unavailable. Which is the best method?",
+    "options": [
+      "A. Use Power Options in Control Panel",
+      "B. Update the computer’s firmware",
+      "C. Run gpupdate from command prompt",
+      "D. Use the powercfg command in PowerShell"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 86,
+    "question": "A help desk team was alerted that a company-owned cell phone has an unrecognized password-cracking application. Which of the following should the help desk team do to prevent further unauthorized installations from occurring?",
+    "options": [
+      "A. Configure Group Policy.",
+      "B. Implement PAM.",
+      "C. Install anti-malware software.",
+      "D. Deploy MDM."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 87,
+    "question": "A user takes an iOS-based smartphone to a repair shop due to performance issues. The technician observes: Battery charge: 25% Battery health: 90% Hotspot: On Used space: 63.76GB / 64GB Which of the following is the most likely cause of the performance issue?",
+    "options": [
+      "A. The device is running out of free space",
+      "B. The battery health is low",
+      "C. The phone is not sufficiently charged",
+      "D. The hotspot is degrading the performance",
+      "E. Too many applications are open"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 88,
+    "question": "A customer’s laptop will not turn on. The customer is distraught and panicking because the laptop contains family pictures that can never be replaced. Which of the following communication techniques is most important for the technician to demonstrate in this situation?",
+    "options": [
+      "A. The technician should provide the customer with the appropriate SLA",
+      "B. The technician should inform the customer about replacement options for an increased cost",
+      "C. The technician should project confidence and maintain a positive attitude",
+      "D. The technician should be dressed in appropriate business casual attire"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 89,
+    "question": "Every time a user loads a specific spreadsheet, their computer is temporarily unresponsive. The user also notices that the title bar indicates the application is not responding. Which of the following would a technician most likely inspect?",
+    "options": [
+      "A. Anti-malware logs",
+      "B. Workstation repair options",
+      "C. Bandwidth status as reported in the Task Manager",
+      "D. File size and related memory utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 90,
+    "question": "A Microsoft OS laptop user frequently forgets their password. Which alternative login method should a technician enable?",
+    "options": [
+      "A. Single sign-on",
+      "B. Windows Hello",
+      "C. BitLocker",
+      "D. User Account Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 91,
+    "question": "A technician is securing a newly deployed workstation. Only authorized users should access it. Which actions should the technician take? (Select two)",
+    "options": [
+      "A. Defragment the hard drive",
+      "B. Enable SSH",
+      "C. Enable screensaver locks",
+      "D. Disable iCloud integration",
+      "E. Enable the firewall",
+      "F. Apply the BIOS password"
+    ],
+    "correctAnswers": [
+      2,
+      5
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 92,
+    "question": "A technician is using a credential manager to safeguard a large number of credentials. Which of the following is important for using this application?",
+    "options": [
+      "A. Restricted log-in times",
+      "B. Secure master password",
+      "C. TPM module",
+      "D. Windows lock screen"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 93,
+    "question": "A technician is troubleshooting a print spooler that fails to start on a Windows 11 desktop computer. The technician determines the root cause is that required dependencies are failing to run. Which of the following tools is the technician using?",
+    "options": [
+      "A. Process",
+      "B. Services",
+      "C. Startup",
+      "D. Performance"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "exam": "220-1202",
+  "source": "DumpsGate",
+  "sourceSlug": "dumpsgate",
+  "version": "2025",
+  "sourceFile": "220-1202-practice exam Dumpsgate.pdf",
+  "questionsFound": 157,
+  "questionsImported": 153,
+  "questionsRejected": 4,
+  "rejected": [
+    {
+      "id": 1,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 19,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 72,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 76,
+      "reason": "visual-pbq"
+    }
+  ],
+  "decks": [
+    {
+      "id": 1,
+      "file": "test-1.json",
+      "questions": 30
+    },
+    {
+      "id": 2,
+      "file": "test-2.json",
+      "questions": 30
+    },
+    {
+      "id": 3,
+      "file": "test-3.json",
+      "questions": 30
+    },
+    {
+      "id": 4,
+      "file": "test-4.json",
+      "questions": 30
+    },
+    {
+      "id": 5,
+      "file": "test-5.json",
+      "questions": 30
+    },
+    {
+      "id": 6,
+      "file": "test-6.json",
+      "questions": 3
+    }
+  ]
+}

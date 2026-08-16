@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "question": "Various alerts on a user's Windows 11 laptop are continually interrupting the user during videoconference calls. Which of the following should a support technician recommend to best solve the issue?",
+    "options": [
+      "A. Use multiple sound output devices for the various source applications",
+      "B. Disable all notifications in different applications in the order they appear",
+      "C. Configure the Sounds option in Control Panel to be set to No Sounds",
+      "D. Set Windows Notifications settings to Do Not Disturb"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 2,
+    "question": "Multiple users clicked a phishing link from a compromised email account. The security team isolates and removes the threat. Then, the management team provides security awareness training to the company. What step is this?",
+    "options": [
+      "A. Provide user education.",
+      "B. Compile lessons learned.",
+      "C. Update the antivirus software.",
+      "D. Perform additional scans."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 3,
+    "question": "An end user's laptop is having network drive connectivity issues in the office. The end user submits a help desk ticket, and a support technician is able to establish a remote connection and fix the issue. The following day, however, the network drive is disconnected again. Which of the following should the technician do next?",
+    "options": [
+      "A. Connect remotely to the user's computer to see whether the network drive is still connected.",
+      "B. Send documentation about how to fix the issue in case it reoccurs.",
+      "C. Escalate the ticket to the next level.",
+      "D. Keep the ticket open until next day, then close the ticket."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 4,
+    "question": "A user logs in to a computer each morning and tries to print a daily report, but it will not print. The help desk resolves the issue each day temporarily. To fix this permanently, which of the following should the technician do? (Select two)",
+    "options": [
+      "A. Set the print spooler to have no dependencies",
+      "B. Set the print spooler recovery to take no action",
+      "C. Start the printer extensions and notifications service",
+      "D. Start the print spooler service",
+      "E. Set the print spooler to Automatic",
+      "F. Set the print spooler log-on to the user's account"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is the best reason for a network engineering team to provide a help desk technician with IP addressing information to use on workstations being deployed in a secure network segment?",
+    "options": [
+      "A. Only specific DNS servers are allowed outbound access.",
+      "B. The network allow list is set to a specific address.",
+      "C. DHCP services are not enabled for this subnet.",
+      "D. NAC servers only allow for security updates to be installed."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 6,
+    "question": "A user's computer is running slowly. Web pages take several seconds to open, and applications are slow to respond. A technician opens the Windows Task Manager and sees the following: Disk: 2% Network: 12% GPU: 15% CPU: 70% Memory: 97% Which of the following would a technician most likely do to resolve the issue?",
+    "options": [
+      "A. Clear browser cached data",
+      "B. Upgrade the network connection",
+      "C. Close unnecessary programs",
+      "D. Delete temporary files"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 7,
+    "question": "A user cannot upload files to corporate servers from their mobile device when outside the office, but uploads work fine in-office. What should a technician do to determine the root cause?",
+    "options": [
+      "A. Check the data usage limit",
+      "B. Enable airplane mode",
+      "C. Verify the last device reboot",
+      "D. Enable Bluetooth connectivity"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 8,
+    "question": "Which of the following concepts should a technician consider when discussing confidential work projects with individuals outside the company?",
+    "options": [
+      "A. EULA",
+      "B. EOL",
+      "C. SLA",
+      "D. NDA"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 9,
+    "question": "A user receives a new personal computer but is unable to run an application. An error displays saying that .NET Framework 3.5 is required and not found. Which of the following actions is the best way to resolve this issue?",
+    "options": [
+      "A. Resolve the dependency through the 'Turn Windows features on or off' menu.",
+      "B. Download the dependency via a third-party repository.",
+      "C. Ignore the dependency and install the latest version 4 instead.",
+      "D. Forward the trouble ticket to the SOC team because the issue poses a great security risk."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 10,
+    "question": "A small office reported a phishing attack that resulted in a malware infection. A technician is investigating the incident and has verified the following: All endpoints are updated and have the newest EDR signatures. Logs confirm that the malware was quarantined by EDR on one system. The potentially infected machine was reimaged. Which of the following actions should the technician take next?",
+    "options": [
+      "A. Install network security tools to prevent downloading infected files from the internet",
+      "B. Discuss the cause of the issue and educate the end user about security hygiene",
+      "C. Flash the firmware of the router to ensure the integrity of network traffic",
+      "D. Suggest alternate preventative controls that would include more advanced security software"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 11,
+    "question": "A security administrator teaches all of an organization's staff members to use BitLocker To Go. Which of the following best describes the reason for this training?",
+    "options": [
+      "A. To ensure that all removable media is password protected in case of loss or theft",
+      "B. To enable Secure Boot and a BIOS-level password to prevent configuration changes",
+      "C. To enforce VPN connectivity to be encrypted by hardware modules",
+      "D. To configure all laptops to use the TPM as an encryption factor for hard drives"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a Linux command that is used for administrative purposes?",
+    "options": [
+      "A. runas",
+      "B. cmcl",
+      "C. net user",
+      "D. su"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 13,
+    "question": "The battery on a user’s smartphone discharges quickly when the user travels. The smartphone was replaced two weeks ago. Which of the following should a technician do first?",
+    "options": [
+      "A. Replace the battery with a higher capacity option",
+      "B. Provide an external battery to extend the usage time",
+      "C. Ensure that the charging port is working as expected",
+      "D. Look for applications that are reporting the highest utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 14,
+    "question": "A user is unable to use the latest version of an app on a legacy tablet. What is the most likely reason?",
+    "options": [
+      "A. The OS is end-of-life",
+      "B. Space is inadequate",
+      "C. MDM is blocking updates",
+      "D. The tablet is infected with malware"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 15,
+    "question": "A help desk technician needs to remove RAM from retired workstations and upgrade other workstations that have applications that use more memory with this RAM. Which of the following actions would the technician most likely take?",
+    "options": [
+      "A. Demagnetize memory for security.",
+      "B. Use antistatic bags for storage and transport.",
+      "C. Plug in the power supply to ground each workstation.",
+      "D. Install memory in identical pairs."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 16,
+    "question": "A user’s computer is running slowly. Task Manager shows: Disk: 2% Network: 12% GPU: 15% CPU: 70% Memory: 97% Which of the following would a technician most likely do to resolve the issue?",
+    "options": [
+      "A. Clear browser cached data",
+      "B. Upgrade the network connection",
+      "C. Close unnecessary programs",
+      "D. Delete temporary files"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 17,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer be issued security updates and patches. Which of the following is most likely the reason the administrator received this message?",
+    "options": [
+      "A. Support from the computer’s manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 18,
+    "question": "After completing malware removal steps, what is the next step the technician should take?",
+    "options": [
+      "A. Perform a secondary antivirus scan",
+      "B. Educate the end user",
+      "C. Reimage the computer",
+      "D. Review system logs"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 19,
+    "question": "A technician is reviewing an organization's current incident management policy. The organization uses a third-party vendor to protect the organization's assets with multiple tools. Which of the following service types is the organization using?",
+    "options": [
+      "A. PaaS",
+      "B. EDR",
+      "C. MDR",
+      "D. XDR"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 20,
+    "question": "Which of the following methods would make data unrecoverable but allow the drive to be repurposed?",
+    "options": [
+      "A. Deleting the partitions",
+      "B. Implementing EFS",
+      "C. Performing a low-level format",
+      "D. Degaussing the device"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 21,
+    "question": "After using a third-party disk optimization software package, a technician restarts a laptop and receives the message \"No operating system found.\" The technician verifies that the BIOS properly recognizes the SSD. Which of the following should the technician do next?",
+    "options": [
+      "A. Update BitLocker settings in the BIOS",
+      "B. Replace the CMOS battery",
+      "C. Boot from installation media and repair the MBR",
+      "D. Isolate the system from the corporate network"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 22,
+    "question": "A technician notices that the weekly backup is taking too long to complete. The daily backups are incremental. Which of the following would most likely resolve the issue?",
+    "options": [
+      "A. Changing the backup window",
+      "B. Performing incremental weekly backups",
+      "C. Increasing the backup storage",
+      "D. Running synthetic full weekly backups"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 23,
+    "question": "A customer’s computer does not have an active connection to the network. A technician goes through a few troubleshooting steps but is unable to resolve the issue. The technician has exhausted their knowledge. The customer expresses frustration at the time taken to resolve this issue. Which of the following should the technician do?",
+    "options": [
+      "A. Escalate the issue to a senior team member and provide next steps to the customer.",
+      "B. Dismiss the customer and reschedule another troubleshooting session at a later date.",
+      "C. Interrupt the customer and express that troubleshooting support tickets can take time.",
+      "D. Maintain a positive attitude and continue to ask questions regarding the scope of the issue."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 24,
+    "question": "A technician is assigned to offboard a user. Which of the following are common tasks on an offboarding checklist? (Choose two.)",
+    "options": [
+      "A. Quarantine the hard drive in the user's laptop.",
+      "B. Deactivate the user's key fobs for door access.",
+      "C. Purge all PII associated with the user.",
+      "D. Suspend the user's email account.",
+      "E. Turn off the network ports underneath the user's desk.",
+      "F. Add the MAC address of the user's computer to a blocklist."
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 25,
+    "question": "An employee is trying to connect their company laptop to an airport’s Wi-Fi during a business trip. Once the network is connected, a pop-up window appears with the airport logo, which the employee quickly closes. The internet connection is not working properly. Which of the following should a help desk technician suggest?",
+    "options": [
+      "A. Look for a wall socket with RJ45 and try to connect the laptop to it",
+      "B. Contact the airport IT department",
+      "C. Tell the employee that company policy prohibits connection to public Wi-Fi",
+      "D. Reconnect to the network and read the pop-up carefully"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 26,
+    "question": "A technician installs a Bluetooth headset for a user. During testing, the sound still comes from the speaker on the computer. The technician verifies the headset shows up in Device Manager. Which of the following would the technician most likely do to fix this issue?",
+    "options": [
+      "A. Update the drivers for the wireless headset",
+      "B. Replace the battery on the headset and try again later",
+      "C. Verify that the sound is not muted in the control panel",
+      "D. Change the headset as the default device in sound settings"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 27,
+    "question": "An administrator is investigating a zero-day vulnerability. If left unpatched, it could severely impact business. The patch requires downtime. What should the administrator do?",
+    "options": [
+      "A. Create a standard change request.",
+      "B. Implement an emergency change.",
+      "C. Immediately freeze all changes.",
+      "D. Continue operations until the next change interval."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 28,
+    "question": "A user has been adding data to the same spreadsheet for several years. After adding a significant amount of data, they are now unable to open the file. Which of the following should a technician do to resolve the issue?",
+    "options": [
+      "A. Revert the spreadsheet to the last restore point.",
+      "B. Increase the amount of RAM.",
+      "C. Defragment the storage drive.",
+      "D. Upgrade the network connection speed."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 29,
+    "question": "Which of the following is the quickest way to move from Windows 10 to Windows 11 without losing data?",
+    "options": [
+      "A. Using gpupdate",
+      "B. Image deployment",
+      "C. Clean install",
+      "D. In-place upgrade"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 31,
+    "question": "Users are reporting that an unsecured network is broadcasting with the same name as the normal wireless network. They are able to access the internet but cannot connect to the file share servers. Which of the following best describes this issue?",
+    "options": [
+      "A. Unreachable DNS server",
+      "B. Virtual local area network misconfiguration",
+      "C. Incorrect IP address",
+      "D. Rogue wireless access point"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  }
+]

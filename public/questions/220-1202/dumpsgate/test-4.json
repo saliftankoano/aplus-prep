@@ -1,0 +1,462 @@
+[
+  {
+    "id": 95,
+    "question": "The battery on a user’s smartphone discharges quickly when the user travels. The smartphone was replaced two weeks ago. Which of the following should a technician do first?",
+    "options": [
+      "A. Replace the battery with a higher capacity option",
+      "B. Provide an external battery to extend the usage time",
+      "C. Ensure that the charging port is working as expected",
+      "D. Look for applications that are reporting the highest utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: High battery drain is often due to apps running in the background or using GPS during travel. Thefirst stepshould always be tocheck battery usage statisticsto see if an application is misbehaving. FromAll-in-One Exam Guide: “Travel conditions can increase app activity, especially navigation or social media. Check app battery usage before assuming hardware faults.”"
+  },
+  {
+    "id": 96,
+    "question": "A technician is reviewing an organization's current incident management policy. The organization uses a third-party vendor to protect the organization's assets with multiple tools. Which of the following service types is the organization using?",
+    "options": [
+      "A. PaaS",
+      "B. EDR",
+      "C. MDR",
+      "D. XDR"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: MDR (Managed Detection and Response)provides outsourced threat monitoring and response using multiple tools. The use of athird-party providerfor protection and incident handling confirms MDR. FromQuentin Docter – CompTIA A+ Study Guide: “MDR provides 24/7 threat detection and response through outsourced experts using advanced tools across client environments.”"
+  },
+  {
+    "id": 97,
+    "question": "An employee is trying to connect their company laptop to an airport’s Wi-Fi during a business trip. Once the network is connected, a pop-up window appears with the airport logo, which the employee quickly closes. The internet connection is not working properly. Which of the following should a help desk technician suggest?",
+    "options": [
+      "A. Look for a wall socket with RJ45 and try to connect the laptop to it",
+      "B. Contact the airport IT department",
+      "C. Tell the employee that company policy prohibits connection to public Wi-Fi",
+      "D. Reconnect to the network and read the pop-up carefully"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Most public Wi-Fi networks requireinteraction with a captive portal(e.g., terms of use or login). Dismissing it prevents the user from gaining internet access. Reconnecting and completing the portal page is essential. FromAll-in-One Exam Guide: “Many public hotspots require user acknowledgment or login via a captive portal. Skipping this step results in no internet access.”"
+  },
+  {
+    "id": 98,
+    "question": "A technician needs to disable guest log-ins on domain-joined desktop machines. Which of the following should the technician use?",
+    "options": [
+      "A. Group Policy",
+      "B. Firewall",
+      "C. Microsoft Management Control",
+      "D. MSConfig"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Group Policyis the standard administrative tool for enforcing security and configuration settings across domain-joined systems, including disabling guest accounts. FromQuentin Docter – CompTIA A+ Study Guide: “Disabling guest accounts and applying consistent security policies across multiple machines is best achieved through Group Policy on a Windows domain.”"
+  },
+  {
+    "id": 99,
+    "question": "A user is unable to upload files to the corporate servers from their mobile phone when outside the office, but uploading files works without issue in the office. The user saw an error notification but dismissed it. Which of the following should a technician do to determine the root cause?",
+    "options": [
+      "A. Check the data usage limit",
+      "B. Enable airplane mode",
+      "C. Verify the last device reboot",
+      "D. Enable Bluetooth connectivity"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The user’s issue likely stems from amobile data restriction or cap, especially since uploads work on Wi-Fi but not cellular. Checkingdata usage limitswill help determine if mobile uploads are blocked. FromAll-in-One Exam Guide: “When data-intensive functions fail on mobile networks but not on Wi-Fi, it’s often due to data caps or metered connection limits.”"
+  },
+  {
+    "id": 100,
+    "question": "A user logs in to a computer each morning and tries to print a daily report, but it will not print. The help desk resolves the issue each day temporarily. To fix this permanently, which of the following should the technician do? (Select two)",
+    "options": [
+      "A. Set the print spooler to have no dependencies",
+      "B. Set the print spooler recovery to take no action",
+      "C. Start the printer extensions and notifications service",
+      "D. Start the print spooler service",
+      "E. Set the print spooler to Automatic",
+      "F. Set the print spooler log-on to the user's account"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The recurring print issue suggests theprint spooler service is not set to start automatically, causing it to stop between sessions. Ensuring it is set tostart automaticallyand manuallystarting the servicewill resolve the issue. FromMark Soper – Mike Meyers' Lab Manual: “The print spooler is essential for print services. If it isn’t configured to start automatically, users may experience recurring failures.” “Manually starting the service or setting it to 'Automatic' in the Services panel resolves persistent print availability problems.”"
+  },
+  {
+    "id": 101,
+    "question": "A technician completes the installation of an OS that appears to be successful. However, when the technician removes the USB drive that was used for the installation and restarts the system, the error “No boot device found” appears. Which of the following should the technician do next to resolve the issue?",
+    "options": [
+      "A. Reinstall the OS from a new ISO",
+      "B. Enable UEFI devices in the BIOS",
+      "C. Restart in recovery mode and troubleshoot",
+      "D. Install storage drivers for the motherboard",
+      "E. Reseat the SATA cable"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: If the system fails to boot after removing the USB installation media, it often means the BIOS is not pointing to the correct boot device. This typically involves an issue with the BIOS settings—such as UEFI being disabled when the OS was installed in UEFI mode. FromAll-in-One Exam Guideby Travis Everett: “One of the most common post-installation issues is failing to configure the boot mode correctly in BIOS. If an OS is installed in UEFI mode, the UEFI boot must be enabled, otherwise the system won’t detect the bootloader.”"
+  },
+  {
+    "id": 102,
+    "question": "A user's application only works with a legacy version of the OS. The OS is reaching its end-of-life date. For security reasons, the company is migrating to the current version of the OS. Which of the following is the most efficient way to complete the migration while maintaining accessibility to the application?",
+    "options": [
+      "A. Terminal server",
+      "B. Bare-metal server",
+      "C. Multiboot",
+      "D. Virtualization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Virtualizationallows the legacy OS to be run in a virtual machine (VM) on top of the newer OS. This method provides backward compatibility without requiring outdated operating systems on physical hardware. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Using virtualization is a preferred method when legacy applications are needed after migrating to newer operating systems. It allows legacy environments to exist securely within a modern OS framework.”"
+  },
+  {
+    "id": 103,
+    "question": "A Chief Executive Officer wants to meet with remote employees in a way that will allow for communication and training. Which of the following software technologies is the best for this situation?",
+    "options": [
+      "A. Videoconferencing",
+      "B. Screen sharing",
+      "C. Remote Desktop",
+      "D. Virtual desktop infrastructure"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Videoconferencingplatforms allow real-time face-to-face communication and are ideal for collaborative training sessions involving remote employees. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Videoconferencing tools such as Zoom or Microsoft Teams are specifically designed for real-time communication and training, making them ideal for executive or large-group meetings.”"
+  },
+  {
+    "id": 104,
+    "question": "When a corporate laptop is connected to the company network, it can reach external websites. However, it cannot reach any internal websites, displaying the error message “Cannot reach this page.” Which of the following should a technician configure?",
+    "options": [
+      "A. Subnet mask",
+      "B. DNS settings",
+      "C. Default gateway",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: If internal resources (such as intranet or internal apps) can't be accessed but external sites work, this often points to aDNS issue, where the system isn't resolving internal domain names correctly. FromAll-in-One Exam Guide: “When internet access is functional but internal sites fail to load, the issue usually lies with DNS resolution. Internal resources often require internal DNS servers, which may not be configured correctly.”"
+  },
+  {
+    "id": 105,
+    "question": "An international traveler is concerned about others accessing the contents of their smartphone if it is lost or stolen. The traveler has enabled biometrics. Which of the following additional security measures further reduces the risk of unauthorized data access?",
+    "options": [
+      "A. Remote backups",
+      "B. Location tracking",
+      "C. PIN code screen lock",
+      "D. Device encryption"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Device encryptionensures that even if someone bypasses biometrics or has physical access to the phone, they cannot read the stored data without the encryption key. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Encryption is the most effective way to protect data at rest. Even if the device is lost or stolen, encryption ensures the data remains inaccessible without the correct key or passcode.”"
+  },
+  {
+    "id": 106,
+    "question": "Which of the following is a protocol that provides AAA for network services?",
+    "options": [
+      "A. RADIUS",
+      "B. Kerberos",
+      "C. TKIP",
+      "D. WPA3"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: RADIUS (Remote Authentication Dial-In User Service)provides centralized Authentication, Authorization, and Accounting (AAA) for users who connect and use a network service. FromQuentin Docter – CompTIA A+ Complete Study Guide: “RADIUS is a widely used protocol for implementing AAA in network environments, allowing centralized control over user access and accounting.”"
+  },
+  {
+    "id": 107,
+    "question": "A customer’s laptop will not turn on. The customer is distraught and panicking because the laptop contains family pictures that can never be replaced. Which of the following communication techniques is most important for the technician to demonstrate in this situation?",
+    "options": [
+      "A. The technician should provide the customer with the appropriate SLA",
+      "B. The technician should inform the customer about replacement options for an increased cost",
+      "C. The technician should project confidence and maintain a positive attitude",
+      "D. The technician should be dressed in appropriate business casual attire"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In emotionally sensitive situations, it is critical that the technicianprojects confidenceand maintains a calm, positive demeanor to reassure the customer. FromAll-in-One Exam Guide: “Confidence and empathy are key when working with distressed users. Demonstrating competence can help ease the customer's anxiety.”"
+  },
+  {
+    "id": 108,
+    "question": "A technician is 3-D printing high-strength, carbon fiber-based filament parts for a customer order. Which of the following is the most important for the technician to use?",
+    "options": [
+      "A. Steel-toed boots",
+      "B. Air filter mask",
+      "C. ESD mat",
+      "D. Antistatic bags"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Carbon fiber filamentcan producefine particles or fumesduring printing, which may be harmful when inhaled. Wearing anair filter maskis essential to protect the respiratory system. FromQuentin Docter – CompTIA A+ Complete Study Guide: “When working with advanced materials like carbon fiber, always use appropriate personal protective equipment such as air filter masks to prevent inhalation of dangerous particles.”"
+  },
+  {
+    "id": 109,
+    "question": "A client reports that their browser's home page changed. Every time they run an internet search, the results are returned from unfamiliar websites. Which of the following actions should a technician take first to resolve the issue? (Select two)",
+    "options": [
+      "A. Clear the browsing history",
+      "B. Run operating system updates",
+      "C. Check the system date and time",
+      "D. Uninstall malicious extensions",
+      "E. Reset browser startup page",
+      "F. Restart the user's machine"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The symptoms suggest abrowser hijacker. Thefirst stepsshould be toremove any malicious extensionsandreset the startup pageto restore normal behavior. FromAll-in-One Exam Guide: “Browser hijackers often install as extensions and change homepage settings. Removing these extensions and resetting the startup configuration typically resolves the issue.”"
+  },
+  {
+    "id": 110,
+    "question": "A user reports that their corporate mobile phone is lost. Which of the following protects the data locally on the phone from unauthorized access?",
+    "options": [
+      "A. Password manager",
+      "B. Degaussing",
+      "C. Remote wipe",
+      "D. Antivirus"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Remote wipeis a mobile device management (MDM) feature that allows administrators to erase data remotely if a device is lost or stolen, preventing unauthorized access to corporate or personal information. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Remote wipe features enable a device to be cleared of all sensitive data if it is lost or stolen. This is one of the most effective ways to prevent unauthorized access to corporate resources.”"
+  },
+  {
+    "id": 111,
+    "question": "A technician is troubleshooting a print spooler that fails to start on a Windows 11 desktop computer. The technician determines the root cause is that required dependencies are failing to run. Which of the following tools is the technician using?",
+    "options": [
+      "A. Process",
+      "B. Services",
+      "C. Startup",
+      "D. Performance"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: TheServicestool in Windows allows a technician to view service dependencies and status. If the print spooler can't start due to a dependency, Services is the correct tool to inspect and manage them. FromAll-in-One Exam Guide: “The Services console allows technicians to view, start, and configure system services, including setting recovery actions and viewing dependencies.”"
+  },
+  {
+    "id": 112,
+    "question": "Which of the following filesystems supports read and write operations for Windows, macOS, and Linux?",
+    "options": [
+      "A. exFAT",
+      "B. ReFS",
+      "C. NTFS",
+      "D. APFS",
+      "E. ext4"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: exFATis the only listed file system that supports both read and write access across Windows, macOS, and Linux (with appropriate drivers). It’s optimized for flash storage and external drives. FromAll-in-One Exam Guide: “exFAT is a lightweight file system with cross-platform read/write support, ideal for use on removable drives when compatibility is essential.”"
+  },
+  {
+    "id": 113,
+    "question": "A technician installs a Bluetooth headset for a user. During testing, the sound still comes from the speaker on the computer. The technician verifies the headset shows up in Device Manager. Which of the following would the technician most likely do to fix this issue?",
+    "options": [
+      "A. Update the drivers for the wireless headset",
+      "B. Replace the battery on the headset and try again later",
+      "C. Verify that the sound is not muted in the control panel",
+      "D. Change the headset as the default device in sound settings"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Just recognizing the device isn’t enough—audio output must be routed to it manuallyby setting it as the default playback device in sound settings. FromMark Soper – Mike Meyers' Lab Manual: “If audio is still playing through the internal speaker, verify that the Bluetooth headset is set as the default playback device. This can be configured under Windows Sound Settings.”"
+  },
+  {
+    "id": 114,
+    "question": "Which of the following authentication methods is the best way to prevent users from frequently entering their credentials?",
+    "options": [
+      "A. Access control list",
+      "B. Single sign-on",
+      "C. Multifactor authentication",
+      "D. One-time password"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Single sign-on (SSO)allows users to authenticate once and gain access to multiple systems without re- entering credentials, which significantly enhances user convenience while maintaining security. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Single sign-on streamlines authentication by allowing users to log in once and access all authorized resources, reducing credential fatigue and improving security.”"
+  },
+  {
+    "id": 115,
+    "question": "A user wants to use a USB to move a 4.57GB .pst file from one Windows computer to another. Which of the following filesystems should the USB be formatted with?",
+    "options": [
+      "A. ext4",
+      "B. NTFS",
+      "C. FAT32",
+      "D. APFS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: FAT32cannot support files larger than 4GB.NTFSsupports large file sizes and is compatible across Windows systems, making it the correct choice for transferring a 4.57GB file. FromAll-in-One Exam Guide: “NTFS is the preferred file system for large file transfers within Windows. FAT32 has a 4GB file size limit, which makes it unsuitable for modern use cases involving large files.”"
+  },
+  {
+    "id": 116,
+    "question": "An administrator is investigating a technical outage. The management team wants information that includes the summary of the outage and actions taken. Which of the following documentation should the administrator provide?",
+    "options": [
+      "A. Knowledge base article",
+      "B. Non-disclosure agreement",
+      "C. Incident report",
+      "D. Standard operating procedure"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Anincident reportsummarizes what happened during an outage, the timeline, the actions taken, and the resolution, which is exactly what management typically requests post-incident. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Incident reports document the events of an IT issue or outage, including detection, response, and resolution. They are crucial for post-incident review and management accountability.”"
+  },
+  {
+    "id": 117,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer receive security updates and patches. Which of the following is the most likely reason?",
+    "options": [
+      "A. Support from the computer’s manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: When an OS is no longer receiving updates, it is generally because it has reachedend of life (EOL), meaning the vendor has ceased support. FromQuentin Docter – CompTIA A+ Complete Study Guide: “End-of-life refers to the point when an OS vendor no longer issues updates or support. Systems at EOL pose security risks and must be upgraded or isolated.”"
+  },
+  {
+    "id": 118,
+    "question": "After using a third-party disk optimization software package, a technician restarts a laptop and receives the message “No operating system found.” The technician verifies that the BIOS properly recognizes the SSD. Which of the following should the technician do next?",
+    "options": [
+      "A. Update BitLocker settings in the BIOS",
+      "B. Replace the CMOS battery",
+      "C. Boot from installation media and repair the MBR",
+      "D. Isolate the system from the corporate network"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Disk optimization tools can sometimes corrupt theMaster Boot Record (MBR). If BIOS sees the drive but can't boot, repairing the MBR using installation media is the correct next step. FromAll-in-One Exam Guide: “When BIOS recognizes the drive but no OS is found, the issue is often with the boot record. Use installation media to access recovery tools and repair the MBR or boot loader.”"
+  },
+  {
+    "id": 119,
+    "question": "What is the next step a technician should take after completing malware cleanup?",
+    "options": [
+      "A. Perform a secondary antivirus scan",
+      "B. Educate the end user",
+      "C. Reimage the computer",
+      "D. Review system logs"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Once the system is cleaned, the next priority is toeducate the useron safe practices to prevent recurrence. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Post-malware remediation should include user education to prevent reinfection and identify how the malware was introduced.”"
+  },
+  {
+    "id": 120,
+    "question": "A user wants to dispose of a failed hard drive in a way that ensures the data is unrecoverable. Which of the following is the best at-home method?",
+    "options": [
+      "A. Standard formatting",
+      "B. Low-level formatting",
+      "C. Shredding",
+      "D. Degaussing",
+      "E. Drilling"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Shreddingphysically destroys the platters, making data recovery virtually impossible. It's more effective and accessible than degaussing or low-level formatting. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Physical destruction methods like shredding are the most secure options for ensuring data on failed drives cannot be recovered.”"
+  },
+  {
+    "id": 121,
+    "question": "Various alerts on a user's Windows 11 laptop are continually interrupting videoconference calls. Which of the following should a support technician recommend to best solve the issue?",
+    "options": [
+      "A. Use multiple sound output devices for the various source applications",
+      "B. Disable all notifications in different applications in the order they appear",
+      "C. Configure the Sounds option in Control Panel to be set to No Sounds",
+      "D. Set Windows Notifications settings to Do Not Disturb"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: TheDo Not Disturbsetting in Windows Notification settings allows users to suppress all notification banners and sounds during presentations or video calls. FromTravis Everett – All-in-One Exam Guide: “Use Windows ‘Do Not Disturb’ to prevent notifications from interrupting full-screen apps like video conferencing.”"
+  },
+  {
+    "id": 122,
+    "question": "A Windows 11 Home device is receiving constant pop-ups about an urgent need to update antivirus software in order to remove a detected threat. The user has been clicking the \"X\" button but the window keeps reappearing. The pop-up includes an \"OK\" button to install the update. What should the user do next?",
+    "options": [
+      "A. Click the \"OK\" button to install the update",
+      "B. Reinstall the Windows Operating System",
+      "C. Run System File Checker",
+      "D. Verify the current status and settings of protection measures"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Persistent pop-ups urging antivirus updates are likelyscareware or adware. The correct approach is toverify existing antivirus settings, run a trusted security scan, and avoid interacting with unknown pop-ups. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Users should verify antivirus status using trusted tools before responding to alerts. Fake updates are common vectors for malware.”"
+  },
+  {
+    "id": 123,
+    "question": "Performance on a user’s smartphone is degrading. Applications take a long time to start, and switching between apps is slow. Which of the following diagnostic steps should a mobile technician take first?",
+    "options": [
+      "A. Restore the phone to factory settings",
+      "B. Restart the phone",
+      "C. Check the phone’s battery state",
+      "D. Uninstall unneeded applications"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: One of the most common causes for performance degradation on smartphones isstorage or memory overloaddue to excessive apps.Uninstalling unused appsis a basic but effective first diagnostic step. FromTravis Everett – All-in-One Exam Guide: “Start troubleshooting sluggish smartphones by clearing unused apps and files before performing advanced diagnostics or resets.”"
+  },
+  {
+    "id": 124,
+    "question": "A user takes an iOS-based smartphone to a repair shop due to performance issues. The technician observes: Battery charge: 25% Battery health: 90% Hotspot: On Used space: 63.76GB / 64GB Which of the following is the most likely cause of the performance issue?",
+    "options": [
+      "A. The device is running out of free space",
+      "B. The battery health is low",
+      "C. The phone is not sufficiently charged",
+      "D. The hotspot is degrading the performance",
+      "E. Too many applications are open"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Running atnear full storage capacitysignificantly slows down smartphones. iOS in particular requires space for caching and temporary files. Performance improves when storage is cleared. FromMike Meyers' Lab Manual: “Lack of free space causes mobile operating systems to struggle with temp files and updates. Performance improves significantly with adequate storage.”"
+  }
+]

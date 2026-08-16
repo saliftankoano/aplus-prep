@@ -1,0 +1,456 @@
+[
+  {
+    "id": 271,
+    "question": "Which of the following will most likely be installed in an NVMe port on the motherboard of a desktop PC?",
+    "options": [
+      "A. SATA drive",
+      "B. Solid-state drive",
+      "C. SAS drive",
+      "D. Optical drive"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "An NVMe port, typically implemented through an M.2 slot, is designed specifically for NVMe-based solid-state drives (SSDs). CompTIA A+ explains that NVMe (Non-Volatile Memory Express) is a high- performance storage protocol that communicates directly with the CPU over PCIe lanes, offering significantly faster read/write speeds compared to SATA-based SSDs. SATA drives (A) connect via SATA ports, not NVMe/M.2 PCIe slots. SAS drives (C) are enterprise-level storage devices requiring SAS controllers and are incompatible with consumer desktop motherboards. Optical drives (D) use SATA or USB interfaces and cannot be installed in an NVMe slot. Thus, the only device designed for and compatible with an NVMe slot is a solid-state drive (SSD) using the NVMe protocol."
+  },
+  {
+    "id": 272,
+    "question": "Which of the following wireless frequency ranges involves the use of channels 1, 6, and 11?",
+    "options": [
+      "A. 2.4GHz",
+      "B. 5GHz",
+      "C. 6GHz",
+      "D. 60GHz"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "In Wi-Fi, the 2.4GHz band contains 14 total channels (depending on region), but only channels 1, 6, and 11 are considered non-overlapping in most countries. CompTIA A+ highlights the importance of selecting these channels to minimize interference, especially in environments with multiple wireless networks or access points. The 2.4GHz band is narrower than 5GHz, causing adjacent channels to overlap significantly. Using channels 1, 6, and 11 prevents overlap and reduces signal interference, improving performance and stability. 5GHz (B) has many non-overlapping channels and does not use the 1/6/11 scheme. The 6GHz band (C) is part of Wi-Fi 6E and uses entirely different channel planning. The 60GHz band (D) supports short-range high-speed connections like WiGig, not traditional Wi-Fi channels. Therefore, the 2.4GHz band is the correct answer."
+  },
+  {
+    "id": 273,
+    "question": "Which of the following types of RAM is most likely used in data centers and in high-performance machines?",
+    "options": [
+      "A. ECC",
+      "B. Single-channel",
+      "C. Unbuffered",
+      "D. RDIMM"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Data centers and high-performance servers prioritize stability and fault tolerance. CompTIA A+ identifies ECC (Error-Correcting Code) RAM as the standard memory used in such environments. ECC RAM automatically detects and corrects single-bit memory errors, preventing system crashes, data corruption, and downtime—critical requirements for servers running mission-critical workloads. ECC memory is commonly paired with registered/buffered modules (RDIMM) for additional stability, but ECC itself is the defining feature required in data center environments. Non-ECC, unbuffered memory is used in consumer desktops where minor memory errors pose minimal risk. Single-channel memory (B) is simply a configuration and does not imply reliability. Unbuffered RAM (C) is not used in enterprise-grade systems because it lacks error correction and electrical stabilization. RDIMM (D) includes buffering but may come with or without ECC; however, ECC is the key requirement highlighted by the question. Therefore, the correct answer is ECC RAM."
+  },
+  {
+    "id": 274,
+    "question": "Some users are unable to access their workstations. An administrator runs ipconfig on one of the workstations and sees the following: The administrator runs the following command and receives this output: Which of the following is the source of issue?",
+    "options": [
+      "A. Web server",
+      "B. Router",
+      "C. DNS",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The workstation's IP configuration (192.168.1.27/24 with gateway 192.168.1.1) shows that it has a correct IP address, correct subnet mask, and expected default gateway for a typical small office network. Because the IP is in the correct private range and not an APIPA address (169.254.x.x), this also confirms that DHCP is functioning properly. Therefore, option D (DHCP) cannot be the cause. The user then pings the default gateway at 192.168.1.1, which should be the router—the device providing routing between local devices and outside networks. The repeated \"Request timed out\" responses indicate the workstation cannot reach the router at all. This type of failure points directly to a router outage, a powered-off router, a failed router interface, or a physical disconnection of the router from the switch. If DNS (C) were the issue, the user would still be able to ping the IP address of the gateway because DNS is not required for IP-to-IP connectivity. A web server (A) has no relation to local gateway communication and does not affect workstation access. Since the workstation has a valid IP but cannot reach its default gateway, the failure point is the router."
+  },
+  {
+    "id": 275,
+    "question": "Which of the following should a technician check when the display of a computer Is flickering?",
+    "options": [
+      "A. LCD type",
+      "B. Refresh rate",
+      "C. Screen resolution",
+      "D. Pixel density"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Display flickering is most commonly caused by an incorrect or unstable refresh rate setting. The refresh rate is the number of times per second (measured in Hz) that a monitor redraws the image. CompTIA A+ teaches that LCD, LED, and especially older CRT displays can exhibit flickering if the refresh rate is set too low or to a value unsupported by the monitor. For modern displays, typical refresh rates are 60 Hz, 75 Hz, 120 Hz, 144 Hz, and higher. If the refresh rate is mismatched—such as manually set above the monitor’s rated capability—the screen may flicker, blank intermittently, or show instability. Similarly, if the refresh rate is set too low, the user may perceive visible flicker, eye strain, or shimmering on the display. Checking and adjusting the refresh rate through the operating system’s display settings (or GPU control panel) is the first and most direct troubleshooting step for flickering issues. The LCD type (A) has no bearing on flickering once installed. Screen resolution (C) affects clarity and scaling but does not cause flicker by itself. Pixel density (D) is a hardware characteristic and cannot cause flickering. Thus, the correct component to check when diagnosing display flicker is the refresh rate."
+  },
+  {
+    "id": 276,
+    "question": "Marketing department users report network performance degradation in the morning and early afternoon, but sales and customer service department users do not report any issues. All structured cabling Is Cat 5e. All departments are connected to a core switch. The running network configuration shows the following: Which of the following is the most likely cause of the performance issues?",
+    "options": [
+      "A. The marketing department subnet has an error.",
+      "B. The structured Cat 5e cabling is outdated.",
+      "C. The interfaces are configured with Incorrect IP addresses.",
+      "D. The marketing department Interface is running at 10/100."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "From the configuration, the Sales and Customer Service ports are hard-set to full duplex, 1000 Mbps, while the Marketing interface (GigabitEthernet0/3) is set to duplex auto and speed auto. CompTIA A+ explains that mismatched or lower-negotiated speeds and duplex settings can cause noticeable network slowdowns, collisions, and retransmissions—especially at busy times of the day when utilization is high. Because all cabling is Cat 5e, it fully supports Gigabit Ethernet, so the cabling is not the limiting factor. The IP addresses are all in the same subnet (192.168.1.0/24) and formatted correctly, so there is no subnet or addressing problem. That rules out options A and C. With speed auto, the Marketing port may be negotiating only 10/100 Mbps, or even a duplex mismatch (e.g., half duplex vs full). This would severely limit throughput compared to the gigabit links used by the other departments. In peak periods, that slower link would become congested first, which matches the users’ reports of performance degradation only in Marketing. Therefore, the most likely cause is that the Marketing interface is operating at 10/100 instead of 1000 Mbps, making option D correct."
+  },
+  {
+    "id": 277,
+    "question": "Which of the following is the most likely cause?",
+    "options": [
+      "A. The subnet mask Is Incorrect.",
+      "B. NetBIOS is enabled.",
+      "C. DHCP is enabled.",
+      "D. DNS servers are manually set."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The key detail in the ipconfig output is that the system is receiving an IP address, subnet mask, default gateway, and DHCP server information via DHCP, but the DNS servers shown are 8.8.8.8 and 8.8.4.4, which are Google’s public DNS servers. In most corporate networks, DNS is provided internally by the DHCP server—usually the same device assigning the IP address. When DNS values are different from DHCP-provided defaults, it indicates manual DNS configuration. CompTIA A+ emphasizes that mismatched DNS settings can cause browsing issues, name-resolution delays, or an inability to access internal resources. DNS is critical because it translates domain names into IP addresses; if manually configured, the device bypasses the organization’s DNS server and may not resolve internal hostnames. The subnet mask is correct for a Class B private network subdivided using /24 (255.255.255.0). NetBIOS being enabled is common and not a cause of connectivity issues here. DHCP being enabled is normal and functioning correctly, as shown by the proper IP lease obtained. Thus, the anomalous and most likely problematic configuration is manually configured DNS, making Option D correct."
+  },
+  {
+    "id": 278,
+    "question": "A user receives an error when installing a new email app on their phone. Technician verifies OS is updated and app is supported. What should the technician check next?",
+    "options": [
+      "A. Storage",
+      "B. Battery health",
+      "C. SIM card",
+      "D. Processor"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When an application fails to install on a smartphone despite being supported by the OS and device type, CompTIA A+ stresses that the most common cause is insufficient storage. Mobile devices require not only space for the app itself but also additional temporary space for the installation process, cached data, and updates. If internal storage is nearly full, the app store will display installation errors—even if the OS and hardware meet requirements. Battery health has no impact on app installation. A SIM card is unrelated to installing local applications—it only affects cellular connectivity. Processor architecture issues would have been caught during compatibility checking, but the technician already verified the device supports the application. Therefore, after confirming compatibility, the next logical step is to check available storage space. If storage is low, deleting unused apps, clearing cached data, or transferring media to cloud storage or an SD card typically resolves the installation issue. Thus, Option A: Storage is the correct answer."
+  },
+  {
+    "id": 279,
+    "question": "Which internet connection type will most likely experience interference from rain?",
+    "options": [
+      "A. Fiber",
+      "B. Cable",
+      "C. Satellite",
+      "D. DSL"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ identifies satellite internet as the connection type most susceptible to weather-related interference, particularly rain, snow, and heavy cloud cover. This phenomenon is known as rain fade. Satellite connections rely on high-frequency microwave signals transmitted between a dish antenna at the customer site and an orbiting satellite. Moisture in the atmosphere absorbs and scatters these signals, causing latency spikes, reduced bandwidth, or complete signal loss during storms. Fiber (A) uses light signals through glass fiber and is immune to electromagnetic and weather interference. Cable internet (B) uses shielded coaxial lines buried or run overhead, but rain does not affect signal quality in normal conditions. DSL (D) uses telephone lines, which may degrade with physical line issues, but not directly due to rain in the same way satellite is affected. Thus, satellite internet is most likely to experience signal degradation during rain conditions."
+  },
+  {
+    "id": 280,
+    "question": "While using a laptop and Bluetooth headset for conference calls, a user notices intermittent sound issues. The user frequently walks between office rooms during calls, leaving the laptop in place. The office network uses fiber internet and has two connected APs. What is the MOST likely cause?",
+    "options": [
+      "A. The number of available APs is inadequate.",
+      "B. The user is moving in and out of range.",
+      "C. The APs are not in mesh mode.",
+      "D. The internet connection is too slow."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bluetooth audio issues are typically related to distance and signal strength, not internet connectivity or Wi-Fi access points. Bluetooth devices—especially headsets—generally have a limited effective range of around 10 meters (33 feet) for Class 2 Bluetooth, which is common in consumer laptops and headsets. When the user leaves the room and walks into adjacent offices, they are likely moving beyond the optimal Bluetooth range or passing through walls that weaken the signal. CompTIA A+ highlights that Bluetooth uses low-power radio frequencies easily disrupted by physical obstructions, distance, and interference. Since the laptop remains stationary and the user moves, the headset becomes progressively further from the laptop, causing intermittent audio dropouts, stuttering, or loss of connection. The number of APs (A) is irrelevant because the headset is not using Wi-Fi. Mesh mode (C) applies only to wireless AP-to-AP communication. The internet connection (D) is high-quality fiber and conference calls work fine when stationary, so the issue is not bandwidth or WAN throughput. Thus, the most likely cause is that the user is moving in and out of Bluetooth range."
+  },
+  {
+    "id": 281,
+    "question": "A company wants to enable access to corporate email on smartphones. Employees must install software that separates corporate and personal data. Which should the company implement?",
+    "options": [
+      "A. Encryption",
+      "B. Network access control",
+      "C. Mobile device management",
+      "D. Endpoint protection"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The requirement to separate corporate and personal data on employee smartphones is a core function of Mobile Device Management (MDM). CompTIA A+ describes MDM as an enterprise toolset used to enforce security policies, manage applications, configure email profiles, and separate work-related data from personal user data. This separation is typically achieved through features such as containerization, where corporate data is stored in a protected, encrypted workspace that is isolated from the personal side of the device. This ensures security, prevents data leakage, and enables IT administrators to remotely wipe corporate data without affecting the user’s personal information. MDM solutions are widely used in BYOD (Bring Your Own Device) environments and corporate-issued devices. Encryption (A) protects data but does not create separation. Network access control (B) restricts network access but does not manage mobile apps or data separation. Endpoint protection (D) refers to antivirus/antimalware, not data partitioning. Thus, Mobile Device Management (MDM) is the correct solution."
+  },
+  {
+    "id": 282,
+    "question": "A technician installs an external camera on a user's laptop. When loading meeting software, the video preview shows a blank screen. What should the technician do next?",
+    "options": [
+      "A. Select the correct camera source.",
+      "B. Replace the camera.",
+      "C. Update the camera software.",
+      "D. Check the camera cable."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Most meeting or conferencing applications default to the built-in laptop camera unless manually changed. When an external camera is connected, the software may continue to use the default device, resulting in a blank preview, especially if the internal camera is disabled, covered, or malfunctioning. CompTIA A+ stresses verifying correct device selection when peripherals are installed. Selecting the correct camera source is a quick, non-invasive test that resolves the issue in the majority of cases. The technician should open the application’s video settings and choose the external webcam from the camera dropdown menu. Replacing the camera (B) is premature without confirming configuration. Updating software (C) is beneficial but will not resolve a simple input-selection error. Checking the cable (D) is a valid step if the preview still fails after selecting the device. Thus, the correct next step is to select the proper camera source."
+  },
+  {
+    "id": 283,
+    "question": "Which cloud characteristic allows local folders to contain updates made by users or other devices?",
+    "options": [
+      "A. Network share",
+      "B. Synchronization",
+      "C. Availability",
+      "D. Metered utilization"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cloud storage platforms—such as OneDrive, Google Drive, and Dropbox—use synchronization to ensure that files updated on one device automatically update on all connected devices. CompTIA A+ defines synchronization as a key cloud characteristic that keeps local folders and cloud-stored versions consistent, enabling seamless multi-device collaboration. Synchronization allows users to: Modify files offline and have them sync once online Access identical data on laptops, desktops, and mobile devices Ensure real-time updates across multiple users or clients Maintain version consistency and conflict resolution A network share (A) is local to an organization and does not automatically sync across devices. Availability (C) relates to uptime and reliability, not file updates. Metered utilization (D) refers to cloud billing models where usage is tracked, not data syncing. Thus, synchronization is the capability that ensures local folders update dynamically whenever changes occur."
+  },
+  {
+    "id": 284,
+    "question": "Which of the following offers access to business productivity applications for a recurring fee?",
+    "options": [
+      "A. SaaS",
+      "B. DaaS",
+      "C. PaaS",
+      "D. IaaS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Software as a Service (SaaS) provides users access to fully managed applications hosted in the cloud. CompTIA A+ explains that SaaS is subscription-based and typically billed monthly or annually, which aligns perfectly with the phrase “recurring fee.” Business productivity applications—such as Microsoft 365, Google Workspace, Zoom, Slack, and Salesforce—are classic examples of SaaS offerings. SaaS applications run entirely in the provider’s cloud environment, eliminating the need for installation, maintenance, or management by the customer. This makes SaaS ideal for businesses that need reliable, scalable tools without maintaining their own infrastructure. DaaS (Desktop as a Service) provides virtual desktops. PaaS (Platform as a Service) offers a development framework for building applications. IaaS (Infrastructure as a Service) provides virtual servers, storage, and networking—not end-user productivity apps. Thus, SaaS is the correct and only model that matches the description of subscription-based access to productivity applications."
+  },
+  {
+    "id": 285,
+    "question": "A software developer wants to test a new application in an environment that limits access to the OS. Which of the following should the developer implement?",
+    "options": [
+      "A. Container",
+      "B. Type 2 hypervisor",
+      "C. VDI",
+      "D. Quarantined PC"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A container is the ideal environment for software testing when access to the underlying operating system must be restricted. CompTIA A+ explains that containers isolate applications from the host OS by packaging the app and all its dependencies into a controlled environment. This prevents the application from modifying or interfering with the host system and ensures predictable, consistent behavior across environments. Unlike virtual machines, containers do not include a full OS installation; they share the host OS kernel but run in isolated user-space environments. This makes them lightweight, fast to deploy, and secure—perfect for developers testing new or potentially unstable applications. A Type 2 hypervisor hosts full virtual machines but does not inherently limit OS access. A VDI provides remote desktops but is not designed for controlled application testing. A quarantined PC is used for isolating infected or suspicious systems, not structured development testing. Thus, containers provide the controlled, restricted environment required."
+  },
+  {
+    "id": 286,
+    "question": "A user cannot access the internet from a corporate laptop. All other employees can. The technician reviews the laptop's configuration: IP Address: 169.254.2.162 Which explains the reason the user cannot access the internet?",
+    "options": [
+      "A. The subnet mask is misconfigured.",
+      "B. The NIC is not using the latest driver.",
+      "C. Network settings are only configured to IPv6.",
+      "D. The DHCP server is unable to assign an address."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "An IP address beginning with 169.254.x.x is an APIPA address (Automatic Private IP Addressing). CompTIA A+ explains that APIPA is assigned automatically by Windows when the NIC cannot reach a DHCP server. This indicates the laptop requested an IP lease but never received one. APIPA addresses allow only local subnet communication and cannot access the internet, because no default gateway, DNS, or valid subnet configuration is provided. Since all other employees can access the internet, the DHCP server is functioning generally, but it is not delivering an address to this specific laptop—possibly due to cable issues, Wi-Fi authentication failure, DHCP scope exhaustion, or NIC misconfiguration. A subnet mask misconfiguration (A) would still show a normal IP, not APIPA. IPv6-only configuration (C) would not produce a 169.254 address. An outdated NIC driver (B) could cause network instability but does not directly generate APIPA. Thus, the root cause is that the DHCP server did not assign an IP address."
+  },
+  {
+    "id": 287,
+    "question": "Which cloud model provides hardware, storage, networking, and virtualization but requires customers to manage the OS and applications?",
+    "options": [
+      "A. SaaS",
+      "B. PaaS",
+      "C. IaaS",
+      "D. XaaS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Infrastructure as a Service (IaaS) provides the foundational computing components: virtualized hardware, storage, networking, and hypervisor resources. CompTIA A+ explains that customers using IaaS are responsible for installing and maintaining: The operating system Applications Patches, updates, and configurations This model gives organizations maximum flexibility because they can build custom server environments without purchasing physical hardware. In contrast: SaaS (A) provides fully managed applications—users do not manage OS or software. PaaS (B) provides a development platform and tools but does not allow OS management. XaaS (D) is a broad term meaning “anything as a service,” not a specific model. Thus, IaaS is the only model where OS-level control remains with the customer."
+  },
+  {
+    "id": 288,
+    "question": "A human resources manager printed a sensitive termination document and forgot to retrieve it from the printer. Which of the following prevents this situation?",
+    "options": [
+      "A. Badging",
+      "B. Duplex",
+      "C. Printer share",
+      "D. Wireless encryption"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Secure badging—often used with “pull printing” or “secure print release”—requires users to authenticate at the printer before documents are printed. CompTIA A+ highlights this feature as critical for protecting sensitive data in corporate environments. With badge-based printing, jobs stay in a secure print queue until the authorized user physically scans their badge. This prevents confidential documents, like HR termination notices, from sitting unattended in the output tray. It also reduces print waste and ensures accountability for printed materials. Duplex printing (B) simply prints double-sided pages. Printer sharing (C) allows multiple users to use a printer but does not provide security. Wireless encryption (D) protects network traffic but does not address abandoned print jobs. Therefore, badging / secure print release is the correct protective measure."
+  },
+  {
+    "id": 289,
+    "question": "A user ran out of USB ports on their laptop but wants to plug in more devices. What technology is best?",
+    "options": [
+      "A. Near-field communication",
+      "B. Bluetooth",
+      "C. USB receiver",
+      "D. Port replicator"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A port replicator expands the number and types of ports available to a laptop, including additional USB ports, video outputs, Ethernet, and more. CompTIA A+ identifies port replicators as solutions for users needing greater connectivity, especially when docking stations are unnecessary or unavailable. Port replicators connect through a single USB or proprietary connector and provide multiple expansion ports instantly. This resolves the issue of limited USB availability without requiring hardware replacement. NFC (A) is used for short-range communication, not peripheral connectivity. Bluetooth (B) only supports wireless peripherals such as mice and headphones, not wired USB devices. A USB receiver (C) adds wireless capability for one specific device, not general expansion. Thus, the correct solution is a port replicator."
+  },
+  {
+    "id": 290,
+    "question": "Which connector is used to uplink a new ISP cable modem to its wall jack?",
+    "options": [
+      "A. F-type",
+      "B. LC",
+      "C. RJ45",
+      "D. Lightning"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Cable modems supplied by ISPs connect to the coaxial wall outlet using an F-type connector. CompTIA A+ specifies that F-type connectors are threaded coaxial connectors used in broadband cable internet, cable TV, and some satellite systems. They attach to RG-6 or RG-59 coaxial cable and provide a secure, shielded connection to the cable provider’s infrastructure. The cable modem requires this coaxial uplink to receive downstream and upstream signals from the ISP before converting them into Ethernet on the LAN side. LC (B) is for fiber optic connectors, not coaxial. RJ45 (C) is an Ethernet connector and is used on the LAN side of the modem—not on the wall uplink. Lightning (D) is an Apple connector and irrelevant to networking hardware. Thus, the correct connector for the ISP cable modem uplink is F-type."
+  },
+  {
+    "id": 291,
+    "question": "A user reports intermittent latency when accessing an internal website hosted at a remote office. Which of the following should a technician do? (Select two)",
+    "options": [
+      "A. Run ipconfig /all",
+      "B. Run ping -t",
+      "C. Run nslookup",
+      "D. Examine the physical switchport",
+      "E. Configure QoS",
+      "F. Run tracert",
+      "G. Call ISP"
+    ],
+    "correctAnswers": [
+      1,
+      5
+    ],
+    "correctAnswer": 1,
+    "explanation": "When troubleshooting intermittent latency to a remote internal resource, CompTIA A+ recommends using tools that help identify where latency occurs and whether it is consistent or fluctuating over time. The best tools for this scenario are ping -t and tracert. Ping -t (B) sends continuous ICMP echo requests, allowing the technician to observe packet loss, fluctuating response times, or timeouts. This helps identify intermittent connectivity problems that occur at specific times, such as bandwidth congestion, routing instability, or wireless interference. Tracert (F) maps each hop between the local workstation and the remote office. If latency spikes occur only after a particular hop—such as a VPN tunnel, MPLS gateway, or inter-office router—that device becomes the suspected bottleneck. This makes tracert essential for isolating WAN-related slowdowns. Ipconfig /all (A) only provides local configuration and does not diagnose latency. Nslookup (C) is for DNS testing—not latency to a specific internal host. Examining switchports (D) helps with local issues but not remote latency. QoS (E) is a solution, not a troubleshooting step. Calling ISP (G) may be premature unless testing confirms ISP-related issues. Thus, ping -t and tracert are the correct diagnostic tools."
+  },
+  {
+    "id": 292,
+    "question": "A customer has bare-metal servers running Windows, Linux, and Unix. They want consolidation while maintaining isolation and compatibility. What should the technician recommend?",
+    "options": [
+      "A. IaaS",
+      "B. Containers",
+      "C. Type 2 hypervisor",
+      "D. VDI"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The customer wants to consolidate multiple physical servers running different operating systems, including Windows, Linux, and Unix, while maintaining strong isolation between systems. CompTIA A+ identifies Infrastructure as a Service (IaaS) as the best model for hosting fully isolated virtual machines in a cloud environment, allowing each OS to run independently on its own virtual hardware. IaaS provides virtualized computing resources—CPU, RAM, networking, and storage—while allowing the customer full control over the OS and application layer. This means Windows, Linux, and Unix VMs can coexist without compatibility concerns because each VM runs its native OS without modification. Containers (B) are unsuitable because they share the host OS kernel, meaning they cannot run different OS families. A Type 2 hypervisor (C) is workstation-based and not designed for enterprise server consolidation. VDI (D) provides user desktops, not server workload consolidation. Thus, IaaS is the correct solution for compatibility, isolation, and consolidation across multiple OS types."
+  },
+  {
+    "id": 293,
+    "question": "Which RAID type offers double parity?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 6"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "CompTIA A+ teaches that RAID 6 is the RAID level that uses double parity, allowing the array to survive the failure of two drives simultaneously. RAID 6 stripes data across all disks like RAID 5 but stores two independent sets of parity information, making it far more fault-tolerant. RAID 0 has no parity and provides only performance. RAID 1 mirrors data but uses no parity. RAID 5 uses single parity and can tolerate only one disk failure. Because the question explicitly asks for double parity, only RAID 6 is correct."
+  },
+  {
+    "id": 294,
+    "question": "A user reports cursor issues on a company laptop. Technician finds a bulge under the trackpad. Which component should be replaced first?",
+    "options": [
+      "A. Motherboard",
+      "B. Heat sink",
+      "C. Battery",
+      "D. Trackpad"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A physical bulge under the trackpad is a classic CompTIA-identified symptom of a swollen lithium-ion battery. As batteries degrade, internal gas buildup expands the casing, pushing upward on the laptop chassis—often distorting the trackpad, keyboard, or bottom shell. This can cause cursor issues, clicking problems, and safety hazards. Replacing the battery first is essential because swollen batteries can rupture, leak, or ignite. Only after the battery is removed and replaced should the technician evaluate whether the trackpad suffered permanent damage. Replacing the trackpad (D) without addressing the battery fails to correct the root cause. The motherboard (A) and heat sink (B) are unrelated to the physical bulge. Thus, the correct first step is replacing the battery."
+  },
+  {
+    "id": 295,
+    "question": "A user wants scan-to-email functionality on a printer. Which protocol is required?",
+    "options": [
+      "A. SMS",
+      "B. SMTP",
+      "C. SFTP",
+      "D. SMB"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Scan-to-email functions rely on the printer sending scanned documents to an email server. CompTIA A+ identifies SMTP (Simple Mail Transfer Protocol) as the protocol responsible for sending email messages from clients to mail servers. When configuring scan-to-email, the technician must enter: SMTP server address Authentication credentials Port number (25, 465, or 587) Encryption type (TLS/SSL) Without SMTP, the printer cannot transmit emails. SMS (A) refers to text messaging. SFTP (C) is secure file transfer, common for scan-to-folder workflows, not email. SMB (D) is used for Windows file sharing. Therefore, the correct protocol is SMTP."
+  },
+  {
+    "id": 296,
+    "question": "An engineer must implement a solution to facilitate and maintain an organization's legacy application until it is retired. The application is currently hosted on three physical servers. Which of the following is the most suitable concept?",
+    "options": [
+      "A. SAN",
+      "B. FaaS",
+      "C. Virtualization",
+      "D. Configuration management platform"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a legacy application is running on multiple physical servers, and the organization wants to maintain it until retirement, the best CompTIA-aligned solution is virtualization. Virtualization allows the engineer to convert existing physical servers into virtual machines (VMs), a process known as P2V (Physical-to-Virtual) migration. This reduces hardware footprint, simplifies management, and isolates the application within a controlled environment. CompTIA A+ emphasizes virtualization for legacy support because it eliminates dependence on aging physical hardware while preserving application functionality exactly as before. Virtual machines also provide snapshots, backups, failover capabilities, and easier resource allocation, making them more reliable than maintaining old hardware. A SAN (A) provides storage, not application hosting. FaaS (B) is a serverless model inappropriate for legacy applications that require full OS environments. A configuration management platform (D) manages software deployments and settings but does not replace or consolidate physical servers. Thus, virtualization is the most suitable and industry-standard method for sustaining legacy applications."
+  },
+  {
+    "id": 297,
+    "question": "A company wants to migrate a large amount of data from an on-premises server to a cloud provider. Which connection type is most likely the fastest?",
+    "options": [
+      "A. Coaxial",
+      "B. DSL",
+      "C. Fiber",
+      "D. SAN"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When migrating large volumes of data to a cloud provider, CompTIA A+ notes that the transfer speed is dominated by the WAN (internet) connection speed. Among the given options, fiber-optic internet (C) provides the highest upload and download throughput, often delivering speeds from 1 Gbps to 10 Gbps or more, depending on the service. Fiber supports symmetrical upload speeds, which is critical because data migration requires heavy upstream bandwidth. Coaxial (A) and DSL (B) offer much lower upstream speeds—often under 30 Mbps—making them too slow for large-scale cloud migration. A SAN (D) is a local storage network that operates within the data center; it does not provide a path to the cloud and cannot replace an internet connection. Fiber’s extremely high capacity, low latency, and resistance to electromagnetic interference make it the best and most efficient option for cloud migration performance."
+  },
+  {
+    "id": 298,
+    "question": "A user attempts to print diagrams on 11×17 inch (28×43 cm) paper. The correct paper is loaded, but the printer keeps prompting for paper. Another identical printer prints successfully. What is the MOST likely cause?",
+    "options": [
+      "A. Tray settings",
+      "B. Incorrect driver",
+      "C. Connectivity issues",
+      "D. Insufficient permissions"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a printer refuses to use paper that is physically present in the tray, CompTIA A+ identifies tray configuration settings as the most likely cause. Printers require a match between tray settings (paper size, paper type, orientation) and the incoming print job’s specifications. If the tray is incorrectly configured—such as being set to Letter (8.5×11 in) or A4—then the printer will keep prompting for the correct paper even though 11×17 paper is loaded. The fact that the technician successfully prints the same diagram on another identical printer proves that the driver, print job format, and user permissions are correct. This isolates the issue to the local printer’s configuration. Incorrect drivers (B) would affect printing on both printers. Connectivity issues (C) would prevent printing entirely, not cause paper prompts. Permissions (D) do not affect paper-size recognition. Therefore, the most likely cause is improper tray settings on the user’s printer."
+  },
+  {
+    "id": 299,
+    "question": "A technician is building a high-powered workstation. When the technician attempts to start the workstation, nothing happens. The technician verifies that all power connectors are fully seated. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The case header pins are not connected.",
+      "B. The RAM is not fully seated.",
+      "C. The power supply unit’s wattage is too low.",
+      "D. The CPU fan connector is faulty"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a newly built workstation shows no response at all—no fans spinning, no indicator LEDs, and no POST activity—this indicates that the system is not receiving the signal to power on. Since the technician has already verified that all primary power connectors are fully seated (including the 24- pin ATX motherboard connector and the 4-pin or 8-pin CPU power connector), the most likely cause is that the case header pins are not connected to the motherboard. According to CompTIA Core 1 (220-1201) hardware installation and troubleshooting concepts, the power button on the computer case connects to the motherboard via the front-panel (system panel) header, specifically the PWR_SW pins. If this connector is missing, improperly placed, or connected to the wrong pins, pressing the power button will do nothing because the motherboard never receives the power-on signal. Incorrectly seated RAM typically allows the system to power on but prevents successful POST, often resulting in beep codes or error lights. An underpowered PSU usually causes instability, random shutdowns, or failure under load rather than complete inactivity. A faulty CPU fan connector generally triggers a BIOS warning or shutdown after power-on, not total failure to start. This scenario directly matches CompTIA’s emphasis on checking front-panel connections as a primary step when a system does not power on at all. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Hardware Installation, Motherboard Components, and Power Troubleshooting Sections"
+  },
+  {
+    "id": 300,
+    "question": "A user only has access to basic printer functions. A technician notices that the advanced printer features are missing. Which of the following actions will fix this issue?",
+    "options": [
+      "A. Modifying the printer settings and rebooting the printer",
+      "B. Installing the drivers from the printer's manufacturer",
+      "C. Restarting the OS and attempting to reprint the document",
+      "D. Applying the OS-provided patches for the printer"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "When a printer only provides basic functionality (such as simple printing without duplexing, color management, stapling, or finishing options), this typically indicates that the system is using a generic or basic printer driver rather than the full-featured driver from the printer manufacturer. According to CompTIA Core 1 (220-1201) printing and troubleshooting objectives, advanced printer features are enabled through manufacturer-specific drivers, which expose all hardware capabilities to the operating system. Operating systems often install default or class drivers automatically, especially when printers are connected via USB or discovered on a network. While these drivers allow basic printing, they do not include proprietary features such as high-resolution settings, tray selection, finishing units, or secure printing options. Installing the correct driver package from the printer manufacturer ensures full compatibility and unlocks advanced functionality. Restarting the OS or modifying printer settings will not add missing features if the correct driver is not installed. OS-provided patches are designed to fix bugs or compatibility issues, not to enable vendor-specific printer capabilities. CompTIA explicitly emphasizes verifying and installing manufacturer-recommended drivers as a key troubleshooting step when printer features are missing or limited. Reference: CompTIA A+ Core 1 (220-1201) Official Study Guide – Printer Installation, Drivers, and Troubleshooting"
+  }
+]

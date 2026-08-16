@@ -1,0 +1,47 @@
+[
+  {
+    "id": 155,
+    "question": "An administrator is investigating a zero-day vulnerability. If left unpatched, it could severely impact business. The patch requires downtime. What should the administrator do?",
+    "options": [
+      "A. Create a standard change request.",
+      "B. Implement an emergency change.",
+      "C. Immediately freeze all changes.",
+      "D. Continue operations until the next change interval."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A zero-day vulnerability demands an emergency change to quickly secure the system, even if downtime is needed. From Mike Meyers' Lab Manual: “Emergency changes bypass standard scheduling to quickly address critical vulnerabilities that pose immediate risks.” ."
+  },
+  {
+    "id": 156,
+    "question": "An organization sees unauthorized apps installed and licensing prompts. What should the security team do?",
+    "options": [
+      "A. Deploy an internal PKI to filter encrypted web traffic.",
+      "B. Remove users from the local admin group.",
+      "C. Implement stronger controls to block suspicious websites.",
+      "D. Enable stricter UAC settings on Windows."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Removing users from the local admin group prevents them from installing unauthorized software. From Quentin Docter – Complete Study Guide: “Local admin privileges allow users to install unauthorized apps. Removing them from this group restricts installations and helps prevent malware.” ."
+  },
+  {
+    "id": 157,
+    "question": "Why would a network engineering team provide a help desk technician with IP addresses for a wired network segment?",
+    "options": [
+      "A. Only specific DNS servers are allowed outbound.",
+      "B. The network allow list is set to a specific address.",
+      "C. DHCP is not enabled for this subnet.",
+      "D. NAC servers only allow security updates to be installed."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When DHCP isn’t enabled, static IPs must be assigned manually, so the engineering team provides the IP details. From Travis Everett – All-in-One Exam Guide: “If DHCP is unavailable, technicians need the static IP configuration to connect devices to the network.” . Thank you for your visit."
+  }
+]

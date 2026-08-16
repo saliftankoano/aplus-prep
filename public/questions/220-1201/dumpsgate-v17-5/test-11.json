@@ -1,0 +1,455 @@
+[
+  {
+    "id": 301,
+    "question": "An administrator selects a new platform that provides the following benefits: • Shares a host OS • Shares kernel resources • Rapid start and deployment • Limited isolation Which of the following virtualization options did the administrator select?",
+    "options": [
+      "A. Type 1 hypervisor",
+      "B. Containers",
+      "C. Virtual desktop",
+      "D. Virtual machine"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The virtualization platform described matches the characteristics of containers. According to CompTIA Core 1 (220-1201) virtualization concepts, containers are lightweight virtualization solutions that share the host operating system and kernel, rather than running separate guest operating systems. This design allows containers to start almost instantly and be deployed rapidly, making them highly efficient and scalable. Because containers share kernel resources, they use significantly fewer system resources compared to traditional virtual machines. However, this also results in limited isolation, since applications are not fully separated at the OS level. This tradeoff is a defining characteristic of container-based virtualization. A Type 1 hypervisor runs directly on hardware and hosts fully isolated virtual machines, each with its own operating system, which does not align with the shared OS and kernel described. A virtual machine also includes a full guest OS, leading to slower startup times and greater resource usage. A virtual desktop refers to user desktop virtualization, not application-level virtualization. CompTIA highlights containers as an example of application virtualization that prioritizes speed, efficiency, and portability over complete isolation. Reference: CompTIA A+ Core 1 (220-1201) Official Study Guide – Virtualization Concepts, Containers, and Cloud Computing"
+  },
+  {
+    "id": 302,
+    "question": "A technician purchases a device that connects directly to the rear of a laptop and provides a one-to- one match for every peripheral connection. Which of the following best describes this device?",
+    "options": [
+      "A. USB hub",
+      "B. Docking station",
+      "C. KVM switch",
+      "D. Port replicator"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A device that connects directly to a laptop and provides a one-to-one duplication of the laptop’s existing ports is known as a port replicator. According to CompTIA Core 1 (220-1201) mobile device and laptop accessories objectives, a port replicator extends the available connections by mirroring the laptop’s built-in ports, such as USB, HDMI, Ethernet, and audio. This allows users to quickly connect peripherals like monitors, keyboards, mice, and network cables without plugging each device in individually. Port replicators are typically passive devices and do not add new functionality beyond duplicating existing ports. They are commonly used in office environments where users frequently dock and undock laptops. A docking station, by contrast, often provides additional or enhanced functionality, such as extra video outputs, higher-power charging, expansion slots, or proprietary connectors. A USB hub only expands USB connectivity and does not replicate all peripheral connections. A KVM switch is used to control multiple computers with a single keyboard, video display, and mouse, which is unrelated to laptop port expansion. CompTIA distinguishes port replicators as simple port-duplication devices, making them the correct answer in this scenario. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Mobile Device Accessories and Laptop Hardware"
+  },
+  {
+    "id": 303,
+    "question": "The power supply for a user's gaming computer fails. The user buys a replacement online. The user connects the power supply to the motherboard, the graphics card, and the SSDs, but the computer fails to start and displays a critical error. Which of the following is the most likely cause?",
+    "options": [
+      "A. The computer requires an additional RAM upgrade.",
+      "B. The wattage is insufficient for all the peripherals.",
+      "C. The user did not connect the 4-pin connector for the CPU.",
+      "D. The power supply only operates in a redundant configuration"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Modern motherboards require two separate power connections from the power supply: the 24-pin ATX connector for general motherboard power and a 4-pin or 8-pin CPU (EPS) connector dedicated to powering the processor. According to CompTIA Core 1 (220-1201) power supply installation and troubleshooting guidelines, failing to connect the CPU power connector commonly results in a system that does not boot and may display a critical or CPU-related error. In this scenario, the user connected power to the motherboard, graphics card, and storage devices, but the system fails to start. This strongly indicates that the CPU power connector was overlooked, which is a frequent mistake during PSU replacement. Without this connection, the processor cannot initialize, preventing POST. Insufficient wattage typically causes instability, shutdowns, or reboots under load rather than immediate failure with a critical error. RAM upgrades are unrelated to PSU replacement, and redundant power supplies are used in enterprise systems, not standard gaming PCs. CompTIA emphasizes verifying all required PSU connectors, especially the CPU power connector, as a critical troubleshooting step when a system will not power on after a PSU replacement. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Power Supplies, Connectors, and Troubleshooting"
+  },
+  {
+    "id": 304,
+    "question": "Which of the following is the standard for Wi-Fi 7?",
+    "options": [
+      "A. 802.1X",
+      "B. 802.3at",
+      "C. 802.11be",
+      "D. 802.15.1"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The IEEE standard for Wi-Fi 7 is 802.11be, also known as Extremely High Throughput (EHT). According to CompTIA Core 1 (220-1201) networking standards objectives, each Wi-Fi generation corresponds to a specific IEEE 802.11 amendment. Wi-Fi 7 builds upon Wi-Fi 6/6E by offering significantly higher throughput, lower latency, and improved performance in high-density environments. Option 802.11be is the only choice that represents a wireless LAN (WLAN) standard. 802.1X is an authentication framework used for network access control, not a Wi-Fi standard. 802.3at defines Power over Ethernet Plus (PoE+), which supplies electrical power over Ethernet cables. 802.15.1 is the IEEE standard for Bluetooth. CompTIA expects candidates to recognize and differentiate wireless standards and their IEEE designations, especially newer technologies such as Wi-Fi 6, Wi-Fi 6E, and Wi-Fi 7. Identifying 802.11be as Wi-Fi 7 is essential for both exam success and real-world networking scenarios. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Networking Standards and Wireless Technologies"
+  },
+  {
+    "id": 305,
+    "question": "Which of the following systems most likely contains ECC memory?",
+    "options": [
+      "A. A high-end gaming console",
+      "B. A file server",
+      "C. A smartphone",
+      "D. A laptop"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Error-Correcting Code (ECC) memory is designed to detect and correct single-bit memory errors, increasing system reliability and data integrity. According to CompTIA Core 1 (220-1201) hardware and memory objectives, ECC memory is most commonly used in servers and enterprise-grade systems where uptime and data accuracy are critical. A file server is responsible for storing, managing, and serving data to many users simultaneously. Memory errors in such systems could lead to data corruption, crashes, or security issues. For this reason, servers frequently use ECC memory in combination with server-class CPUs and motherboards that support error correction. High-end gaming consoles prioritize performance and cost efficiency rather than fault tolerance, and they do not use ECC memory. Smartphones rely on low-power mobile RAM without error correction, and laptops typically use non-ECC memory unless they are specialized workstation-class systems, which is not indicated in this question. CompTIA emphasizes that ECC memory is associated with mission-critical environments, particularly servers and enterprise systems, making a file server the most appropriate answer. Reference: CompTIA A+ Core 1 (220-1201) Official Study Guide – RAM Types, ECC Memory, and Server Hardware"
+  },
+  {
+    "id": 306,
+    "question": "Users in a 200-person call center report that phone calls experience severe performance degradation on busy days. The technician confirms: • Upload and download speeds are 50Mbps during a speed test. • VoIP call prioritization settings are properly configured for the VLAN that the call center uses. Which of the following is most likely the cause of this issue?",
+    "options": [
+      "A. The QoS is not configured correctly on the router.",
+      "B. The switchports dedicated to the call center are flapping.",
+      "C. The call center's VLAN is not configured to allow voice traffic.",
+      "D. The bandwidth dedicated to the call center is insufficient."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Voice over IP (VoIP) traffic is highly sensitive to latency, jitter, and packet loss, especially in large environments such as a 200-person call center. Although the technician confirms that VoIP prioritization (QoS) is configured correctly and speed tests show 50 Mbps upload and download speeds, overall available bandwidth can still be insufficient during peak usage. Speed tests measure raw throughput at a point in time and do not reflect real-world congestion caused by hundreds of simultaneous calls, application usage, and data transfers. On busy days, the cumulative bandwidth demand likely exceeds the available capacity, leading to degraded call quality despite correct VLAN and QoS settings. If QoS were misconfigured or the VLAN did not allow voice traffic, call issues would be consistent at all times, not only during peak periods. Flapping switchports would cause intermittent connectivity drops rather than predictable performance degradation correlated with high usage. CompTIA highlights that bandwidth limitations are a common root cause of VoIP performance problems in high-density environments, even when prioritization is properly implemented. Reference: CompTIA A+ Core 1 (220-1201) Official Study Guide – Networking Performance, QoS, and VoIP"
+  },
+  {
+    "id": 307,
+    "question": "A customer reports that internet browsing on their smartphone is fast at the beginning of the month but significantly slows down toward the end of the month. A technician examines the smartphone and finds multiple free cloud backup services running with several gigabytes of personal data spread across each. Data availability is important to the customer. Which of the following is the best way to resolve the customer's issue?",
+    "options": [
+      "A. Disabling all cloud backup services except one",
+      "B. Installing an additional SD card for photos and videos",
+      "C. Expanding the cache storage to consolidate data",
+      "D. Configuring data synchronization only over Wi-Fi connections"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The described behavior indicates that the customer is likely exceeding their mobile data allowance each month. Multiple cloud backup services continuously synchronizing gigabytes of data consume large amounts of cellular bandwidth, which can trigger data throttling by the mobile carrier near the end of the billing cycle. This results in noticeably slower browsing speeds. Since data availability is important, disabling backup services entirely is not the best option. Installing an SD card increases local storage but does not reduce cellular data usage. Expanding cache storage does not address network bandwidth consumption or carrier throttling. Configuring data synchronization to occur only over Wi-Fi ensures that backups continue uninterrupted when the device is connected to a wireless network, while preventing excessive cellular data usage. This preserves data availability and eliminates unnecessary mobile data consumption, restoring consistent browsing performance throughout the month. CompTIA Core 1 (220-1201) mobile device troubleshooting objectives emphasize managing background services, synchronization settings, and data usage to resolve performance and connectivity issues on smartphones. Reference: CompTIA A+ Core 1 (220-1201) Official Study Guide – Mobile Device Configuration, Data Usage, and Troubleshooting"
+  },
+  {
+    "id": 308,
+    "question": "Which of the following networking technologies allows for high-speed data transmission over short distances between devices like smartphones and tablets?",
+    "options": [
+      "A. Near-field communication",
+      "B. Zigbee",
+      "C. Infrared",
+      "D. Wi-Fi Direct"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Wi-Fi Direct is designed to provide high-speed, short-range wireless communication directly between devices such as smartphones, tablets, laptops, and printers without requiring a traditional wireless access point. According to CompTIA Core 1 (220-1201) networking objectives, Wi-Fi Direct uses standard Wi-Fi radio technology, allowing devices to communicate at speeds comparable to typical wireless LAN connections. Near-field communication (NFC) operates at extremely short distances (typically a few centimeters) and supports very low data transfer rates, making it unsuitable for high-speed data transmission. Zigbee is a low-power, low-bandwidth protocol commonly used for IoT and home automation devices, not for high-speed data sharing. Infrared requires line-of-sight and offers limited data rates, which restricts its usefulness for modern mobile devices. Wi-Fi Direct is commonly used for tasks such as file sharing, screen mirroring, and device-to-device printing. CompTIA emphasizes understanding the differences between short-range wireless technologies, particularly distinguishing high-throughput solutions like Wi-Fi Direct from low-power or proximity-based technologies. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Wireless Networking Technologies"
+  },
+  {
+    "id": 309,
+    "question": "Which of the following record types is used to create an alias for a domain?",
+    "options": [
+      "A. CNAME",
+      "B. AAAA",
+      "C. TXT",
+      "D. A"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A CNAME (Canonical Name) record is used in DNS to create an alias that maps one domain name to another canonical domain name. According to CompTIA Core 1 (220-1201) DNS objectives, CNAME records allow multiple hostnames to reference the same IP address indirectly by pointing to a single authoritative domain name. For example, www.example.com can be configured as a CNAME that points to example.com. When DNS queries are made, the resolver follows the alias until it reaches an A or AAAA record that contains the actual IP address. An A record maps a hostname directly to an IPv4 address, while an AAAA record maps a hostname to an IPv6 address. A TXT record is used to store arbitrary text data, commonly for verification, email security (SPF, DKIM), or policy information, not for aliasing. CompTIA stresses that CNAME records are specifically intended for aliasing and name redirection within DNS, making them the correct answer. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – DNS Record Types and Name Resolution"
+  },
+  {
+    "id": 310,
+    "question": "An IP address is automatically assigned to a single workstation in an office, but the technician confirms the IP address is not in the lease pool. This workstation is having issues accessing the internet and internal file shares. Which of the following address types has been automatically assigned?",
+    "options": [
+      "A. APIPA",
+      "B. Static",
+      "C. DHCP",
+      "D. Public IP"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a workstation automatically assigns itself an IP address that is not part of the DHCP lease pool, the system has most likely configured an APIPA (Automatic Private IP Addressing) address. According to CompTIA Core 1 (220-1201) networking fundamentals, APIPA addresses fall within the range 169.254.0.0/16 and are assigned when a device cannot communicate with a DHCP server. APIPA allows limited local network communication but does not provide access to the internet or network resources such as internal file shares that require routing or proper IP configuration. This explains why the workstation experiences connectivity issues. A static IP address is manually configured and would not be automatically assigned. A DHCP address would come from the defined lease pool, which the technician has confirmed is not the case. A public IP address is assigned by an ISP and is not used directly on internal workstations. CompTIA highlights APIPA as a key troubleshooting indicator of DHCP failure or network connectivity issues, making it the correct answer. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – IP Addressing, DHCP, and Troubleshooting"
+  },
+  {
+    "id": 311,
+    "question": "A technician is building a home desktop computer. The technician wants to prioritize cable management when considering the type of power supply. Which of the following power supply types should the technician consider?",
+    "options": [
+      "A. Back-up",
+      "B. Modular",
+      "C. Standard",
+      "D. Redundant"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A modular power supply is the best choice when cable management is a priority. According to CompTIA Core 1 (220-1201) power supply objectives, modular PSUs allow technicians to connect only the cables that are needed for the system’s components, reducing clutter inside the case. This improves airflow, simplifies troubleshooting, and creates a cleaner internal layout, which is especially beneficial in home-built desktop systems. Semi-modular and fully modular power supplies offer varying degrees of flexibility, but all modular designs reduce unused cables compared to standard power supplies. A standard (non-modular) power supply has all cables permanently attached, often resulting in excess unused cables that obstruct airflow. A backup power supply refers to an uninterruptible power supply (UPS), which provides battery backup but does not improve internal cable management. A redundant power supply is typically found in enterprise servers and includes multiple PSUs for fault tolerance, not cable management. CompTIA emphasizes modular power supplies as a best practice for clean builds and efficient system design, making this the correct answer. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Power Supplies, Form Factors, and Cable Management"
+  },
+  {
+    "id": 312,
+    "question": "An administrator is investigating a misuse of printer resources. The administrator suspects an employee. Which of the following will help the administrator verify the source of misuse?",
+    "options": [
+      "A. Secure printing",
+      "B. Print counter",
+      "C. Audit logs",
+      "D. User authentication"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "To verify the source of printer misuse, the administrator needs detailed records showing who performed specific actions and when. According to CompTIA Core 1 (220-1201) printer management and security objectives, audit logs provide a historical record of printer activity, including user IDs, timestamps, document names, and print volumes. These logs allow administrators to trace printer usage back to a specific user or device, making them the most effective tool for investigating misuse. Secure printing requires users to authenticate at the printer before jobs are released, which helps prevent unauthorized access but does not provide historical evidence of past misuse. A print counter tracks the total number of pages printed but does not identify individual users or specific print jobs. User authentication ensures that only authorized users can access the printer, but by itself it does not provide detailed usage tracking unless combined with logging. CompTIA emphasizes audit logging as a critical component of accountability and security across systems, including printers. When investigating policy violations or misuse, audit logs are the primary source of verifiable evidence. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Printer Security, Monitoring, and Management"
+  },
+  {
+    "id": 313,
+    "question": "The computers and IP phones at an office experience degraded performance during the day. The issue does not occur before the start of business. Which of the following will resolve the issue?",
+    "options": [
+      "A. Changing the switches to ones with higher capacity",
+      "B. Using VLANs to segregate data and voice traffic",
+      "C. Adding RAM to the PCs and additional VoIP lines",
+      "D. Updating the firmware on the switches"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Degraded performance that occurs only during business hours strongly suggests network congestion caused by simultaneous data and voice traffic. According to CompTIA Core 1 (220-1201) networking objectives, combining voice (VoIP) and data traffic on the same network without proper segmentation can lead to latency, jitter, and packet loss, especially during peak usage periods. Implementing VLANs (Virtual Local Area Networks) allows administrators to logically separate voice and data traffic, enabling better traffic management and prioritization. VLANs also support Quality of Service (QoS) policies that ensure time-sensitive voice traffic is prioritized over standard data traffic, improving call quality and overall performance. Replacing switches with higher-capacity models is costly and unnecessary if proper traffic segmentation has not yet been implemented. Adding RAM to PCs or VoIP lines does not address network-level congestion. Firmware updates may improve stability but will not resolve sustained performance degradation caused by traffic contention. CompTIA highlights VLAN implementation as a best practice for environments that use IP phones, especially when performance issues occur during high utilization periods. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – VLANs, VoIP, and Network Performance"
+  },
+  {
+    "id": 314,
+    "question": "Which of the following is the best to use to stream real-time video from a network camera?",
+    "options": [
+      "A. UDP",
+      "B. TCP",
+      "C. FTP",
+      "D. RDP"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "UDP (User Datagram Protocol) is the preferred protocol for real-time video streaming, such as feeds from network cameras. According to CompTIA Core 1 (220-1201) networking protocols objectives, UDP prioritizes speed and low latency over guaranteed delivery, making it ideal for time-sensitive applications. Real-time video streaming can tolerate occasional packet loss, but it cannot tolerate delays caused by retransmissions. UDP does not perform error checking or packet retransmission, which reduces overhead and ensures smooth, continuous playback. This is critical for live video feeds where delayed packets are useless. TCP, while reliable, introduces latency due to acknowledgments and retransmissions, making it unsuitable for real-time streaming. FTP is a file transfer protocol and does not support live streaming. RDP is used for remote desktop access and is not designed for transmitting continuous real-time video streams from cameras. CompTIA emphasizes understanding protocol selection based on application requirements, particularly distinguishing between reliability and performance needs. For live video, UDP is the optimal choice. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Protocols and Use Cases"
+  },
+  {
+    "id": 315,
+    "question": "Which of the following is an example of VDI?",
+    "options": [
+      "A. Streaming a GUI to thin clients from a server",
+      "B. Provisioning a sandbox as a test environment",
+      "C. Providing high-performance workstations with a local OS",
+      "D. Launching a virtual machine server on a hypervisor"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Virtual Desktop Infrastructure (VDI) delivers a desktop operating system hosted on a centralized server and streams the graphical user interface (GUI) to endpoint devices such as thin clients, zero clients, or standard PCs. According to CompTIA Core 1 (220-1201) virtualization objectives, VDI allows users to access their desktop environments remotely while all processing and data remain on the server. Option A accurately describes this model: a GUI streamed from a server to thin clients. This approach improves centralized management, enhances security, and simplifies endpoint hardware requirements. Provisioning a sandbox is an example of test or development virtualization, not desktop virtualization. High-performance workstations with a local OS are physical desktops, not VDI. Launching a virtual machine server on a hypervisor describes server virtualization, not desktop delivery. CompTIA highlights VDI as a common enterprise solution that separates the desktop environment from the physical device, enabling flexibility, scalability, and centralized control. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Virtualization, VDI, and Cloud Concepts"
+  },
+  {
+    "id": 316,
+    "question": "A user connects a PC to a projector and configures the projector to use HDMI. However, when the user tries to use the projector, the projector shows a black screen with the message “HDMI2 no signal found.” The user reports that the projector worked properly during a previous meeting. Which of the following should the user do to fix the issue?",
+    "options": [
+      "A. Replace the bulb.",
+      "B. Swap the video cable.",
+      "C. Change the input source.",
+      "D. Update the video drivers."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The error message “HDMI2 no signal found” indicates that the projector is set to an input source that is not currently receiving a video signal. According to CompTIA Core 1 (220-1201) display and troubleshooting objectives, input source selection is one of the first items to verify when an external display shows a black screen but powers on correctly. Many projectors have multiple HDMI ports (HDMI1, HDMI2, etc.). If the PC is connected to a different HDMI port than the one currently selected, the projector will display a “no signal” message even though the cable and device are functioning properly. Changing the input source to match the connected HDMI port resolves the issue quickly. Replacing the bulb would not fix a “no signal” message, as the projector is clearly powered on and displaying text. Swapping the video cable is a valid troubleshooting step, but the explicit HDMI2 message points to an incorrect input selection. Updating video drivers is unnecessary when the device worked previously and the issue is isolated to input detection. CompTIA emphasizes verifying correct input selection as a primary step when troubleshooting external display issues. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Display Devices and Troubleshooting"
+  },
+  {
+    "id": 317,
+    "question": "A technician must upgrade a computer system to improve its overall processing performance. Which of the following should the technician focus on to ensure maximum system performance?",
+    "options": [
+      "A. Integrated GPU",
+      "B. Power connectors",
+      "C. Voltage regulator module",
+      "D. Clock frequency"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Clock frequency is one of the most significant factors influencing a computer system’s processing performance. According to CompTIA Core 1 (220-1201) CPU and performance objectives, clock speed—measured in gigahertz (GHz)—determines how many instruction cycles a processor can perform per second. Higher clock frequencies generally result in faster execution of instructions, leading to improved performance in both single-threaded and multi-threaded workloads. While modern CPUs also rely on core count, cache size, and architecture efficiency, clock frequency remains a primary metric for evaluating raw processing speed. An integrated GPU affects graphics performance rather than overall CPU processing capability. Power connectors ensure proper electrical delivery but do not directly improve processing performance. The voltage regulator module (VRM) stabilizes and regulates power supplied to the CPU but does not itself increase processing speed. CompTIA expects candidates to recognize clock frequency as a key determinant of CPU performance when upgrading or comparing processors. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – CPU Architecture and Performance"
+  },
+  {
+    "id": 318,
+    "question": "A user's computer can connect to internal network resources but cannot access websites on the internet. Other users on the same network do not have this issue. Which of the following should a technician do first to troubleshoot the issue?",
+    "options": [
+      "A. Verify the computer's DNS settings.",
+      "B. Replace the network cable.",
+      "C. Restart the DHCP server.",
+      "D. Adjust the firewall rules on the router."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "If a computer can access internal network resources but cannot reach external websites, the most likely issue is a DNS configuration problem. According to CompTIA Core 1 (220-1201) networking troubleshooting methodology, DNS should be one of the first items checked when internet access fails but local connectivity remains intact. DNS translates human-readable domain names into IP addresses. If DNS settings are incorrect, missing, or pointing to an invalid server, the computer will be unable to resolve website names even though it has network connectivity. Since other users on the same network can access the internet, the issue is isolated to the individual workstation. Replacing the network cable is unnecessary because internal connectivity is already working. Restarting the DHCP server would impact all users, not just one. Adjusting firewall rules on the router would affect the entire network rather than a single computer. CompTIA emphasizes starting with least disruptive and most likely causes when troubleshooting. Verifying DNS settings aligns with this best-practice approach. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Troubleshooting and DNS"
+  },
+  {
+    "id": 319,
+    "question": "A user reports issues controlling the cursor on a company-owned laptop. The technician inspects the laptop and discovers a bulge under the trackpad. Which of the following components should the technician replace first?",
+    "options": [
+      "A. Motherboard",
+      "B. Heat sink",
+      "C. Battery",
+      "D. Trackpad"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A bulge under the trackpad on a laptop is a strong and well-known indicator of a swollen lithium-ion battery. According to CompTIA Core 1 (220-1201) mobile device hardware and troubleshooting objectives, laptop batteries are often located directly beneath the palm rest or trackpad area. When a lithium-ion battery begins to fail, it can swell due to internal chemical reactions, causing physical deformation of nearby components. This swelling can interfere with the normal operation of the trackpad, leading to cursor control issues, clicking problems, or unresponsive behavior. More importantly, a swollen battery presents a serious safety risk, including the potential for overheating, leakage, or fire. For this reason, CompTIA emphasizes that battery replacement should be the first corrective action when physical swelling is observed. Replacing the trackpad would not resolve the underlying pressure caused by the expanding battery. The motherboard and heat sink are unrelated to the physical bulge and cursor control symptoms described. Proper troubleshooting requires identifying and addressing the root cause, not the secondary symptom. CompTIA best practices also stress safe handling and immediate replacement of damaged or swollen batteries to prevent further hardware damage or personal injury. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Laptop Batteries, Mobile Device Troubleshooting, and Hardware Safety"
+  },
+  {
+    "id": 320,
+    "question": "A small company recently added VoIP through its ISP. Users report intermittent call quality issues during peak hours. Which of the following steps should the IT administrator take to solve the issue?",
+    "options": [
+      "A. Configure the VLAN to split services.",
+      "B. Route calls through a gigabit port.",
+      "C. Install a shielded network cable.",
+      "D. Increase the VoIP bit rate."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intermittent VoIP call quality issues that occur during peak hours are a classic symptom of network congestion caused by voice and data traffic competing for the same network resources. According to CompTIA Core 1 (220-1201) networking and VoIP objectives, one of the most effective solutions is to configure VLANs to separate voice and data traffic. By placing VoIP devices on a dedicated voice VLAN, the network can apply Quality of Service (QoS) policies that prioritize voice packets over standard data traffic. This reduces latency, jitter, and packet loss, which are the primary causes of poor call quality. VLAN separation ensures that even during heavy data usage, voice traffic remains clear and reliable. Routing calls through a gigabit port does not address traffic prioritization and is unlikely to resolve congestion during peak usage. Installing shielded network cables only helps in environments with excessive electromagnetic interference, which would affect performance consistently—not intermittently. Increasing the VoIP bit rate would actually worsen congestion by consuming more bandwidth. CompTIA emphasizes VLAN implementation and QoS as best practices for VoIP deployments, especially when call quality degrades under high network utilization. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – VoIP, VLANs, and Network Performance"
+  },
+  {
+    "id": 321,
+    "question": "A local bank is designing its new infrastructure blueprint. Which of the following RAID types offers double parity?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 6"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "RAID 6 is the RAID level that provides double parity, allowing the system to tolerate the failure of two disks simultaneously without data loss. According to CompTIA Core 1 (220-1201) storage and RAID objectives, RAID 6 improves fault tolerance by storing two independent parity blocks across all disks in the array. RAID 0 provides no parity or redundancy and focuses only on performance through striping. RAID 1 uses mirroring, duplicating data across two drives but does not use parity. RAID 5 uses single parity, allowing recovery from only one failed drive. For environments such as a local bank, where data integrity and availability are critical, RAID 6 is commonly preferred due to its higher fault tolerance compared to RAID 5. Although RAID 6 has slightly lower write performance due to the additional parity calculation, the increased resilience makes it suitable for mission-critical systems. CompTIA highlights RAID 6 as a common enterprise solution when both redundancy and reliability are priorities. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – RAID Levels and Storage Technologies"
+  },
+  {
+    "id": 322,
+    "question": "A user's laptop shuts down unexpectedly while connected to a virtual meeting. The user turns on the device several times, but it shuts down again after connecting to the meeting for a few minutes. Which of the following should a technician do first to troubleshoot this issue?",
+    "options": [
+      "A. Run the application in safe mode.",
+      "B. Check the BIOS for the CPU temperature.",
+      "C. Connect to the meeting with a different application.",
+      "D. Verify that the battery is completely charged."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Unexpected system shutdowns that occur after a few minutes of activity—especially during resource-intensive tasks such as virtual meetings—are a strong indicator of overheating. According to CompTIA Core 1 (220-1201) laptop and hardware troubleshooting objectives, thermal issues commonly cause systems to power off automatically to prevent hardware damage. Virtual meeting applications place sustained load on the CPU and GPU, increasing heat output. If the cooling system is malfunctioning (dust buildup, failed fan, dried thermal paste), the CPU temperature can rise rapidly and trigger a thermal shutdown. Checking the CPU temperature in the BIOS or UEFI is an appropriate first step to confirm whether overheating is occurring. Running the application in safe mode or switching applications does not address the root hardware issue. Verifying the battery charge is unlikely to resolve repeated shutdowns that occur only after several minutes of operation. CompTIA emphasizes identifying environmental and thermal causes early in the troubleshooting process, especially when symptoms are repeatable and load-dependent. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Laptop Cooling, Thermal Management, and Troubleshooting"
+  },
+  {
+    "id": 323,
+    "question": "Two workstations are connected to a LAN that does not have internet access. A user reports that they are unable to access a network service after a power outage. The web page warns the user that the site is insecure. Which of the following will most likely resolve the certificate error? (Select two)",
+    "options": [
+      "A. Renewing the SSL certificate",
+      "B. Setting the system date and time in the BIOS",
+      "C. Replacing the CMOS battery",
+      "D. Adjusting the browser security settings",
+      "E. Opening the HTTPS port on the workstation's firewall",
+      "F. Scanning the LAN for unauthorized devices"
+    ],
+    "correctAnswers": [
+      0,
+      1
+    ],
+    "correctAnswer": 0,
+    "explanation": "Certificate security warnings commonly occur when a system cannot properly validate the validity period of an SSL/TLS certificate. According to CompTIA Core 1 (220-1201) networking and security fundamentals, two of the most common causes of certificate errors are expired certificates and incorrect system date and time. After a power outage, systems without internet access cannot automatically synchronize time with an NTP server. If the system clock resets or becomes inaccurate, the browser may interpret a valid certificate as expired or not yet valid, triggering an “insecure site” warning. Setting the correct system date and time in the BIOS immediately resolves this mismatch and is a primary troubleshooting step. Additionally, renewing the SSL certificate resolves errors if the certificate has legitimately expired or was invalid at the time of access. This is especially relevant for internal network services using self- signed or internally managed certificates. Replacing the CMOS battery can prevent future time resets but does not immediately correct the certificate error. Adjusting browser security settings is unsafe and not recommended. Firewall port configuration and network scanning are unrelated to certificate validation. CompTIA emphasizes validating time/date accuracy and certificate status as core steps when resolving certificate-related security warnings. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Certificates, HTTPS, System Time, and Network Security"
+  },
+  {
+    "id": 324,
+    "question": "Which of the following is used to install a network device when electrical outlets are unavailable?",
+    "options": [
+      "A. WWAN",
+      "B. ONT",
+      "C. NFC",
+      "D. PoE"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Power over Ethernet (PoE) is specifically designed to power network devices without requiring a separate electrical outlet. According to CompTIA Core 1 (220-1201) networking hardware objectives, PoE allows both data and electrical power to be delivered over a single Ethernet cable from a PoE- capable switch or injector to the connected device. PoE is commonly used for devices such as wireless access points, IP cameras, VoIP phones, and access control systems, especially in locations where installing electrical outlets is difficult, expensive, or impractical. This makes PoE an ideal solution for flexible and scalable network deployments. WWAN (Wireless Wide Area Network) provides cellular-based network connectivity but does not supply power to devices. An ONT (Optical Network Terminal) converts fiber signals to Ethernet and requires its own power source. NFC (Near Field Communication) is a short-range wireless technology used for authentication and data exchange, not for powering network devices. CompTIA highlights PoE as a key networking technology that simplifies installations by reducing cabling requirements and eliminating the need for local power outlets. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Networking Hardware, PoE Standards, and Device Installation"
+  },
+  {
+    "id": 325,
+    "question": "Which of the following cables should be installed if nearby electromagnetic interference is a possibility?",
+    "options": [
+      "A. STP",
+      "B. UTP",
+      "C. Thunderbolt",
+      "D. USB"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Shielded Twisted Pair (STP) cabling is specifically designed to protect data transmissions from electromagnetic interference (EMI) and radio frequency interference (RFI). According to CompTIA Core 1 (220-1201) networking cabling objectives, STP cables include an additional shielding layer— either around individual wire pairs or the entire cable—that reduces the impact of external electrical noise. In environments where network cables are installed near heavy machinery, fluorescent lighting, power cables, or radio transmitters, EMI can cause data corruption, retransmissions, and reduced network performance. STP helps maintain signal integrity in these high-interference environments. Unshielded Twisted Pair (UTP) relies only on wire twisting to reduce interference and is more susceptible to EMI compared to STP. Thunderbolt and USB are peripheral interface standards, not structured network cabling solutions, and they are not intended for long-distance network installations. CompTIA emphasizes selecting the appropriate cabling type based on environmental factors, particularly when interference is a concern. For locations with potential EMI, STP is the recommended choice. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Cabling, EMI, and Installation Best Practices"
+  },
+  {
+    "id": 326,
+    "question": "An engineer must implement a solution to facilitate and maintain an organization's legacy application until it is retired. The application is currently hosted on three physical servers. Which of the following is the most suitable concept for this purpose?",
+    "options": [
+      "A. SAN",
+      "B. FaaS",
+      "C. Virtualization",
+      "D. Configuration management platform"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Virtualization is the most suitable solution for maintaining a legacy application that is currently running on multiple physical servers. According to CompTIA Core 1 (220-1201) virtualization concepts, virtualization allows physical servers to be consolidated into virtual machines (VMs) that run on a single or reduced number of physical hosts while preserving the original operating systems and application environments. Legacy applications often rely on older operating systems, specific hardware configurations, or outdated dependencies. Virtualization enables the organization to encapsulate the legacy environment, reducing hardware dependency and simplifying maintenance until the application can be fully retired. This approach also lowers power consumption, hardware costs, and physical space requirements while improving manageability and backup options. A SAN (Storage Area Network) provides shared storage but does not address application hosting or server consolidation. FaaS (Function as a Service) is a cloud-native, event-driven computing model that requires application redesign and is unsuitable for legacy systems. A configuration management platform is used to manage and automate system configurations but does not replace physical servers or host applications. CompTIA highlights virtualization as a key strategy for supporting legacy systems, improving flexibility, and extending the lifespan of applications during transition periods. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Virtualization Concepts, Server Consolidation, and Legacy System Support"
+  },
+  {
+    "id": 327,
+    "question": "Which of the following connectors will uplink a new ISP cable modem to its wall jack?",
+    "options": [
+      "A. F-type",
+      "B. LC",
+      "C. RJ45",
+      "D. Lightning"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A cable modem connects to an ISP’s wall jack using a coaxial cable, and the standard connector used for coaxial connections is the F-type connector. According to CompTIA Core 1 (220-1201) networking hardware and cabling objectives, F-type connectors are specifically designed for coaxial cabling used in cable television and cable internet (DOCSIS) installations. These connectors screw onto the coaxial wall outlet and the cable modem, ensuring a secure physical connection and proper signal transmission. An LC connector is a fiber-optic connector commonly used with single-mode or multimode fiber cables and is not associated with cable modems. An RJ45 connector is used for Ethernet networking and is typically used to connect the cable modem to a router or computer, not to the wall jack. Lightning is a proprietary Apple connector used for charging and data transfer on mobile devices and has no role in network uplinks. CompTIA expects candidates to clearly distinguish between different cable types and connectors based on the service being installed. When the scenario involves a cable modem and ISP wall jack, the correct and standard connector is the F-type. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Cabling, Coaxial Connectors, and ISP Installations"
+  },
+  {
+    "id": 328,
+    "question": "A user is trying to print diagrams on 11in × 17in (28cm × 43cm) paper. The correct paper is in the printer, but the printer prompts the user to insert paper. A technician assisting the user successfully prints the diagram to a different printer that is the same model. Which of the following is the most likely cause of this issue on the user's printer?",
+    "options": [
+      "A. Tray settings",
+      "B. Incorrect driver",
+      "C. Connectivity issues",
+      "D. Insufficient permissions"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most likely cause of this issue is incorrect tray settings on the user’s printer. According to CompTIA Core 1 (220-1201) printer configuration and troubleshooting concepts, printers rely on tray configuration settings to determine the paper size and paper type loaded in each tray. If the tray is not configured for 11 × 17 (Tabloid/Ledger) paper, the printer will assume the required paper is unavailable—even if the paper is physically present. When a print job specifies a paper size that does not match the tray’s configured settings, the printer commonly displays a message prompting the user to insert the correct paper. The fact that the same document prints successfully on another printer of the same model confirms that the driver, permissions, and connectivity are functioning correctly, further isolating the issue to the local printer’s tray configuration. An incorrect driver would cause consistent problems across printers, not just one. Connectivity issues would prevent communication with the printer entirely, and insufficient permissions would generate access or authorization errors rather than a paper prompt. CompTIA emphasizes verifying tray assignments and paper size configuration as a primary troubleshooting step when printers incorrectly request paper that is already loaded. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Printer Configuration, Paper Handling, and Troubleshooting"
+  },
+  {
+    "id": 329,
+    "question": "A healthcare facility is printing government documents on preprinted forms. The output has shifted downward on the paper, and the printed data is not aligned with the blank spaces on the forms. Which of the following should a technician do first?",
+    "options": [
+      "A. Verify that the correct paper type is loaded into the tray.",
+      "B. Make sure that PostScript drivers are being used.",
+      "C. Check the orientation settings of the printer.",
+      "D. Ensure that the pickup rollers are firmly gripping the paper."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When printing on preprinted forms, correct alignment is critical because the printed text must line up precisely with predefined fields on the paper. According to CompTIA Core 1 (220-1201) printer configuration and troubleshooting objectives, incorrect orientation settings (portrait vs. landscape, or rotated output) are a common cause of print content shifting vertically or horizontally on the page. If the printer or print driver orientation does not match the layout expected by the form, the output may appear shifted downward or misaligned, even though the correct paper is loaded. Verifying and correcting the orientation setting is a quick, non-invasive first step that often resolves alignment issues without requiring hardware changes. Verifying the paper type is important, but incorrect paper type usually affects print quality (such as smudging or feeding issues), not precise alignment. PostScript drivers are typically used for complex graphics and publishing but are not the first step for alignment problems. Pickup rollers that fail to grip paper properly usually cause jams or skewing, not consistent downward shifts. CompTIA emphasizes checking print layout and orientation settings first when dealing with alignment problems on specialized or preprinted documents. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Printer Configuration, Orientation Settings, and Troubleshooting"
+  },
+  {
+    "id": 330,
+    "question": "A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?",
+    "options": [
+      "A. Enable QoS in the router.",
+      "B. Configure PoE on the switch.",
+      "C. Change the encryption from WPA3 to WPA2.",
+      "D. Turn on MAC address filtering."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "VoIP traffic is highly sensitive to latency, jitter, and packet loss, even when overall internet bandwidth appears sufficient. According to CompTIA Core 1 (220-1201) networking and VoIP troubleshooting objectives, normal speed test results do not guarantee good VoIP performance because speed tests measure throughput, not real-time traffic prioritization. In this scenario, users experience choppy audio and lag, which are classic symptoms of voice packets competing with regular data traffic during periods of network utilization. Enabling Quality of Service (QoS) on the router allows the network to prioritize VoIP traffic over less time-sensitive data such as web browsing, file downloads, or streaming. This ensures voice packets are transmitted with minimal delay, improving call clarity and reliability. Configuring PoE only supplies power to VoIP phones and does not affect call quality. Changing wireless encryption standards does not resolve latency or prioritization issues. MAC address filtering is a security feature and has no impact on VoIP performance. CompTIA emphasizes QoS as a key solution for resolving VoIP performance issues in environments where bandwidth exists but voice traffic is not properly prioritized. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – VoIP Technologies, QoS, and Network Performance"
+  }
+]

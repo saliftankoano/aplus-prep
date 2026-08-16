@@ -1,0 +1,137 @@
+{
+  "exam": "220-1201",
+  "source": "DumpsGate",
+  "sourceSlug": "dumpsgate-v17-5",
+  "version": "17.5",
+  "sourceFile": "220-1201-2-DUMPSGATE.pdf",
+  "questionsFound": 462,
+  "questionsImported": 450,
+  "questionsRejected": 12,
+  "rejected": [
+    {
+      "id": 393,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 394,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 395,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 396,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 397,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 398,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 399,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 400,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 401,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 402,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 403,
+      "reason": "visual-pbq"
+    },
+    {
+      "id": 404,
+      "reason": "visual-pbq"
+    }
+  ],
+  "decks": [
+    {
+      "id": 1,
+      "file": "test-1.json",
+      "questions": 30
+    },
+    {
+      "id": 2,
+      "file": "test-2.json",
+      "questions": 30
+    },
+    {
+      "id": 3,
+      "file": "test-3.json",
+      "questions": 30
+    },
+    {
+      "id": 4,
+      "file": "test-4.json",
+      "questions": 30
+    },
+    {
+      "id": 5,
+      "file": "test-5.json",
+      "questions": 30
+    },
+    {
+      "id": 6,
+      "file": "test-6.json",
+      "questions": 30
+    },
+    {
+      "id": 7,
+      "file": "test-7.json",
+      "questions": 30
+    },
+    {
+      "id": 8,
+      "file": "test-8.json",
+      "questions": 30
+    },
+    {
+      "id": 9,
+      "file": "test-9.json",
+      "questions": 30
+    },
+    {
+      "id": 10,
+      "file": "test-10.json",
+      "questions": 30
+    },
+    {
+      "id": 11,
+      "file": "test-11.json",
+      "questions": 30
+    },
+    {
+      "id": 12,
+      "file": "test-12.json",
+      "questions": 30
+    },
+    {
+      "id": 13,
+      "file": "test-13.json",
+      "questions": 30
+    },
+    {
+      "id": 14,
+      "file": "test-14.json",
+      "questions": 30
+    },
+    {
+      "id": 15,
+      "file": "test-15.json",
+      "questions": 30
+    }
+  ]
+}

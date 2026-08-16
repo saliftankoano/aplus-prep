@@ -1,0 +1,458 @@
+[
+  {
+    "id": 1,
+    "question": "A technician is troubleshooting a connectivity issue on a network computer. The technician runs ipconfig in a command prompt and receives the following IP address:169.254.0.6. Which of the following is most likely the type of IP address being assigned?",
+    "options": [
+      "A. DHCP reservation assignment",
+      "B. Dynamic assignment",
+      "C. Self-assignment",
+      "D. Static assignment"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An IP address starting with169.254.x.xis aself-assigned address(also calledAPIPA– Automatic Private IP Addressing). It’s used when a client device cannot contact a DHCP server. This address allows limited communication on the local network segment butno internet access. Option A:DHCP reservations assign specific IPs from the DHCP server they don’t result in APIPA. Option B:Dynamic assignment from DHCP assigns valid IPs in the proper subnet, not 169.254.x.x. Option D:Static IPs are manually set and would not fall in the 169.254.x.x range unless set incorrectly. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.6: Given a scenario, configure and troubleshoot network connectivity."
+  },
+  {
+    "id": 2,
+    "question": "A recently installed printer is incorrectly aligning printed documents Which of the following should the technician do first to fix this issue?",
+    "options": [
+      "A. Run the maintenance application.",
+      "B. Clean the rollers",
+      "C. Upgrade the firmware",
+      "D. Reinstall the drivers"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A . Run the maintenance application: Most modern printers include a built-in maintenance application that can calibrate the print heads and correct alignment issues. Running this tool is the first step to address misalignment. Incorrect Options: B . Clean the rollers: Cleaning rollers is typically done to resolve paper feed or jamming issues, not alignment problems. C . Upgrade the firmware: While updating firmware is beneficial for performance improvements, it is not the first step for fixing alignment. D . Reinstall the drivers: Misaligned printing is usually hardware-related, not a driver issue. Key Takeaway: The maintenance application should be run first to resolve alignment issues in a newly installed printer. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 5.5 – Printer troubleshooting."
+  },
+  {
+    "id": 3,
+    "question": "An IT specialist compares Bluetooth and NFC technologies for mobile device connectivity. Which of the following statements accurately describes a key difference between the two?",
+    "options": [
+      "A. NFC is faster than Bluetooth when transferring large files between devices.",
+      "B. NFC consumes more power than Bluetooth, making it less suitable for devices in which battery conservation is crucial.",
+      "C. NFC requires pairing with the receiving host, whereas Bluetooth just needs the available connection.",
+      "D. NFC works best within a few centimeters, but Bluetooth can connect devices that are up to 32ft (10m) apart."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "NFC (Near-Field Communication)operates atvery short ranges usually less than 4cm, and is ideal for quick, secure transactions like contactless payments.Bluetoothsupportslonger ranges (up to 10 meters or 32 feet)and is suited for ongoing connections like wireless headsets or file transfers. Option A:Bluetooth is faster for large file transfers. Option B:NFC usesless power, not more. Option C:NFC doesnotrequire pairing Bluetooth does. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.5: Given a scenario, connect and configure accessories and ports of mobile devices. ==========="
+  },
+  {
+    "id": 4,
+    "question": "Which of the following is an advantage of using VDI?",
+    "options": [
+      "A. Authentication is not required on a domain.",
+      "B. Licensing costs are minimized.",
+      "C. Less manual configuration is needed for each workstation.",
+      "D. A virus is automatically contained locally."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Virtual Desktop Infrastructure (VDI)hosts desktop environments on centralized servers. Thisallowsrapid deployment and consistent configurationacross multiple users, minimizing manual setup and easing IT management. Option A:VDI still uses standard authentication methods. Option B:Licensing can actually be more expensive due to virtualization software and backend servers. Option D:VDI centralizes the desktop environment viruses would affect the virtual session, not be \"contained locally.\" CompTIA A+ Core 1 Exam Objective Reference: Objective 4.1: Compare and contrast cloud computing concepts. ==========="
+  },
+  {
+    "id": 5,
+    "question": "A technician wants to monitor network statistics for devices communicating with one another on the local subnet Which of the following devices should the technician install.",
+    "options": [
+      "A. Managed switch",
+      "B. Router",
+      "C. Access point",
+      "D. Firewall"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A managed switch provides advanced features such as traffic monitoring and VLAN configuration, allowing a technician to view network statistics for devices on the local subnet. Why Not B (Router): A router connects different networks and directs traffic between them but does not provide detailed subnet-level statistics. Why Not C (Access point): Access points provide wireless connectivity but lack traffic monitoring features. Why Not D (Firewall): A firewall filters traffic but is not used for monitoring detailed statistics on a local subnet. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, network monitoring tools​."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following provides electricity to devices through network cables?",
+    "options": [
+      "A. Edge router",
+      "B. PoE switch",
+      "C. Access point",
+      "D. Patch panel"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A PoE (Power over Ethernet) switch transmits both data and electrical power over Ethernet cables to devices like wireless access points or VoIP phones. This is especially useful in areas where separate power sources are not available. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 5, pages 319–321​."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following DNS record types is used to direct email to a mail server?",
+    "options": [
+      "A. CNAME",
+      "B. SRV",
+      "C. MX",
+      "D. SOA"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An MX (Mail Exchange) record specifies the mail server responsible for receiving email for a domain. Why Not A (CNAME): CNAME is used for domain aliasing, not for email delivery. Why Not B (SRV): SRV records are used to locate specific services, not mail servers. Why Not D (SOA): SOA records provide domain information but do not handle email. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, DNS record types​."
+  },
+  {
+    "id": 8,
+    "question": "Which of the following cloud models exclusively utilizes a local data center?",
+    "options": [
+      "A. Private",
+      "B. Public",
+      "C. Hybrid",
+      "D. Community"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "APrivate Cloudis operated solely for a single organization. It ishosted on-premises or in a dedicated off-site data center, giving the company full control over data, security, and compliance often hosted in theorganization’s own local data center. Option B (Public):Hosted by third-party providers and shared by multiple clients. Option C (Hybrid):Combines private and public cloud resources. Option D (Community):Shared by several organizations with similar goals. CompTIA A+ Core 1 Exam Objective Reference: Objective 4.1: Compare and contrast cloud computing concepts. ==========="
+  },
+  {
+    "id": 9,
+    "question": "Which of the following types of RAM is typically used in servers?",
+    "options": [
+      "A. SODIMM",
+      "B. Rambus",
+      "C. DDR3",
+      "D. ECC"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "ECC (Error-Correcting Code) RAM is commonly used in servers to provide error detection and correction, improving reliability in critical systems. It is designed to detect and correct single-bit errors, ensuring data integrity in environments where stability is paramount. Option A (SODIMM): Incorrect. SODIMM is typically used in laptops, not servers. Option B (Rambus): Incorrect. Rambus is an outdated RAM type and not commonly used today. Option C (DDR3): Incorrect. While DDR3 is a type of RAM, it is not specific to servers and does not provide error correction. Reference: CompTIA A+ Core 1 Objectives: 3.2 (RAM types and their uses)​"
+  },
+  {
+    "id": 10,
+    "question": "A user is unable to access secure applications on their tablet when working from home a couple days per week, but the applications work when in the office. Which of the following services most likely needs to be reconfigured to allow for remote work?",
+    "options": [
+      "A. Global Positioning System",
+      "B. Mobile device management",
+      "C. Wi-Fi Protected Access",
+      "D. Near-field communication"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mobile Device Management (MDM)software often controls access to corporate resources based onlocation, network, or VPN status. If the MDM is not configured to allow access from outside the office or via home networks, the apps may be blocked. This is the most probable cause if apps work only on-premises. Option A:GPS is used for location services, not access control. Option C:WPA is a Wi-Fi security protocol, not related to access restrictions. Option D:NFC enables close-range communication irrelevant to app access. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.6: Given a scenario, configure basic mobile device network connectivity and application support."
+  },
+  {
+    "id": 11,
+    "question": "A user wants to print files from an overseas office using a shared network folder. The user's laptop has no public-facing internet connectivity. Which of the following can be used to print from the shared network folder?",
+    "options": [
+      "A. ADF",
+      "B. USB",
+      "C. PCL",
+      "D. SMB"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "SMB (Server Message Block)is a protocol used to access files and printers over a network, including across shared network folders. It enables the user to access and print files stored remotely on a shared directory. Option A (ADF):Automatic Document Feeder hardware, not a network protocol. Option B (USB):Used for direct physical connections, not for printing over networks. Option C (PCL):Printer Command Language relates to printer drivers, not file sharing or access. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.4: Given a scenario, install and configure printers."
+  },
+  {
+    "id": 12,
+    "question": "An SAS RAID array has severely degraded and gone offline A systems administrator examines the syslog, and the point of failure is not obvious. Which of the following techniques should the administrator use to identify the issue (Select two).",
+    "options": [
+      "A. Run a magnet over each drive.",
+      "B. Check if one of the drives is not level",
+      "C. Listen for clicking and grinding noises",
+      "D. Check the OS logs",
+      "E. Update the RAID controller firmware.",
+      "F. Check the historical SMART data"
+    ],
+    "correctAnswers": [
+      2,
+      5
+    ],
+    "correctAnswer": 2,
+    "explanation": "Clicking and grinding noises indicate mechanical drive failure. SMART data provides insights into the health and status of drives, helping identify failing components in the RAID array. Why Not A (Run a magnet): This would damage drives. Why Not B (Check if one drive is not level): Physical leveling is irrelevant. Why Not D (Check OS logs): OS logs may provide limited information for RAID arrays. Why Not E (Update RAID controller firmware): While important, it does not diagnose drive failure. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.3, storage troubleshooting​."
+  },
+  {
+    "id": 13,
+    "question": "A user reports that a software application functioned as expected the previous day, but this morning, the user is unable to launch the application. Which of the following describe what the technician should do next?",
+    "options": [
+      "A. Research the symptoms",
+      "B. Identify any changes the user has made",
+      "C. Determine which steps need to be performed.",
+      "D. Check the vendor's website for guidance."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Identifying changes made to the system is the next step to troubleshoot why an application no longer launches, as recent changes often cause such issues. Why Not A (Research the symptoms): Research is broader and should come after identifying changes. Why Not C (Determine which steps need to be performed): This comes after identifying the issue. Why Not D (Check the vendor's website): This is a later step if further guidance is needed. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 3.1, troubleshooting methodology​."
+  },
+  {
+    "id": 14,
+    "question": "A user's wireless headset shows a \"connected\" status when turned on, but the Bluetooth list on the user's phone shows that the headset is \"not connected.\" Which of the following should the technician do?",
+    "options": [
+      "A. Enter the PIN.",
+      "B. Turn off Wi-Fi.",
+      "C. Re-pair the devices.",
+      "D. Enable Bluetooth."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a device shows asnot connectedeven though it previously paired, the most effective action is tore-pair the devices. This resets the Bluetooth connection, clears any corruption in pairing profiles, and re-establishes communication. Option A:Entering a PIN is only relevant during initial pairing and may not be prompted again. Option B:Turning off Wi-Fi doesn’t typically affect Bluetooth; they operate on similar frequencies but don’t conflict this way in normal use. Option D:If Bluetooth were disabled, the device wouldn’t appear at all, not just show as “not connected.” CompTIA A+ Core 1 Exam Objective Reference: Objective 1.5: Given a scenario, connect and configure accessories and ports of mobile devices."
+  },
+  {
+    "id": 15,
+    "question": "Which of the following connectors can be used to charge most modern mobile devices and may have the capacity to send data audio and video?",
+    "options": [
+      "A. Lightning",
+      "B. USB-C",
+      "C. MicroUSB",
+      "D. MiniUSB"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "B . USB-C: USB-C is a versatile connector that supports charging, high-speed data transfer, and the ability to send audio and video signals (e.g., DisplayPort over USB-C). It is used by most modern mobile devices and laptops because of its fast transfer speeds and power delivery capabilities. Incorrect Options: A . Lightning: Lightning is proprietary to Apple devices and does not natively support video output. C . MicroUSB: MicroUSB is outdated and does not support video output. D . MiniUSB: MiniUSB is an older standard and does not support modern features like video output or fast charging. Key Takeaway: USB-C is the most versatile connector for charging and transferring data, audio, and video. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 3.1 – Cable types and features."
+  },
+  {
+    "id": 16,
+    "question": "Which of the following DNS records would an administrator change to redirect email flow?",
+    "options": [
+      "A. MX",
+      "B. TXT",
+      "C. SPF",
+      "D. CNAME"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "AnMX (Mail Exchange)record defineswhich mail servers are responsible for receiving emailfor a domain. If you want to change or redirect email traffic, theMX recordmust be updated with the correct server information. Option B (TXT):Stores text-based info used for SPF, DKIM, etc. Option C (SPF):Part of email authentication stored in a TXT record; doesn’t redirect traffic. Option D (CNAME):Alias for another domain name not used for email routing. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.4: Compare and contrast common networking hardware. ==========="
+  },
+  {
+    "id": 17,
+    "question": "A technician receives a tablet that looks like it has a bulge inside. The bulge is pushing the screen away from the backplate. The tablet still turns on when it is plugged in, but the screen looks damaged and turns off when unplugged. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Malfunctioning power supply",
+      "B. Damaged charge port",
+      "C. Deprecated battery",
+      "D. Broken screen"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Abulging tablet casingis a classic sign of aswollen lithium-ion battery, often caused by age, overheating, or overcharging. This is adangerous condition, as swollen batteries can rupture or catch fire. It also explains why the tablet only works when plugged in the battery is no longer holding a charge. Option A:Power supply issues wouldn’t cause physical bulging. Option B:A bad charge port wouldn’t cause screen damage or physical distortion. Option D:A broken screen could cause display issues, but not the bulging chassis. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.4: Given a scenario, configure settings and use cases for laptops and mobile devices. ==========="
+  },
+  {
+    "id": 18,
+    "question": "A technician is replacing a failed power supply in a ten-year-old computer When installing the customer-provided power supply, the technician discovers the ATX connector would not plug into the motherboard. The customer wants a cost-effective solution. Which of the following should the technician do next?",
+    "options": [
+      "A. Adjust the input voltage.",
+      "B. Install a modular power supply.",
+      "C. Rebuild the failed power supply.",
+      "D. Use a 20-pin to 24-pin adapter."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Older motherboards use 20-pin connectors, while newer power supplies use 24-pin connectors. An adapter resolves the compatibility issue cost-effectively. Why Not A (Adjust the input voltage): Input voltage adjustment is unrelated to connector compatibility. Why Not B (Install a modular power supply): While modular supplies are versatile, this doesn’t address the connector issue directly. Why Not C (Rebuild the failed power supply): Rebuilding is costly and complex compared to using an adapter. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.4, power supply compatibility​."
+  },
+  {
+    "id": 19,
+    "question": "A technician is troubleshooting a PoE phone that will not turn on. When a laptop is plugged directly into the switchport for the phone the technician sees a data link LED and activity. Which of the following tools should the technician use to verify PoE availability to the phone?",
+    "options": [
+      "A. Network tap",
+      "B. Cable tester",
+      "C. Loopback plug",
+      "D. Toner probe"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reasoning: A cable tester capable of testing Power over Ethernet (PoE) functionality can verify whether the switchport is providing the required power to the phone. This tool measures both the presence of data and the voltage or wattage being provided through the Ethernet cable. This is the most effective way to confirm that PoE is available on the port. Why the Other Options Are Incorrect: A . Network tap: A network tap is primarily used to monitor network traffic, not to test for PoE availability. It cannot verify if power is being supplied through the Ethernet cable. C . Loopback plug: A loopback plug is used to test the functionality of a network port by creating a loop for transmitted and received signals. It does not measure or verify PoE availability. D . Toner probe: A toner probe is used for tracing and identifying network cables. It cannot test for PoE functionality. Practical Example: A PoE phone might not turn on due to a misconfigured or faulty switchport. Using a cable tester capable of measuring PoE would help the technician determine if the switchport is supplying sufficient power to the phone. CompTIA A+ Exam Objective Alignment: Objective 2.1: Identify common networking hardware and tools, including PoE-enabled devices and cable testers."
+  },
+  {
+    "id": 20,
+    "question": "A technician has discovered that some users are connected to a network that is not available on the user interface. Which of the following is the most effective tool the technician can use to identify networks that are not broadcasting SSIDs?",
+    "options": [
+      "A. Cable tester",
+      "B. Toner probe",
+      "C. Wi-Fi analyzer",
+      "D. Loopback plug"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Step-by-Step Wi-Fi Analyzer: A Wi-Fi analyzer is a tool used to detect and analyze wireless networks, even those that are not broadcasting their SSIDs (hidden networks). It provides detailed information about nearby networks, including signal strength, channel usage, and security protocols. In this case, the Wi-Fi analyzer can identify the hidden networks that users are connected to, which are not visible on the standard user interface. Incorrect Options: A . Cable tester: A cable tester is used to test the integrity of physical network cables. It does not detect wireless networks or SSIDs. B . Toner probe: A toner probe is used to trace and identify cables within a wiring system. It is not applicable to wireless network analysis. D . Loopback plug: A loopback plug is used to test the functionality of a network port or NIC. It is unrelated to identifying hidden wireless networks. Key Takeaway: The most effective tool for identifying hidden wireless networks is a Wi-Fi analyzer, as it can detect networks that are not broadcasting their SSIDs. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 2.5 – Explain basic wired and wireless networking concepts, including Wi-Fi tools and protocols."
+  },
+  {
+    "id": 21,
+    "question": "When installing a network printer, a technician needs to ensure the printer is available after a network is restarted. Which of the following should the technician set up on the printer to meet this requirement?",
+    "options": [
+      "A. Static IP address",
+      "B. Private address",
+      "C. Wi-Fi on the printer",
+      "D. Dynamic addressing"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Assigning astatic IP addressto a network printer ensures it always retains the same address, allowing users and print servers to consistently reach it even after a reboot or network refresh. Option B (Private address):Refers to address ranges (e.g., 192.168.x.x) doesn't guarantee address persistence. Option C (Wi-Fi):Is a connection method, not a method of IP assignment. Option D (Dynamic addressing):Via DHCP, which can change over time unless reservations are made (less reliable). CompTIA A+ Core 1 Exam Objective Reference: Objective 3.4: Given a scenario, install and configure printers."
+  },
+  {
+    "id": 22,
+    "question": "A user experiences a random BSOD while using a computer, but the operating system recovers as expected Which of the following symptoms would indicate the issue is related to RAM?",
+    "options": [
+      "A. Wrong BIOS configurations",
+      "B. Continuous reboots",
+      "C. Distended capacitors",
+      "D. POST code beeps"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "D . POST Code Beeps: During the Power-On Self-Test (POST), the BIOS performs checks on system hardware, including RAM. If the RAM is faulty, POST may produce a series of beep codes indicating memory issues. These beep codes are often the first sign of RAM-related problems, especially if the BSOD occurs randomly. Incorrect Options: A . Wrong BIOS configurations: Incorrect BIOS settings may cause boot errors, but they are less likely to cause random BSODs. B . Continuous reboots: Continuous reboots could result from multiple hardware or software issues but do not specifically point to RAM. C . Distended capacitors: Faulty capacitors typically affect the motherboard, not the RAM. Key Takeaway: POST beep codes are a common diagnostic tool for identifying RAM-related issues. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 5.2 – Troubleshooting RAM and motherboard issues."
+  },
+  {
+    "id": 23,
+    "question": "A technician is troubleshooting internet connectivity issues after a firewall update. Users report that they can access local network resources, such as printers and shares, but cannot access the internet. Which of the following settings is most likely causing the issue?",
+    "options": [
+      "A. Static IP assignments",
+      "B. Default gateway",
+      "C. Subnet mask",
+      "D. VLANs"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If users canaccess local network resourcesbut not theinternet, the most likely culprit is amisconfigured or missing default gateway. The default gateway routes traffic from the local network to external networks (i.e., the internet). If it’s not properly set or was altered during a firewall update, internet traffic won’t be forwarded correctly. Option A:Static IPs could cause conflict, but wouldn't affect only external access if configured correctly. Option C:An incorrect subnet mask could isolate devices, but local communication would likely be impacted too. Option D:VLANs segment networks; while misconfigured VLANs could cause access issues, they’d more likely isolate local traffic as well. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.6: Given a scenario, configure and troubleshoot network connectivity."
+  },
+  {
+    "id": 24,
+    "question": "Which of the following cable types is the most suitable for delivering 10Gb speeds for distances over 328ft (100m) but under 1,312ft (400m)?",
+    "options": [
+      "A. Multimode fiber",
+      "B. Single-mode fiber",
+      "C. Cat 6a",
+      "D. Cat 6"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Step-by-Step When delivering 10Gbps speeds over long distances, fiber optic cables are the best choice. Here’s the breakdown: A . Multimode Fiber (Correct Answer): Multimode fiber is designed for relatively short to medium distances (up to 1,312 feet or 400 meters) while supporting high-speed data transfer (10Gbps and above). It uses LED light sources and is cost-effective for environments like data centers or within buildings. For the specified distance of over 328ft but under 1,312ft, multimode fiber is the most suitable option. Incorrect Options: B . Single-mode Fiber: While single-mode fiber supports much greater distances (up to several miles or kilometers) and higher speeds, it is more expensive and unnecessary for the specified range. Single-mode fiber is generally used for long-haul networking or telecommunications. C . Cat 6a: Cat 6a is capable of 10Gbps speeds but only up to 328ft (100 meters). It cannot reliably handle the specified distance of over 328ft. D . Cat 6: Cat 6 is also limited to 10Gbps speeds at distances up to 328ft (100 meters). Beyond this range, it is unsuitable. Key Takeaway: For delivering 10Gbps speeds over distances longer than 328ft (100m) but under 1,312ft (400m), Multimode Fiber is the best choice due to its ability to support high-speed data over medium distances at a reasonable cost. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 3.1 – Cable types and their characteristics, including fiber optic cables."
+  },
+  {
+    "id": 25,
+    "question": "A technician is troubleshooting a desktop PC that is plugged into a UPS. The PC loses the system date/time after every power outage. Which of the following should the technician do to resolve the issue? (Select two).",
+    "options": [
+      "A. Run a BIOS update.",
+      "B. Swap out the RAM.",
+      "C. Disable NTP in the OS.",
+      "D. Repair the backup power source.",
+      "E. Replace the CMOS battery",
+      "F. Install a surge protector."
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": "The system date/time is maintained by the CMOS battery when the PC is powered off. If this battery fails, time resets will occur. Additionally, since the system is connected to a UPS, ensuring the UPS is functioning correctly (i.e., the backup power source) is essential. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 1, page 40​."
+  },
+  {
+    "id": 26,
+    "question": "A technician receives a S.M.A.R.T. error on a PC. When the technician presses the Esc key, the PC continues to turn on without any further issues. Which of the following should the technician do next?",
+    "options": [
+      "A. Replace the HDD.",
+      "B. Update the PC's BIOS.",
+      "C. Close the ticket.",
+      "D. Change the NIC."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Step-by-Step S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology): S.M.A.R.T. is a monitoring system integrated into modern HDDs and SSDs that detects and reports on various indicators of drive health and reliability. A S.M.A.R.T. error indicates that the drive is showing signs of impending failure, even if the PC continues to boot and work normally for the time being. Next Steps: The appropriate action is to replace the hard drive (HDD) because a S.M.A.R.T. error is an early warning of possible hardware failure. Ignoring the warning could result in data loss if the drive fails completely. The technician should also back up the user's data immediately to avoid losing critical information. Incorrect Options: B . Update the PC's BIOS: While keeping the BIOS updated is a good practice, it does not address the S .M.A.R.T. error, which is specific to the HDD. C . Close the ticket: Closing the ticket without resolving the issue would be improper, as the S.M.A.R.T. error is a hardware problem that needs to be addressed to prevent future data loss or downtime. D . Change the NIC: The NIC (Network Interface Card) is unrelated to the storage system and would not resolve a S.M.A.R.T. error. Key Takeaway: A S.M.A.R.T. error is a critical indicator of HDD health issues, and the drive should be replaced as soon as possible. Backing up data is also essential. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 5.1 – Troubleshooting hard drives and RAID arrays."
+  },
+  {
+    "id": 27,
+    "question": "A company deploys server machines in a public cloud. Which of the following cloud service models is this an example of?",
+    "options": [
+      "A. Platform as a service",
+      "B. Anything as a service",
+      "C. Infrastructure as a service",
+      "D. Software as a service"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Infrastructure as a Service (IaaS) provides virtualized computing resources over the internet. This includes virtual servers, storage, and networking. Deploying server machines falls under IaaS since the organization is responsible for managing the OS and applications on top of the infrastructure. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 8, \"Virtualization and Cloud Computing\", page 488-490. Also found in the220-1201objectives, section 4.1."
+  },
+  {
+    "id": 28,
+    "question": "Which of the following drive interfaces is typically used in server systems but not in home computers?",
+    "options": [
+      "A. NVMe",
+      "B. SAS",
+      "C. SATA",
+      "D. PCIe"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "SAS (Serial Attached SCSI) is a high-performance drive interface commonly found in enterprise environments and servers due to its reliability and speed. While SATA is more common in consumer systems, SAS is specifically designed for mission-critical applications, offering features like full-duplex operation and compatibility with SATA drives. Reference: \"CompTIA A+ Certification All-in-One Exam Guide\" by Mike Meyers – Chapter 8, \"Mass Storage Technologies\", page 288​."
+  },
+  {
+    "id": 29,
+    "question": "A technician is installing a new high-end graphics card that uses a 12VHPWR connector. Which of the following is the maximum wattage supported by this power connector?",
+    "options": [
+      "A. 400W",
+      "B. MOW",
+      "C. 600W",
+      "D. 700W"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 12VHPWR connector can supply up to 600 watts of power, designed for high-end graphics cards. Why Not A (400W): This is less than the connector’s maximum capability. Why Not B (MOW): This is an invalid option. Why Not D (700W): The maximum supported power is 600W. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.4, power supply and connectors​."
+  },
+  {
+    "id": 30,
+    "question": "Which of the following tools would a technician use to connect wires to an RJ45 connector?",
+    "options": [
+      "A. Crimper",
+      "B. Cable stripper",
+      "C. Punchdown",
+      "D. Loopback plug"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A crimper is specifically used to attach RJ45 connectors to the ends of network cables. It pressesthe connector pins into the cable's wires, establishing a secure electrical connection. A punchdown tool is used for wiring patch panels or keystone jacks, not for attaching connectors. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 3, \"Cables and Connectors\", page 162. Also outlined in the220-1201objectives under 3.1."
+  }
+]

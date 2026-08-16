@@ -1,0 +1,465 @@
+[
+  {
+    "id": 241,
+    "question": "An administrator is configuring a SOHO network. The network scope requires static IP addresses for printers. Which of the following must the administrator set manually? (Select two.)",
+    "options": [
+      "A. DHCP",
+      "B. Subnet mask",
+      "C. Default gateway",
+      "D. DNS",
+      "E. Reservations",
+      "F. Exclusions"
+    ],
+    "correctAnswers": [
+      1,
+      2
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) When assigning a static IP address to a network device such as a printer, the administrator must manually enter all information that a DHCP server would normally provide automatically. CompTIA A+ networking fundamentals explain that a statically assigned host requires: IP address (set manually) Subnet mask (must be manually configured to define the network boundary) Default gateway (must be manually assigned so the device can communicate outside its subnet) DNS (also typically required, but in SOHO printer configs, it is not always mandatory unless name resolution is needed) The question asks specifically: Which must be set manually? The two required components for every static IP assignment in a CompTIA-compliant small office network are: ✔ B. Subnet mask Defines the network and host portions of the IP address. Must be manually entered for static IPs. ✔ C. Default gateway Allows communication outside the local network. Must also be manually set for static IP devices. Why the other options are incorrect A . DHCP Not used in static addressing. DHCP is automatic; static addressing bypasses it. D . DNS Not always required for printers unless hostname resolution is needed. The question asks for what must be set manually. E . Reservations DHCP reservations create “static-like” addresses via DHCP, not manual configuration. F . Exclusions Used to prevent DHCP from assigning certain IPs; not part of configuring a static IP on a device."
+  },
+  {
+    "id": 242,
+    "question": "Which of the following characteristics differentiates DDR4 RAM from DDR3 RAM?",
+    "options": [
+      "A. Lower operating voltage",
+      "B. Higher latency",
+      "C. Increased DIMM width",
+      "D. Single-sided modules"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) CompTIA A+ Core 1 memory standards describe the differences between DDR generations. One of the key improvements in DDR4 over DDR3 is reduced operating voltage, which allows lower power consumption and increased efficiency. DDR3 operates at 1.5V (some variants 1.35V) DDR4 operates at 1.2V (some variants 1.05V LPDDR4) This lower voltage is a recognized defining characteristic separating DDR4 from DDR3. Other differences such as increased speed and internal bank structure exist, but the question specifically asks for the characteristic that differentiates DDR4 from DDR3 — and voltage is the correct, primary distinction used in CompTIA A+ materials. Why the other options are incorrect B . Higher latency DDR4 generally has slightly higher CAS latency numbers, but due to increased speed, real latency is similar. This is not the standard differentiator referenced by CompTIA. C . Increased DIMM width DDR3 and DDR4 standard DIMMs both have a 64-bit data width. D . Single-sided modules Both DDR3 and DDR4 can be single- or double-sided; not a differentiating factor. Final Answe r: A"
+  },
+  {
+    "id": 243,
+    "question": "A company is separating its accounting department's network from its customer service department's network. Which of the following will accomplish this task?",
+    "options": [
+      "A. VPN",
+      "B. DNS",
+      "C. VLAN",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) CompTIA networking fundamentals describe VLANs (Virtual Local Area Networks) as a method to segment network traffic logically, even while using the same physical switch hardware. A VLAN allows a company to: Separate traffic by department Improve security Reduce broadcast domains Control inter-department access To separate accounting and customer service networks, VLANs are the industry-standard and the CompTIA-approved method. Why the other options are incorrect A . VPN – Used for secure remote connections, not internal LAN segmentation. B . DNS – Resolves hostnames to IPs, not used for network separation. D . DHCP – Assigns IP addresses; does not isolate network groups. Final Answe r: C"
+  },
+  {
+    "id": 244,
+    "question": "The Chief Information Security Officer asks a technician to inventory desktop PCs to determine which ones meet the requirements for Secure Boot. The technician must also configure the PCs for non- user-controllable keys. Which of the following are necessary to meet the enhanced security requirements? (Select two).",
+    "options": [
+      "A. VDI",
+      "B. BIOS password",
+      "C. TPM",
+      "D. UEFI",
+      "E. Disabled boot drive",
+      "F. USB permissions"
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) To run Secure Boot, the system must have: ✔ UEFI firmware (not legacy BIOS) Secure Boot is a UEFI feature that validates bootloaders using digitally signed keys stored in secure firmware. ✔ TPM (Trusted Platform Module) The TPM stores cryptographic keys in tamper-resistant hardware, enabling secure key management that cannot be altered by normal users. CompTIA materials describe TPM as essential for enhanced platform security and for storing validated boot keys when Secure Boot is enabled. Together, UEFI + TPM provide: Verified boot loader Hardware-level key protection Prevention of unauthorized OS tampering Non-user-controllable secure key storage Why the other options are incorrect A . VDI – Virtual desktops; unrelated to Secure Boot hardware requirements. B . BIOS password – Helps protect firmware settings but is not required for Secure Boot. E . Disabled boot drive – Irrelevant to Secure Boot. F . USB permissions – Not part of Secure Boot requirements. Final Answe r: C, D"
+  },
+  {
+    "id": 245,
+    "question": "Which of the following is an advantage of using the 2.4 GHz wireless frequency?",
+    "options": [
+      "A. Communication between devices without external power",
+      "B. Security for connections in close proximity",
+      "C. Minimized structural interference",
+      "D. Increased channel options"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) The CompTIA A+ wireless networking section describes key differences between 2.4 GHz and 5 GHz Wi-Fi frequencies. 2.4 GHz provides: Better range Better wall penetration Better performance through structures and obstacles This means less interference from physical structures, which is the primary advantage of 2.4 GHz over 5 GHz. This maps directly to: ✔ C. Minimized structural interference Why the other options are incorrect A . Communication without external power Not related to Wi-Fi frequencies. B . Security for close-proximity connections No Wi-Fi frequency provides inherent security advantages. D . Increased channel options 5 GHz has more channels, not 2.4 GHz."
+  },
+  {
+    "id": 246,
+    "question": "Which of the following services are typically provided by a networked host to facilitate file sharing across different OSs? (Select two).",
+    "options": [
+      "A. NTP",
+      "B. SMB",
+      "C. IMAP",
+      "D. FTP",
+      "E. ROP",
+      "F. LDAP"
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation To enable file sharing across different operating systems, CompTIA A+ emphasizes the use of: ✔ SMB (Server Message Block) The primary file-sharing protocol used by Windows. Also supported on macOS and Linux (via Samba). Allows shared folders, printers, and network browsing. ✔ FTP (File Transfer Protocol) A cross-platform file transfer service supported by all major OSs. Commonly used to upload/download files between systems of different types. These two protocols are explicitly listed in CompTIA objectives under network protocols and file services. Why the other options are incorrect A . NTP – Time synchronization, not file sharing. C . IMAP – Email protocol, not related to file sharing. E . ROP – Not a file-sharing protocol (Return-Oriented Programming = security exploit). F . LDAP – Directory service for authentication, not file sharing. Final Answe r: B, D Explanation:"
+  },
+  {
+    "id": 247,
+    "question": "A user reports that they cannot get their laptop to work with a video projector connected with an HDMI cable. The projector is turned on. The HDMI cable is securely connected on both ends, and the laptop displays properly on its own screen. The display mode is set to \"Duplicate\" on the laptop. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. The projector does not support HDMI connections.",
+      "B. The laptop display mode should be set to “Extend”.",
+      "C. An HDMI port on the projector failed.",
+      "D. The input source is incorrect on the projector."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation CompTIA troubleshooting procedures emphasize confirming input source settings on the external display device. Even if the HDMI cable is connected properly: The projector must be set to the correct input source (HDMI 1, HDMI 2, etc.). If the source is incorrect, the laptop will not display, even though the laptop output is functioning normally. Since the projector is powered on, and the laptop is already set to “Duplicate,” and cables are good, the most likely cause is: ✔ The projector is set to the wrong input source. This is a common real-world issue covered under \"video and projector troubleshooting.\" Why the other answers are incorrect A . Projector may support HDMI; this is not the “most likely.” B . “Extend” is not required — “Duplicate” works for projectors. C . A failed HDMI port is possible but not the most likely scenario. Final Answe r: D Explanation:"
+  },
+  {
+    "id": 248,
+    "question": "A user's laptop keyboard is distorted and is no longer flat. Which of the following components most likely failed?",
+    "options": [
+      "A. Battery",
+      "B. RAM",
+      "C. Keyboard",
+      "D. HDD"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation CompTIA A+ describes swollen or warped laptop chassis components as a classic symptom of a failing or swollen lithium-ion battery. A swollen battery can: Warp the keyboard Push the bottom panel outward Bend or distort the laptop frame This is a safety hazard and requires immediate replacement. Why the other answers are incorrect B . RAM – Cannot cause physical warping. C . Keyboard – May fail electronically, but does not physically deform itself. D . HDD – Located away from the keyboard and cannot distort the chassis. Final Answe r: A"
+  },
+  {
+    "id": 249,
+    "question": "A consultant is assessing the wireless configurations for a small office. The existing equipment uses WEP encryption and operates on the default channel. The office is in a crowded urban area with many nearby networks. Which of the following is the best way to improve the wireless network performance?",
+    "options": [
+      "A. Replacing the access point",
+      "B. Disabling SSID broadcasting",
+      "C. Enabling MAC address filtering",
+      "D. Updating the firmware"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation The wireless environment is crowded, and the office is using: WEP encryption → obsolete, insecure, and supported only by outdated hardware Default channel → likely causes interference in a busy area CompTIA A+ emphasizes: WEP should be replaced with WPA2 or WPA3 Older APs that only support WEP cannot simply be updated Newer APs also allow dual-band / multiple channels to avoid interference Therefore, the best solution is: ✔ Replace the access point with a modern WPA2/WPA3-capable AP that supports improved channel selection. Why the other options are incorrect B . Disabling SSID broadcast – Does nothing for performance or security. C . MAC filtering – Ineffective for performance and easily bypassed. D . Updating firmware – Cannot upgrade WEP hardware to WPA2/3 if hardware limitations exist. Final Answe r: A"
+  },
+  {
+    "id": 250,
+    "question": "A customer is using port 110 for email. However, the customer wants to upgrade to a more secure connection that automatically synchronizes with the server. Which of the following should the customer use?",
+    "options": [
+      "A. IMAP",
+      "B. HTTPS",
+      "C. SMTP",
+      "D. SFTP"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Port 110 is used by POP3, a protocol designed for downloading emails from a remote server to a local client. POP3 does not inherently synchronize changes (such as read status, folder organization, or deletions) between devices. The customer wants a more secure connection that automatically synchronizes with the server, which directly aligns with the functions of IMAP (Internet Message Access Protocol). IMAP typically uses port 143 for unencrypted connections and 993 for secure, encrypted connections (IMAPS). It is designed for modern email usage—supporting multi-device access, live synchronization across clients, and server-stored mail. When a user reads, deletes, or moves an email using IMAP, these changes are reflected on the server and visible on every device logged into the same account. CompTIA A+ emphasizes that IMAP is preferred for users requiring constant synchronization, mobile access, and cloud-based email management, while POP3 is considered outdated. IMAP also supports secure, encrypted communication when paired with SSL/TLS. HTTPS and SFTP do not handle email retrieval, and SMTP is a sending protocol, not a retrieval protocol. Therefore, IMAP is the only correct and CompTIA-aligned upgrade option."
+  },
+  {
+    "id": 251,
+    "question": "A technician must install a printer at a corporate office for all employees to use. Which of the following is the best option?",
+    "options": [
+      "A. Print server",
+      "B. Bluetooth printing",
+      "C. Cloud printing",
+      "D. Wi-Fi Direct"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "In a corporate office environment where multiple employees must share a single printer, the most efficient and manageable solution is a print server. A print server centralizes print management, queues print jobs, handles driver distribution, and provides access control. CompTIA A+ highlights print servers as the enterprise-standard method for managing shared printing resources because they ensure reliability, scalability, and better network performance. Bluetooth printing and Wi-Fi Direct are short-range, peer-to-peer technologies meant for one-to-one or small-scale printing. They lack user authentication management, enterprise security controls, and cannot efficiently support dozens or hundreds of print requests simultaneously. Cloud printing requires internet reliance and external service routing, which introduces latency, potential downtime, and privacy concerns—often unsuitable for corporate networks, especially those with sensitive internal documents. A print server allows users to connect to the printer through a standard network infrastructure (wired or wireless), and technicians can configure permissions, monitor print loads, and troubleshoot from a central location. It integrates seamlessly with enterprise directory services such as Active Directory, enabling controlled access and auditing. Because of these capabilities, the print server is the best professional-grade solution for corporate-wide printing needs."
+  },
+  {
+    "id": 252,
+    "question": "Which of the following cable types must be used when running copper network cable through a suspended ceiling that is used for air ventilation?",
+    "options": [
+      "A. Plenum",
+      "B. Multimode",
+      "C. Coaxial",
+      "D. Twisted pair"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When installing copper network cable in spaces that serve as air-handling plenums, safety regulations require the use of plenum-rated cable. Suspended ceilings used for ventilation fall into this category. CompTIA A+ emphasizes that plenum spaces require cable with low-smoke, fire- resistant insulation made from specialized materials that limit toxic emissions during combustion. Plenum-rated cabling (CMP) is designed to meet strict fire codes such as NFPA 70 (National Electrical Code). It prevents smoke-filled ventilation pathways, which could rapidly spread fire or toxic fumes throughout a building. Standard PVC-jacketed twisted pair cables are not permitted in plenum spaces because they produce thick, toxic smoke when burned. Multimode cable refers to fiber optics, not copper cabling. Coaxial cable is used for broadband and certain RF applications but does not inherently meet plenum safety requirements unless specifically plenum-rated. Twisted pair describes the cable’s internal structure (Cat5e, Cat6, etc.), but it does not indicate the type of jacket. Only plenum-rated twisted pair is acceptable. Therefore, the correct answer is Plenum, as it ensures compliance with safety standards and building codes, prevents hazardous conditions, and aligns with CompTIA best practices for structured cabling installations."
+  },
+  {
+    "id": 253,
+    "question": "Which of the following DNS records displays the destination of incoming email on a domain?",
+    "options": [
+      "A. CNAME",
+      "B. TXT",
+      "C. MX",
+      "D. AAAA"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "DNS contains different record types that serve specific purposes. To determine where incoming email should be delivered for a particular domain, DNS uses an MX (Mail Exchange) record. CompTIA A+ identifies MX records as essential for routing mail from external senders to the appropriate mail server assigned to a domain. The MX record specifies: The mail server hostname responsible for receiving messages Priority values, which determine which server to try first The server destination for SMTP traffic When someone sends an email, the sending mail server queries DNS to find the MX record for the recipient’s domain. The SMTP server then relays the email to the server listed in that record. CNAME is used for aliasing hostnames, TXT is used for verification/security (SPF, DKIM), and AAAA maps a hostname to an IPv6 address. None of these direct email delivery. Only MX records are designed to instruct mail servers where to deliver incoming email. Thus, the correct answer is MX."
+  },
+  {
+    "id": 254,
+    "question": "A technician upgrades a CPU heat sink with a higher-performing model. While stress testing the computer, the technician finds that the CPU temperatures have drastically increased. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. Decreased CPU voltage",
+      "B. Higher fan RPM",
+      "C. Airflow interruption",
+      "D. Missing thermal paste"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Whenever a CPU heat sink is removed or replaced, thermal paste must be reapplied. Thermal paste fills microscopic gaps between the CPU heat spreader and the heat sink, ensuring efficient heat transfer. Without it, there is a significant air gap, which acts as an insulator, causing CPU temperatures to rise dramatically even under light load. CompTIA A+ stresses thermal compound application as a key step in CPU cooling installation. The scenario indicates that temperatures increased drastically after upgrading to a better heat sink. A higher-performing heat sink should improve temperatures, not worsen them—unless a critical installation step was missed. Missing thermal paste is the most common cause of this symptom and easily explains the sudden overheating. Decreased CPU voltage would lower temperatures, not raise them. Higher fan RPM increases cooling efficiency, not reduces it. Airflow interruption is possible but less likely in a simple heat sink upgrade scenario unless the technician installed the CPU cooler incorrectly; however, the most direct and common cause described by CompTIA is missing thermal paste. Thus, D is the correct answer."
+  },
+  {
+    "id": 255,
+    "question": "A technician needs to replace a laptop's display assembly. Which of the following should the technician do to complete this task?",
+    "options": [
+      "A. Reattach the heat sinks.",
+      "B. Reconnect the wireless antennas.",
+      "C. Install a new CPU fan.",
+      "D. Reset the BIOS to default settings."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Laptop display assemblies typically include not only the LCD panel but also the webcam, microphone, display cable, and critically, the Wi-Fi antennas. In most laptops, Wi-Fi antennas are built into the display bezel, because the elevated position allows for stronger wireless signal reception. When replacing the entire display assembly, the antennas must be carefully disconnected and reconnected during reinstallation. CompTIA A+ emphasizes proper cable routing and antenna reattachment as essential steps in laptop hardware disassembly and reassembly. Failing to reconnect these antennas results in weak or nonfunctional wireless connectivity, even though the display replacement itself may be successful. Heat sinks and CPU fans are located on the motherboard and are unrelated to display assembly replacement. Resetting BIOS settings is unnecessary unless troubleshooting firmware-related issues, not replacing hardware components like a display. Therefore, the only action that aligns with standard laptop design and CompTIA A+ procedures is ensuring that the wireless antennas are reconnected. Thus, the correct answer is B."
+  },
+  {
+    "id": 256,
+    "question": "Which of the following best describes a Type 2 hypervisor?",
+    "options": [
+      "A. It works as a firewall to control network traffic.",
+      "B. It interacts directly with the underlying hardware.",
+      "C. It runs on a host operating system.",
+      "D. It brings higher CPU capabilities to virtual machines."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ divides hypervisors into two main categories: Type 1 (bare-metal) and Type 2 (hosted). A Type 2 hypervisor runs on top of an existing host operating system such as Windows, macOS, or Linux. It relies on the host OS for device drivers, hardware interaction, and resource management. Examples include VMware Workstation, Oracle VirtualBox, and Parallels Desktop. Type 2 hypervisors are ideal for lab environments, testing, learning, and small-scale virtualization because they do not require dedicated hardware or direct hardware control. The host OS loads first, and the hypervisor runs as an application, allowing users to create and manage virtual machines from within the OS environment. Option B describes a Type 1 hypervisor, which installs directly on hardware without a host OS. Option A is unrelated, as firewalls are separate from virtualization technology. Option D is incorrect because hypervisors do not inherently increase CPU capabilities; they merely allocate existing hardware resources to virtual machines. Thus, the correct and CompTIA-aligned description of a Type 2 hypervisor is that it runs on a host operating system."
+  },
+  {
+    "id": 257,
+    "question": "An employee requires a workstation with three high-end graphics cards to render 3-D models. A technician must choose a power supply that meets the power requirements for the components and takes into consideration the mission-critical nature of the work. Which of the following meet the requirements? (Select two).",
+    "options": [
+      "A. 12V output",
+      "B. Modularity",
+      "C. 20-pin motherboard connector",
+      "D. Redundancy",
+      "E. 3.3V output",
+      "F. 240 VAC input"
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "A workstation running three high-end GPUs requires a power supply capable of both high wattage and stable, reliable output. In CompTIA A+ power supply fundamentals, modularity and redundancy are emphasized for high-performance and mission-critical systems. Modularity (B) allows the technician to connect only the necessary cables, reducing clutter, improving airflow, and enabling proper cable routing to multiple GPUs. High-end graphics cards require multiple PCIe connectors, and modular PSUs provide the flexibility to attach the exact number of required GPU power cables. This is important for systems where space management and cooling efficiency directly affect performance and component longevity. Redundancy (D) is critical for mission-critical workstations used for 3-D modeling and rendering. A redundant power supply ensures that if one PSU module fails, the system continues running without interruption. CompTIA A+ highlights redundancy as a key feature in professional environments where uptime is essential. These systems typically use dual hot-swappable power modules to guarantee continuous power delivery. The other options do not meaningfully address the requirements. A 12V output is standard on all PSUs. A 20-pin connector is outdated; modern motherboards use 24-pin. The 3.3V rail is not relevant to GPU loads, and 240 VAC input only refers to wall power compatibility, not PSU capability. Therefore, modularity and redundancy best meet the workstation’s needs."
+  },
+  {
+    "id": 258,
+    "question": "A shared printer experiences an outage when users submit numerous print jobs at the same time. Which of the following will an engineer most likely do after verifying network connectivity?",
+    "options": [
+      "A. Reboot the server.",
+      "B. Reinstall the printer drivers.",
+      "C. Reset the printer to factory settings.",
+      "D. Restart the spooler service."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "In networked print environments, print jobs are processed through a system service called the print spooler. CompTIA A+ stresses that when shared printers fail due to job overload, the problem often lies with a hung or overloaded spooler service, especially when multiple jobs are sent simultaneously. The spooler queues, organizes, and processes print jobs; if it becomes overwhelmed or corrupted, printing stops completely even though the network and printer hardware remain functional. After verifying network connectivity—as the question states— the next logical and CompTIA-aligned troubleshooting step is to restart the spooler service (D). Restarting it clears stuck or corrupt jobs, reinitializes print processing, and restores functionality without requiring a full server reboot or reinstallation of drivers. Rebooting the server (A) may work but is unnecessarily disruptive and affects multiple services. Reinstalling printer drivers (B) is only warranted for driver corruption issues and is not the first step for spooler congestion. Resetting the printer to factory defaults (C) erases settings and is far too drastic for a simple print queue issue. Therefore, the most efficient and technically correct action is restarting the print spooler service, restoring printing immediately while maintaining normal server operations."
+  },
+  {
+    "id": 259,
+    "question": "Which of the following tools will a technician most likely use to identify an unlabeled network connection?",
+    "options": [
+      "A. Network tap",
+      "B. Loopback plug",
+      "C. Cable tester",
+      "D. Toner probe"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "To locate or identify an unlabeled network connection, the tool most suited for tracing cables through walls, ceilings, or patch panels is a toner probe (also called a tone generator and probe kit). CompTIA A+ describes this tool as essential for cable identification: the technician attaches the tone generator to one end of the network cable, and the probe detects the signal on the other end, even across long distances or through bundled wiring. This makes the toner probe ideal for environments where cables are unlabeled, routed through structured cabling systems, or mixed with other wires. It allows the technician to listen for the distinctive tone, confirming the cable’s termination point. A cable tester (C) verifies wiring integrity and pinouts but cannot trace a cable through physical pathways. It is used after identification, not during it. A loopback plug (B) is used for port testing and NIC diagnostics, not cable tracing. A network tap (A) is used for traffic monitoring, security analysis, and packet capture; it does not help locate cables. Therefore, the toner probe is the correct tool for identifying and tracing an unlabeled network cable, aligning with CompTIA’s recommended cable management and troubleshooting procedures."
+  },
+  {
+    "id": 260,
+    "question": "A computer training institute needs to implement multiple VLANs that must: • Connect to each other with minimum hardware • Communicate traffic at wire speed Which of the following is the most suitable?",
+    "options": [
+      "A. Web application firewall",
+      "B. DDoS appliance",
+      "C. Layer 3 switch",
+      "D. Router"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Layer 3 switch is the optimal solution when multiple VLANs must intercommunicate while maintaining high performance and minimal hardware complexity. CompTIA A+ explains that Layer 3 switches combine the capabilities of switching (Layer 2) and routing (Layer 3), allowing VLAN traffic to be routed internally at wire speed, without the latency typically associated with traditional routers. Layer 3 switches use hardware-based routing, meaning they forward inter-VLAN traffic using ASICs (Application-Specific Integrated Circuits). This allows them to achieve extremely fast throughput, ideal for environments like computer training institutes where multiple VLANs may be used for student labs, instructor networks, and administrative traffic. A router (D) can route between VLANs but introduces more latency due to software-based routing and typically requires additional equipment. A Web application firewall (A) and DDoS appliance (B) are security devices unrelated to internal VLAN communication. Because the institute requires minimal hardware and high-speed inter-VLAN communication, the Layer 3 switch is the only CompTIA-supported device that meets both requirements simultaneously."
+  },
+  {
+    "id": 261,
+    "question": "A technician has built a new computer. On the initial startup, the computer passes POST but will not turn on the operating system. Which of the following components has failed?",
+    "options": [
+      "A. Audio card",
+      "B. CPU",
+      "C. Power supply",
+      "D. HDD"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "When a newly built computer successfully passes POST, it indicates that the CPU, RAM, motherboard, video output, and other essential components are functioning at a hardware level. POST will typically fail or display error codes if there are problems with the CPU, RAM, GPU, or power delivery. Therefore, the fact that POST succeeds allows us to eliminate those components from suspicion. The issue arises after POST, when the system attempts to load an operating system. For the OS to load, the BIOS/UEFI must detect a working storage device—such as an HDD, SSD, or NVMe drive— containing a bootable OS. If the computer cannot locate or read the drive, the system will halt at a boot error, such as “No boot device found,” “Insert boot media,” or similar messages. This is consistent with a failed or improperly connected HDD. A failed HDD prevents access to boot files, even though the rest of the system hardware functions normally. Audio cards are irrelevant to booting. A failed CPU would cause a POST failure, not an OS loading issue. A faulty power supply would affect system stability during POST, not specifically OS boot failure unless the system is not powering at all. Thus, the failed component is the HDD."
+  },
+  {
+    "id": 262,
+    "question": "A user's smartphone frequently disconnects from Wi-Fi networks, particularly in crowded areas like airports and coffee shops. The user also notices that their device shows a lower Wi-Fi signal strength compared to other devices in the same location. Which of the following is likely contributing to the smartphone's Wi-Fi connectivity issues?",
+    "options": [
+      "A. The smartphone's antenna may be malfunctioning.",
+      "B. The smartphone may have an outdated Wi-Fi standard.",
+      "C. The smartphone may be experiencing interference from nearby devices.",
+      "D. The smartphone's power settings may be affecting performance."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The symptoms clearly point to a hardware-level signal degradation issue, which is most commonly caused by a malfunctioning or damaged Wi-Fi antenna in the smartphone. CompTIA A+ mobile device troubleshooting emphasizes comparing the affected device's signal strength with other nearby devices. In this case, other devices in the same location have stronger Wi-Fi signals, meaning the network itself is functioning normally. The consistent low signal across multiple networks strongly suggests antenna failure. Modern smartphones use internal antenna assemblies located along the frame or behind the back cover. If the antenna becomes loose, damaged, or obstructed, the device may show weak or unstable Wi-Fi connectivity, especially in crowded environments where strong, stable reception is required to maintain a connection. Option B (outdated Wi-Fi standard) would limit speed but not cause significant signal weakness compared to surrounding devices. Option C (interference) affects all devices in an area similarly—not just one device. Option D (power settings) may reduce background activity or scanning frequency, but it does not cause consistently low signal strength. Therefore, the most likely cause is a malfunctioning Wi-Fi antenna inside the smartphone."
+  },
+  {
+    "id": 263,
+    "question": "A drive for a RAID 1 array fails. Users are concerned that information could be lost. Which of the following is the best way to manage the situation?",
+    "options": [
+      "A. Repairing and reinstalling the defective disk to recover any files",
+      "B. Discarding the defective disk without further action",
+      "C. Replacing the defective disk and syncing the new one so that all files are retained",
+      "D. Finding the latest backup of the legacy server and restoring it to transfer the files"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A RAID 1 array uses disk mirroring, meaning all data is written identically to two drives. When one drive fails, the other contains a complete, current copy of the data. CompTIA A+ emphasizes that RAID 1 is designed for fault tolerance, allowing continued operation even after a disk failure. The correct action is to replace the defective drive and allow the RAID controller to rebuild (sync) the mirror onto the new disk. This restores redundancy and ensures ongoing data protection. The system can typically continue running during the rebuild process. Option A is incorrect because attempting to repair a failed drive is unreliable and unnecessary—RAID 1 already provides a healthy copy. Option B ignores the importance of restoring redundancy, leaving the system vulnerable to data loss if the remaining drive fails. Option D (restore from backup) is unnecessary because RAID 1 already preserves the data. Therefore, the best solution is to install a new drive and resynchronize the array, preserving all data with minimal disruption."
+  },
+  {
+    "id": 264,
+    "question": "Which of the following connection methods allows a mobile device to share an LTE connection with other nearby devices?",
+    "options": [
+      "A. Bluetooth",
+      "B. NFC",
+      "C. Cellular",
+      "D. Hotspot"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mobile devices can share their LTE or cellular data connection using a feature called tethering, more commonly known as hotspot mode. According to CompTIA A+ objectives on mobile networking technologies, a hotspot allows a smartphone or tablet to become a mini wireless router, broadcasting a Wi-Fi signal that nearby devices can connect to. The LTE (or 5G) connection is then shared over Wi-Fi, enabling laptops, tablets, or other phones to access the internet through the mobile device. Bluetooth is capable of tethering but provides much lower bandwidth and slower speeds—not ideal for sharing LTE widely. NFC is used for close-range data exchange or payment transactions and cannot share internet service. \"Cellular\" refers to the phone’s own mobile network connection, not the mechanism for sharing it with others. Hotspot functionality is specifically built into modern mobile OSs and supports WPA2/3 encryption, password protection, and device whitelisting. This makes it the most common and efficient method to share LTE connectivity with multiple nearby devices. Thus, Hotspot (D) is the correct answer."
+  },
+  {
+    "id": 265,
+    "question": "Which of the following should a technician create to assign a permanent IP address to a PC using DHCP?",
+    "options": [
+      "A. Reservation",
+      "B. Lease",
+      "C. Exclusion",
+      "D. Scope option"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP normally assigns IP addresses dynamically using timed leases, meaning the address may change after expiration. However, many devices—such as servers, printers, or specialized workstations—require permanent, predictable IP addresses. CompTIA A+ identifies a DHCP reservation as the correct method for assigning a consistent IP while still using DHCP. A reservation binds a device’s MAC address to a specific IP address in the DHCP server. Each time the device requests an address, the DHCP server recognizes the MAC address and issues the same IP. This provides reliability while still allowing centralized management of network addressing. A lease is temporary and not permanent. An exclusion simply removes certain IP addresses from the assignable pool—it does not assign any device a fixed address. A scope option configures additional network parameters such as DNS, gateway, or WINS settings but does not assign static IPs. Therefore, a reservation is the correct method to permanently assign an IP address using DHCP without requiring static configuration on the device itself."
+  },
+  {
+    "id": 266,
+    "question": "A small business is growing and wants to scale its computing capacity. The business wants to continue using on-site equipment until it is EOL. The solution must be able to share data with the local data center. Which of the following models should a technician suggest?",
+    "options": [
+      "A. Public",
+      "B. Community",
+      "C. Hybrid",
+      "D. Private",
+      "E. SaaS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The requirements describe an environment transitioning gradually from on-site hardware to scalable cloud services. The business wishes to continue using its existing local equipment until end of life, while also expanding computing resources beyond what the on-premises infrastructure can handle. Additionally, the cloud environment must be able to share data with the internal data center. This aligns perfectly with a hybrid cloud model, which CompTIA A+ defines as a combination of private (on-premises) and public cloud resources operating together. Hybrid cloud enables secure data sharing, workload distribution, and scaling without eliminating existing hardware investments. It allows organizations to offload high-demand processes to the cloud while maintaining sensitive data or critical services on-site. A private cloud (D) would not allow scaling into a public provider efficiently. A public cloud (A) replaces internal resources instead of complementing them. A community cloud (B) is shared among organizations with similar compliance requirements—not applicable here. SaaS (E) refers to hosted applications, not infrastructure scalability. Thus, a Hybrid cloud model fulfills all stated requirements: seamless data sharing, scalable computing, and continued use of on-site equipment."
+  },
+  {
+    "id": 267,
+    "question": "Which of the following describes an environment in which virtual machines are hosted on premises and in a cloud?",
+    "options": [
+      "A. Hybrid",
+      "B. Public",
+      "C. Private",
+      "D. SaaS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hybrid environment combines both on-premises infrastructure and cloud-based resources, allowing virtual machines to operate seamlessly between the two. CompTIA A+ describes hybrid cloud as a deployment model where organizations maintain their own private servers or virtualization hosts while also leveraging public cloud platforms such as AWS, Azure, or Google Cloud. This model supports flexibility, scalability, and gradual migration, making it ideal for businesses not ready to fully abandon local infrastructure. In this model, workloads can move between the local environment and the cloud depending on performance requirements, cost considerations, or redundancy needs. Additionally, hybrid clouds allow resource sharing, data synchronization, and load balancing across both environments. A public cloud hosts resources entirely in the provider’s data center, offering no on-premises integration. A private cloud exists solely within the organization’s infrastructure with no external shared resources. SaaS delivers applications, not infrastructure, meaning it cannot host or manage virtual machines. Therefore, an environment where VMs exist both on-site and in the cloud is best described as a Hybrid cloud."
+  },
+  {
+    "id": 268,
+    "question": "A user with a home office wants to add additional devices to the existing internet service while maintaining minimal cost and administration. Which of the following provides the needed functionality?",
+    "options": [
+      "A. DSL modem",
+      "B. Firewall",
+      "C. Unmanaged switch",
+      "D. Cable modem"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "To add additional wired network devices in a simple and cost-effective manner, the best solution is an unmanaged switch. CompTIA A+ explains that unmanaged switches require no configuration, provide instant port expansion, and operate using plug-and-play functionality. This makes them ideal for home offices where the user wants more Ethernet ports without dealing with administrative overhead or complex setup. An unmanaged switch automatically forwards traffic using MAC addresses, expanding the network without altering IP configuration or security settings. It is inexpensive compared to other networking equipment and requires no firmware updates, VLAN management, or routing knowledge. A DSL modem or cable modem provides internet service but does not increase the number of available network ports beyond the single LAN port commonly offered. A firewall controls traffic but does not expand physical connectivity. Therefore, neither modem nor firewall options meet the requirement of adding more wired devices. Thus, the unmanaged switch is the simplest, cheapest, and most practical choice for expanding connectivity in a home office environment."
+  },
+  {
+    "id": 269,
+    "question": "A technician is manually configuring network settings on a user's computer to route network traffic to a newly deployed firewall. Which of the following should the technician change?",
+    "options": [
+      "A. VPN",
+      "B. Gateway",
+      "C. Subnet mask",
+      "D. VLAN"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The default gateway is the network device responsible for routing traffic from a local computer to destinations outside its subnet. When a new firewall is deployed and intended to manage outbound traffic, client devices must be configured to send packets to this firewall. CompTIA A+ identifies the gateway setting as the key parameter that determines where a workstation sends its external-bound traffic. By updating the gateway address to point to the new firewall’s internal interface, all internet-bound and off-subnet traffic will now pass through the firewall for filtering, inspection, and routing. This ensures correct traffic flow and enforces security policies. Changing the VPN settings (A) does not affect local traffic routing unless a VPN tunnel is active. Subnet mask adjustments (C) determine the network size but do not control routing. VLAN settings (D) require switch configuration, not workstation changes, and do not dictate default routing behavior. Thus, modifying the gateway is the correct and necessary step to route all traffic through the newly implemented firewall."
+  },
+  {
+    "id": 270,
+    "question": "Which of the following devices forwards traffic based on MAC addresses?",
+    "options": [
+      "A. Switch",
+      "B. Router",
+      "C. Firewall",
+      "D. Gateway"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A network switch operates at Layer 2 (Data Link Layer) of the OSI model and forwards traffic using MAC addresses. CompTIA A+ teaches that switches maintain a MAC address table, learning which devices reside on each port. When a frame arrives, the switch checks the destination MAC address and forwards it only to the appropriate port, reducing unnecessary traffic and improving performance. Routers, on the other hand, operate at Layer 3 and forward traffic based on IP addresses, not MAC addresses. Firewalls inspect traffic for security policies and operate across multiple OSI layers but do not perform MAC-based forwarding. A gateway is a broad term that generally refers to a device connecting different networks or protocols, typically involving routing, not MAC-based switching. Thus, the device specifically responsible for forwarding frames based on MAC address lookup is the switch."
+  }
+]

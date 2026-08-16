@@ -1,0 +1,454 @@
+[
+  {
+    "id": 391,
+    "question": "A technician needs to replace a laptop’s display assembly. Which of the following should the technician do to complete this task?",
+    "options": [
+      "A. Reattach the heat sinks",
+      "B. Reconnect the wireless antennas",
+      "C. Install a new CPU fan",
+      "D. Reset the BIOS to default settings"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The best answer is B. Reconnect the wireless antennas. Laptop display assemblies commonly contain more than just the screen. The Quentin Docter study guide explains that laptop display components may include the display panel, webcam, microphone, inverter, and Wi-Fi antenna. It also states that Wi-Fi antenna wiring is generally routed through the upper half of the clamshell case, down through the hinge, and to the motherboard or wireless NIC. During display assembly removal, the technician disconnects the wireless NIC, display cable, and touch-screen cable, and the guide notes that the NIC antenna wires travel with the display assembly. Therefore, after replacing the display assembly, reconnecting the wireless antennas is a required step to restore wireless functionality. Reattaching heat sinks and installing a CPU fan relate to CPU cooling, not display replacement. Resetting BIOS defaults is unrelated unless a firmware setting caused a specific issue, which is not indicated here. The display assembly procedure directly supports reconnecting the antenna wiring. ========="
+  },
+  {
+    "id": 392,
+    "question": "A user cannot access any local or remote resources. A technician runs a command to find the configuration information and gets the following results: IPv4 Address: 192.168.1.10 Subnet Mask: 255.255.255.0 Default Gateway: 192.168.2.1 The technician checks with the NOC, and it verifies that the upstream router is configured correctly. The next hop given to the technician matches the value in the output. Which of the following should the technician change in order for the user’s connection to work fully?",
+    "options": [
+      "A. DNS settings",
+      "B. Gateway",
+      "C. Lease time",
+      "D. Firewall rules",
+      "E. Subnet mask"
+    ],
+    "correctAnswers": [
+      4
+    ],
+    "correctAnswer": 4,
+    "explanation": "The best answer is E. Subnet mask. With the current subnet mask of 255.255.255.0, the user’s IP address 192.168.1.10 is on the 192.168.1.0/24 network, while the default gateway 192.168.2.1 is on the 192.168.2.0/24 network. A host normally needs its default gateway to be reachable on the same local network. The Mike Meyers material explains that the subnet mask identifies the network ID and host ID, and every computer on a single LAN must have the same network ID. With 255.255.255.0, the first three octets define the network, so 192.168.1.x and 192.168.2.x are different networks. The NOC verified that the gateway value itself is correct, so changing the gateway would conflict with the verified next hop. DNS settings would affect name resolution, not access to all local and remote resources. Lease time and firewall rules are not indicated by the IP information. The subnet mask must be changed so the client and gateway are in the same local IP network. Topic 2, Simulation Performance Based Questions"
+  },
+  {
+    "id": 405,
+    "question": "An end user is printing, but the image is being cut off because the paper is too small. The user did put the correct type of paper in the printer. Which of the following should the user change first?",
+    "options": [
+      "A. The image size",
+      "B. The quality of the image",
+      "C. The tray settings",
+      "D. The file type"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a printout is being cut off, CompTIA A+ Core 1 (220-1201) troubleshooting emphasizes checking the simplest, most likely configuration mismatch first—the printer’s paper size/source settings. Even if the user physically loaded the correct paper, the print job can still be formatted incorrectly if the printer driver, application, or printer itself is set to use a different paper size or a different tray. If the printer thinks it is using a smaller paper size (or a tray configured for smaller paper), it may clip the printable area and truncate the image at the edges. Changing tray settings (paper size and paper source) aligns the printer’s configuration with the actual media installed, which is a standard first-step for issues related to formatting, clipping, and page boundaries. Image quality (DPI) affects sharpness, not cropping. File type rarely causes consistent edge cutoff compared with page setup mismatches. Adjusting image size could work as a workaround, but CompTIA best practice is to correct the paper/tray and page setup settings first so all prints format properly without editing the document each time."
+  },
+  {
+    "id": 406,
+    "question": "A company requires a storage solution that combines performance and redundancy for a main database server with high levels of read/write operations. Which of the following storage configurations best meets these requirements?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 5",
+      "C. RAID 6",
+      "D. RAID 10"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a main database server with high read/write activity, the best RAID choice must deliver strong performance while still providing fault tolerance. Per CompTIA A+ Core 1 (220-1201) storage/RAID objectives, RAID 10 (1+0) combines disk mirroring (RAID 1) and disk striping (RAID 0). Striping improves performance by distributing read/write operations across multiple disks, which is ideal for databases that perform frequent transactions. Mirroring provides redundancy by keeping an identical copy of data on a paired drive, allowing the system to tolerate drive failures (typically one drive per mirrored pair) without data loss. RAID 0 is fast but offers no redundancy, making it inappropriate for critical servers. RAID 5 and RAID 6 use parity, which provides redundancy but introduces a write penalty because parity must be calculated and written during updates—often a poor fit for workloads with heavy random writes like databases. RAID 6 is even more write-intensive"
+  },
+  {
+    "id": 407,
+    "question": "A technician is building a custom CAD workstation with a high-end graphics card. The customer requests that the system has the highest possible stability. Which of the following is the best choice for the power supply?",
+    "options": [
+      "A. UPS",
+      "B. Redundant",
+      "C. Surge protector",
+      "D. Modular"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "For the highest possible stability, the best power-supply choice is a redundant power supply. In CompTIA A+ Core 1 (220-1201) hardware concepts, redundant PSUs are used in systems where uptime and reliability are critical. A redundant PSU configuration typically includes two power supply units operating together (often in a hot-swappable bay). If one PSU fails, the other continues supplying power, allowing the workstation to remain operational and preventing unexpected shutdowns that could interrupt CAD work or corrupt data. This directly matches the requirement for maximum stability. A UPS improves resilience to power loss and brownouts by providing battery backup and line conditioning, but it is not a power supply type and doesn’t protect against the PSU itself failing. A surge protector helps guard against voltage spikes, but it also does not ensure system operation if the PSU fails. A modular PSU mainly improves cable management and airflow by allowing detachable cables; it can be convenient and neat, but it does not inherently increase stability compared with redundancy. Therefore, the most stability-focused PSU option is Redundant."
+  },
+  {
+    "id": 408,
+    "question": "A user's computer is connected to a docking station at their desk. The user cannot access the department file servers even though the docking station has a hardwired connection. Which of the following steps should a technician take to restore the user's access?",
+    "options": [
+      "A. Update the docking station firmware.",
+      "B. Restart the computer.",
+      "C. Disable Wi-Fi.",
+      "D. Replace the Ethernet cable."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "In CompTIA A+ Core 1 (220-1201) networking and troubleshooting, a common cause of “can’t reach internal resources” while docked is that the laptop is still using the wireless interface (or has a higher interface priority for Wi-Fi) instead of the docking station’s wired Ethernet connection. If the Wi-Fi network is a guest/isolated VLAN, uses different routing, or has stricter access controls, the user may be blocked from reaching department file servers even though an Ethernet cable is physically connected to the dock. Disabling Wi-Fi is a fast, low-risk step that forces the system to use the wired NIC path through the docking station, which typically provides the correct corporate network access, DHCP scope, and routing to internal servers. Restarting the computer might help in some cases, but it’s less targeted and not the “best next step” when the likely issue is interface selection. Replacing the Ethernet cable is appropriate if link lights are off or the wired connection is clearly down, but the scenario highlights that the dock has a hardwired connection—suggesting the physical layer may be fine. Dock firmware updates are not a first-line fix for basic connectivity/access symptoms."
+  },
+  {
+    "id": 409,
+    "question": "A company's directory services server is located on premises. Which of the following best describes the directory services infrastructure?",
+    "options": [
+      "A. Hybrid cloud",
+      "B. Private cloud",
+      "C. Public cloud",
+      "D. Community cloud"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "In the CompTIA A+ Core 1 (220-1201) exam objectives, cloud deployment models describe how and where computing resources are hosted and who has access to them. A private cloud is defined as a cloud environment that is dedicated to a single organization and may be hosted on-premises within the company’s own data center or in a dedicated external facility. Since the question states that the directory services server is located on premises, it indicates that the organization is hosting and managing its own infrastructure internally. This aligns directly with the definition of a private cloud deployment model. Directory services—such as Microsoft Active Directory or LDAP-based services—are commonly deployed internally to manage user authentication, authorization, group policies, and resource access within an organization. When these services run on company-owned hardware inside the organization’s network, the infrastructure remains under the organization’s full administrative control, security policies, and management. The other options do not match this scenario. A public cloud is hosted by third-party providers and shared among multiple customers ☁. A hybrid cloud combines on-premises infrastructure with public cloud services. A community cloud is shared by multiple organizations with similar requirements. Because the system is hosted internally for a single organization, the correct classification is Private Cloud ."
+  },
+  {
+    "id": 410,
+    "question": "Which of the following is a characteristic of a Type 1 hypervisor?",
+    "options": [
+      "A. Host OS required",
+      "B. Bare-metal server installation",
+      "C. Lightweight OS",
+      "D. Local configuration options"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "According to the CompTIA A+ Core 1 (220-1201) virtualization objectives, a Type 1 hypervisor is known as a bare-metal hypervisor because it installs directly onto the physical hardware of a system rather than running on top of a traditional operating system. This architecture allows the hypervisor to manage hardware resources—such as CPU, memory, storage, and networking—without the overhead of a host operating system. Because of this direct interaction with the hardware, Type 1 hypervisors typically provide higher performance, better scalability, and improved stability compared to Type 2 hypervisors. Examples of Type 1 hypervisors include VMware ESXi, Microsoft Hyper-V (bare-metal deployment), and Citrix XenServer. These hypervisors are commonly used in enterprise data centers, cloud infrastructure, and large virtualization environments where multiple virtual machines must run efficiently on a single physical server. ​️ Option A (Host OS required) describes a Type 2 hypervisor, such as VMware Workstation or Oracle VirtualBox, which runs on top of an existing operating system. Option C (Lightweight OS) may describe some hypervisor environments but is not the defining characteristic. Option D (Local configuration options) is also not specific to Type 1 hypervisors. Therefore, the key characteristic that defines a Type 1 hypervisor is that it performs a bare-metal server installation directly on the hardware"
+  },
+  {
+    "id": 411,
+    "question": "A help desk technician investigates a laser printer issue. Smudges are appearing on the printed pages, but they are not present on the document that was sent to the printer. Which of the following should the technician do first to diagnose the issue?",
+    "options": [
+      "A. Use a different kind of printing paper.",
+      "B. Inspect the printer drum.",
+      "C. Update the printer firmware.",
+      "D. Replace the toner."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Because the smudges are not in the original document, CompTIA A+ troubleshooting logic indicates the problem is occurring inside the print process, not in the application or file. For laser printers, smudging commonly points to an issue with the imaging components—especially the drum/photoconductor unit (and sometimes the fuser). A+ Core 1 (220-1201) printer troubleshooting emphasizes starting with the most likely, easiest-to-verify causes before replacing parts. Inspecting the drum is a diagnostic step that can reveal visible defects such as scratches, toner buildup, contamination, or worn surfaces that cause toner to transfer incorrectly, leading to streaks or smears on output. Replacing the toner (D) is a corrective action and may be unnecessary if the drum is damaged. Changing paper type (A) can help with some issues (like poor fusing or humidity-related problems), but it’s less directly tied to consistent smudges caused by the imaging process. Firmware updates (C) are rarely the first step for print-quality defects; they’re more relevant to compatibility, bugs, or feature issues—not physical smearing. Therefore, inspecting the printer drum first best matches A+ methodology and common laser printer failure points."
+  },
+  {
+    "id": 412,
+    "question": "A company’s directory services server is located on premises. Which of the following best describes the directory services infrastructure?",
+    "options": [
+      "A. Hybrid cloud",
+      "B. Private cloud",
+      "C. Public cloud",
+      "D. Community cloud"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "In CompTIA A+ Core 1 (220-1201) cloud concepts, the key differentiator between cloud deployment models is where the service is hosted and who owns/uses the underlying infrastructure. If a company’s directory services server (for example, a domain controller providing authentication/authorization and centralized identity management) is located on premises, that points to infrastructure that is owned and operated by the organization for its own internal use. This aligns best with a private cloud model, which is defined as cloud resources dedicated to a single organization and can be implemented on-premises (internally hosted) or in a dedicated off-site environment. It is not a public cloud because public cloud services are hosted by a third-party provider and shared across multiple customers. It is not hybrid cloud because hybrid requires a mix of on-prem resources and public cloud resources working together (the question only specifies on-prem). It is not community cloud because that involves shared infrastructure among multiple organizations with common needs."
+  },
+  {
+    "id": 413,
+    "question": "Which of the following display technologies is known for offering the highest contrast ratios?",
+    "options": [
+      "A. LCD",
+      "B. LED",
+      "C. OLED",
+      "D. QLED"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ Core 1 (220-1201) display technology objectives emphasize that contrast ratio is strongly influenced by how well a screen can produce true black. OLED (Organic Light-Emitting Diode) panels are known for the highest contrast ratios because each pixel is self-emissive—meaning it generates its own light. When an image requires black, OLED can turn individual pixels completely off, producing near-perfect black levels and extremely high (often “infinite”) contrast in practical terms. By comparison, LCD panels require a backlight, so black areas still allow some light leakage through the liquid crystal layer, reducing contrast. LED in this context is typically an LED-backlit LCD, not a fundamentally different pixel technology; it improves brightness and efficiency but still relies on backlighting, so contrast is limited by backlight bleed and panel design. QLED is also a type of LCD technology that uses a quantum dot layer to enhance color and brightness, but it still uses a backlight, so it cannot match OLED’s per-pixel shutoff for black levels. Therefore, OLED is the best choice for the highest contrast ratios."
+  },
+  {
+    "id": 414,
+    "question": "A company is separating its accounting department’s network from its customer service department’s network. Which of the following will accomplish this task?",
+    "options": [
+      "A. VPN",
+      "B. DNS",
+      "C. VLAN",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A VLAN (Virtual Local Area Network) is the correct solution because it logically separates devices into different broadcast domains on the same physical switching infrastructure. In CompTIA A+ Core 1 (220-1201), VLANs are described as a way to segment a network for security, performance, and management—for example, isolating departments like Accounting and Customer Service so their traffic is separated. Devices assigned to different VLANs cannot communicate directly at Layer 2; communication between VLANs requires a Layer 3 device (such as a router or a Layer 3 switch) using inter-VLAN routing and appropriate access control. This effectively prevents unnecessary broadcast traffic from crossing department boundaries and helps enforce separation policies. A VPN is used to create an encrypted tunnel over an untrusted network (commonly for remote access or site-to-site connectivity), not for internal departmental segmentation. DNS resolves hostnames to IP addresses and does not isolate networks. DHCP automatically assigns IP configuration (IP address, gateway, DNS servers), but it does not provide segmentation by itself. Therefore, implementing VLANs is the best way to separate the two departments’ networks."
+  },
+  {
+    "id": 415,
+    "question": "Which of the following devices forwards data between different networks by analyzing the headers of packets?",
+    "options": [
+      "A. Hub",
+      "B. Router",
+      "C. Repeater",
+      "D. Unmanaged switch"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A router is a network device that forwards data between different networks by examining packet headers, specifically the IP address information contained in Layer 3 (Network Layer) of the OSI model. According to the CompTIA A+ Core 1 (220-1201) networking objectives, routers use routing tables and packet header analysis to determine the best path for data to travel from a source network to a destination network. When a packet arrives at a router interface, the router reads the destination IP address in the packet header, compares it against its routing table, and then forwards the packet to the appropriate next hop or network interface. This function allows routers to connect multiple networks such as LANs, WANs, and the internet. The other options do not perform this function. A hub operates at Layer 1 (Physical Layer) and simply broadcasts incoming signals to all connected ports without inspecting any packet information. A repeater also operates at the physical layer and is used only to regenerate or amplify signals to extend network distance. An unmanaged switch operates mainly at Layer 2 (Data Link Layer) and forwards frames based on MAC addresses, not IP packet headers. Because only routers analyze packet headers and forward traffic between different networks, Router is the correct answer."
+  },
+  {
+    "id": 416,
+    "question": "Which of the following is a characteristic to consider when selecting a satellite internet connection?",
+    "options": [
+      "A. Necessary proximity to urban infrastructure",
+      "B. eSIM requirement",
+      "C. Line of sight to nearby tower",
+      "D. Increased latency"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "In the CompTIA A+ Core 1 (220-1201) networking concepts, satellite internet is commonly associated with higher (increased) latency compared with terrestrial options like cable, fiber, or DSL. Latency is the delay between sending data and receiving a response. With satellite, signals must travel from the user’s dish up to a satellite and then back down to a ground station (and return again for responses). That long travel distance adds noticeable delay, which can affect real-time activities such as VoIP, video conferencing, and online gaming. Even though newer low-earth-orbit (LEO) systems can reduce latency compared with older geostationary systems, satellite service is still generally discussed in A+ as having higher latency characteristics to consider. The other options do not best fit satellite internet. Proximity to urban infrastructure (A) is more relevant to cable/fiber availability. An eSIM requirement (B) relates to cellular/mobile service, not satellite broadband. Line of sight to a nearby tower (C) describes cellular or fixed wireless services that depend on tower connectivity; satellite instead needs a clear view of the sky toward the satellite (not a nearby tower). Therefore, increased latency is the best characteristic to consider."
+  },
+  {
+    "id": 417,
+    "question": "A technician is migrating an application server to another server. Which of the following DNS records should the technician create to ensure seamless connectivity?",
+    "options": [
+      "A. TXT",
+      "B. SPF",
+      "C. DKIM",
+      "D. CNAME"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "To ensure seamless connectivity during (and after) migrating an application server, the best DNS approach in CompTIA A+ Core 1 (220-1201) terms is to use a CNAME (Canonical Name) record, which creates an alias from one hostname to another. Instead of users connecting directly to a server’s changing hostname, they connect to a consistent service name (for example, app.company.com). That name can be configured as a CNAME pointing to the current host (such as server1.company.com). When the application is moved to a new server, the technician updates what the alias ultimately resolves to (or updates the target host’s A/AAAA record), and clients continue using the same familiar application URL/name—minimizing disruption and avoiding the need to reconfigure endpoints across devices. The other record types are not designed for this purpose. TXT records store text-based information (often verification or policy data). SPF and DKIM are email authentication-related mechanisms (typically implemented via TXT records) used to validate authorized mail senders and message integrity—not application server migration. Because the goal is maintaining a stable name for a service while the underlying host changes, CNAME is the correct record type."
+  },
+  {
+    "id": 418,
+    "question": "Which of the following supports the most devices due to its status as a legacy technology?",
+    "options": [
+      "A. 2.4GHz",
+      "B. 5GHz",
+      "C. 6GHz",
+      "D. NFC"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. 2.4GHz. In the CompTIA A+ Core 1 220-1201 networking objectives, wireless networking technologies include frequency bands such as 2.4GHz, 5GHz, and 6GHz, along with related concepts like channels, regulations, channel selection, Bluetooth, 802.11 standards, NFC, and RFID. The 2.4GHz band supports the most devices because it is the oldest and most widely adopted Wi-Fi frequency listed. Many legacy devices, including older laptops, printers, IoT devices, smart home devices, and wireless peripherals, still rely on 2.4GHz. It also has better range and wall penetration than higher-frequency bands, although it is usually more crowded and slower. Why the other options are incorrect: B . 5GHz 5GHz is newer than 2.4GHz and generally provides faster speeds with less interference, but it does not support as many older legacy devices. C . 6GHz 6GHz is the newest Wi-Fi frequency option used with newer Wi-Fi standards, so it has the least legacy device support among the Wi-Fi frequency choices. D . NFC NFC is a short-range communication technology, not a Wi-Fi frequency band. It is used for close- proximity functions such as tap-to-pay, pairing, and access cards, so it is not the best answer. Final Answe r: A. 2.4GHz"
+  },
+  {
+    "id": 419,
+    "question": "Which of the following is the best option to maintain a stable, tethered connection between a cell phone and a laptop?",
+    "options": [
+      "A. Bluetooth",
+      "B. USB",
+      "C. Hotspot",
+      "D. NFC"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. USB. In the CompTIA A+ Core 1 (220-1201) objectives under mobile devices and connectivity methods, tethering refers to sharing a mobile device’s internet connection with another device such as a laptop. There are several tethering methods, including USB tethering, Bluetooth tethering, and Wi-Fi hotspot. USB tethering is considered the most stable and reliable (tethered) connection because: It uses a physical cable connection, eliminating wireless interference. It provides consistent bandwidth and low latency. It also charges the phone while connected, which is an added benefit. It is less prone to disconnections compared to wireless methods. Why the other options are incorrect: A . Bluetooth Bluetooth tethering is slower and less stable due to limited bandwidth and susceptibility to interference. It is not ideal for high-performance or stable connections. C . Hotspot A mobile hotspot uses Wi-Fi, which is wireless, not tethered. While convenient, it is less stable than a wired USB connection and can be affected by interference and signal range. D . NFC NFC (Near Field Communication) is used for very short-range communication like payments or quick pairing. It is not used for maintaining a continuous network connection. Final Answe r: B. USB"
+  },
+  {
+    "id": 420,
+    "question": "Which of the following RAM characteristics allows for recovery from data faults in memory modules?",
+    "options": [
+      "A. Capacity",
+      "B. Speed",
+      "C. ECC",
+      "D. DDR",
+      "E. Parity"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is C. ECC (Error-Correcting Code). In the CompTIA A+ Core 1 (220-1201) hardware objectives, RAM types and features include technologies designed to improve reliability and data integrity. ECC memory is specifically designed to detect and correct data errors (faults) in memory automatically. It uses additional bits to store error-checking information, allowing the system to: Detect single-bit and some multi-bit errors Automatically correct errors without system interruption Improve system stability, especially in servers and critical systems This makes ECC the best choice for recovering from data faults. Why the other options are incorrect: A . Capacity Capacity refers to how much data the RAM can hold (e.g., 8GB, 16GB). It has nothing to do with error detection or correction. B . Speed Speed (measured in MHz or MT/s) affects performance but does not provide any fault recovery capability. D . DDR DDR (Double Data Rate) refers to the generation/type of RAM (e.g., DDR3, DDR4, DDR5). It improves performance but does not handle errors. E . Parity Parity memory can detect errors but cannot correct them. Since the question specifically asks for recovery from faults, ECC is the correct answer because it both detects and corrects errors. Final Answe r: C. ECC"
+  },
+  {
+    "id": 421,
+    "question": "A company needs to print several copies of a multipage document with the least consumption of resources possible. Which of the following settings will best accomplish this task?",
+    "options": [
+      "A. Duplex",
+      "B. Orientation",
+      "C. Tray settings",
+      "D. Quality"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Duplex. In the CompTIA A+ Core 1 (220-1201) exam objectives under printer settings and configuration, duplex printing refers to printing on both sides of the paper automatically. Using duplex printing is the best way to reduce resource consumption because: It cuts paper usage in half, which is the primary resource being conserved. It is ideal for multi-page documents and multiple copies. It reduces physical storage and handling requirements. Why the other options are incorrect: B . Orientation Orientation (portrait or landscape) changes the layout of the document but does not reduce resource usage. C . Tray settings Tray settings determine which paper tray is used (e.g., plain paper, letterhead), but they do not impact resource consumption. D . Quality Print quality (draft, normal, high) may affect ink/toner usage, but it does not reduce paper consumption as effectively as duplex printing, which is the main resource concern in this scenario. Final Answe r: A. Duplex"
+  },
+  {
+    "id": 422,
+    "question": "A company rolls out a mandatory OS update to all PCs. A legacy application that one department uses does not function on the new OS and is EOL. Which of the following should a technician suggest to solve the issue with minimal data loss, expense, and disruption to the users?",
+    "options": [
+      "A. Setting up a bare-metal hypervisor to isolate the outdated OS",
+      "B. Moving to a supported system under a Type 2 hypervisor",
+      "C. Upgrading to an alternative product and importing the data",
+      "D. Uploading the database to a private cloud"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Moving to a supported system under a Type 2 hypervisor. In the CompTIA A+ Core 1 (220-1201) objectives, virtualization is a key concept for maintaining compatibility with legacy systems. A Type 2 hypervisor (hosted hypervisor) runs on top of an existing operating system and allows users to run a virtual machine (VM) with an older OS. This solution is ideal because: It allows the legacy application to run in its required OS environment. It avoids replacing the application (which could cause data loss or compatibility issues). It is cost-effective, as it uses existing hardware. It minimizes user disruption, since users can continue using the application within a VM. Why the other options are incorrect: A . Setting up a bare-metal hypervisor A Type 1 (bare-metal) hypervisor is more complex, costly, and disruptive. It typically requires dedicating hardware and is not ideal for a single department use case. C . Upgrading to an alternative product and importing the data Although this may be a long-term solution, it involves higher cost, potential data loss, retraining, and disruption. D . Uploading the database to a private cloud This does not solve the compatibility issue of the legacy application with the new OS. Final Answe r: B. Moving to a supported system under a Type 2 hypervisor"
+  },
+  {
+    "id": 423,
+    "question": "Which of the following RAM characteristics allows for the most data bandwidth?",
+    "options": [
+      "A. CAS latency",
+      "B. ECC",
+      "C. High clock speed",
+      "D. Dual channel"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Dual channel. In the CompTIA A+ Core 1 (220-1201) hardware objectives, memory bandwidth refers to the amount of data that can be transferred between RAM and the CPU in a given amount of time. Dual channel memory architecture increases bandwidth by: Allowing the memory controller to access two memory modules simultaneously Effectively doubling the data transfer rate compared to single-channel configurations Improving overall system performance, especially in memory-intensive tasks Why the other options are incorrect: A . CAS latency CAS latency measures the delay before data is available after a request. Lower latency improves response time, but it does not significantly increase total bandwidth. B . ECC ECC (Error-Correcting Code) improves reliability by detecting and correcting errors, but it does not increase data transfer bandwidth. C . High clock speed Higher clock speed does increase bandwidth, but not as significantly as enabling dual channel, which allows parallel data transfer paths and provides a greater overall increase. Final Answe r: D. Dual channel"
+  },
+  {
+    "id": 424,
+    "question": "Which of the following video cables uses an analog signal?",
+    "options": [
+      "A. DVI",
+      "B. VGA",
+      "C. USB-C",
+      "D. HDMI"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. VGA. VGA (Video Graphics Array) is an analog video interface. It transmits video signals as continuous electrical waves, which means the signal can degrade over distance or due to interference. VGA uses a 15-pin connector and is considered legacy hardware in modern systems, but it is still important for CompTIA A+ because you may encounter it in older equipment. Why the other options are incorrect: A . DVI DVI can support both digital and analog signals, but in most modern contexts and exam questions, it is primarily treated as a digital interface (especially DVI-D). Since the question asks for a clearly analog cable, VGA is the best answer. C . USB-C USB-C is a digital interface that can carry video signals using protocols like DisplayPort Alternate Mode. It does not transmit analog video. D . HDMI HDMI is a fully digital interface used for high-definition video and audio transmission. It does not support analog signals. Exam Tip (Core 1 220-1201): Analog video = VGA Digital video = HDMI, DisplayPort, USB-C, most DVI types Final Answe r: B. VGA"
+  },
+  {
+    "id": 425,
+    "question": "An employee is on a business trip and needs to upload daily conferences and meetings to the company's intranet. The uploading process is successful but was faster in the past. Which of the following is the most likely reason for the slowdown?",
+    "options": [
+      "A. Wireless is turned off.",
+      "B. 5G is disabled.",
+      "C. Roaming is turned on.",
+      "D. Data is being throttled."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Data is being throttled. Data throttling refers to the intentional slowing down of internet speeds by a mobile carrier after a user reaches a certain data usage limit or during network congestion. In this scenario, the employee can still successfully upload files, but the speed has decreased compared to before—this is a classic symptom of throttling. Why the other options are incorrect: A . Wireless is turned off If wireless were turned off, the employee would not be able to upload anything at all. The question clearly states that uploads are still successful. B . 5G is disabled Disabling 5G could reduce speeds slightly if the device falls back to 4G/LTE, but it would not typically cause a significant or noticeable degradation unless compared under ideal conditions. It is not the most likely cause. C . Roaming is turned on Roaming allows connectivity outside the home network. While it may incur additional charges, it does not inherently cause significant speed reduction in most modern networks. It is less likely than throttling. Exam Tip (Core 1 220-1201): Slow but working connection → Think throttling or congestion No connection → Think disabled wireless or network issues Final Answe r: D. Data is being throttled"
+  },
+  {
+    "id": 426,
+    "question": "A company updates its office with a new multifunction printer. Users report issues when they try to use scan-to-email functionality. The technician must ensure this feature is properly enabled. Which of the following should the technician do to resolve this issue?",
+    "options": [
+      "A. Adjust the SMTP server configurations for email.",
+      "B. Check the printer's IP address configuration.",
+      "C. Install the printer's driver software on all computers.",
+      "D. Configure user authentication settings for email access."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Adjust the SMTP server configurations for email. Scan-to-email functionality on a multifunction printer relies on proper configuration of an SMTP (Simple Mail Transfer Protocol) server. The printer must know how to send outgoing email, which requires settings such as: SMTP server address Port number (commonly 25, 465, or 587) Authentication credentials (username/password) Encryption method (SSL/TLS if required) If scan-to-email is not working, the most common cause is incorrect or missing SMTP configuration. Without this setup, the printer cannot send scanned documents via email. Why the other options are incorrect: B . Check the printer's IP address configuration This ensures network connectivity, but since the printer is already in use and the issue is specific to email functionality, IP configuration is unlikely the root cause. C . Install the printer's driver software on all computers Drivers are needed for printing from computers, but scan-to-email is handled directly by the printer and does not depend on client-side drivers. D . Configure user authentication settings for email access While authentication may be required in some setups, it is part of the broader SMTP configuration. The primary and most direct fix is ensuring SMTP settings are correct. Exam Tip (Core 1 220-1201): Scan-to-email issues → Check SMTP settings first Multifunction printers rely on network services (email protocols), not just drivers Final Answe r: A. Adjust the SMTP server configurations for email"
+  },
+  {
+    "id": 427,
+    "question": "A client requests a new computer for high-performance video editing and virtual reality applications. The technician must select a compatible motherboard for an Intel Core i9 processor and multiple graphics cards. Which of the following should the technician do to meet the client's needs?",
+    "options": [
+      "A. Choose a cooling system capable of handling high thermal output.",
+      "B. Use DDR3 RAM for increased compatibility.",
+      "C. Verify there are two PCIe x1 slots for additional devices.",
+      "D. Select a motherboard with integrated graphics to support video output."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The best answer provided is A, although it is important to note that the question is somewhat misleading because it asks about motherboard selection but provides mostly incorrect or irrelevant motherboard-related options. For high-performance workloads such as video editing and virtual reality (VR) using an Intel Core i9 processor and multiple graphics cards (multi-GPU setup), system design considerations include high power consumption and significant heat output. In the CompTIA A+ Core 1 220-1201 objectives under hardware planning and troubleshooting, high-performance CPUs and multiple GPUs require adequate thermal management solutions, including advanced cooling systems (air or liquid cooling) to ensure system stability and prevent thermal throttling. Why A is the best answer: High-end CPUs like Intel Core i9 and multiple GPUs generate substantial heat. Proper cooling is essential for maintaining performance under sustained load (video rendering, VR workloads). While not strictly a motherboard feature, cooling is a critical system requirement for such a build. Why the other options are incorrect: B . Use DDR3 RAM for increased compatibility Incorrect because modern Intel Core i9 platforms use DDR4 or DDR5, not DDR3, which is obsolete and incompatible with current high-performance motherboards. C . Verify there are two PCIe x1 slots for additional devices Incorrect because PCIe x1 slots are used for low-bandwidth devices (sound cards, network cards), not graphics cards. Multiple GPUs require PCIe x16 slots, not x1. D . Select a motherboard with integrated graphics to support video output Incorrect because high-performance systems with discrete GPUs rely on those GPUs for rendering. Integrated graphics are unnecessary and sometimes disabled when a dedicated GPU is installed. Exam Insight (CompTIA A+ perspective): In real-world A+ Core 1 scenarios, the correct motherboard selection for this requirement would focus on: Multiple PCIe x16 slots (for multi-GPU support) Compatible socket for Intel Core i9 Support for modern RAM (DDR4/DDR5) Adequate chipset and power delivery (VRM design) Proper cooling solution for thermal management However, since those correct motherboard specifications are not provided in the options, A is the only viable system-level requirement relevant to stability under high-performance load."
+  },
+  {
+    "id": 428,
+    "question": "Which of the following is used to implement PoE?",
+    "options": [
+      "A. Modem",
+      "B. Range extender",
+      "C. Media converter",
+      "D. Injector"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Injector. Power over Ethernet (PoE) allows network cables to carry electrical power to devices such as wireless access points, IP cameras, and VoIP phones, eliminating the need for separate power supplies. According to the CompTIA A+ Core 1 220-1201 objectives under Networking, PoE can be implemented in the following ways: PoE-enabled switches: Switches that can supply power directly over the Ethernet ports. PoE injectors: Devices that add power to an existing Ethernet connection when the switch or router does not provide PoE. Why the other options are incorrect: A . Modem: A modem connects a network to the Internet but does not provide PoE functionality. B . Range extender: Extends the range of a wireless network; does not supply power over Ethernet. C . Media converter: Converts one type of network media to another (e.g., fiber to copper) but does not implement PoE. Therefore, when a switch does not natively provide PoE, a PoE injector is the standard solution to add power to the Ethernet line. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: \"Given a scenario, install and configure network devices including switches, routers, and wireless access points, including cabling and PoE.\" Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Networking Devices Chapter."
+  },
+  {
+    "id": 429,
+    "question": "After a data breach, an affected file server is reimaged and must have the data restored. The server array is configured as RAID 6. The technician restoring the data notices that the data transfer is sluggish and restarts the server. After restarting the server, the technician continues the restore process and sees one red LED in the drive array. Which of the following should the technician do next to remediate the issue?",
+    "options": [
+      "A. Reconfigure the RAID array",
+      "B. Run a S.M.A.R.T. test",
+      "C. Reinstall the controller drivers",
+      "D. Replace the failed drive"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Replace the failed drive. RAID 6 is a redundant array of independent disks that can tolerate up to two drive failures while still maintaining data integrity. According to CompTIA A+ Core 1 (220-1201) objectives, a red LED on a drive in a RAID array indicates that the drive has failed or is in a critical state. Next Step: In RAID 6, a single failed drive should be replaced immediately to prevent additional failures and maintain redundancy. The array can continue to operate in a degraded state, but performance may be slow during rebuilds. Replacing the failed drive allows the RAID controller to rebuild data onto the new drive, restoring full redundancy. Why the other options are incorrect: A . Reconfigure the RAID array: This would erase existing data; unnecessary if only one drive failed. B . Run a S.M.A.R.T. test: While useful for diagnosing drive health, the red LED already indicates failure, so immediate replacement is required. C . Reinstall the controller drivers: This does not address a physically failed drive and would not fix the degraded RAID array. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, troubleshoot storage and RAID issues including failed drives and degraded arrays.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Storage Devices and RAID."
+  },
+  {
+    "id": 430,
+    "question": "When a customer tries to connect a projector to a laptop in a conference room, the customer is only able to see part of the laptop's screen projected onto the wall. Which of the following should a technician do first to troubleshoot this issue?",
+    "options": [
+      "A. Extend the desktop",
+      "B. Change the resolution",
+      "C. Mirror the desktop",
+      "D. Switch the input source"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Change the resolution. According to the CompTIA A+ Core 1 220-1201 objectives, troubleshooting display issues involves checking the display settings, including resolution, scaling, and orientation. When a projector is only showing part of a laptop screen: The most common cause is that the laptop’s output resolution does not match the projector's native resolution. If the laptop is set to a resolution larger than what the projector supports, only a portion of the screen is visible. The technician should first adjust the laptop's resolution to match the projector’s native resolution before attempting other options like extending or mirroring the desktop. Why the other options are incorrect: A . Extend the desktop: This is only used if the user wants to have two separate screens (dual monitors), not to fix partial display issues. C . Mirror the desktop: Mirroring duplicates the laptop display but does not solve issues caused by resolution mismatch. D . Switch the input source: Necessary only if the projector is on the wrong input, but the problem here is a partial display, not no display. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, troubleshoot problems related to displays including resolution and projector issues.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Display Devices."
+  },
+  {
+    "id": 431,
+    "question": "Which of the following describes the difference between routers and switches?",
+    "options": [
+      "A. Routers are programmable; switches are not programmable.",
+      "B. Switches connect devices within a network; routers connect networks.",
+      "C. Switches are programmable; routers are not programmable.",
+      "D. Routers connect devices within a network; switches connect networks."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Switches connect devices within a network; routers connect networks. According to the CompTIA A+ Core 1 220-1201 networking objectives: Switches operate at the Data Link layer (Layer 2) and sometimes Layer 3, connecting multiple devices within the same local area network (LAN). They manage data traffic between devices by using MAC addresses to forward frames only to the intended recipient. Routers operate at the Network layer (Layer 3) and connect different networks together, such as connecting a LAN to the internet. They use IP addresses to determine the best path for forwarding packets between networks. Why the other options are incorrect: A . Routers are programmable; switches are not programmable: Both devices can have programmable configurations in enterprise environments, so this is not a defining difference. C . Switches are programmable; routers are not programmable: Same reasoning as above; not accurate. D . Routers connect devices within a network; switches connect networks: This reverses the actual roles and is incorrect. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, install and configure network devices including switches and routers and describe their primary functions.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Networking Devices."
+  },
+  {
+    "id": 432,
+    "question": "Which of the following connections would be used to send a print job from a mobile device to a wireless multifunction printer (MFP)?",
+    "options": [
+      "A. NFC",
+      "B. Hotspot",
+      "C. Infrared",
+      "D. USB"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. NFC (Near Field Communication). According to the CompTIA A+ Core 1 220-1201 objectives under Mobile Devices, NFC is commonly used for short-range wireless communication between devices. In the context of mobile printing: NFC-enabled printers allow a user to tap a mobile device (phone or tablet) to the printer to initiate a print job instantly without needing to configure Wi-Fi credentials or use cables. This is particularly common in mobile-friendly environments like offices or public kiosks. Why the other options are incorrect: B . Hotspot: Provides an Internet connection, not a direct mobile-to-printer interface. C . Infrared: Legacy technology largely replaced by NFC and Wi-Fi; rarely used in modern printers. D . USB: Requires a wired connection, not suitable for sending a print job wirelessly from a mobile device. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Mobile Devices: “Given a scenario, connect and configure mobile devices including printing via NFC, Bluetooth, and Wi-Fi.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Mobile Device Connectivity."
+  }
+]
