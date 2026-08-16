@@ -2,6 +2,10 @@
 
 This append-only log records user-facing changes. See [DECISIONS.md](./DECISIONS.md) for rationale and [SYSTEM.md](./SYSTEM.md) for implementation details.
 
+## 2026-08-16
+
+- Added the A+ Prep learner walkthrough to the landing page as a responsive privacy-enhanced YouTube embed with a direct YouTube link.
+
 ## 2026-08-15
 
 - Kept interactive cards and result surfaces fully opaque during entrance motion so available choices never resemble disabled content.
