@@ -1,0 +1,453 @@
+[
+  {
+    "id": 331,
+    "question": "A client is unable to unlock their smartphone. When they try to enter their code, the input is unsuccessful. Which of the following components has most likely failed?",
+    "options": [
+      "A. Charging port",
+      "B. Touch screen",
+      "C. OLED",
+      "D. Biometric scanner"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The most likely failed component in this scenario is the touch screen. According to CompTIA Core 1 (220-1201) mobile device hardware and troubleshooting objectives, smartphones rely on the digitizer (touch screen layer) to detect user input such as taps, swipes, and on-screen keyboard presses. If the device powers on and displays the lock screen but does not register code input, this strongly indicates a failure in the touch input functionality. A failed charging port would prevent the device from charging but would not affect the ability to enter a passcode if the device is powered on. An OLED failure would result in display issues such as a blank screen, flickering, discoloration, or no image at all—none of which are described in this scenario. A biometric scanner (fingerprint or facial recognition) failure would only impact biometric authentication methods; users would still be able to unlock the phone using a PIN or passcode. CompTIA emphasizes distinguishing between display output issues and input issues when troubleshooting mobile devices. Since the problem specifically involves unsuccessful code entry despite the phone being operational, the root cause is the touch screen. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Mobile Device Components, Touchscreens, and Troubleshooting"
+  },
+  {
+    "id": 332,
+    "question": "A technician connects a network printer to a SOHO router. The technician configures several workstations to send print jobs to the printer’s network address. After several days, users report that they are no longer able to use the printer. Which of the following should the technician use to resolve the issue and prevent it from reoccurring?",
+    "options": [
+      "A. Network gateway",
+      "B. USB cable",
+      "C. APIPA",
+      "D. Static IP"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The most effective solution to resolve this issue and prevent it from happening again is to assign the printer a static IP address. According to CompTIA Core 1 (220-1201) networking and printer configuration objectives, network printers should use static IP addresses to ensure consistent accessibility by client devices. In this scenario, the printer was initially reachable using its assigned network address, but after several days it became unavailable. This commonly occurs when the printer is configured to receive its IP address via DHCP. When the DHCP lease expires or the printer is rebooted, the router may assign a different IP address, causing all workstations configured with the old address to lose connectivity. By configuring a static IP address (or DHCP reservation), the printer’s IP address remains constant, ensuring that all workstations can reliably send print jobs without interruption. A network gateway is used to route traffic between networks and does not address printer addressing issues. A USB cable would eliminate network printing entirely and is not appropriate for a SOHO network environment. APIPA addresses indicate a DHCP failure and would worsen connectivity rather than fix it. CompTIA strongly emphasizes using static IP addressing for shared network devices such as printers to ensure stability and prevent recurring access problems. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Printing, DHCP, and IP Addressing"
+  },
+  {
+    "id": 333,
+    "question": "A technician connects a WISP modem to a portable router in order to provide an Ethernet connection to a laptop. Which of the following network types has the technician configured?",
+    "options": [
+      "A. WAN",
+      "B. SAN",
+      "C. PAN",
+      "D. MAN"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is WAN (Wide Area Network). According to CompTIA Core 1 (220-1201) networking fundamentals, a WAN is used to connect devices or networks over large geographic areas, typically through an Internet Service Provider (ISP). A WISP (Wireless Internet Service Provider) delivers internet connectivity wirelessly over long distances, which clearly falls under WAN technology. In this scenario, the technician connects a WISP modem to a portable router to provide Ethernet connectivity to a laptop. The WISP modem represents the WAN link, as it connects the local device to an external network (the internet) managed by the service provider. The portable router then distributes that WAN connection locally via Ethernet. A SAN (Storage Area Network) is used for high-speed storage communication between servers and storage devices and is unrelated to internet connectivity. A PAN (Personal Area Network) is limited to very short-range connections, such as Bluetooth between personal devices. A MAN (Metropolitan Area Network) covers a city or campus-scale area and is not applicable to a single modem-to-router setup. CompTIA emphasizes identifying network types based on scope and provider involvement. Since a WISP connection extends beyond the local environment and connects to an ISP, it is classified as a WAN. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Network Types, WAN Technologies, and ISP Connectivity"
+  },
+  {
+    "id": 334,
+    "question": "Which of the following should a technician use in DNS to map a device to an IPv6 address?",
+    "options": [
+      "A. A",
+      "B. CNAME",
+      "C. AAAA",
+      "D. MX"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct DNS record used to map a device to an IPv6 address is the AAAA record. According to CompTIA Core 1 (220-1201) networking fundamentals, DNS uses different record types to associate domain names with specific resources, and each record type serves a distinct purpose. An AAAA (Quad-A) record maps a fully qualified domain name (FQDN) to an IPv6 address, which is a 128-bit address written in hexadecimal format. As IPv6 adoption increases to address IPv4 exhaustion, CompTIA expects technicians to understand how DNS supports both addressing schemes. An A record maps a hostname to an IPv4 address only and cannot be used for IPv6. A CNAME record creates an alias that points one domain name to another domain name, not directly to an IP address. An MX record is used for mail server routing and email delivery, not for host address resolution. CompTIA emphasizes knowing DNS record types and their specific use cases, especially distinguishing between A vs. AAAA records when working with IPv4 and IPv6 networks. When the requirement is explicitly to map a device to an IPv6 address, the AAAA record is the correct and only valid choice. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – DNS Record Types, IPv6 Addressing, and Network Name Resolution"
+  },
+  {
+    "id": 335,
+    "question": "Which of the following best describes a Type 2 hypervisor?",
+    "options": [
+      "A. It works as a firewall to control network traffic.",
+      "B. It interacts with the underlying hardware.",
+      "C. It runs on a host operating system.",
+      "D. It brings higher CPU capabilities to virtual machines."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Type 2 hypervisor is defined as a hypervisor that runs on top of a host operating system, rather than directly on the system’s hardware. According to CompTIA Core 1 (220-1201) virtualization concepts, Type 2 hypervisors are also referred to as hosted hypervisors and are commonly used in desktop, lab, and testing environments. In this model, the host operating system (such as Windows, macOS, or Linux) is installed first, and the hypervisor runs as an application within that OS. The hypervisor then manages virtual machines by requesting hardware resources through the host OS. Examples of Type 2 hypervisors include VirtualBox, VMware Workstation, and Parallels Desktop. Option B describes a Type 1 (bare-metal) hypervisor, which runs directly on the hardware without a host OS. Type 1 hypervisors are typically used in enterprise environments and offer higher performance and isolation. Option A is unrelated to virtualization, as firewall functionality controls network traffic. Option D is incorrect because hypervisors do not inherently increase CPU capabilities; they allocate existing resources. CompTIA emphasizes understanding the distinction between Type 1 and Type 2 hypervisors, particularly that Type 2 hypervisors rely on a host operating system, making option C the correct answer. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Virtualization Concepts, Hypervisor Types, and Cloud Computing"
+  },
+  {
+    "id": 336,
+    "question": "Which of the following statements is true when comparing DDR3 RAM and DDR4 RAM?",
+    "options": [
+      "A. DDR4 offers faster data transfer rates compared to DDR3.",
+      "B. DDR3 is capable of achieving higher bandwidth than DDR4.",
+      "C. DDR4 operates at a higher voltage than DDR3.",
+      "D. DDR3 is better suited for low-power environments than DDR4."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct statement when comparing DDR3 and DDR4 memory technologies is that DDR4 offers faster data transfer rates compared to DDR3. According to CompTIA Core 1 (220-1201) memory and hardware objectives, DDR4 was designed as the successor to DDR3 and provides several performance and efficiency improvements. DDR3 memory typically operates at data transfer rates ranging from 800 MT/s to 2133 MT/s, while DDR4 starts at 2133 MT/s and can scale significantly higher depending on the module and platform. This increased transfer rate allows DDR4 to handle more data per second, improving overall system performance, especially in modern systems and multitasking environments. Option B is incorrect because DDR4 achieves higher bandwidth, not DDR3. Option C is incorrect because DDR4 operates at a lower voltage (typically 1.2V) compared to DDR3 (typically 1.5V), making DDR4 more power efficient. Option D is also incorrect because DDR4 is better suited for low-power environments due to its reduced voltage requirements. CompTIA emphasizes understanding RAM generations, including differences in speed, bandwidth, and power consumption, making DDR4’s higher data transfer rates a key distinguishing factor. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – RAM Technologies, DDR Standards, and Performance Characteristics"
+  },
+  {
+    "id": 337,
+    "question": "A company wants to enable access to corporate email on smartphones. Employees will choose from a list of supported devices but must install software that separates corporate and personal data. Which of the following should the company implement to achieve this goal?",
+    "options": [
+      "A. Encryption",
+      "B. Network access control",
+      "C. Mobile device management",
+      "D. Endpoint protection"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct solution for this scenario is Mobile Device Management (MDM). According to CompTIA Core 1 (220-1201) mobile device security and management objectives, MDM is specifically designed to manage, secure, and enforce policies on mobile devices used to access corporate resources. MDM solutions allow organizations to require employees to install management software on their smartphones before accessing corporate email. One of the key features of MDM is data separation, often referred to as containerization, which keeps corporate data isolated from personal data on the same device. This ensures that company information remains secure while still allowing employees to use their devices for personal purposes. Encryption alone protects data but does not enforce separation or centralized control. Network access control (NAC) restricts which devices can connect to a network but does not manage data on the device itself. Endpoint protection focuses on malware prevention and threat detection, not policy enforcement or data separation. CompTIA emphasizes MDM as the primary solution for BYOD (Bring Your Own Device) and corporate mobile access scenarios, making it the most suitable and complete answer for this requirement. Reference:CompTIA A+ Core 1 (220-1201) Official Study Guide – Mobile Device Management (MDM), BYOD Policies, and Mobile Security"
+  },
+  {
+    "id": 338,
+    "question": "Which of the following is used to verify the functionality of an Ethernet NIC?",
+    "options": [
+      "A. Toner probe",
+      "B. Loopback plug",
+      "C. Wi-Fi analyzer",
+      "D. Punchdown tool"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A loopback plug is specifically designed to test whether a network interface card (NIC) can successfully transmit and receive signals at the physical/data-link level. For an Ethernet NIC, the loopback plug connects the transmit (TX) pins back to the receive (RX) pins on the NIC’s port (or through an adapter), creating a closed circuit. When the NIC sends data, it should immediately “see” that data returned, confirming the NIC’s port electronics and basic send/receive functionality are working. This is a direct, controlled test that helps isolate the problem: if the NIC fails the loopback test, the issue is likely the NIC/port/driver configuration rather than the cabling or network infrastructure. The other tools don’t validate NIC function in this way: a toner probe traces and identifies cables, a Wi-Fi analyzer evaluates wireless networks (not wired Ethernet NICs), and a punchdown tool terminates wires into patch panels or keystone jacks. Therefore, the best CompTIA A+ answer for verifying an Ethernet NIC’s functionality is a loopback plug."
+  },
+  {
+    "id": 339,
+    "question": "Which of the following protocol ports is used for secure remote access to a network device?",
+    "options": [
+      "A. 21",
+      "B. 22",
+      "C. 23",
+      "D. 25"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Port 22 is used by SSH (Secure Shell), which is the standard protocol for secure remote administration of network devices such as switches, routers, firewalls, and Linux-based systems. CompTIA A+ Core 1 emphasizes knowing common ports and selecting secure management methods. SSH provides encrypted communication for both authentication and the session data, protecting usernames, passwords, and command output from being intercepted by packet sniffers. This makes it the preferred choice over older remote access methods. In contrast, port 23 is Telnet, which is also used for remote terminal access but sends traffic in cleartext, making it insecure and generally discouraged in modern environments. Port 21 is FTP control traffic, used for file transfers and typically not secure unless paired with FTPS or replaced by SFTP (which actually runs over SSH on port 22). Port 25 is SMTP, used for sending email between mail servers and is unrelated to remote device management. Therefore, for secure remote access to a network device, SSH on port 22 is the correct answer."
+  },
+  {
+    "id": 340,
+    "question": "A user needs cellular internet connectivity for their laptop without using an external device. Which of the following technologies can the user use on their laptop to achieve this connection?",
+    "options": [
+      "A. Bluetooth",
+      "B. Hotspot",
+      "C. SIM card",
+      "D. NFC"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A SIM card enables a laptop to connect directly to a cellular network when the laptop includes an integrated mobile broadband (cellular) modem (often referred to as LTE/5G capable). In this setup, the SIM provides subscriber identity and authentication details required by the carrier, allowing the laptop to register on the cellular network and access mobile data without relying on separate tethering devices. This aligns with CompTIA A+ Core 1 coverage of mobile and wireless connectivity options, including cellular data capabilities and the components required to use them. The other options do not meet the requirement “without using an external device” for cellular connectivity. A hotspot typically means using a phone or dedicated hotspot device to share its cellular connection over Wi-Fi, which relies on an external device. Bluetooth can be used for tethering, but it still requires a phone providing the cellular connection. NFC is used for short-range communication like tap-to-pair or payments and does not provide cellular internet access. Therefore, a SIM card (with an internal cellular modem) is the correct choice."
+  },
+  {
+    "id": 341,
+    "question": "A technician recently replaced a user's laptop screen. Since then, the user has had trouble connecting to wireless networks. Which of the following should the technician do?",
+    "options": [
+      "A. Verify that wireless technologies are compatible with the updated hardware.",
+      "B. Reinstall the wireless drivers after the OS is reloaded.",
+      "C. Reconnect the antenna to the system board.",
+      "D. Reset the network services."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a laptop screen is replaced, the technician typically removes the display bezel and may disconnect cables routed through the hinge area. The Wi-Fi antennas in most laptops are mounted inside the display assembly (often along the top edges of the screen) and their thin coax antenna leads run through the hinges to the wireless adapter connection points on the system board or directly onto the Wi-Fi card (MAIN/AUX terminals). If one or both antenna leads are left unplugged, pinched, or poorly seated during reassembly, the laptop will still detect the Wi-Fi adapter, but wireless performance will be severely degraded—weak signal strength, intermittent connections, inability to see networks reliably, or frequent dropouts. This symptom appearing immediately after a screen replacement strongly indicates a physical antenna connection issue rather than a driver or software problem. Reinstalling drivers or resetting services would be more appropriate after OS changes or configuration corruption, not after display hardware work. Compatibility of wireless technologies is unrelated to swapping a screen. Therefore, the best CompTIA A+ troubleshooting step is to open the unit and reconnect/secure the Wi-Fi antenna leads to the system board/wireless card."
+  },
+  {
+    "id": 342,
+    "question": "A technician builds a workstation. When the technician starts up the workstation, the technician notices a burning smell. During POST, the workstation shuts down. Which of the following is most likely the cause of these issues?",
+    "options": [
+      "A. The technician did not properly ground the workstation.",
+      "B. The technician chose the wrong type of RAM.",
+      "C. The technician did not connect power to the exhaust fan.",
+      "D. The technician did not apply thermal paste."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A shutdown during POST combined with a burning smell strongly indicates an overheating condition occurring almost immediately after power-on. In a newly built workstation, the most common cause of rapid CPU overheating is improper heatsink installation, especially failing to apply thermal paste (thermal compound) between the CPU and the heatsink. Thermal paste fills microscopic imperfections between the two metal surfaces so heat can transfer efficiently into the heatsink. Without it, the CPU can spike to unsafe temperatures within seconds. Modern systems detect this and trigger protective thermal shutdown during POST to prevent permanent CPU or motherboard damage. The burning smell can occur when components near the CPU socket heat excessively or when protective coatings/dust residues warm quickly due to poor heat dissipation. The wrong type of RAM (B) would more likely cause no-boot/beep codes rather than a burning smell. Not properly grounding (A) relates to ESD damage risk, but that typically causes intermittent or dead hardware symptoms, not immediate thermal shutdown. A disconnected case exhaust fan (C) can contribute to higher case temperatures, but it’s less likely to cause an immediate POST shutdown compared to missing thermal paste on the CPU cooler."
+  },
+  {
+    "id": 343,
+    "question": "An office manager wants to scan a contract that is approximately 300 pages. The office manager is concerned the process will take a long time because each page must be scanned individually. Which of the following can the office manager use to increase the speed of scanning?",
+    "options": [
+      "A. Flatbed scanner",
+      "B. Duplexing",
+      "C. Automatic document feeder",
+      "D. Orientation configuration"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An automatic document feeder (ADF) is designed to speed up scanning jobs that involve many pages by feeding sheets through the scanner automatically, one after another, without requiring the user to lift the lid and position each page manually. For a 300-page contract, the biggest time loss is the manual handling of every page on a flatbed. With an ADF-equipped scanner or multifunction printer, the user can load a stack of pages into the feeder tray and the device will process them continuously, greatly improving productivity and reducing user effort. This is a common CompTIA A+ Core 1 concept when comparing scanner hardware features and selecting the correct device for high- volume tasks. A flatbed scanner (A) is typically slower for large documents because it requires manual placement of each page. Duplexing (B) can be helpful when scanning double-sided documents because it captures both sides automatically, but it does not address the “each page must be scanned individually” issue as effectively as an ADF does for high page counts. Orientation configuration (D) only changes how pages are rotated or aligned in the output file and does not increase scan throughput. Therefore, an ADF is the best choice to increase scanning speed for a large contract."
+  },
+  {
+    "id": 344,
+    "question": "Which of the following allows an internal application to be hosted without managing the underlying OS?",
+    "options": [
+      "A. SaaS",
+      "B. IaaS",
+      "C. UCaaS",
+      "D. PaaS"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Platform as a Service (PaaS) is designed to host and run applications while the cloud provider manages the underlying infrastructure and operating system. With PaaS, an organization deploys its internal application code (and often configures runtime settings), but does not handle OS installation, patching, hardening, or most server maintenance tasks. This aligns with CompTIA A+ Core 1 cloud concepts that compare service models by responsibility: as you move from IaaS to PaaS to SaaS, the provider manages more of the stack. IaaS (Infrastructure as a Service) provides virtualized compute, storage, and networking, but the customer still manages the OS, updates, drivers, and the application stack—so it does not meet the “without managing the underlying OS” requirement. SaaS (Software as a Service) delivers a complete finished application to users (like email or CRM), which typically doesn’t fit hosting a custom internal application you develop. UCaaS focuses on communication services (voice, video, messaging) rather than general application hosting. Therefore, PaaS is the best option for hosting an internal application without managing the underlying OS."
+  },
+  {
+    "id": 345,
+    "question": "Which of the following DHCP components allows a device to be assigned the same IP address anytime it is connected to the network?",
+    "options": [
+      "A. Exclusion",
+      "B. Reservation",
+      "C. Lease",
+      "D. Scope"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A DHCP reservation ensures a specific device always receives the same IP address from the DHCP server whenever it requests an address. The reservation is typically created by associating the device’s MAC address with a chosen IP address inside the DHCP scope. When that device connects and performs the DHCP process, the server recognizes the MAC address and offers the reserved IP instead of assigning the next available dynamic address. This is commonly used for devices that benefit from consistent addressing (for example, printers, servers, or network appliances) while still centrally managing addressing through DHCP rather than configuring a manual static IP on the endpoint. An exclusion is the opposite idea: it defines a range of IP addresses within a scope that the DHCP server will not hand out (often because those addresses are used for statically assigned devices). A lease is the time period that a dynamically assigned IP address is valid before it must be renewed; it does not guarantee the same IP every time. A scope is the overall pool/range of IP addresses and DHCP options (gateway, DNS, etc.) available for a given subnet. Therefore, the component that guarantees the same IP is a reservation."
+  },
+  {
+    "id": 346,
+    "question": "Which of the following wireless networking technologies primarily operates in the 5GHz frequency band?",
+    "options": [
+      "A. Bluetooth",
+      "B. 802.11ac",
+      "C. NFC",
+      "D. RFID"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "802.11ac is a Wi-Fi standard that primarily operates in the 5GHz band and is known for higher throughput and improved performance compared with older 2.4GHz-focused standards. In CompTIA A+ Core 1 networking objectives, you are expected to recognize which IEEE 802.11 standards map to which frequency bands and the typical trade-offs. The 5GHz band generally provides more available non-overlapping channels and less interference from common household devices (like microwaves and many Bluetooth peripherals), which can improve real-world performance. While 5GHz typically has shorter range and weaker wall penetration than 2.4GHz, it often delivers better speeds in the same-room or nearby-room scenarios, which aligns with how 802.11ac is commonly deployed. Bluetooth primarily uses the 2.4GHz ISM band and is designed for short-range personal area networking rather than high-speed WLAN connections. NFC operates at 13.56MHz for very short- range tap-based communications. RFID can operate at several bands (low frequency, high frequency, ultra-high frequency) depending on the use case, but it is not a Wi-Fi networking standard and does not “primarily” operate at 5GHz. Therefore, the correct answer is 802.11ac."
+  },
+  {
+    "id": 347,
+    "question": "Which of the following internet connection types is primarily used for high-speed internet access in rural areas where traditional broadband services are unavailable?",
+    "options": [
+      "A. Fiber",
+      "B. Satellite",
+      "C. DSL",
+      "D. Cable"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Satellite internet is commonly used in rural or remote locations where wired broadband options such as cable and fiber are not available and where DSL service may be limited by distance from the provider’s equipment. CompTIA A+ Core 1 emphasizes understanding internet connection types and where each is typically deployed. Satellite works by using a dish at the customer site to communicate with a satellite, which then relays traffic to a ground station connected to the internet backbone. Because it does not depend on local cable plant, telephone central office proximity, or neighborhood fiber buildouts, it can be deployed in areas with minimal infrastructure. Fiber (A) provides very high speeds and low latency but requires extensive physical infrastructure that is often lacking in rural regions. Cable (D) also requires a local cable network buildout and is usually concentrated in more populated areas. DSL (C) uses existing telephone lines, but performance and availability depend heavily on distance from the DSL provider’s equipment, making it unreliable or unavailable in sparsely populated regions. While satellite often involves higher latency and can be affected by weather, it remains a primary option when traditional broadband services are not present."
+  },
+  {
+    "id": 348,
+    "question": "An administrator is configuring a server to host several virtual machines. The administrator configures the server and is ready to begin provisioning the virtual machines. Which of the following should the administrator utilize to complete this task?",
+    "options": [
+      "A. Device manager",
+      "B. Disk management",
+      "C. Hypervisor",
+      "D. Virtual LAN"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "To provision and run multiple virtual machines on a physical server, the administrator must use a hypervisor. A hypervisor is the virtualization layer that creates, runs, and manages virtual machines by abstracting physical hardware resources such as CPU, RAM, storage, and network adapters into virtual resources presented to each VM. Once the server is configured with the required hardware support (such as sufficient RAM/CPU capacity and virtualization features enabled in firmware), the hypervisor is the component that enables VM creation, allocation of resources, virtual disk creation, and VM lifecycle actions like start, stop, suspend, snapshots, and virtual networking configuration. Device Manager is used to view and manage hardware devices and drivers on an operating system, but it is not a VM provisioning tool. Disk Management can partition and format disks, which may support storage preparation, but it does not create or run VMs. A Virtual LAN is a network segmentation method at Layer 2 and may be used in VM networking designs, but it does not provide virtualization itself. Therefore, the correct tool for provisioning virtual machines is the hypervisor."
+  },
+  {
+    "id": 349,
+    "question": "A device with an IP address of 169.254.34.24 is having trouble accessing internet websites. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. The static IP address configuration is incorrect.",
+      "B. The DNS resolution failed.",
+      "C. The DHCP assignment cannot be obtained.",
+      "D. The internet is disconnected from the router."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An IP address in the 169.254.x.x range indicates the device has assigned itself an APIPA address (Automatic Private IP Addressing). This happens when the device is configured to obtain an IP address automatically but cannot reach a DHCP server to receive a valid IP configuration for the local network. With an APIPA address, the device can sometimes communicate only with other devices in the same 169.254.x.x range on the local link, but it typically will not have a correct default gateway or DNS server settings. Without a valid gateway, the device cannot route traffic to the internet, which explains why it cannot access internet websites. Option C is therefore the most likely cause: the DHCP assignment cannot be obtained due to issues such as a disconnected network cable, disabled Wi-Fi, DHCP server outage, VLAN misconfiguration, or a blocked DHCP request/response on the network. Option B (DNS failure) could prevent name resolution, but it would not by itself cause an APIPA address. Option A suggests a static configuration problem, yet APIPA usually appears when the device is set to DHCP, not static. Option D could also break internet access, but it would not specifically result in a 169.254 address on the client."
+  },
+  {
+    "id": 350,
+    "question": "Which of the following, when combined, are used to make sure a workstation always has the same IP address on a network managed with DHCP?",
+    "options": [
+      "A. Creating a new scope",
+      "B. Enabling network address translation",
+      "C. Assigning a reservation",
+      "D. Configuring an automatic private IP address"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "To ensure a workstation always receives the same IP address while still using DHCP, the correct method is to configure a DHCP reservation. A reservation “combines” two key pieces: the workstation’s MAC address (hardware address) and a specific IP address within the DHCP scope. When the workstation requests an address, the DHCP server matches the request to the stored MAC address and consistently assigns the reserved IP each time the device connects. This provides the benefits of DHCP (central management, consistent options like gateway/DNS, easier changes) while giving the workstation a predictable IP, which is often needed for management, monitoring, or firewall rules. Creating a new scope is used to define an address pool and options for an entire subnet, but it does not guarantee one device always gets the same IP. NAT translates private IPs to public IPs and is unrelated to consistent DHCP assignments for a specific workstation. APIPA automatic private IP addressing 169.254.x.x occurs when DHCP fails and is not a controlled way to ensure a consistent, usable network address. Therefore, assigning a reservation is the correct answer."
+  },
+  {
+    "id": 351,
+    "question": "Which of the following options offers the best connectivity performance with limited necessary accessories?",
+    "options": [
+      "A. Hotspot",
+      "B. Lightning cable",
+      "C. NFC",
+      "D. Bluetooth"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A Lightning cable provides the best connectivity performance when you want strong, stable connectivity while keeping required accessories to a minimum. In a mobile troubleshooting and connectivity context, this refers to USB tethering from an iPhone to another device (such as a laptop). Wired tethering typically offers higher throughput, lower latency, and better stability than wireless tethering methods because it avoids Wi-Fi interference, signal loss, and radio congestion. It also reduces configuration variables—once the cable is connected and tethering is enabled, the connection is generally consistent and less prone to dropouts than wireless options. A hotspot can provide good performance, but it relies on Wi-Fi and is more susceptible to interference and distance, and it also increases battery drain. Bluetooth tethering works with minimal setup but is usually the slowest option and is best suited for low-bandwidth needs. NFC is used for short-range pairing or tap-to-connect actions and does not provide an internet data connection by itself. Therefore, the best option for performance with limited accessories is using a Lightning cable."
+  },
+  {
+    "id": 352,
+    "question": "A network printer consistently produces faint printouts. Users report that the issue persists across different computers and print jobs. Which of the following steps should the technician take first?",
+    "options": [
+      "A. Run a printer calibration process.",
+      "B. Replace the toner cartridge.",
+      "C. Reinstall the printer drivers.",
+      "D. Adjust the fuser temperature."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Because the printer is a network printer and the issue occurs across multiple computers and different print jobs, the problem is very likely within the printer hardware/consumables, not the PC drivers or a single workstation configuration. Faint printing is a classic symptom of low or depleted toner (or an aging toner cartridge that is no longer distributing toner evenly). In CompTIA A+ troubleshooting methodology, you start with the most probable and simplest cause before performing deeper configuration changes or part-level adjustments. Replacing the toner cartridge is a straightforward first action that often resolves consistent faint output quickly and restores normal print density. Reinstalling printer drivers would typically be indicated if only one computer had issues or if output problems changed based on driver settings; that is not the case here. Adjusting fuser temperature is not a normal first-line step for faint prints and is usually associated with toner not bonding properly (smearing or flaking), not consistently light output. Calibration can be useful for alignment or color/quality tuning, but it does not usually fix a persistent, uniform faintness caused by insufficient toner. Therefore, replace the toner cartridge first."
+  },
+  {
+    "id": 353,
+    "question": "Which of the following services allows a networked host to automatically assign IP addresses to devices on a network?",
+    "options": [
+      "A. DNS",
+      "B. DHCP",
+      "C. SMTP",
+      "D. SNMP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "DHCP Dynamic Host Configuration Protocol is the service that automatically assigns IP addresses and other essential network settings to devices when they join a network. Instead of manually configuring each device with an IP address, subnet mask, default gateway, and DNS servers, a DHCP server provides these settings dynamically from a defined address pool. This reduces configuration errors, prevents IP conflicts, and makes network administration easier—especially in environments with many devices or frequent changes. In the DHCP process, a client broadcasts a request, the DHCP server offers an address, the client requests that offered address, and the server acknowledges it, granting the device a lease for a specific period. The lease can be renewed, and administrators can also configure reservations to always give the same IP to a particular device based on its MAC address. DNS is used for resolving hostnames to IP addresses, not assigning them. SMTP is for sending email between mail servers and clients. SNMP is used for monitoring and managing network devices. Therefore, DHCP is the correct service for automatically assigning IP addresses."
+  },
+  {
+    "id": 354,
+    "question": "A company wants to optimize its hardware usage by running multiple operating systems concurrently on a single physical server. Which of the following concepts achieves this goal?",
+    "options": [
+      "A. Host-based virtualization",
+      "B. Public cloud services",
+      "C. High-availability clustering",
+      "D. Software as a service",
+      "E. Load balancing"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Running multiple operating systems at the same time on a single physical server is accomplished through virtualization. In this scenario, host-based virtualization means a host operating system is installed on the physical server first, and then virtualization software runs on top of that OS to create and manage multiple virtual machines. Each virtual machine can run its own guest operating system independently, while sharing the server’s CPU, RAM, storage, and network resources. This improves hardware utilization because one physical server can replace multiple separate machines, and resources can be allocated to VMs based on workload needs. The other options do not directly describe the concept of running multiple OS instances on the same physical hardware. Public cloud services describe a delivery model where resources are provided by a third-party provider, but the underlying concept enabling multiple OS instances is still virtualization. High-availability clustering focuses on redundancy and failover across multiple servers. Software as a service provides a completed application to users, not multiple OS instances. Load balancing distributes traffic across systems and does not create separate operating systems. Therefore, the correct choice is host-based virtualization."
+  },
+  {
+    "id": 355,
+    "question": "A user goes to their office and forgets their laptop charger. After borrowing a charger, the user notices that the battery is charging slowly. Which of the following steps should a technician take first to charge the battery normally?",
+    "options": [
+      "A. Adjust laptop battery performance.",
+      "B. Try a different charging port.",
+      "C. Use a different power supply.",
+      "D. Replace the laptop battery."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The most likely cause of slow charging after borrowing a charger is that the borrowed adapter is not the correct wattage or is not fully compatible with the laptop. Many laptops will still charge with an underpowered or non-matching adapter, but they often charge very slowly, may display a warning like “plugged in, not charging fast,” or may reduce performance to stay within the available power budget. In CompTIA A+ Core 1 troubleshooting, the first step is to check the simplest and most probable cause, especially when the symptom began immediately after a change. Using the proper manufacturer-recommended charger (correct voltage/amperage and connector type, or correct USB- C PD wattage profile if applicable) restores normal charging behavior in most cases. Adjusting battery performance settings might reduce power draw but does not address the root cause of insufficient charger output. Trying a different charging port can help if a port is damaged, but the timing strongly points to the borrowed charger. Replacing the battery is the most invasive and least likely first step because the battery was presumably functioning before the charger change. Therefore, the technician should first use a different, known-good power supply with the correct specifications."
+  },
+  {
+    "id": 356,
+    "question": "Which of the following networking hardware devices is primarily used to connect different network segments and forward data based on MAC addresses?",
+    "options": [
+      "A. Router",
+      "B. Switch",
+      "C. Modem",
+      "D. Firewall"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A switch is the device that primarily forwards traffic based on MAC addresses and is used to connect devices within the same local network. It operates at Layer 2 (Data Link) of the OSI model. When a switch receives an Ethernet frame, it reads the source MAC address and records it in its MAC address table along with the port it arrived on. Then, when the switch needs to send a frame to a destination, it looks up the destination MAC address in that table and forwards the frame only out the correct port. This makes switching efficient and reduces unnecessary traffic compared to older hub-based networks. In CompTIA A+ Core 1, recognizing that MAC-based forwarding is a key switch function is essential. A router forwards traffic based on IP addresses at Layer 3 and is used to connect different IP networks or VLANs. A modem converts signals for ISP connectivity (e.g., cable/DSL/fiber handoff) and does not forward frames by MAC table learning. A firewall filters traffic based on security rules and is not primarily a MAC-forwarding device. Therefore, the best answer is Switch."
+  },
+  {
+    "id": 357,
+    "question": "A programmer needs to run a virtual machine on their laptop to test an application. Which of the following virtualization technologies is the best way to accomplish this goal?",
+    "options": [
+      "A. Containerization",
+      "B. Hypervisor",
+      "C. Virtual desktop infrastructure",
+      "D. Emulation"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hypervisor is the best choice because it is the technology specifically used to create, run, and manage virtual machines. On a laptop, this is typically a Type 2 hypervisor (hosted hypervisor) that runs on top of the existing operating system and allows the programmer to install a separate guest OS in a VM for testing. This provides strong isolation, supports snapshots/checkpoints in many platforms, and lets the tester replicate different OS environments, configurations, and software dependencies without altering the host system. That matches the scenario exactly: the user needs an actual VM environment on their local machine. Containerization is useful for packaging and running applications in isolated user spaces, but containers share the host OS kernel and are not full virtual machines. If the test requires a different OS or kernel-level behavior, containers won’t meet the requirement. VDI delivers desktops hosted on remote servers, not a local VM running on the laptop. Emulation imitates different hardware/architectures and is typically slower and used when running software built for incompatible hardware, which is unnecessary for standard VM testing. Therefore, a hypervisor is the best answer."
+  },
+  {
+    "id": 358,
+    "question": "A user's laptop experiences intermittent issues during startup. A technician finds that the user has left a corporate flash drive plugged in, which is causing the issues. Which of the following should the technician configure?",
+    "options": [
+      "A. BitLocker",
+      "B. Boot options",
+      "C. USB Enable",
+      "D. TPM features"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a laptop has a USB flash drive connected during startup, the system firmware BIOS or UEFI may attempt to boot from that USB device depending on the configured boot order or boot priority. This can cause intermittent startup behavior because the laptop might sometimes detect the flash drive as a bootable device and try to load from it instead of the internal drive, leading to delays, boot errors, or unexpected screens. The correct fix is to adjust boot options in BIOS/UEFI: set the internal SSD/HDD as the first boot device, reduce the priority of USB boot devices, or disable booting from external media when appropriate for the environment. This addresses the root cause directly and prevents the presence of a flash drive from affecting normal startup. BitLocker and TPM features relate to drive encryption and secure key storage and are not the primary reason the system is changing its boot behavior. “USB Enable” would control whether USB ports function, but disabling USB entirely is not a targeted first step and could break keyboards/mice or legitimate USB use. Therefore, the correct configuration item is Boot options."
+  },
+  {
+    "id": 359,
+    "question": "A customer experiences a power outage at their data center. After the outage, one server with three hard drives in RAID 5 does not come back online. When a technician connects to the server, they receive a message stating that Drive 3 has failed. Which of the following steps should the technician take next to minimize the risk of data loss?",
+    "options": [
+      "A. Replace the defective drive and trigger an array rebuild.",
+      "B. Acknowledge the drive error and allow the system to start normally.",
+      "C. Upgrade the firmware on the drives.",
+      "D. Perform a full drive restore from the most recent backup."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "RAID 5 provides fault tolerance by distributing parity information across all drives, allowing the array to continue operating if one drive fails. In a three-drive RAID 5 set, a single disk failure puts the array into a degraded state where it can still function, but it is at higher risk because losing a second drive before recovery would cause data loss. Since the system reports Drive 3 has failed after a power outage, the best next step to minimize risk is to replace the failed drive immediately and start the rebuild. Rebuilding regenerates the missing data blocks onto the new drive using parity, returning the array to a protected state. Option B leaves the array degraded and increases exposure to a second failure. Option C (firmware upgrade) is not a first response in an active failure scenario and can introduce additional risk or downtime. Option D (restore from backup) is typically used when the array is unrecoverable or multiple drives fail; it is more disruptive and unnecessary when RAID 5 can recover from a single-disk failure. Therefore, replacing the defective drive and triggering an array rebuild is the correct next step."
+  },
+  {
+    "id": 360,
+    "question": "A user is setting up a gaming PC with multiple GPUs to play highly advanced games. The user's primary concern is that the power supply is sufficient to support these tasks while allowing for future upgrades. Which of the following power supply configurations should the user select?",
+    "options": [
+      "A. Redundant",
+      "B. Non-modular",
+      "C. Low wattage",
+      "D. Multiple-rail"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "For a gaming PC with multiple GPUs, the power supply must safely deliver high current on the 12V rails, since GPUs and CPUs draw most of their power from 12V. A multiple-rail power supply divides the 12V output into separate rails protected by overcurrent protection (OCP). This configuration helps prevent a single rail from being overloaded and can provide safer distribution when several high-draw components (multiple GPUs, high-end CPU) are installed. From a CompTIA A+ Core 1 perspective, selecting PSU characteristics that match system load and expansion needs is key, and multi-rail designs are directly related to supporting multiple high-power devices with better protection controls. The other options do not meet the goal. Redundant PSUs are typically used in servers for uptime, not consumer gaming builds, and they don’t inherently address GPU power distribution. Non-modular only affects cable management and airflow, not power capability or scalability. Low wattage directly conflicts with the requirement for multi-GPU performance and future upgrades. Therefore, the best choice given is multiple-rail."
+  }
+]

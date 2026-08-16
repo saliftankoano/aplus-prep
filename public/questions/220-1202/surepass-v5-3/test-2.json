@@ -1,0 +1,457 @@
+[
+  {
+    "id": 33,
+    "question": "MFA for a custom web application on a user's smartphone is no longer working. The last time the user remembered it working was before taking a vacation to another country. Which of the following should the technician do first?",
+    "options": [
+      "A. Verify the date and time settings",
+      "B. Apply mobile OS patches",
+      "C. Uninstall and reinstall the application",
+      "D. Escalate to the website developer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 34,
+    "question": "Which of the following is the best way to distribute custom images to 800 devices that include four device vendor classes with two types of user groups?",
+    "options": [
+      "A. Use xcopy to clone the hard drives from one to another",
+      "B. Use robocopy to move the files to each device",
+      "C. Use a local image deployment tool for each device",
+      "D. Use a network-based remote installation tool"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 35,
+    "question": "When a corporate laptop is connected to the company network, it can reach external websites. However, it cannot reach any internal websites, displaying the error message “Cannot reach this page.” Which of the following should a technician configure?",
+    "options": [
+      "A. Subnet mask",
+      "B. DNS settings",
+      "C. Default gateway",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 36,
+    "question": "A town clerk wants to work from home and access documents on a town hall server. What should a technician set up?",
+    "options": [
+      "A. VNC",
+      "B. RDP",
+      "C. VPN",
+      "D. SSH"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 37,
+    "question": "A user wants to dispose of a failed hard drive in a way that ensures the data is unrecoverable. Which of the following is the best at-home method?",
+    "options": [
+      "A. Standard formatting",
+      "B. Low-level formatting",
+      "C. Shredding",
+      "D. Degaussing",
+      "E. Drilling"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 38,
+    "question": "What is the next step a technician should take after completing malware cleanup?",
+    "options": [
+      "A. Perform a secondary antivirus scan",
+      "B. Educate the end user",
+      "C. Reimage the computer",
+      "D. Review system logs"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 39,
+    "question": "After a user installs a mobile application from an advertisement, the phone's battery dies a few hours later, and it is hot to the touch, even when not in use. Which of the following should a technician do first?",
+    "options": [
+      "A. Check for unauthorized device administrators",
+      "B. Contact the software developer",
+      "C. Run a mobile malware scan on the phone",
+      "D. Ensure appropriate MDM policies are applied"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 40,
+    "question": "A technician is attempting to join a workstation to a domain but is receiving an error message stating the domain cannot be found. However, the technician is able to ping the server and access the internet. Given the following information: IP Address – 192.168.1.210 Subnet Mask – 255.255.255.0 Gateway – 192.168.1.1 DNS1 – 8.8.8.8 DNS2 – 1.1.1.1 Server – 192.168.1.10 Which of the following should the technician do to fix the issue?",
+    "options": [
+      "A. Change the DNS settings.",
+      "B. Assign a static IP address.",
+      "C. Configure a subnet mask.",
+      "D. Update the default gateway."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 41,
+    "question": "An administrator must rename the administrator account on a Windows desktop. Which tool is best for this?",
+    "options": [
+      "A. lusrmgr.msc",
+      "B. devmgmt.msc",
+      "C. gpedit.msc",
+      "D. eventvwr.msc"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 42,
+    "question": "After installing new webcam software, a PC experiences BSOD during videoconference calls. What should the technician do next?",
+    "options": [
+      "A. Update the anti-malware signature and scan the system",
+      "B. File a warranty claim with the manufacturer",
+      "C. Start in Safe Mode and roll back the device driver",
+      "D. Reconnect the webcam to the computer"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 43,
+    "question": "Which of the following are system folders on macOS? (Select two)",
+    "options": [
+      "A. Applications",
+      "B. Spotlight",
+      "C. Time Machine",
+      "D. Library",
+      "E. FileVault",
+      "F. iCloud"
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 44,
+    "question": "A Windows 11 Home device is receiving constant pop-ups about an urgent need to update antivirus software in order to remove a detected threat. The user has been clicking the \"X\" button but the window keeps reappearing. The pop-up includes an \"OK\" button to install the update. What should the user do next?",
+    "options": [
+      "A. Click the \"OK\" button to install the update",
+      "B. Reinstall the Windows Operating System",
+      "C. Run System File Checker",
+      "D. Verify the current status and settings of protection measures"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 45,
+    "question": "A technician is 3-D printing high-strength, carbon fiber-based filament parts for a customer order. Which of the following is the most important for the technician to use?",
+    "options": [
+      "A. Steel-toed boots",
+      "B. Air filter mask",
+      "C. ESD mat",
+      "D. Antistatic bags"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 46,
+    "question": "An end user wants to have a sales printer added to their computer. The printer is on the domain. Which of the following is the best method for the technician to add the printer?",
+    "options": [
+      "A. Go to the print server and select the printer name",
+      "B. Connect the laptop to the printer via USB",
+      "C. Connect to the printer via Bluetooth",
+      "D. Go to Local Users and Groups to add the printer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 47,
+    "question": "A company recently transitioned to a cloud-based productivity suite and wants to secure the environment from external threat actors. Which of the following is the most effective method?",
+    "options": [
+      "A. Multifactor authentication",
+      "B. Encryption",
+      "C. Backups",
+      "D. Strong passwords"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 48,
+    "question": "Various alerts on a user's Windows 11 laptop are continually interrupting videoconference calls. Which of the following should a support technician recommend to best solve the issue?",
+    "options": [
+      "A. Use multiple sound output devices for the various source applications",
+      "B. Disable all notifications in different applications in the order they appear",
+      "C. Configure the Sounds option in Control Panel to be set to No Sounds",
+      "D. Set Windows Notifications settings to Do Not Disturb"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 49,
+    "question": "A technician is preparing to replace the batteries in a rack-mounted UPS system. After ensuring the power is turned off and the batteries are fully discharged, the technician needs to remove the battery modules from the bottom of the rack. Which of the following steps should the technician take?",
+    "options": [
+      "A. Ensure the fire suppression system is ready to be activated.",
+      "B. Use appropriate lifting techniques and guidelines.",
+      "C. Place the removed batteries in an antistatic bag.",
+      "D. Wear a face mask to filter out any harmful fumes."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 50,
+    "question": "A user frequently misplaces their Windows laptop and is concerned about it being stolen. The user would like additional security controls on their laptop. Which of the following is a built-in technology that a technician can use to enable full drive encryption?",
+    "options": [
+      "A. Active Directory",
+      "B. New Technology File System",
+      "C. Encrypting File System",
+      "D. BitLocker"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 51,
+    "question": "A user is unable to upload files to the corporate servers from their mobile phone when outside the office, but uploading files works without issue in the office. The user saw an error notification but dismissed it. Which of the following should a technician do to determine the root cause?",
+    "options": [
+      "A. Check the data usage limit",
+      "B. Enable airplane mode",
+      "C. Verify the last device reboot",
+      "D. Enable Bluetooth connectivity"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 52,
+    "question": "A user takes an iOS-based smartphone that is performing slowly to a repair shop. A shop technician finds the following information: Battery charge: 25% Battery health: 90% Hotspot: On Mobile reception: ||| Roaming: Off Used space: 63.76GB/64GB Which of the following is the cause of the issue?",
+    "options": [
+      "A. The device is running out of free space",
+      "B. The battery health is low",
+      "C. The phone is not sufficiently charged",
+      "D. The hotspot is degrading the performance",
+      "E. Too many applications are open"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 53,
+    "question": "A technician needs to disable guest log-ins on domain-joined desktop machines. Which of the following should the technician use?",
+    "options": [
+      "A. Group Policy",
+      "B. Firewall",
+      "C. Microsoft Management Control",
+      "D. MSConfig"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 54,
+    "question": "A technician follows proper malware removal procedures but cannot remove all malware. They decide to reload the OS. What should they select?",
+    "options": [
+      "A. Version upgrade",
+      "B. System restore",
+      "C. OS repair",
+      "D. Clean install"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 55,
+    "question": "An administrator is investigating a technical outage. The management team wants information that includes the summary of the outage and actions taken. Which of the following documentation should the administrator provide to the management team?",
+    "options": [
+      "A. Knowledge base article",
+      "B. Non-disclosure agreement",
+      "C. Incident report",
+      "D. Standard operating procedure"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 57,
+    "question": "What is found in an MSDS (Material Safety Data Sheet) for a battery backup?",
+    "options": [
+      "A. Installation instructions",
+      "B. Emergency procedures",
+      "C. Configuration steps",
+      "D. Voltage"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 58,
+    "question": "A technician uses AI to draft a proposal about the benefits of new software. When reading the draft, the technician notices that the draft contains factually incorrect information. Which of the following best describes this scenario?",
+    "options": [
+      "A. Data privacy",
+      "B. Hallucinations",
+      "C. Appropriate use",
+      "D. Plagiarism"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 59,
+    "question": "Which of the following methods involves requesting a user's approval via a push notification to verify the user's identity?",
+    "options": [
+      "A. Call",
+      "B. Authenticator",
+      "C. Hardware token",
+      "D. SMS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 60,
+    "question": "A technician needs to configure laptops so that only administrators can enable virtualization technology if needed. Which of the following should the technician configure?",
+    "options": [
+      "A. BIOS password",
+      "B. Guest account",
+      "C. Screen lock",
+      "D. AutoRun setting"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 61,
+    "question": "A Chief Executive Officer wants to meet with remote employees in a way that will allow for communication and training. Which of the following software technologies is the best for this situation?",
+    "options": [
+      "A. Videoconferencing",
+      "B. Screen sharing",
+      "C. Remote Desktop",
+      "D. Virtual desktop infrastructure"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 62,
+    "question": "A user reports that their corporate mobile phone is lost. Which of the following protects the data locally on the phone from unauthorized access?",
+    "options": [
+      "A. Password manager",
+      "B. Degaussing",
+      "C. Remote wipe",
+      "D. Antivirus"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 63,
+    "question": "A user is experiencing issues with outdated images while browsing websites. Which of the following settings should a technician use to correct this issue?",
+    "options": [
+      "A. Administrative Tools",
+      "B. Windows Defender Firewall",
+      "C. Internet Options",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  }
+]

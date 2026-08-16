@@ -1,0 +1,455 @@
+[
+  {
+    "id": 433,
+    "question": "Which of the following is primarily used to connect different networks?",
+    "options": [
+      "A. Controller",
+      "B. Bridge",
+      "C. Hub",
+      "D. Router"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Router. According to the CompTIA A+ Core 1 (220-1201) objectives for Networking, routers are devices that operate at Layer 3 (Network layer) and are primarily used to connect multiple networks, including LANs, WANs, and the Internet. Routers use IP addressing to determine the best path for forwarding packets between networks. Why the other options are incorrect: A . Controller: Generally refers to a device that manages a network or hardware component but does not inherently connect different networks. B . Bridge: Connects two segments of the same network, not different networks, and operates at Layer 2 (Data Link layer). C . Hub: Connects devices within the same network segment, simply repeating signals, and does not perform routing between networks. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, install and configure network devices including routers, switches, and access points.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Networking Devices Chapter."
+  },
+  {
+    "id": 434,
+    "question": "A technician adds the NTP service to a server and configures all network computers to that service. Which of the following is the technician most likely trying to achieve?",
+    "options": [
+      "A. Defined network transport protocols",
+      "B. Enabled print services on the server",
+      "C. Synchronized system clocks",
+      "D. Defined server options in DHCP"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is C. Synchronized system clocks. According to CompTIA A+ Core 1 220-1201 objectives under Networking and Server Services, NTP (Network Time Protocol) is used to synchronize the clocks of computers across a network to a common time source. This is critical for: Ensuring accurate timestamps for logs and events. Coordinating scheduled tasks across multiple systems. Preventing authentication issues in environments that rely on time-based credentials (e.g., Kerberos). Why the other options are incorrect: A . Defined network transport protocols: NTP itself is a protocol that uses UDP, but its primary purpose is not defining transport protocols. B . Enabled print services on the server: NTP does not relate to printing. D . Defined server options in DHCP: NTP may be referenced by DHCP options, but the act of adding NTP to a server is focused on time synchronization, not DHCP configuration. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, configure services and settings on network devices including NTP for time synchronization.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Networking Services."
+  },
+  {
+    "id": 435,
+    "question": "Which of the following is used to assign an IP address to a network PC?",
+    "options": [
+      "A. VLAN",
+      "B. DNS",
+      "C. DHCP",
+      "D. TCP"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is C. DHCP (Dynamic Host Configuration Protocol). According to CompTIA A+ Core 1 220-1201 objectives under Networking: DHCP is used to automatically assign IP addresses and related network configuration (such as subnet mask, default gateway, and DNS servers) to devices on a network. This eliminates the need for manually configuring IP addresses on each PC and helps prevent conflicts. Why the other options are incorrect: A . VLAN (Virtual Local Area Network): VLANs segment a network into logical subnets but do not assign IP addresses. B . DNS (Domain Name System): DNS translates domain names to IP addresses; it does not assign IP addresses to devices. D . TCP (Transmission Control Protocol): TCP is a transport layer protocol used for reliable communication between devices, not for IP assignment. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, configure TCP/IP, including DHCP, static addressing, and subnetting.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Networking Protocols and IP Addressing."
+  },
+  {
+    "id": 436,
+    "question": "Which of the following can be used by a mobile device to access a secure building?",
+    "options": [
+      "A. Hotspot",
+      "B. Near-field communication",
+      "C. Infrared scanner",
+      "D. Geolocation"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Near-field communication (NFC). According to the CompTIA A+ Core 1 220-1201 objectives under Mobile Devices and Security: NFC is commonly used for secure access control. Many organizations implement NFC-enabled ID badges or mobile devices to unlock doors, gates, or secure areas. The mobile device communicates over a very short range (a few centimeters) with a reader to authenticate the user. Why the other options are incorrect: A . Hotspot: Provides internet access, not physical building access. C . Infrared scanner: While used in some legacy devices, it is not commonly implemented for secure mobile access. D . Geolocation: Can provide location awareness but does not grant direct access to secure physical spaces. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Mobile Devices: “Given a scenario, configure mobile device features including secure access and authentication methods such as NFC and Bluetooth.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Mobile Device Security and Access Control."
+  },
+  {
+    "id": 437,
+    "question": "Which of the following is a key characteristic of cloud computing that ensures resources are dynamically distributed to meet varying workloads?",
+    "options": [
+      "A. Hybrid deployment",
+      "B. Elasticity",
+      "C. Multitenancy",
+      "D. Metered utilization"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Elasticity. According to CompTIA A+ Core 1 220-1201 objectives under Networking and Cloud Concepts: Elasticity refers to the cloud computing capability to automatically allocate and deallocate resources based on current demand. This ensures that applications have the necessary compute, storage, and network capacity during peak loads, and resources can be scaled down when demand decreases, optimizing efficiency and cost. Why the other options are incorrect: A . Hybrid deployment: Refers to using a combination of public and private clouds; it does not describe dynamic resource allocation. C . Multitenancy: Describes the architecture where multiple users share the same infrastructure securely. D . Metered utilization: Refers to charging based on resource consumption; it is a billing mechanism, not a dynamic allocation feature. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, explain cloud computing concepts including elasticity, multitenancy, and hybrid deployment.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Cloud Computing Concepts."
+  },
+  {
+    "id": 438,
+    "question": "Which of the following virtualization concepts is suitable for a development team that requires a bare minimum platform to run web applications with the capability to dispose and redeploy as needed?",
+    "options": [
+      "A. Containers",
+      "B. IaaS",
+      "C. SaaS",
+      "D. Desktop virtualization"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Containers. According to CompTIA A+ Core 1 220-1201 objectives under Networking and Cloud/Virtualization Concepts: Containers provide lightweight, portable environments that package applications and their dependencies, allowing them to run consistently across multiple environments. Containers are ideal for development teams because they require minimal underlying infrastructure, can be quickly deployed or destroyed, and isolate applications from the host system, making it easier to manage multiple applications simultaneously. Why the other options are incorrect: B . IaaS (Infrastructure as a Service): Provides virtualized hardware over the cloud but is more general-purpose; it includes virtual machines, storage, and networking, not minimal isolated application environments. C . SaaS (Software as a Service): Provides fully managed software to end-users; not intended for deploying custom web applications by a development team. D . Desktop virtualization: Provides virtual desktop environments to users; it does not provide a minimal, disposable platform for web application development. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Cloud and Virtualization: “Given a scenario, explain virtualization concepts including containers, IaaS, PaaS, and SaaS.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Virtualization and Cloud Computing."
+  },
+  {
+    "id": 439,
+    "question": "Which of the following storage devices is most suitable for quick data access and retrieval speeds on a laptop?",
+    "options": [
+      "A. SATA M.2",
+      "B. NVMe SSD",
+      "C. Optical disk",
+      "D. 7,200rpm HDD"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. NVMe SSD. According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Storage: NVMe (Non-Volatile Memory Express) SSDs provide the fastest data access and retrieval speeds compared to other storage types, especially on laptops. NVMe SSDs use the PCIe interface, which allows significantly higher throughput and lower latency than SATA-based storage. This improves boot times, application load times, and overall system responsiveness. Why the other options are incorrect: A . SATA M.2: While faster than traditional 2.5” SSDs and HDDs, SATA M.2 is limited by the SATA III interface (~600 MB/s), which is slower than NVMe SSDs (~3,000–7,000 MB/s). C . Optical disk: Optical media (CD/DVD/Blu-ray) is extremely slow and not suitable for quick access or retrieval. D . 7,200rpm HDD: Mechanical hard drives have the slowest access times and throughput compared to SSDs. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Storage: “Given a scenario, install and configure storage devices including SSDs and NVMe drives.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Storage Devices."
+  },
+  {
+    "id": 440,
+    "question": "A technician is attaching additional internal USB ports to a motherboard. In which of the following locations will the technician most likely connect these ports?",
+    "options": [
+      "A. TPM",
+      "B. Header pinouts",
+      "C. M.2 connector",
+      "D. Expansion slots"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Header pinouts. According to CompTIA A+ Core 1 220-1201 objectives under Hardware: Header pinouts on a motherboard are designated connectors for internal components such as USB ports, audio connectors, and front panel buttons/LEDs. When adding additional internal USB ports, a technician typically connects them to the motherboard’s USB header pinouts. These headers provide the necessary data and power connections to enable USB functionality for front-panel or expansion USB ports. Why the other options are incorrect: A . TPM (Trusted Platform Module): Used for hardware-based security functions like encryption, not USB connectivity. C . M.2 connector: Used primarily for SSDs and other small-form-factor expansion devices, not standard USB ports. D . Expansion slots: Typically PCIe or PCI slots are used for expansion cards such as GPUs, network cards, or USB controller cards, but not for connecting internal USB headers directly. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, install and configure motherboards and internal components including headers and USB ports.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Motherboards and Internal Connectors."
+  },
+  {
+    "id": 441,
+    "question": "An administrator must configure a server that prioritizes data availability. Because the server will be accessed by many users, the administrator must also consider performance. Which of the following RAID levels best meets these requirements within a single array?",
+    "options": [
+      "A. 1",
+      "B. 0",
+      "C. 5",
+      "D. 10"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. RAID 10 (also called RAID 1+0). According to CompTIA A+ Core 1 220-1201 objectives under Storage: RAID 10 combines the mirroring of RAID 1 with the striping of RAID 0. This provides both high data availability (because each drive has a mirror) and improved performance (because data is striped across multiple disks). RAID 10 requires a minimum of four drives and is suitable for servers that handle high I/O workloads while maintaining redundancy. Why the other options are incorrect: A . RAID 1: Provides mirroring for redundancy but does not improve performance as effectively as RAID 10. B . RAID 0: Provides striping for performance but has no redundancy; a single drive failure results in data loss. C . RAID 5: Provides parity and can tolerate one drive failure with decent read performance, but write performance is lower than RAID 10 and rebuilds can impact system performance under heavy load. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Storage: “Given a scenario, configure RAID levels to balance performance, availability, and redundancy.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on RAID and Storage Arrays."
+  },
+  {
+    "id": 442,
+    "question": "A technician is configuring an organization's managed switch to prevent other users on the same switch from accessing the accounting department. Which of the following should the technician configure to accomplish this task?",
+    "options": [
+      "A. Virtual LAN",
+      "B. DHCP reservations",
+      "C. Content filtering",
+      "D. Port security"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Virtual LAN (VLAN). According to CompTIA A+ Core 1 220-1201 objectives under Networking: VLANs are used to segment a physical network into multiple logical networks. By assigning the accounting department to a separate VLAN, users on other VLANs cannot access its network traffic without routing, thereby isolating sensitive departments while using the same physical switch. VLANs improve security, reduce broadcast traffic, and allow network administrators to enforce access controls at the layer 2 level. Why the other options are incorrect: B . DHCP reservations: Ensure that specific devices always receive the same IP address, but do not restrict network access. C . Content filtering: Controls web or application traffic based on content, not segmenting network access between departments. D . Port security: Limits which devices can connect to a port but does not provide full network segmentation for an entire department. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, configure network devices and settings including VLANs to isolate traffic and enhance security.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Network Segmentation and VLANs."
+  },
+  {
+    "id": 443,
+    "question": "After a laptop display panel was replaced recently, the laptop has had difficulty staying connected to Wi-Fi. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. The internal antenna has been damaged",
+      "B. Airplane mode is enabled",
+      "C. The inverter is not connected",
+      "D. The wireless drivers have not been updated"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. The internal antenna has been damaged. According to the CompTIA A+ Core 1 220-1201 objectives under Mobile Devices and Networking: Many laptop Wi-Fi antennas are embedded in the display panel and connected via small cables to the wireless card on the motherboard. If the display panel is replaced and the Wi-Fi antenna is disconnected, damaged, or improperly routed, the laptop will experience weak or intermittent Wi-Fi connectivity. Why the other options are incorrect: B . Airplane mode is enabled: Would completely disable wireless radios; the question specifies difficulty staying connected, not a total lack of connectivity. C . The inverter is not connected: The inverter powers the backlight of the display, unrelated to wireless connectivity. D . The wireless drivers have not been updated: While outdated drivers can cause connectivity issues, a sudden problem after a display replacement strongly points to physical antenna damage. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Mobile Devices: “Given a scenario, troubleshoot mobile device connectivity including Wi-Fi, antennas, and wireless drivers.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Laptop Wireless Networking and Hardware Issues."
+  },
+  {
+    "id": 444,
+    "question": "Which of the following cable types is a video-only connection?",
+    "options": [
+      "A. DisplayPort",
+      "B. HDMI",
+      "C. USB-C",
+      "D. DVI"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. DVI (Digital Visual Interface). According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Display Technologies: DVI is primarily a video-only interface that transmits digital or analog video signals from a source (like a computer) to a display. Unlike HDMI or USB-C, DVI does not carry audio signals, making it strictly for video. Why the other options are incorrect: A . DisplayPort: Supports video and audio as well as other features such as daisy-chaining multiple monitors. B . HDMI: Transmits both video and audio signals over a single cable. C . USB-C: Can carry data, power, and video/audio signals depending on the device and protocol (e.g., DisplayPort Alt Mode). Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, install and configure display devices and connections including VGA, DVI, HDMI, DisplayPort, and USB-C.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Video Connectors and Display Technologies."
+  },
+  {
+    "id": 445,
+    "question": "A specialist needs to configure a computer so that it will not boot up using any non-trusted or unsigned external devices that are connected to the computer. Which of the following should the specialist configure?",
+    "options": [
+      "A. BIOS password",
+      "B. Secure Boot",
+      "C. USB settings",
+      "D. Single sign-on"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Secure Boot. According to CompTIA A+ Core 1 220-1201 objectives under Security: Secure Boot is a UEFI firmware feature that ensures a computer boots only with software that is trusted and digitally signed by the manufacturer. This prevents malicious or unauthorized bootloaders and operating systems from loading, protecting the system from rootkits and other boot-time attacks. Secure Boot does not require disabling USB devices; it simply checks that any bootable device contains a signed operating system. Why the other options are incorrect: A . BIOS password: Protects access to BIOS/UEFI settings but does not verify trusted software during boot. C . USB settings: Can control USB access but cannot enforce boot validation for signed OS or prevent unauthorized boot devices. D . Single sign-on: Provides authentication convenience for users, unrelated to boot security. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Security: “Given a scenario, configure security settings including Secure Boot to protect against unauthorized boot and malware attacks.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Security and UEFI/BIOS Protection."
+  },
+  {
+    "id": 446,
+    "question": "Which of the following is most commonly used to increase 802.11 wireless throughput speed?",
+    "options": [
+      "A. Licensed bands",
+      "B. Maximum transmission unit",
+      "C. Transmit power",
+      "D. Channel width"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Channel width. According to CompTIA A+ Core 1 220-1201 objectives under Networking and Wireless: Channel width refers to the size of the frequency band used for Wi-Fi communication. Increasing channel width (e.g., from 20 MHz to 40 MHz, 80 MHz, or 160 MHz) allows more data to be transmitted at once, effectively increasing wireless throughput speed. Why the other options are incorrect: A . Licensed bands: Licensed spectrum is used for certain types of communication and does not directly increase Wi-Fi throughput. B . Maximum transmission unit (MTU): MTU defines the largest packet size transmitted over a network but is not the primary factor for increasing Wi-Fi throughput. C . Transmit power: Adjusting transmit power affects signal range and coverage but does not significantly increase throughput; it may improve connectivity but not data rates. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, troubleshoot and configure wireless settings including channel selection, transmit power, and frequency bands.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Wireless Networking."
+  },
+  {
+    "id": 447,
+    "question": "A server that is crucial for daily operations is experiencing degraded performance. Upon investigation, a technician sees that one of the drives in a RAID 5 configuration shows a failure alert. The system must remain online during business hours, and the controller does not support hot swapping. Which of the following should the technician do to solve the issue?",
+    "options": [
+      "A. Update the RAID controller firmware to support hot swapping",
+      "B. Implement a software-based RAID solution",
+      "C. Change the drive during off-peak hours",
+      "D. Replace the drive with a cold-swappable drive"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Replace the drive with a cold-swappable drive. According to CompTIA A+ Core 1 220-1201 objectives under Storage and RAID: RAID 5 provides both data striping and parity for fault tolerance, but if the RAID controller does not support hot swapping, replacing a failed drive while the system is running is not possible. Cold-swappable drives are designed to be safely removed and replaced when the system is powered down, which allows maintenance without damaging the array or system. Why the other options are incorrect: A . Update the RAID controller firmware to support hot swapping: Firmware updates may add hot swap functionality, but this is not guaranteed and may require a system reboot. B . Implement a software-based RAID solution: Software RAID requires a system reconfiguration and downtime; it does not immediately resolve the degraded RAID 5 array. C . Change the drive during off-peak hours: While feasible, this is essentially the same as using a cold-swappable drive but is less precise; using cold-swappable drives ensures safe replacement without downtime considerations. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Storage: “Given a scenario, troubleshoot RAID issues including failed drives, degraded arrays, and drive replacement procedures.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on RAID and Storage Maintenance."
+  },
+  {
+    "id": 448,
+    "question": "Which of the following technologies is the best way to reduce hardware costs in a data center by allowing multiple operating systems to run on a single physical server?",
+    "options": [
+      "A. Containerization",
+      "B. Cloud computing",
+      "C. Virtualization",
+      "D. Remote desktop services"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The correct answer is C. Virtualization. According to CompTIA A+ Core 1 220-1201 objectives under Networking and Cloud/Virtualization Concepts: Virtualization allows a single physical server to host multiple virtual machines (VMs), each running its own operating system and applications. This reduces hardware costs because fewer physical servers are required to run multiple workloads, and it improves resource utilization, scalability, and management. Why the other options are incorrect: A . Containerization: Optimizes application deployment by packaging applications and dependencies, but containers share the host OS kernel and are not full OS instances. B . Cloud computing: Refers to delivering computing services over the internet; it can use virtualization but is broader and not specifically focused on reducing physical hardware. D . Remote desktop services: Provides remote access to desktops or applications; it does not reduce hardware requirements for hosting multiple OS environments. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Cloud and Virtualization: “Explain virtualization concepts including hypervisors, virtual machines, and cost reduction in data centers.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Virtualization and Cloud Computing."
+  },
+  {
+    "id": 449,
+    "question": "A user's monitor shows strange colored lines and flickers when adjusting the brightness. The user requires the device for daily professional tasks. Which of the following should a technician do to effectively address the screen issue, given cost and urgency considerations?",
+    "options": [
+      "A. Suggest the user use a secondary monitor for essential tasks",
+      "B. Conduct a factory reset to eliminate software issues",
+      "C. Install a screen protector to minimize flickering",
+      "D. Check for loose connections on the display"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Check for loose connections on the display. According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Display Troubleshooting: Flickering or strange colored lines on a monitor are often caused by loose or damaged video cable connections (internal or external). Before considering costly or time-consuming solutions like replacement, the technician should verify that the display cable, internal ribbon cables, or connectors are properly seated. Why the other options are incorrect: A . Suggest a secondary monitor: Provides a temporary workaround but does not resolve the underlying hardware issue. B . Conduct a factory reset: Resets software settings but will not correct physical connection problems that cause flickering or colored lines. C . Install a screen protector: Does not affect video signal or display functionality; irrelevant for flickering issues. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, troubleshoot display problems including artifacts, flickering, color issues, and connectivity.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Display Troubleshooting."
+  },
+  {
+    "id": 450,
+    "question": "A user receives a warning message on their tablet that states, \"You are locked out due to unlawful activity.\" The user was shopping for clothes online. Which of the following should a technician try first?",
+    "options": [
+      "A. Force close all running applications on the device",
+      "B. Replace the tablet with a newer device",
+      "C. Reset the device to default settings",
+      "D. Restart the device"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Restart the device. According to CompTIA A+ Core 1 220-1201 objectives under Mobile Devices and Security: Warning messages like this can be caused by malicious pop-ups or temporary software glitches. Restarting the device is the safest and quickest first step to clear temporary processes, refresh the system, and remove transient malware or pop-up overlays. This approach addresses the issue without risking data loss or unnecessary downtime. Why the other options are incorrect: A . Force close all running applications: May help if a specific app is causing the pop-up, but restarting achieves this more reliably and fully resets background processes. B . Replace the tablet with a newer device: Unnecessary and costly for a potentially temporary software issue. C . Reset the device to default settings: This is a last-resort action, as it erases personal data and settings; it is not the first step. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Mobile Devices: “Given a scenario, troubleshoot mobile device issues including pop-ups, malware warnings, and temporary system glitches.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Mobile Device Troubleshooting."
+  },
+  {
+    "id": 451,
+    "question": "A financial institution's application sends a notification to customers when a nearby store accepts contactless payments. Which of the following should be enabled so the application works as intended? (Select two)",
+    "options": [
+      "A. MDM",
+      "B. Contact syncing",
+      "C. Bluetooth",
+      "D. Hotspot",
+      "E. NFC",
+      "F. Location services"
+    ],
+    "correctAnswers": [
+      4,
+      5
+    ],
+    "correctAnswer": 4,
+    "explanation": "The correct answers are E. NFC and F. Location services. According to CompTIA A+ Core 1 220-1201 objectives under Mobile Devices and Security: NFC (Near-Field Communication): Enables the device to communicate with contactless payment terminals, which is essential for detecting nearby stores that accept contactless payments. Location services: Allows the application to determine the user’s geographic location so it can provide notifications only when the user is near a participating store. Why the other options are incorrect: A . MDM (Mobile Device Management): Manages device policies but does not enable location-based notifications or contactless payments. B . Contact syncing: Synchronizes contacts; unrelated to payment notifications. C . Bluetooth: Can be used for some proximity services, but NFC is required for contactless payment detection. D . Hotspot: Provides internet access; not required for proximity detection in this context. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Mobile Devices: “Given a scenario, configure mobile device features including NFC and location services for apps that interact with external devices or services.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Mobile Device Features and Proximity-Based Services."
+  },
+  {
+    "id": 452,
+    "question": "Which of the following protocols is used for sending emails?",
+    "options": [
+      "A. POP3",
+      "B. IMAP",
+      "C. LDAP",
+      "D. SMTP"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. SMTP (Simple Mail Transfer Protocol). According to CompTIA A+ Core 1 220-1201 objectives under Networking: SMTP is the standard protocol used to send emails from a client to a mail server or between servers. POP3 (Post Office Protocol 3) and IMAP (Internet Message Access Protocol) are used for receiving emails, not sending them. LDAP (Lightweight Directory Access Protocol) is used for accessing and managing directory services, such as authentication and organizational information, not for email transport. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, configure email clients and protocols including SMTP, POP3, and IMAP.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Networking Protocols and Email Services."
+  },
+  {
+    "id": 453,
+    "question": "Which of the following is a benefit of application virtualization?",
+    "options": [
+      "A. Better compatibility",
+      "B. Reduced network latency",
+      "C. Secure telnet access",
+      "D. Metered utilization"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Better compatibility. According to CompTIA A+ Core 1 220-1201 objectives under Software Troubleshooting and Virtualization: Application virtualization allows applications to run in an isolated environment on a client device without being installed directly on the operating system. This improves compatibility, as applications can operate regardless of OS differences, avoiding conflicts with other installed applications or system configurations. Why the other options are incorrect: B . Reduced network latency: Application virtualization does not inherently reduce network latency; network performance depends on connectivity. C . Secure telnet access: Telnet is unrelated to application virtualization. D . Metered utilization: Metering refers to cloud service usage or billing, not a benefit of application virtualization itself. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Software Troubleshooting: “Given a scenario, troubleshoot and apply virtualization concepts including application virtualization for compatibility and isolation.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Virtualization and Application Deployment."
+  },
+  {
+    "id": 454,
+    "question": "A shared printer frequently jams, especially when printing double-sided documents. The paper size is standard office A4. The printer is used regularly throughout the day. Which of the following actions should the technician take to address the paper jamming issue?",
+    "options": [
+      "A. Clean the feed rollers",
+      "B. Use a different paper weight",
+      "C. Replace the fuser unit",
+      "D. Change the toner cartridge"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Clean the feed rollers. According to CompTIA A+ Core 1 220-1201 objectives under Printers: Frequent paper jams, particularly in high-use shared printers, are commonly caused by dirty or worn feed rollers. Cleaning the feed rollers removes dust, paper debris, and toner residue that can prevent smooth paper feeding, especially when printing double-sided documents. This is a standard preventive maintenance procedure that improves reliability and extends the printer’s operational life. Why the other options are incorrect: B . Use a different paper weight: A4 standard paper is appropriate; changing paper weight is unnecessary unless the paper is damaged or incompatible. C . Replace the fuser unit: Fuser problems generally cause smudging or incomplete fusing, not frequent paper jams. D . Change the toner cartridge: Toner issues affect print quality (light or streaky prints), not paper feeding or jamming. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Printers: “Given a scenario, troubleshoot common printer problems including paper jams, feed issues, and maintenance tasks.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Printer Troubleshooting and Maintenance."
+  },
+  {
+    "id": 455,
+    "question": "A technician needs to replace a laptop's display assembly. Which of the following should the technician do to complete this task?",
+    "options": [
+      "A. Reattach the heat sinks",
+      "B. Reconnect the wireless antennas",
+      "C. Install a new CPU fan",
+      "D. Reset the BIOS to default settings"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Reconnect the wireless antennas. According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Laptop Maintenance: Many laptop wireless antennas are routed through the display assembly to provide optimal Wi-Fi and Bluetooth signal strength. When replacing a laptop display, it is essential to disconnect and then reconnect the wireless antennas to ensure proper connectivity. Failing to reconnect these antennas can result in weak or no wireless signal. Why the other options are incorrect: A . Reattach the heat sinks: Heat sinks are part of the CPU/GPU cooling assembly and are unrelated to replacing the display. C . Install a new CPU fan: CPU fans are part of the cooling system, not the display assembly. D . Reset the BIOS to default settings: Not required for physically replacing the display; the BIOS retains settings independently of display hardware. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, replace laptop components including displays and ensure connectivity of integrated devices such as antennas.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Laptop Maintenance and Component Replacement."
+  },
+  {
+    "id": 456,
+    "question": "Employees report that a shared laser printer has difficulty printing on thick paper. A technician verifies that the printer works as expected on standard paper, but output on thick paper is easily smudged when touched. Which of the following should the technician do first?",
+    "options": [
+      "A. Install a maintenance kit",
+      "B. Change the fuser temperature",
+      "C. Clean the transfer roller",
+      "D. Install an OEM toner cartridge"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Change the fuser temperature. According to CompTIA A+ Core 1 220-1201 objectives under Printers: A laser printer fuses toner onto paper using heat and pressure. Thicker paper often requires a higher fuser temperature to properly adhere the toner. If the output smudges on thick paper but prints fine on standard paper, adjusting the fuser temperature is the first step before performing more invasive maintenance or replacing parts. Why the other options are incorrect: A . Install a maintenance kit: Typically includes rollers, belts, and other parts; this is not the first action if the issue is temperature-related. C . Clean the transfer roller: Cleaning may improve print quality, but smudging on thick paper usually relates to insufficient fusing heat. D . Install an OEM toner cartridge: The issue is unlikely to be caused by non-OEM toner if standard paper prints correctly. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Printers: “Given a scenario, troubleshoot printing problems including smudging, paper jams, and fuser issues.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Printer Troubleshooting and Maintenance."
+  },
+  {
+    "id": 457,
+    "question": "A technician needs to replace the connector on a data cable that uses two pairs of wires. Which of the following connectors should the technician use?",
+    "options": [
+      "A. RJ11",
+      "B. F-type",
+      "C. ST",
+      "D. Molex"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. RJ11. According to CompTIA A+ Core 1 220-1201 objectives under Networking: RJ11 connectors are commonly used for telephone lines and data cables that use two pairs of wires (four wires total). This connector is standard for analog telephone connections and DSL connections. Why the other options are incorrect: B . F-type: Used for coaxial cables, commonly in cable TV or broadband internet, not for two-pair data cables. C . ST: A type of fiber optic connector, not used for copper two-pair wiring. D . Molex: Primarily used for power connections in computer hardware, not for network or phone cabling. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, install and configure cables and connectors including RJ11, RJ45, coaxial, and fiber.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Networking Cables and Connectors."
+  },
+  {
+    "id": 458,
+    "question": "An administrator for a wireless network is planning the company's floor plan using a heat map. Which of the following types of networks is the administrator configuring?",
+    "options": [
+      "A. SAN",
+      "B. PAN",
+      "C. MAN",
+      "D. WLAN"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. WLAN (Wireless Local Area Network). According to CompTIA A+ Core 1 220-1201 objectives under Networking: A WLAN is a wireless network that covers a limited area such as an office, building, or campus. Using a heat map helps administrators determine optimal placement of access points, identify areas of weak signal, and plan coverage for employees’ devices. Why the other options are incorrect: A . SAN (Storage Area Network): Connects storage devices over a network; not used for wireless coverage. B . PAN (Personal Area Network): Covers a very small area, such as a single person’s devices (Bluetooth, USB, etc.), not a whole office. C . MAN (Metropolitan Area Network): Covers a city or large geographic area; too large for a floor plan. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, configure wireless networks including site surveys, heat maps, and access point placement.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Wireless Networking."
+  },
+  {
+    "id": 459,
+    "question": "Which of the following describes an advantage of mini-LED displays over OLED displays?",
+    "options": [
+      "A. Increased contrast",
+      "B. No backlight",
+      "C. Improved viewing angle",
+      "D. Decreased burn-in"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Decreased burn-in. According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Display Technologies: Mini-LED displays use an array of tiny LEDs as a backlight for LCD panels. Unlike OLED displays, which are susceptible to burn-in (permanent image retention when static content is displayed for long periods), mini-LEDs reduce the risk because the pixels themselves do not emit light individually and are less prone to permanent image retention. Why the other options are incorrect: A . Increased contrast: OLED typically provides better contrast because it can turn off individual pixels completely. B . No backlight: Mini-LEDs still use a backlight, whereas OLEDs do not. C . Improved viewing angle: OLEDs generally offer wider viewing angles than mini-LED LCDs. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, select display types and technologies considering resolution, contrast, burn-in risk, and backlighting.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Display Technologies."
+  },
+  {
+    "id": 460,
+    "question": "Which of the following is used to verify if a NIC port can send and receive data?",
+    "options": [
+      "A. Loopback plug",
+      "B. Toner probe",
+      "C. Cable tester",
+      "D. Network tap"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct answer is A. Loopback plug. According to CompTIA A+ Core 1 220-1201 objectives under Networking: A loopback plug is used to test a network interface card (NIC) port by sending a signal out of the port and back into the same port, verifying that the NIC can send and receive data properly. This is a common diagnostic tool when troubleshooting network connectivity issues on individual devices. Why the other options are incorrect: B . Toner probe: Used for tracing and locating cables, not for testing NIC ports. C . Cable tester: Checks the integrity of network cables but does not verify NIC send/receive functionality. D . Network tap: Passively monitors network traffic but does not test the NIC port itself. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Networking: “Given a scenario, use tools such as loopback plugs and cable testers to verify network connectivity.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Network Troubleshooting Tools."
+  },
+  {
+    "id": 461,
+    "question": "A user is trying to present a video in a conference room. The video appears when the user connects the computer to the TV display with an HDMI cable. However, there is no sound coming through. The computer and TV volumes are at 50%. Which of the following should the user perform next?",
+    "options": [
+      "A. Adjust the volume settings",
+      "B. Swap the HDMI cable",
+      "C. Reinsert the HDMI cable",
+      "D. Verify the audio output assignment"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The correct answer is D. Verify the audio output assignment. According to CompTIA A+ Core 1 220-1201 objectives under Hardware and Troubleshooting: HDMI carries both video and audio signals. If video displays correctly but audio is not heard, it is often because the computer is still outputting sound to its internal speakers rather than the HDMI- connected device. The user should check the audio output settings in the operating system and ensure the HDMI device (TV or projector) is selected as the audio output device. Why the other options are incorrect: A . Adjust the volume settings: Volumes are already at 50%, so adjusting them will not solve the problem if the audio output is assigned incorrectly. B . Swap the HDMI cable: The video is working fine, so the cable is likely functional. C . Reinsert the HDMI cable: Unlikely to resolve audio assignment issues if the connection is already working for video. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Hardware: “Given a scenario, troubleshoot video and audio issues including external display and HDMI audio output.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Video and Audio Troubleshooting."
+  },
+  {
+    "id": 462,
+    "question": "A user reports that a network printer has frequent paper jams. The technician examines the printer and finds no obvious obstructions or foreign objects in the paper path. Which of the following should the technician do to resolve the issue?",
+    "options": [
+      "A. Check for firmware updates specific to the printer model",
+      "B. Inspect and replace the printer rollers",
+      "C. Reseat the fuser assembly",
+      "D. Clean the printer's corona wire"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The correct answer is B. Inspect and replace the printer rollers. According to CompTIA A+ Core 1 220-1201 objectives under Printers: Frequent paper jams with no visible obstruction are often caused by worn or dirty feed rollers, which fail to grip and feed paper properly. Inspecting and replacing the rollers ensures smooth paper feeding and prevents repeated jams, particularly in high-use network printers. Why the other options are incorrect: A . Check for firmware updates: Firmware updates address software or functionality issues, not mechanical paper feeding problems. C . Reseat the fuser assembly: Fuser issues typically cause smudging or incomplete toner adhesion, not paper jams. D . Clean the corona wire: The corona wire affects toner adhesion and print quality, not paper feeding. Reference: CompTIA A+ Core 1 (220-1201) Exam Objectives – Printers: “Given a scenario, troubleshoot printer problems including paper jams, feed issues, and maintenance tasks.” Mike Meyers’ CompTIA A+ Certification Guide, 13th Edition, Chapter on Printer Troubleshooting and Maintenance. Thank you for your visit."
+  }
+]

@@ -1,0 +1,455 @@
+[
+  {
+    "id": 91,
+    "question": "Which of the following is a Bluetooth network an example of?",
+    "options": [
+      "A. PAN",
+      "B. LAN",
+      "C. WAN",
+      "D. SAN"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bluetooth is a wireless technology designed for short-range communication between devices. It is a classic example of a Personal Area Network (PAN), which supports communication between devices like smartphones, headsets, keyboards, and mice within a few meters. PANs are smaller in scope compared to LANs or WANs. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 5, \"Networking Fundamentals\", page 275​."
+  },
+  {
+    "id": 92,
+    "question": "A technician is working on a RAID 1 array that is apparently degraded. The technician verifies the RAM and power are both operating as expected. Which of the following can the technician do to further isolate the issue?",
+    "options": [
+      "A. Perform individual drive diagnostics.",
+      "B. Run the chkdsk /i command.",
+      "C. Rebuild the RAID array.",
+      "D. Reconfigure the array as RAID 0."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Adegraded RAID 1array usually meansone of the drives has failed or is failing. The correctnext step is torun diagnostics on each driveto identify the faulty one. RAID 1 uses mirroring, so one good drive should still contain all the data. Option B:chkdsk checks file system integrity, not hardware drive health. Option C:Rebuilding should only occurafteridentifying and replacing a faulty drive. Option D:RAID 0 offers no redundancy and would destroy data in this context. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.5: Given a scenario, troubleshoot problems related to storage devices."
+  },
+  {
+    "id": 93,
+    "question": "A user is receiving many unsolicited emails. Which of the following controls can be configured to best reduce these types of emails?",
+    "options": [
+      "A. Load balancer",
+      "B. Spam gateway",
+      "C. Mail forwarding",
+      "D. Proxy servers"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A spam gateway filters unsolicited emails at the server level, significantly reducing spam before it reaches user inboxes. Why Not A (Load balancer): Load balancers distribute traffic but don’t filter spam. Why Not C (Mail forwarding): Forwarding doesn’t filter spam. Why Not D (Proxy servers): Proxies control web traffic, not email filtering. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 2.10, email security controls​."
+  },
+  {
+    "id": 94,
+    "question": "Which of the following cloud models would multiple organizations in the same industry most likely use?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Community",
+      "D. Private"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "ACommunity Cloudis designed for use by several organizations with shared concerns (e.g., security, compliance, jurisdiction). It’s common in industries like healthcare or finance where multiple entities benefit from a common infrastructure with shared policies. Option A (Public):Open to general public or large industry group less secure. Option B (Hybrid):Mix of public and private does not imply industry collaboration. Option D (Private):Dedicated to a single organization. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.1: Compare and contrast cloud computing concepts."
+  },
+  {
+    "id": 95,
+    "question": "A systems administrator deploys BitLocker to all devices. However, one of the desktop PCs is not able to encrypt the boot drive. Which of the following should the administrator check?",
+    "options": [
+      "A. TPM",
+      "B. CPU",
+      "C. RAM",
+      "D. HDD"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "BitLocker Drive Encryption in Windows requires aTrusted Platform Module (TPM)to encrypt the boot drive securely. The TPM is a dedicated microcontroller designed to secure hardware through integrated cryptographic keys. It validates system integrity during boot and securely stores the encryption keys. If BitLocker cannot find a TPM or it is disabled in BIOS/UEFI, drive encryption cannot proceed. BitLocker can function without TPM using a USB startup key, but this compromises some security and is not recommended for managed enterprise environments. Reference: \"CompTIA A+ Certification All-in-One Exam Guide, Eleventh Edition\" by Travis Everett and Andrew Hutz – Chapter 13, page 536–537​. \"CompTIA A+ Guide to Managing and Troubleshooting PCs\" by Mark Soper – Chapter 13, page 446– 447​. \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 1, page 36–38​."
+  },
+  {
+    "id": 96,
+    "question": "Which of the following network services is used to assign an IP address to a network host?",
+    "options": [
+      "A. DHCP",
+      "B. DNS",
+      "C. LDAP",
+      "D. SMTP"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "DHCP (Dynamic Host Configuration Protocol) is the service used to automatically assign IP addresses to network hosts. It dynamically manages the distribution of IP addresses and configuration details (like subnet mask, gateway, and DNS servers), ensuring no two devices are assigned the same address on the network. Option B (DNS): Incorrect. DNS translates domain names into IP addresses but does not assign them. Option C (LDAP): Incorrect. LDAP is a protocol used for accessing and maintaining directory services, such as user information and permissions. Option D (SMTP): Incorrect. SMTP is used for sending and receiving email, not for IP address assignment. Reference: CompTIA A+ Core 1 Objectives: 2.5 (Network configuration)​"
+  },
+  {
+    "id": 97,
+    "question": "A technician is experimenting with network configurations and has connected two laptops to an unmanaged switch. The technician configured one of the laptops with a static IP address of 192.168.1.1 and the other with a static IP address of 192.168.2.2. The laptops are not communicating with each other. Which of the following is the most likely explanation for this issue?",
+    "options": [
+      "A. The technician needs to use a hub instead of a switch.",
+      "B. The wireless NICs are malfunctioning.",
+      "C. PoE interferes with intersubnet communication.",
+      "D. The laptops do not have access to a router."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "Which of the following utilizes specialized ports on a laptop to expand the local connection options?",
+    "options": [
+      "A. NFC adapter",
+      "B. Docking station",
+      "C. Port replicator",
+      "D. USB dongle"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Adocking stationconnects to a laptop’sproprietary port or USB-C/Thunderbolt, providing access tomultiple additional ports(USB, Ethernet, video, audio, etc.). It allows users to transform a laptop into a full desktop workstation. Option A (NFC adapter):Used for short-range communication, not port expansion. Option C (Port replicator):Similar to a dock but usually less powerful and often lacks charging or video output. Option D (USB dongle):Adds a single function (like Wi-Fi or storage), not full port expansion. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.4: Given a scenario, configure settings and use cases for laptops and mobile devices. ==========="
+  },
+  {
+    "id": 99,
+    "question": "Which of the following devices is designed to monitor and filter incoming and outgoing network traffic?",
+    "options": [
+      "A. Switch",
+      "B. Access point",
+      "C. Firewall",
+      "D. Hub"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A firewall monitors and filters incoming and outgoing network traffic based on security rules, protecting the network from unauthorized access and threats. Why Not A (Switch): A switch connects devices within a network but does not monitor or filter traffic. Why Not B (Access point): An access point provides Wi-Fi connectivity but does not filter traffic. Why Not D (Hub): A hub simply broadcasts data to all connected devices without filtering traffic. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.2, network security concepts​."
+  },
+  {
+    "id": 100,
+    "question": "Which of the following can a user utilize to share their mobile phone connection with their laptop?",
+    "options": [
+      "A. IR",
+      "B. NFC",
+      "C. Wi-Fi Direct",
+      "D. Tethering"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Tethering refers to sharing a mobile phone’s internet connection with another device, such as a laptop, either through USB, Bluetooth, or Wi-Fi. Tethering effectively turns the mobile phone into a personal hotspot for internet access. Option A (IR): Incorrect. Infrared (IR) is used for short-range communication, such as remote controls, but it does not support internet sharing. Option B (NFC): Incorrect. Near-field communication (NFC) is used for close-proximity data transfer, not for internet sharing. Option C (Wi-Fi Direct): Incorrect. Wi-Fi Direct enables device-to-device communication but does not inherently provide internet sharing. Reference: CompTIA A+ Core 1 Objectives: 1.4 (Configure basic mobile-device network connectivity)​"
+  },
+  {
+    "id": 101,
+    "question": "A technician is having issues replacing a laptop's wireless card because the cover seems to be stuck Which of the following should the technician do next to troubleshoot this issued",
+    "options": [
+      "A. Check the product manual for the procedure",
+      "B. Use a pry tool to force the cover open",
+      "C. Insert the wireless card into the M.2 slot",
+      "D. Try to move the cover by sliding it in all directions."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A . Check the product manual for the procedure: When hardware is not easily accessible, always consult the product manual for proper disassembly procedures. Forcing the cover can damage the laptop or void the warranty. Product manuals often provide step-by-step instructions for safely accessing internal components. Incorrect Options: B . Use a pry tool to force the cover open: Forcing the cover can cause physical damage to the device. C . Insert the wireless card into the M.2 slot: This step cannot be performed until the cover is properly removed. D . Try to move the cover by sliding it in all directions: Randomly sliding the cover can cause damage if the correct removal method is not followed. Key Takeaway: Always refer to the product manual to ensure safe and proper disassembly of laptop components. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 4.1 – Best practices for laptop hardware installation."
+  },
+  {
+    "id": 102,
+    "question": "A technician needs to confirm that desktop PCs can be deployed to a global, remote workforce. Which of the following specifications should the technician validate?",
+    "options": [
+      "A. Input voltage",
+      "B. BIOS language support",
+      "C. Supply chain security",
+      "D. Power efficiency"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Input voltage must be validated to ensure desktop PCs can operate in different regions with varying power standards (e.g., 110V in North America vs. 220V in Europe). Failure to verify input voltage compatibility can lead to hardware damage or operational issues. Option B (BIOS language support): Incorrect. While language support may be helpful, it is not critical for hardware deployment across regions. Option C (Supply chain security): Incorrect. This refers to ensuring secure sourcing of components but does not directly impact deployment. Option D (Power efficiency): Incorrect. Power efficiency may be important for energy savings but is not relevant to regional compatibility. Reference: CompTIA A+ Core 1 Objectives: 3.5 (Power supply requirements)​"
+  },
+  {
+    "id": 103,
+    "question": "A technician needs to troubleshoot a user's smartphone that will not connect to its wireless provider's service. Which of the following should the technician check first?",
+    "options": [
+      "A. SIM card",
+      "B. Network settings",
+      "C. Subscription plan",
+      "D. Bluetooth connection"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "question": "A user routinely connects and disconnects multiple devices from a laptop. Which of the following options should a technician recommend to facilitate ease of user mobility?",
+    "options": [
+      "A. Serial interfaces",
+      "B. Docking station",
+      "C. Network switch",
+      "D. USB hub"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reasoning: A docking station is designed to provide a central connection point for multiple peripherals, such as monitors, keyboards, mice, and network cables. It allows users to quickly connect or disconnect all devices by simply docking or undocking their laptop, improving mobility and reducing wear and tear on individual ports. Why the Other Options Are Incorrect: A . Serial interfaces: Serial interfaces are outdated and rarely used in modern laptops or peripherals. They are not practical for facilitating the connection of multiple devices. C . Network switch: A network switch is used to connect multiple devices to a network, but it does not simplify the connection of peripherals to a laptop. D . USB hub: A USB hub can extend the number of available USB ports but lacks the full functionality of a docking station, such as video output or Ethernet connectivity. Practical Example: A user with a laptop, external monitors, keyboard, and mouse can use a docking station to connect all devices with a single action, instead of plugging in each device manually. CompTIA A+ Exam Objective Alignment: Objective 5.2: Explain device interfaces, connection types, and usage of docking stations."
+  },
+  {
+    "id": 105,
+    "question": "Which of the following best characterizes the use of a virtual machine as a sandbox?",
+    "options": [
+      "A. Run an application on multiple workstations without installation.",
+      "B. Explore how an application behaves in a different environment",
+      "C. Migrate a currently used legacy application from physical to virtual",
+      "D. Create a firewall where the sandbox acts as a perimeter network."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A sandbox in virtualization allows testing an application in an isolated environment to observe its behavior without affecting the host system. Why Not A (Run an application on multiple workstations): This describes application virtualization, not sandboxing. Why Not C (Migrate a legacy application): This is about virtualization for legacy support, not testing. Why Not D (Create a firewall): A firewall does not act as a sandbox for application testing. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 4.2, virtualization and sandboxing​."
+  },
+  {
+    "id": 106,
+    "question": "An employee who travels worldwide wants a workstation to perform the same whether the workstation is in the corporate office environment or elsewhere. Which of the following should a technician implement?",
+    "options": [
+      "A. Public cloud",
+      "B. VDI",
+      "C. SSH",
+      "D. SaaS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "question": "When turning on a workstation, a technician observes the following message: \"Bootable device not found.\" The technician verifies the correct boot order in the BIOS. Which of the following steps should the technician take next?",
+    "options": [
+      "A. Reformat the HDD.",
+      "B. Run HDD diagnostics.",
+      "C. Reseat the RAM.",
+      "D. Replace the HDD."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If the system reports“Bootable device not found”, and the BIOS is configured correctly, the next step is torun diagnostics on the hard driveto check for physical or logical failure. It could be a sign of afailing drive or corrupt boot sector. Option A:Reformatting the drive would erase data not a diagnostic step. Option C:RAM does not affect whether a drive is bootable. Option D:Replacing the drive should only be doneafter diagnostics confirm failure. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.5: Given a scenario, troubleshoot problems related to storage devices."
+  },
+  {
+    "id": 108,
+    "question": "Which of the following is an advantage of using a hybrid cloud instead of a public cloud?",
+    "options": [
+      "A. Ability to reduce management overhead",
+      "B. Ability to use cross-platform virtualization",
+      "C. Ability to meet data residency requirements",
+      "D. Ability to leverage IaaS and PaaS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A hybrid cloud combines on-premises infrastructure with public cloud services. One significant advantage is that it allows organizations to keep sensitive data in a private environment to meet regulatory or data residency requirements, while still utilizing the scalability and cost-efficiency of the public cloud for other workloads. This ensures compliance with legal mandates about data location. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 8, \"Virtualization and Cloud Computing\", page 488. Also supported in CompTIA A+ Exam Objectives220-1201under section 4.1."
+  },
+  {
+    "id": 109,
+    "question": "A group of friends is gathering in a room to play video games. One of the friends has a game server. Which of the following network types should the group use so they can all connect to the same server and the internet?",
+    "options": [
+      "A. SAN",
+      "B. MAN",
+      "C. LAN",
+      "D. PAN"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The appropriate network type for this scenario is a Local Area Network (LAN), which is designed for small, localized networks, such as within a single building or room. LANs are ideal for gaming because they provide high-speed, low-latency connections. Option A (SAN): Incorrect. A Storage Area Network is used for data storage, not for gaming or general networking. Option B (MAN): Incorrect. A Metropolitan Area Network covers a city or campus, far exceeding the scope needed for a gaming setup in a single room. Option D (PAN): Incorrect. A Personal Area Network is designed for a single user, such as Bluetooth devices, and would not support multiple devices connecting to a game server. Reference: CompTIA A+ Core 1 Objectives: 2.7 (Compare and contrast network types and features)​"
+  },
+  {
+    "id": 110,
+    "question": "A technician is troubleshooting a computer that has random BSOD alerts and intermittently freezes during normal use. Performance degrades as the day goes on. No new software or hardware changes have been implemented. Freezing occurs under performance-intensive operations. Which of the following hardware components is most likely at fault?",
+    "options": [
+      "A. Video card",
+      "B. HDD",
+      "C. RAM module",
+      "D. TPM"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Step-by-Step Random BSODs (Blue Screen of Death), intermittent freezing, and degraded performance under load are common symptoms of failing or faulty RAM (Random Access Memory). Here's the reasoning: RAM Module (Correct Answer): Faulty or failing RAM can cause random BSODs due to memory errors when the system attempts to read or write to corrupted memory locations. Intermittent freezing, especially under performance-intensive operations, can occur because the CPU relies heavily on RAM for active processing tasks. Over time, heat generated during usage can exacerbate RAM instability, leading to progressively worse performance throughout the day. Solution: The technician should run a memory diagnostic tool, such as Windows Memory Diagnostic or MemTest86, to confirm if the RAM is at fault. Incorrect Options: A . Video Card: A faulty video card can cause graphical glitches, screen artifacts, or crashes, but it is unlikely to cause system-wide performance degradation and random freezing under normal operations unless the issue is specific to GPU-intensive tasks (e.g., gaming or video rendering). B . HDD: A failing hard drive can cause system slowdowns and freezing, but it typically produces other symptoms such as read/write errors, boot failures, or clicking sounds. HDD issues do not usually cause BSODs unless critical system files are corrupted. D . TPM (Trusted Platform Module): A TPM is a hardware-based security module used for encryption and secure authentication. It does not affect performance or cause BSODs or freezing under normal operation. Key Takeaway: The symptoms described (random BSODs, intermittent freezing, and degraded performance under load) are most likely caused by faulty or failing RAM. Memory diagnostic tools should be used to confirm the issue. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 5.2 – Troubleshooting problems related to motherboards, RAM, CPUs, and power."
+  },
+  {
+    "id": 111,
+    "question": "Each floor at a new corporate facility will have four printers available for all users to print from AH of the printers will be connected with RJ45 and not joined to a domain Which of the following needs to be set up to accomplish this task? (Select two).",
+    "options": [
+      "A. Printer shares",
+      "B. DHCP server",
+      "C. Print server",
+      "D. Printer subnet",
+      "E. SMB configuration",
+      "F. Printer Wi-Fi settings"
+    ],
+    "correctAnswers": [
+      0,
+      2
+    ],
+    "correctAnswer": 0,
+    "explanation": "To allow multiple users to print to networked printers: Printer shares enable users to access printers shared on the network. Print servers manage print jobs and provide centralized control of printing. Why Not B (DHCP server): DHCP is unrelated to print management. Why Not D (Printer subnet): Subnets group devices but don’t manage printing. Why Not E (SMB configuration): SMB is for file sharing, not specifically print management. Why Not F (Printer Wi-Fi settings): These settings are irrelevant since the printers use Ethernet. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 4.6, printer configuration​."
+  },
+  {
+    "id": 112,
+    "question": "Which of the forming connector types would best suit a company that experiences a large volume of internet traffic?",
+    "options": [
+      "A. USB 3.1",
+      "B. Quad-shielded RG11 coax",
+      "C. SATA3.0",
+      "D. Unshielded plenum RJ45"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "RG11 coaxial cable with quad shielding is designed to handle large volumes of internet traffic, providing excellent resistance to interference and high bandwidth capacity. Why Not A (USB 3.1): USB 3.1 is used for connecting peripherals, not for high-volume internet traffic. Why Not C (SATA3.0): SATA is used for internal data storage connections, not for network traffic. Why Not D (Unshielded plenum RJ45): While RJ45 cables are commonly used, unshielded cables are prone to interference and are not ideal for high-volume traffic. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.1, cable types and their characteristics​."
+  },
+  {
+    "id": 113,
+    "question": "A technician is troubleshooting stylus issues on identical, company-provided tablets. Users can purchase their own accessories. Some users have no issues, but others report that their styluses charge intermittently and die frequently. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Certain cases are causing charging issues.",
+      "B. The tablets need to be updated.",
+      "C. Some of the tablets have manufacturing defects.",
+      "D. The malfunctioning styluses need firmware updates."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most likely cause isthird-party or ill-fitting casesobstructing the contact between the stylus and the tablet charging mechanism. Some cases may not be designed with stylus charging in mind, particularly if users are purchasing their own accessories. Option B:A software update might fix OS-related issues, but would not typically affect physical charging. Option C:If some devices had defects, the issue would likely be consistent, not isolated to some users. Option D:Firmware issues could be a factor but are less likely than physical obstructions when users are using different accessories. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.4: Given a scenario, configure settings and use cases for laptops and mobile devices."
+  },
+  {
+    "id": 114,
+    "question": "A technician has just installed a new SSD into a computer, but the drive is not appearing. Which of the following is most likely the reason's?",
+    "options": [
+      "A. The SSD is faulty and should be replaced by the manufacturer",
+      "B. The SSD has not been properly formatted and is not readable",
+      "C. The SSD is incompatible with the motherboard",
+      "D. The SSD has not boon installed properly and should be reseated"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Improper seating is the most common reason an SSD isn’t recognized. Ensuring it is correctly connected resolves the issue. Why Not A (Faulty SSD): A faulty SSD is possible but less likely than an installation issue. Why Not B (Not formatted): Formatting affects data usability, not drive detection. Why Not C (Incompatibility): SSD compatibility issues are rare with modern hardware. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.3, storage troubleshooting​."
+  },
+  {
+    "id": 115,
+    "question": "A salesperson is unable to reach the internet from a home office PC A support technician wants to verify the router is receiving a valid public IP address Which of the Wowing is a valid public IP address in this scenario?",
+    "options": [
+      "A. 10.254.128.11",
+      "B. 66.157.195.20",
+      "C. 172.16.0.30",
+      "D. 192.168 1.50"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A valid public IP address must fall outside the private IP address ranges: 10.0.0.0 to 10.255.255.255 172.16.0.0 to 172.31.255.255 192.168.0.0 to 192.168.255.255 66.157.195.20 is outside these ranges, making it a public IP address. Why Not A, C, D: These IPs fall within private IP address ranges. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, IP addressing​."
+  },
+  {
+    "id": 116,
+    "question": "A customer reports a problem connecting to network resources. After asking open-ended questions, the technician determines the issue likely exists on the remote server. Which of the following should the technician do next?",
+    "options": [
+      "A. Document the findings.",
+      "B. Test the theory",
+      "C. Gather information",
+      "D. Establish a plan of action"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "After determining the issue is likely on the remote server, the technician should test the theory to confirm the root cause before proceeding. Why Not A (Document the findings): Documentation comes after confirming the issue. Why Not C (Gather information): Information gathering is already completed. Why Not D (Establish a plan of action): This is done after confirming the issue. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 3.1, troubleshooting methodology​."
+  },
+  {
+    "id": 117,
+    "question": "Which of the following technologies best allows a phone to connect to a point-of-sale terminal for wireless payments?",
+    "options": [
+      "A. Bluetooth",
+      "B. NFC",
+      "C. Wi-Fi",
+      "D. Cellular"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Near-field communication (NFC) is a short-distance wireless communication method widely used in mobile payment systems like Apple Pay and Google Pay. Simply placing the device near a compatible terminal initiates the payment process. Reference: \"Mike Meyers' CompTIA A+ Certification All-in-One Exam Guide\" – Chapter 24, page 1022​."
+  },
+  {
+    "id": 118,
+    "question": "A new directive mandates the use of a security component to securely allow users to authenticate to systems, access sensitive data, and enter the office. The component must provide an additional factor of authentication alongside user accounts and cannot be something the user o Which of the Mowing components best meets these requirements?",
+    "options": [
+      "A. Fingerprint reader",
+      "B. Smart card",
+      "C. Secure token",
+      "D. NFC scanner"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A smart card provides an additional factor of authentication by storing secure credentials, such as certificates, that cannot be guessed or replicated. It complements user accounts and is \"something you have\". Why Not A (Fingerprint reader): This is \"something you are\", but the scenario specifically requires a physical token. Why Not C (Secure token): Secure tokens are also valid but may not integrate as seamlessly into multi-factor authentication for physical and system access. Why Not D (NFC scanner): An NFC scanner is a device and not a token itself; it reads cards or other credentials. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 2.5, access controls​."
+  },
+  {
+    "id": 119,
+    "question": "A network administrator must ensure that a printer will still be assigned a specific IP address even if all addresses are depleted. Which of the following network configuration concepts is this describing?",
+    "options": [
+      "A. VLAN",
+      "B. Lease",
+      "C. Reservation",
+      "D. Exclusion"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A DHCP reservation binds a specific MAC address to an IP address so the device always receives the same IP from the DHCP server. This ensures network devices like printers maintain consistent connectivity and availability even when the IP pool is low. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 18, page 1252​."
+  },
+  {
+    "id": 120,
+    "question": "A company needs to develop a disaster recovery solution based on virtual machines. Which of the following service models is the most suitable?",
+    "options": [
+      "A. Infrastructure as a Service",
+      "B. Security as a Service",
+      "C. Platform as a Service",
+      "D. Software as a Service"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Infrastructure as a Service (IaaS)providesvirtualized computing resources over the internetsuch as servers, storage, and networking. It allows a business to quickly spin up virtual machines and is ideal fordisaster recoveryand scalable IT infrastructure needs. Option B:SecaaS focuses on cloud-delivered security, not infrastructure. Option C:PaaS offers development environments, not full virtual infrastructure. Option D:SaaS delivers applications over the internet (e.g., email, CRM) not for disaster recovery. CompTIA A+ Core 1 Exam Objective Reference: Objective 4.1: Compare and contrast cloud computing concepts. ==========="
+  }
+]

@@ -1,0 +1,459 @@
+[
+  {
+    "id": 63,
+    "question": "Which of the following methods involves requesting a user's approval via a push notification to verify the user's identity?",
+    "options": [
+      "A. Call",
+      "B. Authenticator",
+      "C. Hardware token",
+      "D. SMS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Authenticator apps (e.g., Microsoft Authenticator, Google Authenticator, Duo) often support push notifications. When the user logs in, the app sends a push to their mobile device, prompting the user to approve or deny the authentication request — a common and user-friendly form of multi-factor authentication (MFA). A . Phone call verification is a separate method involving voice-based confirmation. C . Hardware tokens generate one-time codes but do not send push notifications. D . SMS sends a text message with a code — again, no push mechanism. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast multi-factor authentication methods. Study Guide Section: Authentication apps and push notification verification ==========================="
+  },
+  {
+    "id": 64,
+    "question": "A customer wants to be able to work from home but does not want to be responsible for bringing company equipment back and forth. Which of the following would allow the user to remotely access and use a Windows PC at the main office? (Choose two.)",
+    "options": [
+      "A. SPICE",
+      "B. SSH",
+      "C. RDP",
+      "D. VPN",
+      "E. RMM",
+      "F. WinRM"
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: To work remotely without physically transporting a workstation, the user needs: C . RDP (Remote Desktop Protocol): Allows graphical remote access to a Windows PC at the office. D . VPN (Virtual Private Network): Establishes a secure tunnel to access the corporate network remotely, making the internal PC reachable. A . SPICE is used in virtual machine environments and is not typically used for end-user remote desktop access. B . SSH is a text-based remote access tool used mostly for Linux systems. E . RMM (Remote Monitoring and Management) is used by IT administrators for support — not end- user remote access. F . WinRM is used for Windows remote management via PowerShell, not for full desktop access. Reference: CompTIA A+ 220-1102 Objectives 2.2 & 4.4: Compare and contrast security tools and remote access methods. Study Guide Section: Remote access tools — RDP and VPN for secure remote work"
+  },
+  {
+    "id": 65,
+    "question": "A company wants to use a single operating system for its workstations and servers and avoid licensing fees. Which of the following operating systems would the company most likely select?",
+    "options": [
+      "A. Linux",
+      "B. Windows",
+      "C. macOS",
+      "D. Chrome OS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Linux is an open-source operating system that is freely available and does not require traditional licensing fees. It is highly versatile and scalable, making it suitable for both workstations and servers. Many enterprise environments use Linux to reduce software costs and benefit from robust server features. B . Windows requires per-device or per-user licensing for both workstation and server editions. C . macOS is proprietary and limited to Apple hardware with licensing restrictions. D . Chrome OS is designed for lightweight devices and lacks server functionality. Reference: CompTIA A+ 220-1102 Objective 1.8 & 1.9: Identify common features and tools of the Linux client/desktop OS. Study Guide Section: Open-source operating systems and licensing considerations ==========================="
+  },
+  {
+    "id": 66,
+    "question": "A user is attempting to open on a mobile phone a HD video that is hosted on a popular media streaming website. The user is receiving connection timeout errors. The mobile reception icon area is showing two bars next to 3G. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The user does not have Wi-Fi enabled.",
+      "B. The website's subscription has run out.",
+      "C. The bandwidth is not fast enough.",
+      "D. The mobile device storage is full."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: 3G networks generally do not provide the bandwidth required for seamless HD video streaming. With only two signal bars and a 3G connection, the mobile device likely cannot maintain the necessary data throughput, resulting in timeouts or buffering failures. This is a classic symptom of insufficient network speed or signal strength. A . Lack of Wi-Fi may contribute, but the root cause is the low mobile bandwidth, not the Wi-Fi state. B . A website subscription lapse would return an account error, not a timeout. D . Full device storage can affect downloads but not streaming from the internet. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot mobile OS and application issues. Study Guide Section: Connectivity and network performance issues on mobile devices ==========================="
+  },
+  {
+    "id": 67,
+    "question": "A technician notices that the weekly backup is taking too long to complete. The daily backups are incremental. Which of the following would most likely resolve the issue?",
+    "options": [
+      "A. Changing the backup window",
+      "B. Performing incremental weekly backups",
+      "C. Increasing the backup storage",
+      "D. Running synthetic full weekly backups"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A synthetic full backup combines the last full backup with subsequent incremental backups to create a new full backup without re-reading data from the source system. This method significantly reduces the backup window and network impact. It is especially useful when traditional full backups are too time-consuming. A . Changing the backup window only shifts timing, not duration. B . Incremental weekly backups would lack a proper full recovery point and aren't ideal alone. C . Storage space isn't the bottleneck in backup speed—it’s read/write operations and network load. Reference: CompTIA A+ 220-1102 Objective 4.2: Summarize backup and recovery concepts. Study Guide Section: Backup types — full, incremental, differential, and synthetic backups ==========================="
+  },
+  {
+    "id": 68,
+    "question": "A help desk technician needs to remove RAM from retired workstations and upgrade other workstations that have applications that use more memory with this RAM. Which of the following actions would the technician most likely take?",
+    "options": [
+      "A. Demagnetize memory for security.",
+      "B. Use antistatic bags for storage and transport.",
+      "C. Plug in the power supply to ground each workstation.",
+      "D. Install memory in identical pairs."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: RAM is an electrostatic-sensitive component. When removing or transporting RAM modules, they should be stored in antistatic bags to protect against electrostatic discharge (ESD), which can damage the memory. This is a standard best practice in hardware handling. A . Demagnetization is not applicable to RAM. C . Plugging in power to ground is not safe or recommended for static protection. D . Installing identical memory pairs is applicable for dual-channel configuration, but not directly related to transporting or handling RAM. Reference: CompTIA A+ 220-1102 Objective 4.3: Explain environmental impacts and procedures. Study Guide Section: ESD safety practices and component handling procedures —"
+  },
+  {
+    "id": 69,
+    "question": "A customer’s computer does not have an active connection to the network. A technician goes through a few troubleshooting steps but is unable to resolve the issue. The technician has exhausted their knowledge. The customer expresses frustration at the time taken to resolve this issue. Which of the following should the technician do?",
+    "options": [
+      "A. Escalate the issue to a senior team member and provide next steps to the customer.",
+      "B. Dismiss the customer and reschedule another troubleshooting session at a later date.",
+      "C. Interrupt the customer and express that troubleshooting support tickets can take time.",
+      "D. Maintain a positive attitude and continue to ask questions regarding the scope of the issue."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: When a technician exhausts all troubleshooting steps within their knowledge and the issue remains unresolved, the best practice is to escalate the issue to a higher-level technician or team. Additionally, the technician should clearly communicate the next steps to the customer to maintain transparency and reduce frustration. This ensures continuity of support and upholds customer satisfaction. B . Dismissing the customer is unprofessional and violates proper customer service protocols. C . Interrupting the customer and providing excuses escalates the tension and is inappropriate. D . Continuing to ask questions without new troubleshooting steps wastes time and increases frustration. Reference: CompTIA A+ 220-1102 Objective 4.1: Given a scenario, implement best practices associated with documentation and support systems information. Study Guide Section: Customer service best practices — escalation and communication ==========================="
+  },
+  {
+    "id": 70,
+    "question": "A company executive is currently attending a major music festival with a large number of attendees and is having trouble accessing a work email account. The email application is not downloading emails and also appears to become stuck during connection attempts. Which of the following is most likely causing the disruption?",
+    "options": [
+      "A. The phone has no storage space available.",
+      "B. Company firewalls are configured to block remote access to email resources.",
+      "C. Too many devices in the same area are trying to connect to the mobile network.",
+      "D. The festival organizer prohibits internet usage during the event and has blocked the internet signal"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: At large events such as music festivals, cellular towers may become congested due to the high volume of users attempting to connect simultaneously. This congestion causes slow or failed data connections, which explains the email application being unable to sync or connect. This is a common real-world mobile connectivity issue in crowded areas. A . Lack of storage would prevent saving attachments, not prevent connection attempts. B . Company firewalls usually don’t affect mobile access unless specific device restrictions are enforced. D . Organizers do not have the ability to block the internet signal; only carriers manage mobile bandwidth. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot mobile OS and connectivity issues. Study Guide Section: Mobile network limitations — signal congestion and bandwidth issues ==========================="
+  },
+  {
+    "id": 71,
+    "question": "A company recently transitioned to a cloud-based productivity suite and wants to secure the environment from external threat actors. Which of the following is the most effective method?",
+    "options": [
+      "A. Multifactor authentication",
+      "B. Encryption",
+      "C. Backups",
+      "D. Strong passwords"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Multifactor authentication (MFA) is considered one of the most effective security measures for cloud environments. It requires users to verify their identity using two or more factors (e.g., password + phone app code), making it significantly harder for external attackers to gain access, even if the primary password is compromised. B . Encryption is important for data protection but doesn’t prevent unauthorized logins. C . Backups protect against data loss but don’t stop breaches. D . Strong passwords are helpful but can still be phished or cracked — MFA adds a critical extra layer. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast authentication technologies. Study Guide Section: Cloud security best practices — MFA and access control"
+  },
+  {
+    "id": 73,
+    "question": "A user reports getting a BSOD (Blue Screen of Death) error on their computer at least twice a day. Which of the following should the technician use to determine the cause?",
+    "options": [
+      "A. Event Viewer",
+      "B. Performance Monitor",
+      "C. System Information",
+      "D. Device Manager"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Event Viewer is the primary tool used to investigate system-level errors and logs, including BSODs. When a BSOD occurs, Windows logs the error codes and associated system behavior under “System” logs in Event Viewer. This allows the technician to review crash events, identify error codes (e.g., STOP codes), and pinpoint hardware or driver issues. B . Performance Monitor is used for real-time performance tracking and trend analysis, not crash logs. C . System Information displays system specs but not crash logs or events. D . Device Manager shows device status and driver issues but doesn’t retain error logs related to BSODs. Reference: CompTIA A+ 220-1102 Objective 3.1: Given a scenario, troubleshoot common Windows OS problems. Study Guide Section: Troubleshooting BSODs using Event Viewer and system logs ==========================="
+  },
+  {
+    "id": 74,
+    "question": "A technician is setting up a Windows server to allow remote desktop connections for multiple users. Which of the following should the technician configure on the workstation?",
+    "options": [
+      "A. Firewall",
+      "B. Computer Management",
+      "C. User Accounts",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: To allow Remote Desktop Protocol (RDP) access, the firewall must be configured to allow inbound connections on TCP port 3389. If the Windows Firewall blocks RDP, users will not be able to connect remotely even if the feature is enabled in system settings. B . Computer Management allows configuration of services and local users, but not network access. C . User Accounts is for account setup and control, but enabling remote access requires firewall configuration. D . Ease of Access is unrelated to remote connectivity—it’s for accessibility features. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and firewall settings. Study Guide Section: Enabling and securing RDP via firewall settings ==========================="
+  },
+  {
+    "id": 75,
+    "question": "A technician thinks that an application a user downloaded from the internet may not be the legitimate one, even though the name is the same. The technician needs to confirm whether the application is legitimate. Which of the following should the technician do?",
+    "options": [
+      "A. Compare the hash value from the vendor.",
+      "B. Run Task Manager and compare the process ID.",
+      "C. Run the application in safe mode.",
+      "D. Verify the file name is correct."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: To ensure the authenticity of a downloaded application, the most reliable method is to verify the file’s hash (e.g., SHA256, MD5) against the value provided by the legitimate vendor. If the hash values match, the file has not been altered or tampered with. This verification confirms the integrity and authenticity of the executable. B . Process IDs are dynamic and not unique to specific software. C . Running in safe mode doesn’t validate legitimacy—it only runs the app in a minimal environment. D . File names can be spoofed; matching the name does not prove authenticity. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast authentication and software integrity verification methods. Study Guide Section: Hash verification for software authenticity and digital integrity"
+  },
+  {
+    "id": 77,
+    "question": "An administrator is investigating a technical outage. The management team wants information that includes the summary of the outage and actions taken. Which of the following documentation should the administrator provide to the management team?",
+    "options": [
+      "A. Knowledge base article",
+      "B. Non-disclosure agreement",
+      "C. Incident report",
+      "D. Standard operating procedure"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An incident report documents key details such as the cause of the outage, steps taken to resolve it, and measures to prevent recurrence. It is a post-mortem analysis often shared with stakeholders to improve future response. According to the Quentin Docter – CompTIA A+ Complete Study Guide: “An incident report provides a summary of an event that disrupted normal operations and includes a timeline of what occurred, how the issue was diagnosed and fixed, and who was involved in the resolution”. This is reaffirmed in Travis Everett’s All-in-One Guide: “Documentation after an incident helps technical teams and management review the situation and learn from it. This is formalized in an incident report”."
+  },
+  {
+    "id": 78,
+    "question": "A user has rooted their corporate phone to load unapproved software. Which of the following tools should the company use to prevent access to the corporate network?",
+    "options": [
+      "A. Mobile device management",
+      "B. Encryption",
+      "C. Geofencing",
+      "D. Lock screen"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Mobile Device Management (MDM) allows an organization to enforce security policies, such as denying network access to jailbroken/rooted devices. From the All-in-One Exam Guide by Travis Everett and Andrew Hutz: “MDM software allows administrators to monitor, manage, and secure mobile devices connected to enterprise networks. One key feature is the detection and denial of access for rooted or jailbroken devices”. Quentin Docter also confirms: “An MDM solution can check if a device has been rooted and prevent it from accessing the network, ensuring compliance with corporate security standards”."
+  },
+  {
+    "id": 79,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer be issued security updates and patches. Which of the following is most likely the reason the administrator received this message?",
+    "options": [
+      "A. Support from the computer’s manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: When an OS reaches its end of life (EOL), it no longer receives updates or support, including critical security patches. From the Quentin Docter Study Guide: “End-of-life means the manufacturer no longer supports the OS with updates or security patches, which exposes systems to vulnerabilities unless upgraded”. All-in-One Exam Guide adds: “End-of-life notifications serve as a final warning that continued use of the OS will be insecure and unsupported. It’s crucial for administrators to plan migration”."
+  },
+  {
+    "id": 80,
+    "question": "Which of the following are system folders on macOS? (Select two)",
+    "options": [
+      "A. Applications",
+      "B. Spotlight",
+      "C. Time Machine",
+      "D. Library",
+      "E. FileVault",
+      "F. iCloud"
+    ],
+    "correctAnswers": [
+      0,
+      3
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: ApplicationsandLibraryare core system directories in macOS. TheApplicationsfolder contains installed applications. TheLibraryfolder contains support files, preferences, and other system-related files. From theQuentin Docter – CompTIA A+ Complete Study Guide: “macOS organizes system and user files into several key folders. Among them, Applications and Library are standard system folders where apps and related files are stored.”"
+  },
+  {
+    "id": 81,
+    "question": "After using a third-party disk optimization software package, a technician restarts a laptop and receives the message \"No operating system found.\" The technician verifies that the BIOS properly recognizes the SSD. Which of the following should the technician do next?",
+    "options": [
+      "A. Update BitLocker settings in the BIOS",
+      "B. Replace the CMOS battery",
+      "C. Boot from installation media and repair the MBR",
+      "D. Isolate the system from the corporate network"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A corruptedMaster Boot Record (MBR)is a common issue after disk manipulation. Booting from installation media and using tools like bootrec to repair the MBR can resolve the problem. Travis Everett – All-in-One Exam Guideexplains: “A damaged MBR may result in the OS not loading. Booting from recovery or installation media and selecting startup repair or running bootrec commands can restore functionality.”"
+  },
+  {
+    "id": 82,
+    "question": "After completing malware removal steps, what is the next step the technician should take?",
+    "options": [
+      "A. Perform a secondary antivirus scan",
+      "B. Educate the end user",
+      "C. Reimage the computer",
+      "D. Review system logs"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: End-user education is crucial after malware removal to prevent recurrence. Teaching safe browsing habits and security awareness completes the remediation cycle. Mark Soper – Mike Meyers' Lab Manualstates: “Educating the user after malware remediation is part of the CompTIA malware response methodology. This includes training on phishing and safe practices.”"
+  },
+  {
+    "id": 83,
+    "question": "Which of the following is used to store passwords in macOS?",
+    "options": [
+      "A. FileVault",
+      "B. Keychain",
+      "C. Accessibility",
+      "D. Mission Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Keychainis the built-in macOS utility that manages and stores credentials, including passwords and certificates. According toQuentin Docter – CompTIA A+ Complete Study Guide: “Keychain Access in macOS is used for managing and storing passwords securely, similar to credential managers in Windows.”"
+  },
+  {
+    "id": 84,
+    "question": "An end user wants to have a sales printer added to their computer. The printer is on the domain. Which of the following is the best method for the technician to add the printer?",
+    "options": [
+      "A. Go to the print server and select the printer name",
+      "B. Connect the laptop to the printer via USB",
+      "C. Connect to the printer via Bluetooth",
+      "D. Go to Local Users and Groups to add the printer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In a domain environment, printers are typically deployed via a print server. Users can browse available printers on the server and install them directly. All-in-One Exam Guidementions: “In a corporate domain, printers are managed via a centralized print server. Users can select the desired printer from the server’s shared list.”"
+  },
+  {
+    "id": 85,
+    "question": "Which of the following methods involves requesting a user’s approval via a push notification to verify the user’s identity?",
+    "options": [
+      "A. Call",
+      "B. Authenticator",
+      "C. Hardware token",
+      "D. SMS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Authenticator apps, such as Google Authenticator or Microsoft Authenticator, can be configured to sendpush notificationsto users for approval when logging in. This is a form of multi-factor authentication. FromAll-in-One Exam Guide: “Push-based two-factor authentication uses an authenticator app to send a notification to a mobile device. The user must approve the login attempt in real time, ensuring the request is valid.”"
+  },
+  {
+    "id": 86,
+    "question": "Various alerts on a user's Windows 11 laptop are continually interrupting the user during videoconference calls. Which of the following should a support technician recommend to best solve the issue?",
+    "options": [
+      "A. Use multiple sound output devices for the various source applications",
+      "B. Disable all notifications in different applications in the order they appear",
+      "C. Configure the Sounds option in Control Panel to be set to No Sounds",
+      "D. Set Windows Notifications settings to Do Not Disturb"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Windows 11 features a“Do Not Disturb”mode under Notification settings, which is designed to suppress interruptions during tasks like videoconferencing. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Windows 11 introduces Do Not Disturb and Focus Assist under notification settings, enabling users to mute alerts during presentations or calls.”"
+  },
+  {
+    "id": 87,
+    "question": "A Windows 11 Home device is receiving constant pop-ups about an urgent need to update antivirus software to remove a detected threat. The user has been clicking the \"X\" button in the window frame but it always reappears. The pop-up includes an \"OK\" button to install the update and remove the threat. Which of the following should the user do next?",
+    "options": [
+      "A. Click the \"OK\" button to install the update",
+      "B. Reinstall the Windows Operating System",
+      "C. Run System File Checker",
+      "D. Verify the current status and settings of protection measures"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: This is likely arogue antivirusor scareware tactic. The user shouldnot click \"OK\"and instead check Windows Security (or third-party antivirus) status and ensure real-time protection is enabled. FromMark Soper – Mike Meyers' Lab Manual: “Users should verify security center settings if receiving suspicious pop-ups. Clicking unknown software updates can install malware. It’s safer to validate protection through legitimate system tools.”"
+  },
+  {
+    "id": 88,
+    "question": "Performance on a user’s smartphone is degrading. Applications take a long time to start, and switching between windows also takes a long time. Which of the following diagnostic steps should a mobile technician take first?",
+    "options": [
+      "A. Restore the phone to factory settings",
+      "B. Restart the phone",
+      "C. Check the phone’s battery state",
+      "D. Uninstall unneeded applications"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Thefirst stepin troubleshooting degraded mobile performance is typically arestart. This clears RAM and stops background processes that might be causing issues. FromAll-in-One Exam Guide: “Before taking invasive measures like a factory reset, always restart the device. A reboot clears temporary files and can significantly improve responsiveness.”"
+  },
+  {
+    "id": 89,
+    "question": "A user takes an iOS-based smartphone that is performing slowly to a repair shop. A shop technician finds the following information: Battery charge: 25% Battery health: 90% Hotspot: On Mobile reception: ||| Roaming: Off Used space: 63.76GB/64GB Which of the following is the cause of the issue?",
+    "options": [
+      "A. The device is running out of free space",
+      "B. The battery health is low",
+      "C. The phone is not sufficiently charged",
+      "D. The hotspot is degrading the performance",
+      "E. Too many applications are open"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: When an iOS device approaches full storage capacity, performance can be significantly impacted. iOS requires a buffer of free space to perform background processes efficiently. From theAll-in-One Exam Guide: “iOS devices need several gigabytes of free space to maintain optimal performance. Near-full storage can cause sluggish operation and failures in updates or background tasks.”"
+  },
+  {
+    "id": 90,
+    "question": "After a user installs a mobile application from an advertisement, the phone's battery dies a few hours later, and it is hot to the touch, even when not in use. Which of the following should a technician do first?",
+    "options": [
+      "A. Check for unauthorized device administrators",
+      "B. Contact the software developer",
+      "C. Run a mobile malware scan on the phone",
+      "D. Ensure appropriate MDM policies are applied"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: These symptoms strongly suggest malware activity—likely from the newly installed app. The first action should be torun a malware scanto detect and isolate malicious software. FromQuentin Docter – CompTIA A+ Study Guide: “Signs of malware infection include rapid battery drain and overheating. The first step should be a malware scan using trusted mobile antivirus apps.”"
+  },
+  {
+    "id": 91,
+    "question": "A user decides to switch to Windows from Linux and is trying to migrate data using an external USB hard disk. However, when the user connects the cable to the Windows machine, an error message appears stating the device must be formatted before it can be used. The hard disk works as expected when connected to the Linux machine. Which of the following should the user do to resolve this issue?",
+    "options": [
+      "A. Configure Windows firewall to allow data from Linux systems",
+      "B. Replace the cable with Windows-supported hardware",
+      "C. Apply a firmware update from the PC manufacturer",
+      "D. Update the file allocation system to exFAT"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The Linux machine likely formatted the drive in a file system like ext4, which Windows cannot natively read. Reformatting the drive toexFATallows cross-platform compatibility. FromAll-in-One Exam Guide: “When migrating data between OSes, using a file system like exFAT ensures compatibility. Windows cannot read Linux-native file systems such as ext4 without third-party tools.”"
+  },
+  {
+    "id": 92,
+    "question": "A Microsoft OS laptop user requests an alternative log-in authentication method because they have forgotten their password multiple times. Which of the following should a technician enable to satisfy this request?",
+    "options": [
+      "A. Single sign-on",
+      "B. Windows Hello",
+      "C. BitLocker",
+      "D. User Account Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Windows Helloprovides alternative sign-in options including facial recognition, fingerprint scans, and PINs, reducing dependence on passwords. FromAll-in-One Exam Guide: “Windows Hello offers a range of biometric and PIN-based login methods designed to simplify access while enhancing security.” “It can be used in place of a password, ideal for users who frequently forget credentials.”"
+  },
+  {
+    "id": 93,
+    "question": "A user's computer is running slowly. Web pages take several seconds to open, and applications are slow to respond. A technician opens the Windows Task Manager and sees the following: Disk: 2% Network: 12% GPU: 15% CPU: 70% Memory: 97% Which of the following would a technician most likely do to resolve the issue?",
+    "options": [
+      "A. Clear browser cached data",
+      "B. Upgrade the network connection",
+      "C. Close unnecessary programs",
+      "D. Delete temporary files"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Highmemory usage (97%)suggests the system is overloaded with active processes. The technician should close unneeded applications to free up RAM and improve performance. FromMike Meyers' Lab Manual: “When memory usage is near capacity, close all non-essential programs. This can dramatically improve response time without needing hardware upgrades.”"
+  },
+  {
+    "id": 94,
+    "question": "A secretary receives an email from the company's chief executive officer with a request to pay a vendor immediately. After the payment is made, the CEO informs the secretary that they never sent that email. Which of the following social engineering tactics best describes this type of attack?",
+    "options": [
+      "A. Evil twin",
+      "B. Impersonation",
+      "C. Whaling",
+      "D. Spear phishing"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Whalingis a form of phishing that targets high-profile individuals or involves pretending to be them (e.g., CEOs) to trick lower-level employees into transferring funds or sensitive data. FromQuentin Docter – CompTIA A+ Study Guide: “Whaling is a phishing tactic targeting executives or masquerading as one. The attacker crafts emails that exploit authority and urgency to manipulate recipients.”"
+  }
+]

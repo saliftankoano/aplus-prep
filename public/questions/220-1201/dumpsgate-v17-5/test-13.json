@@ -1,0 +1,457 @@
+[
+  {
+    "id": 361,
+    "question": "A user's tablet screen is unresponsive to touch. The device does not show any signs of physical damage, and a system reset does not resolve the issue. Which of the following should a technician replace?",
+    "options": [
+      "A. Battery",
+      "B. Motherboard",
+      "C. LCD screen",
+      "D. Digitizer"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A tablet’s display is made of two key parts that work together: the LCD (or OLED) that shows the image, and the digitizer that detects touch input. If the screen image looks normal but the device does not respond to taps, swipes, or gestures, the most likely failed component is the digitizer (or the digitizer layer/cable). The digitizer is a transparent sensor grid that converts touch into signals the system can interpret. When it fails, the tablet may still power on and show a clear picture, but touch will not register at all or will behave erratically. Because the device shows no physical damage and a system reset does not fix the issue, this points away from a software glitch and toward a hardware input failure. Replacing the LCD screen is typically indicated when you see display problems such as no image, distorted colors, flickering, dead pixels, or backlight issues—not purely touch failure. A battery problem would affect power/charging, not touch responsiveness. A motherboard replacement is far more invasive and not the most likely first hardware fix for a touch-only failure. Therefore, the correct component to replace is the digitizer."
+  },
+  {
+    "id": 362,
+    "question": "Which of the following cloud models allows an organization to have exclusive access to cloud resources?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Private",
+      "D. Community"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A private cloud provides cloud resources that are dedicated to a single organization, giving that organization exclusive use of the underlying infrastructure. This model is selected when a company needs tighter control over security, compliance, performance, and customization than what is typically available in a multi-tenant public cloud environment. Private cloud resources can be hosted on-premises in the organization’s own data center or hosted by a third party, but the key point is exclusive access—the hardware and cloud environment are not shared with unrelated customers. A public cloud is shared among multiple customers (multi-tenant), so it is not exclusive. A hybrid cloud combines two environments, usually a private cloud and a public cloud, which can help with flexibility and scaling, but it is not defined as exclusive because part of it may be public. A community cloud is shared by organizations with common needs (such as similar compliance requirements), meaning it is shared among multiple entities rather than exclusive to one organization. Therefore, the cloud model that provides exclusive access to resources is Private."
+  },
+  {
+    "id": 363,
+    "question": "A user turns on their laptop. The keyboard lights up, but the screen is black even after the user restarts the laptop. Which of the following should a technician do next to troubleshoot the issue?",
+    "options": [
+      "A. Connect the laptop to an external monitor.",
+      "B. Remove the device bezel.",
+      "C. Plug in a laptop charger.",
+      "D. Replace the laptop."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When the keyboard backlight turns on, the laptop is receiving power and at least partially completing its startup hardware initialization. A black internal display can be caused by multiple issues, including a failed LCD/backlight, a loose or damaged display cable, an incorrect display output selection, or a graphics subsystem problem. The best next troubleshooting step is to connect the laptop to an external monitor because it quickly isolates whether the problem is with the internal display assembly or with the system’s ability to generate video at all. If the external monitor displays video normally, the GPU and motherboard are likely functioning, and the technician should focus on the laptop’s internal screen components such as the LCD panel, backlight, display cable, or connector seating—often accessed by removing the bezel only after confirming this. If the external monitor also shows no video, the issue is more likely related to graphics output, memory, motherboard, or firmware/POST problems, and further internal diagnostics are required. Plugging in a charger is reasonable if the device seems underpowered, but it does not directly test the video path. Replacing the laptop is not an appropriate “next step” in troubleshooting."
+  },
+  {
+    "id": 364,
+    "question": "Switch#show running-config | section interface interface gigabitEthernet0/1 ip address 192.168.1.11 255.255.255.0 duplex full speed 1000 description Sales interface gigabitEthernet0/2 ip address 192.168.1.12 255.255.255.0 duplex full speed 1000 description CustomerService interface gigabitEthernet0/3 ip address 192.168.1.13 255.255.255.0 duplex auto speed auto description Marketing Which of the following is the most likely cause of the performance issues?",
+    "options": [
+      "A. The marketing department subnet has an error.",
+      "B. The structured Cat 5e cabling is outdated.",
+      "C. The interfaces are configured with incorrect IP addresses.",
+      "D. The marketing department interface is running at 10/100."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "GigabitEthernet interfaces are capable of 1000 Mbps, but the actual link speed is determined by negotiation between the switch port and the connected device, along with the quality/type of cabling. In this configuration, Sales and CustomerService ports are manually set to speed 1000 and duplex full, which forces gigabit operation. However, the Marketing port is set to speed auto and duplex auto. If the connected endpoint, patch cable, wall jack, or intermediate wiring for Marketing cannot support gigabit (or has a termination problem), the link may auto-negotiate down to 100 Mbps or 10 Mbps. That creates a clear performance bottleneck for that department compared to the other two ports running at 1 Gbps. The IP addresses shown are consistent within the same /24 network and do not indicate an obvious addressing problem, so “incorrect IP addresses” is unlikely. “Subnet error” is not supported by the given config, and Cat 5e is generally capable of gigabit at typical distances, so “outdated” cable is not the best explanation from these choices. The most likely cause is Marketing running at 10/100 due to negotiation."
+  },
+  {
+    "id": 365,
+    "question": "An end user is able to send emails but not receive them. Which of the following settings should a technician check first on the user’s laptop to troubleshoot the issue?",
+    "options": [
+      "A. DNS",
+      "B. SMTP",
+      "C. IMAP",
+      "D. DMARC"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "If a user can send email but cannot receive email, the most likely issue is with the incoming mail configuration rather than the outgoing mail configuration. SMTP is primarily used for sending mail from a client to a mail server (and between mail servers), so working outbound email strongly suggests SMTP settings are correct. To receive email, the client must connect to an incoming mail service such as IMAP (or POP3). Therefore, the first setting to verify on the laptop is the IMAP configuration, including the incoming server address, port number, encryption method (SSL/TLS), and authentication credentials. If any of these are wrong, the client may fail to synchronize the mailbox, making it appear that mail is not arriving even though messages exist on the server. DNS can affect both sending and receiving because clients must resolve mail server hostnames, but when the symptom is specifically “send works, receive fails,” checking the dedicated incoming protocol settings is the most direct and likely fix. DMARC is an email authentication policy used at the domain level and is not a laptop-side setting the technician would check first for a single user’s inbound mail problem."
+  },
+  {
+    "id": 366,
+    "question": "A user has two SSDs of the same size in their PC. The user wants to configure both SSDs to have a copy of all data so there will be no data loss if one drive fails. Which of the following is this an example of?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "This scenario describes disk mirroring, which is RAID 1. With RAID 1, the same data is written to two drives simultaneously, creating an exact duplicate on each SSD. If one drive fails, the system can continue to operate using the remaining drive with no loss of data, which directly matches the requirement “no data loss if one drive fails.” RAID 1 is commonly used when fault tolerance and data redundancy are the priority. A key trade-off is capacity: because the data is duplicated, the usable storage is essentially the size of one of the drives (two 1TB drives in RAID 1 provide about 1TB usable). Performance can vary: read performance may improve slightly in some implementations, but write performance is generally similar to a single drive because data must be written to both drives. RAID 0 is striping with no redundancy, so a single drive failure causes total data loss. RAID 5 requires at least three drives and uses parity. RAID 10 requires at least four drives and combines mirroring and striping. Therefore, the correct answer is RAID 1."
+  },
+  {
+    "id": 367,
+    "question": "A technician is evaluating how to connect a power-redundant server to the outlets of a rack. Which of the following is the best way to provide electricity to the server?",
+    "options": [
+      "A. Using only one power outlet, as the system will provide energy to the redundant source",
+      "B. Leaving one of the power supplies disconnected for use in case the other fails",
+      "C. Identifying available power outlets in different UPSs and distributing the connection between them",
+      "D. Connecting the device to one dedicated battery backup to provide continuous energy"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A power-redundant server typically has two power supplies so the system can continue operating if one power supply or one power feed fails. To gain the full benefit of redundancy, each PSU should be connected to independent power sources—commonly separate PDUs that are backed by different UPS units (and ideally separate circuits). This design removes a single point of failure: if one UPS Comprehensive and Detailed 150 to 250 words of Explanation From CompTIA Core 1 Knowledge trips, fails, or is taken offline for maintenance, the other UPS still provides power and the server stays online. Option C is best because it explicitly describes distributing the connections across different UPSs, which is the correct redundancy practice in a rack environment. Option A defeats redundancy because a single outlet/UPS failure would still bring the server down. Option B also wastes redundancy and can cause immediate downtime if the connected PSU fails, since the second PSU isn’t actively providing standby power. Option D still leaves a single UPS as the single point of failure. Therefore, splitting the two PSU power cords across separate UPS-backed outlets is the best approach."
+  },
+  {
+    "id": 368,
+    "question": "A customer's laptop is no longer charging when plugged in to the docking station. A technician observes that none of the devices plugged in to the dock appear to be functioning. The technician verifies that the dock has power, the laptop ports are not damaged, and the BIOS updates are current, but the issue persists. Which of the following should the technician do next?",
+    "options": [
+      "A. Switch the power supply.",
+      "B. Replace the dock with a new one.",
+      "C. Reinstall the OS on the laptop.",
+      "D. Roll back the BIOS updates."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "When both charging and dock-connected peripherals fail at the same time, the problem is most likely with the dock itself or its internal controller circuitry rather than the laptop’s operating system or a single peripheral device. The technician has already verified key prerequisites: the dock has power, the laptop ports show no physical damage, and system firmware (BIOS/UEFI) is current. Those checks reduce the likelihood of a simple firmware incompatibility or a damaged laptop connector. In CompTIA A+ troubleshooting methodology, the next step is to substitute with a known-good component to isolate the fault quickly. Replacing (or testing with) another dock confirms whether the original docking station has failed. If the replacement dock restores charging and peripherals immediately, the root cause is confirmed without unnecessary invasive actions. Switching the power supply could be a valid step if power was questionable, but the prompt states the dock already has power and still provides no function—pointing to dock failure. Reinstalling the OS is excessive and unlikely because charging through a dock is not primarily OS-dependent. Rolling back BIOS updates is also not indicated because the issue persists despite current firmware and there is no evidence the BIOS update caused it."
+  },
+  {
+    "id": 369,
+    "question": "Which of the following devices is designed specifically to allow multiple network devices to communicate across a single platform?",
+    "options": [
+      "A. NIC",
+      "B. Firewall",
+      "C. Switch",
+      "D. Routers"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A switch is designed to connect multiple devices within the same local network so they can communicate efficiently. In a typical LAN, a switch provides multiple Ethernet ports and forwards traffic between connected devices by using MAC addresses. When a frame enters a switch port, the switch learns the source MAC address and associates it with that port in a MAC address table. When the destination MAC is known, the switch sends the frame only out the correct port, which reduces unnecessary traffic and improves performance compared to older hub-based networks. This is exactly what is meant by allowing multiple network devices to communicate “across a single platform” (the switching fabric). A NIC is an adapter in an endpoint device that provides network connectivity, but it does not interconnect multiple devices by itself. A firewall focuses on filtering and controlling traffic based on security rules, not primarily on providing multi-device LAN connectivity. Routers connect different networks and forward traffic based on IP addresses (Layer 3), which is not the primary device for multi-device communication within the same network segment. Therefore, the correct answer is Switch."
+  },
+  {
+    "id": 370,
+    "question": "Which of the following is used to verify that an emailer is allowed and designated to send emails from a particular IP address?",
+    "options": [
+      "A. CNAME",
+      "B. SPF",
+      "C. DKIM",
+      "D. DMARC"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "SPF (Sender Policy Framework) is the mechanism used to verify whether a sending mail server’s IP address is authorized to send email on behalf of a specific domain. SPF works through a DNS record (typically a TXT record) published by the domain owner. When a receiving mail server gets an email claiming to be from a domain, it checks the SPF record for that domain and compares the source IP of the sending server against the list of permitted IP addresses or permitted sending services. If the IP is listed (or matches an allowed range/mechanism), SPF passes; if not, SPF fails. This directly matches the question requirement: “verify that an emailer is allowed and designated to send emails from a particular IP address.” The other options do not focus on authorizing an IP to send mail. DKIM uses cryptographic signatures to verify message integrity and that the message was signed by a domain’s private key, not to authorize a sending IP. DMARC is a policy framework that tells receivers what to do when SPF and/or DKIM fail and adds alignment rules and reporting. CNAME is a DNS alias record and is not an email authorization control. Therefore, the correct answer is SPF."
+  },
+  {
+    "id": 371,
+    "question": "A user's new computer is exhibiting issues after a couple hours of use. The screen freezes and typed characters do not appear for several seconds, if at all. The computer unexpectedly restarts while the user is reading an email. A technician runs diagnostics and verifies that no components show any errors. All hardware meets or exceeds recommendations. Which of the following should the technician do next?",
+    "options": [
+      "A. Check for swollen capacitors.",
+      "B. Replace the power supply with a higher wattage rating.",
+      "C. Increase the amount of RAM.",
+      "D. Change the CMOS battery."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intermittent freezing followed by unexpected restarts after the system has been running for a while often points to a hardware stability problem that worsens with heat and time, rather than an immediate configuration or “not enough resources” issue. When diagnostics show no errors, the next CompTIA A+-style step is to look for physical signs of failing components. Swollen or leaking capacitors on the motherboard or in the power delivery area can cause unstable voltage regulation as the system warms up, leading to input lag, lockups, and spontaneous reboots even during light tasks like reading email. A visual inspection can quickly confirm this failure mode and is an appropriate next troubleshooting action when software and basic diagnostics are inconclusive. Replacing the power supply with a higher wattage is not the best next step because the workload described is not high draw, and the symptom is not clearly tied to peak load; if a PSU is suspect, the usual step is testing with a known-good PSU of correct specs, not simply “higher wattage.” Increasing RAM is unnecessary because the system meets requirements and this would more commonly cause persistent slowness, not sudden restarts. A CMOS battery issue typically causes time resets or BIOS setting loss, not freezing and random reboots after hours."
+  },
+  {
+    "id": 372,
+    "question": "A manager wants to ensure that employees can only pick up their own printouts. Which of the following accomplishes this objective? Select two.",
+    "options": [
+      "A. PCL",
+      "B. Tray selection",
+      "C. Duplex setting",
+      "D. User PIN",
+      "E. RFID",
+      "F. USB"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": "To ensure employees only pick up their own printouts, the printer must use an authentication-based release method so jobs are not immediately printed into the output tray where anyone can take them. A User PIN enables secure or “held” printing: the job is sent to the printer but remains stored in the printer’s queue until the user walks up to the device and enters the correct PIN on the control panel. Only after successful PIN entry does the printer release and print that specific job, preventing accidental or unauthorized pickup of sensitive documents. RFID supports badge-based authentication and is commonly used with secure print release systems in offices. Users tap an RFID badge at the printer to authenticate, and then the printer releases only the authenticated user’s queued print jobs. This is convenient and reduces the chance of users sharing PINs, while still enforcing that jobs are released only when the correct user is physically present. PCL is a printer language, tray selection and duplex are print settings, and USB is a connection method—none of these enforce user-specific job release. Therefore, the correct answers are User PIN and RFID."
+  },
+  {
+    "id": 373,
+    "question": "A technician needs to run cable for a new office through a drop ceiling. Which of the following cable types should the technician run?",
+    "options": [
+      "A. BNC",
+      "B. Fiber-optic",
+      "C. Coaxial",
+      "D. Plenum"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "When running network cable through a drop ceiling, the space above the ceiling is often used as part of the building’s air circulation system (an air return). In these plenum spaces, building and fire safety standards require cable jackets that produce less smoke and fewer toxic fumes if exposed to heat or fire. Plenum-rated cable is manufactured with a special fire-resistant jacket designed for these environments, making it the correct choice for safe and compliant cabling runs in ceilings and other air-handling areas. This is a key CompTIA A+ Core 1 concept: selecting the proper cable rating based on where the cable is installed to reduce safety hazards and meet code requirements. The other options do not match the requirement. BNC is a connector type commonly associated with older coaxial networking and certain video applications, not a cable rating for ceiling installations. Coaxial is a cable type used for cable internet and some video signals, but the question is specifically about the required type for a drop ceiling environment, which is about the jacket rating. Fiber-optic is used for high-speed backbone links and long distances, but the question is focused on safety/installation requirements in a ceiling space. Therefore, plenum is the best answer."
+  },
+  {
+    "id": 374,
+    "question": "A business purchases a computer with a built-in WWAN card. Which of the following technologies does the computer’s WWAN card support?",
+    "options": [
+      "A. SIM",
+      "B. NFC",
+      "C. Bluetooth",
+      "D. Wi-Fi"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A WWAN card provides cellular wide-area network connectivity (such as LTE or 5G) for a laptop, allowing it to access mobile data networks similar to a smartphone. To authenticate to a cellular carrier and identify the subscriber account, WWAN devices typically use a SIM (Subscriber Identity Module) or an embedded SIM. The SIM contains carrier subscription information and security credentials used during registration on the cellular network. Without a valid SIM or eSIM profile, the WWAN radio may be present, but it cannot complete carrier authentication and will not provide cellular data service. The other options are different wireless technologies that are not the defining requirement for WWAN service. Wi-Fi is WLAN connectivity, usually provided by a separate Wi-Fi adapter. Bluetooth is a short-range personal area networking technology for peripherals and tethering. NFC is very short-range communication used mainly for tap-to-pair or payments. Therefore, the technology a built-in WWAN card supports in this context is SIM."
+  },
+  {
+    "id": 375,
+    "question": "Which of the following cables can carry a video signal?",
+    "options": [
+      "A. MicroUSB",
+      "B. USB-A",
+      "C. MiniUSB",
+      "D. USB-C"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "USB-C can carry a video signal because the USB-C connector supports Alternate Modes, most commonly DisplayPort Alt Mode, which allows the cable and port to transmit video (and often audio) to an external display. Many modern laptops, tablets, and phones use USB-C to output video to monitors, TVs, and docks. In addition, some USB-C ports support Thunderbolt (depending on the device), which can also carry display signals along with data and power. This makes USB-C a versatile “single-cable” solution for charging, data transfer, and external display connectivity—an important concept in CompTIA A+ Core 1 when identifying connector capabilities and choosing the correct cable type. The other options are not the best answer for standard video output in typical PC support scenarios. USB-A is a common data connector but does not natively carry a direct video signal like HDMI or DisplayPort (it would require an adapter that converts USB data to video). MicroUSB and MiniUSB were mainly designed for data and charging on older devices; while certain proprietary/legacy implementations existed, they are not the primary, modern, or expected video-carrying cable type in A+ objectives. Therefore, USB-C is the correct choice."
+  },
+  {
+    "id": 376,
+    "question": "A technician must install additional RAM in a desktop computer. Which of the following types of RAM will the technician most likely use?",
+    "options": [
+      "A. Static",
+      "B. ECC",
+      "C. DIMM",
+      "D. Registered"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Desktop computers most commonly use DIMM modules (Dual Inline Memory Module) for system memory. DIMMs are the standard full-size RAM sticks installed in desktop motherboard memory slots and are available in modern DDR generations such as DDR4 and DDR5. CompTIA A+ Core 1 expects you to distinguish common form factors: desktops use DIMM, while laptops typically use SO- DIMM (Small Outline DIMM). The other options are either specialized memory types or not the typical “type” used to describe desktop installation. Static refers to SRAM (static RAM), which is used for CPU cache and other internal high-speed buffers, not for installing system RAM modules in a desktop. ECC (Error- Correcting Code) memory is used mainly in servers/workstations where data integrity is critical and requires motherboard/CPU support; it is not the most likely choice for a typical desktop upgrade. Registered (buffered) memory is also primarily for servers and compatible platforms, improving stability with large memory configurations but not common in standard desktops. Therefore, the best answer for typical desktop RAM installation is DIMM."
+  },
+  {
+    "id": 377,
+    "question": "After a laptop screen has been replaced, the laptop is having Wi-Fi connectivity issues. No SSIDs are discovered. Bluetooth and Ethernet are working. Which of the following should a technician investigate first?",
+    "options": [
+      "A. Wireless card",
+      "B. Wireless antenna",
+      "C. Wireless AP",
+      "D. Network interface card",
+      "E. Motherboard"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "When a laptop screen is replaced, the technician typically removes the display assembly components and works near the hinge area where the Wi-Fi antenna leads are routed. In most laptops, the Wi-Fi antennas are built into the display bezel and connect to the wireless adapter using thin coax cables labeled MAIN/AUX. If one or both antenna leads are left disconnected, pinched, or not fully seated during reassembly, the Wi-Fi adapter may still appear in the OS, but the radio signal strength becomes extremely weak. A common symptom is no SSIDs found or only very close/strong networks intermittently. Bluetooth working does not rule this out because Bluetooth can have separate antennas or may still function at short range even when Wi-Fi reception is poor. Ethernet working confirms general network access and suggests the issue is isolated to the Wi-Fi radio path rather than the router, ISP, or OS networking stack. The wireless access point is unlikely to be the cause if the issue started immediately after hardware service and other devices can see SSIDs. Therefore, the first hardware check should be the wireless antenna connections and routing."
+  },
+  {
+    "id": 378,
+    "question": "Which of the following cloud delivery models should an organization choose when it requires ownership of all physical hardware?",
+    "options": [
+      "A. Hybrid cloud",
+      "B. Private cloud",
+      "C. Public cloud",
+      "D. IaaS",
+      "E. PaaS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A private cloud is the best choice when an organization requires ownership and control of all physical hardware. In CompTIA A+ terms, a private cloud is a cloud deployment model where the cloud infrastructure is dedicated to a single organization and can be implemented on-premises (or hosted for that organization only). If the requirement explicitly states the organization must own the servers, storage, and network equipment, that aligns with a private cloud built and maintained using the organization’s own datacenter resources. This provides greater control over security, compliance, customization, and data governance compared with shared models. A public cloud is owned and operated by a third-party provider, so the organization does not own the underlying hardware. A hybrid cloud combines private and public components; since part of it relies on provider-owned infrastructure, it does not meet the requirement of owning all physical hardware. IaaS and PaaS are cloud service models (what is consumed), not deployment/delivery models (how it is deployed), and they commonly run on provider-owned hardware as well. Therefore, Private cloud is the correct answer."
+  },
+  {
+    "id": 379,
+    "question": "Which of the following characteristics is a benefit of cloud computing?",
+    "options": [
+      "A. Unmetered use regardless of demand fluctuations",
+      "B. Centralized location for all global data",
+      "C. On-demand, self-service capabilities",
+      "D. Limited access via custom interfaces"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A key benefit and defining characteristic of cloud computing in CompTIA A+ Core 1 is on-demand, self-service. This means users or administrators can quickly provision computing resources—such as virtual machines, storage, or applications—without requiring manual intervention from the cloud provider each time. For example, an organization can deploy a new server instance in minutes to support a new project, then scale it down or remove it when no longer needed. This improves agility, speeds up deployment, and supports rapid changes in workload. Option A is incorrect because cloud services are typically metered (measured) and billed based on usage, which is part of the “measured service” cloud concept. Option B is incorrect because cloud data is often distributed across multiple regions for redundancy and performance; it is not inherently “centralized for all global data.” Option D is incorrect because cloud services generally emphasize broad network access using standard methods and interfaces, not limited access through custom interfaces only. Therefore, on-demand, self-service capabilities best represents a cloud computing benefit."
+  },
+  {
+    "id": 380,
+    "question": "A user asks a technician to recommend a CPU upgrade for a desktop computer. Which of the following should the technician consider first?",
+    "options": [
+      "A. Core count",
+      "B. Socket type",
+      "C. Bus frequency",
+      "D. Integrated GPU"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The first consideration for a desktop CPU upgrade is the socket type, because the processor must be physically and electrically compatible with the motherboard. In CompTIA A+ Core 1 hardware terms, CPUs are designed for specific sockets (for example, Intel LGA or AMD AM-series), and a mismatch means the CPU simply cannot be installed. Even within the same brand, different generations may use different sockets, and the motherboard’s chipset and BIOS/UEFI must also support the selected CPU model. If the socket is wrong, factors like core count, frequency, and integrated graphics become irrelevant because the system will not POST or function. After confirming socket compatibility, the technician would typically evaluate other constraints such as BIOS/UEFI update requirements, power and cooling (TDP and heatsink/fan capability), and RAM compatibility supported by the platform. Only then do performance-related preferences like core count (multitasking), bus/clock characteristics, or whether an integrated GPU is needed (if no discrete video card is present) become meaningful selection criteria. Therefore, the correct first consideration is the motherboard socket type."
+  },
+  {
+    "id": 381,
+    "question": "Which of the following controls network traffic based on MAC addresses?",
+    "options": [
+      "A. Router",
+      "B. PoE injector",
+      "C. Firewall",
+      "D. Switch"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A switch is the network device that controls and forwards traffic primarily based on MAC addresses. In CompTIA A+ Core 1 networking, a switch operates at Layer 2 (Data Link) of the OSI model. When devices communicate on an Ethernet LAN, the switch learns the source MAC addresses from incoming frames and stores them in a MAC address table (CAM table) along with the port where each device is connected. After learning, the switch uses the destination MAC address in each Ethernet frame to decide which specific port should receive the traffic, which reduces unnecessary transmissions and improves overall network efficiency compared to a hub. If the destination MAC is unknown, the switch will flood the frame out other ports (except the one it came in on) until it learns the correct location. A router makes forwarding decisions using IP addresses at Layer 3, not MAC-based switching decisions. A PoE injector only supplies electrical power over Ethernet and does not manage traffic forwarding. A firewall filters traffic based on rules (IP, ports, protocols, and sometimes application/state), but the classic CompTIA A+ answer for MAC-based traffic control on a LAN is a switch."
+  },
+  {
+    "id": 382,
+    "question": "An end user wants to share their cellular internet connection with their laptop. Which of the following technologies should they use?",
+    "options": [
+      "A. Hotspot",
+      "B. Bluetooth",
+      "C. NFC",
+      "D. Ethernet"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "To share a phone’s cellular data connection with a laptop, the user should use a hotspot, also known as mobile hotspot or Wi-Fi tethering. In CompTIA A+ Core 1 terms, this feature allows a smartphone to act like a small wireless router: it takes the phone’s mobile data (4G/5G) connection and rebroadcasts it over Wi-Fi so another device (the laptop) can join the wireless network using an SSID and password. This is the most common and straightforward method because laptops universally support Wi-Fi and the connection typically provides better throughput than other tethering methods. Hotspot/tethering settings also commonly allow configuration of security (WPA2/WPA3) and can limit connected devices to reduce unauthorized access and manage data usage. Bluetooth (option B) can support tethering on some devices, but it is slower, more limited, and not the primary expected answer when the goal is simply sharing cellular internet with a laptop. NFC (option C) is mainly used for close-range pairing or payments and does not provide an internet sharing link by itself. Ethernet (option D) would require wired adapters and is not the standard method for cellular sharing. Therefore, Hotspot is the best answer."
+  },
+  {
+    "id": 383,
+    "question": "A company wants to get the fastest network speeds possible between nearby locations. If all technologies are available, which of the following connection types should the company use?",
+    "options": [
+      "A. Fiber",
+      "B. DSL",
+      "C. Satellite",
+      "D. Coaxial"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fiber is the best option when the goal is the fastest possible network speeds between nearby locations. In CompTIA A+ Core 1 networking, fiber-optic cabling (single-mode or multimode) provides the highest bandwidth capacity and supports very high data rates over longer distances compared with copper media. Fiber is also highly resistant to electromagnetic interference (EMI) because it transmits data as light rather than electrical signals, which improves reliability and signal quality—especially in environments with motors, fluorescent lighting, or other sources of interference. For nearby locations (such as buildings on the same campus), fiber is commonly used for backbone links and uplinks between switches because it delivers excellent throughput and can scale to higher speeds as equipment is upgraded. DSL is limited by telephone-line quality and distance from the provider’s equipment, and it is typically much slower than fiber. Satellite has higher latency and is not chosen when maximum speed and low delay are required. Coaxial can support broadband and some high-speed links, but it generally offers less bandwidth, more susceptibility to noise than fiber, and is not the top choice for highest-speed interconnection when fiber is available."
+  },
+  {
+    "id": 384,
+    "question": "A user's laptop monitor dims every evening. The user manually adjusts the screen setting but wants a permanent solution. Which of the following settings should a technician change to prevent the issue?",
+    "options": [
+      "A. Ambient light",
+      "B. Battery",
+      "C. Graphics",
+      "D. Scheduled tasks"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The most likely cause of a laptop screen dimming consistently in the evening is an ambient light/adaptive brightness feature. Many laptops include an ambient light sensor that automatically changes screen brightness based on room lighting conditions. As natural light decreases later in the day, the sensor detects a darker environment and reduces brightness to save power and reduce eye strain. Because this behavior occurs at a predictable time (evening) and the user can temporarily correct it by manually increasing brightness, it strongly points to automatic brightness control rather than a hardware failure. Changing the Ambient light setting (disabling adaptive brightness/auto-brightness) provides a permanent fix by preventing the system from adjusting brightness in response to lighting changes. While battery/power plans can also dim displays to conserve energy, that usually correlates with running on battery power or specific power-saving modes—not a consistent evening pattern. Graphics settings typically affect resolution, scaling, or driver features and are not the primary control for time-of-day dimming behavior. Scheduled tasks could theoretically run display-related scripts, but that is uncommon compared to built-in ambient light adaptation. Therefore, adjusting the ambient light/adaptive brightness setting is the best CompTIA A+ answer."
+  },
+  {
+    "id": 385,
+    "question": "Which of the following devices can handle large volumes of data and uses flash memory?",
+    "options": [
+      "A. SSD",
+      "B. DVD-RW",
+      "C. HDD",
+      "D. Tape"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "An SSD (Solid-State Drive) is the correct choice because it stores data using flash memory (NAND) and is commonly available in large capacities suitable for operating systems, applications, and mass storage. In CompTIA A+ Core 1 terms, SSDs contain no moving parts, which makes them faster and more reliable than mechanical drives for many workloads. They provide significantly improved read/write performance, lower latency, reduced heat output, and better shock resistance— important for both desktops and especially laptops. SSDs are also widely used in modern systems via SATA or NVMe (PCIe) interfaces, with NVMe offering the highest performance for large data transfers. The other options do not match “flash memory”: DVD-RW is optical media with limited capacity and slower speeds, intended for removable storage rather than large-volume primary storage. An HDD can store large volumes of data but uses magnetic platters and moving heads, not flash memory. Tape is also magnetic media, typically used for backups and archival storage, and while it can store large amounts, it does not use flash and is designed for sequential access rather than fast random access. Therefore, SSD is the best answer."
+  },
+  {
+    "id": 386,
+    "question": "An IT specialist is setting up a new shared network printer. The printer will receive a pre-allocated IP address via DHCP. Attempting to connect to the printer's web interface produces a Page not found message. The specialist runs diagnostics and finds that the IP is different than expected. Which of the following should the specialist check next?",
+    "options": [
+      "A. The MAC address used in the reservation",
+      "B. The printer driver on the print server",
+      "C. The subnet mask that the printer is using",
+      "D. The default gateway in the address pool"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a device is supposed to receive a specific “pre-allocated” address from DHCP, that typically means a DHCP reservation has been created. DHCP reservations work by mapping a specific MAC address to a chosen IP address so that when that exact device requests an address, the DHCP server always hands it the reserved IP. If diagnostics show the printer received a different IP than expected, the most likely cause is that the reservation is not being applied—commonly because the reservation references the wrong MAC address (typo, using the wrong interface, or copying the MAC of another port such as Wi-Fi vs Ethernet). Verifying the printer’s actual MAC address and matching it to the DHCP reservation is the correct next step. The printer driver on the print server (B) affects printing functionality, not the printer’s DHCP assignment or ability to browse its embedded web server. Subnet mask (C) and default gateway in the pool (D) could cause connectivity issues, but they would not usually explain why the device received an unexpected IP when a reservation was intended. The key mismatch symptom points first to the MAC address in the reservation."
+  },
+  {
+    "id": 387,
+    "question": "A technician is working on a high-end gaming computer that was built several years ago. The customer reports that the system will work OK for a short time, but then the system performs slowly until it finally locks up and turns off. Which of the following should the technician check first?",
+    "options": [
+      "A. Voltage input and output from the power supply",
+      "B. Fan speed and airflow through the heat sinks",
+      "C. Memory channel configuration and CAS timings",
+      "D. File fragmentation on the HDD"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The best answer is B. Fan speed and airflow through the heat sinks. The symptoms strongly indicate overheating: the computer works normally at first, slows down as heat builds up, then locks up and powers off to protect the CPU/GPU and motherboard. The Quentin Docter study guide states that a PC that works for a few minutes and then locks up is probably overheating because a heat sink or fan is not functioning properly, and the first troubleshooting step is to check all internal fans and ensure the heat sinks are properly attached. High-end gaming systems are especially heat-sensitive because CPUs and dedicated graphics cards generate substantial heat under load. The same section notes that CPUs are common overheating sources and video cards are also very susceptible in gaming or graphics-heavy systems. Power supply testing is useful for intermittent power problems, but the gradual slowdown before shutdown points more directly to thermal throttling and heat buildup than voltage failure. ========="
+  },
+  {
+    "id": 388,
+    "question": "A technician needs to build a computer that can tolerate high CPU utilization and graphics usage. Which of the following components provides the best benefit for the computer?",
+    "options": [
+      "A. Liquid cooling",
+      "B. Advanced RISC",
+      "C. x86 processor",
+      "D. Hardware security module"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The best answer is A. Liquid cooling. A system designed for sustained high CPU utilization and heavy graphics usage needs strong thermal management. The study guide explains that the CPU is one of the greatest cooling challenges in a computer and that modern processors require active cooling. It also notes that high-performance CPU coolers use large heat sinks, high-CFM fans, and better heat transfer methods to dissipate processor heat. Liquid cooling is specifically listed as a CPU cooling method and is described as using a water block to conduct heat away from the processor and circulate it to a radiator for cooling. The Mike Meyers material also explains that liquid cooling is useful for systems that are overclocked or need quieter, stronger cooling. Advanced RISC and x86 describe CPU architecture, not a cooling improvement. A hardware security module protects cryptographic keys and does not help with CPU/GPU heat or performance stability. ========="
+  },
+  {
+    "id": 389,
+    "question": "A company rolls out a mandatory OS update to all PCs. A legacy application that one department uses does not function on the new OS and is end-of-life. Which of the following should a technician suggest to solve the issue with minimal data loss, expense, and disruption to the users?",
+    "options": [
+      "A. Setting up a bare-metal hypervisor to isolate the outdated OS",
+      "B. Moving to a supported system under a Type 2 hypervisor",
+      "C. Upgrading to an alternative product and importing the data",
+      "D. Uploading the database to a private cloud"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The best answer is B. Moving to a supported system under a Type 2 hypervisor. The issue is application compatibility after an OS update. The Quentin Docter study guide explains that application virtualization is commonly used for legacy software or a legacy OS because older applications often run only on older operating systems. It further explains that virtualization allows users to run multiple environments without buying extra hardware, which directly matches the requirement for minimal cost and disruption. A Type 2 hypervisor runs on top of an existing host operating system, making it suitable for a department workstation scenario because users can keep the new supported OS while accessing the legacy application in a virtualized environment. A bare- metal Type 1 hypervisor is usually server-side and would be more disruptive and expensive. Migrating to a new product and importing data may be the long-term answer, but it introduces higher cost, retraining, and possible data loss. A private cloud does not solve OS compatibility by itself. ========="
+  },
+  {
+    "id": 390,
+    "question": "A computer runs normally for several minutes, gradually runs slower, and then shuts down without warning. Which of the following resolves this issue?",
+    "options": [
+      "A. Upgrading the memory",
+      "B. Replacing the fans",
+      "C. Adding drive space",
+      "D. Swapping the power supply"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "The best answer is B. Replacing the fans. The key clue is the sequence: normal operation, gradual slowdown, and then sudden shutdown. That pattern is typical of overheating. As temperature rises, modern CPUs and GPUs may throttle performance to reduce heat; if cooling remains inadequate, the system may lock up or shut down to prevent damage. The Quentin Docter study guide specifically states that overheating components may cause intermittent shutdowns and that a PC working for a few minutes and then locking up is probably experiencing a heat sink or fan problem. It recommends checking all fans and heat sinks first. The study guide also notes that motherboards often include CPU heat and fan sensors that can shut the computer down before damage occurs if active cooling fails. Upgrading RAM or adding drive space could improve some performance issues, but they would not usually cause a heat-related shutdown. A failing power supply can cause shutdowns, but the gradual slowdown before power-off makes fan/cooling failure the better match. ========="
+  }
+]

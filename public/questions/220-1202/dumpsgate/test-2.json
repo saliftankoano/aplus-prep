@@ -1,0 +1,455 @@
+[
+  {
+    "id": 33,
+    "question": "An end user's laptop is having network drive connectivity issues in the office. The end user submits a help desk ticket, and a support technician is able to establish a remote connection and fix the issue. The following day, however, the network drive is disconnected again. Which of the following should the technician do next?",
+    "options": [
+      "A. Connect remotely to the user's computer to see whether the network drive is still connected.",
+      "B. Send documentation about how to fix the issue in case it reoccurs.",
+      "C. Escalate the ticket to the next level.",
+      "D. Keep the ticket open until next day, then close the ticket."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Since the issue has recurred after a temporary fix, it is likely a deeper or persistent configuration or server issue. Escalating the ticket to the next tier of support (e.g., network or system administrator) ensures further investigation and permanent resolution. Escalation is part of the standard support protocol when issues reoccur despite initial troubleshooting. A . Rechecking remotely may confirm the issue, but doesn’t resolve it long term. B . Providing documentation helps the user but doesn’t solve the root cause. D . Keeping the ticket open is passive and doesn’t address the recurring issue. Reference: CompTIA A+ 220-1102 Objective 4.1: Given a scenario, implement best practices associated with documentation and support systems information. Study Guide Section: Escalation procedures and ticket management ==========================="
+  },
+  {
+    "id": 34,
+    "question": "Which of the following provides information to employees, such as permitted activities when using the organization's resources?",
+    "options": [
+      "A. AUP",
+      "B. MNDA",
+      "C. DRM",
+      "D. EULA"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An Acceptable Use Policy (AUP) outlines the rules and guidelines for employees or users regarding the appropriate use of company systems, resources, and internet access. It defines permitted and prohibited activities, helping to mitigate security risks and establish clear behavioral expectations. B . MNDA (Mutual Non-Disclosure Agreement) deals with confidentiality, not usage guidelines. C . DRM (Digital Rights Management) controls access to copyrighted content. D . EULA (End User License Agreement) pertains to software licensing, not internal policies. Reference: CompTIA A+ 220-1102 Objective 4.3: Explain common safety and environmental impacts and procedures. Study Guide Section: Organizational policies — AUP, security best practices ==========================="
+  },
+  {
+    "id": 35,
+    "question": "A technician needs to install an operating system on a large number of workstations. Which of the following is the fastest method?",
+    "options": [
+      "A. Physical media",
+      "B. Mountable ISO",
+      "C. Manual installation",
+      "D. Image deployment"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Image deployment is the fastest and most efficient method for installing operating systems on multiple machines. It involves creating a pre-configured image of an OS and deploying it across systems using tools like Windows Deployment Services (WDS) or third-party imaging solutions. This method saves time and ensures consistency across all devices. A . Physical media is slow and not scalable. B . Mountable ISOs are useful but still require manual installation. C . Manual installation is time-consuming and not suitable for large-scale deployment. Reference: CompTIA A+ 220-1102 Objective 1.4: Given a scenario, use appropriate Microsoft operating system installation methods. Study Guide Section: Deployment methods — image deployment, automation"
+  },
+  {
+    "id": 36,
+    "question": "A user is working from home and is unable to access work files on a company laptop. Which of the following should a technician configure to fix the network access issue?",
+    "options": [
+      "A. Wide-area network",
+      "B. Wireless network",
+      "C. Proxy network settings",
+      "D. Virtual private network"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A VPN creates a secure tunnel from the user’s home network into the corporate network, providing the necessary routing and access controls for the laptop to reach internal file servers. Without a VPN, the device remains outside the corporate LAN and cannot directly reach protected resources. A VPN creates a secure tunnel from the user’s home network into the corporate network, providing the necessary routing and access controls for the laptop to reach internal file servers. Without a VPN, the device remains outside the corporate LAN and cannot directly reach protected resources."
+  },
+  {
+    "id": 37,
+    "question": "A technician is troubleshooting an issue in which a service runs momentarily and stops at certain points in the process. The technician needs to determine the root cause of this issue. Which of the following tools should the technician use?",
+    "options": [
+      "A. Event Viewer",
+      "B. Task Manager",
+      "C. Internet Options",
+      "D. Process Explorer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Event Viewer is the best tool to analyze the root cause of service failures in Windows. It provides detailed logs from system processes, including errors, warnings, and crash reports related to services and applications. When a service starts and stops unexpectedly, Event Viewer will often record the cause, such as dependency failures or access violations. B . Task Manager shows active processes but doesn't retain logs or causes of failure. C . Internet Options is used for configuring browser settings, not troubleshooting services. D . Process Explorer is powerful but more suited for live monitoring and detailed process trees, not post-failure log analysis. Reference: CompTIA A+ 220-1102 Objective 3.1: Given a scenario, troubleshoot common Windows OS problems. Study Guide Section: Log file analysis using Event Viewer ==========================="
+  },
+  {
+    "id": 38,
+    "question": "Which of the following is an example of an application publisher including undisclosed additional software in an installation package?",
+    "options": [
+      "A. Virus",
+      "B. Ransomware",
+      "C. Potentially unwanted program",
+      "D. Trojan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A Potentially Unwanted Program (PUP) is software that a user may not have knowingly installed. It often gets bundled with legitimate software and installs without full disclosure. PUPs can affect performance, change system settings, or display unwanted ads but are not necessarily malicious like viruses or ransomware. A . Viruses replicate and spread; they are generally more harmful and not \"bundled\" in the same way. B . Ransomware encrypts files for payment and is deliberately malicious. D . A Trojan disguises itself as legitimate software to perform malicious actions but is not typically pre-bundled by legitimate publishers. Reference: CompTIA A+ 220-1102 Objective 2.5: Given a scenario, detect, remove, and prevent malware using appropriate tools and methods. Study Guide Section: Types of malware — PUPs and bundled software ==========================="
+  },
+  {
+    "id": 39,
+    "question": "A technician needs to map a shared drive from a command-line interface. Which of the following commands should the technician use?",
+    "options": [
+      "A. pathping",
+      "B. nslookup",
+      "C. net use",
+      "D. tracert"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The net use command in Windows is used to map (assign) a shared drive from the command line. The syntax typically looks like: net use X: \\server\\share where X is the drive letter and \\server\\share is the network path. A . pathping tests network latency and packet loss. B . nslookup is used for DNS troubleshooting. D . tracert shows the route packets take to reach a destination — not for drive mapping. Reference: CompTIA A+ 220-1102 Objective 1.7: Given a scenario, troubleshoot common operating system problems. Study Guide Section: Command-line tools — net use for drive mapping ==========================="
+  },
+  {
+    "id": 40,
+    "question": "A help desk team was alerted that a company-owned cell phone has an unrecognized password- cracking application. Which of the following should the help desk team do to prevent further unauthorized installations from occurring?",
+    "options": [
+      "A. Configure Group Policy.",
+      "B. Implement PAM.",
+      "C. Install anti-malware software.",
+      "D. Deploy MDM."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Mobile Device Management (MDM) is used to control, monitor, and enforce policies on mobile devices. It allows IT teams to restrict app installations, push approved apps, and monitor device compliance. Deploying MDM would prevent unauthorized applications, such as password crackers, from being installed on company-managed devices. A . Group Policy is for managing Windows environments and not applicable to smartphones. B . PAM (Privileged Access Management) controls administrative access, not app installation. C . Anti-malware can help detect malicious apps but doesn’t prevent their installation proactively. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast common security measures and tools. Study Guide Section: Mobile Device Management (MDM) capabilities — app control, security enforcement"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following is used in addition to a password to implement MFA?",
+    "options": [
+      "A. Sending a code to the user's phone",
+      "B. Verifying the user's date of birth",
+      "C. Prompting the user to solve a simple math problem",
+      "D. Requiring the user to enter a PIN"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Multi-Factor Authentication (MFA) requires at least two different types of authentication factors: Something you know (e.g., password or PIN) Something you have (e.g., smartphone or hardware token) Something you are (e.g., fingerprint or facial recognition) Option A, sending a code to the user’s phone, is an example of \"something you have\" — a physical device that receives a one-time passcode. Combined with a password, this forms a proper MFA implementation. B . Date of birth is another knowledge-based factor (like a password), not a second factor type. C . Solving a math problem is not a recognized authentication factor. D . A PIN is also \"something you know\" and does not count as a distinct MFA factor when paired with a password. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast common security measures and authentication technologies. Study Guide Section: Authentication factors — password, biometrics, tokens, MFA ==========================="
+  },
+  {
+    "id": 42,
+    "question": "A technician is preparing to replace the batteries in a rack-mounted UPS system. After ensuring the power is turned off and the batteries are fully discharged, the technician needs to remove the battery modules from the bottom of the rack. Which of the following steps should the technician take?",
+    "options": [
+      "A. Ensure the fire suppression system is ready to be activated.",
+      "B. Use appropriate lifting techniques and guidelines.",
+      "C. Place the removed batteries in an antistatic bag.",
+      "D. Wear a face mask to filter out any harmful fumes."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: UPS batteries are heavy and often located at the bottom of racks to maintain balance. Safe removal requires the use of correct lifting techniques to avoid injury. OSHA and workplace safety standards emphasize ergonomic handling when dealing with heavy equipment. A . Fire suppression readiness is important for fire safety but not specifically relevant to battery removal. C . Antistatic bags are for electronic components, not heavy battery modules. D . A face mask is not generally necessary unless there is a chemical leak, which is not indicated here. Reference: CompTIA A+ 220-1102 Objective 4.3: Explain common safety and environmental impacts and procedures. Study Guide Section: Safe handling procedures — lifting techniques, battery handling ==========================="
+  },
+  {
+    "id": 43,
+    "question": "A technician is setting up a surveillance system for a customer. The customer wants access to the system's web interface on the LAN via the system’s IP address. Which of the following should the technician use to prevent external log-in attempts from the internet?",
+    "options": [
+      "A. Port mapping",
+      "B. Subnetting",
+      "C. Static IP",
+      "D. Content filtering"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: To prevent external access, the technician should avoid exposing the surveillance system’s port to the public internet. Port mapping (also known as port forwarding) is the method used to control which internal devices and ports are accessible from the outside. By not configuring port forwarding for the device, external login attempts are effectively blocked. B . Subnetting organizes IP addresses but doesn't directly restrict access. C . A static IP ensures consistent addressing but does not secure access. D . Content filtering is used to restrict web content, not to block access to a web interface. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and tools. Study Guide Section: SOHO router security — port forwarding and blocking external access ==========================="
+  },
+  {
+    "id": 44,
+    "question": "A technician needs to configure laptops so that only administrators can enable virtualization technology if needed. Which of the following should the technician configure?",
+    "options": [
+      "A. BIOS password",
+      "B. Guest account",
+      "C. Screen lock",
+      "D. AutoRun setting"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Virtualization settings are typically found within the BIOS/UEFI firmware configuration. To prevent unauthorized users from changing these settings, the technician should set a BIOS password. This ensures only administrators with the password can access or modify BIOS settings, including virtualization support. B . The guest account is a user-level feature in Windows and doesn’t control BIOS access. C . A screen lock prevents casual access to the desktop but doesn’t protect firmware settings. D . AutoRun controls how media and devices behave when inserted — unrelated to BIOS security. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and administrative controls. Study Guide Section: BIOS/UEFI settings protection — password implementation —"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following file types would a desktop support technician most likely use to automate tasks for a Windows user log-in?",
+    "options": [
+      "A. .bat",
+      "B. .sh",
+      "C. .py",
+      "D. .js"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A .bat file (batch file) is a script file in DOS, OS/2, and Microsoft Windows. It contains a series of commands that are executed by the command-line interpreter. In Windows environments, batch files are commonly used to automate log-in tasks, such as mapping network drives, launching applications, or setting environment variables during the user's logon process. B . .sh is a shell script used in Linux/Unix environments. C . .py is a Python script, which can be used for automation but is not commonly run directly at user logon in standard Windows environments. D . .js is JavaScript, used mainly in web development and not for system-level scripting in Windows logon automation. Reference: CompTIA A+ 220-1102 Objective 1.3: Use appropriate Microsoft operating system features and tools. Study Guide Section: Scripting basics and file types for automation — .bat for Windows ==========================="
+  },
+  {
+    "id": 46,
+    "question": "A technician uses AI to draft a proposal about the benefits of new software. When reading the draft, the technician notices that the draft contains factually incorrect information. Which of the following best describes this scenario?",
+    "options": [
+      "A. Data privacy",
+      "B. Hallucinations",
+      "C. Appropriate use",
+      "D. Plagiarism"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In the context of artificial intelligence, \"hallucinations\" refer to instances where an AI system generates information that is plausible-sounding but factually incorrect or entirely fabricated. This is a known limitation of large language models, including generative AI tools. A . Data privacy refers to the protection of personal or sensitive data, not content accuracy. C . Appropriate use relates to ethical and policy-based concerns, not factual correctness. D . Plagiarism involves presenting someone else's work as your own — this situation is about accuracy, not ownership. Reference: CompTIA A+ 220-1102 Objective 4.4: Identify basic concepts of scripting and automation. Study Guide Section: AI tools and responsible usage — hallucinations and fact-checking outputs ==========================="
+  },
+  {
+    "id": 47,
+    "question": "Which of the following describes an attack in which an attacker sets up a rogue AP that tricks users into connecting to the rogue AP instead of the legitimate network?",
+    "options": [
+      "A. Stalkerware",
+      "B. Evil twin",
+      "C. Tailgating",
+      "D. Shoulder surfing"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An evil twin is a rogue wireless access point set up to mimic a legitimate Wi-Fi network. Unsuspecting users may connect to it, giving attackers the opportunity to intercept traffic, steal credentials, or install malware. The evil twin often uses the same SSID as the real network to fool users. A . Stalkerware is spyware installed to track user activity, typically on personal devices. C . Tailgating is a physical security breach involving unauthorized entry behind someone with access. D . Shoulder surfing involves observing a person entering confidential data, such as PINs or passwords. Reference: CompTIA A+ 220-1102 Objective 2.3: Compare and contrast social engineering and wireless attacks. Study Guide Section: Wireless threats — rogue APs and evil twin scenarios ==========================="
+  },
+  {
+    "id": 48,
+    "question": "A user is experiencing issues with outdated images while browsing websites. Which of the following settings should a technician use to correct this issue?",
+    "options": [
+      "A. Administrative Tools",
+      "B. Windows Defender Firewall",
+      "C. Internet Options",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Outdated images and website data often result from cached files in the browser. The Internet Options panel in Windows (specifically under the General tab) allows users to clear browsing history, including cached images and files, which forces the browser to load the most current versions of web content. A . Administrative Tools is used for advanced system management, not browser settings. B . Windows Defender Firewall controls network traffic and security rules, not caching. D . Ease of Access provides accessibility features for users with disabilities — unrelated to web browsing issues. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common software and application issues. Study Guide Section: Internet Options and browser cache clearing for display issues"
+  },
+  {
+    "id": 49,
+    "question": "Every time a user loads a specific spreadsheet, their computer is temporarily unresponsive. The user also notices that the title bar indicates the application is not responding. Which of the following would a technician most likely inspect?",
+    "options": [
+      "A. Anti-malware logs",
+      "B. Workstation repair options",
+      "C. Bandwidth status as reported in the Task Manager",
+      "D. File size and related memory utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: If a system becomes unresponsive while opening a specific spreadsheet, the issue is likely tied to the file’s size or the complexity of its content (e.g., embedded formulas, macros, or graphics). High memory utilization caused by the file can lead to temporary freezing or application \"Not Responding\" messages. Checking the spreadsheet's file size and monitoring system memory in Task Manager will help isolate performance bottlenecks. A . Anti-malware logs are important for security troubleshooting but less likely relevant to spreadsheet-related performance issues. B . Workstation repair is for system-wide problems and not necessary for a single-file issue. C . Bandwidth relates to network usage and wouldn’t impact opening a local file. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common application issues. Study Guide Section: Troubleshooting application slowness and performance using Task Manager and resource monitoring tools ==========================="
+  },
+  {
+    "id": 50,
+    "question": "A user frequently misplaces their Windows laptop and is concerned about it being stolen. The user would like additional security controls on their laptop. Which of the following is a built-in technology that a technician can use to enable full drive encryption?",
+    "options": [
+      "A. Active Directory",
+      "B. New Technology File System",
+      "C. Encrypting File System",
+      "D. BitLocker"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: BitLocker is Microsoft’s full disk encryption technology built into Windows Pro and Enterprise editions. It encrypts the entire drive, protecting data if the device is lost or stolen. BitLocker can use TPM (Trusted Platform Module) and can be configured with PINs or USB keys for added security. A . Active Directory is for centralized user and policy management in domains. B . NTFS is the file system format and doesn't provide encryption by itself. C . EFS (Encrypting File System) encrypts individual files or folders, not the entire drive. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and encryption tools. Study Guide Section: Encryption options — BitLocker vs. EFS ==========================="
+  },
+  {
+    "id": 51,
+    "question": "Which of the following is used to apply corporate restrictions on an Apple device?",
+    "options": [
+      "A. App Store",
+      "B. VPN configuration",
+      "C. Apple ID",
+      "D. Management profile"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A management profile is used to enforce corporate policies on Apple devices. These profiles are installed via an MDM (Mobile Device Management) solution and control access, restrictions, Wi-Fi settings, app installations, and more. They’re critical for managing devices in a business environment. A . The App Store allows software downloads but doesn’t control policies. B . VPN configuration is used for secure remote connections, not enforcement of restrictions. C . Apple ID is for personal account access to Apple services, not corporate device management. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security tools and MDM features. Study Guide Section: Mobile device management and configuration profiles (Apple/iOS) ==========================="
+  },
+  {
+    "id": 52,
+    "question": "A user's new smartphone is not staying charged throughout the day. The smartphone charges fully every night. Which of the following should a technician review first to troubleshoot the issue?",
+    "options": [
+      "A. Storage usage",
+      "B. End of software support",
+      "C. Charger wattage",
+      "D. Background applications"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Background applications can significantly drain a smartphone’s battery, even when the device is idle. A technician should first review which apps are running in the background and consuming power through the battery usage section of the OS. Disabling or restricting power-hungry apps often resolves poor battery life. A . Storage usage doesn’t significantly affect battery life. B . End of software support is unrelated to battery performance unless it's causing inefficient processes, which would still be secondary. C . Charger wattage affects charging speed, not battery life after charging. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common mobile OS and application issues. Study Guide Section: Diagnosing battery and app performance issues on mobile devices"
+  },
+  {
+    "id": 53,
+    "question": "A customer is unable to open some files on their system. Each time the customer attempts to open a file, the customer receives a message that the file is encrypted. Which of the following best describes this issue?",
+    "options": [
+      "A. Keylogger",
+      "B. Ransomware",
+      "C. Phishing",
+      "D. Cryptominer"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Ransomware is a type of malware that encrypts the user's files and demands a payment (ransom) for the decryption key. When a user receives a message stating that their files are encrypted and cannot be accessed, ransomware is the most likely cause. The attacker’s goal is to hold the data hostage until the victim pays to restore access. A . Keylogger records keystrokes and doesn’t encrypt files. C . Phishing is a social engineering tactic to gather credentials, not to encrypt data. D . Cryptominer uses system resources to mine cryptocurrency, not encrypt files. Reference: CompTIA A+ 220-1102 Objective 2.3: Compare and contrast common types of malware and threats. Study Guide Section: Ransomware behavior and user impact ==========================="
+  },
+  {
+    "id": 54,
+    "question": "An organization is experiencing an increased number of issues. A technician notices applications that are not installed by default. Users are reporting an increased number of system prompts for software licensing. Which of the following would the security team most likely do to remediate the root cause?",
+    "options": [
+      "A. Deploy an internal PKI to filter encrypted web traffic.",
+      "B. Remove users from the local admin group.",
+      "C. Implement stronger controls to block suspicious websites.",
+      "D. Enable stricter UAC settings on Windows."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: If unauthorized or non-standard applications are appearing on systems and users are receiving licensing prompts, it’s likely users are installing software themselves. Removing users from the local administrators group will prevent them from installing software without approval and reduce the likelihood of introducing unapproved or malicious programs. A . Deploying a PKI helps with secure communications but doesn’t address user software installation rights. C . Blocking suspicious websites is helpful but doesn’t prevent local installations. D . Stricter UAC may add prompts but can still be bypassed by admin users. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast access control methods and user privilege settings. Study Guide Section: Principle of least privilege and managing local admin rights ==========================="
+  },
+  {
+    "id": 55,
+    "question": "A support specialist needs to decide whether to install a 32-bit or 64-bit OS architecture on a new computer. Which of the following specifications will help the specialist determine which OS architecture to use?",
+    "options": [
+      "A. 16GB RAM",
+      "B. Intel i7 CPU",
+      "C. 500GB HDD",
+      "D. 1Gbps Ethernet"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The amount of installed RAM is the key factor in determining whether a 64-bit OS is needed. A 32-bit operating system cannot effectively address more than 4GB of RAM. Since this system has 16GB of RAM, a 64-bit OS is required to utilize the full memory. B . An Intel i7 CPU supports both 32-bit and 64-bit OS installations, so it alone doesn’t determine the need. C . HDD size does not influence OS architecture selection. D . Ethernet speed is a network consideration and not related to OS architecture. Reference: CompTIA A+ 220-1102 Objective 1.4: Given a scenario, choose the appropriate Microsoft OS installation methods and configurations. Study Guide Section: 32-bit vs. 64-bit system requirements and memory limitations ==========================="
+  },
+  {
+    "id": 56,
+    "question": "Which of the following prevents forced entry into a building?",
+    "options": [
+      "A. PIV card",
+      "B. Motion-activated lighting",
+      "C. Video surveillance",
+      "D. Bollard"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A bollard is a sturdy physical barrier—often a steel or concrete post—designed to prevent vehicles or unauthorized individuals from ramming into or entering secure areas of a building. It provides physical security and is commonly used outside entrances to prevent forced entry. A . PIV (Personal Identity Verification) cards are used for identity access control, not physical blocking. B . Motion lighting may deter activity but doesn’t physically prevent entry. C . Surveillance records activity but cannot stop a forced entry. Reference: CompTIA A+ 220-1102 Objective 2.4: Compare and contrast physical security measures. Study Guide Section: Physical security devices — barriers, bollards, and deterrents"
+  },
+  {
+    "id": 57,
+    "question": "A technician is assigned to offboard a user. Which of the following are common tasks on an offboarding checklist? (Choose two.)",
+    "options": [
+      "A. Quarantine the hard drive in the user's laptop.",
+      "B. Deactivate the user's key fobs for door access.",
+      "C. Purge all PII associated with the user.",
+      "D. Suspend the user's email account.",
+      "E. Turn off the network ports underneath the user's desk.",
+      "F. Add the MAC address of the user's computer to a blocklist."
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: User offboarding involves disabling the departing user's access to company systems and facilities. Two key tasks typically include: Deactivating physical access credentials (e.g., key fobs or badges) to prevent unauthorized entry (B). Suspending or disabling the user’s email account to prevent future use and to retain business communications (D). A . Quarantining a hard drive is not standard unless malware or legal issues are involved. C . Purging PII must follow legal retention policies; it's not typically an immediate offboarding task. E . Disabling network ports may be relevant in some cases but is not a standard offboarding step. F . Blocking MAC addresses is not typical unless the device is considered a security threat. Reference: CompTIA A+ 220-1102 Objective 4.1: Given a scenario, implement proper documentation and offboarding procedures. Study Guide Section: User lifecycle management — onboarding and offboarding tasks ==========================="
+  },
+  {
+    "id": 58,
+    "question": "A company would like to deploy baseline images to new computers as they are started up on the network. Which of the following boot processes should the company use for this task?",
+    "options": [
+      "A. ISO",
+      "B. Secure",
+      "C. USB",
+      "D. PXE"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: PXE (Preboot Execution Environment) allows workstations to boot over the network and download an OS image from a server. It is ideal for automating mass deployments using baseline images across many machines without the need for physical media. A . An ISO is a disk image file but requires mounting or physical media. B . Secure Boot is a security feature, not a method of deploying OS images. C . USB requires manual installation and is not suitable for automated deployment at scale. Reference: CompTIA A+ 220-1102 Objective 1.4: Given a scenario, use appropriate Microsoft operating system installation methods. Study Guide Section: Remote installation methods — PXE boot deployment ==========================="
+  },
+  {
+    "id": 59,
+    "question": "A user has been adding data to the same spreadsheet for several years. After adding a significant amount of data, they are now unable to open the file. Which of the following should a technician do to resolve the issue?",
+    "options": [
+      "A. Revert the spreadsheet to the last restore point.",
+      "B. Increase the amount of RAM.",
+      "C. Defragment the storage drive.",
+      "D. Upgrade the network connection speed."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: When a spreadsheet becomes very large, opening and processing it requires more memory (RAM). If the system doesn't have sufficient memory, it may fail to load the file properly. Upgrading or increasing the available RAM can resolve performance and loading issues with very large files. A . Restore points roll back system settings, not individual file content. C . Defragmentation optimizes disk performance but won’t help with memory issues. D . Network speed has no effect if the file is stored and opened locally. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common application and performance issues. Study Guide Section: Troubleshooting large-file performance and system resource limitations ==========================="
+  },
+  {
+    "id": 60,
+    "question": "A technician installs VPN client software that has a software bug from the vendor. After the vendor releases an update to the software, the technician attempts to reinstall the software but keeps getting an error message that the network adapter for the VPN already exists. Which of the following should the technician do next to mitigate this issue?",
+    "options": [
+      "A. Run the latest OS security updates.",
+      "B. Map the network adapter to the new software.",
+      "C. Update the network adapter's firmware.",
+      "D. Delete hidden network adapters."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: VPN clients often create virtual network adapters. If the software wasn't uninstalled properly or crashed during install, leftover (often hidden) virtual adapters can prevent reinstallation. The proper solution is to delete hidden network adapters using Device Manager (with “Show hidden devices” enabled). A . OS updates won’t fix a leftover driver or adapter issue. B . Mapping an adapter to the software is not a standard or viable solution. C . Firmware updates apply to physical adapters, not virtual VPN adapters. Reference: CompTIA A+ 220-1102 Objective 3.1: Troubleshoot common Windows OS and network issues. Study Guide Section: Troubleshooting network adapter conflicts and VPN client errors"
+  },
+  {
+    "id": 61,
+    "question": "Which of the following is the best reason for a network engineering team to provide a help desk technician with IP addressing information to use on workstations being deployed in a secure network segment?",
+    "options": [
+      "A. Only specific DNS servers are allowed outbound access.",
+      "B. The network allow list is set to a specific address.",
+      "C. DHCP services are not enabled for this subnet.",
+      "D. NAC servers only allow for security updates to be installed."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In secure or isolated network segments, DHCP may be disabled to reduce the risk of unauthorized device connections or to maintain strict IP assignment control. In such cases, the help desk technician must manually configure IP settings (including IP address, subnet mask, gateway, and DNS servers). This ensures the workstation communicates properly within that segment. A . DNS server restriction is unrelated to manual IP configuration. B . Allow lists refer to traffic access, but manual IP assignment is due to lack of DHCP, not allow lists. D . NAC servers control access but don't replace the need for IP addressing. Reference: CompTIA A+ 220-1102 Objective 1.7: Given a scenario, troubleshoot common operating system and network issues. Study Guide Section: IP configuration and DHCP-related deployment scenarios ==========================="
+  },
+  {
+    "id": 62,
+    "question": "A technician is using a credential manager to safeguard a large number of credentials. Which of the following is important for using this application?",
+    "options": [
+      "A. Restricted log-in times",
+      "B. Secure master password",
+      "C. TPM module",
+      "D. Windows lock screen"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Credential managers or password vaults (e.g., Windows Credential Manager, KeePass, or LastPass) store passwords securely. The integrity of such tools heavily depends on the strength of the master password protecting the vault. If compromised, all saved credentials could be exposed. Therefore, setting a secure master password is crucial. A . Login time restrictions are general user account settings, not specific to credential managers. C . TPM is used more commonly for full disk encryption, not specifically required for password managers. D . The lock screen protects general access but does not protect stored credentials alone. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast authentication technologies and secure credential storage. Study Guide Section: Password management and protection best practices ==========================="
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 155,
+    "question": "Which of the following authentication methods is the best way to prevent users from frequently entering their credentials?",
+    "options": [
+      "A. Access control list",
+      "B. Single sign-on",
+      "C. Multifactor authentication",
+      "D. One-time password"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 156,
+    "question": "An administrator is investigating a technical outage. The management team wants information that includes the summary of the outage and actions taken. Which of the following documentation should the administrator provide?",
+    "options": [
+      "A. Knowledge base article",
+      "B. Non-disclosure agreement",
+      "C. Incident report",
+      "D. Standard operating procedure"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 157,
+    "question": "After a recent mobile OS upgrade to a smartphone, a user attempts to access their corporate email, but the application does not open. A technician restarts the smartphone, but the issue persists. Which of the following is the most likely way to resolve the issue?",
+    "options": [
+      "A. Updating the failed software",
+      "B. Registering the smartphone with an MDM solution",
+      "C. Installing a third-party client",
+      "D. Clearing the cache partition"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  }
+]

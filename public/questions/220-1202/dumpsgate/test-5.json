@@ -1,0 +1,461 @@
+[
+  {
+    "id": 125,
+    "question": "After a user installs a mobile application from an advertisement, the phone's battery dies a few hours later and becomes hot to touch, even when not in use. Which of the following should a technician do first?",
+    "options": [
+      "A. Check for unauthorized device administrators",
+      "B. Contact the software developer",
+      "C. Run a mobile malware scan on the phone",
+      "D. Ensure appropriate MDM policies are applied"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: These symptoms strongly indicatemalware infectionor a malicious app running in the background. The first action should be torun a malware scanto identify and remove malicious components. FromQuentin Docter – CompTIA A+ Complete Study Guide: “If a mobile device is overheating and the battery drains rapidly after installing an app, this could point to malware. Begin by scanning the device with a mobile anti-malware application.”"
+  },
+  {
+    "id": 126,
+    "question": "A user switches from Linux to Windows and tries to migrate data using an external USB drive. Windows prompts that the device must be formatted. It works fine on Linux. What should the user do?",
+    "options": [
+      "A. Configure Windows firewall to allow data from Linux systems",
+      "B. Replace the cable with Windows-supported hardware",
+      "C. Apply a firmware update from the PC manufacturer",
+      "D. Update the file allocation system to exFAT"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Windows doesn't natively support many Linux file systems (like ext4).Reformatting to exFATmakes the drive readable/writable on both Linux and Windows. FromAll-in-One Exam Guide: “For cross-platform compatibility, exFAT is recommended as it supports large files and is recognized by Windows, macOS, and Linux (with exFAT drivers).”"
+  },
+  {
+    "id": 127,
+    "question": "Which of the following malware types typically has very high computing resource usage?",
+    "options": [
+      "A. Rootkit",
+      "B. Cryptominer",
+      "C. Boot sector virus",
+      "D. Trojan"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Cryptominersexploit system resources to mine cryptocurrency, often without user consent, leading to high CPU and GPU usage. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Cryptomining malware can cause significant performance degradation by monopolizing system resources like CPU and GPU to mine digital currency.”"
+  },
+  {
+    "id": 128,
+    "question": "A Microsoft OS laptop user frequently forgets their password. Which alternative login method should a technician enable?",
+    "options": [
+      "A. Single sign-on",
+      "B. Windows Hello",
+      "C. BitLocker",
+      "D. User Account Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Windows Helloallows biometric and PIN-based login, which are easier and more user-friendly than passwords. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Windows Hello supports biometric authentication and PINs, providing easier and secure access especially for users who have trouble remembering passwords.”"
+  },
+  {
+    "id": 129,
+    "question": "A user’s computer is running slowly. Task Manager shows: Disk: 2% Network: 12% GPU: 15% CPU: 70% Memory: 97% Which of the following would a technician most likely do to resolve the issue?",
+    "options": [
+      "A. Clear browser cached data",
+      "B. Upgrade the network connection",
+      "C. Close unnecessary programs",
+      "D. Delete temporary files"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Memory usage is critically high, suggesting many applications or background processes. Closing unnecessary programs will immediately free up RAM. FromTravis Everett – All-in-One Exam Guide: “High memory usage with moderate CPU load usually means too many applications are open. Close unnecessary apps or use Task Manager to end processes.”"
+  },
+  {
+    "id": 130,
+    "question": "Which of the following concepts should a technician consider when discussing confidential work projects with individuals outside the company?",
+    "options": [
+      "A. EULA",
+      "B. EOL",
+      "C. SLA",
+      "D. NDA"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: AnNDA (Non-Disclosure Agreement)is used to ensure confidentiality of sensitive company information, especially when interacting with external parties. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “An NDA ensures that confidential information is not disclosed to unauthorized individuals, especially important in external communications.”"
+  },
+  {
+    "id": 131,
+    "question": "Technicians are failing to document user contact information, device asset tags, and a clear description of each issue in the ticketing system. What should the help desk management implement?",
+    "options": [
+      "A. Service-level agreements",
+      "B. Call categories",
+      "C. Standard operating procedures",
+      "D. Knowledge base articles"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Standard Operating Procedures (SOPs)guide technicians through consistent and complete processes, including documentation. FromTravis Everett – All-in-One Exam Guide: “SOPs ensure that all required steps—such as data collection and issue description—are followed in every support interaction.”"
+  },
+  {
+    "id": 132,
+    "question": "A secretary receives an email from the CEO requesting immediate vendor payment. Later, the CEO says they never sent it. Which social engineering tactic is this?",
+    "options": [
+      "A. Evil twin",
+      "B. Impersonation",
+      "C. Whaling",
+      "D. Spear phishing"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Spear phishingtargets a specific individual using personalized tactics, as seen in emails impersonating a CEO to deceive a secretary. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “Spear phishing targets specific individuals or roles within an organization using tailored messages to increase success rates.”"
+  },
+  {
+    "id": 133,
+    "question": "The battery on a user’s smartphone discharges quickly during travel. The phone was replaced two weeks ago. What should the technician do first?",
+    "options": [
+      "A. Replace the battery with a higher capacity option",
+      "B. Provide an external battery",
+      "C. Ensure the charging port is working",
+      "D. Look for applications that are reporting the highest utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Apps like GPS or roaming services often drain battery during travel.Checking app utilizationhelps identify battery drain sources. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “Monitoring app activity can reveal high-power usage apps running in the background, especially when mobile data or GPS is active.”"
+  },
+  {
+    "id": 134,
+    "question": "A technician reviews an organization's incident management policy. The organization uses a third- party vendor with multiple tools to protect its assets. What service type is this?",
+    "options": [
+      "A. PaaS",
+      "B. EDR",
+      "C. MDR",
+      "D. XDR"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Managed Detection and Response (MDR)involves outsourcing security monitoring to a third-party that uses multiple tools and analytics. FromTravis Everett – All-in-One Exam Guide: “MDR providers handle threat detection and response using a combination of advanced tools, analytics, and expert personnel.”"
+  },
+  {
+    "id": 135,
+    "question": "An employee is trying to connect their company laptop to airport Wi-Fi. A pop-up with the airport logo appeared and was closed quickly. The internet does not work. What should a help desk technician suggest?",
+    "options": [
+      "A. Look for a wall socket with RJ45 and try to connect",
+      "B. Contact the airport IT department",
+      "C. Tell the employee that company policy prohibits connection to public Wi-Fi",
+      "D. Reconnect to the network and read the pop-up carefully"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Public Wi-Fi networks often usecaptive portals, which require accepting terms or authenticating via the pop-up page before full access is granted. Closing it prematurely stops full connection. FromTravis Everett – All-in-One Exam Guide: “Captive portals intercept the first HTTP request and present a login or acknowledgment screen. Without completing it, access is denied.”"
+  },
+  {
+    "id": 136,
+    "question": "A technician needs to disable guest log-ins on domain-joined desktop machines. Which of the following should be used?",
+    "options": [
+      "A. Group Policy",
+      "B. Firewall",
+      "C. Microsoft Management Console",
+      "D. MSConfig"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Group Policyis the standard administrative tool for setting user permissions across domain-joined systems. FromQUENTIN DOCTER – COMPLETE Study Guide: “Use Group Policy to enforce user rights, including disabling guest account access on domain computers.”"
+  },
+  {
+    "id": 137,
+    "question": "A user cannot upload files to corporate servers from their mobile device when outside the office, but uploads work fine in-office. What should a technician do to determine the root cause?",
+    "options": [
+      "A. Check the data usage limit",
+      "B. Enable airplane mode",
+      "C. Verify the last device reboot",
+      "D. Enable Bluetooth connectivity"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: If uploading fails only offsite,mobile data limits or restrictionsare the likely cause. Data caps or network management can interfere with uploads. FromTravis Everett – All-in-One Exam Guide: “When mobile users experience network issues, always check if the device has reached a data cap or roaming restriction.”"
+  },
+  {
+    "id": 138,
+    "question": "A user logs in daily and cannot print a report. Help desk fixes it each day, but the issue recurs. What should be done so the issue doesn’t recur? (Select two)",
+    "options": [
+      "A. Set the print spooler to have no dependencies",
+      "B. Set the print spooler recovery to take no action",
+      "C. Start the printer extensions and notifications service",
+      "D. Start the print spooler service",
+      "E. Set the print spooler to Automatic",
+      "F. Set the print spooler log-on to the user's account"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: For persistent printing issues due to spooler service, ensure theprint spooler is started and set to Automatic. This maintains print capability across reboots. FromMike Meyers' Lab Manual: “If users lose printing capabilities on reboot, the print spooler service must be configured to start automatically and be confirmed as running.”"
+  },
+  {
+    "id": 139,
+    "question": "A technician is installing a cloud-based productivity suite and gets an error saying the installation is unavailable. What should be tried first?",
+    "options": [
+      "A. Reinstall the productivity suite",
+      "B. Download an open-source alternative",
+      "C. Check the license device limit",
+      "D. Update the device OS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Cloud-based software often enforcesdevice limitsper license. Before reinstallation or switching software, checking license allocations is the most logical first step. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Many cloud apps enforce user or device count restrictions. When an install fails, check licensing before troubleshooting other areas.”"
+  },
+  {
+    "id": 140,
+    "question": "A network technician notices that most of the company's network switches are now end-of-life and need to be upgraded. What should the technician do first?",
+    "options": [
+      "A. Implement the change",
+      "B. Approve the change",
+      "C. Document the change",
+      "D. Schedule the change"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Before any change is implemented, it must bedocumentedas part of change management procedures. This ensures transparency, review, and tracking. FromQuentin Docter – CompTIA A+ Complete Study Guide: “Documenting a change is the first step in change management. This includes defining the scope, purpose, impact, and implementation plan before approval or scheduling.”"
+  },
+  {
+    "id": 141,
+    "question": "After installing new webcam software, a PC experiences BSOD during videoconference calls. What should the technician do next?",
+    "options": [
+      "A. Update the anti-malware signature and scan the system",
+      "B. File a warranty claim with the manufacturer",
+      "C. Start in Safe Mode and roll back the device driver",
+      "D. Reconnect the webcam to the computer"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: BSOD after driver installation suggests a compatibility issue.Safe Mode allows rollback of driversthat may be causing the crash. FromTravis Everett – CompTIA A+ All-in-One Exam Guide: “If a BSOD occurs after a driver update, boot into Safe Mode and roll back to the previous driver version to restore system stability.”"
+  },
+  {
+    "id": 142,
+    "question": "A technician needs to change hibernation settings on a Windows computer via a batch file. Domain policies are unavailable. Which is the best method?",
+    "options": [
+      "A. Use Power Options in Control Panel",
+      "B. Update the computer’s firmware",
+      "C. Run gpupdate from command prompt",
+      "D. Use the powercfg command in PowerShell"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Thepowercfg commandis a built-in utility for controlling power settings including hibernation. It can be used in scripts and does not require domain access. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “The powercfg command provides granular control of power settings, useful for scripting and configuring systems without Group Policy access.”"
+  },
+  {
+    "id": 143,
+    "question": "A user is unable to use the latest version of an app on a legacy tablet. What is the most likely reason?",
+    "options": [
+      "A. The OS is end-of-life",
+      "B. Space is inadequate",
+      "C. MDM is blocking updates",
+      "D. The tablet is infected with malware"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Older tablets may not support newer app versions due toincompatible or unsupported operating systems. App developers often drop support for outdated OS versions. FromTravis Everett – CompTIA A+ All-in-One Exam Guide: “When an app won't install on an older device, check the OS version. Most apps require a minimum OS level for compatibility and security.”"
+  },
+  {
+    "id": 144,
+    "question": "A desktop technician is mapping a remote Windows share \\\\WinNAS\\shared as local drive Z:. Which command should the technician run?",
+    "options": [
+      "A. nslookup -opt 3: \\WinNAS\\shared",
+      "B. net use 3: \\WinNAS\\shared",
+      "C. chkdsk /R 2: \\WinNAS\\shared",
+      "D. sfc /offwindir 3: \\WinNAS\\shared"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "correctAnswer": 0,
+    "explanation": "The correct syntax for mapping a network drive in Windows is: net use Z: \\\\WinNAS\\shared This command connects the specified network share and maps it as drive Z:. FromTravis Everett – CompTIA A+ All-in-One Exam Guide: “Use net use followed by the desired drive letter and the UNC path to map network shares.”"
+  },
+  {
+    "id": 145,
+    "question": "A technician uses AI to draft a document about new software benefits. Upon reading, the technician sees factually incorrect info. What term best describes this?",
+    "options": [
+      "A. Data privacy",
+      "B. Hallucinations",
+      "C. Appropriate use",
+      "D. Plagiarism"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "In AI terminology,hallucinationrefers to generated output that appears plausible but is factually incorrect. FromQuentin Docter – CompTIA A+ Complete Study Guide: “AI hallucination describes output that is fluent and coherent but includes information that is entirely fabricated or inaccurate.”"
+  },
+  {
+    "id": 146,
+    "question": "A technician needs to download and install a new web browser on a desktop. Which attribute should be used to verify the installer's authenticity?",
+    "options": [
+      "A. Date",
+      "B. Hash",
+      "C. Size",
+      "D. Name"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hash values(like SHA256) are published by vendors to verify file integrity. A match confirms the file hasn’t been tampered with. FromTravis Everett – CompTIA A+ All-in-One Exam Guide: “Use hash values to ensure downloaded software matches the vendor’s published version and hasn't been modified.”"
+  },
+  {
+    "id": 147,
+    "question": "A town clerk wants to work from home and access documents on a town hall server. What should a technician set up?",
+    "options": [
+      "A. VNC",
+      "B. RDP",
+      "C. VPN",
+      "D. SSH"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "AVPN (Virtual Private Network)creates a secure tunnel between the clerk’s home device and the town server, ensuring private and authenticated access. FromQuentin Docter – CompTIA A+ Complete Study Guide: “VPNs are essential for remote access to internal resources, providing secure connections over public networks.”"
+  },
+  {
+    "id": 148,
+    "question": "A technician follows proper malware removal procedures but cannot remove all malware. They decide to reload the OS. What should they select?",
+    "options": [
+      "A. Version upgrade",
+      "B. System restore",
+      "C. OS repair",
+      "D. Clean install"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Aclean installensures all malware is eliminated by completely wiping and reinstalling the OS. System restore or repair may leave traces. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “If malware cannot be completely removed, perform a clean installation of the operating system. This ensures no remnants remain on the machine.”"
+  },
+  {
+    "id": 149,
+    "question": "What is found in an MSDS (Material Safety Data Sheet) for a battery backup?",
+    "options": [
+      "A. Installation instructions",
+      "B. Emergency procedures",
+      "C. Configuration steps",
+      "D. Voltage"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "An MSDS providessafety and emergency procedures, such as what to do if a battery leaks or catches fire. It is not a technical or setup guide. FromTravis Everett – CompTIA A+ All-in-One Exam Guide: “An MSDS contains safety information, including handling, storage, and emergency procedures related to potentially hazardous components like UPS batteries.”"
+  },
+  {
+    "id": 150,
+    "question": "A technician is securing a newly deployed workstation. Only authorized users should access it. Which actions should the technician take? (Select two)",
+    "options": [
+      "A. Defragment the hard drive",
+      "B. Enable SSH",
+      "C. Enable screensaver locks",
+      "D. Disable iCloud integration",
+      "E. Enable the firewall",
+      "F. Apply the BIOS password"
+    ],
+    "correctAnswers": [
+      2,
+      5
+    ],
+    "correctAnswer": 2,
+    "explanation": "Screensaver lockshelp protect unattended workstations. BIOS passwordsprevent unauthorized changes at startup or during boot. FromQUENTIN DOCTER - COMPTIA A+ COMPLETE study GUIDE: “Applying a BIOS password adds a pre-boot security layer. Screensaver locks help protect logged-in sessions during idle times.”"
+  },
+  {
+    "id": 151,
+    "question": "A user reports that the time on their computer does not match the time on their VoIP phone. What should a technician do?",
+    "options": [
+      "A. Confirm the user is logging in to the domain.",
+      "B. Manually set the time on the phone to match the computer.",
+      "C. Download and install the latest BIOS update.",
+      "D. Configure access to an available NTP server."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "This scenario involves a mismatch in device time settings, which can affect synchronization and authentication across the network. Using a Network Time Protocol (NTP) server ensures all networked devices maintain accurate and synchronized clocks. From Travis Everett – All-in-One Exam Guide: “NTP servers keep all devices on a network in sync. This prevents time drift, which can cause authentication issues with domain logins, certificates, and applications.” ."
+  },
+  {
+    "id": 152,
+    "question": "A help desk technician recently installed an SSH client on a workstation in order to access remote servers. What does this enable?",
+    "options": [
+      "A. To utilize an SSO connection",
+      "B. To securely establish a console session",
+      "C. To encrypt and decrypt protected messages",
+      "D. To facilitate device log reviews"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "SSH (Secure Shell) allows encrypted console sessions to access and administer remote servers. From Quentin Docter – Complete Study Guide: “Secure Shell (SSH) provides an encrypted console session to manage Linux, UNIX, or network devices securely over TCP port 22.” ."
+  },
+  {
+    "id": 153,
+    "question": "An administrator must rename the administrator account on a Windows desktop. Which tool is best for this?",
+    "options": [
+      "A. lusrmgr.msc",
+      "B. devmgmt.msc",
+      "C. gpedit.msc",
+      "D. eventvwr.msc"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The Local Users and Groups Manager (lusrmgr.msc) is the utility for managing user accounts, including renaming the default Administrator. From Quentin Docter – Complete Study Guide: “The lusrmgr.msc snap-in allows renaming and managing local user accounts, including the default administrator.” ."
+  },
+  {
+    "id": 154,
+    "question": "Multiple users clicked a phishing link from a compromised email account. The security team isolates and removes the threat. Then, the management team provides security awareness training to the company. What step is this?",
+    "options": [
+      "A. Provide user education.",
+      "B. Compile lessons learned.",
+      "C. Update the antivirus software.",
+      "D. Perform additional scans."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "This is part of the user education step after a security incident to prevent future occurrences. From Quentin Docter – Complete Study Guide: “User education and awareness is a crucial part of preventing phishing attacks. After an incident, it is vital to train users on recognizing suspicious messages.” ."
+  }
+]

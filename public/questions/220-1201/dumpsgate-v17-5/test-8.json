@@ -1,0 +1,457 @@
+[
+  {
+    "id": 211,
+    "question": "Which of the following is used to confirm that a physical port is working?",
+    "options": [
+      "A. Network tap",
+      "B. Crimper",
+      "C. Patch panel",
+      "D. Loopback plug"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A loopback plug is a diagnostic tool used to test whether a physical port such as an Ethernet NIC port or serial port is capable of sending and receiving its own signal. When inserted, it “loops” outgoing signals back into the device, confirming the port's transmit/receive functionality. CompTIA A+ emphasizes loopback plugs as essential tools during hardware and network troubleshooting, especially when isolating physical port or NIC failures. Network taps passively monitor traffic, crimpers attach RJ45 connectors to cables, and patch panels organize cabling none of these verify port-level functionality. Therefore, only a loopback plug can confirm that a port is working correctly by testing signal integrity and hardware responsiveness."
+  },
+  {
+    "id": 212,
+    "question": "Which of the following allows an organization to provide remote desktop resources without providing physical workstations to its users?",
+    "options": [
+      "A. RMM",
+      "B. SaaS",
+      "C. VDI",
+      "D. Containers"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Virtual Desktop Infrastructure (VDI) hosts user desktops on centralized servers rather than physical PCs. Users access a virtual desktop session remotely through thin clients, laptops, or web browsers. The CompTIA A+ cloud-computing domain explains that VDI improves manageability, security, and resource efficiency by allowing IT to centralize OS images, apps, and updates. SaaS provides applications not desktops. RMM is for monitoring and managing devices. Containers virtualize applications, not full desktops. VDI enables organizations to avoid purchasing physical desktops while still delivering full computing environments to users, which aligns with the A+ virtualization objectives and remote-access concepts."
+  },
+  {
+    "id": 213,
+    "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. Which setting ensures the printer is always available?",
+    "options": [
+      "A. Dynamic IPs for laptops, static IP for printer on same subnet",
+      "B. Manually assign public IPs to laptops and printer",
+      "C. Use APIPA for laptops and connect printer directly to ISP router",
+      "D. Use dynamic IP addressing for all devices"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Printers in SOHO environments must maintain a consistent IP address so devices can regularly locate them for scanning and printing tasks. CompTIA A+ emphasizes assigning static IPs to network printers to prevent address changes that occur with DHCP. Laptops can remain DHCP clients because their address consistency is less critical. APIPA cannot communicate across networks and therefore should not be used. Assigning public IPs is incorrect and unsafe. By giving the printer a static IP within the same subnet, all laptops can reliably access it, and the network remains organized and functional exactly as the A+ objectives recommend."
+  },
+  {
+    "id": 214,
+    "question": "A user on the edge of a building reports slow Wi-Fi and intermittent drops. Which action will solve the issue?",
+    "options": [
+      "A. Enable the 5GHz band",
+      "B. Run ipconfig /flushdns",
+      "C. Upgrade laptop to Wi-Fi 6 NIC",
+      "D. Install additional wireless APs around the location"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Wireless coverage issues at the physical edges of a building are typically caused by weak RF signal strength. The CompTIA A+ study material says the best solution is to add additional wireless access points (APs) or implement a mesh system to extend coverage and eliminate dead zones. Enabling 5GHz often worsens the issue because 5GHz has shorter range. Wi-Fi 6 NIC upgrades improve performance but do not increase signal reach. Flushing DNS does not affect wireless coverage. Installing more APs ensures stronger coverage, better signal-to-noise ratio, and stable connectivity aligning with CompTIA’s wireless troubleshooting best practices."
+  },
+  {
+    "id": 215,
+    "question": "A user replaces their PC power supply and connects it to the components, but the PC fails to start. What is the most likely cause?",
+    "options": [
+      "A. The computer requires additional RAM",
+      "B. The wattage is insufficient",
+      "C. The 4-pin CPU power connector is not connected",
+      "D. The PSU only works in redundant setups"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Modern motherboards require both the 24-pin ATX connector and a 4-pin or 8-pin CPU power connector. If the CPU power connector is not attached, the motherboard will receive power but the system will not boot. CompTIA A+ specifically lists this as a common mistake after replacing a power supply. Insufficient wattage may cause instability, but usually the system still attempts to start. RAM does not prevent power-on if missing; instead, the system produces beep codes. Redundant PSUs are used in servers, not standard desktops. Therefore, the missing CPU power connector is the most likely cause, and this scenario reflects typical troubleshooting steps outlined in A+ hardware diagnostics."
+  },
+  {
+    "id": 216,
+    "question": "A developer wants to protect critical data from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "RAID 1, also known as disk mirroring, duplicates data identically to two drives, ensuring full redundancy if one drive fails. Because the workstation only has two drives, RAID 1 is the only RAID level that provides fault tolerance under this constraint, exactly as described in the CompTIA A+ study guide. RAID 0 offers no redundancy, RAID 5 requires at least three drives, and RAID 10 requires at least four drives. RAID 1 is the recommended configuration for small environments or workstations that rely on data integrity and quick recovery, matching CompTIA’s guidance for redundancy in systems with limited drive availability."
+  },
+  {
+    "id": 217,
+    "question": "A student configures a wireless SOHO network to connect four laptops and one multifunction printer. All laptops must have internet access and be able to use the printer. Which of the following settings ensures the printer is always available?",
+    "options": [
+      "A. Configure dynamic IPs for the laptops and a static IP for the printer on the same subnet.",
+      "B. Manually assign IP addresses to the laptops and printer based on the public IP from the ISP.",
+      "C. Use APIPA for laptops and connect the printer to the ISP router.",
+      "D. Use dynamic IP addresses from the ISP router for all the devices."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation (100–150+ Words): CompTIA A+ stresses that printers must use static IP addresses to remain consistently reachable on a LAN. When using DHCP, the printer's IP address may change, causing laptops to lose access. By assigning a static IP within the same subnet, the printer becomes a stable, discoverable network resource for all laptops. Using dynamic IPs for the laptops is perfectly acceptable in SOHO environments, because clients don’t require permanent IPs. Assigning public IPs (Option B) is incorrect and unsafe. APIPA (169.254.x.x) does not route and cannot reach the internet or a standard printer. Using dynamic ISP- assigned IPs for all devices (Option D) is also incorrect because ISP routers typically give only one public IP, not multiple internal ones. Therefore, to ensure the printer is always reachable, the correct configuration is: DHCP for laptops, static IP for printer a best practice detailed in CompTIA’s networking and SOHO setup guidelines."
+  },
+  {
+    "id": 218,
+    "question": "A Wi-Fi router is set up in a central room. A user on the outer edge of the building reports slow connections and intermittent internet drops. Which of the following actions will solve the issue?",
+    "options": [
+      "A. Enabling the 5GHz band",
+      "B. Running the flushdns command",
+      "C. Upgrading the laptop to a Wi-Fi 6 NIC",
+      "D. Installing additional wireless APs around the location"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "CompTIA A+ explains that Wi-Fi issues at the edges of a building are typically caused by weak signal coverage, not client configuration. The recommended solution is to add additional wireless access points (APs) or mesh extenders to expand coverage and eliminate dead zones. Enabling 5GHz would worsen the problem because 5GHz has shorter range and penetrates walls less effectively than 2.4GHz. Flushing DNS affects name resolution, not wireless signal strength. Upgrading the NIC to Wi-Fi 6 improves maximum throughput but still depends on sufficient signal, which the user does not have. Additional APs ensure strong signal-to-noise ratio, consistent throughput, and stable roaming all solutions emphasized in the A+ wireless troubleshooting section. Therefore, option D is the correct and CompTIA-aligned fix."
+  },
+  {
+    "id": 219,
+    "question": "The power supply for a user’s gaming PC fails. The user installs a new power supply and connects it to the motherboard, GPU, and SSDs, but the computer will not start. What is the most likely cause?",
+    "options": [
+      "A. The computer requires more RAM",
+      "B. The wattage is insufficient",
+      "C. The user did not connect the 4-pin CPU connector",
+      "D. The power supply only works in redundant configurations"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ repeatedly highlights that modern motherboards require two power connectors: The 24-pin ATX main power connector The 4-pin or 8-pin CPU power connector (EPS connector) If the CPU power connector is missing, the system will not POST, even though other components appear to have power. This is a very common mistake after replacing PSUs and is specifically noted in CompTIA materials as a frequent cause of “no boot” scenarios. Insufficient wattage usually causes instability, not a total failure to start. RAM is unrelated to powering on. Redundant PSUs are used in servers, not gaming PCs. Thus, the missing CPU power connector is the correct diagnosis and matches A+ hardware troubleshooting guidelines."
+  },
+  {
+    "id": 220,
+    "question": "A developer wants to ensure their critical data is protected from hard drive failure. Their workstation has two hard drives. Which RAID level should they use?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "RAID 1 is known as mirroring. It duplicates all data to both drives simultaneously, providing redundancy in the event of a single drive failure. CompTIA A+ teaches that RAID 1 is ideal when reliability is the priority and only two drives are available exactly matching this scenario. RAID 0 offers no redundancy. RAID 5 requires three or more drives. RAID 10 requires four or more drives. Since the workstation has only two drives, RAID 1 is the only RAID configuration providing data protection and is heavily featured in CompTIA’s coverage of RAID technologies, their requirements, and their purposes in fault tolerance."
+  },
+  {
+    "id": 221,
+    "question": "A user's laptop keyboard is distorted and no longer flat. Which laptop component most likely failed?",
+    "options": [
+      "A. Battery",
+      "B. RAM",
+      "C. Keyboard",
+      "D. HDD"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "CompTIA A+ highlights that swollen or expanding batteries especially lithium-ion batteries can physically warp the laptop chassis, keyboard, or trackpad. This happens when internal chemical reactions cause the battery to swell. Distorted keyboards, bulging trackpads, and lifted chassis panels are classic symptoms of battery failure. RAM and HDD issues do not cause physical deformation. A broken keyboard may malfunction electronically, but it will not bulge upward unless forced by something underneath typically an expanding battery. The A+ safety domain also warns technicians not to puncture swollen batteries and to replace them immediately due to fire hazards. Therefore, a failing (swollen) laptop battery is the most likely cause."
+  },
+  {
+    "id": 222,
+    "question": "Which storage device is best suited for a high-performance gaming laptop requiring fast data access?",
+    "options": [
+      "A. 1TB SATA 2.5\" HDD",
+      "B. 512GB NVMe M.2 SSD",
+      "C. 750GB SATA III HDD",
+      "D. 1TB SAS SSD"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gaming laptops prioritize speed, low latency, fast read/write times, and quick loading. CompTIA A+ explains that NVMe M.2 SSDs provide the fastest consumer storage available due to their use of the PCIe bus, which delivers significantly higher performance compared to SATA-based drives. HDDs (Options A and C) are mechanical and have slow seek times, making them unsuitable for high- performance gaming. SAS SSDs (Option D) are enterprise-grade, rarely used in laptops, and require SAS controllers not found in consumer systems. Thus, a 512GB NVMe M.2 SSD offers the best performance, fastest boot times, rapid texture loading, and optimal gaming responsiveness fully aligning with A+ hardware performance recommendations."
+  },
+  {
+    "id": 223,
+    "question": "A desktop can connect to a file server but cannot access the internet. The ipconfig /all output shows a correct IP and DNS but no default gateway. What will most likely restore internet access?",
+    "options": [
+      "A. Flushing the DNS cache",
+      "B. Choosing a different IPv6 address",
+      "C. Setting the default gateway",
+      "D. Disabling NetBIOS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ teaches that the default gateway is required for any device to communicate with external networks such as the internet. Without a configured default gateway, the computer can communicate only with devices on the same local subnet explaining why the file server is reachable. DNS and IPv6 settings are not the issue; without a gateway, external routing cannot occur. Flushing DNS affects hostname resolution, not routing. NetBIOS settings have no effect on internet connectivity. Adding or correcting the default gateway (usually the router’s LAN IP, such as 192.168.1.1) will allow the PC to route traffic beyond its local network. This aligns precisely with CompTIA’s troubleshooting steps for missing or incorrect gateway configuration."
+  },
+  {
+    "id": 224,
+    "question": "A SOHO user cannot connect to the internet. Their configuration shows: IP: 192.168.223.15 Mask: 255.255.255.0 Gateway: 192.168.233.1 DNS: 8.8.8.8, 4.2.2.1, 4.2.2.2 Baseline documentation shows valid subnet range: 192.168.200.0–192.168.232.255. Which setting must be changed?",
+    "options": [
+      "A. Tertiary DNS",
+      "B. Secondary DNS",
+      "C. Primary DNS",
+      "D. IP Address",
+      "E. Gateway",
+      "F. Subnet mask"
+    ],
+    "correctAnswers": [
+      4
+    ],
+    "correctAnswer": 4,
+    "explanation": "The baseline documentation says the valid network range ends at 192.168.232.255, but the user’s gateway is 192.168.233.1, which is outside the permitted network range. CompTIA A+ emphasizes that devices must have a gateway inside their own subnet. Given a mask of 255.255.255.0, the user’s subnet is 192.168.223.x, so the gateway must be in 192.168.223.x, not 192.168.233.x. DNS settings are public and acceptable. The IP address and subnet mask are valid within the documented address space. Therefore, the incorrect setting is the gateway, which prevents external routing. Correcting it resolves the connection issue, matching CompTIA’s routing and TCP/IP troubleshooting procedures."
+  },
+  {
+    "id": 225,
+    "question": "A technician checks a RAID 5 array and sees a S.M.A.R.T. alert on one disk, but the array still shows healthy. What should the technician do next?",
+    "options": [
+      "A. Run chkdsk /f",
+      "B. Disable write caching",
+      "C. Rebuild the RAID array",
+      "D. Replace the failing drive"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "CompTIA A+ teaches that S.M.A.R.T. warnings indicate imminent drive failure. Even if the RAID controller reports the array as “healthy,” a S.M.A.R.T. alert means the drive should be replaced immediately. RAID 5 provides redundancy for one drive failure, but technicians should replace the degrading drive before it fails fully, ensuring the rebuild happens proactively. Running chkdsk affects file systems, not drive health. Disabling write caching is unrelated. Rebuilding the array should only occur after replacing the faulty drive. Replacing the drive prevents a catastrophic dual-drive failure scenario, which RAID 5 cannot survive. This approach aligns with CompTIA troubleshooting guidelines for RAID maintenance and S.M.A.R.T. diagnostics."
+  },
+  {
+    "id": 226,
+    "question": "A technician receives complaints that a network fileshare is slow and now unavailable. The server is powered on and accessible via RDP. What should the technician check next?",
+    "options": [
+      "A. RAID array status",
+      "B. Data backup integrity",
+      "C. Network connectivity",
+      "D. Available memory"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A fileshare becoming slow over time and then failing completely strongly suggests storage subsystem degradation, often due to a failing RAID array. CompTIA A+ explains that slow file access is an early sign of a degraded array, and eventual unavailability indicates the array may have failed or entered a critical state. Since the technician can still RDP into the server, the OS is functioning, meaning memory is likely not the issue. Network connectivity is sufficient for remote login. Backup integrity does not affect real- time file availability. Thus, the next step is to check the RAID array status, which directly controls the server’s storage performance and availability precisely what CompTIA identifies as the primary point of failure in such scenarios."
+  },
+  {
+    "id": 227,
+    "question": "A company is installing a new shared printer for all employees. Some managers need to print sensitive HR material, and the company does not want to purchase separate printers. Which of the following should the company implement?",
+    "options": [
+      "A. Audit logging",
+      "B. Secure printing",
+      "C. Wired connectivity",
+      "D. Duplex settings"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation (100–150+ words): Secure printing ensures that print jobs are not immediately output to the tray but instead held in a secure queue. The user must enter a PIN, password, or badge authentication directly at the printer to release the job. CompTIA A+ emphasizes secure printing as the correct method for environments where sensitive information such as HR files, performance reviews, or confidential reports must not be viewed by unauthorized individuals. Audit logging tracks usage but does not protect documents from being seen on the printer tray. Wired connectivity has no relation to security or confidentiality. Duplex is simply a printing mode. Secure printing is widely used in corporate environments so shared devices can remain shared without compromising sensitive data. The A+ curriculum describes this as a security control that ensures confidentiality in shared-print environments, making Secure Printing the proper solution."
+  },
+  {
+    "id": 228,
+    "question": "A user's laptop is projecting an image upside down when connected to a ceiling-mounted projector. Which of the following should the technician do to best resolve the issue?",
+    "options": [
+      "A. Change the input source",
+      "B. Rotate the image from the laptop",
+      "C. Adjust the display frequency",
+      "D. Flip the image vertically from the projector"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ceiling-mounted projectors are typically installed upside down, and therefore include a built-in “Ceiling Mount” or “Vertical Flip” setting within their display menu. CompTIA A+ emphasizes that projectors provide their own orientation controls intended specifically for this installation scenario. Adjusting orientation from the laptop rotates the desktop, not the projected output configuration. Changing input sources does not affect image orientation. Display frequency affects refresh rate and flickering, not physical image rotation. Flipping the image directly from the projector ensures the display is oriented correctly regardless of the device connected. This is the method recommended in A+ material under display configuration and projector troubleshooting, which covers keystone correction, rotation, and mounting modes. Thus, the correct solution is to flip the image vertically using the projector’s built-in settings."
+  },
+  {
+    "id": 229,
+    "question": "Which of the following will most likely be used in a testing environment to execute unauthorized or experimental code without affecting production systems?",
+    "options": [
+      "A. Virtual machines",
+      "B. Hybrid cloud",
+      "C. Load balancers",
+      "D. Application gateways"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "CompTIA A+ strongly emphasizes that virtual machines (VMs) are ideal for testing potentially unsafe software, malware samples, or experimental code because they isolate the environment from the host system. VMs allow snapshots, cloning, and rollback functionality, which makes them essential in development, QA, and cybersecurity environments where code might be unstable or harmful. Hybrid cloud refers to infrastructure strategy, not code execution isolation. Load balancers distribute production traffic but have no testing or sandboxing purpose. Application gateways filter traffic but do not provide execution environments. Virtual machines create a safe sandbox where failure, infection, or corruption is contained. This is covered in the Virtualization and Cloud Computing domain of the CompTIA A+ exam, making VMs the correct tool for executing unauthorized code safely."
+  },
+  {
+    "id": 230,
+    "question": "A user experiences intermittent Wi-Fi performance issues only in their office. Nearby RJ45 ports do not provide connectivity, but the user connects fine in other campus areas. AP coverage is weak in the user’s office. What is the most likely cause?",
+    "options": [
+      "A. APs are installed too far from the user’s office",
+      "B. Brute-force attempts are causing drops",
+      "C. Ports near the office are disabled",
+      "D. The laptop has malware contacting unauthorized sites"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "The scenario states that the Wi-Fi signal is weak in the user’s office, but the laptop works perfectly in other locations. CompTIA A+ stresses that weak signal strength is caused by distance from the access point, physical obstructions, or poor AP placement. Since other users are not affected and the laptop works elsewhere, the issue is localized signal weakness. Disabled RJ45 ports (Option C) matter only for wired connections, and the user relies on Wi-Fi. Malware (Option D) would affect performance everywhere, not just in one office. Brute-force attacks (Option B) would trigger security logs and affect multiple users. Weak signal caused by AP distance or line-of-sight issues is the cause, as detailed in A+ wireless troubleshooting procedures related to low RSSI, interference, and AP placement."
+  },
+  {
+    "id": 231,
+    "question": "An administrator is helping a new employee configure email on a smartphone. The employee also needs access to a shared mailbox. Which is the best email client for this situation?",
+    "options": [
+      "A. Open-source",
+      "B. Built-in",
+      "C. Corporate",
+      "D. Employee preferred"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A corporate-provided email client is designed to integrate with enterprise services such as shared mailboxes, MDM policies, and enterprise authentication. CompTIA A+ states that corporate clients support additional management features, secure authentication protocols (such as OAuth or Kerberos), and policy-enforced access control essential for accessing shared or departmental mailboxes. Open-source clients (Option A) may lack compatibility with enterprise environments. Built-in smartphone clients (Option B) often don’t support complex mailbox structures such as shared mailboxes. Employee-preferred apps (Option D) are discouraged because they may not meet security requirements. Corporate clients ensure full compatibility with organizational mail servers, shared folders, calendars, and enterprise security features, making corporate email clients the correct choice according to CompTIA’s mobile device email configuration standards."
+  },
+  {
+    "id": 232,
+    "question": "An office manager must scan a 300-page contract quickly. They are worried about scanning each page one at a time. Which feature will speed up the process?",
+    "options": [
+      "A. Flatbed scanner",
+      "B. Duplexing",
+      "C. Automatic document feeder",
+      "D. Orientation configuration"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ details that an Automatic Document Feeder (ADF) allows multi-page documents to be scanned automatically without manually placing each sheet on the flatbed. This drastically increases scanning efficiency for large documents. Flatbed scanners require manual placement for every page. Duplexing scans both sides of a page but does not feed multiple sheets by itself. Orientation configuration only affects image alignment. The ADF is explicitly highlighted in the A+ study guide as the primary feature used in business environments when scanning high-volume documents efficiently. Thus, the ADF is the correct solution because it automates page feeding and dramatically reduces scanning time, especially for hundreds of pages."
+  },
+  {
+    "id": 233,
+    "question": "Which DNS record is used by DMARC to verify the authenticity of email servers?",
+    "options": [
+      "A. MX",
+      "B. CNAME",
+      "C. TXT",
+      "D. A"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ explains that DMARC (Domain-based Message Authentication, Reporting, and Conformance) relies on TXT DNS records to define its policies. TXT records allow administrators to publish arbitrary text-based configuration data, including DKIM and SPF policies, which DMARC references. MX records identify mail servers, A records map IP addresses, and CNAME records create aliases none are used to store DMARC policy rules. DMARC improves email authenticity by requiring SPF and DKIM alignment and specifying how receiving servers should handle failed validations. The A+ exam explicitly mentions TXT records as the method used for SPF, DKIM, and DMARC storage. Therefore, the correct answer is the TXT record, which stores the policy used by DMARC to authenticate senders and prevent spoofing."
+  },
+  {
+    "id": 234,
+    "question": "A user reports intermittent Wi-Fi issues in an open office. Other users are not affected. What is the most likely cause?",
+    "options": [
+      "A. Interference from other Wi-Fi signals",
+      "B. All users are on the same frequency",
+      "C. The laptop’s wireless card is malfunctioning",
+      "D. The antenna is near a device creating electromagnetic interference"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Since only one user experiences the issue in a shared environment where everyone else has stable connectivity, CompTIA A+ suggests that the problem is most likely with the client device, not the network. The wireless card may be failing, overheating, or experiencing intermittent hardware faults. If other Wi-Fi signals or EMI (electromagnetic interference) were the cause, multiple users would be affected. Frequency congestion (Option B) also impacts groups, not a single device. CompTIA stresses that isolating whether the issue affects one user or many helps determine whether the fault lies with the network or device. Because the problem is isolated, the most probable cause is a malfunctioning wireless NIC in the user’s laptop."
+  },
+  {
+    "id": 235,
+    "question": "A user reports that scanned or copied pages from an MFP show vertical lines down the page. The printer processes print jobs correctly. What should the technician do?",
+    "options": [
+      "A. Replace the transfer roller",
+      "B. Remove the pickup rollers",
+      "C. Clean the glass bed",
+      "D. Apply a maintenance kit"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ teaches that vertical lines on scanned or copied documents but not printed documents indicate a dirty or smudged scanner glass or ADF glass strip. Dust, ink smears, or debris create a line because the scanning sensor repeatedly passes over the same contaminated area. If printing works normally, internal printer components such as the transfer roller or pickup rollers are not at fault. Maintenance kits apply to internal wear components like rollers, belts, or fusers not scanning artifacts. Cleaning the scanner glass or ADF strip directly addresses this common problem. The A+ exam frequently includes troubleshooting questions about print vs. scan artifacts, and this scenario is a classic example. Therefore, the correct solution is to clean the glass bed (or ADF strip)."
+  },
+  {
+    "id": 236,
+    "question": "Which of the following are radio frequency connections? (Select two.)",
+    "options": [
+      "A. Cable",
+      "B. Satellite",
+      "C. DSL",
+      "D. Cellular",
+      "E. Ethernet",
+      "F. Fiber"
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "CompTIA A+ explains that radio frequency (RF) connections use electromagnetic waves instead of copper or optical cabling. Satellite uses RF signals transmitted to and from orbiting satellites, while cellular networks (3G/4G/5G) use RF communications via cell towers. Cable uses coaxial wired infrastructure, DSL uses telephone lines, Ethernet is twisted-pair copper, and fiber uses light instead of RF. Satellite and cellular are the only technologies in the list that rely on wireless radio frequency transmission as their medium. The A+ networking domain emphasizes understanding the physical media of WAN technologies and distinguishing wired vs. wireless connectivity, making B and D the correct answers."
+  },
+  {
+    "id": 237,
+    "question": "A company will retire a legacy application in one year but wants to decommission the physical environment now. Which migration method is best?",
+    "options": [
+      "A. Relocating the server to a colocated data center",
+      "B. Performing a physical-to-virtual conversion and hosting on IaaS",
+      "C. Deploying all components using PaaS",
+      "D. Taking a backup and shutting down the server"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "CompTIA A+ emphasizes virtualization as an ideal solution during system phase-out or transition periods. The correct approach here is a P2V (physical-to-virtual) conversion and hosting the server in an Infrastructure as a Service (IaaS) environment. This removes the need for physical hardware while still keeping the application operational for its final year. IaaS provides full control over OS and applications, making it suitable for legacy systems that cannot be rewritten. Colocation (Option A) still requires physical hardware. PaaS (Option C) is inappropriate because PaaS requires rewriting or replatforming the application. Shutting down the server after a backup (Option D) makes the application immediately unusable. Thus, the best method is to convert to a virtual machine and host it on IaaS."
+  },
+  {
+    "id": 238,
+    "question": "An organization upgrades all desktops to Windows 11 and must ensure protection from malicious software at startup. Which option should be enabled?",
+    "options": [
+      "A. Trusted Platform Module",
+      "B. Hardware security module",
+      "C. Secure Boot",
+      "D. BIOS password"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "CompTIA A+ explains that Secure Boot is a UEFI security feature that prevents unauthorized or malicious bootloaders, rootkits, and unsigned OS loaders from starting during the boot process. Secure Boot verifies digital signatures on the OS and critical boot files before allowing startup, ensuring the system has not been tampered with. TPM (Option A) provides encryption key storage and is used for BitLocker, but alone does not block malicious bootloaders. HSMs (Option B) are enterprise cryptographic devices, not PC boot protection features. BIOS passwords (Option D) restrict access to configuration but do not protect against malicious boot-level malware. Windows 11 specifically requires Secure Boot, making it the correct protection mechanism for preventing startup-level malware. Thus, Secure Boot is the proper choice."
+  },
+  {
+    "id": 239,
+    "question": "A company implements a new policy that prohibits users from installing unapproved applications on corporate tablets. Which of the following should the technician use to enforce this policy?",
+    "options": [
+      "A. MDM",
+      "B. ACL",
+      "C. DRM",
+      "D. PAM"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Official Study Guide) Mobile Device Management (MDM) is the technology used by organizations to centrally configure, secure, and control mobile devices such as smartphones and tablets. The CompTIA A+ Core 1 (220-1201) objectives specify that MDM solutions allow administrators to implement and enforce security and usage policies, including: Application control (whitelisting and blacklisting) Restricting installation of unapproved applications Enforcing corporate compliance requirements Remotely managing mobile device configurations This directly applies to the scenario: the company wants to prevent users from installing unapproved apps on corporate tablets. MDM enforces this through: App whitelisting → only approved apps can be installed App blacklisting → specific apps are blocked Locked-down app stores → only corporate-approved app stores or catalogs This is exactly the function MDM is designed for in enterprise mobile security and management. Why the Other Options Are Incorrect B . ACL (Access Control List) ACLs control network or file-system access, such as allowing or denying IP addresses, ports, or file permissions. They cannot control app installation behavior on mobile devices. C . DRM (Digital Rights Management) DRM protects digital content from unauthorized copying or distribution. It does not restrict which applications can be installed on a mobile device. D . PAM (Privileged Access Management) PAM controls administrative or privileged accounts in enterprise environments. It is unrelated to app-installation restrictions on tablets."
+  },
+  {
+    "id": 240,
+    "question": "After a user builds their first PC, the user needs to install the operating system from a USB drive. Which of the following should the user configure next?",
+    "options": [
+      "A. BIOS password",
+      "B. PXE boot",
+      "C. Secure Boot",
+      "D. Boot order"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract (Aligned With CompTIA A+ 220-1201 Study Guide) When installing an operating system from external media (USB flash drive), the motherboard firmware must be instructed to check that device before checking the internal storage. The CompTIA A+ official objectives describe that technicians must know how to access UEFI/BIOS settings and configure boot priority. Installing an OS from USB requires: Entering UEFI/BIOS setup Navigating to the Boot or Startup menu Setting the USB drive as the first boot device Saving and exiting to allow the computer to boot from the USB installer This process is specifically referenced in CompTIA A+ material under “BIOS/UEFI settings,” where boot sequence / boot order is a fundamental configuration needed for OS installation. Thus, the next step after assembling the PC is to modify the boot order to allow the system to boot from the USB installation media. Why the other options are incorrect A . BIOS password Used for system access security; has no relevance to installing an OS from USB. B . PXE boot Used for network-based installations, not USB installations. C . Secure Boot Controls OS signature validation; not required to be changed for USB installation and is not the next required step. Final Answe r: D"
+  }
+]

@@ -1,0 +1,455 @@
+[
+  {
+    "id": 124,
+    "question": "Which of the following is found in an MSDS sheet for a battery backup?",
+    "options": [
+      "A. Installation instructions",
+      "B. Emergency procedures",
+      "C. Configuration steps",
+      "D. Voltage specifications"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 125,
+    "question": "A desktop technician is mapping a remote Windows share \\\\WinNAS\\shared as local drive Z:. Which command should the technician run?",
+    "options": [
+      "A. nslookup -opt 3: \\WinNAS\\shared",
+      "B. net use 3: \\WinNAS\\shared",
+      "C. chkdsk /R 2: \\WinNAS\\shared",
+      "D. sfc /offwindir 3: \\WinNAS\\shared"
+    ],
+    "correctAnswers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 126,
+    "question": "Which of the following is used to apply corporate restrictions on an Apple device?",
+    "options": [
+      "A. App Store",
+      "B. VPN configuration",
+      "C. Apple ID",
+      "D. Management profile"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 127,
+    "question": "A user is working from home and is unable to access work files on a company laptop. Which of the following should a technician configure to fix the network access issue?",
+    "options": [
+      "A. Wide-area network",
+      "B. Wireless network",
+      "C. Proxy network settings",
+      "D. Virtual private network"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 128,
+    "question": "A technician is deploying mobile devices and needs to prevent access to sensitive data if the devices are lost. Which of the following is the best way to prevent unauthorized access if the user is unaware that the phone is lost?",
+    "options": [
+      "A. Encryption",
+      "B. Remote wipe",
+      "C. Geofencing",
+      "D. Facial recognition"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 129,
+    "question": "Which of the following provides information to employees, such as permitted activities when using the organization's resources?",
+    "options": [
+      "A. AUP",
+      "B. MNDA",
+      "C. DRM",
+      "D. EULA"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 130,
+    "question": "Which of the following describes an attack in which an attacker sets up a rogue AP that tricks users into connecting to the rogue AP instead of the legitimate network?",
+    "options": [
+      "A. Stalkerware",
+      "B. Evil twin",
+      "C. Tailgating",
+      "D. Shoulder surfing"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 131,
+    "question": "A technician uses AI to draft a document about new software benefits. Upon reading, the technician sees factually incorrect info. What term best describes this?",
+    "options": [
+      "A. Data privacy",
+      "B. Hallucinations",
+      "C. Appropriate use",
+      "D. Plagiarism"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 132,
+    "question": "Performance on a user’s smartphone is degrading. Applications take a long time to start, and switching between windows also takes a long time. Which of the following diagnostic steps should a mobile technician take first?",
+    "options": [
+      "A. Restore the phone to factory settings",
+      "B. Restart the phone",
+      "C. Check the phone’s battery state",
+      "D. Uninstall unneeded applications"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 133,
+    "question": "A computer technician is implementing a solution to support a new internet browsing policy for a customer's business. The policy prohibits users from accessing unauthorized websites based on categorization. Which of the following should the technician configure on the SOHO router?",
+    "options": [
+      "A. Secure management access",
+      "B. Group Policy Editor",
+      "C. Content filtering",
+      "D. Firewall"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 134,
+    "question": "Which of the following prevents forced entry into a building?",
+    "options": [
+      "A. PIV card",
+      "B. Motion-activated lighting",
+      "C. Video surveillance",
+      "D. Bollard"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 135,
+    "question": "An organization sees unauthorized apps installed and licensing prompts. What should the security team do?",
+    "options": [
+      "A. Deploy an internal PKI to filter encrypted web traffic.",
+      "B. Remove users from the local admin group.",
+      "C. Implement stronger controls to block suspicious websites.",
+      "D. Enable stricter UAC settings on Windows."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 136,
+    "question": "A technician needs to map a shared drive from a command-line interface. Which of the following commands should the technician use?",
+    "options": [
+      "A. pathping",
+      "B. nslookup",
+      "C. net use",
+      "D. tracert"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 137,
+    "question": "A technician installs VPN client software that has a software bug from the vendor. After the vendor releases an update to the software, the technician attempts to reinstall the software but keeps getting an error message that the network adapter for the VPN already exists. Which of the following should the technician do next to mitigate this issue?",
+    "options": [
+      "A. Run the latest OS security updates.",
+      "B. Map the network adapter to the new software.",
+      "C. Update the network adapter's firmware.",
+      "D. Delete hidden network adapters."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 138,
+    "question": "Which of the following methods involves requesting a user’s approval via a push notification to verify the user’s identity?",
+    "options": [
+      "A. Call",
+      "B. Authenticator",
+      "C. Hardware token",
+      "D. SMS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 139,
+    "question": "An application's performance is degrading over time. The application is slowing, but it never gives an error and does not crash. Which of the following tools should a technician use to start troubleshooting?",
+    "options": [
+      "A. Reliability history",
+      "B. Computer management",
+      "C. Resource monitor",
+      "D. Disk"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 141,
+    "question": "A network technician notices that most of the company's network switches are now end-of- life and need to be upgraded. What should the technician do first?",
+    "options": [
+      "A. Implement the change",
+      "B. Approve the change",
+      "C. Document the change",
+      "D. Schedule the change"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 142,
+    "question": "Which of the following is used in addition to a password to implement MFA?",
+    "options": [
+      "A. Sending a code to the user's phone",
+      "B. Verifying the user's date of birth",
+      "C. Prompting the user to solve a simple math problem",
+      "D. Requiring the user to enter a PIN"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 143,
+    "question": "Recently, the number of users sharing smartphone passcodes has increased. The management team wants a technician to deploy a more secure screen lock method. Which of the following technologies should the technician use?",
+    "options": [
+      "A. Pattern lock",
+      "B. Facial recognition",
+      "C. Device encryption",
+      "D. Multifactor authentication"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 144,
+    "question": "A user switches from Linux to Windows and tries to migrate data using an external USB drive. Windows prompts that the device must be formatted. It works fine on Linux. What should the user do?",
+    "options": [
+      "A. Configure Windows firewall to allow data from Linux systems",
+      "B. Replace the cable with Windows-supported hardware",
+      "C. Apply a firmware update from the PC manufacturer",
+      "D. Update the file allocation system to exFAT"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 145,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer be issued security updates and patches. Which of the following is most likely the reason the administrator received this message?",
+    "options": [
+      "A. Support from the computer's manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 146,
+    "question": "Which of the following file types would a desktop support technician most likely use to automate tasks for a Windows user log-in?",
+    "options": [
+      "A. .bat",
+      "B. .sh",
+      "C. .py",
+      "D. .js"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 147,
+    "question": "A company executive is currently attending a major music festival with a large number of attendees and is having trouble accessing a work email account. The email application is not downloading emails and also appears to become stuck during connection attempts. Which of the following is most likely causing the disruption?",
+    "options": [
+      "A. The phone has no storage space available.",
+      "B. Company firewalls are configured to block remote access to email resources.",
+      "C. Too many devices in the same area are trying to connect to the mobile network.",
+      "D. The festival organizer prohibits internet usage during the event and has blocked the internet signal"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 148,
+    "question": "Which of the following types of social engineering attacks sends an unsolicited text message to a user's mobile device?",
+    "options": [
+      "A. Impersonation",
+      "B. Vishing",
+      "C. Spear phishing",
+      "D. Smishing"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 149,
+    "question": "Which of the following is used to detect and record access to restricted areas?",
+    "options": [
+      "A. Bollards",
+      "B. Video surveillance",
+      "C. Badge readers",
+      "D. Fence"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 150,
+    "question": "A user reports that the time on their computer does not match the time on their VoIP phone. What should a technician do?",
+    "options": [
+      "A. Confirm the user is logging in to the domain.",
+      "B. Manually set the time on the phone to match the computer.",
+      "C. Download and install the latest BIOS update.",
+      "D. Configure access to an available NTP server."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 151,
+    "question": "After a user installs a mobile application from an advertisement, the phone's battery dies a few hours later and becomes hot to touch, even when not in use. Which of the following should a technician do first?",
+    "options": [
+      "A. Check for unauthorized device administrators",
+      "B. Contact the software developer",
+      "C. Run a mobile malware scan on the phone",
+      "D. Ensure appropriate MDM policies are applied"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 152,
+    "question": "A technician verifies that a malware incident occurred on some computers in a small office. Which of the following should the technician do next?",
+    "options": [
+      "A. Quarantine the infected systems",
+      "B. Educate the end users",
+      "C. Disable System Restore",
+      "D. Update the anti-malware and scan the computers"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 153,
+    "question": "A Microsoft OS laptop user requests an alternative log-in authentication method because they have forgotten their password multiple times. Which of the following should a technician enable to satisfy this request?",
+    "options": [
+      "A. Single sign-on",
+      "B. Windows Hello",
+      "C. BitLocker",
+      "D. User Account Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 154,
+    "question": "A technician needs to install an operating system on a large number of workstations. Which of the following is the fastest method?",
+    "options": [
+      "A. Physical media",
+      "B. Mountable ISO",
+      "C. Manual installation",
+      "D. Image deployment"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  }
+]

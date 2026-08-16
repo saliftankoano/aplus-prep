@@ -1,0 +1,458 @@
+[
+  {
+    "id": 121,
+    "question": "Each lime a user ties to print, the paper becomes stuck at the last stage of the print job and the user has to poll me paper out of the printer. Which of the following is me most likely cause?",
+    "options": [
+      "A. Rollers",
+      "B. Tray assembly",
+      "C. Toner",
+      "D. Printhead"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "If paper gets stuck at the last stage of printing, the rollers responsible for moving the paper through the printer are likely worn out or dirty. Why Not B (Tray assembly): The tray assembly manages paper loading, not feeding during the print process. Why Not C (Toner): Toner is unrelated to paper jams. Why Not D (Printhead): Printheads manage ink/toner distribution, not paper movement. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 4.6, printer troubleshooting​."
+  },
+  {
+    "id": 122,
+    "question": "Users working with large files back up the files to external hard drives. One user's files take longer to back up than other users' files. The user has tried backing up the files to other users' drives with the same results. Which of the following steps should the technician take first to correct this issue?",
+    "options": [
+      "A. Replace the hard drive's USB cable.",
+      "B. Defragment the user's external hard drive.",
+      "C. Update the storage drivers on the user's system.",
+      "D. Instruct the user to compress the files."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a hard drive is heavily fragmented, file read/write operations can take significantly longer, causing slow backup speeds. Defragmenting the drive organizes the data for more efficient access. Why Not A (Replace the hard drive's USB cable): A faulty cable would typically cause disconnections or errors, not just slower speeds. Why Not C (Update the storage drivers): This might help if the issue is with system drivers, but the described symptoms point to a fragmentation issue. Why Not D (Compress the files): Compression reduces file size but does not address the root cause of the slow backups. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 3.1, storage troubleshooting​."
+  },
+  {
+    "id": 123,
+    "question": "Which of the following devices is used to implement ACL polices for an environment?",
+    "options": [
+      "A. Managed switch",
+      "B. Gateway",
+      "C. Repeater",
+      "D. Firewall"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A firewall implements ACLs (Access Control Lists) to filter traffic and enforce policies based on rules such as IP address, port, or protocol. Why Not A (Managed switch): A managed switch supports VLANs and QoS but does not enforce ACLs at the network perimeter. Why Not B (Gateway): Gateways connect networks and translate protocols but don’t typically implement ACLs. Why Not C (Repeater): Repeaters extend signal range but don’t enforce policies. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.2, firewall concepts​."
+  },
+  {
+    "id": 124,
+    "question": "A customer reports that the output from their thermal receipt printer has vertical white lines. Which of the following would most likely resolve this issue?",
+    "options": [
+      "A. Replacing the ink cartridge",
+      "B. Using the correct paper type",
+      "C. Installing a maintenance kit",
+      "D. Cleaning the heating element"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Thermal printerscreate images using aheated print headon specially coated thermal paper. Vertical white lines indicate thatpart of the heating element is dirty or blocked, preventing heat transfer to the paper. Cleaning the print head (heating element) will restore full functionality. Option A:Thermal printers donot use ink or toner, so this is not applicable. Option B:Wrong paper could cause blank output, but consistent vertical lines point to the print head. Option C:Maintenance kits are typically for laser printers, not thermal printers. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.7: Given a scenario, troubleshoot common printer problems."
+  },
+  {
+    "id": 125,
+    "question": "Which of the following describes the function of an injector?",
+    "options": [
+      "A. To provide only data connectivity",
+      "B. To supply power across a cable",
+      "C. To improve wireless performance",
+      "D. To extend a network connection"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A PoE injector is used to add power to an Ethernet cable, enabling the cable to deliver both power and data. This is crucial when connecting to PoE-enabled devices like IP cameras or wireless access points that are far from power outlets. Reference: \"CompTIA A+ Complete Practice Tests\" by Jeff T. Parker – Chapter 10, Question 77, page 585​."
+  },
+  {
+    "id": 126,
+    "question": "Which of the following is the best to use when testing a file for potential malware?",
+    "options": [
+      "A. Multitenancy",
+      "B. Test development",
+      "C. Cross-platform virtualization",
+      "D. Sandbox"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A sandbox is a secure, isolated environment used to test potentially harmful software or code. It prevents the software from affecting the main system, allowing safe malware testing. Thismethod is standard in cybersecurity best practices. Reference: \"CompTIA A+ Certification All-in-One Exam Guide\" by Mike Meyers – Chapter 28, page 1230​."
+  },
+  {
+    "id": 127,
+    "question": "A technician wants to upgrade a computer to a new Windows version. The Windows Upgrade Advisor states that the computer is not compatible with the new Windows version due to a lack of TPM 2.0 support. Which of the following should the technician do next?",
+    "options": [
+      "A. Enable the module in the UEFI BIOS.",
+      "B. Install an HSM in the computer.",
+      "C. Perform a clean Install of the new Windows version.",
+      "D. Implement BitLocker on the computer."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "TPM 2.0 (Trusted Platform Module) is often disabled by default in the UEFI BIOS. Enabling it is necessary to meet the requirements for certain Windows installations, including Windows 11. Why Not B (Install an HSM): A Hardware Security Module (HSM) is a separate device used for cryptographic functions and is not related to TPM on the motherboard. Why Not C (Perform a clean install): A clean installation will not bypass the TPM 2.0 requirement. Why Not D (Implement BitLocker): BitLocker requires TPM but does not resolve its absence or lack of activation. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.4, BIOS/UEFI configuration​."
+  },
+  {
+    "id": 128,
+    "question": "A user reports that the printouts from a laser printer have lines and smudges on them. The printer is also intermittently misfeeding the paper. Which of the following components should a technician replace to address this issue?",
+    "options": [
+      "A. Fuser",
+      "B. Maintenance kit",
+      "C. Corona wire",
+      "D. Toner cartridge"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amaintenance kitfor a laser printer often includesrollers, fuser, and other partsthat wear out over time. If the printer issmudging and misfeeding, it's a sign thatmultiple components are failing, which a maintenance kit is designed to resolve. Option A (Fuser):May cause smudging if it's not heating correctly, but it won’t resolve paper misfeeds alone. Option C (Corona wire):Can cause poor image quality if dirty but doesn’t affect paper feeding. Option D (Toner cartridge):Can cause streaks if defective, but not paper feed issues. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.4: Given a scenario, install and configure printers."
+  },
+  {
+    "id": 129,
+    "question": "Which of the following services is used to allocate IP addresses in an enterprise-wide environment?",
+    "options": [
+      "A. DNS",
+      "B. Syslog",
+      "C. Telnet",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Dynamic Host Configuration Protocol (DHCP) is a network service used to automatically assign IP addresses and other network configuration details (such as subnet masks and default gateways) to devices on an enterprise-wide network. Why Not A (DNS): DNS resolves domain names to IP addresses but does not allocate IP addresses. Why Not B (Syslog): Syslog is used for logging system events, not IP address management. Why Not C (Telnet): Telnet is a protocol for remote access, not for IP allocation. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, DHCP concepts​."
+  },
+  {
+    "id": 130,
+    "question": "The output from a dot matrix printer has become lighter over time. Which of the following should a technician do to fix the issue?",
+    "options": [
+      "A. Clean the printhead.",
+      "B. Replace the ribbon.",
+      "C. Install a maintenance kit.",
+      "D. Calibrate the alignment."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dot matrix printersuse aninked ribbonthat physically contacts the paper through tiny pins. Over time, the ribbon wears out or dries up, resulting infaded or light print output. Replacing the ribbon restores print quality. Option A:Cleaning helps with image clarity, not ink density. Option C:Maintenance kits apply to laser printers, not dot matrix. Option D:Calibration affects print position, not darkness. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.7: Given a scenario, troubleshoot common printer problems. ==========="
+  },
+  {
+    "id": 131,
+    "question": "A company needs to keep a record of tasks performed by an application. Which of the following should the company most likely implement as part of a solution?",
+    "options": [
+      "A. Fileshare",
+      "B. Syslog",
+      "C. Database",
+      "D. SAN"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Syslog is used to log system events and tasks performed by applications, providing a centralized record of activity. Why Not A (Fileshare): Fileshares store files but are not designed for event logging. Why Not C (Database): Databases can store logs but are not a logging mechanism themselves. Why Not D (SAN): A SAN is a storage solution, not a logging tool. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, system monitoring and logging​."
+  },
+  {
+    "id": 132,
+    "question": "A technician recently updated the firmware on a dual-BIOS motherboard. Following the update, the system has been stuck in a boot loop and cannot start an OS from any internal or external device. The technician cannot access the UEFI menu either. Which of the following should the technician do next?",
+    "options": [
+      "A. Enable the secondary configuration.",
+      "B. Downgrade the firmware via USB.",
+      "C. Start a warranty repair of the motherboard.",
+      "D. Reapply thermal paste to the CPU."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dual-BIOS motherboards contain two firmware chips. If theprimary BIOS becomescorrupted, the system canfailover to the secondary BIOS. Most boards allow manual enabling of the secondary BIOS via a physical switch or jumper. Option B:Downgrading firmware may not be possible if the system won’t POST or access UEFI. Option C:Not necessary until both BIOS chips are non-functional. Option D:Thermal paste affects heat dissipation, not BIOS/boot behavior. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.5: Given a scenario, troubleshoot problems related to motherboards, RAM, CPU, and power."
+  },
+  {
+    "id": 133,
+    "question": "A customer reports that a workstation has no internet connectivity. A technician confirms the port is disabled. Which of the following is most likely responsible for the issue?",
+    "options": [
+      "A. Patch panel",
+      "B. Physical NIC",
+      "C. Managed switch",
+      "D. Stand-alone firewall"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A managed switch allows an administrator to enable or disable individual ports as part of network security and management. If a port on a managed switch has been disabled, the device connected to that port will lose connectivity, which matches the scenario described. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.2: Compare and contrast common networking hardware devices."
+  },
+  {
+    "id": 134,
+    "question": "A user is having issues when charging a device with a Lightning cable. The cable is not recognized when it is plugged into the device. This issue is usually resolved by flipping the cable over. This issue does not occur with other devices of the same type. Which of the following would most likely cause the issue?",
+    "options": [
+      "A. The device needs to be restarted.",
+      "B. The battery may be swelling and needs inspection.",
+      "C. The cable is failing and needs to be replaced",
+      "D. The charging port is dirty or damaged"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "If flipping the cable helps but the problem is isolated to this device (not others of the same type), the most likely cause is a dirty or damaged charging port on the device itself. Dirt or debris inside the port can prevent a good electrical connection, causing the cable to work intermittently. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 1.0 Mobile Devices – Objective 1.6: Troubleshoot common mobile device issues."
+  },
+  {
+    "id": 135,
+    "question": "A technician is setting up a scan-to-SMB function on a multifunction printer. Which of the following connection types should the technician configure?",
+    "options": [
+      "A. Email server",
+      "B. SFTP connection",
+      "C. Network share",
+      "D. Print services"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The scan-to-SMB feature allows the printer to send scanned documents to a shared folder (SMB share) on the network. Setting up a network share enables the device to securely and conveniently save files for user access. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.7: Compare and contrast internet connection types, network types, and their features."
+  },
+  {
+    "id": 136,
+    "question": "Which of the following internet connection types is the best for extremely high data transfer with symmetrical upload and download speeds?",
+    "options": [
+      "A. DSL",
+      "B. Cellular",
+      "C. Fiber",
+      "D. Satellite"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Fiber optic connections provide the highest data transfer rates and symmetrical upload and download speeds. This makes fiber the ideal choice for applications requiring high-speed connectivity, such as video conferencing, large file transfers, and cloud-based workflows. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.7: Compare and contrast internet connection types, network types, and their features."
+  },
+  {
+    "id": 137,
+    "question": "Which of the following networking devices is used to create a mesh network?",
+    "options": [
+      "A. Modem",
+      "B. DSL",
+      "C. Access point",
+      "D. ONT"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mesh networks rely on multiple access points (or mesh nodes) to create a seamless, self-healing network. Each access point communicates with others to extend coverage and improve reliability without requiring a wired backbone for each AP. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.4: Compare and contrast wireless networking protocols."
+  },
+  {
+    "id": 138,
+    "question": "A user purchases a new mobile phone and tries to connect it to the corporate communications and email applications without success. Which of the following should a technician do to allow the phone to connect?",
+    "options": [
+      "A. Configure biometric security settings.",
+      "B. Turn on LTE hotspot connectivity.",
+      "C. Enroll the device in the MDM software.",
+      "D. Complete the company’s BYOD training process."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mobile Device Management (MDM) enrollment ensures that mobile devices meet security and access policies required by the corporate network. By enrolling the device in MDM, the technician can apply necessary configurations and enable corporate app access. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 1.0 Mobile Devices – Objective 1.5: Compare and contrast methods for securing mobile devices."
+  },
+  {
+    "id": 139,
+    "question": "Which of the following is the ability to automatically increase and decrease instances based on demand?",
+    "options": [
+      "A. Availability",
+      "B. Scalability",
+      "C. Multitenancy",
+      "D. Elasticity"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Elasticity in cloud computing refers to the ability of a system to automatically allocate and release resources (such as CPU, RAM, or virtual machines) as workload demands change. This feature is key to ensuring that resources are used efficiently without manual intervention. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 4.0 Virtualization and Cloud Computing – Objective 4.2: Summarize cloud computing concepts."
+  },
+  {
+    "id": 140,
+    "question": "A user is having trouble with the location services on their smartphone. Location-based applications show incorrect positions when the user is traveling. This issue affects the user’s ability to navigate and use location-dependent applications. Which of the following is the best way to resolve this issue?",
+    "options": [
+      "A. Downloading a third-party mapping application",
+      "B. Resetting the network settings",
+      "C. Enabling Wi-Fi to assist GPS",
+      "D. Restarting the smartphone"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Wi-Fi assistance in mobile devices helps improve location accuracy by using nearby wireless networks to triangulate the device’s position, even when GPS signals are weak (like indoors or in dense areas). Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 1.0 Mobile Devices – Objective 1.6: Troubleshoot common issues with mobile devices."
+  },
+  {
+    "id": 141,
+    "question": "Which of the following is related to the creation of a secured communication channel between workstations in different locations and is supported by credentials for authentication?",
+    "options": [
+      "A. DHCP",
+      "B. CNAME",
+      "C. VLAN",
+      "D. VPN"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A Virtual Private Network (VPN) creates an encrypted, secure tunnel across a public or untrusted network. It uses authentication credentials to ensure that only authorized users can connect, keeping data safe from interception. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.3: Compare and contrast various types of networks."
+  },
+  {
+    "id": 142,
+    "question": "Which of the following ports is commonly used for remote desktop connections?",
+    "options": [
+      "A. 137",
+      "B. 445",
+      "C. 3389",
+      "D. 4443"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Port 3389 is used by the Remote Desktop Protocol (RDP) for remote desktop connections in Windows environments. This port allows remote control and management of systems across the network. Reference: CompTIA A+ Certification Exam Core 1 Objectives – Domain 2.0 Networking – Objective 2.2: Compare and contrast common networking hardware devices and ports."
+  },
+  {
+    "id": 143,
+    "question": "A company is testing the latest model of a laptop. After turning on the laptop, there is a noticeable burning smell. Which of the following steps should a technician take to troubleshoot the laptop issue? (Select two).",
+    "options": [
+      "A. Turn it off and disconnect all power sources.",
+      "B. Submit an emergency request to the local facilities manager.",
+      "C. Check for foreign objects, liquid spills, and internal damage.",
+      "D. Contact the vendor and submit a return request.",
+      "E. Remove the device from the MDM.",
+      "F. Try an alternate AC adapter."
+    ],
+    "correctAnswers": [
+      0,
+      2
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a technician encounters a burning smell, it is a critical safety issue. The first response must be to immediately power down and disconnect the device from all power sources to prevent electric shock, fire, or further hardware damage. From the CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshoot common hardware problems: \"Signs of electrical issues such as burning smells, smoke, or sparks require an immediate shutdown of the system and disconnection from any power source.\" After ensuring safety, the technician should inspect the hardware for visible signs of damage: From the same Objective (4.1): \"Inspect for foreign objects, liquid damage, or burnt components. These can cause short circuits or thermal events that may damage the motherboard or other internal components.\" These steps are standard practice in the industry to ensure safe and accurate diagnosis of faulty devices. Trying a different adapter (Option F) may make the problem worse, and contacting vendors (Option D) comes after initial safety and inspection. Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting Hardware Problems CompTIA Exam Objectives 220-1101, Domain 4.0 – Hardware and Network Troubleshooting"
+  },
+  {
+    "id": 144,
+    "question": "A technician needs to figure out why a laser printer is intermittently not feeding paper to print. The technician verifies the issue by running several copy-and-print tests. Which of the following should the technician do next?",
+    "options": [
+      "A. Update the printer drivers.",
+      "B. Select the correct paper size.",
+      "C. Clean the pickup rollers.",
+      "D. Replace the toner cartridge."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "When a laser printer intermittently fails to feed paper, the most common hardware cause is worn or dirty pickup rollers. These rollers grab the paper from the tray and move it into the printer. Over time, dust, paper debris, or worn rubber reduces their effectiveness, causing feeding issues. From the CompTIA A+ 220-1101 Official Study Guide, Objective 4.3 – Troubleshoot printing problems: “If the printer is not picking up paper correctly or is experiencing paper jams, check and clean or replace the pickup rollers and separation pads as these are responsible for feeding paper into the print path.” Other options like updating drivers, selecting paper size, or replacing toner will not resolve a mechanical paper feed problem. Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting Printing Problems CompTIA Exam Objectives 220-1101, Domain 4.3 ============"
+  },
+  {
+    "id": 145,
+    "question": "Which of the following has the best penetration through physical objects, such as walls?",
+    "options": [
+      "A. 2.4GHz",
+      "B. 5GHz",
+      "C. 6GHz",
+      "D. NFC"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "2.4GHz Wi-Fi signals have better penetration through walls and other obstacles compared to 5GHz and 6GHz. Lower frequency waves (like 2.4GHz) travel farther and are less absorbed by physical barriers. From the CompTIA A+ 220-1101 Official Study Guide, Objective 2.5 – Compare and contrast wireless networking protocols: “The 2.4GHz frequency band offers greater range and better penetration through walls and obstacles than higher frequencies like 5GHz and 6GHz. Higher frequencies provide faster speeds but are more easily absorbed by walls.” NFC (Near Field Communication) is not a Wi-Fi technology and works only over very short distances (a few centimeters). Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Wireless Networking CompTIA Exam Objectives 220-1101, Domain 2.5 ============"
+  },
+  {
+    "id": 146,
+    "question": "Which of the following can be used to logically segment networks?",
+    "options": [
+      "A. MAC",
+      "B. VLAN",
+      "C. NIC",
+      "D. DSL"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A VLAN (Virtual Local Area Network) is a network technology used to logically segment a physical network into multiple distinct broadcast domains, even if they share the same hardware. From the CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Compare and contrast common networking hardware: “VLANs allow network administrators to segment a network logically, isolating broadcast traffic and improving security and management, regardless of the physical network layout.” Other options explained: MAC (Media Access Control) is a hardware address, not a segmentation method. NIC (Network Interface Card) is network hardware, not for logical segmentation. DSL (Digital Subscriber Line) is an internet connection type. Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Concepts CompTIA Exam Objectives 220-1101, Domain 2.2"
+  },
+  {
+    "id": 147,
+    "question": "After troubleshooting a computer's connectivity, the network team determines there is a port- mapping issue. After plugging the patch cable into a different port, the issue persists. Which of the following troubleshooting steps should a technician take next to resolve the issue?",
+    "options": [
+      "A. Convert the patch cable to a crossover cable.",
+      "B. Test the patch cable from the computer to the network closet.",
+      "C. Verify the length of the patch cable meets current standards.",
+      "D. Replace the patch cable from the device to the wall."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "When port issues persist after moving to a different switch port, the next logical troubleshooting step is to test the patch cable. Faulty or damaged cables are a common cause of network connectivity problems. Using a cable tester between the computer and the network closet verifies the integrity of the cable and rules out a physical layer issue. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.2 – Troubleshoot wired and wireless networks: “If a device continues to experience connectivity issues after switching ports, test the cabling with a cable tester to check for continuity, shorts, or pinout issues before replacing hardware.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting Network Connectivity CompTIA Exam Objectives 220-1101, Domain 4.2 ============"
+  },
+  {
+    "id": 148,
+    "question": "Which of the following statements best summarize managed vs unmanaged switches? (Select two).",
+    "options": [
+      "A. Unmanaged switches are generally more expensive",
+      "B. Unmanaged switches have more security capabilities",
+      "C. Unmanaged switches start working as soon as they are plugged in to the network",
+      "D. Managed switches have more features",
+      "E. Managed switches require no configuration",
+      "F. Managed switches consume less power"
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "correctAnswer": 2,
+    "explanation": "Unmanaged switches require no configuration they simply need to be plugged in and start working immediately, making them ideal for simple network setups. Managed switches provide advanced features such as VLANs, SNMP monitoring, port security, and traffic management, but require configuration. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Compare and contrast common networking hardware: “Unmanaged switches operate out of the box with no configuration and are designed for simple connectivity. Managed switches allow for configuration, monitoring, and management of network traffic and security.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Hardware CompTIA Exam Objectives 220-1101, Domain 2.2 ============"
+  },
+  {
+    "id": 149,
+    "question": "A user is testing a new OS that is contained on a USB drive. The user wants the new OS to load automatically when the computer is turned on. Which of the following should the user configure?",
+    "options": [
+      "A. BIOS password",
+      "B. Trusted Platform Module",
+      "C. USB permissions",
+      "D. Boot options"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "To boot from a USB drive, the user must configure the boot order in the system BIOS/UEFI to prioritize the USB device. This setting tells the computer to load the operating system from the USB device on startup. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.5 – Configure BIOS/UEFI settings: “The boot order determines the sequence in which the system firmware attempts to find an OS to boot. Setting USB as the first boot device allows the computer to boot from a USB drive.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: BIOS/UEFI Configuration CompTIA Exam Objectives 220-1101, Domain 3.5 ============"
+  },
+  {
+    "id": 150,
+    "question": "A technician is setting up a locally hosted environment for internal developers who need concurrent access to a wide array of test OSs. Which of the following would best fulfill this requirement?",
+    "options": [
+      "A. Hypervisor",
+      "B. SaaS platform",
+      "C. Multiboot server computer",
+      "D. Sandbox"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hypervisor allows multiple operating systems to run simultaneously on a single physical host, making it the ideal solution for providing concurrent access to different test environments. Developers can use virtual machines (VMs) for testing and development. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Compare and contrast cloud computing concepts: “A hypervisor is software that enables multiple operating systems to run on a single host as virtual machines. This is commonly used in development and testing environments for flexibility and isolation.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Virtualization CompTIA Exam Objectives 220-1101, Domain 3.7"
+  }
+]

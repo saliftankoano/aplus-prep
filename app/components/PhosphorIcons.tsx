@@ -23,7 +23,17 @@ import {
   Clock,
   ArrowCounterClockwise,
   Moon,
-  Sun
+  Sun,
+  List,
+  Stack,
+  Database,
+  GraduationCap,
+  Gauge,
+  Play,
+  ArrowUpRight,
+  Check,
+  Sparkle,
+  LockKey,
 } from "@phosphor-icons/react";
 
 export const ShieldIcon = Shield;
@@ -49,4 +59,13 @@ export const ClockIcon = Clock;
 export const ArrowCounterClockwiseIcon = ArrowCounterClockwise;
 export const MoonIcon = Moon;
 export const SunIcon = Sun;
-
+export const ListIcon = List;
+export const StackIcon = Stack;
+export const DatabaseIcon = Database;
+export const GraduationCapIcon = GraduationCap;
+export const GaugeIcon = Gauge;
+export const PlayIcon = Play;
+export const ArrowUpRightIcon = ArrowUpRight;
+export const CheckIcon = Check;
+export const SparkleIcon = Sparkle;
+export const LockKeyIcon = LockKey;

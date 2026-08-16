@@ -1,0 +1,458 @@
+[
+  {
+    "id": 151,
+    "question": "An employee's screen keeps flashing. Sometimes the picture goes out and comes back. The employee checks the power cord and confirms the device is plugged in fully. Which of the following should a technician check for first?",
+    "options": [
+      "A. Loose video cable",
+      "B. Failing graphics card",
+      "C. Conflicting drivers",
+      "D. Swollen motherboard capacitor"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Intermittent display issues, such as a screen flashing on and off, are most commonly caused by a loose or faulty video cable connection. If the power cable is confirmed secure, the next logical step is to check the video (data) cable between the monitor and the computer. From the CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshoot common hardware problems: \"Common video issues include intermittent display or loss of picture. The most likely causes are a loose or faulty video cable or connector. Check all cable connections before troubleshooting internal components.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting Hardware Problems CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 152,
+    "question": "A user reports that the print quality of their desk printer is poor. A technician replaces the ink cartridge, but this does not resolve the issue. Which of the following should the technician do next?",
+    "options": [
+      "A. Replace the pickup rollers",
+      "B. Clean the printheads",
+      "C. Switch the paper type",
+      "D. Change the ribbon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If print quality remains poor after replacing the ink cartridge, the next step is to clean the printheads. Printheads can become clogged with dried ink, especially in inkjet printers, causing streaks or faded output. From the CompTIA A+ 220-1101 Official Study Guide, Objective 4.3 – Troubleshoot printing problems: “Poor print quality after replacing cartridges is commonly caused by clogged or dirty printheads. Use the printer's cleaning cycle or manually clean the printheads as needed.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Printer Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.3 ============"
+  },
+  {
+    "id": 153,
+    "question": "An end user reports that their laptop shuts down when they undock it. Even when using a new charging cable, the issue persists. Which of the following should the technician do next?",
+    "options": [
+      "A. Flash the BIOS",
+      "B. Update the drivers",
+      "C. Try a different charger",
+      "D. Replace the battery"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "If a laptop shuts down when undocked and remains powered off even with a new charging cable, the internal battery is likely faulty and cannot hold a charge. Replacing the battery is the next troubleshooting step. From the CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshoot common hardware problems: \"If a laptop only works when docked or connected to AC power, and a replacement cable does not resolve the issue, the internal battery may need to be replaced.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting Mobile Devices CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 154,
+    "question": "A company provides cell phones to employees who travel internationally. An employee brings their phone to the help desk so the necessary equipment can be installed. However, the technician cannot install any new hardware on the phone. Which of the following will the technician require so the phone can connect to a different provider?",
+    "options": [
+      "A. USB-C",
+      "B. SD card",
+      "C. eSIM",
+      "D. MDM"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An eSIM (embedded SIM) allows users to change carriers and provision new cellular service without installing any physical hardware. It is managed via software and is ideal for international travelers who need to switch providers quickly. From the CompTIA A+ 220-1101 Official Study Guide, Objective 3.3 – Install and configure mobile device network connectivity: \"eSIMs provide carrier flexibility by enabling remote provisioning and profile switching, making it possible to connect to different networks without a physical SIM card.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Mobile Devices CompTIA Exam Objectives 220-1101, Domain 3.3"
+  },
+  {
+    "id": 155,
+    "question": "Which of the following internet connection types provides the fastest speeds and greatest coverage in less populated areas with minimal infrastructure?",
+    "options": [
+      "A. Fiber",
+      "B. Cable",
+      "C. DSL",
+      "D. Cellular"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Cellular networks offer broad coverage in rural or less populated areas where laying fiber, cable, or DSL lines may not be feasible or cost-effective. Cellular broadband (4G LTE/5G) provides fast speeds using existing mobile network infrastructure. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.7 – Compare and contrast Internet connection types: \"Cellular connections offer high speed and extensive coverage, especially in areas where other wired infrastructure may not exist or be practical.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Internet Connections CompTIA Exam Objectives 220-1101, Domain 2.7 ============"
+  },
+  {
+    "id": 156,
+    "question": "Which of the following ports should a technician disable to increase the security of remote connectivity?",
+    "options": [
+      "A. 22",
+      "B. 23",
+      "C. 25",
+      "D. 53"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Port 23 is used by Telnet, an unencrypted remote connection protocol that poses significant security risks. Disabling Telnet and using secure alternatives like SSH (port 22) is best practice. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.1 – Common ports and protocols: \"Port 23 (Telnet) provides unencrypted remote access and should be disabled to increase security. Use SSH (port 22) for secure remote connections.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Ports and Protocols CompTIA Exam Objectives 220-1101, Domain 2.1 ============"
+  },
+  {
+    "id": 157,
+    "question": "A network operations analyst receives an automated alert regarding a server with an array. The analyst walks over to the server and sees a blinking orange light at the hard disk bay. The server is configured for RAID 1. Which of the following should the analyst do to resolve this issue?",
+    "options": [
+      "A. Change the array to RAID 0.",
+      "B. Undo the array and create a new one.",
+      "C. Update RAID card firmware.",
+      "D. Replace the hard disk and rebuild the array."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A blinking orange light typically indicates a failed hard drive in the RAID array. In RAID 1 (mirroring), you can replace the failed drive and rebuild the array without data loss. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – RAID configuration and troubleshooting: \"In the event of a hard drive failure in RAID 1, replace the failed disk and allow the array to rebuild using the remaining mirrored disk.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: RAID and Storage CompTIA Exam Objectives 220-1101, Domain 3.4 ============"
+  },
+  {
+    "id": 158,
+    "question": "A technician upgrades a PC with two DIMMs, for a total of 32GB. After installing the two DIMMs, the user notices the OS is reporting only 16GB. Which of the following tasks should the technician perform to resolve the issue in the most rapid, cost-effective way possible?",
+    "options": [
+      "A. Roll back recent system updates",
+      "B. Reinstall RAM in different slots.",
+      "C. Update the OS to the latest version",
+      "D. Replace the faulty motherboard"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If newly installed RAM is not fully recognized, the most likely cause is incorrect installation or incompatible slots. Reseating or reinstalling the RAM modules in the correct slots can quickly resolve the issue without extra cost. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.2 – Install and configure PC components: \"If memory is not detected, check installation and reseat modules. Ensure they are placed in the correct, matched slots for dual-channel operation.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Memory Installation CompTIA Exam Objectives 220-1101, Domain 3.2 ============"
+  },
+  {
+    "id": 159,
+    "question": "A company wants to have fast read speeds for its locally stored data. Which of the following configurations has the lowest cost to fulfill this requirement?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 10"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "RAID 0 (striping) provides the fastest read (and write) speeds at the lowest cost, as all disk capacity is used for storage and performance. However, it offers no redundancy. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – RAID types: \"RAID 0 stripes data across multiple disks, offering the best performance and lowest cost but no fault tolerance.\" Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: RAID Levels CompTIA Exam Objectives 220-1101, Domain 3.4"
+  },
+  {
+    "id": 160,
+    "question": "Which of the following devices has ACL capabilities?",
+    "options": [
+      "A. PoE injector",
+      "B. DSL",
+      "C. Firewall",
+      "D. Unmanaged switch"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Firewalls are specifically designed to monitor, filter, and control network traffic using Access Control Lists (ACLs). ACLs define which traffic is allowed or denied based on parameters like IP address, protocol, or port. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Networking hardware and security: “Firewalls use access control lists (ACLs) to allow or deny traffic based on rules. Unmanaged switches and PoE injectors do not support ACLs.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Security Devices CompTIA Exam Objectives 220-1101, Domain 2.2 ============"
+  },
+  {
+    "id": 161,
+    "question": "A user would like to connect a laptop to a monitor, keyboard, and mouse when in the office. The user prefers to use as few cables as possible. Which of the following would best achieve that goal?",
+    "options": [
+      "A. Bluetooth",
+      "B. Managed switch",
+      "C. Docking station",
+      "D. Near-field communication"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A docking station allows users to connect multiple peripherals (monitor, keyboard, mouse, etc.) to a laptop with a single connection, reducing cable clutter and improving convenience. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Laptop hardware and connections: “A docking station enables the use of multiple external devices with a laptop using only one or two connections, making it ideal for office environments.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Laptop Hardware CompTIA Exam Objectives 220-1101, Domain 3.1 ============"
+  },
+  {
+    "id": 162,
+    "question": "A user keeps getting an error message when trying to print a letter. The printer is normally used to print cards and invitations. The user tries printing from a different computer, but the issue persists. Which of the following should the user do to resolve the issue?",
+    "options": [
+      "A. Print fewer pages.",
+      "B. Print on card stock",
+      "C. Replace the rollers.",
+      "D. Change the paper tray setting."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "If a printer is set to use a special tray (for cards/invitations) but a different type of print job is attempted (like a letter), a paper tray setting mismatch can cause errors. Changing the tray setting to match the print media resolves the issue. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.3 – Troubleshooting printers: “If print jobs fail when media type changes, verify and adjust the paper tray settings to match the required output.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Printer Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.3 ============"
+  },
+  {
+    "id": 163,
+    "question": "Which of the following should a company use to implement automatic time synchronization?",
+    "options": [
+      "A. DHCP",
+      "B. UTM",
+      "C. NTP",
+      "D. AAA"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "NTP (Network Time Protocol) is specifically designed to synchronize the clocks of networked computers and devices automatically. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.6 – Network services and protocols: “NTP is used to automatically synchronize system clocks on network devices, ensuring all systems have accurate time.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Protocols CompTIA Exam Objectives 220-1101, Domain 2.6 ============"
+  },
+  {
+    "id": 164,
+    "question": "An end user reports that their laptop has a blank screen. A technician observes the keyboard lights are on, and the fan is running. Which of the following should the technician do next?",
+    "options": [
+      "A. Check the display ribbon cable.",
+      "B. Contact vendor support",
+      "C. Replace the inverter",
+      "D. Connect to an external monitor"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "When a laptop powers on but the screen is blank, the quickest way to isolate the problem is to connect to an external monitor. This helps determine if the issue is with the laptop display or with the graphics subsystem. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshoot common hardware problems: “A blank screen on a laptop with power indicators lit should be tested with an external display first to rule out a faulty screen or ribbon cable.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Laptop Display Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 165,
+    "question": "Which of the following minimizes the time it takes to connect a display, keyboard, mouse, and network cable to a laptop?",
+    "options": [
+      "A. Lightning interface",
+      "B. Port replicator",
+      "C. USB hub",
+      "D. Bluetooth"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A port replicator is designed to allow a user to quickly connect a laptop to multiple peripherals (display, keyboard, mouse, network, etc.) using a single interface, reducing setup time. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Laptop hardware and connections: “Port replicators offer quick connections for multiple peripherals, streamlining the process of docking and undocking a laptop.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Laptop Hardware CompTIA Exam Objectives 220-1101, Domain 3.1"
+  },
+  {
+    "id": 166,
+    "question": "A multifunction printer in a small office recently had issues with scan-to-email functionality. The manufacturer has an update ready to fix the printer issues. Which of the following would a technician most likely deploy to remediate the issue?",
+    "options": [
+      "A. Firmware",
+      "B. Driver",
+      "C. OS update",
+      "D. HSM"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Firmware is the embedded software on a device such as a printer. Manufacturers often release firmware updates to resolve hardware-specific functionality issues, such as scan-to-email or security vulnerabilities. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – Printer installation and maintenance: “Firmware updates provide bug fixes and add new features for multifunction printers. Apply firmware updates to resolve device-specific issues.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Printer Maintenance CompTIA Exam Objectives 220-1101, Domain 3.4 ============"
+  },
+  {
+    "id": 167,
+    "question": "A technician is setting up a new SOHO wireless router. According to security best practices, which of the following should the technician do first?",
+    "options": [
+      "A. Enable encryption.",
+      "B. Assign a static IP.",
+      "C. Change the default password.",
+      "D. Reset the router."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "The first security step after deploying a new router is to change the default administrative password. Default credentials are well known and pose a security risk if left unchanged. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.3 – Secure a wireless network: “Always change default administrative credentials before further configuration to prevent unauthorized access.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Wireless Security CompTIA Exam Objectives 220-1101, Domain 2.3 ============"
+  },
+  {
+    "id": 168,
+    "question": "Which of the following can carry data and electricity to network devices? (Select two).",
+    "options": [
+      "A. Router",
+      "B. Injector",
+      "C. Cable modem",
+      "D. Access point",
+      "E. PoE",
+      "F. Unmanaged switch"
+    ],
+    "correctAnswers": [
+      1,
+      4
+    ],
+    "correctAnswer": 1,
+    "explanation": "PoE (Power over Ethernet) allows both data and electrical power to be delivered over the same Ethernet cable. A PoE injector adds power to Ethernet cables for devices that need it. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Networking hardware: “Power over Ethernet (PoE) technology and PoE injectors enable both power and data transmission to compatible network devices like access points and IP cameras.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Network Hardware CompTIA Exam Objectives 220-1101, Domain 2.2 ============"
+  },
+  {
+    "id": 169,
+    "question": "A company deploys its infrastructure in self-operated data centers. The company recently migrated some of its applications to a public cloud. Which of the following most accurately describes the cloud model the company is following?",
+    "options": [
+      "A. Public",
+      "B. Hybrid",
+      "C. Community",
+      "D. Private"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hybrid cloud combines private infrastructure (on-premises, self-operated data centers) with public cloud services, providing flexibility and scalability. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Cloud concepts: “A hybrid cloud model integrates private and public cloud infrastructure to allow applications and data to be shared between them.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Cloud Computing CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 170,
+    "question": "A technician is setting up a new multifunction device to be used over a shared network connection. Copier functions need to be restricted to only office employees. Which of the following should the technician perform after configuring the device to use a print server that exists on the domain?",
+    "options": [
+      "A. SMTP implementation",
+      "B. Firmware update",
+      "C. User authentication",
+      "D. SMB configuration"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "User authentication allows access to device functions (like printing and copying) to be restricted to authorized personnel. This is typically implemented on networked multifunction devices for security and auditing. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – Printer and device security: “Enable user authentication on shared multifunction devices to restrict access to specific features for authorized users only.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Printer Security CompTIA Exam Objectives 220-1101, Domain 3.4"
+  },
+  {
+    "id": 171,
+    "question": "A technician observes slow startup times on a laptop. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. HDD",
+      "B. RAM",
+      "C. NIC",
+      "D. BIOS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hard disk drive (HDD), especially if it's older or nearly full, is the most common cause of slow startup times in laptops. HDDs are much slower than SSDs and can significantly bottleneck the boot process. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshoot common hardware problems: “A slow startup or sluggish system performance is commonly due to a failing or fragmented hard disk drive (HDD). Replacing with an SSD can greatly improve boot times and overall system responsiveness.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Troubleshooting PC Hardware CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 172,
+    "question": "Which of the following display technologies typically provides the highest contrast?",
+    "options": [
+      "A. IPS",
+      "B. OLED",
+      "C. TN",
+      "D. VA"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "OLED (Organic Light-Emitting Diode) technology can turn off individual pixels completely, producing “true black” and resulting in the highest contrast ratios compared to other display types. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Display types and features: “OLED displays provide superior contrast by emitting light per pixel, allowing perfect black and extremely high contrast ratios.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Display Technologies CompTIA Exam Objectives 220-1101, Domain 3.1 ============"
+  },
+  {
+    "id": 173,
+    "question": "Which of the following types of RAM would most likely be used in a server?",
+    "options": [
+      "A. SODIMM",
+      "B. ECC",
+      "C. Unbuffered",
+      "D. DDR3"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "ECC (Error-Correcting Code) RAM is commonly used in servers because it can detect and correct memory errors, providing greater stability and reliability for mission-critical environments. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.2 – Types of RAM: “Servers often require ECC memory, which can detect and correct single-bit errors, preventing data corruption and increasing system reliability.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Memory Technologies CompTIA Exam Objectives 220-1101, Domain 3.2 ============"
+  },
+  {
+    "id": 174,
+    "question": "A company migrates a local application to an internal cloud platform. Which of the following best describes this cloud platform?",
+    "options": [
+      "A. Private",
+      "B. Public",
+      "C. Community",
+      "D. Hybrid"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "An internal cloud platform operated exclusively for a single organization is a private cloud, providing dedicated resources and enhanced control. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Cloud models: “A private cloud is provisioned for exclusive use by a single organization, typically managed internally or by a third party, and may be hosted on-premises.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Cloud Concepts CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 175,
+    "question": "A technician sets up secure print and configures an NFC device that will authenticate users for access. Which of the following will the NFC device most likely use to authenticate?",
+    "options": [
+      "A. Badging",
+      "B. Password",
+      "C. Passcode",
+      "D. Biometrics"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Badging refers to the use of NFC-enabled ID badges or cards that authenticate users when tapped against a reader for secure print or access control. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – Secure printing and authentication: “NFC authentication is commonly implemented using employee badges, allowing secure and convenient access to devices and functions.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Secure Print Solutions CompTIA Exam Objectives 220-1101, Domain 3.4 ============"
+  },
+  {
+    "id": 176,
+    "question": "A customer recently lost data due to several unexpected shutdowns. Data integrity is important to the customer. Which of the following features should the technician choose to prevent data loss?",
+    "options": [
+      "A. Redundant power supply",
+      "B. Uninterruptible power supply",
+      "C. Modular power supply",
+      "D. High-efficiency power supply"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "An uninterruptible power supply (UPS) protects systems against power outages by providing temporary backup power, giving users time to save data and safely shut down. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.3 – Power protection: “A UPS supplies backup power to prevent data loss and hardware damage during outages or surges, ensuring system integrity.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Power Protection CompTIA Exam Objectives 220-1101, Domain 3.3"
+  },
+  {
+    "id": 177,
+    "question": "Which of the following allows a physical server to host multiple virtual machines?",
+    "options": [
+      "A. Cross-platform virtualization",
+      "B. Hypervisor",
+      "C. Sandbox",
+      "D. SaaS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "A hypervisor is software or firmware that allows multiple operating systems (virtual machines) to run on a single physical host. It manages the allocation of resources and isolation of each VM. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Virtualization concepts: “A hypervisor is the key component of virtualization, enabling a physical server to host multiple virtual machines (VMs), each with its own OS and resources.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Virtualization CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 178,
+    "question": "Which of the following virtualization technologies is best suited for running microservices?",
+    "options": [
+      "A. Containers",
+      "B. VDI",
+      "C. Type 2 hypervisors",
+      "D. Type 1 hypervisors"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Containers provide lightweight virtualization, ideal for deploying microservices because they are isolated, portable, and require fewer resources than traditional VMs. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Virtualization and cloud computing: “Containers package applications and their dependencies, making them ideal for running microservices efficiently and independently.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Cloud and Virtualization CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 179,
+    "question": "An IT specialist sets up a new computer for a user who requires a high-end video card and the fastest hard drive possible. Which of the following connectors should the specialist verify are available on the motherboard? (Select two).",
+    "options": [
+      "A. Molex",
+      "B. NVMe",
+      "C. SATA",
+      "D. FireWire",
+      "E. USB-C",
+      "F. PCIe"
+    ],
+    "correctAnswers": [
+      1,
+      5
+    ],
+    "correctAnswer": 1,
+    "explanation": "PCIe (Peripheral Component Interconnect Express) is required for high-end video cards. NVMe (Non-Volatile Memory Express) utilizes the M.2 or PCIe interface for the fastest SSD performance. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.2 – Motherboard expansion slots and storage interfaces: “High-end video cards require a PCIe slot, while NVMe drives use M.2 (PCIe) slots for the highest data transfer rates.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Motherboard and Storage CompTIA Exam Objectives 220-1101, Domain 3.2 ============"
+  },
+  {
+    "id": 180,
+    "question": "A user's phone does not respond to touch. A technician inspects the phone but does not see any evidence of physical damage. The technician restarts the device, which does not fix the issue. Which of the following components should the technician examine next?",
+    "options": [
+      "A. Battery",
+      "B. Screen",
+      "C. Stylus",
+      "D. Digitizer"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "The digitizer is the component responsible for detecting touch input on a screen. If touch is not registering and there's no physical damage, the digitizer may be faulty. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Mobile device hardware: “If a touchscreen device does not respond to input and the screen is intact, the digitizer (touch sensor) may be defective.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Mobile Hardware CompTIA Exam Objectives 220-1101, Domain 3.1 ============"
+  }
+]

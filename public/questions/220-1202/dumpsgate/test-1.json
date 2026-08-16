@@ -1,0 +1,452 @@
+[
+  {
+    "id": 2,
+    "question": "A technician needs to provide remote support for a legacy Linux-based operating system from their Windows laptop. The solution needs to allow the technician to see what the user is doing and provide the ability to interact with the user's session. Which of the following remote access technologies would support the use case?",
+    "options": [
+      "A. VPN",
+      "B. VNC",
+      "C. SSH",
+      "D. RDP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The correct answer isVNC (Virtual Network Computing). VNC is a graphical desktop-sharing system that uses the Remote Frame Buffer protocol (RFB) to remotely control another computer. It is platform-independent and widely supported on Linux, which makes it ideal for providinginteractive remote support for a Linux-based operating system. It allows the technician not only to view the remote desktop session but also tocontrol it, fulfilling the need to see and interact with the user’s session. A . VPN(Virtual Private Network) creates a secure tunnel to a network but doesnot provide desktop sharing or session controlby itself. C . SSH(Secure Shell) provides secure command-line access to Unix/Linux systems but does not offergraphical desktop interaction, which is a requirement in this case. D . RDP(Remote Desktop Protocol) is primarily a Microsoft protocol, and although it can be made to work on Linux, it isnot natively supported on legacy Linux systems, and thusless suitablethan VNC in this scenario. CompTIA A+ 220-1102 Core 2 Objective Reference: Objective 1.8 – Given a scenario, use features and tools of the operating system. Under this objective, candidates are expected to be familiar with remote access technologies, includingRDP, SSH, and VNC, and understand their appropriate uses and limitations on different platforms such as Windows and Linux."
+  },
+  {
+    "id": 3,
+    "question": "A technician is attempting to join a workstation to a domain but is receiving an error message stating the domain cannot be found. However, the technician is able to ping the server and access the internet. Given the following information: IP Address – 192.168.1.210 Subnet Mask – 255.255.255.0 Gateway – 192.168.1.1 DNS1 – 8.8.8.8 DNS2 – 1.1.1.1 Server – 192.168.1.10 Which of the following should the technician do to fix the issue?",
+    "options": [
+      "A. Change the DNS settings.",
+      "B. Assign a static IP address.",
+      "C. Configure a subnet mask.",
+      "D. Update the default gateway."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The issue described—“domain cannot be found” despite the ability to ping the server and access the internet—indicates aDNS resolution problem, not a network connectivity issue. The workstation is currently usingpublic DNS servers (8.8.8.8 and 1.1.1.1)whichcannot resolve internal domain names, such as the ones used in Active Directory environments. To resolve this, the technician needs tochange the DNS settings to point to the internal DNS server, which in most domain setups is thedomain controller itself (likely 192.168.1.10 in this case). Here’s the breakdown of the incorrect options: B . Assign a static IP address: The IP is already assigned and functioning; the device can ping and reach the network and internet. C . Configure a subnet mask: The subnet mask is appropriate for the network range (Class C /24). D . Update the default gateway: The gateway is valid and allows internet access; this is not the issue. CompTIA A+ 220-1102 Core 2 Objective Reference: Objective 1.8 – Given a scenario, use features and tools of the operating system. Under this objective, candidates must know how to troubleshoot OS-based network configurations, includingproper DNS settings in domain environments. —"
+  },
+  {
+    "id": 4,
+    "question": "A network technician notices that most of the company's network switches are now end-of-life and need to be upgraded. Which of the following should the technician do first?",
+    "options": [
+      "A. Implement the change",
+      "B. Approve the change",
+      "C. Propose the change",
+      "D. Schedule the change"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The first step in the IT change management process is to identify and propose the change. In this case, the technician notices a need (end-of-life network switches), so the appropriate action is to formally propose a change. This proposal would be documented and submitted for approval before any planning or implementation occurs. According to the CompTIA A+ 220-1102 objectives under Operational Procedures (Domain 4.0), the change management process follows these typical steps: Submit a change request (Propose the change) Review and approval (Approve the change) Planning and scheduling (Schedule the change) Implementation Documentation and review Therefore, proposing the change is the correct first step in accordance with standard ITIL-based change management practices. Reference: CompTIA A+ 220-1102 Objective 4.1: Given a scenario, implement best practices associated with documentation and support systems information management. Study Guide Section: Change Management Process ==========================="
+  },
+  {
+    "id": 5,
+    "question": "MFA for a custom web application on a user's smartphone is no longer working. The last time the user remembered it working was before taking a vacation to another country. Which of the following should the technician do first?",
+    "options": [
+      "A. Verify the date and time settings",
+      "B. Apply mobile OS patches",
+      "C. Uninstall and reinstall the application",
+      "D. Escalate to the website developer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Multi-Factor Authentication (MFA) apps, especially time-based one-time password (TOTP) apps (e.g., Google Authenticator, Authy), rely on accurate time synchronization between the device and the authentication server. If the user recently traveled internationally, the device may have incorrect date/time settings due to time zone changes or failed synchronization, leading to MFA failure. The most logical and non-intrusive first step is to verify and correct the date and time settings. This aligns with basic troubleshooting principles—start with the simplest and most likely cause before taking more drastic action. Reference: CompTIA A+ 220-1102 Objective 2.6: Given a scenario, apply cybersecurity best practices to secure a workstation. Study Guide Section: Authentication technologies and MFA troubleshooting ==========================="
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is found in an MSDS sheet for a battery backup?",
+    "options": [
+      "A. Installation instructions",
+      "B. Emergency procedures",
+      "C. Configuration steps",
+      "D. Voltage specifications"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An MSDS (Material Safety Data Sheet), now commonly referred to as SDS (Safety Data Sheet), is a document that provides detailed information on the properties of a particular substance. It includes safety guidelines and emergency procedures related to handling, exposure, fire hazards, and first aid—not installation or configuration instructions. For a battery backup (UPS device), the MSDS would include emergency procedures such as what to do in case of a chemical spill, exposure to battery acid, or fire hazard due to overheating or chemical leakage. This ensures the safety of personnel and complies with hazardous materials handling regulations. Reference: CompTIA A+ 220-1102 Objective 4.1: Given a scenario, implement best practices associated with documentation and support systems information management. Study Guide Section: MSDS/SDS usage and safety documentation"
+  },
+  {
+    "id": 7,
+    "question": "The screen of a previously working computer repeatedly displays an OS Not Found error message when the computer is started. Only a USB drive, a keyboard, and a mouse are plugged into the computer. Which of the following should a technician do first?",
+    "options": [
+      "A. Run data recovery tools on the disk",
+      "B. Partition the disk using the GPT format",
+      "C. Check boot options",
+      "D. Switch from UEFI to BIOS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An \"OS Not Found\" error typically indicates that the computer is attempting to boot from a drive that doesn't contain a valid operating system or bootable partition. The presence of a USB drive might be confusing the boot order. Therefore, the first step a technician should take is to verify and adjust the boot sequence in the system’s firmware (BIOS or UEFI). It's possible that the USB drive is being prioritized over the internal hard drive, which may cause the system to miss the OS entirely. A . Running data recovery tools is premature before confirming boot order. B . Repartitioning the disk would destroy existing data—this should not be done until confirmed the OS is actually missing. D . Switching between UEFI and BIOS (legacy mode) might help in rare cases, but it is not the first step in standard OS boot issue troubleshooting. Reference: CompTIA A+ 220-1102 Objective 1.7: Troubleshoot common operating system problems. Study Guide Section: Boot process and boot order configuration. ==========================="
+  },
+  {
+    "id": 8,
+    "question": "A security administrator teaches all of an organization's staff members to use BitLocker To Go. Which of the following best describes the reason for this training?",
+    "options": [
+      "A. To ensure that all removable media is password protected in case of loss or theft",
+      "B. To enable Secure Boot and a BIOS-level password to prevent configuration changes",
+      "C. To enforce VPN connectivity to be encrypted by hardware modules",
+      "D. To configure all laptops to use the TPM as an encryption factor for hard drives"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: BitLocker To Go is a Microsoft encryption feature specifically designed for removable drives such as USB flash drives and external hard drives. It allows users to protect the data on these devices by requiring a password to decrypt the contents, thereby preventing unauthorized access in the event the device is lost or stolen. A is correct because BitLocker To Go is directly tied to password-protecting removable media. B and C are unrelated to BitLocker To Go; Secure Boot and VPN encryption are entirely different security layers. D applies to BitLocker (not BitLocker To Go) and full disk encryption on internal drives using TPM. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast common security measures and tools. Study Guide Section: Encryption technologies (BitLocker, BitLocker To Go) ==========================="
+  },
+  {
+    "id": 9,
+    "question": "Which of the following is used to detect and record access to restricted areas?",
+    "options": [
+      "A. Bollards",
+      "B. Video surveillance",
+      "C. Badge readers",
+      "D. Fence"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Badge readers are electronic access control systems that require authorized users to scan a badge (e.g., RFID or magnetic strip cards) to gain access to restricted physical locations. These systems typically log all access attempts—successful or denied—providing both detection and recording of access events. A . Bollards are physical barriers to prevent vehicle access. B . Video surveillance can record access visually but does not track identity unless integrated with access control systems. D . A fence restricts access but doesn't detect or record who entered. Reference: CompTIA A+ 220-1102 Objective 2.4: Compare and contrast physical security measures. Study Guide Section: Physical access controls (e.g., badge readers, mantraps)"
+  },
+  {
+    "id": 10,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer be issued security updates and patches. Which of the following is most likely the reason the administrator received this message?",
+    "options": [
+      "A. Support from the computer's manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Operating systems periodically reach a status known as \"end of life\" (EOL), at which point the developer (e.g., Microsoft, Apple) ceases to provide security updates, patches, or technical support. When this happens, the OS becomes vulnerable and non-compliant with security best practices, which is why organizations typically receive advance notifications from vendors or support teams. A . Manufacturer support expiration only applies to hardware, not OS patching. C . Security software may be upgraded or removed, but that does not affect patching the OS itself. D . The release of a new version doesn’t automatically stop updates for the current version. Reference: CompTIA A+ 220-1102 Objective 1.3: Given a scenario, use appropriate Microsoft operating system features and tools. Study Guide Section: OS lifecycle management and vendor support phases (e.g., EOL) ==========================="
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is the best way to distribute custom images to 800 devices that include four device vendor classes with two types of user groups?",
+    "options": [
+      "A. Use xcopy to clone the hard drives from one to another",
+      "B. Use robocopy to move the files to each device",
+      "C. Use a local image deployment tool for each device",
+      "D. Use a network-based remote installation tool"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In enterprise environments, network-based deployment solutions (such as Windows Deployment Services or SCCM) allow administrators to push images across the network to hundreds of devices efficiently. These tools support hardware-specific drivers (for different vendor classes) and can accommodate user-group configurations using task sequences or answer files. A and B (xcopy and robocopy) are file-level tools and not designed for full OS image deployment. C . Using local tools per device is inefficient for large-scale rollouts (800 devices). D . Network-based deployment is the industry standard for this scale. Reference: CompTIA A+ 220-1102 Objective 1.4: Given a scenario, use appropriate Microsoft operating system installation methods. Study Guide Section: Deployment methods (including PXE boot, image deployment) ==========================="
+  },
+  {
+    "id": 12,
+    "question": "Which of the following types of social engineering attacks sends an unsolicited text message to a user's mobile device?",
+    "options": [
+      "A. Impersonation",
+      "B. Vishing",
+      "C. Spear phishing",
+      "D. Smishing"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Smishing (SMS phishing) is a type of social engineering attack where attackers send fraudulent text messages to trick users into revealing sensitive information or downloading malware. These messages often impersonate banks, delivery services, or official institutions to lure the victim into clicking malicious links. A . Impersonation is an in-person or voice-based tactic. B . Vishing refers to voice phishing over phone calls. C . Spear phishing is a targeted email-based phishing method. Reference: CompTIA A+ 220-1102 Objective 2.3: Compare and contrast social engineering techniques. Study Guide Section: Smishing as a type of phishing via SMS or mobile messaging. ==========================="
+  },
+  {
+    "id": 13,
+    "question": "A user reports some single sign-on errors to a help desk technician. Currently, the user is able to sign in to the company's application portal but cannot access a specific SaaS-based tool. Which of the following would the technician most likely suggest as a next step?",
+    "options": [
+      "A. Reenroll the user's mobile device to be used as an MFA token",
+      "B. Use a private browsing window to avoid local session conflicts",
+      "C. Bypass single sign-on by directly authenticating to the application",
+      "D. Reset the device being used to factory defaults"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: SSO issues are often related to cached session data, cookies, or browser artifacts. The fact that the user can access the company portal but not one specific SaaS tool suggests a session or token problem. Using a private/incognito browsing window allows a clean session to be initiated, which often resolves SSO conflicts. A . Reenrolling MFA is not related unless access issues stem from failed multifactor authentication. C . Bypassing SSO may not be possible depending on the SaaS tool and company policies. D . Factory resetting a device is a last resort and unnecessary in this case. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common software, application, and OS security issues. Study Guide Section: Troubleshooting login and authentication issues, especially with SSO services. ==========================="
+  },
+  {
+    "id": 14,
+    "question": "A technician verifies that a malware incident occurred on some computers in a small office. Which of the following should the technician do next?",
+    "options": [
+      "A. Quarantine the infected systems",
+      "B. Educate the end users",
+      "C. Disable System Restore",
+      "D. Update the anti-malware and scan the computers"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Once a malware incident has been confirmed, the immediate next step is to contain the threat. Quarantining infected systems prevents the malware from spreading to other devices and isolates the malicious code for further analysis or remediation. B . Educating end users is important but occurs later in the incident response process. C . Disabling System Restore is part of cleanup, not containment. D . Updating and scanning should occur after the system is quarantined to prevent further infection or spread. Reference: CompTIA A+ 220-1102 Objective 2.5: Given a scenario, detect, remove, and prevent malware using appropriate tools and methods. Study Guide Section: Malware removal best practices — Step 2: Quarantine the infected system ==========================="
+  },
+  {
+    "id": 15,
+    "question": "Which of the following is a Linux command that is used for administrative purposes?",
+    "options": [
+      "A. runas",
+      "B. cmcl",
+      "C. net user",
+      "D. su"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The su (substitute user) command is used in Linux to switch to another user account, most commonly to escalate privileges by switching to the root (administrator) account. It allows administrative tasks to be performed in a terminal session. A . runas is a Windows command for executing a program under another user's context. B . cmcl is not a valid Linux or administrative command. C . net user is a Windows command for managing local user accounts. Reference: CompTIA A+ 220-1102 Objective 1.9: Identify common features and tools of the Linux client/desktop OS. Study Guide Section: Linux command-line tools — su, sudo ==========================="
+  },
+  {
+    "id": 16,
+    "question": "A user recently installed an application that accesses a database from a local server. When launching the application, it does not populate any information. Which of the following command-line tools is the best to troubleshoot the issue?",
+    "options": [
+      "A. ipconfig",
+      "B. nslookup",
+      "C. netstat",
+      "D. curl"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The scenario involves an application that should retrieve data from a local database server but is failing to do so. This likely indicates a problem in communication between the application and the database server (such as a network issue, port misconfiguration, or service unavailability). The correct troubleshooting approach involves testing the network/service connectivity between the client and the database. Let’s examine the options: A . ipconfig:This command displays IP configuration details for Windows systems, such as IP address, subnet mask, and default gateway. While useful for diagnosing general network issues, it does not test service connectivity or the availability of a specific application port/service. B . nslookup:Used to query DNS servers to resolve domain names to IP addresses. However, since the question references a local server (likely accessed via IP or static hostname), DNS is probably not involved. Also, it does not test application/service availability. C . netstat:Displays active TCP connections, listening ports, and routing tables. It helps determine whether the local system is listening for or maintaining any network connections, but it does not initiate a connection to test availability. It’s diagnostic but not interactive for service testing. D . curl:This is the most appropriate tool for this scenario. curl is used to test connectivity to services over protocols like HTTP, HTTPS, FTP, and more. If the application retrieves data via a web interface or API (common in database-driven applications), curl can be used to test if the application can successfully reach and retrieve data from the server. It provides immediate, testable feedback on whether the server and service are available and responsive. Example usage: curlhttp://localhost:8080/api/data This command would test whether a local server's application programming interface (API) is available and responding on port 8080. CompTIA A+ 220-1102 Reference Points: Objective 2.4: Given a scenario, use appropriate tools to troubleshoot and support Windows OS issues. Objective 3.3: Use appropriate tools to troubleshoot and resolve issues. The CompTIA A+ Core 2 study guide references curl as a useful command-line utility for testing connectivity and troubleshooting application access to services. ==========================="
+  },
+  {
+    "id": 17,
+    "question": "A small office reported a phishing attack that resulted in a malware infection. A technician is investigating the incident and has verified the following: ● All endpoints are updated and have the newest EDR signatures. ● Logs confirm that the malware was quarantined by EDR on one system. ● The potentially infected machine was reimaged. Which of the following actions should the technician take next?",
+    "options": [
+      "A. Install network security tools to prevent downloading infected files from the internet",
+      "B. Discuss the cause of the issue and educate the end user about security hygiene",
+      "C. Flash the firmware of the router to ensure the integrity of network traffic",
+      "D. Suggest alternate preventative controls that would include more advanced security software"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: After containment and remediation, one of the final steps in incident response is user education. Since the root cause was a phishing attack, it is essential to educate users about identifying phishing attempts, safe browsing practices, and how to handle suspicious communications. This improves overall security posture and helps prevent future incidents. A . Installing additional tools may be helpful but is a long-term step. C . Flashing router firmware is not warranted unless the network hardware is known to be compromised. D . Suggesting more advanced tools might be excessive given that the EDR successfully contained the incident. Reference: CompTIA A+ 220-1102 Objective 2.5: Given a scenario, detect, remove, and prevent malware using appropriate tools and methods. Study Guide Section: Incident response and user education after a security event"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following describes a vulnerability that has been exploited before a patch or remediation is available?",
+    "options": [
+      "A. Spoofing",
+      "B. Brute-force",
+      "C. DoS",
+      "D. Zero-day"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A Zero-day vulnerability refers to a security flaw in software or hardware that is unknown to the vendor or has not yet been patched. If this vulnerability is exploited before the vendor has issued a fix or patch, it becomes a Zero-day exploit. These attacks are highly dangerous because they take advantage of the absence of defenses due to the lack of awareness or mitigation options. A . Spoofing is a form of impersonation, not necessarily tied to unpatched vulnerabilities. B . Brute-force attacks rely on repeatedly guessing credentials and are not related to software flaws. C . DoS (Denial of Service) attacks are meant to overwhelm systems and don't necessarily exploit unknown vulnerabilities. Reference: CompTIA A+ 220-1102 Objective 2.3: Compare and contrast common social engineering, threats, and vulnerabilities. Study Guide Section: Threat types — Zero-day attacks, definitions, and implications"
+  },
+  {
+    "id": 20,
+    "question": "A help desk technician is setting up speech recognition on a Windows system. Which of the following settings should the technician use?",
+    "options": [
+      "A. Time and Language",
+      "B. Personalization",
+      "C. System",
+      "D. Ease of Access"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: In Windows, accessibility tools such as speech recognition are found under the Ease of Access settings. This section includes options for users who require assistive technologies, including screen readers, magnifiers, and voice control interfaces like speech recognition. Setting up speech recognition allows users to control the system and input text using voice commands. A . Time and Language is for setting regional preferences and language packs. B . Personalization adjusts themes, backgrounds, and colors. C . System includes display, storage, notifications, and power settings, but not accessibility tools. Reference: CompTIA A+ 220-1102 Objective 1.3: Given a scenario, use appropriate Microsoft operating system features and tools. Study Guide Section: Accessibility tools and system configuration ==========================="
+  },
+  {
+    "id": 21,
+    "question": "A user receives a new personal computer but is unable to run an application. An error displays saying that .NET Framework 3.5 is required and not found. Which of the following actions is the best way to resolve this issue?",
+    "options": [
+      "A. Resolve the dependency through the 'Turn Windows features on or off' menu.",
+      "B. Download the dependency via a third-party repository.",
+      "C. Ignore the dependency and install the latest version 4 instead.",
+      "D. Forward the trouble ticket to the SOC team because the issue poses a great security risk."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: NET Framework versions are often required for applications to run. If an older app requires .NET Framework 3.5, it must be explicitly installed as it is not included by default in newer versions of Windows. The best method to do this safely is through the built-in \"Turn Windows features on or off\" utility, which downloads and installs it via official Microsoft services. B . Using third-party repositories is unsafe and not recommended. C . Installing .NET 4 does not include 3.5; versions are not fully backward compatible. D . The issue is technical, not a security incident for the SOC team. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common software, application, and OS security issues. Study Guide Section: Managing application dependencies (e.g., .NET Framework, Java) ==========================="
+  },
+  {
+    "id": 22,
+    "question": "An employee is using a photo editing program. Certain features are disabled and require a log-in, which the employee does not have. Which of the following is a way to resolve this issue?",
+    "options": [
+      "A. License assignment",
+      "B. VPN connection",
+      "C. Application repair",
+      "D. Program reinstallation"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Many modern commercial software applications (including photo editors like Adobe Photoshop) offer tiered features based on user subscriptions or license levels. If certain features are locked and prompt for a login, the issue is likely due to a missing or unassigned software license. Assigning the correct license through a centralized license management system (such as Adobe Admin Console or Microsoft 365 portal) will enable those features. B . VPN connection does not affect local software licensing. C . Repairing the application does not resolve license entitlement. D . Reinstalling the software won’t help unless the license is assigned. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot common software and application issues. Study Guide Section: Troubleshooting licensing and access control for applications ==========================="
+  },
+  {
+    "id": 23,
+    "question": "A technician is deploying mobile devices and needs to prevent access to sensitive data if the devices are lost. Which of the following is the best way to prevent unauthorized access if the user is unaware that the phone is lost?",
+    "options": [
+      "A. Encryption",
+      "B. Remote wipe",
+      "C. Geofencing",
+      "D. Facial recognition"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Remote wipe is the best option to prevent unauthorized access to data when a mobile device is lost or stolen—especially if the user is unaware of the loss. It allows administrators or mobile device management (MDM) systems to remotely erase all data on the device, rendering it unusable for unauthorized users. A . Encryption protects the data, but if the device remains powered and logged in, it may still be accessible. C . Geofencing can restrict features based on location but does not erase data. D . Facial recognition helps secure access but can be bypassed in some cases or fail in practical situations. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and tools. Study Guide Section: Mobile device security (remote wipe, lockout, MDM tools)"
+  },
+  {
+    "id": 24,
+    "question": "Which of the following is the quickest way to move from Windows 10 to Windows 11 without losing data?",
+    "options": [
+      "A. Using gpupdate",
+      "B. Image deployment",
+      "C. Clean install",
+      "D. In-place upgrade"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: An in-place upgrade is the fastest and most efficient way to upgrade from Windows 10 to Windows 11 while keeping all user data, applications, and settings intact. This method is often used when the hardware meets Windows 11 requirements and no system reconfiguration is necessary. A . gpupdate is used to refresh Group Policy settings — unrelated to OS upgrades. B . Image deployment typically replaces the current OS and may not retain user data unless specifically customized. C . A clean install requires formatting the drive and starting fresh, which removes all data. Reference: CompTIA A+ 220-1102 Objective 1.4: Given a scenario, use appropriate Microsoft operating system installation methods. Study Guide Section: In-place upgrade vs. clean install methods ==========================="
+  },
+  {
+    "id": 25,
+    "question": "Technicians are failing to document user contact information, device asset tags, and a clear description of each issue in the ticketing system. Which of the following should a help desk management team implement for technicians to use on every call?",
+    "options": [
+      "A. Service-level agreements",
+      "B. Call categories",
+      "C. Standard operating procedures",
+      "D. Knowledge base articles"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Standard Operating Procedures (SOPs) define the mandatory steps and expectations technicians must follow during support calls. This includes documentation standards such as logging user info, asset details, and issue descriptions in the ticketing system. Implementing SOPs ensures consistency and accountability. A . SLAs define response/resolution times but not documentation practices. B . Call categories organize types of issues but don't guide technician actions. D . Knowledge base articles provide solutions to known problems but don't ensure proper ticket documentation. Reference: CompTIA A+ 220-1102 Objective 4.2: Summarize best practices associated with types of documentation and support systems information. Study Guide Section: Documentation practices, SOPs, ticketing protocols ==========================="
+  },
+  {
+    "id": 26,
+    "question": "An application's performance is degrading over time. The application is slowing, but it never gives an error and does not crash. Which of the following tools should a technician use to start troubleshooting?",
+    "options": [
+      "A. Reliability history",
+      "B. Computer management",
+      "C. Resource monitor",
+      "D. Disk"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Resource Monitor provides real-time monitoring of system performance and resource usage, including CPU, memory, disk, and network usage. It helps technicians identify performance bottlenecks (e.g., high memory or CPU usage) that can cause slowdowns in applications over time without producing crash errors. A . Reliability history logs application crashes or errors — not helpful if the app doesn’t crash. B . Computer Management is a broad utility with limited real-time monitoring capability. D . Disk is too vague — tools like CHKDSK can help with disk errors but not general performance degradation. Reference: CompTIA A+ 220-1102 Objective 3.2: Given a scenario, troubleshoot common personal computer issues. Study Guide Section: System performance tools — Resource Monitor, Task Manager ==========================="
+  },
+  {
+    "id": 27,
+    "question": "Which of the following filesystem types does the Linux OS use?",
+    "options": [
+      "A. exFAT",
+      "B. APFS",
+      "C. ext4",
+      "D. NTFS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: The ext4 (Fourth Extended Filesystem) is the most widely used default filesystem in modern Linux distributions. It is designed for high performance, scalability, and reliability, and is supported by all mainstream Linux kernels. A . exFAT is used for cross-platform external drives, not native Linux systems. B . APFS is Apple's proprietary filesystem for macOS and iOS. D . NTFS is the default filesystem for Windows, not Linux. Reference: CompTIA A+ 220-1102 Objective 1.9: Identify common features and tools of the Linux client/desktop OS. Study Guide Section: Filesystem types in Linux — ext3, ext4, and their characteristics"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following methods would make data unrecoverable but allow the drive to be repurposed?",
+    "options": [
+      "A. Deleting the partitions",
+      "B. Implementing EFS",
+      "C. Performing a low-level format",
+      "D. Degaussing the device"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A low-level format (also referred to as a zero-fill or full format) writes over every sector on a storage device, effectively destroying the existing data and making recovery nearly impossible. Unlike degaussing, which renders the drive unusable, a low-level format maintains the integrity of the device, allowing it to be repurposed or reused. A . Deleting partitions does not fully erase data; it only removes references in the partition table. B . EFS (Encrypting File System) encrypts files but does not securely wipe them. D. Degaussing destroys the magnetic structure of a drive, making it inoperable and not reusable. Reference: CompTIA A+ 220-1102 Objective 4.3: Given a scenario, implement basic change management best practices. Study Guide Section: Drive sanitation methods — low-level format vs. degaussing vs. deletion ==========================="
+  },
+  {
+    "id": 29,
+    "question": "After a recent mobile OS upgrade to a smartphone, a user attempts to access their corporate email, but the application does not open. A technician restarts the smartphone, but the issue persists. Which of the following is the most likely way to resolve the issue?",
+    "options": [
+      "A. Updating the failed software",
+      "B. Registering the smartphone with an MDM solution",
+      "C. Installing a third-party client",
+      "D. Clearing the cache partition"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Mobile OS updates can sometimes cause compatibility issues with specific apps, including corporate email clients. The most likely resolution is to check for and apply an update to the affected application, especially if it hasn’t been updated to support the latest OS version. B . Registering with MDM might be required for access but wouldn’t address app crashes due to incompatibility. C . A third-party client might help, but it’s not the best first step if the default app is expected to work. D . Clearing the cache can help resolve some minor issues, but updating the app directly addresses compatibility concerns. Reference: CompTIA A+ 220-1102 Objective 3.3: Troubleshoot mobile OS and application issues. Study Guide Section: App compatibility and mobile software updates ==========================="
+  },
+  {
+    "id": 30,
+    "question": "Users are reporting that an unsecured network is broadcasting with the same name as the normal wireless network. They are able to access the internet but cannot connect to the file share servers. Which of the following best describes this issue?",
+    "options": [
+      "A. Unreachable DNS server",
+      "B. Virtual local area network misconfiguration",
+      "C. Incorrect IP address",
+      "D. Rogue wireless access point"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: This scenario describes a rogue access point — a malicious or unauthorized wireless access point that uses the same SSID as the legitimate network. Users may connect to it unknowingly, which can result in limited network access, data interception, or redirection of traffic. The inability to reach internal file servers supports this being an unauthorized AP with no connection to internal resources. A . A DNS issue would impact name resolution, not connectivity to file servers directly. B . VLAN issues generally affect segmentation, not mimic SSID problems. C . An incorrect IP address could cause connectivity issues, but not in the presence of a malicious AP broadcasting the same SSID. Reference: CompTIA A+ 220-1102 Objective 2.4: Compare and contrast wireless and physical security threats. Study Guide Section: Rogue access points and their detection ==========================="
+  },
+  {
+    "id": 31,
+    "question": "A computer technician is implementing a solution to support a new internet browsing policy for a customer's business. The policy prohibits users from accessing unauthorized websites based on categorization. Which of the following should the technician configure on the SOHO router?",
+    "options": [
+      "A. Secure management access",
+      "B. Group Policy Editor",
+      "C. Content filtering",
+      "D. Firewall"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Content filtering allows administrators to block or allow access to websites based on categories (e.g., social media, adult content, streaming). On a SOHO (Small Office/Home Office) router, this is often built-in or available via DNS-level filtering, and is the most appropriate method for enforcing browsing policies without needing to touch each individual device. A . Secure management access protects router admin interfaces but doesn’t control user browsing. B . Group Policy Editor is a Windows tool, not used on routers. D . A firewall can block specific IPs or ports, but it doesn't categorize web content. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast security measures and tools. Study Guide Section: SOHO router security features — content filtering, parental controls"
+  },
+  {
+    "id": 32,
+    "question": "Recently, the number of users sharing smartphone passcodes has increased. The management team wants a technician to deploy a more secure screen lock method. Which of the following technologies should the technician use?",
+    "options": [
+      "A. Pattern lock",
+      "B. Facial recognition",
+      "C. Device encryption",
+      "D. Multifactor authentication"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: Facial recognition is a biometric authentication method that ties access to a unique physical feature of the user. Unlike passcodes or pattern locks—which can be easily shared—facial recognition provides a more secure and non-transferable form of access. It also enhances user convenience and is widely supported by modern smartphones. A . Pattern locks can still be shared and are less secure. C . Device encryption protects data but does not prevent screen access if a passcode is shared. D . Multifactor authentication typically applies to app or account access, not basic phone unlocking. Reference: CompTIA A+ 220-1102 Objective 2.2: Compare and contrast common security measures and authentication technologies. Study Guide Section: Biometric screen lock technologies (e.g., facial recognition, fingerprint) ==========================="
+  }
+]

@@ -1,0 +1,462 @@
+[
+  {
+    "id": 94,
+    "question": "A technician is setting up a surveillance system for a customer. The customer wants access to the system's web interface on the LAN via the system’s IP address. Which of the following should the technician use to prevent external log-in attempts from the internet?",
+    "options": [
+      "A. Port mapping",
+      "B. Subnetting",
+      "C. Static IP",
+      "D. Content filtering"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 95,
+    "question": "Which of the following malware types typically has very high computing resource usage?",
+    "options": [
+      "A. Rootkit",
+      "B. Cryptominer",
+      "C. Boot sector virus",
+      "D. Trojan"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 96,
+    "question": "A user reports getting a BSOD (Blue Screen of Death) error on their computer at least twice a day. Which of the following should the technician use to determine the cause?",
+    "options": [
+      "A. Event Viewer",
+      "B. Performance Monitor",
+      "C. System Information",
+      "D. Device Manager"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 97,
+    "question": "A help desk technician recently installed an SSH client on a workstation in order to access remote servers. What does this enable?",
+    "options": [
+      "A. To utilize an SSO connection",
+      "B. To securely establish a console session",
+      "C. To encrypt and decrypt protected messages",
+      "D. To facilitate device log reviews"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 98,
+    "question": "A technician needs to provide remote support for a legacy Linux-based operating system from their Windows laptop. The solution needs to allow the technician to see what the user is doing and provide the ability to interact with the user's session. Which of the following remote access technologies would support the use case?",
+    "options": [
+      "A. VPN",
+      "B. VNC",
+      "C. SSH",
+      "D. RDP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 99,
+    "question": "The screen of a previously working computer repeatedly displays an OS Not Found error message when the computer is started. Only a USB drive, a keyboard, and a mouse are plugged into the computer. Which of the following should a technician do first?",
+    "options": [
+      "A. Run data recovery tools on the disk",
+      "B. Partition the disk using the GPT format",
+      "C. Check boot options",
+      "D. Switch from UEFI to BIOS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 100,
+    "question": "Which of the following is an example of an application publisher including undisclosed additional software in an installation package?",
+    "options": [
+      "A. Virus",
+      "B. Ransomware",
+      "C. Potentially unwanted program",
+      "D. Trojan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 101,
+    "question": "Technicians are failing to document user contact information, device asset tags, and a clear description of each issue in the ticketing system. Which of the following should a help desk management team implement for technicians to use on every call?",
+    "options": [
+      "A. Service-level agreements",
+      "B. Call categories",
+      "C. Standard operating procedures",
+      "D. Knowledge base articles"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 102,
+    "question": "A user has rooted their corporate phone to load unapproved software. Which of the following tools should the company use to prevent access to the corporate network?",
+    "options": [
+      "A. Mobile device management",
+      "B. Encryption",
+      "C. Geofencing",
+      "D. Lock screen"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 103,
+    "question": "An international traveler is concerned about others accessing the contents of their smartphone if it is lost or stolen. The traveler has enabled biometrics. Which of the following additional security measures further reduces the risk of unauthorized data access?",
+    "options": [
+      "A. Remote backups",
+      "B. Location tracking",
+      "C. PIN code screen lock",
+      "D. Device encryption"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 104,
+    "question": "A technician needs to download and install a new web browser on a desktop. Which attribute should be used to verify the installer's authenticity?",
+    "options": [
+      "A. Date",
+      "B. Hash",
+      "C. Size",
+      "D. Name"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 105,
+    "question": "A client reports that their browser's home page changed. Every time they run an internet search, the results are returned from unfamiliar websites. Which of the following actions should a technician take first to resolve the issue? (Select two)",
+    "options": [
+      "A. Clear the browsing history",
+      "B. Run operating system updates",
+      "C. Check the system date and time",
+      "D. Uninstall malicious extensions",
+      "E. Reset browser startup page",
+      "F. Restart the user's machine"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 106,
+    "question": "A Windows 11 Home device is receiving constant pop-ups about an urgent need to update antivirus software to remove a detected threat. The user has been clicking the \"X\" button in the window frame but it always reappears. The pop-up includes an \"OK\" button to install the update and remove the threat. Which of the following should the user do next?",
+    "options": [
+      "A. Click the \"OK\" button to install the update",
+      "B. Reinstall the Windows Operating System",
+      "C. Run System File Checker",
+      "D. Verify the current status and settings of protection measures"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 107,
+    "question": "A user's application only works with a legacy version of the OS. The OS is reaching its end- of-life date. For security reasons, the company is migrating to the current version of the OS. Which of the following is the most efficient way to complete the migration while maintaining accessibility to the application?",
+    "options": [
+      "A. Terminal server",
+      "B. Bare-metal server",
+      "C. Multiboot",
+      "D. Virtualization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 108,
+    "question": "Which of the following is used to store passwords in macOS?",
+    "options": [
+      "A. FileVault",
+      "B. Keychain",
+      "C. Accessibility",
+      "D. Mission Control"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 109,
+    "question": "A user wants to use a USB to move a 4.57GB .pst file from one Windows computer to another. Which of the following filesystems should the USB be formatted with?",
+    "options": [
+      "A. ext4",
+      "B. NTFS",
+      "C. FAT32",
+      "D. APFS"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 110,
+    "question": "Why would a network engineering team provide a help desk technician with IP addresses for a wired network segment?",
+    "options": [
+      "A. Only specific DNS servers are allowed outbound.",
+      "B. The network allow list is set to a specific address.",
+      "C. DHCP is not enabled for this subnet.",
+      "D. NAC servers only allow security updates to be installed."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 111,
+    "question": "Which of the following filesystem types does the Linux OS use?",
+    "options": [
+      "A. exFAT",
+      "B. APFS",
+      "C. ext4",
+      "D. NTFS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 112,
+    "question": "A technician completes the installation of an OS that appears to be successful. However, when the technician removes the USB drive that was used for the installation and restarts the system, the error “No boot device found” appears. Which of the following should the technician do next to resolve the issue?",
+    "options": [
+      "A. Reinstall the OS from a new ISO",
+      "B. Enable UEFI devices in the BIOS",
+      "C. Restart in recovery mode and troubleshoot",
+      "D. Install storage drivers for the motherboard",
+      "E. Reseat the SATA cable"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 113,
+    "question": "Which of the following is a protocol that provides AAA for network services?",
+    "options": [
+      "A. RADIUS",
+      "B. Kerberos",
+      "C. TKIP",
+      "D. WPA3"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 114,
+    "question": "A customer wants to be able to work from home but does not want to be responsible for bringing company equipment back and forth. Which of the following would allow the user to remotely access and use a Windows PC at the main office? (Choose two.)",
+    "options": [
+      "A. SPICE",
+      "B. SSH",
+      "C. RDP",
+      "D. VPN",
+      "E. RMM",
+      "F. WinRM"
+    ],
+    "correctAnswers": [
+      2,
+      3
+    ],
+    "correctAnswer": 2,
+    "explanation": ""
+  },
+  {
+    "id": 115,
+    "question": "A customer is unable to open some files on their system. Each time the customer attempts to open a file, the customer receives a message that the file is encrypted. Which of the following best describes this issue?",
+    "options": [
+      "A. Keylogger",
+      "B. Ransomware",
+      "C. Phishing",
+      "D. Cryptominer"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 116,
+    "question": "An employee is using a photo editing program. Certain features are disabled and require a log-in, which the employee does not have. Which of the following is a way to resolve this issue?",
+    "options": [
+      "A. License assignment",
+      "B. VPN connection",
+      "C. Application repair",
+      "D. Program reinstallation"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 117,
+    "question": "A user logs in daily and cannot print a report. Help desk fixes it each day, but the issue recurs. What should be done so the issue doesn’t recur? (Select two)",
+    "options": [
+      "A. Set the print spooler to have no dependencies",
+      "B. Set the print spooler recovery to take no action",
+      "C. Start the printer extensions and notifications service",
+      "D. Start the print spooler service",
+      "E. Set the print spooler to Automatic",
+      "F. Set the print spooler log-on to the user's account"
+    ],
+    "correctAnswers": [
+      3,
+      4
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 118,
+    "question": "A user recently installed an application that accesses a database from a local server. When launching the application, it does not populate any information. Which of the following command-line tools is the best to troubleshoot the issue?",
+    "options": [
+      "A. ipconfig",
+      "B. nslookup",
+      "C. netstat",
+      "D. curl"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 119,
+    "question": "A technician is troubleshooting an issue in which a service runs momentarily and stops at certain points in the process. The technician needs to determine the root cause of this issue. Which of the following tools should the technician use?",
+    "options": [
+      "A. Event Viewer",
+      "B. Task Manager",
+      "C. Internet Options",
+      "D. Process Explorer"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": ""
+  },
+  {
+    "id": 120,
+    "question": "A user reports some single sign-on errors to a help desk technician. Currently, the user is able to sign in to the company's application portal but cannot access a specific SaaS-based tool. Which of the following would the technician most likely suggest as a next step?",
+    "options": [
+      "A. Reenroll the user's mobile device to be used as an MFA token",
+      "B. Use a private browsing window to avoid local session conflicts",
+      "C. Bypass single sign-on by directly authenticating to the application",
+      "D. Reset the device being used to factory defaults"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 121,
+    "question": "An administrator received an email stating that the OS they are currently supporting will no longer receive security updates and patches. Which of the following is the most likely reason?",
+    "options": [
+      "A. Support from the computer’s manufacturer is expiring",
+      "B. The OS will be considered end of life",
+      "C. The built-in security software is being removed from the next OS version",
+      "D. A new version of the OS will be released soon"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": ""
+  },
+  {
+    "id": 122,
+    "question": "The battery on a user’s smartphone discharges quickly during travel. The phone was replaced two weeks ago. What should the technician do first?",
+    "options": [
+      "A. Replace the battery with a higher capacity option",
+      "B. Provide an external battery",
+      "C. Ensure the charging port is working",
+      "D. Look for applications that are reporting the highest utilization"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  },
+  {
+    "id": 123,
+    "question": "Which of the following describes a vulnerability that has been exploited before a patch or remediation is available?",
+    "options": [
+      "A. Spoofing",
+      "B. Brute-force",
+      "C. DoS",
+      "D. Zero-day"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": ""
+  }
+]

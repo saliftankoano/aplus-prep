@@ -1,0 +1,457 @@
+[
+  {
+    "id": 61,
+    "question": "A user connects their laptop to a projector in a conference room. Once connected, the userreports the screen is smaller at the bottom than at the top. The user tries restarting the laptop and then disconnecting and reconnecting the cable to the projector. Which of the following should a technician do to resolve the issue?",
+    "options": [
+      "A. Replace the HDMI cable.",
+      "B. Power cycle the projector.",
+      "C. Adjust the keystone",
+      "D. Increase the resolution."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A distorted image where the screen is not symmetrical (wider at the top or bottom) is typically due to keystone distortion. Adjusting the projector's keystone settings corrects this trapezoidal effect caused by an angled projection. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 3, page 152​."
+  },
+  {
+    "id": 62,
+    "question": "Which of the following could a user employ to maximize module bandwidth when selecting memory for a high-end gaming computer?",
+    "options": [
+      "A. Error correction",
+      "B. RAM voltage",
+      "C. Channel configuration",
+      "D. Physical module size"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Channel configuration(e.g.,dual-channel,quad-channel) determines how memory modules communicate with the memory controller. Usingmatched pairs in dual- or quad-channel setupscan significantlyincrease memory bandwidth, improving performance especially for gaming and video- intensive tasks. Option A (Error correction):ECC RAM is used in servers for reliability, not performance or gaming. Option B (RAM voltage):Affects compatibility and overclocking but not bandwidth. Option D (Physical size):Refers to module form factor (e.g., DIMM, SO-DIMM) and does not impact bandwidth. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.2: Given a scenario, install RAM types."
+  },
+  {
+    "id": 63,
+    "question": "Which of the following is used primarily for archiving data?",
+    "options": [
+      "A. PAN",
+      "B. MAN",
+      "C. SAN",
+      "D. LAN",
+      "E. WAN"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Storage Area Network (SAN) is primarily used for data archiving and large-scale storage. SANs provide high-speed, block-level storage for enterprise environments. Why Not A (PAN): Personal Area Networks are for connecting personal devices like phones and smartwatches. Why Not B (MAN): Metropolitan Area Networks are for city-wide data communication, not storage. Why Not D (LAN): Local Area Networks are for general connectivity, not dedicated storage. Why Not WAN: Wide Area Networks are for connecting geographically dispersed networks, not storage. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.7, network types and purposes​."
+  },
+  {
+    "id": 64,
+    "question": "A user prints a spreadsheet in duplex mode. The spreadsheet is difficult to read because some of the columns spill onto the second side of the page. Which of the following should the user do to prevent the issue but still print on both sides of the page?",
+    "options": [
+      "A. Turn off duplex printing.",
+      "B. Try a smaller font size in the spreadsheet.",
+      "C. Change the page orientation.",
+      "D. Use a different print driver."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Changing the page orientation(e.g., fromportrait to landscape) allows wider columns to fit on one side of the page. This maintains readability while continuing to use duplex printing. Option A:Disabling duplex defeats the goal of printing on both sides. Option B:May help, but could make the document harder to read if the font is too small. Option D:Unlikely to resolve formatting issues related to layout and dimensions. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.7: Given a scenario, troubleshoot common printer problems."
+  },
+  {
+    "id": 65,
+    "question": "A customer needs to install a new printer in their network. The customer reports that users had intermittent connectivity issues with previous printers. Which of the following should the technician configure on the new printer to prevent this issue?",
+    "options": [
+      "A. Gateway IP address",
+      "B. DHCP IP address",
+      "C. Static IP address",
+      "D. Public IP address"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Intermittent connectivity issues with network printers are commonly caused by changing IP addresses when using DHCP. Assigning a static IP address ensures that the printer is always reachable at the same IP address by client machines. Reference: \"CompTIA A+ Complete Study Guide\" by Quentin Docter – Chapter 4, \"Printers and Multifunction Devices\", page 241."
+  },
+  {
+    "id": 66,
+    "question": "Which of the following port numbers are associated with email traffic? (Select two).",
+    "options": [
+      "A. 23",
+      "B. 25",
+      "C. 67",
+      "D. 110",
+      "E. 137",
+      "F. 443"
+    ],
+    "correctAnswers": [
+      1,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Step-by-Step To answer this question, we need to identify the port numbers associated with email protocols used in client-server communication. Port 25 (SMTP - Simple Mail Transfer Protocol): This port is primarily used for sending emails between mail servers and from mail clients to mail servers (sending outbound mail). SMTP is an essential protocol for email traffic. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 2.5 – Explain basic wired and wireless networking concepts, including ports and protocols. Port 110 (POP3 - Post Office Protocol v3): POP3 is used for retrieving emails from a mail server. It is commonly used for downloading email messages to a local client, after which the messages are deleted from the server. While not as commonly used today (due to IMAP being preferred), POP3 is still a recognized email protocol, and its association with port 110 makes it a valid answer. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 2.5 – Explain basic wired and wireless networking concepts, including ports and protocols. Incorrect Options: A . Port 23: This is the Telnet protocol used for remote terminal access. It is not related to email traffic. C . Port 67: This port is associated with the DHCP (Dynamic Host Configuration Protocol) server-to- client communications. It is unrelated to email. E . Port 137: This port is part of NetBIOS, used for name resolution in legacy Windows environments. It is not relevant to email traffic. F . Port 443: This port is used for HTTPS (secure web traffic) and is unrelated to email protocols. Key Takeaway:The two correct port numbers associated with email traffic are B. 25 (SMTP) for sending emails and D. 110 (POP3) for retrieving emails."
+  },
+  {
+    "id": 67,
+    "question": "Which of the following storage options would a technician most likely recommend to have large amounts of affordable capacity without concern for read times on a desktop computer?",
+    "options": [
+      "A. 750GB NVMe M.2 SSD",
+      "B. 2x 1TB PCIe SSD in RAID 1",
+      "C. 2TB SATA 3.5\" 5,400rpm HDD",
+      "D. 4TB SAS 2.5\" 15,000rpm HDD"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "If performance isnot a primary concernand the user requireslarge, cost-effective storage, a2TB 5400rpm SATA HDDis ideal. It offers high capacity at a lower price point than SSDs and faster HDDs. Option A:NVMe drives offer exceptional speed but are significantly more expensive per GB and not necessary when read/write speed is not a concern. Option B:RAID 1 improves redundancy but cuts usable capacity in half and uses expensive SSDs. Option D:SAS drives are fast and reliable but are enterprise-grade and expensive overkill for desktop use. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.3: Given a scenario, install and configure storage devices."
+  },
+  {
+    "id": 68,
+    "question": "Which of the following resolutions is commonly known as Ultra HD?",
+    "options": [
+      "A. 1920x1080",
+      "B. 2048x1080",
+      "C. 3840x2160",
+      "D. 7680x4320"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Ultra HD (UHD), also referred to as4K UHD, has a resolution of3840x2160. It's four times the resolution of standard 1080p (Full HD), offering more screen real estate and sharper images. Option A (1920x1080):Full HD (FHD), not UHD. Option B (2048x1080):DCI 2K used in cinema, not common for Ultra HD. Option D (7680x4320):Known as 8K UHD, not standard Ultra HD. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.7: Compare and contrast display technologies and their features. ==========="
+  },
+  {
+    "id": 69,
+    "question": "Which of the following is a benefit of using a VLAN?",
+    "options": [
+      "A. It minimizes collision domains.",
+      "B. It provides private access to cloud resources.",
+      "C. It increases network address space.",
+      "D. It enables secure network segmentation."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A VLAN (Virtual Local Area Network) segments a physical network into separate logical networks, enhancing security by isolating traffic. Why Not A (Minimizes collision domains): VLANs manage broadcast domains, not collision domains. Why Not B (Provides private access to cloud resources): VLANs operate within a local network, not cloud-specific. Why Not C (Increases network address space): VLANs do not affect address space. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.6, VLAN concepts​."
+  },
+  {
+    "id": 70,
+    "question": "Which of the following would prevent a virtual machine from communicating with any endpoints on a network or the internet?",
+    "options": [
+      "A. VDI",
+      "B. Private cloud",
+      "C. Sandbox",
+      "D. Type 1 hypervisor"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Asandboxis an isolated virtual environment used totest or run applications securelywithout risk to the host or network. It prevents the VM from communicating with external systems, making it ideal for testing malware or suspicious software. Option A (VDI):Virtual Desktop Infrastructure allows network communication; it does not restrict it. Option B (Private cloud):Refers to a cloud deployment model, not a communication barrier. Option D (Type 1 hypervisor):Runs VMs directly on hardware and doesnotinherently block communication. CompTIA A+ Core 1 Exam Objective Reference: Objective 4.1: Compare and contrast cloud computing concepts. ==========="
+  },
+  {
+    "id": 71,
+    "question": "A projector has been shutting down after 30 minutes of use, and it has a strange smell The technician confirms the power source is not the cause of the issue Which of the following steps should the technician take next to resolve this issue?",
+    "options": [
+      "A. Replace the bulb",
+      "B. Check the projector configuration.",
+      "C. Clean the filter",
+      "D. Adjust the gamma settings."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Reasoning: Projectors have air filters that prevent dust from entering the internal components. A clogged filter can cause the projector to overheat, resulting in shutdowns and even strange smells due to overheating components. Cleaning the filter is a standard troubleshooting step when projectors exhibit overheating symptoms. Why the Other Options Are Incorrect: A . Replace the bulb: While a failing bulb may eventually cause issues, it would not typically result in a strange smell or repeated shutdowns after a fixed period. Bulb issues usually manifest as dim or flickering images. B . Check the projector configuration: Configuration settings, such as resolution or input options, would not cause overheating or shutdowns. This option does not address the described symptoms. D . Adjust the gamma settings: Gamma settings affect display brightness and contrast but have no impact on overheating or strange smells. Practical Example: Dust accumulation in projectors is a common issue, especially in environments with poor air circulation. A clogged filter causes restricted airflow, leading to overheating and automatic shutdowns to protect internal components. Cleaning the filter typically resolves this issue. CompTIA A+ Exam Objective Alignment: Objective 5.5: Troubleshoot common video, projector, and display issues."
+  },
+  {
+    "id": 72,
+    "question": "A customer is able to print most documents with their USB inkjet printer, but the system is unresponsive when printing a certain report from a custom application. Nothing will print until the computer is restarted and the printer is power cycled. A technician remotes into the PC and confirms that the spooler stops working when this report is sent. After cleaning the spooler and reinstalling the drivers from the manufacturer's website, the issue persists. No other sites using the application report similar issues. Which of the following is most likely causing the issue?",
+    "options": [
+      "A. The manufacturer is curating content before it reaches the device to preserve ink.",
+      "B. The application has a bug that the developer needs to address.",
+      "C. The system is using the PostScript language instead of the PCL.",
+      "D. Personal preferences have changed and documents with graphics are now online-only"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "If a print spooler crashes specifically with one application and no issue occurs on other systems, the most likely root cause is a bug within that specific application. Restarting the spooler and reinstalling drivers resolves system-wide or hardware-related issues not app-specific failures. This indicates the application may be sending malformed print data. Reference: \"CompTIA A+ Certification All-in-One Exam Guide\" by Mike Meyers – Chapter 26, page 1144​."
+  },
+  {
+    "id": 73,
+    "question": "A technician needs to move a workstation to a different logical network segment. Which of the following technologies should the technician use?",
+    "options": [
+      "A. DHCP",
+      "B. VLAN",
+      "C. DNS",
+      "D. VPN"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "AVLAN (Virtual LAN)is used to logically segment a network without requiring physical separation. It enables grouping devices based on function or department regardless of their physical location. Option A (DHCP):Assigns IP addresses dynamically but doesn’t create network segments. Option C (DNS):Resolves domain names to IP addresses, not used for network segmentation. Option D (VPN):Provides secure remote access but does not relate to logical segmentation within a local network. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.3: Explain common logical networking concepts."
+  },
+  {
+    "id": 74,
+    "question": "Which of the following connectors is found on an optical networking cable?",
+    "options": [
+      "A. RJ45",
+      "B. LC",
+      "C. USB-C",
+      "D. Lightning"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Step-by-Step LC Connector (Lucent Connector): LC is a type of fiber optic connector commonly used in optical networking cables. It is small, compact, and widely used for high-speed data transfer over fiber optic networks. LC connectors are specifically designed for fiber optic cables, making them the correct answer. Incorrect Options: A . RJ45: RJ45 connectors are used for Ethernet cables (twisted-pair copper cabling) and are not compatible with optical networking cables. C . USB-C: USB-C is a connector type used for general-purpose data transfer, charging, and video output, not for optical networking. D . Lightning: Lightning connectors are proprietary to Apple devices and are not used in optical networking. Key Takeaway: The LC connector is specifically designed for fiber optic cables, making it the correct answer for optical networking. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 3.1 – Cable and connector types, including fiber optic cables."
+  },
+  {
+    "id": 75,
+    "question": "Which of the following is designed to be used in commercial spaces?",
+    "options": [
+      "A. USB 3.1 Gen 2",
+      "B. Straight tip fiber connector",
+      "C. Plenum cabling",
+      "D. Cat 8"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Plenum cabling is designed for use in commercial spaces where cables run through air ducts or plenum spaces, as it has fire-resistant properties and emits less toxic smoke. Why Not A (USB 3.1 Gen 2): USB is for peripheral connections, not large-scale commercial installations. Why Not B (Straight tip fiber connector): Fiber connectors are for high-speed connections but are not specifically for commercial spaces. Why Not D (Cat 8): While Cat 8 is high-speed, it is not uniquely suited for commercial spaces like plenum cabling. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.1, cabling standards​."
+  },
+  {
+    "id": 76,
+    "question": "Which of the following types of connectors does an IDE hard drive use for power?",
+    "options": [
+      "A. F type",
+      "B. SC",
+      "C. Molex",
+      "D. Lightning"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "An IDE hard drive uses a Molex connector for power. This 4-pin connector is a standard for older drives. Why Not A (F type): F type connectors are used for coaxial cables in video and internet applications. Why Not B (SC): SC connectors are for fiber optic cables. Why Not D (Lightning): Lightning connectors are for Apple devices. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 3.1, cable types and connectors​."
+  },
+  {
+    "id": 77,
+    "question": "Which of the following printing initiatives would be best to accomplish environmentally friendly objectives?",
+    "options": [
+      "A. Requiring user authentication for printing",
+      "B. Locking down printing to only certain individuals",
+      "C. Modifying duplex settings to double-sided",
+      "D. Changing the print quality settings to best"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Step-by-Step Modifying duplex settings to double-sided: Printing on both sides of the paper (duplex printing) reduces paper usage, making it one of the most effective environmentally friendly printing initiatives. It directly minimizes waste and supports sustainability goals in the workplace. Incorrect Options: A . Requiring user authentication for printing: While this can reduce unnecessary or unauthorized printing, it does not directly address environmental objectives like saving resources. B . Locking down printing to only certain individuals: Limiting access may reduce printing overall, but it does not actively contribute to environmentally friendly practices like duplex printing. D . Changing the print quality settings to best: Using the \"best\" print quality increases toner or ink usage, which is counterproductive to environmentally friendly objectives. Key Takeaway: Modifying duplex settings to enable double-sided printing is the best initiative to achieve environmentally friendly goals by reducing paper consumption. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 3.8 – Implementing best practices for environmental impact."
+  },
+  {
+    "id": 78,
+    "question": "Which of the following networking devices will most likely need to be installed in between the ISP running DOCSIS and the LAN in a SOHO environment?",
+    "options": [
+      "A. Switch",
+      "B. Firewall",
+      "C. Cable modem",
+      "D. Router",
+      "E. Access point"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Step-by-Step To determine the correct device, we need to understand how a DOCSIS (Data Over Cable Service Interface Specification) network functions in a Small Office/Home Office (SOHO) environment: C . Cable Modem: A cable modem is required to convert the signal provided by the ISP (Internet Service Provider) over a DOCSIS network into a format that is usable by the local area network (LAN). DOCSIS is a standard for high-speed internet over cable television infrastructure, and the cable modem acts as the gateway between the ISP's coaxial network and the LAN. Without the cable modem, devices in the LAN would not be able to access the internet. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 2.2 – Compare and contrast Internet connection types, network types, and their features. Incorrect Options: A . Switch: A switch is used to connect multiple devices within the LAN. It does not connect the LAN to the ISP's DOCSIS network. B . Firewall: While firewalls provide security by managing inbound and outbound traffic, they do not serve as the interface between the ISP and LAN. D . Router: A router directs traffic between different networks (e.g., between a LAN and the internet). However, in a DOCSIS network, the cable modem is the device that first connects to the ISP. Many modern cable modems also include built-in routers, but the modem is the primary device needed. E . Access Point: An access point provides wireless connectivity within the LAN. It does not connect directly to the ISP or handle DOCSIS signals. Key Takeaway:The correct device required to interface between the ISP's DOCSIS network and the SOHO LAN is the cable modem."
+  },
+  {
+    "id": 79,
+    "question": "A technician needs to ensure all data communications on all network devices are encrypted when logging in to the console. Which of the following protocols should the technician enable?",
+    "options": [
+      "A. SSH",
+      "B. LDAP",
+      "C. FTPS",
+      "D. SMTP"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "SSH (Secure Shell) encrypts data communications for secure remote login and management of network devices, ensuring all console connections are encrypted. Why Not B (LDAP): LDAP is used for directory services and does not encrypt by default. Why Not C (FTPS): FTPS encrypts file transfers, not console communications. Why Not D (SMTP): SMTP is used for email transmission, not for securing login sessions. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 2.7, network security protocols​."
+  },
+  {
+    "id": 80,
+    "question": "A financial institution needs a secure way to protect encryption keys used for unlocking chips on its credit cards Which of the following should the institution use?",
+    "options": [
+      "A. TLS",
+      "B. AMD",
+      "C. HSM",
+      "D. ARM"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A Hardware Security Module (HSM) securely manages cryptographic keys, including those used to protect credit card chips. Why Not A (TLS): TLS secures data in transit, not encryption key storage. Why Not B (AMD): AMD refers to processors, not security modules. Why Not D (ARM): ARM is a processor architecture, not a cryptographic security solution. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 2.5, cryptographic hardware​."
+  },
+  {
+    "id": 81,
+    "question": "A salesperson is unable to use a personal device to access emails and calendar features at a client site but was able to use the device while at the office. Which of the following policies has been enforced on the salesperson's mobile device?",
+    "options": [
+      "A. MOW",
+      "B. MAN",
+      "C. MFA",
+      "D. MAM"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Mobile Application Management (MAM) enforces policies restricting access to apps and services based on location, ensuring security at external sites. Why Not A (MOW): \"Mobile Only Workplace\" (MOW) is not a recognized term in this context. Why Not B (MAN): Metropolitan Area Network (MAN) is unrelated to mobile device policies. Why Not C (MFA): Multi-Factor Authentication secures user accounts but does not enforce app restrictions. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 2.7, mobile device security policies​."
+  },
+  {
+    "id": 82,
+    "question": "A help desk technician needs to work on a high-volume printer. Users have reported occasional paper jams and smudges appearing on printed documents. Which of the following steps should the technician do next to address these issues?",
+    "options": [
+      "A. Perform a full factory reset.",
+      "B. Check and clean the rollers.",
+      "C. Change all the ink or toner cartridges.",
+      "D. Replace the fuser."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Paper jams and smudging in high-volume printers are often caused bydirty or worn rollers. Rollers are responsible for feeding the paper through the printer. Over time, they accumulate dust, toner residue, or wear out, resulting in misfeeds or jams. Cleaning or replacing them typically resolves this issue. Option A (Factory reset):A full reset does not directly address mechanical issues like dirty rollers or smudging. It’s a last resort and more relevant to configuration or software-related issues. Option C (Change toner cartridges):While toner quality can affect print quality, it won’t usually cause jams or widespread smudging unless the cartridge is leaking which is less likely across multiple users. Option D (Replace the fuser):A damaged fuser could cause smudging, but this is typically after extensive use and is not the first thing to check. Fuser issues also usually present more persistent, uniform smudges. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.7: Given a scenario, troubleshoot common printer problems."
+  },
+  {
+    "id": 83,
+    "question": "After a technician installs a new motherboard, the computer will not start and fails POST. The technician verifies the power supply is functioning as expected, and the CPU is installed correctly. Which of the following steps should the technician complete next?",
+    "options": [
+      "A. Flash the BIOS.",
+      "B. Check the CMOS battery.",
+      "C. Reseat the RAM.",
+      "D. Reinstall the old motherboard."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A common reason for aPOST failureafter a motherboard installation isimproperly seated RAM. The system requires working memory to successfully complete POST. Reseating (removing and reinserting) the RAM ensures it's making proper contact with the motherboard. Option A:Flashing the BIOS is not possible if the system won’t POST. Option B:A dead CMOS battery can cause BIOS settings to reset, but it usually won’t prevent POST entirely. Option D:Reinstalling the old motherboard is premature basic troubleshooting steps should be completed first. CompTIA A+ Core 1 Exam Objective Reference: Objective 3.5: Given a scenario, troubleshoot problems related to motherboards, RAM, CPU, and power."
+  },
+  {
+    "id": 84,
+    "question": "A user brings a laptop to work every morning, correctly seats it in the docking station and then opens the laptop to begin work with no issues After the user left the laptop at home during a two-week vacation the laptop is no longer working. Upon returning to the office, the user reports that the keyboard and display are no longer working Which of the following should the technician ask the user to do first?",
+    "options": [
+      "A. Ensure the docking station is plugged in.",
+      "B. Press and release the laptop power button.",
+      "C. Plug the laptop in and let it charge overnight",
+      "D. Connect the laptop directly to the network."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reasoning: Many docking stations provide power and functionality only when the laptop is properly powered on. If the laptop was powered off (e.g., during the vacation), docking it will not automatically turn it on. The technician should first ensure the laptop is powered on by pressing the power button. This is a common troubleshooting step when laptops in docking stations appear non-functional. Relevance to CompTIA A+ Core 1: This falls under Objective 5.2, which covers diagnosing and resolving common laptop and mobile device issues. Why the Other Options Are Incorrect: A . Ensure the docking station is plugged in: While ensuring power to the docking station is important, the scenario specifies that the issue occurred after a vacation. The likelihood of the docking station losing power coincidentally during the vacation is low. Verifying the laptop's power state should be the first step. C . Plug the laptop in and let it charge overnight: There is no indication the laptop’s battery is drained. While charging could resolve a dead battery, the user is more likely experiencing an issue where the laptop is powered off but docked, so charging overnight is not the best first step. D . Connect the laptop directly to the network: A network connection will not resolve the primary issue of the keyboard and display not working. Addressing the laptop’s power state is a higher priority. Practical Example: If a user returns from a vacation and places a powered-off laptop into a docking station, it may not automatically power on. Pressing the power button ensures the laptop is operational and communicating with the docking station. CompTIA A+ Exam Objective Alignment: Objective 5.2: Troubleshooting common laptop issues, including power, display, and peripheral connectivity."
+  },
+  {
+    "id": 85,
+    "question": "An end user's domain password expires while they are working from home. The end user tries to reset the password using Ctrl+Alt+Delete and then receives the following message: Configuration information could not be read from the domain controller, either because the machine is unavailable or because access is denied. Which of the following will resolve this issue?",
+    "options": [
+      "A. Restart the computer.",
+      "B. Connect to the VPN.",
+      "C. Reset the account in Active Directory.",
+      "D. Join the Wi-Fi network."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "To change adomain passwordfrom a remote location, the system must communicate with thedomain controller. Since the user is working from home, they need toconnect to the corporate VPNto establish that secure connection. Without it, the password change cannot be authenticated. Option A:Restarting will not resolve the lack of connection to the domain controller. Option C:Resetting the password in AD could help, but doesn’t let the user reset it themselves. Option D:The user may already be on Wi-Fi; the issue is with connecting to thecorporate network, not local. CompTIA A+ Core 1 Exam Objective Reference: Objective 1.6: Given a scenario, configure basic mobile device network connectivity and application support. ==========="
+  },
+  {
+    "id": 86,
+    "question": "The display in a conference room has a burn-in get fastestthat does not match the presentation Which of the following would test resolve the issue?",
+    "options": [
+      "A. Adjust the color settings.",
+      "B. Correct the keystone.",
+      "C. Increase the brightness levels",
+      "D. Replace the monitor."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "B . Correct the keystone: A keystone correction adjusts the image shape when a projector is angled either up or down. When a projector is not positioned directly perpendicular to the screen, the image becomes distorted or offset. Correcting the keystone will resolve alignment issues, ensuring that the presentation matches the display. Incorrect Options: A . Adjust the color settings: This is used for improving color balance and has no impact on ghosting or mismatched images. C . Increase the brightness levels: Brightness changes the visibility of the image but does not address ghosting or alignment. D . Replace the monitor: Replacing the monitor is unnecessary unless there is hardware failure, which is not indicated here. Key Takeaway: Keystone correction is essential to resolve alignment and distortion issues in projected images. Reference: CompTIA A+ Core 1 Exam Objectives (220-1201), Domain 3.4 – Display troubleshooting."
+  },
+  {
+    "id": 87,
+    "question": "A security team wants to implement compliance controls that only permits the installation of company-approved software on user laptops. Which of the following should the IT department deploy?",
+    "options": [
+      "A. EDR",
+      "B. VPN",
+      "C. MDM",
+      "D. SaaS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Mobile Device Management (MDM) allows IT departments to enforce compliance controls, such as restricting the installation of unapproved software, on laptops and mobile devices. Why Not A (EDR): Endpoint Detection and Response focuses on detecting and mitigating security threats, not compliance controls. Why Not B (VPN): Virtual Private Networks provide secure connections but do not enforce software installation policies. Why Not D (SaaS): Software as a Service refers to software delivery models and does not enforce compliance controls. CompTIA A+ Exam Reference: Core 2 (220-1102), Section 2.7, device management and security​."
+  },
+  {
+    "id": 88,
+    "question": "A support technician receives a call stating that a user has added a device to the network. The user used the same configurations from another workstation. When both workstations are turned on, neither can access the network reliably. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The new computer has a duplicate IP address.",
+      "B. The DNS server is registering both hostnames.",
+      "C. The network cable was improperly terminated.",
+      "D. The security on the switchport needs to be reset."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "If two devices have thesame static IP address, anIP conflictoccurs. This results in both devices being intermittently disconnected or unable to communicate on the network. It’s a common mistake when copying configurations manually. Option B:DNS conflicts wouldn’t cause total disconnection and wouldn't occur just from copying IP settings. Option C:A cable issue would only affect one workstation. Option D:Switchport security issues wouldn't affect both machines simultaneously unless port security was configured very specifically. CompTIA A+ Core 1 Exam Objective Reference: Objective 2.6: Given a scenario, configure and troubleshoot network connectivity."
+  },
+  {
+    "id": 89,
+    "question": "A user reports slow internet browsing. The technician finds high CPU and memory usage, and pop- ups occur every minute. Which of the following should the technician do next?",
+    "options": [
+      "A. Escalate to the network team to check end-to-end connectivity.",
+      "B. Download and install the latest drivers.",
+      "C. Update the anti-malware signatures and scan the system.",
+      "D. Check the wireless settings and validate the DHCP configuration."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "High resource usage along with frequentpop-upsare strong signs of amalware infection. The next logical step is toupdate anti-malware definitionsandrun a full scanto detect and remove threats. Option A:Network performance is likely not the root cause local system behavior points to malware. Option B:Drivers affect hardware functionality; they don’t resolve malware-related slowness. Option D:DHCP issues usually cause IP conflicts or no network access, not CPU spikes or pop-ups. CompTIA A+ Core 1 Exam Objective Reference: Objective 4.2: Given a scenario, detect, remove, and prevent malware using appropriate tools and methods."
+  },
+  {
+    "id": 90,
+    "question": "Which of the following involves installing an application on a server so several users can run the application concurrently without the need for local installation?",
+    "options": [
+      "A. Client virtualization",
+      "B. Software as a service",
+      "C. Sandboxing",
+      "D. Embedded software"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Client virtualization involves installing an application on a server and enabling multiple users to run the application simultaneously via virtualized sessions. This eliminates the need for individual installations on local machines. Why Not B (Software as a Service): SaaS delivers software over the internet and does not require local installations but is managed by a third party, not the organization itself. Why Not C (Sandboxing): Sandboxing is for isolating applications for security testing, not for concurrent user access. Why Not D (Embedded software): Embedded software is installed on hardware devices, not shared across multiple users. CompTIA A+ Exam Reference: Core 1 (220-1201), Section 4.2, virtualization concepts​."
+  }
+]

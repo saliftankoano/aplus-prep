@@ -1,0 +1,459 @@
+[
+  {
+    "id": 181,
+    "question": "A user can connect their laptop to the internet in the main office. However, when the user places the laptop on top of a motor on the factory floor, there is no internet connectivity. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. Jitter",
+      "B. Insufficient power levels",
+      "C. External interference",
+      "D. High latency"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Large electrical motors can emit electromagnetic interference (EMI), which can disrupt wireless signals and prevent connectivity. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.4 – Wireless troubleshooting: “Sources of external interference such as motors or other electrical equipment can disrupt wireless network connectivity.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Troubleshooting CompTIA Exam Objectives 220-1101, Domain 2.4 ============"
+  },
+  {
+    "id": 182,
+    "question": "Which of the following is a characteristic of an NVMe drive?",
+    "options": [
+      "A. M.2 interface",
+      "B. 3.5in (8.9cm) external",
+      "C. 7,200rpm",
+      "D. Molex connector"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "NVMe (Non-Volatile Memory Express) drives commonly use the M.2 interface and provide the highest performance for SSDs. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.2 – Storage devices: “NVMe drives connect via the M.2 slot and provide the fastest data transfer rates available for storage devices.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Storage Technologies CompTIA Exam Objectives 220-1101, Domain 3.2"
+  },
+  {
+    "id": 183,
+    "question": "Which of the following connector types is associated with coaxial terminations serving cable internet deployments?",
+    "options": [
+      "A. DB9",
+      "B. ST",
+      "C. F-type",
+      "D. RJ45"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "F-type connectors are commonly used to terminate coaxial cables in cable internet, cable TV, and satellite connections. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Network cables and connectors: “F-type connectors are used for coaxial cable terminations in cable modem and TV installations.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Networking Cables and Connectors CompTIA Exam Objectives 220-1101, Domain 3.1 ============"
+  },
+  {
+    "id": 184,
+    "question": "A technician receives several complaints from the same office about VoIP calls sounding broken up, being difficult to hear, and having lagging audio. The technician arrives on-site and runs an internet speed test on several wired and wireless computers. Internet speed seems normal throughout the office. Which of the following should the technician do to fix the call issues?",
+    "options": [
+      "A. Enable QoS in the router",
+      "B. Configure PoE on the switch",
+      "C. Change the encryption from WPA3 to WPA2",
+      "D. Turn on MAC address filtering"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Quality of Service (QoS) prioritizes VoIP traffic on the network, reducing jitter, latency, and packet loss to improve call quality. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.4 – Network troubleshooting: “Enabling QoS in the router ensures time-sensitive traffic, like VoIP, receives network priority, reducing dropped or lagging calls.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Network Troubleshooting CompTIA Exam Objectives 220-1101, Domain 2.4 ============"
+  },
+  {
+    "id": 185,
+    "question": "A technician needs to update a web server's IPv4 address in a DNS server. Which of the following records should the technician update?",
+    "options": [
+      "A. AAAA",
+      "B. MX",
+      "C. CNAME",
+      "D. A"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "An A record maps a domain name to an IPv4 address in a DNS server. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.6 – DNS records: “A records map hostnames to IPv4 addresses, while AAAA records map to IPv6 addresses.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: DNS Records CompTIA Exam Objectives 220-1101, Domain 2.6 ============"
+  },
+  {
+    "id": 186,
+    "question": "A technician needs to prepare a conference room for a meeting. The technician connects the laptop to the LCD projector and audio system, and then verifies the connectivity of each device. The meeting begins, but the visual presentation suddenly cuts off 30 minutes later. The audio continues to play without interruption. The technician brings in a backup laptop and connects it to the projector. The meeting continues without issue for 15 minutes until the presentation suddenly cuts off again. Which of the following should the technician do to resolve this issue?",
+    "options": [
+      "A. Check the laptop's audio output",
+      "B. Verify the input source",
+      "C. Examine the display for burn-in",
+      "D. Inspect the cables for damage",
+      "E. Clean or replace the filter"
+    ],
+    "correctAnswers": [
+      4
+    ],
+    "correctAnswer": 4,
+    "explanation": "Overheating is a common cause of projectors shutting down after extended use. A clogged air filter can cause overheating, resulting in intermittent shutdowns. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshooting displays: “If a projector shuts down after running for a period, clean or replace the filter to prevent overheating and automatic shutdown.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Display Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 187,
+    "question": "A technician installs an upgraded wireless access point. The technician then notices the activity light comes on briefly and turns off. The access point continues to exhibit this behavior repeatedly and does not come online. Which of the following is the most likely cause of this issue?",
+    "options": [
+      "A. High latency",
+      "B. Port flapping",
+      "C. External interference",
+      "D. Channel conflict"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Port flapping refers to a network port continuously going up and down, which can prevent the access point from fully coming online. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.4 – Wired and wireless troubleshooting: “Repeated loss and restoration of network link is called port flapping and may result in network devices, such as access points, not coming online.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Network Troubleshooting CompTIA Exam Objectives 220-1101, Domain 2.4 ============"
+  },
+  {
+    "id": 188,
+    "question": "A technician is setting up a workstation. Which of the following settings should the technician configure to ensure that users can connect to the network? (Select three).",
+    "options": [
+      "A. APIPA",
+      "B. Gateway",
+      "C. IP address",
+      "D. Subnet mask",
+      "E. Static routes",
+      "F. UPnP settings",
+      "G. NAT rules",
+      "H. MAC filters"
+    ],
+    "correctAnswers": [
+      1,
+      2,
+      3
+    ],
+    "correctAnswer": 1,
+    "explanation": "For a device to communicate on a network, it must have a valid IP address, subnet mask, and default gateway configured. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Network configuration: “A valid IP address, subnet mask, and gateway are required for network connectivity and communication outside the local network.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Network Configuration CompTIA Exam Objectives 220-1101, Domain 2.2 ============"
+  },
+  {
+    "id": 189,
+    "question": "A major retailer is moving its online shopping website to the cloud and wants to expand its server resources as needed during busier shopping days. Which of the following should the retailer consider?",
+    "options": [
+      "A. Location",
+      "B. Elasticity",
+      "C. Availability",
+      "D. Multitenancy"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Elasticity in cloud computing refers to the ability to automatically scale resources up or down based on demand, making it ideal for businesses with fluctuating workloads. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Cloud characteristics: “Elasticity allows cloud customers to quickly and automatically scale computing resources in response to changing demand.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Cloud Concepts CompTIA Exam Objectives 220-1101, Domain 3.7"
+  },
+  {
+    "id": 190,
+    "question": "A network printer does not release a user's final print job from the queue, but the user's other print jobs successfully printed a few moments before. Other users can print without issues. Which of the following should the user check first to solve the issue?",
+    "options": [
+      "A. If the print job is configured to a tray or manual feed",
+      "B. If the computer and printer are connected to the same network",
+      "C. If the print queue is full and will not allow additional jobs",
+      "D. If the printer has stopped due to empty trays"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "If only one print job fails and others succeed, it is often due to a paper type or tray selection mismatch for that specific job. If a print job is configured to use a tray that is empty or set to manual feed, it will not be released until resolved. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.3 – Printer troubleshooting: “If a specific print job stalls while others succeed, check the job settings for specific tray or paper type configurations that do not match the printer’s current setup.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: Printer Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.3 ============"
+  },
+  {
+    "id": 191,
+    "question": "A technician is troubleshooting a workstation that repeatedly shuts down within ten minutes of being turned on. The technician notices a loud clicking sound coming from inside the case. Which of the following components should the technician check first?",
+    "options": [
+      "A. Exhaust fan",
+      "B. Capacitors",
+      "C. CPU fan",
+      "D. Intake fan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "A failing CPU fan may make unusual noises (including clicking) and, if it is not cooling the CPU, the system will quickly overheat and shut down to prevent damage. From CompTIA A+ 220-1101 Official Study Guide, Objective 4.1 – Troubleshooting hardware problems: “Overheating due to a failed or obstructed CPU fan can cause frequent shutdowns. Loud noises are a sign the fan should be checked first.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 4: PC Hardware Troubleshooting CompTIA Exam Objectives 220-1101, Domain 4.1 ============"
+  },
+  {
+    "id": 192,
+    "question": "Which of the following allows for a beam of light to transmit data through a flexible cable?",
+    "options": [
+      "A. Coaxial",
+      "B. HDMI",
+      "C. Thunderbolt",
+      "D. Single-mode fiber"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Single-mode fiber (as well as multi-mode fiber) transmits data using beams of light, allowing for high-speed data transfer over flexible fiber-optic cables. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.1 – Networking media: “Fiber optic cables transmit data using light. Single-mode fiber is used for long-distance, high-speed communication.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Networking Media CompTIA Exam Objectives 220-1101, Domain 2.1 ============"
+  },
+  {
+    "id": 193,
+    "question": "An IT specialist is setting up a new, custom computer. The specialist wants to minimize the number of power cables to keep the internal components organized and uncluttered. Which of the following power supply types should the specialist use?",
+    "options": [
+      "A. Modular",
+      "B. Redundant",
+      "C. Linear",
+      "D. External"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A modular power supply allows the user to connect only the cables needed, reducing clutter and improving organization inside the case. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.3 – Power supplies: “Modular power supplies provide detachable cables, allowing users to use only the required connections for a neater build.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Power Supplies CompTIA Exam Objectives 220-1101, Domain 3.3 ============"
+  },
+  {
+    "id": 194,
+    "question": "A company policy change requires all computers to be encrypted. Which of the following technologies should a technician configure to meet this new requirement?",
+    "options": [
+      "A. NVMe",
+      "B. RISC",
+      "C. ARM",
+      "D. TPM"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "A Trusted Platform Module (TPM) is a hardware chip used to enable encryption technologies such as BitLocker, providing secure key storage for system-wide encryption. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.5 – Security features: “A TPM chip is required for system encryption, storing encryption keys securely on the hardware.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Security Hardware CompTIA Exam Objectives 220-1101, Domain 3.5 ============"
+  },
+  {
+    "id": 195,
+    "question": "A company wants to use cloud services with the requirement that data will reside on physical hardware that will not be shared with other companies. Which of the following meets this requirement?",
+    "options": [
+      "A. Dedicated resources",
+      "B. Elasticity",
+      "C. Hybrid cloud",
+      "D. SaaS"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Dedicated resources (sometimes called single-tenant or bare metal) guarantee that physical hardware is allocated exclusively to one customer and not shared. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Cloud deployment models: “Dedicated resources ensure data isolation at the hardware level for compliance and security.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Cloud Deployment CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 196,
+    "question": "A user connects a company-issued laptop to a 4K TV but can only get 1080p resolution on the TV. The technician confirms that the laptop is capable of producing a 4K output. Which of the following is the most likely cause of the issue?",
+    "options": [
+      "A. The TV firmware is out of date",
+      "B. The HDMI cable version is incorrect",
+      "C. The laptop firmware is not current",
+      "D. The CPU cannot keep up with the transcoding"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "An older HDMI cable version may not support 4K resolution. For 4K output, both the device and the cable must support HDMI 2.0 or higher. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.1 – Display troubleshooting: “Ensure the correct version of HDMI cable is used for high-resolution outputs like 4K. Older cables may be limited to 1080p.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Display and Video CompTIA Exam Objectives 220-1101, Domain 3.1 ============"
+  },
+  {
+    "id": 197,
+    "question": "Which of the following is an isolated virtual machine?",
+    "options": [
+      "A. Sandbox",
+      "B. Hypervisor",
+      "C. Container",
+      "D. VDI"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A sandbox is an isolated virtual environment, often used for testing code or software safely without affecting the host system. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.7 – Virtualization: “A sandbox provides an isolated environment, often implemented as a virtual machine, to safely test applications or code.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Virtualization CompTIA Exam Objectives 220-1101, Domain 3.7 ============"
+  },
+  {
+    "id": 198,
+    "question": "A user cannot see the office multifunction printer in their laptop's print options. They have printed to the device in the past successfully. The user's laptop is connected to the guest wireless network. Other users on both wireless and wired computers can see and print to the printer. Which of the following will fix the issue?",
+    "options": [
+      "A. Power cycle the printer to refresh connectivity.",
+      "B. Reset the closest wireless AP.",
+      "C. Download the printer driver from the manufacturer's website.",
+      "D. Connect the laptop to the corporate Wi-Fi."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "If the user is on a guest network and cannot access internal resources like printers, connecting to the corporate Wi-Fi will place the device on the correct subnet to access the printer. From CompTIA A+ 220-1101 Official Study Guide, Objective 2.2 – Network segmentation: “Guest networks are isolated from internal resources for security. Connect to the main corporate Wi- Fi to access shared devices.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 2: Wireless Networking CompTIA Exam Objectives 220-1101, Domain 2.2 ============"
+  },
+  {
+    "id": 199,
+    "question": "A technician receives a notification after a network outage that indicates the printer is not reachable. Which of the following printer settings should the technician implement to prevent this issue in the future?",
+    "options": [
+      "A. Gateway",
+      "B. Static IP",
+      "C. APIPA",
+      "D. DHCP"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Assigning a static IP to network printers ensures the printer's address does not change after outages or DHCP lease expirations, preventing connectivity issues. From CompTIA A+ 220-1101 Official Study Guide, Objective 3.4 – Printer network configuration: “Printers should use static IPs to ensure they remain reachable and do not change addresses after network events.” Verified Source: CompTIA A+ Core 1 (220-1101) Official Study Guide, Chapter 3: Printer Networking CompTIA Exam Objectives 220-1101, Domain 3.4"
+  },
+  {
+    "id": 200,
+    "question": "Which of the following cloud models allows customers to connect to company resources from their laptops with the least amount of infrastructure?",
+    "options": [
+      "A. PaaS",
+      "B. IaaS",
+      "C. SaaS",
+      "D. FaaS"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: SaaS (Software as a Service) is a cloud model that allows users to access applications over the Internet without managing the infrastructure or platform. Users can log in via a browser or app on any device, such as a laptop, with minimal configuration required. Reference: CompTIA A+ Core 1 220-1201 Official Study Guide, Section: Virtualization and Cloud Computing ConceptsSaaS provides \"ready-to-use\" applications and is ideal for organizations looking to minimize local infrastructure needs."
+  },
+  {
+    "id": 201,
+    "question": "Employees are concerned about sensitive data being printed on a shared multifunction printer located in a high-traffic hallway. Which of the following should a technician do to address this concern?",
+    "options": [
+      "A. Set up a PIN for user authentication at the printer",
+      "B. Relocate the printer to an unused office space",
+      "C. Configure printing of sensitive data through a specific tray",
+      "D. Schedule print jobs to be released at certain times"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: PIN printing (also known as secure printing) ensures that documents are held in a queue until the authorized user enters a PIN directly at the printer. This prevents unauthorized viewing of confidential documents. Reference: CompTIA A+ Core 1 220-1201 Official Study Guide, Section: Printer SecuritySecure printing with PIN authentication ensures only the document owner can release sensitive print jobs."
+  },
+  {
+    "id": 202,
+    "question": "An office manager wants to block all outbound internet traffic but continue to enable all inbound traffic. Which of the following should a technician configure to achieve this goal?",
+    "options": [
+      "A. MAC filtering",
+      "B. Network interface card",
+      "C. Firewall",
+      "D. Switch"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "correctAnswer": 2,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: A firewall allows for detailed traffic control, including blocking outbound connections while allowing inbound ones. This is contrary to typical security setups, but it can be configured via advanced firewall rules. Reference: CompTIA A+ Core 1 220-1201 Official Study Guide, Section: Firewall ConfigurationFirewalls can allow inbound traffic and deny outbound connections based on configured rules."
+  },
+  {
+    "id": 203,
+    "question": "A thief stole a company phone and successfully extracted confidential company information from the device. Which of the following should have been used to prevent the extraction?",
+    "options": [
+      "A. GPS",
+      "B. EPS",
+      "C. eSIM",
+      "D. MDM"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: MDM (Mobile Device Management) enforces security policies, such as encryption, remote wipe, and access control. It could have remotely wiped the device or locked it down to prevent data theft. Reference: CompTIA A+ Core 1 220-1201 Official Study Guide, Section: Mobile Device SecurityMDM tools provide remote wipe and security policy enforcement, essential for protecting mobile data."
+  },
+  {
+    "id": 204,
+    "question": "Which of the following RAID configurations can lose two drives without data loss?",
+    "options": [
+      "A. RAID 0",
+      "B. RAID 1",
+      "C. RAID 5",
+      "D. RAID 6"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Comprehensive and Detailed Explanation From Exact Extract: RAID 6 uses two parity blocks, allowing it to tolerate the failure of two drives without losing data. Reference: CompTIA A+ Core 1 220-1201 Official Study Guide, Section: RAID TypesRAID 6 supports dual-drive failure tolerance with dual parity, making it more fault-tolerant than RAID 5."
+  },
+  {
+    "id": 205,
+    "question": "An IT support specialist needs to configure several laptops to access local resources wherever the employees are while in the office. Which of the following would best meet this requirement?",
+    "options": [
+      "A. Configure cellular location services to facilitate device identification",
+      "B. Set up a Wi-Fi connection with a common SSID",
+      "C. Enable Bluetooth connectivity in all laptops",
+      "D. Create roaming profiles for each laptop"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Explanation (From CompTIA A+ 220-1201 Concepts): A consistent Wi-Fi SSID across all APs allows users to roam throughout the office while maintaining access to local resources without reconnecting manually. CompTIA Core 1 Study Guide Concept Reference: Wireless networking configuration SSID broadcast and roaming WLAN infrastructure The study guide explains that a common SSID enables seamless roaming and uninterrupted access to network resources."
+  },
+  {
+    "id": 206,
+    "question": "A technician replaces a laptop's failed motherboard. During validation testing, the wireless is slow and shows a weak signal. Which of the following should the technician do first to verify the source of the issue?",
+    "options": [
+      "A. Contact the manufacturer",
+      "B. Reseat antenna connections",
+      "C. Restart the access point",
+      "D. Install a new wireless adapter"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "correctAnswer": 1,
+    "explanation": "Comprehensive and Detailed Laptop Wi-Fi antennas run through the display bezel and connect via small coaxial clips. After motherboard replacement, these are often not fully seated, causing weak or unstable Wi-Fi. CompTIA Concepts: Laptop hardware troubleshooting Antenna connector checks after repair WLAN performance issues caused by antenna misalignment"
+  },
+  {
+    "id": 207,
+    "question": "Which of the following will a company most likely use to control which websites a user can access?",
+    "options": [
+      "A. Proxy server",
+      "B. Spam gateway",
+      "C. DHCP server",
+      "D. RADIUS server"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "A proxy server acts as an intermediary between client devices and the internet. One of its primary functions is URL filtering, web-content restriction, and logging user activity. When a user attempts to connect to a website, the request first goes to the proxy, where filtering rules determine whether the site is allowed or blocked. CompTIA A+ 220-1201 emphasizes that proxies help organizations control outbound traffic, enforce browsing policies, block malicious or inappropriate content, and improve security through caching. Spam gateways only filter email, DHCP assigns IP addresses, and RADIUS handles authentication, none of which enforce website restriction. Therefore, the correct solution for content control is a proxy server, as stated in the Networking domain of the A+ curriculum."
+  },
+  {
+    "id": 208,
+    "question": "Which of the following technologies is most used in portable devices?",
+    "options": [
+      "A. ECC",
+      "B. RAID",
+      "C. SATA",
+      "D. SODIMM"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "Portable devices such as laptops, small-form-factor computers, and mini-PCs use SODIMM (Small Outline DIMM) memory modules. CompTIA A+ explains that SODIMMs are physically smaller and consume less power than standard DIMMs, making them ideal for mobile systems where space and energy efficiency are critical. Unlike ECC memory, which is primarily used in servers, or RAID which is a storage redundancy methodology rather than a memory type SODIMM is specifically designed for compact computing devices. SATA is a storage interface, not a memory form factor. The A+ study guide clearly lists SODIMM as the standard laptop memory type because of its compact footprint and compatibility with mobile motherboard layouts. This makes SODIMM the most widely implemented memory technology in portable devices."
+  },
+  {
+    "id": 209,
+    "question": "Which of the following is commonly affected by high latency?",
+    "options": [
+      "A. Satellite",
+      "B. Fiber",
+      "C. Cable",
+      "D. DSL"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "correctAnswer": 0,
+    "explanation": "CompTIA A+ emphasizes that satellite internet connections inherently suffer from extremely high latency because the data must travel from the user's antenna to satellites orbiting tens of thousands of miles above Earth and back. Although satellite systems offer broad geographic coverage, this long travel distance introduces noticeable delays often 500ms or more. Fiber, cable, and DSL operate through terrestrial wiring and have far lower latency due to short signal paths. Fiber, in particular, is the fastest and lowest-latency connection type. Satellite delay significantly impacts VoIP calls, video conferencing, online gaming, and real-time applications. The A+ exam specifically notes latency as a major performance characteristic of satellite service, distinguishing it from other broadband technologies."
+  },
+  {
+    "id": 210,
+    "question": "Which of the following connectors supports High-bandwidth Digital Content Protection (HDCP)?",
+    "options": [
+      "A. DVI-A",
+      "B. F-type",
+      "C. VGA",
+      "D. DisplayPort"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "correctAnswer": 3,
+    "explanation": "DisplayPort is a fully digital video interface that supports HDCP (High-bandwidth Digital Content Protection), a digital rights-management protocol used to protect copyrighted content such as movies, streaming video, and Blu-ray playback. The CompTIA A+ study guide notes that DisplayPort and HDMI support HDCP, while analog connections like VGA and DVI-A do not support HDCP because analog signals cannot enforce digital content protection. F-type connectors are used for coaxial cabling (cable TV, satellite), not digital video output. DisplayPort's support for encrypted high-definition video streams makes it the correct answer and aligns with CompTIA’s coverage of display connectors and digital content protection technologies."
+  }
+]
